@@ -1,0 +1,45 @@
+﻿{
+  "cli": {
+    "version": ">= 16.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium",
+        "image": "sdk-57"
+      },
+      "env": {
+        "SENTRY_DISABLE_AUTO_UPLOAD": "true"
+      }
+    },
+    "preview": {
+      "distribution": "store",
+      "ios": {
+        "resourceClass": "large",
+        "credentialsSource": "remote",
+        "image": "sdk-57"
+      },
+      "android": {
+        "resourceClass": "large"
+      },
+      "env": {
+        "SENTRY_DISABLE_AUTO_UPLOAD": "true"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "ios": {
+        "resourceClass": "large",
+        "credentialsSource": "remote",
+        "image": "sdk-57"
+      },
+      "android": {
+        "resourceClass": "large"
+      }
+    }
+  },
+  "submit": {}
+}

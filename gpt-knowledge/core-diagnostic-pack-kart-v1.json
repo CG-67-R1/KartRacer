@@ -1,0 +1,77 @@
+{
+  "_status": "SKELETON v0.1 - structure only, no diagnostic content. Do not upload until populated.",
+  "version": "kart-v1.0-draft",
+  "domain": "sprint_karting",
+  "problem_types": {
+    "entry_understeer_push": {
+      "symptoms": [],
+      "primary_fixes_ordered": [],
+      "notes": "front width / caster / toe first"
+    },
+    "entry_oversteer": {
+      "symptoms": [],
+      "primary_fixes_ordered": []
+    },
+    "mid_corner_bind": {
+      "symptoms": [],
+      "primary_fixes_ordered": [],
+      "notes": "too much grip; free rear"
+    },
+    "hopping": {
+      "symptoms": [],
+      "primary_fixes_ordered": [],
+      "notes": "ballast height / seat / axle / rear ride height"
+    },
+    "exit_oversteer_slide": {
+      "symptoms": [],
+      "primary_fixes_ordered": []
+    },
+    "exit_bog_down": {
+      "symptoms": [],
+      "primary_fixes_ordered": [],
+      "notes": "inside rear not lifting / gearing"
+    },
+    "inside_rear_no_lift": {
+      "symptoms": [],
+      "primary_fixes_ordered": []
+    },
+    "tyre_chatter": {
+      "symptoms": [],
+      "primary_fixes_ordered": []
+    },
+    "darting_instability": {
+      "symptoms": [],
+      "primary_fixes_ordered": []
+    }
+  },
+  "fix_axes": [
+    "tyre_pressure",
+    "front_width",
+    "rear_track",
+    "toe",
+    "caster",
+    "camber",
+    "ackermann",
+    "front_ride_height",
+    "rear_ride_height",
+    "axle_stiffness",
+    "hub_length",
+    "torsion_bars",
+    "seat_position",
+    "seat_struts",
+    "sprocket"
+  ],
+  "class_modifiers": {
+    "cadet": {},
+    "junior": {},
+    "senior_tag": {},
+    "kz2_gearbox": {},
+    "four_stroke": {}
+  },
+  "escalation_order_rule": "cheapest/most-reversible first: pressures -> widths -> caster/camber -> axle/hubs -> seat",
+  "safety_rules": [
+    "no numeric setting unless cited from KB",
+    "junior classes: conservative bias",
+    "never promise lap time"
+  ]
+}

@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Expo
+app/.expo/
+app/dist/
+app/web-build/
+android-app/.expo/
+android-app/dist/
+
+# Env
+.env
+.env.local
+*.local
+apple-credentials.env
+
+# Apple / signing secrets (never commit)
+AuthKey_*.p8
+*.p8
+*.p12
+*.mobileprovision
+docs/ios/apple-setup-status.json
+
+# Vercel local link (project id is in ENVIRONMENT.md)
+app/.vercel/
+
+# IDE / editor
+.vscode/
+.cursor/*
+!.cursor/mcp.json
+!.cursor/rules/
+!.cursor/rules/**
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / scratch
+*.log
+npm-debug.log*
+tmp/
+__pycache__/
+
+# Marketing build tooling (installed locally; see marketing/promo/.gitignore)
+marketing/promo/tools/
+
+# Internal DigiMark client pack — never ship in app / EAS / Vercel
+DigiMark_Response/

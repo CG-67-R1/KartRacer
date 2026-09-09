@@ -1,0 +1,32 @@
+---
+description: Avatar face-hole photo capture/display invariants — read before changing avatar art or face camera/crop
+globs: app/src/avatar/**/*,app/src/components/AvatarFace*.tsx,app/src/storage/avatarFacePhoto.ts,app/avatar/**/*,app/src/screens/OnboardingScreen.tsx,app/src/screens/HeadlinesSettingsScreen.tsx,app/src/screens/HeadlinesScreen.tsx
+alwaysApply: false
+---
+
+# Avatar face photo (capture ↔ home)
+
+Full write-up: `app/src/avatar/FACE_PHOTO.md`
+
+## Invariant
+
+**What is visible through the face hole after Align must fill the hole on the home avatar** (framing must not change between Align and display).
+
+## Do
+
+- Keep the CameraView **hole-centered** for aiming (`hole / CAPTURE_PREVIEW_SCALE`).
+- After camera capture, open **Align** with the **full-frame** JPEG. Keep CameraView `mirror={false}`. Library picks use the same Align path.
+- Align must offer a **Flip** control that bakes a horizontal flip into the working photo (preview + crop stay WYSIWYG).
+- Keep face-hole layout in **artwork space** (1024×1536); map with `contain` via `computeFaceHole`. Re-measure with `python3 scripts/measure-face-holes.py` after art changes.
+- Align bakes a hole-aspect crop; `AvatarFaceEllipse` displays with the same geometry.
+
+## Do not
+
+- Auto-crop the camera JPEG to the hole and skip Align — preview ≠ saved frame on phones / mobile Safari.
+- Assume the JPEG equals the CameraView contents (false on web).
+- Apply hole `%` as if the badge were filled without `contain` letterboxing.
+- Change leathers PNG hole without re-measuring `DEFAULT_FACE_HOLE_LAYOUT`.
+
+## Manual check after changes
+
+Take photo on a **phone** → Align until hole looks right → home avatar matches Align (not a zoomed corner / offset crop). Spot-check desktop too.

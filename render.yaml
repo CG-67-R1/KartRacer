@@ -1,0 +1,14 @@
+# KartRacer API — create a NEW Render service. Do not reuse send-it-ke7r.
+services:
+  - type: web
+    name: kartracer-api
+    runtime: node
+    rootDir: api
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    buildFilter:
+      paths:
+        - api/**
+      ignoredPaths:
+        - api/data/au-kart-events.json

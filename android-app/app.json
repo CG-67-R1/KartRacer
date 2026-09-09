@@ -1,0 +1,104 @@
+{
+  "expo": {
+    "name": "KartRacer - Motorsport_Is_Life",
+    "slug": "kartracer",
+    "owner": "motorsport-is-life",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      },
+      "package": "com.milkartracer.app",
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS"
+      ],
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-notifications",
+      [
+        "expo-calendar",
+        {
+          "calendarPermission": "KartRacer uses your calendar to add race events and reminders."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "KartRacer uses your photos to set your kart photo and driver avatar, add images to Track Walk notes, and attach photos in Coach."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "KartRacer uses your camera to place your face in the driver avatar.",
+          "microphonePermission": false,
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "KartRacer uses the microphone to transcribe voice notes in Track Walk.",
+          "speechRecognitionPermission": "KartRacer uses speech recognition to transcribe voice notes in Track Walk."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "KartRacer uses your location at the circuit to greet you when you arrive and suggest chatting with your coach.",
+          "isAndroidBackgroundLocationEnabled": false,
+          "isAndroidForegroundServiceEnabled": false
+        }
+      ],
+      "expo-asset",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 36,
+            "targetSdkVersion": 36,
+            "minSdkVersion": 24,
+            "enableProguardInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true,
+            "extraProguardRules": "-keep class com.swmansion.reanimated.** { *; }\n-keep class com.swmansion.worklets.** { *; }\n-keep class com.facebook.react.turbomodule.** { *; }\n-keep class io.sentry.** { *; }\n"
+          }
+        }
+      ],
+      "expo-status-bar",
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "PORTRAIT_UP"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0f172a",
+          "image": "./assets/icon.png",
+          "resizeMode": "contain"
+        }
+      ]
+    ],
+    "extra": {
+      "privacyPolicyUrl": "",
+      "termsOfUseUrl": "",
+      "eas": {
+        
+      }
+    }
+  }
+}

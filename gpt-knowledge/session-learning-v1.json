@@ -1,0 +1,16 @@
+{
+  "_status": "SKELETON v0.1 - port logic from RR session-learning-v1.json",
+  "actions": [
+    "hold",
+    "escalate",
+    "revert"
+  ],
+  "escalation_order": [
+    "tyre_pressure",
+    "front_width_rear_track",
+    "caster_camber",
+    "axle_hubs",
+    "seat_position"
+  ],
+  "revert_rule": "one change at a time; revert if lap pace or driver confidence drops"
+}

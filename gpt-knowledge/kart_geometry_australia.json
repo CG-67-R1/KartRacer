@@ -1,0 +1,26 @@
+{
+  "_status": "SKELETON v0.1 - derive per-layout entries from C:/KartRacer/data/gpx; 129 layouts available",
+  "_p0": "Turn direction NEVER from GPX alone; verify against club map or onboard video",
+  "schema_per_track": {
+    "id": "",
+    "name": "",
+    "club": "",
+    "state": "",
+    "direction": null,
+    "length_m": 0,
+    "turns": [
+      {
+        "n": 1,
+        "hand": null,
+        "name": null,
+        "verify": true
+      }
+    ],
+    "start_finish": {
+      "lat": 0,
+      "lon": 0
+    },
+    "source": []
+  },
+  "tracks": {}
+}

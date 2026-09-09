@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "timezone": "Europe/Madrid",
+    "event_scope": {
+      "discipline": "road_race"
+    }
+  },
+  "sources": [],
+  "_placeholder": true,
+  "_explainer": "Motorcycle pack content stripped. Refill from C:/KartRacer/docs/KR_DATA_EQUIVALENTS.md and CURSOR_BUILD_JOBS.md J4.1."
+}

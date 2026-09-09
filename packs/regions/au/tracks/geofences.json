@@ -1,0 +1,14 @@
+{
+  "type": "FeatureCollection",
+  "name": "RoadRacer_Catalog_Track_Geofences",
+  "metadata": {
+    "version": 2,
+    "feature_count": 18,
+    "detection": "haversine_point_radius",
+    "source": "australian_motorsport_tracks_1km_geofences.geojson",
+    "note": "v2: the_bend split into the_bend_international + the_bend_gt; sydney_motorsport_park split into smp_gardner + smp_brabham + smp_druitt; sandown, winton, calder_park, hidden_valley, baskerville added; mount_panorama removed from catalog"
+  },
+  "features": [],
+  "_placeholder": true,
+  "_explainer": "Motorcycle pack content stripped. Refill from C:/KartRacer/docs/KR_DATA_EQUIVALENTS.md and CURSOR_BUILD_JOBS.md J4.1."
+}

@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "name": "KartRacer_Catalog_Track_Geofences",
+  "metadata": {
+    "version": 1,
+    "feature_count": 0,
+    "note": "Empty until J1.4. Source GPX in C:/KartRacer/data/gpx"
+  },
+  "features": []
+}

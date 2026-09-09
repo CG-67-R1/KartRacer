@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="tkk2gpx (Aus_Kart.ztracks converter)"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>MtGambierK S</name>
+    <desc>Kart track, SA AU. One lap starting and ending at the Start/Finish line. Declared length 359 m.</desc>
+  </metadata>
+  <wpt lat="-37.8563020" lon="140.8641745">
+    <name>Start/Finish</name>
+    <desc>Start/Finish line location</desc>
+    <sym>Flag, Checkered</sym>
+  </wpt>
+  <trk>
+    <name>MtGambierK S - 1 lap</name>
+    <trkseg>
+      <trkpt lat="-37.8563100" lon="140.8644388"></trkpt>
+      <trkpt lat="-37.8562027" lon="140.8645004"></trkpt>
+      <trkpt lat="-37.8558684" lon="140.8647244"></trkpt>
+      <trkpt lat="-37.8558435" lon="140.8647350"></trkpt>
+      <trkpt lat="-37.8558229" lon="140.8647388"></trkpt>
+      <trkpt lat="-37.8558058" lon="140.8647391"></trkpt>
+      <trkpt lat="-37.8557882" lon="140.8647369"></trkpt>
+      <trkpt lat="-37.8557717" lon="140.8647313"></trkpt>
+      <trkpt lat="-37.8557567" lon="140.8647219"></trkpt>
+      <trkpt lat="-37.8557427" lon="140.8647092"></trkpt>
+      <trkpt lat="-37.8557301" lon="140.8646943"></trkpt>
+      <trkpt lat="-37.8557183" lon="140.8646758"></trkpt>
+      <trkpt lat="-37.8557080" lon="140.8646548"></trkpt>
+      <trkpt lat="-37.8557000" lon="140.8646331"></trkpt>
+      <trkpt lat="-37.8556932" lon="140.8646022"></trkpt>
+      <trkpt lat="-37.8556896" lon="140.8645701"></trkpt>
+      <trkpt lat="-37.8556869" lon="140.8645003"></trkpt>
+      <trkpt lat="-37.8556888" lon="140.8644246"></trkpt>
+      <trkpt lat="-37.8556988" lon="140.8643459"></trkpt>
+      <trkpt lat="-37.8557149" lon="140.8642708"></trkpt>
+      <trkpt lat="-37.8557277" lon="140.8642398"></trkpt>
+      <trkpt lat="-37.8557430" lon="140.8642140"></trkpt>
+      <trkpt lat="-37.8557630" lon="140.8641870"></trkpt>
+      <trkpt lat="-37.8557859" lon="140.8641620"></trkpt>
+      <trkpt lat="-37.8558424" lon="140.8641154"></trkpt>
+      <trkpt lat="-37.8562839" lon="140.8638630"></trkpt>
+      <trkpt lat="-37.8563430" lon="140.8638288"></trkpt>
+      <trkpt lat="-37.8566706" lon="140.8636395"></trkpt>
+      <trkpt lat="-37.8567027" lon="140.8636241"></trkpt>
+      <trkpt lat="-37.8567354" lon="140.8636127"></trkpt>
+      <trkpt lat="-37.8567606" lon="140.8636098"></trkpt>
+      <trkpt lat="-37.8567853" lon="140.8636111"></trkpt>
+      <trkpt lat="-37.8568131" lon="140.8636147"></trkpt>
+      <trkpt lat="-37.8568401" lon="140.8636237"></trkpt>
+      <trkpt lat="-37.8568574" lon="140.8636347"></trkpt>
+      <trkpt lat="-37.8568738" lon="140.8636490"></trkpt>
+      <trkpt lat="-37.8568880" lon="140.8636653"></trkpt>
+      <trkpt lat="-37.8568992" lon="140.8636826"></trkpt>
+      <trkpt lat="-37.8569085" lon="140.8637018"></trkpt>
+      <trkpt lat="-37.8569146" lon="140.8637215"></trkpt>
+      <trkpt lat="-37.8569172" lon="140.8637400"></trkpt>
+      <trkpt lat="-37.8569172" lon="140.8637589"></trkpt>
+      <trkpt lat="-37.8569146" lon="140.8637777"></trkpt>
+      <trkpt lat="-37.8569082" lon="140.8637985"></trkpt>
+      <trkpt lat="-37.8568986" lon="140.8638190"></trkpt>
+      <trkpt lat="-37.8568880" lon="140.8638384"></trkpt>
+      <trkpt lat="-37.8568525" lon="140.8638878"></trkpt>
+      <trkpt lat="-37.8567105" lon="140.8640699"></trkpt>
+      <trkpt lat="-37.8566004" lon="140.8642250"></trkpt>
+      <trkpt lat="-37.8565758" lon="140.8642543"></trkpt>
+      <trkpt lat="-37.8565472" lon="140.8642812"></trkpt>
+      <trkpt lat="-37.8563100" lon="140.8644388"></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

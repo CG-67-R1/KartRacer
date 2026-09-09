@@ -1,0 +1,20 @@
+# Keep EAS uploads small. Leading `/` = repo root only (do not exclude app/src/packs).
+# Root .easignore replaces .gitignore for the upload, so Gradle caches must be listed here.
+/marketing/
+/docs/
+/ST/
+/Q&A/
+/packs/
+/api/data/
+/scripts/
+/android-app/
+**/*.mp4
+**/*.pdf
+**/node_modules/
+**/.gradle/
+/app/dist/
+/app/.expo/
+/app/.vercel/
+**/.git/
+**/agent-transcripts/
+**/terminals/

@@ -1,0 +1,24 @@
+{
+  "_status": "SKELETON v0.1",
+  "levels": {
+    "cadet": {
+      "tone": "",
+      "detail": "",
+      "restrict": [
+        "no aggressive setup swings"
+      ]
+    },
+    "junior": {
+      "tone": "",
+      "detail": ""
+    },
+    "senior_novice": {
+      "tone": "",
+      "detail": ""
+    },
+    "experienced": {
+      "tone": "",
+      "detail": ""
+    }
+  }
+}

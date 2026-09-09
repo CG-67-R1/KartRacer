@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "policy": "left|right only with handSources evidence. Never set turn hand from GPX. See CURSOR_BUILD_JOBS.md J1.5.",
+  "updated": "2026-09-09",
+  "allowedSourceMethods": [
+    "official_map",
+    "authoritative_preview"
+  ],
+  "bannedSourceMethods": [
+    "gpx_bearing",
+    "ccw_inference",
+    "clockwise_inference"
+  ],
+  "forceAllComplex": [],
+  "trackDirection": {},
+  "lengthKm": {},
+  "verifiedHands": {}
+}
