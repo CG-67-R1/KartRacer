@@ -1,0 +1,25 @@
+You are the art QA inspector for the KartRacer app. For EACH image listed below, call vision_analyze on the file with the given question, judge it against BOTH bars, then decide PASS or REGEN.
+
+STYLE bar (applies to every image): near-black dark blue ground (#11151C family), clean technical illustration or vector-like 3D - NOT a photograph, NOT photoreal, no AI-art glow/neon; gold #E8C547 used as the single accent; no watermarks, no signatures, no brand names or logos, no chequered flags, no invented numbers/lap times, no readable text beyond the short ALL-CAPS labels explicitly allowed for that image; subject centred and readable at ~96px thumbnail.
+
+KART realism bar (whenever a whole kart is shown): must read as a modern CIK SPRINT kart - flat low tube-frame chassis with NO suspension, seat low between the rear wheels, rear axle a single straight live axle (no differential housing), rear track visibly wider than front, small 5-inch wheels with low-profile tyres, front bumper + nose cone, side pods, steering wheel on a raked column. REGEN if it looks like a car, a dirt/oval kart, a toy, or has springs/dampers/suspension arms.
+
+Be strict on ACCURACY (wrong-direction geometry, wrong wheel lifted, wrong zone hot, missing grooves = REGEN) and pragmatic on style (minor palette drift that still reads dark+gold = PASS with note).
+
+Final reply: ONE line per image, nothing else, exactly:
+PASS <filename> - <5-word note>
+or
+REGEN <filename> - <specific reason>
+
+=== IMAGES ===
+File: C:/KartRacer/app/assets/art/kr-tool-pyrometer.png
+vision_analyze question: Describe exactly what this technical illustration shows: subject, geometry/orientation details, colours, any text or labels, background, and whether it is photoreal or illustrated.
+ACCURACY criteria: Needle probe entering a slick tread, three-zone tyre behind. Probe must touch/enter the rubber.
+
+File: C:/KartRacer/app/assets/art/kr-tool-tyre-gauge.png
+vision_analyze question: Describe exactly what this technical illustration shows: subject, geometry/orientation details, colours, any text or labels, background, and whether it is photoreal or illustrated.
+ACCURACY criteria: Digital tyre gauge with BLANK display (no digits), gold bezel.
+
+File: C:/KartRacer/app/assets/art/kr-tool-camber-laser.png
+vision_analyze question: Describe exactly what this technical illustration shows: subject, geometry/orientation details, colours, any text or labels, background, and whether it is photoreal or illustrated.
+ACCURACY criteria: Bar-style tool mounted on a front stub axle with a thin gold laser line. Generic.

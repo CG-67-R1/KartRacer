@@ -31,7 +31,6 @@ export type RootTabParamList = {
         screen:
           | 'CoachChat'
           | 'BikeSetupHub'
-          | 'BikeSetupSheet'
           | 'BikeBalanceSetup'
           | 'BikeSetupBasics'
           | 'GearingGuide';

@@ -1,5 +1,7 @@
 import React from 'react';
 import { Modal, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { hotspotArtExtra, HOTSPOT_ART } from '../assets/art';
+import { ArtThumb } from './ArtThumb';
 import type { BikeSetupHotspot } from '../data/bikeSetupBasics';
 
 type Props = {
@@ -38,6 +40,14 @@ export function BikeSetupHotspotSheet({ hotspot, onClose, onAskAi, simpleTips = 
                 contentContainerStyle={styles.scrollContent}
                 showsVerticalScrollIndicator={false}
               >
+                {HOTSPOT_ART[hotspot.id] ? (
+                  <View style={styles.artRow}>
+                    <ArtThumb source={HOTSPOT_ART[hotspot.id]!} size={96} />
+                    {hotspotArtExtra(hotspot.id) ? (
+                      <ArtThumb source={hotspotArtExtra(hotspot.id)!} size={96} />
+                    ) : null}
+                  </View>
+                ) : null}
                 <Text style={styles.body}>{hotspot.summary}</Text>
 
                 <Text style={styles.sectionLabel}>
@@ -131,6 +141,11 @@ const styles = StyleSheet.create({
   },
   scrollContent: {
     paddingBottom: 12,
+  },
+  artRow: {
+    flexDirection: 'row',
+    gap: 10,
+    marginBottom: 12,
   },
   sectionLabel: {
     marginTop: 14,

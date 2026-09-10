@@ -10,6 +10,8 @@ import {
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { ART } from '../assets/art';
+import { ArtThumb } from '../components/ArtThumb';
 import { PrivateSetupBanner } from '../components/PrivateSetupBanner';
 import { KeyboardAvoidingOverlay } from '../components/KeyboardSafeView';
 import { TrackPicker } from '../components/TrackPicker';
@@ -27,7 +29,6 @@ import {
   getBikePowerbandById,
   matchBikePowerbandRef,
   nearbyPairs,
-  parseSprocketPair,
   parseTeethInRange,
   sprocketTeethError,
   resolveBikeProvenance,
@@ -45,8 +46,6 @@ import {
   type GearingBikeField,
   type GearingGuideState,
 } from '../storage/gearingGuide';
-import { getBikeSetupDaySheet, parseFavouriteBike } from '../storage/bikeSetupSheet';
-import { loadBikeBalanceState } from '../storage/bikeBalance';
 import { getOnboardingAnswers } from '../storage/onboarding';
 import { getTrackPrepSelectedTrack } from '../storage/trackdayPrep';
 import type { RiderCoachStackParamList } from './RiderCoachScreen';
@@ -169,9 +168,7 @@ export function GearingGuideScreen() {
     let cancelled = false;
     (async () => {
       const saved = await loadGearingGuideState();
-      const [sheet, balance, onboarding, trackSel] = await Promise.all([
-        getBikeSetupDaySheet(),
-        loadBikeBalanceState(),
+      const [onboarding, trackSel] = await Promise.all([
         getOnboardingAnswers(),
         getTrackPrepSelectedTrack(),
       ]);
@@ -179,33 +176,19 @@ export function GearingGuideScreen() {
 
       let next = saved;
       if (!next.catalogId && !next.manufacturer.trim() && !next.family.trim()) {
-        const identity = sheetHasText(sheet.bikeMake, sheet.bikeModel)
-          ? `${sheet.bikeYear} ${sheet.bikeMake} ${sheet.bikeModel}`.trim()
-          : onboarding?.favouriteBike ?? '';
+        const identity = onboarding?.favouriteBike ?? '';
         const matched = identity ? matchBikePowerbandRef(identity) : null;
         if (matched) {
           next = applyCatalog(next, matched);
         } else if (identity) {
-          const parsed = parseFavouriteBike(identity);
+          const parsed = parseFavouriteMachine(identity);
           next = {
             ...next,
-            manufacturer: parsed.bikeMake,
-            family: parsed.bikeModel,
-            yearFrom: parsed.bikeYear,
-            yearTo: parsed.bikeYear,
+            manufacturer: parsed.make,
+            family: parsed.model,
+            yearFrom: parsed.year,
+            yearTo: parsed.year,
           };
-        }
-      }
-
-      if (!next.frontTeeth && !next.rearTeeth) {
-        const fromBalance =
-          balance.inputs.frontSprocketTeeth != null && balance.inputs.rearSprocketTeeth != null
-            ? { front: balance.inputs.frontSprocketTeeth, rear: balance.inputs.rearSprocketTeeth }
-            : null;
-        const fromSheet = parseSprocketPair(sheet.gearing);
-        const pair = fromBalance ?? fromSheet;
-        if (pair) {
-          next = { ...next, frontTeeth: String(pair.front), rearTeeth: String(pair.rear) };
         }
       }
 
@@ -336,6 +319,7 @@ export function GearingGuideScreen() {
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled">
         <PrivateSetupBanner detail="Gearing inputs stay on this device until you send a brief to Kart Setup Coach." />
+        <ArtThumb source={ART.toolGearing} size={120} style={styles.heroArt} />
         <Text style={styles.intro}>
           Enter the engine, current sprockets, and the problem you want to fix. Nearby ratios are a
           helper — Kart Setup Coach writes the recommendation.
@@ -628,13 +612,22 @@ export function GearingGuideScreen() {
   );
 }
 
-function sheetHasText(...parts: string[]): boolean {
-  return parts.some((part) => part.trim().length > 0);
+function parseFavouriteMachine(name: string): { year: string; make: string; model: string } {
+  const trimmed = name.trim();
+  if (!trimmed) return { year: '', make: '', model: '' };
+  const yearMatch = trimmed.match(/^(\d{4})\s+(.+)$/);
+  const rest = yearMatch ? yearMatch[2].trim() : trimmed;
+  const year = yearMatch ? yearMatch[1] : '';
+  const parts = rest.split(/\s+/).filter(Boolean);
+  if (parts.length === 0) return { year, make: '', model: '' };
+  if (parts.length === 1) return { year, make: parts[0], model: '' };
+  return { year, make: parts[0], model: parts.slice(1).join(' ') };
 }
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#0f172a' },
   content: { paddingHorizontal: 20, paddingTop: 12, paddingBottom: 48 },
+  heroArt: { alignSelf: 'center', marginBottom: 14 },
   intro: { fontSize: 14, color: '#cbd5e1', lineHeight: 20, marginBottom: 16 },
   section: {
     fontSize: 13,

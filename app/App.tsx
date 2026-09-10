@@ -16,7 +16,6 @@ import { RiderCoachScreen } from './src/screens/RiderCoachScreen';
 import { CoachChatScreen } from './src/screens/CoachChatScreen';
 import { ImportTrackNotesScreen } from './src/screens/ImportTrackNotesScreen';
 import { BikeSetupBasicsScreen } from './src/screens/BikeSetupBasicsScreen';
-import { BikeSetupSheetScreen } from './src/screens/BikeSetupSheetScreen';
 import { BikeSetupHubScreen } from './src/screens/BikeSetupHubScreen';
 import { KartSetupToolScreen } from './src/screens/KartSetupToolScreen';
 import { GearingGuideScreen } from './src/screens/GearingGuideScreen';
@@ -223,11 +222,6 @@ function BikeSetupStack() {
         name="CoachChat"
         component={CoachChatScreen}
         options={{ title: 'Kart Setup' }}
-      />
-      <Stack.Screen
-        name="BikeSetupSheet"
-        component={BikeSetupSheetScreen}
-        options={{ title: 'Kart Setup Sheet' }}
       />
       <Stack.Screen
         name="BikeBalanceSetup"

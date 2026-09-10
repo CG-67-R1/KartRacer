@@ -2,13 +2,15 @@ import React from 'react';
 import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { ART } from '../assets/art';
 import { AppLogo } from '../components/AppLogo';
+import { ArtThumb } from '../components/ArtThumb';
 import { COMPACT_LOGO_SIZE } from '../constants/logoSizing';
 import type { RiderCoachStackParamList } from './RiderCoachScreen';
 
 type Nav = NativeStackNavigationProp<RiderCoachStackParamList, 'BikeSetupHub'>;
 
-/** Hub for Kart Setup AI, day sheet, setup tool, gearing, and basics. */
+/** Hub for Kart Setup AI, setup tool, gearing, and basics. */
 export function BikeSetupHubScreen() {
   const navigation = useNavigation<Nav>();
 
@@ -32,20 +34,15 @@ export function BikeSetupHubScreen() {
         onPress={() => navigation.navigate('CoachChat', { mode: 'bikesetup' })}
         activeOpacity={0.8}
       >
+        <ArtThumb source={ART.tabTools} size={64} />
         <Text style={styles.navButtonText}>Kart Setup AI</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={styles.navButton}
-        onPress={() => navigation.navigate('BikeSetupSheet')}
-        activeOpacity={0.8}
-      >
-        <Text style={styles.navButtonText}>Kart Setup Sheet</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.navButton}
         onPress={() => navigation.navigate('BikeBalanceSetup')}
         activeOpacity={0.8}
       >
+        <ArtThumb source={ART.tabAnalysis} size={64} />
         <Text style={styles.navButtonText}>Kart Setup Tool</Text>
       </TouchableOpacity>
       <TouchableOpacity
@@ -53,6 +50,7 @@ export function BikeSetupHubScreen() {
         onPress={() => navigation.navigate('GearingGuide')}
         activeOpacity={0.8}
       >
+        <ArtThumb source={ART.toolGearing} size={64} />
         <Text style={styles.navButtonText}>Gearing Guide</Text>
       </TouchableOpacity>
       <TouchableOpacity
@@ -60,6 +58,7 @@ export function BikeSetupHubScreen() {
         onPress={() => navigation.navigate('BikeSetupBasics')}
         activeOpacity={0.8}
       >
+        <ArtThumb source={ART.chassisJackingLift} size={64} />
         <Text style={styles.navButtonText}>Kart Setup Basics</Text>
       </TouchableOpacity>
     </ScrollView>
@@ -98,19 +97,21 @@ const styles = StyleSheet.create({
   navButton: {
     width: '100%',
     marginBottom: 12,
-    paddingVertical: 18,
-    paddingHorizontal: 20,
-    minHeight: 56,
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    minHeight: 88,
     backgroundColor: '#1e293b',
     borderRadius: 12,
     borderWidth: 2,
     borderColor: '#f59e0b',
+    flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
+    gap: 14,
   },
   navButtonText: {
     fontFamily: 'RaceSport',
     fontSize: 17,
     color: '#f8fafc',
+    flex: 1,
   },
 });

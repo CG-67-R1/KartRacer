@@ -53,7 +53,6 @@ export type RiderCoachStackParamList = {
   };
   TrackMemoryHub: undefined;
   BikeSetupBasics: undefined;
-  BikeSetupSheet: undefined;
   BikeBalanceSetup: undefined;
   GearingGuide: undefined;
 };

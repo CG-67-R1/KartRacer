@@ -82,3 +82,11 @@ export function bikeSetupIntroForSkill(skill: RiderAiSkill): typeof BIKE_SETUP_I
 export function showDetailedSetupTips(skill: RiderAiSkill): boolean {
   return skill !== 'novice';
 }
+
+/** Coach empty-state opener. */
+export function coachGoalsPrompt(skill?: RiderAiSkill): string {
+  if (skill === 'novice') {
+    return 'What do you want to work on today — a corner, braking, or feeling smoother? One thing is enough.';
+  }
+  return 'What are your goals for today — lap times, consistency, a specific corner, or kart feel? Tell me what you want to work on and we will start there.';
+}

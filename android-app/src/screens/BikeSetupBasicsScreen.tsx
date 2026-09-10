@@ -11,6 +11,8 @@ import {
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { HOTSPOT_ART } from '../assets/art';
+import { ArtThumb } from '../components/ArtThumb';
 import { BikeSetupHotspotSheet } from '../components/BikeSetupHotspotSheet';
 import {
   BIKE_SETUP_HOTSPOTS,
@@ -183,6 +185,7 @@ export function BikeSetupBasicsScreen() {
               accessibilityLabel={hotspot.title}
               accessibilityHint={`Open ${hotspot.title} road and track setup guidance`}
             >
+              {HOTSPOT_ART[hotspot.id] ? <ArtThumb source={HOTSPOT_ART[hotspot.id]!} size={40} /> : null}
               <Text style={styles.partTitle}>{hotspot.title}</Text>
               <View
                 style={[

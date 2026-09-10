@@ -22,7 +22,6 @@ import { getBikePhotoUri, setBikePhotoUri, clearBikePhoto } from '../storage/bik
 import { photoDisplayUri } from '../storage/localPhotoStorage';
 import { getAvatarFacePhotoUri } from '../storage/avatarFacePhoto';
 import { getOnboardingAnswers } from '../storage/onboarding';
-import { getSessionHistory, type BikeSetupDaySheet } from '../storage/bikeSetupSheet';
 import { getTrackdayPrepHistory, type TrackdayPrepReport } from '../storage/trackdayPrep';
 import { HERO_AVATAR_BADGE_SIZE } from '../avatar/heroBadgeSizing';
 import { getAvatarPreset, getAvatarSource, getFaceHoleLayout } from '../avatar/presets';
@@ -43,18 +42,16 @@ export function HeadlinesScreen() {
   const [favouriteBike, setFavouriteBike] = useState('');
   const [pickingPhoto, setPickingPhoto] = useState(false);
   const [homeMode, setHomeMode] = useState<HomeMode | null>(() => peekHomeMode());
-  const [lastSession, setLastSession] = useState<BikeSetupDaySheet | null>(null);
   const [lastPrep, setLastPrep] = useState<TrackdayPrepReport | null>(null);
   const [avatarSource, setAvatarSource] = useState<ImageSourcePropType | null>(null);
   const [avatarId, setAvatarId] = useState<string | null>(null);
   const [avatarFaceUri, setAvatarFaceUri] = useState<string | null>(null);
 
   const loadData = useCallback(async () => {
-    const [uri, answers, faceUri, history, prepHistory] = await Promise.all([
+    const [uri, answers, faceUri, prepHistory] = await Promise.all([
       getBikePhotoUri(),
       getOnboardingAnswers(),
       getAvatarFacePhotoUri(),
-      getSessionHistory(),
       getTrackdayPrepHistory(),
     ]);
     setBikePhotoUriState(uri);
@@ -63,7 +60,6 @@ export function HeadlinesScreen() {
     const nextMode = homeModeFromActivity(answers?.activity);
     rememberHomeMode(nextMode);
     setHomeMode(nextMode);
-    setLastSession(history.length ? history[history.length - 1] : null);
     setLastPrep(prepHistory[0] ?? null);
     const nextAvatarId = answers?.avatarId ?? null;
     setAvatarId(nextAvatarId);
@@ -132,7 +128,7 @@ export function HeadlinesScreen() {
   const goToRiderCoach = () => tabNav?.navigate('RiderCoachTab');
   const goToTrackPrep = () => tabNav?.navigate('RiderCoachTab', { screen: 'TrackPrep' });
   const goToBikeSetup = () => tabNav?.navigate('BikeSetupTab');
-  const goToBikeSheet = () => tabNav?.navigate('BikeSetupTab', { screen: 'BikeSetupSheet' });
+  const goToKartSetupTool = () => tabNav?.navigate('BikeSetupTab', { screen: 'BikeBalanceSetup' });
   const goToEvents = () => tabNav?.navigate('CalendarTab');
   const goToSettings = () => navigation.navigate('HeadlinesSettings');
 
@@ -271,21 +267,13 @@ export function HeadlinesScreen() {
         {homeMode === 'setup' ? (
           <TouchableOpacity
             style={styles.activityCard}
-            onPress={goToBikeSheet}
+            onPress={goToKartSetupTool}
             activeOpacity={0.85}
           >
-            <Text style={styles.activityLabel}>Last session</Text>
-            {lastSession ? (
-              <Text style={styles.activityTitle}>
-                {[lastSession.trackName.trim() || 'Setup sheet', lastSession.dateIso]
-                  .filter(Boolean)
-                  .join(' · ')}
-              </Text>
-            ) : (
-              <Text style={styles.activityEmpty}>
-                Save a session from Kart Setup Sheet to see it here.
-              </Text>
-            )}
+            <Text style={styles.activityLabel}>Kart Setup Tool</Text>
+            <Text style={styles.activityEmpty}>
+              Check symptoms, pressures, and tyre temps.
+            </Text>
           </TouchableOpacity>
         ) : homeMode === 'learn' ? (
           <TouchableOpacity

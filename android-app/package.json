@@ -7,7 +7,6 @@
     "android": "expo run:android",
     "prebuild": "expo prebuild --platform android",
     "tsc": "tsc --noEmit",
-    "test:bike-balance": "npx --yes tsx src/calc/bikeBalance/__tests__/section8.golden.ts",
     "test:gearing": "npx --yes tsx src/calc/gearing/__tests__/gearing.golden.ts",
     "test:tyre-wear": "npx --yes tsx src/calc/tyreWear/__tests__/tyreWear.golden.ts"
   },

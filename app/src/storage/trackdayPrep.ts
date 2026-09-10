@@ -221,7 +221,7 @@ export function formatTrackdayPrepForAi(draft: TrackdayPrepDraft): string {
     'Infer power type / character from the bike string.',
     'Cover mindset, session structure, tyre warm-up / grip expectations for type + condition, and weather implications.',
     draft.riderLevel === 'racer' || draft.riderLevel === 'experienced'
-      ? 'Include what to log on the Kart Setup Sheet after each session.'
+      ? 'Include what to log in Kart Setup Tool after each session.'
       : 'Keep the briefing short (about one screen). Do not dump a race-engineer checklist.',
     '',
     'Rider inputs',
@@ -237,7 +237,7 @@ export function formatTrackdayPrepForAi(draft: TrackdayPrepDraft): string {
     '6. Closing section titled exactly: "How to get the best from KartRacer tools today"',
     '   In that closing section you MUST cover:',
     '   - Driver Coach — what to ask, what notes/photos to bring',
-    '   - Kart Setup / Kart Setup Sheet — when to switch and what to log',
+    '   - Kart Setup Tool — when to check symptoms, pressures, and temps',
     `   - Track Walk Notes — recommend logging corner notes for ${draft.trackName || 'this circuit'} before the day`,
     '',
     `Rider level for framing: ${level}. Tyres: ${tyreType}, ${tyreCond}.`,

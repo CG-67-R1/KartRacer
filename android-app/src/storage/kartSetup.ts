@@ -10,6 +10,7 @@ import {
   type TyrePressures,
   type TyreTemps,
 } from '../lib/setupEngine';
+import { STORAGE_KEYS } from '../constants/storageKeys';
 import { logStorageError } from './logStorageError';
 
 const KEY = '@kartrace_setup_current_v1';
@@ -60,5 +61,18 @@ export async function clearKartSetupSession(): Promise<void> {
     await AsyncStorage.removeItem(KEY);
   } catch (e) {
     logStorageError('clearKartSetupSession', e);
+  }
+}
+
+/** Wipe leftover motorcycle setup-sheet / chassis-balance keys. */
+export async function clearLegacyBikeSetupStorage(): Promise<void> {
+  try {
+    await AsyncStorage.multiRemove([
+      STORAGE_KEYS.BIKE_SETUP_DAY_SHEET,
+      STORAGE_KEYS.BIKE_SETUP_SESSION_HISTORY,
+      STORAGE_KEYS.BIKE_BALANCE_STATE,
+    ]);
+  } catch (e) {
+    logStorageError('clearLegacyBikeSetupStorage', e);
   }
 }

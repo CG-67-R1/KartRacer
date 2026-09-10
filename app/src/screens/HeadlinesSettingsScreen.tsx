@@ -36,15 +36,13 @@ import {
 import { photoDisplayUri } from '../storage/localPhotoStorage';
 import { useOnboardingReset } from '../context/OnboardingResetContext';
 import { useAvatarFacePicker } from '../hooks/useAvatarFacePicker';
-import {
-  getBikeSetupDaySheet,
-  getSessionHistory,
-  clearAllBikeSetupData,
-} from '../storage/bikeSetupSheet';
-import { clearBikeBalanceState, loadBikeBalanceState } from '../storage/bikeBalance';
 import { clearGearingGuideState } from '../storage/gearingGuide';
 import { clearTrackWalkSessions } from '../storage/trackWalk';
-import { clearKartSetupSession } from '../storage/kartSetup';
+import {
+  clearKartSetupSession,
+  clearLegacyBikeSetupStorage,
+  loadKartSetupSession,
+} from '../storage/kartSetup';
 import { clearBikePhoto } from '../storage/bikePhoto';
 
 export function HeadlinesSettingsScreen() {
@@ -234,19 +232,15 @@ export function HeadlinesSettingsScreen() {
 
   const handleExportData = useCallback(async () => {
     try {
-      const [onboarding, setupSheet, setupHistory, bikeBalance] = await Promise.all([
+      const [onboarding, kartSetup] = await Promise.all([
         getOnboardingAnswers(),
-        getBikeSetupDaySheet(),
-        getSessionHistory(),
-        loadBikeBalanceState(),
+        loadKartSetupSession(),
       ]);
       const json = JSON.stringify(
         {
           exportedAt: new Date().toISOString(),
           onboarding,
-          setupSheet,
-          setupSessionHistory: setupHistory,
-          bikeBalance,
+          kartSetup,
         },
         null,
         2
@@ -261,7 +255,7 @@ export function HeadlinesSettingsScreen() {
     if (!onboardingReset) return;
     Alert.alert(
       'Delete all local data?',
-      'This permanently removes your profile, photos, Kart Setup Sheet and saved setups, Kart Setup Tool, Gearing Guide, and Track Walk notes from this device, then restarts onboarding.',
+      'This permanently removes your profile, photos, Kart Setup Tool data, Gearing Guide, and Track Walk notes from this device, then restarts onboarding.',
       [
         { text: 'Cancel', style: 'cancel' },
         {
@@ -270,8 +264,7 @@ export function HeadlinesSettingsScreen() {
           onPress: async () => {
             try {
               await Promise.all([
-                clearAllBikeSetupData(),
-                clearBikeBalanceState(),
+                clearLegacyBikeSetupStorage(),
                 clearGearingGuideState(),
                 clearKartSetupSession(),
                 clearTrackWalkSessions(),
@@ -524,9 +517,9 @@ export function HeadlinesSettingsScreen() {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Your data & privacy</Text>
         <Text style={styles.sectionSubtitle}>
-          Your profile, avatar, Kart Setup Sheet, saved kart setups, Kart Setup Tool data, and Track Walk
-          notes stay private in local storage on this device or browser. They are not stored in an
-          online account. Sharing a setup as text only happens when you choose Messages or another app.
+          Your profile, avatar, Kart Setup Tool data, and Track Walk notes stay private in local
+          storage on this device or browser. They are not stored in an online account. Sharing a
+          setup as text only happens when you choose Messages or another app.
         </Text>
         <Text style={styles.sectionSubtitle}>
           AI Coach, Kart Setup, and Q&amp;A messages you send, including attachments, are transmitted

@@ -26,6 +26,12 @@ Do NOT redesign screens. Rename user-facing strings only where they say bike/rid
 
 ## Pre-import (do before J1.1)
 
+> **2026-09-10 art set (Hermes):** the full 81-image KartRacer art set has been generated to
+> `app/assets/art/` (prompt pack: `IMAGE_GENERATION_PROMPTS.md`; vision-QA verdicts:
+> `tools/art-gen/qa-results.md`). **Placement instructions: [`ART_PLACEMENT_GUIDE.md`](ART_PLACEMENT_GUIDE.md)**
+> — per-file screen mapping, `art.ts` require module, android-app mirroring, optimisation,
+> and the acceptance checklist. Do not place files marked REGEN in the QA results.
+
 > **2026-09-10 research handoff (Hermes):** all remaining placeholder data has been researched
 > and compiled in [`CURSOR_RESEARCH_HANDOFF_2026-09-10.md`](CURSOR_RESEARCH_HANDOFF_2026-09-10.md)
 > — tyre pressures/specs (KA spec PDFs archived in `kb/sources/tyre-spec-pdfs/`), engine reference

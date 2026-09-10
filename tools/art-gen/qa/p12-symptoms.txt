@@ -1,0 +1,61 @@
+You are the art QA inspector for the KartRacer app. For EACH image listed below, call vision_analyze on the file with the given question, judge it against BOTH bars, then decide PASS or REGEN.
+
+STYLE bar (applies to every image): near-black dark blue ground (#11151C family), clean technical illustration or vector-like 3D - NOT a photograph, NOT photoreal, no AI-art glow/neon; gold #E8C547 used as the single accent; no watermarks, no signatures, no brand names or logos, no chequered flags, no invented numbers/lap times, no readable text beyond the short ALL-CAPS labels explicitly allowed for that image; subject centred and readable at ~96px thumbnail.
+
+KART realism bar (whenever a whole kart is shown): must read as a modern CIK SPRINT kart - flat low tube-frame chassis with NO suspension, seat low between the rear wheels, rear axle a single straight live axle (no differential housing), rear track visibly wider than front, small 5-inch wheels with low-profile tyres, front bumper + nose cone, side pods, steering wheel on a raked column. REGEN if it looks like a car, a dirt/oval kart, a toy, or has springs/dampers/suspension arms.
+
+Be strict on ACCURACY (wrong-direction geometry, wrong wheel lifted, wrong zone hot, missing grooves = REGEN) and pragmatic on style (minor palette drift that still reads dark+gold = PASS with note).
+
+Final reply: ONE line per image, nothing else, exactly:
+PASS <filename> - <5-word note>
+or
+REGEN <filename> - <specific reason>
+
+=== IMAGES ===
+File: C:/KartRacer/app/assets/art/kr-symptom-understeer-entry.png
+vision_analyze question: Describe exactly what this technical illustration shows: subject, geometry/orientation details, colours, any text or labels, background, and whether it is photoreal or illustrated.
+ACCURACY criteria: Corner entry: FRONT of the kart tracking WIDE of the gold line (nose pushing out). Rear stepped out instead = REGEN.
+
+File: C:/KartRacer/app/assets/art/kr-symptom-oversteer-entry.png
+vision_analyze question: Describe exactly what this technical illustration shows: subject, geometry/orientation details, colours, any text or labels, background, and whether it is photoreal or illustrated.
+ACCURACY criteria: Corner entry: REAR stepped out of line, fronts still pointed in.
+
+File: C:/KartRacer/app/assets/art/kr-symptom-understeer-mid.png
+vision_analyze question: Describe exactly what this technical illustration shows: subject, geometry/orientation details, colours, any text or labels, background, and whether it is photoreal or illustrated.
+ACCURACY criteria: Mid-corner: nose wide of apex line, front wash marks.
+
+File: C:/KartRacer/app/assets/art/kr-symptom-oversteer-mid.png
+vision_analyze question: Describe exactly what this technical illustration shows: subject, geometry/orientation details, colours, any text or labels, background, and whether it is photoreal or illustrated.
+ACCURACY criteria: Mid-corner: rear rotating past the line, gold arc at rear.
+
+File: C:/KartRacer/app/assets/art/kr-symptom-understeer-exit.png
+vision_analyze question: Describe exactly what this technical illustration shows: subject, geometry/orientation details, colours, any text or labels, background, and whether it is photoreal or illustrated.
+ACCURACY criteria: Exit: kart still turned in/ploughing at the front while track opens.
+
+File: C:/KartRacer/app/assets/art/kr-symptom-oversteer-exit.png
+vision_analyze question: Describe exactly what this technical illustration shows: subject, geometry/orientation details, colours, any text or labels, background, and whether it is photoreal or illustrated.
+ACCURACY criteria: Exit under power: rear breaking sideways.
+
+File: C:/KartRacer/app/assets/art/kr-symptom-hop.png
+vision_analyze question: Describe exactly what this technical illustration shows: subject, geometry/orientation details, colours, any text or labels, background, and whether it is photoreal or illustrated.
+ACCURACY criteria: Vertical gold arrows at a REAR tyre with the kart visibly bouncing/tilted - vertical motion, not slide.
+
+File: C:/KartRacer/app/assets/art/kr-symptom-chatter.png
+vision_analyze question: Describe exactly what this technical illustration shows: subject, geometry/orientation details, colours, any text or labels, background, and whether it is photoreal or illustrated.
+ACCURACY criteria: Zigzag/high-frequency vibration marks at a loaded tyre contact patch.
+
+File: C:/KartRacer/app/assets/art/kr-symptom-slide.png
+vision_analyze question: Describe exactly what this technical illustration shows: subject, geometry/orientation details, colours, any text or labels, background, and whether it is photoreal or illustrated.
+ACCURACY criteria: All FOUR tyres sliding together - kart drifting bodily off line.
+
+File: C:/KartRacer/app/assets/art/kr-symptom-side-bite.png
+vision_analyze question: Describe exactly what this technical illustration shows: subject, geometry/orientation details, colours, any text or labels, background, and whether it is photoreal or illustrated.
+ACCURACY criteria: Kart visually planted/hooked, hash marks under ALL patches (grip, not slide).
+
+File: C:/KartRacer/app/assets/art/kr-symptom-darty.png
+vision_analyze question: Describe exactly what this technical illustration shows: subject, geometry/orientation details, colours, any text or labels, background, and whether it is photoreal or illustrated.
+ACCURACY criteria: Kart on a STRAIGHT with left-right weave arrows at the nose. On a corner = REGEN.
+
+File: C:/KartRacer/app/assets/art/kr-symptom-one-direction.png
+vision_analyze question: Describe exactly what this technical illustration shows: subject, geometry/orientation details, colours, any text or labels, background, and whether it is photoreal or illustrated.
+ACCURACY criteria: Two ghost scenes: one corner direction OK/muted, the OTHER direction gold/problem. Both directions must actually differ.

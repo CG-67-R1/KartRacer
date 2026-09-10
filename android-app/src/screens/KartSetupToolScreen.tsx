@@ -6,9 +6,10 @@ import {
   TextInput,
   TouchableOpacity,
   View,
+  type ImageSourcePropType,
 } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
-import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { ART, SYMPTOM_ART } from '../assets/art';
+import { ArtThumb } from '../components/ArtThumb';
 import { KartSetupAdviceList } from '../components/KartSetupAdviceList';
 import {
   SYMPTOM_LABELS,
@@ -34,9 +35,6 @@ import {
   saveKartSetupSession,
   type KartSetupSession,
 } from '../storage/kartSetup';
-import type { RiderCoachStackParamList } from './RiderCoachScreen';
-
-type Nav = NativeStackNavigationProp<RiderCoachStackParamList, 'BikeBalanceSetup'>;
 
 const SYMPTOMS = Object.keys(SYMPTOM_LABELS) as Symptom[];
 const CORNERS: { id: TyreCorner; label: string }[] = [
@@ -57,7 +55,7 @@ function ChipRow<T extends string>({
   onChange,
 }: {
   value: T;
-  options: { value: T; label: string }[];
+  options: { value: T; label: string; image?: ImageSourcePropType }[];
   onChange: (value: T) => void;
 }) {
   return (
@@ -67,10 +65,11 @@ function ChipRow<T extends string>({
         return (
           <TouchableOpacity
             key={opt.value}
-            style={[styles.chip, on ? styles.chipOn : null]}
+            style={[styles.chip, on ? styles.chipOn : null, opt.image ? styles.chipArt : null]}
             onPress={() => onChange(opt.value)}
             activeOpacity={0.8}
           >
+            {opt.image ? <ArtThumb source={opt.image} size={44} /> : null}
             <Text style={[styles.chipText, on ? styles.chipTextOn : null]}>{opt.label}</Text>
           </TouchableOpacity>
         );
@@ -114,7 +113,6 @@ function OptionalNum({
 }
 
 export function KartSetupToolScreen() {
-  const navigation = useNavigation<Nav>();
   const [session, setSession] = useState<KartSetupSession>(defaultKartSetupSession);
   const [mode, setMode] = useState<AnalysisKind>('driving');
   const [symptoms, setSymptoms] = useState<Symptom[]>([]);
@@ -158,14 +156,6 @@ export function KartSetupToolScreen() {
         Advisor for symptoms, pressures, and tyre temps. This is not a lap-time predictor. Confirm
         it is not the driver before rewriting the chassis. Change one thing, then go back out.
       </Text>
-
-      <TouchableOpacity
-        onPress={() => navigation.navigate('BikeSetupSheet')}
-        style={styles.linkBtn}
-        activeOpacity={0.8}
-      >
-        <Text style={styles.linkText}>Open full Kart Setup Sheet</Text>
-      </TouchableOpacity>
 
       <Text style={styles.section}>On the kart now</Text>
       <Text style={styles.fieldLabel}>Wheelbase</Text>
@@ -221,10 +211,13 @@ export function KartSetupToolScreen() {
         }}
       />
       {window ? (
-        <Text style={styles.hint}>
-          {window.label}: {window.coldPsi.min}–{window.coldPsi.max} psi cold ({window.coldBar.min.toFixed(2)}–
-          {window.coldBar.max.toFixed(2)} bar).
-        </Text>
+        <View style={styles.hintRow}>
+          <ArtThumb source={ART.pressureCompoundWindow} size={52} />
+          <Text style={styles.hint}>
+            {window.label}: {window.coldPsi.min}–{window.coldPsi.max} psi cold ({window.coldBar.min.toFixed(2)}–
+            {window.coldBar.max.toFixed(2)} bar).
+          </Text>
+        </View>
       ) : (
         <Text style={styles.hint}>Unknown compound uses the generic 0.8–1.5 bar band.</Text>
       )}
@@ -234,9 +227,9 @@ export function KartSetupToolScreen() {
       <ChipRow
         value={session.conditions.grip}
         options={[
-          { value: 'green', label: 'Green / low' },
-          { value: 'normal', label: 'Normal dry' },
-          { value: 'rubbered', label: 'Rubbered / high' },
+          { value: 'green', label: 'Green / low', image: ART.gripGreen },
+          { value: 'normal', label: 'Normal dry', image: ART.gripNormal },
+          { value: 'rubbered', label: 'Rubbered / high', image: ART.gripRubbered },
         ]}
         onChange={(grip) => setConditions({ grip })}
       />
@@ -244,8 +237,8 @@ export function KartSetupToolScreen() {
       <ChipRow
         value={session.conditions.wet ? 'wet' : 'dry'}
         options={[
-          { value: 'dry', label: 'Dry' },
-          { value: 'wet', label: 'Wet' },
+          { value: 'dry', label: 'Dry', image: ART.tyreSlick },
+          { value: 'wet', label: 'Wet', image: ART.tyreWet },
         ]}
         onChange={(surface) => setConditions({ wet: surface === 'wet' })}
       />
@@ -264,7 +257,14 @@ export function KartSetupToolScreen() {
 
       {session.conditions.wet ? (
         <View style={styles.panel}>
-          <Text style={styles.panelTitle}>Wet checklist</Text>
+          <View style={styles.panelHead}>
+            <ArtThumb source={ART.wetChecklist} size={64} />
+            <Text style={styles.panelTitle}>Wet checklist</Text>
+          </View>
+          <View style={styles.hintRow}>
+            <ArtThumb source={ART.leverRainMeister} size={44} />
+            <Text style={styles.hint}>Rain Meister / wet helper bar — fit if the class allows it.</Text>
+          </View>
           {wetItems.map((item) => (
             <Text key={item.id} style={item.matched ? styles.ok : styles.warn}>
               {item.matched ? 'Matched' : 'Check'} · {item.label} (now {item.current}, target {item.target})
@@ -305,10 +305,11 @@ export function KartSetupToolScreen() {
           <View style={styles.chipWrap}>
             {SYMPTOMS.map((symptom) => {
               const on = symptoms.includes(symptom);
+              const art = SYMPTOM_ART[symptom];
               return (
                 <TouchableOpacity
                   key={symptom}
-                  style={[styles.chip, on ? styles.chipOn : null]}
+                  style={[styles.chip, on ? styles.chipOn : null, art ? styles.chipArt : null]}
                   onPress={() => {
                     setRan(false);
                     setSymptoms((current) =>
@@ -318,6 +319,7 @@ export function KartSetupToolScreen() {
                     );
                   }}
                 >
+                  {art ? <ArtThumb source={art} size={48} /> : null}
                   <Text style={[styles.chipText, on ? styles.chipTextOn : null]}>
                     {SYMPTOM_LABELS[symptom]}
                   </Text>
@@ -330,7 +332,11 @@ export function KartSetupToolScreen() {
 
       {mode === 'pressure' ? (
         <View>
-          <Text style={styles.panelTitle}>Cold / hot pressures (bar)</Text>
+          <View style={styles.panelHead}>
+            <ArtThumb source={ART.pressureColdHot} size={64} />
+            <ArtThumb source={ART.chassisPlanCorners} size={64} />
+            <Text style={styles.panelTitle}>Cold / hot pressures (bar)</Text>
+          </View>
           <View style={styles.grid}>
             {CORNERS.map((corner) => (
               <OptionalNum
@@ -374,7 +380,11 @@ export function KartSetupToolScreen() {
 
       {mode === 'temperature' ? (
         <View>
-          <Text style={styles.panelTitle}>Pyrometer °C (outside / middle / inside)</Text>
+          <View style={styles.panelHead}>
+            <ArtThumb source={ART.tempLegendOmi} size={64} />
+            <ArtThumb source={ART.chassisPlanCorners} size={64} />
+            <Text style={styles.panelTitle}>Pyrometer °C (outside / middle / inside)</Text>
+          </View>
           {CORNERS.map((corner) => (
             <View key={corner.id} style={styles.row}>
               <OptionalNum
@@ -442,8 +452,6 @@ const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#0f172a' },
   content: { paddingHorizontal: 16, paddingTop: 12, paddingBottom: 40 },
   notice: { color: '#93c5fd', fontSize: 14, lineHeight: 20, marginBottom: 12 },
-  linkBtn: { marginBottom: 16 },
-  linkText: { color: '#38bdf8', fontSize: 14, fontWeight: '600', textDecorationLine: 'underline' },
   section: {
     color: '#cbd5e1',
     fontSize: 13,
@@ -454,7 +462,8 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   fieldLabel: { color: '#e2e8f0', fontSize: 13, fontWeight: '600', marginBottom: 6, marginTop: 4 },
-  hint: { color: '#94a3b8', fontSize: 12, lineHeight: 17, marginBottom: 8 },
+  hint: { color: '#94a3b8', fontSize: 12, lineHeight: 17, marginBottom: 8, flex: 1 },
+  hintRow: { flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 8 },
   chipWrap: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: 10 },
   chip: {
     paddingVertical: 8,
@@ -465,6 +474,7 @@ const styles = StyleSheet.create({
     borderColor: '#334155',
   },
   chipOn: { borderColor: '#f59e0b', backgroundColor: '#422006' },
+  chipArt: { alignItems: 'center', minWidth: 92, paddingVertical: 10 },
   chipText: { color: '#cbd5e1', fontSize: 13, fontWeight: '600' },
   chipTextOn: { color: '#fde68a' },
   row: { flexDirection: 'row', gap: 10 },
@@ -502,7 +512,14 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#334155',
   },
-  panelTitle: { color: '#f8fafc', fontSize: 16, fontWeight: '700', marginBottom: 8 },
+  panelHead: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    flexWrap: 'wrap',
+    gap: 10,
+    marginBottom: 8,
+  },
+  panelTitle: { color: '#f8fafc', fontSize: 16, fontWeight: '700', flex: 1, minWidth: 120 },
   ok: { color: '#86efac', fontSize: 13, marginBottom: 4 },
   warn: { color: '#fbbf24', fontSize: 13, marginBottom: 4 },
   run: {

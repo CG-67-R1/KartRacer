@@ -1,6 +1,20 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, type ImageSourcePropType } from 'react-native';
+import { ART } from '../assets/art';
+import { ArtThumb } from './ArtThumb';
 import { LEVER_LABELS, type Advice, type AnalysisResult } from '../lib/setupEngine';
+
+function adviceArt(item: Advice, first?: boolean, blocked?: boolean): ImageSourcePropType {
+  if (blocked) return ART.adviceBlocked;
+  const blob = `${item.id} ${item.title} ${item.why}`.toLowerCase();
+  if (/jack|inside.?rear.?lift/.test(blob)) return ART.chassisJackingLift;
+  if (/cold_middle|cold middle/.test(blob)) return ART.tempColdMiddle;
+  if (/hot_middle|hot middle/.test(blob)) return ART.tempHotMiddle;
+  if (/hot_inner|hot inner/.test(blob)) return ART.tempHotInner;
+  if (/hot_outer|hot outer/.test(blob)) return ART.tempHotOuter;
+  if (first) return ART.adviceOneChange;
+  return ART.adviceOneChange;
+}
 
 export function KartSetupAdviceList({ result }: { result: AnalysisResult }) {
   return (
@@ -37,9 +51,14 @@ function AdviceCard({
 }) {
   return (
     <View style={[styles.card, first && !blocked ? styles.cardFirst : null, blocked ? styles.cardBlocked : null]}>
-      {first && !blocked ? <Text style={styles.kicker}>Do this first</Text> : null}
-      {blocked ? <Text style={styles.kickerMuted}>Blocked by sheet</Text> : null}
-      <Text style={styles.title}>{item.title}</Text>
+      <View style={styles.cardTop}>
+        <View style={styles.cardCopy}>
+          {first && !blocked ? <Text style={styles.kicker}>Do this first</Text> : null}
+          {blocked ? <Text style={styles.kickerMuted}>Already at the limit</Text> : null}
+          <Text style={styles.title}>{item.title}</Text>
+        </View>
+        <ArtThumb source={adviceArt(item, first, blocked)} size={56} />
+      </View>
       <Text style={styles.meta}>
         {LEVER_LABELS[item.lever]} · {item.direction}
         {item.magnitude ? ` · ${item.magnitude}` : ''}
@@ -91,6 +110,15 @@ const styles = StyleSheet.create({
   },
   cardBlocked: {
     opacity: 0.7,
+  },
+  cardTop: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    gap: 10,
+    marginBottom: 4,
+  },
+  cardCopy: {
+    flex: 1,
   },
   kicker: {
     color: '#f59e0b',
