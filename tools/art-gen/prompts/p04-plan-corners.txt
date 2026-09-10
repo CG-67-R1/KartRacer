@@ -1,0 +1,18 @@
+You generate images for the KartRacer app art set. Use the image_generate tool for EACH image below, one at a time, and save each to the EXACT path given. If the tool saves elsewhere, move the file to the target path (bash mv). All images share one style; generate them in order so they match.
+
+After all images: verify each file exists with ls, then reply with ONE line per image: OK <filename> or FAIL <filename> <reason>. Nothing else.
+
+=== STYLE (applies to every image) ===
+KARTRACER visual system — obey this for the whole image.
+Product: dark paddock chassis-setup tool. Images sit on dark UI panels, not posters.
+Canvas: square 1024x1024 unless stated otherwise. Fill the frame; modest padding; subject readable at 96-160 px thumbnail.
+Background: solid #11151C near-black blue. No sky, no paddock clutter, no lens flare, no bokeh, no people, no photoreal asphalt filling the frame.
+Palette ONLY: #D7DDE8 light metal, #8B97AB muted, #2E3B52 mid, #1C2433 panel, #E8C547 gold accent (sparingly - one highlight/arrows/selected), #3ECF8E ok/grip green, #FF8A4C warn/heat orange, #EE5D5D danger red. Tyre rubber near-black with thin #2E3B52 highlight, not chrome.
+Style: technical illustration, clean vector-like 3D or isometric, crisp edges, even upper-left lighting, no dramatic shadows. Curated modern workshop diagram - not a game render, not a stock photo, not a comic.
+Kart when shown: modern CIK sprint, 1050-class tube chassis, front bumper, side pods, rear bumper, rear disc, no differential, seat, steering wheel, low-profile kart slicks unless wets stated. Chassis dark grey/black, gold accent only where specified.
+Typography: avoid words. If labels required: short ALL-CAPS clean geometric sans #E8EDF5. Never invent lap times, brands, class names.
+FORBIDDEN: watermarks, signatures, QR codes, fake phone UI, text paragraphs, AI-art glow, neon, US dirt/oval karts, vintage liveries, floating logos, chequered flags unless asked.
+
+=== IMAGES ===
+[1] Save to: C:/KartRacer/app/assets/art/kr-chassis-plan-corners.png
+Prompt: True top-down orthographic plan of a sprint kart, steering wheel at the TOP (front up). Label ONLY the four tyres: FL, FR, RL, RR in small geometric sans #E8EDF5, placed outside the tyres. Gold thin outline on the chassis tubes. Rear axle a straight silver bar. Seat a simple bucket. No driver, no other text.

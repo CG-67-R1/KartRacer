@@ -1,0 +1,86 @@
+{
+  "version": "1.0.0",
+  "id": "tyre-temps",
+  "sources": [
+    "https://www.angriracing.com/tyre-setup",
+    "https://www.angriracing.com/kart-setup"
+  ],
+  "bandC": {
+    "min": 75,
+    "max": 85,
+    "danger": 95
+  },
+  "deltaC": 4,
+  "lrSplitWarnC": 12,
+  "frontRearSplitC": 8,
+  "rearPatterns": [
+    {
+      "id": "rear_cold_middle",
+      "pattern": "cold_middle",
+      "lever": "rear_pressure",
+      "direction": "increase",
+      "title": "Rear: cold middle — raise pressure",
+      "why": "A cold middle with hotter edges is an under-inflated rear. Raise pressure."
+    },
+    {
+      "id": "rear_hot_middle",
+      "pattern": "hot_middle",
+      "lever": "rear_pressure",
+      "direction": "decrease",
+      "title": "Rear: hot middle — drop pressure",
+      "why": "A hot middle with cooler edges is an over-inflated rear. Drop pressure."
+    },
+    {
+      "id": "rear_hot_inner",
+      "pattern": "hot_inner",
+      "lever": "rear_track",
+      "direction": "decrease",
+      "title": "Rear: hot inner — more transfer",
+      "why": "Hot inner, cooler outer means not enough rear transfer. Narrow the rear or stiffen the rear. Fix cone wear before the profile is ruined."
+    },
+    {
+      "id": "rear_hot_outer",
+      "pattern": "hot_outer",
+      "lever": "rear_track",
+      "direction": "increase",
+      "title": "Rear: hot outer — less transfer",
+      "why": "Hot outer means too much transfer. Widen the rear or soften the rear. Watch for hop."
+    }
+  ],
+  "frontPatterns": [
+    {
+      "id": "front_hot_inner",
+      "pattern": "hot_inner",
+      "lever": "camber",
+      "direction": "increase",
+      "magnitude": "less negative camber (or check caster)",
+      "title": "Front: hot inner — less negative camber",
+      "why": "Both front inners hottest usually means too much negative camber. If that also comes with turn-in oversteer, there is too much caster."
+    },
+    {
+      "id": "front_hot_outer",
+      "pattern": "hot_outer",
+      "lever": "camber",
+      "direction": "decrease",
+      "magnitude": "more negative camber",
+      "title": "Front: hot outer — more negative camber",
+      "why": "Hot outer, cool inner means the outside of the tread is working too hard. Add negative camber."
+    },
+    {
+      "id": "front_hot_middle",
+      "pattern": "hot_middle",
+      "lever": "front_pressure",
+      "direction": "decrease",
+      "title": "Front: hot middle, even edges — drop pressure",
+      "why": "Camber looks OK; the tyre is over-inflated."
+    },
+    {
+      "id": "front_cold_middle",
+      "pattern": "cold_middle",
+      "lever": "front_pressure",
+      "direction": "increase",
+      "title": "Front: cold middle, hot edges — raise pressure",
+      "why": "Camber looks OK; the tyre is under-inflated."
+    }
+  ]
+}

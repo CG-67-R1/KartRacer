@@ -18,9 +18,8 @@ import { ImportTrackNotesScreen } from './src/screens/ImportTrackNotesScreen';
 import { BikeSetupBasicsScreen } from './src/screens/BikeSetupBasicsScreen';
 import { BikeSetupSheetScreen } from './src/screens/BikeSetupSheetScreen';
 import { BikeSetupHubScreen } from './src/screens/BikeSetupHubScreen';
-import { BikeBalanceSetupScreen } from './src/screens/BikeBalanceSetupScreen';
+import { KartSetupToolScreen } from './src/screens/KartSetupToolScreen';
 import { GearingGuideScreen } from './src/screens/GearingGuideScreen';
-import { TyreWearAnalysisScreen } from './src/screens/TyreWearAnalysisScreen';
 import { TrackWalkScreen } from './src/screens/TrackWalkScreen';
 import { TrackMemoryHubScreen } from './src/screens/TrackMemoryHubScreen';
 import { TrackPrepHubScreen } from './src/screens/TrackPrepHubScreen';
@@ -179,11 +178,6 @@ function RiderCoachStack() {
         options={{ title: 'Kart Setup Basics' }}
       />
       <Stack.Screen
-        name="TyreWearAnalysis"
-        component={TyreWearAnalysisScreen}
-        options={{ title: 'Tyre Wear Analysis' }}
-      />
-      <Stack.Screen
         name="TrackPrep"
         component={TrackPrepHubScreen}
         options={{ title: 'Track Prep' }}
@@ -237,18 +231,13 @@ function BikeSetupStack() {
       />
       <Stack.Screen
         name="BikeBalanceSetup"
-        component={BikeBalanceSetupScreen}
-        options={{ title: 'Kart Balance (placeholder)' }}
+        component={KartSetupToolScreen}
+        options={{ title: 'Kart Setup Tool' }}
       />
       <Stack.Screen
         name="GearingGuide"
         component={GearingGuideScreen}
         options={{ title: 'Gearing Guide' }}
-      />
-      <Stack.Screen
-        name="TyreWearAnalysis"
-        component={TyreWearAnalysisScreen}
-        options={{ title: 'Tyre Wear Analysis' }}
       />
       <Stack.Screen
         name="BikeSetupBasics"

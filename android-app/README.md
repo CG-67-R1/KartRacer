@@ -1,15 +1,16 @@
-# RoadRacer — Android (Play) product
+# KartRacer — Android (Play) product
 
 This folder is the **Android-only** Expo app. It is a full copy of the product in `app/`, not a shared tree. Fixes here do not change Vercel web or the iOS EAS app.
 
 | Item | Value |
 |------|--------|
-| Display name | RoadRacer - Motorsport_Is_Life |
-| Package | `com.milroadracer.app` |
+| Display name | KartRacer - Motorsport_Is_Life |
+| Package | `com.milkartracer.app` |
+| Expo | `@motorsport-is-life/kartracer-android` (`0a94c0fe-79b2-46b3-a8f6-5001cd234926`) |
 | Target / compile SDK | **36** (Play requirement from 31 Aug 2026) |
 | Min SDK | 24 (Android 7) |
 | Native project | committed `android/` (Gradle) |
-| API | `https://send-it-ke7r.onrender.com` (same Render backend as `app/`) |
+| API | Local `http://localhost:3001` until KR-HOST. Do not use the Send-It Render host. |
 
 **Do not verify this app on Vercel.** Vercel still serves the web build from `app/`. Install an EAS or Play Internal binary on a **physical Android phone**.
 

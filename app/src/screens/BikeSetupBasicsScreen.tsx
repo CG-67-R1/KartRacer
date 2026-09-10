@@ -23,7 +23,7 @@ import {
 } from '../utils/riderSkillCopy';
 import { getSavedRiderAiSkill } from '../utils/riderSkillSaved';
 
-const DIAGRAM = require('../assets/bike-setup/suspension-bike.png');
+const DIAGRAM = require('../assets/kart-setup/kart-side.jpg');
 
 /** Larger hit targets so spaced callouts are easy to tap. */
 const HOTSPOT_HIT = 44;
@@ -236,8 +236,8 @@ const styles = StyleSheet.create({
   },
   diagramWrap: {
     width: '100%',
-    aspectRatio: 1024 / 682,
-    backgroundColor: 'transparent',
+    aspectRatio: 1024 / 512,
+    backgroundColor: '#000',
   },
   diagram: {
     width: '100%',

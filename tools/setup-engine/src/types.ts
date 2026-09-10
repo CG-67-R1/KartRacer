@@ -113,6 +113,8 @@ export type ChassisSetup = {
   rainMeister: boolean;
 
   tyreType: TyreType;
+  /** Compound key into pressure rules `compounds` (e.g. "lecont_lh03"), or "unknown". */
+  tyreCompound: string;
   rimMaterial: RimMaterial;
 
   driverWeightKg: number;
@@ -131,6 +133,14 @@ export type Conditions = {
   trackTempC: number | null;
   /** Default 80 — ANGRI band 75–85 °C. */
   targetTyreTempC: number;
+  /** Catalog track id (geofence auto-detect or picker), null = not set. */
+  trackId: string | null;
+  /** Display name for the venue at save time. */
+  trackName: string | null;
+  /** Relative humidity %, from imported weather. Null = not imported. */
+  humidityPct: number | null;
+  /** Surface pressure hPa, from imported weather. Null = not imported. */
+  pressureHpa: number | null;
 };
 
 export type CornerMap<T> = Record<TyreCorner, T>;

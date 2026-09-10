@@ -40,7 +40,8 @@ export function createSnapshot(input: {
 
 export function snapshotLabel(setup: ChassisSetup, conditions: Conditions): string {
   const grip = conditions.wet ? "wet" : conditions.grip;
-  return `${setup.name} · ${setup.wheelbase} · ${grip}`;
+  const track = conditions.trackName ? ` · ${conditions.trackName}` : "";
+  return `${setup.name}${track} · ${setup.wheelbase} · ${grip}`;
 }
 
 export function restoreSnapshot(snapshot: SetupSnapshot): CurrentSession {
@@ -66,4 +67,24 @@ export function upsertSnapshot(
 
 export function removeSnapshot(history: SetupSnapshot[], id: string): SetupSnapshot[] {
   return history.filter((item) => item.id !== id);
+}
+
+/**
+ * Previous setups at a venue, newest first — the "what did we run here last
+ * time?" list. trackId matches exactly; when trackId is null (venue typed by
+ * hand or unset), fall back to a case-insensitive trackName match so hand-
+ * tagged sessions still group. Returns [] when neither is set.
+ */
+export function snapshotsForTrack(
+  history: SetupSnapshot[],
+  trackId: string | null,
+  trackName?: string | null,
+): SetupSnapshot[] {
+  const name = trackName?.trim().toLowerCase() ?? "";
+  const matches = history.filter((snap) => {
+    if (trackId) return snap.conditions.trackId === trackId;
+    if (name) return (snap.conditions.trackName ?? "").trim().toLowerCase() === name;
+    return false;
+  });
+  return sortSnapshotsNewestFirst(matches);
 }

@@ -1,4 +1,5 @@
 import { pressureRules } from "./rules/load.js";
+import type { CompoundWindow } from "./rules/schema.js";
 import type {
   Advice,
   AnalysisResult,
@@ -10,6 +11,11 @@ import type {
 import { TYRE_CORNERS } from "./types.js";
 
 const SOURCE = pressureRules.sources?.[0] ?? "https://www.angriracing.com/tyre-setup";
+
+/** Cited cold-pressure window for the setup's compound, or null when unknown. */
+export function compoundWindow(setup: ChassisSetup): CompoundWindow | null {
+  return pressureRules.compounds?.[setup.tyreCompound] ?? null;
+}
 
 function advice(partial: Omit<Advice, "oneChange" | "kbSource" | "kbSourceId">): Advice {
   return {
@@ -77,8 +83,43 @@ export function analyzePressures(
   const coldAvg = avg(pressures, "cold");
   const riseAvg = hotAvg - coldAvg;
   const expect = expectedRise(setup);
+  const compound = compoundWindow(setup);
 
   warnings.push(pressureRules.rise.note);
+  if (compound && compound.type !== setup.tyreType) {
+    warnings.push(
+      `Compound/tyre mismatch: sheet says ${setup.tyreType} tyres but the selected compound (${compound.label}) is a ${compound.type}. Fix the sheet before trusting pressure advice.`,
+    );
+  }
+  if (compound) {
+    const lo = compound.coldBar.min;
+    const hi = compound.coldBar.max;
+    if (coldAvg > hi + 0.05) {
+      adviceList.push(
+        advice({
+          id: "cold_above_compound",
+          lever: "pressures",
+          direction: "decrease",
+          magnitude: `cold ${coldAvg.toFixed(2)} bar vs ${lo.toFixed(2)}–${hi.toFixed(2)}`,
+          title: `Cold pressures above the ${compound.label} window`,
+          why: `Cited cold window for ${compound.label} is ${lo.toFixed(2)}–${hi.toFixed(2)} bar (${compound.coldPsi.min}–${compound.coldPsi.max} psi). Source: ${compound.source}. Optimum varies with track and weather — verify with hot readings and the pyrometer.`,
+          priority: 1,
+        }),
+      );
+    } else if (coldAvg < lo - 0.05) {
+      adviceList.push(
+        advice({
+          id: "cold_below_compound",
+          lever: "pressures",
+          direction: "increase",
+          magnitude: `cold ${coldAvg.toFixed(2)} bar vs ${lo.toFixed(2)}–${hi.toFixed(2)}`,
+          title: `Cold pressures below the ${compound.label} window`,
+          why: `Cited cold window for ${compound.label} is ${lo.toFixed(2)}–${hi.toFixed(2)} bar (${compound.coldPsi.min}–${compound.coldPsi.max} psi). Source: ${compound.source}. Under-pressure tyres never reach temperature.`,
+          priority: 1,
+        }),
+      );
+    }
+  }
   if (setup.rimMaterial === "magnesium") {
     warnings.push("Magnesium rims heat faster — expect a larger cold-to-hot rise; start a little lower than aluminium.");
   }
@@ -86,8 +127,16 @@ export function analyzePressures(
     warnings.push("Wets struggle to temperature. Higher pressures are normal; still stay inside the class window.");
   }
 
-  if (hotAvg > max) {
-    const delta = Math.max(step, Math.round((hotAvg - start) * 10) / 10);
+  // Hot window: generic ANGRI band, or compound cold window + expected rise when a compound is set.
+  const hotMin = compound ? compound.coldBar.min + expect - 0.05 : min;
+  const hotMax = compound ? compound.coldBar.max + expect + 0.1 : max;
+  const hotStart = compound ? (hotMin + hotMax) / 2 : start;
+  const windowLabel = compound
+    ? `${compound.label} cold window + expected rise`
+    : `ANGRI ${min}–${max} bar window`;
+
+  if (hotAvg > hotMax) {
+    const delta = Math.max(step, Math.round((hotAvg - hotStart) * 10) / 10);
     adviceList.push(
       advice({
         id: "hot_high",
@@ -95,11 +144,11 @@ export function analyzePressures(
         direction: "decrease",
         magnitude: `−${step.toFixed(1)} bar (hot average ${hotAvg.toFixed(2)} bar)`,
         title: "Hot pressures above the working window",
-        why: `ANGRI cites a ${min}–${max} bar window. Hot average is ${hotAvg.toFixed(2)} bar. Drop cold by about ${delta.toFixed(1)} bar next run.`,
+        why: `${windowLabel}: hot should land near ${hotMin.toFixed(2)}–${hotMax.toFixed(2)} bar. Hot average is ${hotAvg.toFixed(2)} bar. Drop cold by about ${delta.toFixed(1)} bar next run.`,
         priority: 1,
       }),
     );
-  } else if (hotAvg < min) {
+  } else if (hotAvg < hotMin) {
     adviceList.push(
       advice({
         id: "hot_low",
@@ -107,7 +156,7 @@ export function analyzePressures(
         direction: "increase",
         magnitude: `+${step.toFixed(1)} bar (hot average ${hotAvg.toFixed(2)} bar)`,
         title: "Hot pressures below the working window",
-        why: `Hot average is ${hotAvg.toFixed(2)} bar, under ${min} bar. Raise cold by ${step.toFixed(1)} bar. Wets and green tracks may still read low if the tyre is not working.`,
+        why: `${windowLabel}: hot average is ${hotAvg.toFixed(2)} bar, under ${hotMin.toFixed(2)} bar. Raise cold by ${step.toFixed(1)} bar. Wets and green tracks may still read low if the tyre is not working.`,
         priority: 1,
       }),
     );
@@ -197,7 +246,9 @@ export function analyzePressures(
   adviceList.sort((a, b) => a.priority - b.priority);
   return {
     kind: "pressure",
-    reminder: `Working window cited: ${min}–${max} bar. Start near ${start.toFixed(1)} bar. One change at a time.`,
+    reminder: compound
+      ? `${compound.label}: cold ${compound.coldBar.min.toFixed(2)}–${compound.coldBar.max.toFixed(2)} bar (${compound.coldPsi.min}–${compound.coldPsi.max} psi). One change at a time.`
+      : `Working window cited: ${min}–${max} bar. Start near ${start.toFixed(1)} bar. One change at a time.`,
     advice: adviceList,
     blocked: [],
     warnings,

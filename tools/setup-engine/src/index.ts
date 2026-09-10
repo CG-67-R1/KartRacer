@@ -17,4 +17,5 @@ export * from "./calculators/jetting.js";
 export * from "./diff.js";
 export * from "./logger/parseCsv.js";
 export * from "./logger/analyze.js";
+export * from "./sessionContext.js";
 export * from "./explain.js";

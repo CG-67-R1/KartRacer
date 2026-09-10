@@ -9,7 +9,7 @@ let cachedLogoDataUri: string | null = null;
 
 async function getRrLogoDataUri(): Promise<string> {
   if (cachedLogoDataUri) return cachedLogoDataUri;
-  const asset = Asset.fromModule(require('../assets/RR.png'));
+  const asset = Asset.fromModule(require('../assets/kr.png'));
   await asset.downloadAsync();
   const uri = asset.localUri ?? asset.uri;
   if (!uri) throw new Error('Could not load KartRacer logo.');

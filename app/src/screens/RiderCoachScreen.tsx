@@ -56,12 +56,11 @@ export type RiderCoachStackParamList = {
   BikeSetupSheet: undefined;
   BikeBalanceSetup: undefined;
   GearingGuide: undefined;
-  TyreWearAnalysis: undefined;
 };
 
 type RiderCoachNav = NativeStackNavigationProp<RiderCoachStackParamList, 'RiderCoach'>;
 
-/** Hub: RR AI Coach, Track Prep, Bike Setup Basics, Tyre Wear Analysis, Track Details. */
+/** Hub: Coach, Track Prep, Kart Setup Basics, Track Details. */
 export function RiderCoachScreen() {
   const route = useRoute<RouteProp<RiderCoachStackParamList, 'RiderCoach'>>();
   const navigation = useNavigation<RiderCoachNav>();
@@ -119,13 +118,6 @@ export function RiderCoachScreen() {
         activeOpacity={0.8}
       >
         <Text style={styles.navButtonText}>Kart Setup Basics</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={styles.navButton}
-        onPress={() => navigation.navigate('TyreWearAnalysis')}
-        activeOpacity={0.8}
-      >
-        <Text style={styles.navButtonText}>Tyre Wear Analysis</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.navButton}

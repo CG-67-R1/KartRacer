@@ -58,6 +58,7 @@ export function defaultChassisSetup(): ChassisSetup {
     seatHeight: "mid",
     rainMeister: false,
     tyreType: "slick",
+    tyreCompound: "unknown",
     rimMaterial: "aluminium",
     driverWeightKg: 75,
     ballastKg: 0,
@@ -75,5 +76,9 @@ export function defaultConditions(): Conditions {
     airTempC: null,
     trackTempC: null,
     targetTyreTempC: 80,
+    trackId: null,
+    trackName: null,
+    humidityPct: null,
+    pressureHpa: null,
   };
 }

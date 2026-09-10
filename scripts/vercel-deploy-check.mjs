@@ -2,9 +2,9 @@
 /**
  * HTTP probe for Vercel web deploy (Expo export).
  * Usage: node scripts/vercel-deploy-check.mjs
- * Env: VERCEL_APP_URL (default https://send-it-cg-67-r1s-projects.vercel.app)
+ * Env: VERCEL_APP_URL (default https://kartracer.vercel.app)
  */
-const APP_URL = (process.env.VERCEL_APP_URL || 'https://send-it-cg-67-r1s-projects.vercel.app').replace(
+const APP_URL = (process.env.VERCEL_APP_URL || 'https://kartracer.vercel.app').replace(
   /\/$/,
   ''
 );
@@ -40,7 +40,7 @@ try {
 
   if (/log in to vercel/i.test(title) || /login.*vercel/i.test(root.html.slice(0, 8000))) {
     fail('Vercel login wall detected — disable Deployment Protection and use production URL');
-  } else if (/_expo|expo-router|roadrace/i.test(root.html)) {
+  } else if (/_expo|expo-router|kartracer|roadrace/i.test(root.html)) {
     pass('Expo web bundle markers present');
   } else {
     fail('Page does not look like Expo web export');

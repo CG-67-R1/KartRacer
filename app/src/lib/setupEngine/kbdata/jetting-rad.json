@@ -1,0 +1,45 @@
+{
+  "id": "jetting-rad",
+  "purpose": "Compute next main-jet stamp from a stopwatch-proven baseline and a new RAD reading.",
+  "confirm": "Jet stamps and class needles change. Confirm current regs before racing the result.",
+  "rad_standard": {
+    "altitude_m": 0,
+    "temp_c": 15,
+    "pressure_mb": 1013.25,
+    "rh_percent": 0,
+    "note": "RAD is density vs this ISA-like reference, as percent."
+  },
+  "direction": {
+    "hotter": "smaller jet",
+    "higher_altitude": "smaller jet",
+    "more_humid": "smaller jet",
+    "colder": "larger jet",
+    "lower_altitude": "larger jet",
+    "drier": "larger jet"
+  },
+  "jet_stamp": {
+    "karting_convention": "stamp ≈ hole diameter in 0.01 mm. Stamp 60 ≈ 0.60 mm, stamp 126 ≈ 1.26 mm.",
+    "flow_vs_hole": "Reliable makers flow-test then stamp. A 96 may measure 0.94–0.98 mm and still flow as a 96. Do not resize by hole measurement alone."
+  },
+  "formula": {
+    "flow_factor": "1 + (rad_new - rad_base) / rad_base",
+    "new_diameter_mm": "sqrt(old_diameter_mm^2 * flow_factor)",
+    "old_diameter_mm": "old_stamp / 100",
+    "new_stamp": "round(new_diameter_mm * 100) to nearest available jet"
+  },
+  "example": {
+    "rad_base_percent": 94,
+    "jet_base_stamp": 60,
+    "rad_new_percent": 86,
+    "delta": "(86-94)/94 = -0.085",
+    "flow_factor": 0.915,
+    "new_diameter_mm": 0.574,
+    "nearest_stamp": 57
+  },
+  "power_af": {
+    "stoich_mass": 14.7,
+    "peak_2stroke_lambda": 0.86,
+    "micro_mini_nearer_lambda": 1.0,
+    "note": "EGT is a comparison to a dyno/WOT baseline, not a target by itself."
+  }
+}

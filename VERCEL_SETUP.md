@@ -1,69 +1,69 @@
-# Vercel setup for Send It (web app)
+# Vercel setup for KartRacer (web app)
 
-Follow these steps **exactly** so the build works.
+Phone preview is the Expo **web** build from `app/`. Do not use the Send-It Vercel project or `https://send-it-ke7r.onrender.com`.
 
-## 1. Project root = `app` folder
+## Live project
 
-In Vercel: **Your project → Settings → General**.
+| Item | Value |
+|------|--------|
+| Team | `cg-67-r1s-projects` |
+| Project | `kartracer` (`prj_I3BzypiPi0B0M9Hp17Rkk5w2nudl`) |
+| Dashboard | https://vercel.com/cg-67-r1s-projects/kartracer |
+| Production | https://kartracer.vercel.app |
+| GitHub | https://github.com/CG-67-R1/KartRacer (connected; root directory `app`) |
+| Node | 22.x |
+| Deployment Protection | Off (so phone browsers are not asked to log in to Vercel) |
 
-- Find **Root Directory**.
-- Click **Edit**, set it to **`app`** (only that folder name), then **Save**.
+`android-app/` is Play-only. Do not verify it on Vercel.
 
-If this stays as the repo root, Vercel will try to build the `api/` folder and hit size limits. The API runs on Render; Vercel should only build the Expo web app in `app/`.
+## Settings (already applied)
 
-## 2. Environment variable
+In **Project → Settings → General**:
 
-In Vercel: **Your project → Settings → Environment Variables**.
+- **Root Directory:** `app`
+- **Build Command:** `npm run build` (`expo export --platform web`, then copy `public/promo.html`)
+- **Output Directory:** `dist`
+- **Install Command:** `npm install --legacy-peer-deps`
+
+`app/vercel.json` matches those commands and rewrites `/promo` → `/promo.html`.
+
+## Environment variables
+
+Do **not** set `EXPO_PUBLIC_API_URL` to the Send-It Render host.
+
+When a KartRacer API exists (new Render service from `render.yaml`, name `kartracer-api`):
 
 - **Key:** `EXPO_PUBLIC_API_URL`
-- **Value:** `https://send-it-ke7r.onrender.com` (no trailing slash)
-- **Environments:** leave Production (and Preview if you want) checked → **Save**.
+- **Value:** that KartRacer API origin, no trailing slash
+- Then redeploy production
 
-The app is also configured to use this URL by default if the env var is missing.
+Until then, calendar / Coach / Q&A on the phone web build will fail against `http://localhost:3001`.
 
-## 3. Build settings (optional)
+## Deploy
 
-With Root Directory = `app`, the repo’s `app/vercel.json` is used. It already sets:
-
-- **Build Command:** `npm run build` (runs `expo export --platform web`)
-- **Output Directory:** `dist`
-- **Install Command:** `npm install`
-
-You don’t need to change these in the dashboard unless you want to override.
-
-## 4. Deploy
-
-- Push your latest code to the `main` branch, or  
-- **Deployments → … on latest → Redeploy**.
-
-The first successful build can take a couple of minutes. After that, your app will be at `https://your-project.vercel.app`.
-
-## 5. Public access (no login wall)
-
-For a public PoC, the app URL must serve the Expo web build — **not** a Vercel login page.
-
-1. In Vercel: **Project → Settings → Deployment Protection**.
-2. Set **Production** protection to **Off** (or “Standard Protection” disabled for production).
-3. Use the **Production** domain from **Settings → Domains** (e.g. `your-project.vercel.app`), not a team-only `*-projects.vercel.app` preview URL that may require authentication.
-4. After changing protection, **Redeploy** production and verify `GET /` returns HTML with Expo bundles (`_expo/`), not `<title>Login – Vercel</title>`.
-
-Quick check (PowerShell):
+GitHub `main` is connected, so a push rebuilds automatically. CLI from the **repo root** (not `app/`):
 
 ```powershell
-Invoke-WebRequest -Uri "https://YOUR-PRODUCTION-URL.vercel.app/" -UseBasicParsing |
-  Select-Object StatusCode, @{n='Title';e={if($_.Content -match '<title>([^<]+)</title>'){$matches[1]}}}
+npx vercel --prod --yes --scope cg-67-r1s-projects
 ```
 
-Or from repo root:
+Root Directory is already `app`. Deploying with `--cwd app` fails because Vercel then looks for `app/app`.
+
+`.vercelignore` excludes sibling folders (`/android-app`, `/data`, `/packs`, …) using **leading slashes** so `app/src/data` and `app/src/packs` still upload.
+
+## Public access
+
+Production must serve the Expo web build, not a Vercel login page.
 
 ```powershell
 node scripts/vercel-deploy-check.mjs
 ```
 
-Set `VERCEL_APP_URL` if your production URL differs from the default in that script.
+Or:
 
-## If the build still fails
+```powershell
+Invoke-WebRequest -Uri "https://kartracer.vercel.app/" -UseBasicParsing |
+  Select-Object StatusCode, @{n='Title';e={if($_.Content -match '<title>([^<]+)</title>'){$matches[1]}}}
+```
 
-- Confirm **Root Directory** is exactly **`app`** (no slash, no path).
-- Confirm **Environment Variables** has `EXPO_PUBLIC_API_URL` = `https://send-it-ke7r.onrender.com`.
-- Check the **Build Logs** and look for the first red error line; that usually points to the fix.
+Expect HTTP 200 and `_expo` in the HTML.

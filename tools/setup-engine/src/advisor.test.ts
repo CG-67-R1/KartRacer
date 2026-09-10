@@ -192,6 +192,55 @@ describe("analyzePressures", () => {
     );
     expect(result.warnings.some((w) => /Magnesium/i.test(w))).toBe(true);
   });
+
+  it("flags cold pressures above a cited compound window (LH03)", () => {
+    const pressures = emptyCornerPressures();
+    pressures.cold = { fl: 1.0, fr: 1.0, rl: 1.0, rr: 1.0 }; // generic default, high for LH03 (0.66-0.76)
+    pressures.hot = { fl: 1.15, fr: 1.15, rl: 1.15, rr: 1.15 };
+    const result = analyzePressures(
+      setup({ tyreCompound: "lecont_lh03" }),
+      defaultConditions(),
+      pressures,
+    );
+    expect(result.advice.some((a) => a.id === "cold_above_compound")).toBe(true);
+    expect(result.reminder).toMatch(/LH03/);
+    expect(result.advice.find((a) => a.id === "cold_above_compound")?.why).toMatch(/9\.5–11/);
+  });
+
+  it("accepts cold pressures inside the compound window and judges hot against window+rise", () => {
+    const pressures = emptyCornerPressures();
+    pressures.cold = { fl: 0.7, fr: 0.7, rl: 0.7, rr: 0.7 };
+    pressures.hot = { fl: 0.85, fr: 0.85, rl: 0.85, rr: 0.85 }; // 0.15 rise on aluminium
+    const result = analyzePressures(
+      setup({ tyreCompound: "lecont_lh03" }),
+      defaultConditions(),
+      pressures,
+    );
+    expect(result.advice.some((a) => a.id === "cold_above_compound")).toBe(false);
+    expect(result.advice.some((a) => a.id === "cold_below_compound")).toBe(false);
+    expect(result.advice.some((a) => a.id === "hot_high")).toBe(false);
+    expect(result.advice.some((a) => a.id === "hot_low")).toBe(false);
+  });
+
+  it("warns when the selected compound type contradicts the sheet tyre type", () => {
+    const pressures = emptyCornerPressures();
+    pressures.cold = { fl: 0.9, fr: 0.9, rl: 0.9, rr: 0.9 };
+    pressures.hot = { fl: 1.05, fr: 1.05, rl: 1.05, rr: 1.05 };
+    const result = analyzePressures(
+      setup({ tyreCompound: "lecont_sv1", tyreType: "slick" }),
+      defaultConditions(),
+      pressures,
+    );
+    expect(result.warnings.some((w) => /mismatch/i.test(w))).toBe(true);
+  });
+
+  it("keeps the generic ANGRI window when the compound is unknown", () => {
+    const pressures = emptyCornerPressures();
+    pressures.hot = { fl: 1.2, fr: 1.2, rl: 1.2, rr: 1.2 };
+    const result = analyzePressures(setup(), defaultConditions(), pressures);
+    expect(result.reminder).toMatch(/0\.8/);
+    expect(result.advice.some((a) => a.id === "cold_above_compound")).toBe(false);
+  });
 });
 
 describe("wet preset", () => {

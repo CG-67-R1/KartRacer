@@ -24,8 +24,8 @@ export const BIKE_SETUP_HOTSPOTS: BikeSetupHotspot[] = [
   {
     id: 'pressures',
     kind: 'measure',
-    xPct: 18,
-    yPct: 22,
+    xPct: 83,
+    yPct: 74,
     title: 'Cold tyre pressures',
     summary:
       'Set pressures in the pits while the tyres are cold. Use the cited starting window for your compound, then adjust for the track and weather.',
@@ -41,8 +41,8 @@ export const BIKE_SETUP_HOTSPOTS: BikeSetupHotspot[] = [
   {
     id: 'front_width',
     kind: 'adjust',
-    xPct: 50,
-    yPct: 16,
+    xPct: 82,
+    yPct: 48,
     title: 'Front width',
     summary: 'Front track is the first chassis change after pressures. Wider front = more jacking and faster turn-in.',
     roadBase:
@@ -55,8 +55,8 @@ export const BIKE_SETUP_HOTSPOTS: BikeSetupHotspot[] = [
   {
     id: 'caster',
     kind: 'adjust',
-    xPct: 78,
-    yPct: 22,
+    xPct: 74,
+    yPct: 32,
     title: 'Caster',
     summary: 'Caster jacks the chassis: more caster = more front bite and more inside-rear lift.',
     roadBase:
@@ -69,8 +69,8 @@ export const BIKE_SETUP_HOTSPOTS: BikeSetupHotspot[] = [
   {
     id: 'camber',
     kind: 'adjust',
-    xPct: 22,
-    yPct: 48,
+    xPct: 76,
+    yPct: 58,
     title: 'Camber',
     summary: 'Typical baseline is 0–2 mm negative per side. Read the front tyre temperatures before you chase it.',
     roadBase:
@@ -82,7 +82,7 @@ export const BIKE_SETUP_HOTSPOTS: BikeSetupHotspot[] = [
   {
     id: 'toe',
     kind: 'adjust',
-    xPct: 50,
+    xPct: 93,
     yPct: 48,
     title: 'Toe',
     summary: 'Toe-out 0–3 mm (smaller motors toward 0). Toe-in is rarely used.',
@@ -94,8 +94,8 @@ export const BIKE_SETUP_HOTSPOTS: BikeSetupHotspot[] = [
   {
     id: 'axle_hubs',
     kind: 'adjust',
-    xPct: 78,
-    yPct: 48,
+    xPct: 18,
+    yPct: 50,
     title: 'Axle and hubs',
     summary: 'Stiffer axle / longer hubs = more rear grip. Softer axle keeps the inside rear up longer.',
     roadBase:
@@ -108,8 +108,8 @@ export const BIKE_SETUP_HOTSPOTS: BikeSetupHotspot[] = [
   {
     id: 'seat',
     kind: 'adjust',
-    xPct: 35,
-    yPct: 76,
+    xPct: 38,
+    yPct: 34,
     title: 'Seat position',
     summary: 'Seat is the biggest single tuning mass. Move it before you invent a new chassis setting.',
     roadBase:
@@ -121,7 +121,7 @@ export const BIKE_SETUP_HOTSPOTS: BikeSetupHotspot[] = [
   {
     id: 'ride_height',
     kind: 'adjust',
-    xPct: 68,
+    xPct: 52,
     yPct: 76,
     title: 'Ride height',
     summary: 'Baseline: front lowest; rear higher than front (wedge). Raise an end to add grip at that end.',

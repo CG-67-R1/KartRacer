@@ -5,7 +5,7 @@
     "owner": "motorsport-is-life",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/kr.png",
     "userInterfaceStyle": "automatic",
     "assetBundlePatterns": [
       "**/*"
@@ -22,15 +22,25 @@
           "UIInterfaceOrientationPortrait",
           "UIInterfaceOrientationLandscapeLeft",
           "UIInterfaceOrientationLandscapeRight"
-        ]
+        ],
+        "NSSpeechRecognitionUsageDescription": "KartRacer uses speech recognition to transcribe voice notes in Track Walk.",
+        "NSMicrophoneUsageDescription": "KartRacer uses the microphone to transcribe voice notes in Track Walk."
       }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/kr.png",
         "backgroundColor": "#0f172a"
       },
-      "package": "com.milkartracer.app"
+      "package": "com.milkartracer.app",
+      "permissions": [
+        "android.permission.READ_CALENDAR",
+        "android.permission.WRITE_CALENDAR",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.CAMERA",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
     },
     "plugins": [
       "expo-notifications",
@@ -76,7 +86,8 @@
           },
           "android": {
             "enableProguardInReleaseBuilds": true,
-            "enableShrinkResourcesInReleaseBuilds": true
+            "enableShrinkResourcesInReleaseBuilds": true,
+            "enableMinifyInReleaseBuilds": true
           }
         }
       ],
@@ -91,7 +102,7 @@
         "expo-splash-screen",
         {
           "backgroundColor": "#0f172a",
-          "image": "./assets/icon.png",
+          "image": "./assets/kr.png",
           "resizeMode": "contain"
         }
       ]
@@ -99,7 +110,9 @@
     "extra": {
       "privacyPolicyUrl": "",
       "termsOfUseUrl": "",
-      "eas": {}
+      "eas": {
+        "projectId": "35684a13-12fc-4ec6-b561-553ee80c550a"
+      }
     }
   }
 }

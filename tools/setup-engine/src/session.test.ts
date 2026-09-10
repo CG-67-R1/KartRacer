@@ -12,7 +12,49 @@ import {
   nextMainJet,
   parseLoggerCsv,
   radPercentFromWeather,
+  snapshotsForTrack,
 } from "./index.js";
+
+describe("snapshotsForTrack", () => {
+  const base = {
+    setup: defaultChassisSetup(),
+    pressures: emptyCornerPressures(),
+    temps: emptyTyreTemps(),
+  };
+  const at = (trackId: string | null, trackName: string | null, createdAt: string) =>
+    createSnapshot({
+      ...base,
+      conditions: { ...defaultConditions(), trackId, trackName },
+      createdAt,
+    });
+
+  it("filters by trackId and sorts newest first", () => {
+    const history = [
+      at("bolivark", "Bolivar", "2026-08-01T10:00:00Z"),
+      at("monartok", "Monarto", "2026-08-15T10:00:00Z"),
+      at("bolivark", "Bolivar", "2026-09-01T10:00:00Z"),
+    ];
+    const result = snapshotsForTrack(history, "bolivark");
+    expect(result).toHaveLength(2);
+    expect(result[0].createdAt).toBe("2026-09-01T10:00:00Z");
+    expect(result.every((s) => s.conditions.trackId === "bolivark")).toBe(true);
+  });
+
+  it("falls back to case-insensitive name match when trackId is null", () => {
+    const history = [
+      at(null, "My Local Track", "2026-08-01T10:00:00Z"),
+      at(null, "my local track ", "2026-08-02T10:00:00Z"),
+      at(null, "Somewhere Else", "2026-08-03T10:00:00Z"),
+    ];
+    expect(snapshotsForTrack(history, null, "My Local Track")).toHaveLength(2);
+  });
+
+  it("returns empty when no venue is set", () => {
+    const history = [at("bolivark", "Bolivar", "2026-08-01T10:00:00Z")];
+    expect(snapshotsForTrack(history, null, null)).toHaveLength(0);
+    expect(snapshotsForTrack(history, null, "  ")).toHaveLength(0);
+  });
+});
 
 describe("snapshot diff", () => {
   it("lists only fields that changed", () => {

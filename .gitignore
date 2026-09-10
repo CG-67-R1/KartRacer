@@ -46,3 +46,5 @@ marketing/promo/tools/
 
 # Internal DigiMark client pack — never ship in app / EAS / Vercel
 DigiMark_Response/
+.vercel
+.env*

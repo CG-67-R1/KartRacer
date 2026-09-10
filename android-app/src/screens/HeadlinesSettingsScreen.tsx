@@ -44,7 +44,7 @@ import {
 import { clearBikeBalanceState, loadBikeBalanceState } from '../storage/bikeBalance';
 import { clearGearingGuideState } from '../storage/gearingGuide';
 import { clearTrackWalkSessions } from '../storage/trackWalk';
-import { clearTyreWearAnalysisState } from '../storage/tyreWearAnalysis';
+import { clearKartSetupSession } from '../storage/kartSetup';
 import { clearBikePhoto } from '../storage/bikePhoto';
 
 export function HeadlinesSettingsScreen() {
@@ -261,7 +261,7 @@ export function HeadlinesSettingsScreen() {
     if (!onboardingReset) return;
     Alert.alert(
       'Delete all local data?',
-      'This permanently removes your profile, photos, Kart Setup Sheet and saved setups, Chassis Balance, Gearing Guide, Tyre Wear, and Track Walk notes from this device, then restarts onboarding.',
+      'This permanently removes your profile, photos, Kart Setup Sheet and saved setups, Kart Setup Tool, Gearing Guide, and Track Walk notes from this device, then restarts onboarding.',
       [
         { text: 'Cancel', style: 'cancel' },
         {
@@ -273,7 +273,7 @@ export function HeadlinesSettingsScreen() {
                 clearAllBikeSetupData(),
                 clearBikeBalanceState(),
                 clearGearingGuideState(),
-                clearTyreWearAnalysisState(),
+                clearKartSetupSession(),
                 clearTrackWalkSessions(),
                 clearAvatarFacePhoto(),
                 clearBikePhoto(),
@@ -524,7 +524,7 @@ export function HeadlinesSettingsScreen() {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Your data & privacy</Text>
         <Text style={styles.sectionSubtitle}>
-          Your profile, avatar, Kart Setup Sheet, saved kart setups, Chassis Balance data, and Track Walk
+          Your profile, avatar, Kart Setup Sheet, saved kart setups, Kart Setup Tool data, and Track Walk
           notes stay private in local storage on this device or browser. They are not stored in an
           online account. Sharing a setup as text only happens when you choose Messages or another app.
         </Text>

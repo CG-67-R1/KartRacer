@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, StyleProp, ImageStyle } from 'react-native';
 
-const APP_LOGO = require('../assets/RR.png');
+const APP_LOGO = require('../assets/kr.png');
 
 type AppLogoProps = {
   size?: number;

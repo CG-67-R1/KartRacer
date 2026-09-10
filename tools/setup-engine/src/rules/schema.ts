@@ -94,6 +94,15 @@ export type WetRulesFile = {
   paddockReminders: string[];
 };
 
+export type CompoundWindow = {
+  label: string;
+  coldBar: { min: number; max: number };
+  coldPsi: { min: number; max: number };
+  /** "slick" or "wet" — kept as string so JSON imports stay assignable. */
+  type: string;
+  source: string;
+};
+
 export type PressureRulesFile = {
   version: string;
   id: string;
@@ -102,4 +111,6 @@ export type PressureRulesFile = {
   stepBar: number;
   evenToleranceBar: number;
   rise: { aluminiumBar: number; magnesiumBar: number; note: string };
+  compoundsNote?: string;
+  compounds?: Record<string, CompoundWindow | null>;
 };

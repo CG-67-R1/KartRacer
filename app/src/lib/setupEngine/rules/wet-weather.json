@@ -1,0 +1,104 @@
+{
+  "version": "1.0.0",
+  "id": "wet-weather",
+  "sources": [
+    "https://www.angriracing.com/kart-setup",
+    "https://www.angriracing.com/chains-sprockets-and-ratios",
+    "https://www.angriracing.com/chassis-cornering-dynamics"
+  ],
+  "note": "Rain tyres first. This is a checklist against the current sheet — it does not silently rewrite the setup.",
+  "gearing": {
+    "rearTeethDelta": 3,
+    "why": "With rain tyres, add 3 or more rear teeth. Wetter = more teeth. As it dries, remove teeth."
+  },
+  "items": [
+    {
+      "id": "tyres",
+      "field": "tyreType",
+      "label": "Rain tyres",
+      "target": "wet",
+      "targetLabel": "wet",
+      "why": "Rain tyres first."
+    },
+    {
+      "id": "front_track",
+      "field": "frontTrack",
+      "label": "Front track",
+      "target": "max",
+      "targetLabel": "maximum (spindle extensions if the maker has them)",
+      "why": "Maximum front track for jacking and front bite in the wet."
+    },
+    {
+      "id": "rear_track",
+      "field": "rearTrack",
+      "label": "Rear track",
+      "target": "min",
+      "targetLabel": "minimum",
+      "why": "Minimum rear track for grip when the surface is slow."
+    },
+    {
+      "id": "front_rh",
+      "field": "frontRideHeight",
+      "label": "Front ride height",
+      "target": "max",
+      "targetLabel": "maximum",
+      "why": "High front ride height adds front transfer in slow corners."
+    },
+    {
+      "id": "caster",
+      "field": "caster",
+      "label": "Caster",
+      "target": "max",
+      "targetLabel": "maximum (add camber if you can)",
+      "why": "Slow corners make inside-rear lift harder. Extra caster increases jacking and front grip."
+    },
+    {
+      "id": "axle",
+      "field": "axleStiffness",
+      "label": "Axle",
+      "target": "medium",
+      "targetLabel": "medium (if time)",
+      "why": "Medium axle is the wet starting point when you have time to swap."
+    },
+    {
+      "id": "torsion",
+      "field": "rearTorsion",
+      "label": "Torsion bars",
+      "target": "off",
+      "targetLabel": "removed",
+      "why": "Remove torsion bars in the wet."
+    },
+    {
+      "id": "front_torsion",
+      "field": "frontTorsion",
+      "label": "Front torsion bar",
+      "target": "off",
+      "targetLabel": "removed",
+      "why": "Remove torsion bars in the wet."
+    },
+    {
+      "id": "seat_height",
+      "field": "seatHeight",
+      "label": "Seat height",
+      "target": "max",
+      "targetLabel": "rear ~25 mm higher (or a folded towel)",
+      "why": "A slightly higher seat helps load the outside in the wet."
+    },
+    {
+      "id": "rear_rh",
+      "field": "rearRideHeight",
+      "label": "Rear ride height",
+      "target": "max",
+      "targetLabel": "maximum",
+      "why": "Maximum rear ride height for wet grip."
+    }
+  ],
+  "paddockReminders": [
+    "Shield the rear rotor (number panel ahead of the caliper).",
+    "Tape pod holes.",
+    "WD-40 on the ignition.",
+    "Drain holes in the seat.",
+    "Airbox water deflector only if class-legal.",
+    "Drive off the oily rubbered line. Confirm class regs before changing anything marked homologated."
+  ]
+}

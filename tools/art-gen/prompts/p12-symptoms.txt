@@ -1,0 +1,51 @@
+You generate images for the KartRacer app art set. Use the image_generate tool for EACH image below, one at a time, and save each to the EXACT path given. If the tool saves elsewhere, move the file to the target path (bash mv). All images share one style; generate them in order so they match.
+
+After all images: verify each file exists with ls, then reply with ONE line per image: OK <filename> or FAIL <filename> <reason>. Nothing else.
+
+=== STYLE (applies to every image) ===
+KARTRACER visual system — obey this for the whole image.
+Product: dark paddock chassis-setup tool. Images sit on dark UI panels, not posters.
+Canvas: square 1024x1024 unless stated otherwise. Fill the frame; modest padding; subject readable at 96-160 px thumbnail.
+Background: solid #11151C near-black blue. No sky, no paddock clutter, no lens flare, no bokeh, no people, no photoreal asphalt filling the frame.
+Palette ONLY: #D7DDE8 light metal, #8B97AB muted, #2E3B52 mid, #1C2433 panel, #E8C547 gold accent (sparingly - one highlight/arrows/selected), #3ECF8E ok/grip green, #FF8A4C warn/heat orange, #EE5D5D danger red. Tyre rubber near-black with thin #2E3B52 highlight, not chrome.
+Style: technical illustration, clean vector-like 3D or isometric, crisp edges, even upper-left lighting, no dramatic shadows. Curated modern workshop diagram - not a game render, not a stock photo, not a comic.
+Kart when shown: modern CIK sprint, 1050-class tube chassis, front bumper, side pods, rear bumper, rear disc, no differential, seat, steering wheel, low-profile kart slicks unless wets stated. Chassis dark grey/black, gold accent only where specified.
+Typography: avoid words. If labels required: short ALL-CAPS clean geometric sans #E8EDF5. Never invent lap times, brands, class names.
+FORBIDDEN: watermarks, signatures, QR codes, fake phone UI, text paragraphs, AI-art glow, neon, US dirt/oval karts, vintage liveries, floating logos, chequered flags unless asked.
+
+=== IMAGES ===
+[1] Save to: C:/KartRacer/app/assets/art/kr-symptom-understeer-entry.png
+Prompt: Story tile 1 of 12 (matching set: same kart, same isometric corner, gold = the problem, no words, no driver face): kart turning left at corner entry, front tyres pushing wide of a gold apex line, fronts scrubbing.
+
+[2] Save to: C:/KartRacer/app/assets/art/kr-symptom-oversteer-entry.png
+Prompt: Tile 2 of 12: rear stepped out on corner entry, gold motion lines at the rear tyres.
+
+[3] Save to: C:/KartRacer/app/assets/art/kr-symptom-understeer-mid.png
+Prompt: Tile 3 of 12: kart at mid-corner, nose still pushing wide, gold wash at the front tyres.
+
+[4] Save to: C:/KartRacer/app/assets/art/kr-symptom-oversteer-mid.png
+Prompt: Tile 4 of 12: too much rotation at mid-corner, gold arc at the rear.
+
+[5] Save to: C:/KartRacer/app/assets/art/kr-symptom-understeer-exit.png
+Prompt: Tile 5 of 12: corner exit, nose still tight/ploughing while the kart tries to straighten, gold front plough marks.
+
+[6] Save to: C:/KartRacer/app/assets/art/kr-symptom-oversteer-exit.png
+Prompt: Tile 6 of 12: power-on exit, rear stepping out, gold at the rear tyres.
+
+[7] Save to: C:/KartRacer/app/assets/art/kr-symptom-hop.png
+Prompt: Tile 7 of 12: violent hop - inside-rear slamming, kart bouncing, gold vertical arrows at one rear tyre.
+
+[8] Save to: C:/KartRacer/app/assets/art/kr-symptom-chatter.png
+Prompt: Tile 8 of 12: high-frequency chatter - gold zigzag vibration marks on a loaded tyre contact patch.
+
+[9] Save to: C:/KartRacer/app/assets/art/kr-symptom-slide.png
+Prompt: Tile 9 of 12: all four tyres sliding together in a drift, gold four-wheel slide marks.
+
+[10] Save to: C:/KartRacer/app/assets/art/kr-symptom-side-bite.png
+Prompt: Tile 10 of 12: kart hooked/stuck to the track, gold planted hash marks under all four contact patches.
+
+[11] Save to: C:/KartRacer/app/assets/art/kr-symptom-darty.png
+Prompt: Tile 11 of 12: kart on a straight, gold left-right weave arrows at the nose.
+
+[12] Save to: C:/KartRacer/app/assets/art/kr-symptom-one-direction.png
+Prompt: Tile 12 of 12: the same kart shown twice as ghosts - a muted OK left-hand corner and a gold problem right-hand corner. No letters.

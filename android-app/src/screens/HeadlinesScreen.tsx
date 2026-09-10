@@ -140,7 +140,7 @@ export function HeadlinesScreen() {
   const { height: windowHeight } = Dimensions.get('window');
   const heroHeight = windowHeight * 0.6;
   const buttonsHeight = windowHeight * 0.4;
-  const pocBikeImage = require('../../assets/home-poc-bike.png');
+  const pocKartImage = require('../../assets/home-poc-kart.png');
 
   const avatarPreset = getAvatarPreset(avatarId);
   const faceHoleLayout = getFaceHoleLayout(avatarId);
@@ -171,7 +171,7 @@ export function HeadlinesScreen() {
               resizeMode="cover"
             />
           ) : (
-            <Image source={pocBikeImage} style={styles.heroImage} resizeMode="cover" />
+            <Image source={pocKartImage} style={styles.heroImage} resizeMode="cover" />
           )}
           {pickingPhoto && (
             <View style={styles.heroPlaceholder}>

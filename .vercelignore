@@ -1,0 +1,25 @@
+# CLI deploys from repo root. Git deploys already use Root Directory = app.
+# Leading / = repo-root only. Do not ignore app/src/data or app/src/packs.
+/android-app
+/api
+/Aus_Kart_Tracks
+/data
+/docs
+/gpt-knowledge
+/kb
+/kb-au-rules
+/packs
+/Q&A
+/scripts
+/source
+/tests
+/tools
+/.cursor
+/.github
+/DigiMark_Response
+/marketing
+**/.expo
+**/node_modules
+**/.env
+**/.env.*
+**/.env.local

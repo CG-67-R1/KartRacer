@@ -581,7 +581,7 @@ export function GearingGuideScreen() {
           drop teeth as it dries. Do not hide a handling problem with extra teeth.
         </Text>
         <TouchableOpacity onPress={() => navigation.navigate('BikeBalanceSetup')}>
-          <Text style={styles.link}>Open Chassis Balance</Text>
+          <Text style={styles.link}>Open Kart Setup Tool</Text>
         </TouchableOpacity>
       </ScrollView>
 
