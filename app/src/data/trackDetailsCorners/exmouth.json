@@ -1,0 +1,40 @@
+{
+  "trackId": "exmouth",
+  "name": "Exmouth Kart Club",
+  "lengthM": 640,
+  "startFinish": [
+    33.88,
+    42.66
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "exmouth_t1",
+      "number": 1,
+      "apex": [
+        14.79,
+        37.46
+      ],
+      "label": [
+        10.27,
+        34.9
+      ],
+      "entry": [
+        8.33,
+        65.18
+      ],
+      "exit": [
+        19.5,
+        29.94
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

@@ -1,1 +1,78 @@
-[]
+{
+  "updatedAt": "2026-09-10T08:44:51.954Z",
+  "sourceCount": 8,
+  "eventCount": 5,
+  "errors": [],
+  "events": [
+    {
+      "name": "2026 Penrite AKC Round 1",
+      "start_date": "2026-03-13",
+      "end_date": "2026-03-15",
+      "state": "NSW",
+      "venue": "C.ex Raceway, Coffs Harbour",
+      "organiser": "Karting Australia",
+      "source_id": "calendar_static_akc",
+      "source_url": "https://www.karting.net.au/ka-calendar",
+      "entry_url": "https://www.karting.net.au/ka-calendar",
+      "discipline": "kart",
+      "notes": "",
+      "confidence": "high"
+    },
+    {
+      "name": "2026 Penrite AKC Round 2",
+      "start_date": "2026-05-15",
+      "end_date": "2026-05-17",
+      "state": "QLD",
+      "venue": "Ipswich Kart Club",
+      "organiser": "Karting Australia",
+      "source_id": "calendar_static_akc",
+      "source_url": "https://www.karting.net.au/ka-calendar",
+      "entry_url": "https://www.karting.net.au/ka-calendar",
+      "discipline": "kart",
+      "notes": "",
+      "confidence": "high"
+    },
+    {
+      "name": "2026 Penrite AKC Round 3",
+      "start_date": "2026-07-03",
+      "end_date": "2026-07-05",
+      "state": "QLD",
+      "venue": "Townsville Kart Club (Sun City Raceway)",
+      "organiser": "Karting Australia",
+      "source_id": "calendar_static_akc",
+      "source_url": "https://www.karting.net.au/ka-calendar",
+      "entry_url": "https://www.karting.net.au/ka-calendar",
+      "discipline": "kart",
+      "notes": "Venue per AKC provisional entry list (handoff 2026-09-10).",
+      "confidence": "high"
+    },
+    {
+      "name": "2026 Penrite AKC Round 4",
+      "start_date": "2026-09-04",
+      "end_date": "2026-09-06",
+      "state": "VIC",
+      "venue": "Eastern Lions Kart Club, Seymour",
+      "organiser": "Karting Australia",
+      "source_id": "calendar_static_akc",
+      "source_url": "https://www.karting.net.au/ka-calendar",
+      "entry_url": "https://www.karting.net.au/ka-calendar",
+      "discipline": "kart",
+      "notes": "",
+      "confidence": "high"
+    },
+    {
+      "name": "2026 Penrite AKC Round 5",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-18",
+      "state": "SA",
+      "venue": "Bolivar Raceway, Southern Go Kart Club",
+      "organiser": "Karting Australia",
+      "source_id": "calendar_static_akc",
+      "source_url": "https://www.karting.net.au/ka-calendar",
+      "entry_url": "https://www.karting.net.au/ka-calendar",
+      "discipline": "kart",
+      "notes": "",
+      "confidence": "high"
+    }
+  ]
+}

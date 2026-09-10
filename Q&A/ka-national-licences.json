@@ -1,0 +1,87 @@
+{
+  "origin": "kb-au-rules/national/licences.md",
+  "title": "2026 KA Manual — licences",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "---\nid: ncr-licences\ntitle: KA licences, ages, grades\ntags: [licence, komp, cadet, junior, senior, grade, p-plate]\n---\n\n# KA licences, ages, grades\n\nFull tables: `data/licences.json`.\n\n## Get licensed\n\n1. Join an affiliated club (Club Finder + KOMP).\n2. Apply in **KOMP** (`portal.karting.net.au`) — membership and licence in one place.\n3. Complete safety training. D / 8-Day (and listed E) complete an **Observed Driving Session** before a Meeting.\n4. Under 18: Participant’s Licence on the parent/guardian.\n\nNo KA licence → no driving on a KA-licensed track.\n\n**Types:** competition (Cadet 9 / Cadet 12 / Junior / Senior, grades A–D plus E and 8-Day), recreational E, Vintage, Pit Crew, Participant (free), KAC, International, Dealer Trade. **8-Day:** one per person per year.\n\n## Ages (NCR, not marketing blurbs)\n\n| Level | Min | Max |\n|---|---|---|\n| Cadet 9 | 6th birthday practice; **7th to race** | 10th birthday |\n| Cadet 12 | 9th birthday | 13th birthday |\n| Junior | 11th birthday (KA2 / Junior Max / Junior Performance from **12th**) | 16th birthday |\n| Senior | **15th** new; **14th** if moving up from Junior | none |\n\nMarketing pages say Cadets 6–12, Juniors 12–15, Seniors 16+, Masters 30+. Use the table above for eligibility; class chapters add Masters 40+ (KA3 / TaG Restricted) or 32+ (DD2 / Rok GP).\n\n**Moves:** Cadet 9 → 12 from 9th, must by 10th. Cadet 12 → Junior from 11th, must by 13th.\n\n## Grades\n\nD → C: **4** endorsed Meetings. C → B: **6** Meetings or top-5 National Championship/Series. B → A: top-3 State Championship (Junior or Senior as applicable). Apply via KOMP to the State Secretary.\n\n**P plate** on D and 8-Day.\n\n**National** Cadet 9/12 and KA3: minimum **C**. KA2 / Junior Max / X30 / Rotax 125 / TaG 125 / DD2 / Rok GP: minimum **B**. TaG Restricted at State Championship+: typically **maximum C** (40+ may hold A/B). 4SS Super: typically **maximum B** unless 40+.\n\nVIC/SA: Cadet/Junior D Grade need **2× D→C endorsements** before Zonal / State Series / Cup / Trophy.\n\n## Fees (national list)\n\n8-Day **$115**. International Driver **$1145**. Other fees in `data/fees-penalties.json`. Club/state competition licence price is SKA.\n",
+  "contentBlocks": [
+    {
+      "type": "paragraph",
+      "text": "---\nid: ncr-licences\ntitle: KA licences, ages, grades\ntags: [licence, komp, cadet, junior, senior, grade, p-plate]\n---"
+    },
+    {
+      "type": "heading",
+      "text": "# KA licences, ages, grades"
+    },
+    {
+      "type": "paragraph",
+      "text": "Full tables: `data/licences.json`."
+    },
+    {
+      "type": "heading",
+      "text": "## Get licensed"
+    },
+    {
+      "type": "heading",
+      "text": "1. Join an affiliated club (Club Finder + KOMP).\n2. Apply in **KOMP** (`portal.karting.net.au`) — membership and licence in one place.\n3. Complete safety training. D / 8-Day (and listed E) complete an **Observed Driving Session** before a Meeting.\n4. Under 18: Participant’s Licence on the parent/guardian."
+    },
+    {
+      "type": "paragraph",
+      "text": "No KA licence → no driving on a KA-licensed track."
+    },
+    {
+      "type": "paragraph",
+      "text": "**Types:** competition (Cadet 9 / Cadet 12 / Junior / Senior, grades A–D plus E and 8-Day), recreational E, Vintage, Pit Crew, Participant (free), KAC, International, Dealer Trade. **8-Day:** one per person per year."
+    },
+    {
+      "type": "heading",
+      "text": "## Ages (NCR, not marketing blurbs)"
+    },
+    {
+      "type": "paragraph",
+      "text": "| Level | Min | Max |\n|---|---|---|\n| Cadet 9 | 6th birthday practice; **7th to race** | 10th birthday |\n| Cadet 12 | 9th birthday | 13th birthday |\n| Junior | 11th birthday (KA2 / Junior Max / Junior Performance from **12th**) | 16th birthday |\n| Senior | **15th** new; **14th** if moving up from Junior | none |"
+    },
+    {
+      "type": "paragraph",
+      "text": "Marketing pages say Cadets 6–12, Juniors 12–15, Seniors 16+, Masters 30+. Use the table above for eligibility; class chapters add Masters 40+ (KA3 / TaG Restricted) or 32+ (DD2 / Rok GP)."
+    },
+    {
+      "type": "paragraph",
+      "text": "**Moves:** Cadet 9 → 12 from 9th, must by 10th. Cadet 12 → Junior from 11th, must by 13th."
+    },
+    {
+      "type": "heading",
+      "text": "## Grades"
+    },
+    {
+      "type": "paragraph",
+      "text": "D → C: **4** endorsed Meetings. C → B: **6** Meetings or top-5 National Championship/Series. B → A: top-3 State Championship (Junior or Senior as applicable). Apply via KOMP to the State Secretary."
+    },
+    {
+      "type": "paragraph",
+      "text": "**P plate** on D and 8-Day."
+    },
+    {
+      "type": "paragraph",
+      "text": "**National** Cadet 9/12 and KA3: minimum **C**. KA2 / Junior Max / X30 / Rotax 125 / TaG 125 / DD2 / Rok GP: minimum **B**. TaG Restricted at State Championship+: typically **maximum C** (40+ may hold A/B). 4SS Super: typically **maximum B** unless 40+."
+    },
+    {
+      "type": "paragraph",
+      "text": "VIC/SA: Cadet/Junior D Grade need **2× D→C endorsements** before Zonal / State Series / Cup / Trophy."
+    },
+    {
+      "type": "heading",
+      "text": "## Fees (national list)"
+    },
+    {
+      "type": "paragraph",
+      "text": "8-Day **$115**. International Driver **$1145**. Other fees in `data/fees-penalties.json`. Club/state competition licence price is SKA."
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "kb-au-rules",
+    "builtAt": "2026-09-10T08:52:32.856Z"
+  }
+}

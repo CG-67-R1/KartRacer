@@ -1,0 +1,348 @@
+{
+  "trackId": "extremek",
+  "name": "Extreme Karting (Gold Coast) (Long)",
+  "lengthM": 1547,
+  "startFinish": [
+    45.93,
+    50.55
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "extremek_t1",
+      "number": 1,
+      "apex": [
+        50.79,
+        39.58
+      ],
+      "label": [
+        53.17,
+        34.96
+      ],
+      "entry": [
+        45.93,
+        50.55
+      ],
+      "exit": [
+        63.66,
+        30.98
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "extremek_t2",
+      "number": 2,
+      "apex": [
+        67.78,
+        31.22
+      ],
+      "label": [
+        71.73,
+        27.84
+      ],
+      "entry": [
+        66.73,
+        30.62
+      ],
+      "exit": [
+        68.16,
+        32.11
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "extremek_t3",
+      "number": 3,
+      "apex": [
+        57.74,
+        42.58
+      ],
+      "label": [
+        62.13,
+        39.79
+      ],
+      "entry": [
+        60.83,
+        38.86
+      ],
+      "exit": [
+        57.54,
+        44.83
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "extremek_t4",
+      "number": 4,
+      "apex": [
+        60.72,
+        47.21
+      ],
+      "label": [
+        65.8,
+        46.1
+      ],
+      "entry": [
+        59.05,
+        46.78
+      ],
+      "exit": [
+        64.13,
+        45.88
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "extremek_t5",
+      "number": 5,
+      "apex": [
+        91.27,
+        17.9
+      ],
+      "label": [
+        95.51,
+        14.89
+      ],
+      "entry": [
+        88,
+        21.56
+      ],
+      "exit": [
+        91.63,
+        15.67
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "extremek_t6",
+      "number": 6,
+      "apex": [
+        88.63,
+        12.94
+      ],
+      "label": [
+        92.56,
+        9.54
+      ],
+      "entry": [
+        90.33,
+        13.56
+      ],
+      "exit": [
+        81.5,
+        14.68
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "extremek_t7",
+      "number": 7,
+      "apex": [
+        13.26,
+        49.5
+      ],
+      "label": [
+        8.06,
+        49.32
+      ],
+      "entry": [
+        22.2,
+        41.81
+      ],
+      "exit": [
+        8.93,
+        58.8
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "extremek_t8",
+      "number": 8,
+      "apex": [
+        20.31,
+        86.79
+      ],
+      "label": [
+        17.37,
+        91.08
+      ],
+      "entry": [
+        19.53,
+        87.09
+      ],
+      "exit": [
+        20.95,
+        85.78
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "extremek_t9",
+      "number": 9,
+      "apex": [
+        14.14,
+        68.85
+      ],
+      "label": [
+        9.66,
+        71.49
+      ],
+      "entry": [
+        16.42,
+        76.3
+      ],
+      "exit": [
+        18.31,
+        55.94
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "extremek_t10",
+      "number": 10,
+      "apex": [
+        33.89,
+        47.96
+      ],
+      "label": [
+        28.83,
+        46.76
+      ],
+      "entry": [
+        32.31,
+        47.11
+      ],
+      "exit": [
+        34.75,
+        50.01
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "extremek_t11",
+      "number": 11,
+      "apex": [
+        25.27,
+        64.5
+      ],
+      "label": [
+        21.01,
+        67.48
+      ],
+      "entry": [
+        28.08,
+        59.35
+      ],
+      "exit": [
+        25.74,
+        69.22
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    },
+    {
+      "id": "extremek_t12",
+      "number": 12,
+      "apex": [
+        31.71,
+        74.5
+      ],
+      "label": [
+        29.17,
+        79.04
+      ],
+      "entry": [
+        28.41,
+        73.17
+      ],
+      "exit": [
+        35.95,
+        73.46
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 12 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T11 exit"
+    }
+  ]
+}

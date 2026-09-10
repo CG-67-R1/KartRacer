@@ -1,47 +1,130 @@
 {
-  "_status": "SKELETON v0.1 - structure only, no diagnostic content. Do not upload until populated.",
-  "version": "kart-v1.0-draft",
+  "_status": "POPULATED v1.0 (2026-09). Content from kb/playbooks/handling-troubleshoot.md, kb/topics/kart-setup.md, kb/rules/handling.json (setup-engine), kb/data/chassis-setup.json. Numbers are the modern CIK baseline; confirm class regs.",
+  "version": "kart-v1.0",
   "domain": "sprint_karting",
+  "global_rules": [
+    "one change at a time; confirm it is not the driver first",
+    "distinguish slide (add grip) from hop (reduce grip)",
+    "on a 950 chassis, axle stiffness advice can invert vs 1050 literature — if the book fails, try the opposite",
+    "pressure steps are 0.1 bar; working window 0.8-1.5 bar, start ~1.0 bar"
+  ],
   "problem_types": {
     "entry_understeer_push": {
-      "symptoms": [],
-      "primary_fixes_ordered": [],
-      "notes": "front width / caster / toe first"
+      "symptoms": ["front won't grip on turn-in", "kart runs wide at entry", "steering feels dead", "inside rear staying down"],
+      "primary_fixes_ordered": [
+        "front hubs out one spacer each side (widen front)",
+        "rear pressure +0.1 bar",
+        "raise front ride height",
+        "more toe-out",
+        "more caster",
+        "ballast forward"
+      ],
+      "notes": "If already max wide: restore start width, add caster, recheck toe/camber. Cone-worn fronts = check camber/caster before chassis moves."
     },
     "entry_oversteer": {
-      "symptoms": [],
-      "primary_fixes_ordered": []
+      "symptoms": ["rear slides on turn-in", "kart rotates too fast before apex", "too much front bite"],
+      "primary_fixes_ordered": [
+        "front hubs in one spacer (narrow front)",
+        "rear pressure -0.1 bar",
+        "ballast off the front",
+        "lower front ride height",
+        "less caster",
+        "less ackermann",
+        "narrow rear track",
+        "raise rear ride height",
+        "stiffer axle (1050 textbook - verify on 950)"
+      ]
     },
     "mid_corner_bind": {
-      "symptoms": [],
-      "primary_fixes_ordered": [],
-      "notes": "too much grip; free rear"
+      "symptoms": ["kart slows mid-corner as if braking", "steering loads the motor", "bogs while still steering", "high-grip track"],
+      "primary_fixes_ordered": [
+        "less caster",
+        "lowest rear ride height",
+        "softer axle",
+        "loosen or remove seat struts",
+        "remove rear torsion bar",
+        "more negative camber"
+      ],
+      "notes": "Too much total grip; free the rear. Classic rubbered-in condition. Also check power wasters: brake drag, tight bearings, misaligned engine mount."
     },
     "hopping": {
-      "symptoms": [],
-      "primary_fixes_ordered": [],
-      "notes": "ballast height / seat / axle / rear ride height"
+      "symptoms": ["violent bouncing mid-corner", "inside rear slams down and lifts repeatedly", "often tall or heavy driver"],
+      "primary_fixes_ordered": [
+        "lower rear ballast",
+        "seat back and down (lower CG)",
+        "lower rear ride height",
+        "softer axle",
+        "remove extra seat struts"
+      ],
+      "notes": "CG too high / rear too stiff. Do NOT confuse with tyre chatter (see tyre_chatter: chatter wants MORE rear grip)."
     },
     "exit_oversteer_slide": {
-      "symptoms": [],
-      "primary_fixes_ordered": []
+      "symptoms": ["rear steps out on throttle", "slides wide at exit", "four-wheel drift past exit kerb"],
+      "primary_fixes_ordered": [
+        "narrow rear track",
+        "rear pressure +0.1 bar (if chatter-like) or -0.1 bar hot (if over-temp)",
+        "stiffen or fit torsion bars (four-wheel slide)",
+        "seat struts on"
+      ],
+      "notes": "Separate over-temp slide (remove heat/pressure) from lack of side bite (add bars, drop hot pressures 0.1)."
     },
     "exit_bog_down": {
-      "symptoms": [],
-      "primary_fixes_ordered": [],
-      "notes": "inside rear not lifting / gearing"
+      "symptoms": ["engine bogs off the corner", "kart tight/understeers at exit", "no drive until fully straight"],
+      "primary_fixes_ordered": [
+        "narrow rear track",
+        "rear pressure +0.1 bar",
+        "softer axle",
+        "lower rear ballast",
+        "one seat strut per side",
+        "lower rear ride height"
+      ],
+      "notes": "Usually the inside rear is still lifted or the kart is bound at exit. Check gearing last - do not hide a handling fault with rear teeth."
     },
     "inside_rear_no_lift": {
-      "symptoms": [],
-      "primary_fixes_ordered": []
+      "symptoms": ["kart pushes everywhere", "no jacking feel", "flat green track", "understeer that width changes don't fix"],
+      "primary_fixes_ordered": [
+        "more caster",
+        "raise front and rear ride height",
+        "medium-stiff axle",
+        "seat struts on (two per side)",
+        "rear torsion bar in (flat)",
+        "more ackermann (inner tie-rod hole)"
+      ],
+      "notes": "Green/low-grip baseline from kart-setup. Live-axle physics: the kart cannot corner until the inside rear unloads."
     },
     "tyre_chatter": {
-      "symptoms": [],
-      "primary_fixes_ordered": []
+      "symptoms": ["high-frequency vibration mid-corner", "tyre letting go and catching", "often green track or cold tyres"],
+      "primary_fixes_ordered": [
+        "rear pressure +0.1 bar",
+        "narrower rear track",
+        "stiffer axle"
+      ],
+      "notes": "Chatter = tyre below temp letting go (ADD grip). Hop = too much grip/CG (REMOVE grip). Ask which before fixing."
     },
     "darting_instability": {
-      "symptoms": [],
-      "primary_fixes_ordered": []
+      "symptoms": ["nervous on straights", "dives into corners", "darts over bumps and kerbs"],
+      "primary_fixes_ordered": [
+        "reduce toe-out (toward 0-3 mm window)",
+        "front hubs out at least one spacer"
+      ],
+      "notes": "Also check for bent chassis / unequal corner weights if only one direction is affected."
+    },
+    "one_direction_only": {
+      "symptoms": ["handling fault appears only in left or only right corners"],
+      "primary_fixes_ordered": [
+        "check corner weights (cross target ~50%)",
+        "check for bent/twisted chassis (caster sweep L/R split ~4 mm = suspect)",
+        "check asymmetric settings and pressures"
+      ]
+    },
+    "push_kick_apex": {
+      "symptoms": ["push then sudden kick at apex on brake-to-throttle transition"],
+      "primary_fixes_ordered": [
+        "seat forward",
+        "narrow rear track",
+        "widen front",
+        "raise rear pressures"
+      ]
     }
   },
   "fix_axes": [
@@ -59,19 +142,47 @@
     "torsion_bars",
     "seat_position",
     "seat_struts",
+    "ballast_height",
     "sprocket"
   ],
-  "class_modifiers": {
-    "cadet": {},
-    "junior": {},
-    "senior_tag": {},
-    "kz2_gearbox": {},
-    "four_stroke": {}
+  "baselines": {
+    "weight_pct": { "front": 43, "rear": 57, "left_right": "50/50", "cross": "~50" },
+    "pressure_bar": { "start": 1.0, "window": [0.8, 1.5] },
+    "toe_out_mm": [0, 3],
+    "camber_neg_mm_per_side": [0, 2],
+    "tyre_temp_c": { "aim": [75, 85], "destroy": 95 },
+    "chain_slack_mm": 10,
+    "wet_extra_rear_teeth": 3
   },
-  "escalation_order_rule": "cheapest/most-reversible first: pressures -> widths -> caster/camber -> axle/hubs -> seat",
+  "class_modifiers": {
+    "cadet": {
+      "bias": "momentum driving; narrow setup windows; rear track max 1100 mm; small motors run toe toward 0; conservative changes; parent/mechanic approves all changes",
+      "brakes": "rear only"
+    },
+    "junior": {
+      "bias": "KA3 Jr / KA2 / Jr Max; conservative escalation; plain language; loop in parent/mechanic for brake/steering/axle/seat work",
+      "brakes": "rear only"
+    },
+    "senior_tag": {
+      "bias": "X30/TaG/Rotax/KA3 Snr; full fix table applies; rear track max 1400 mm",
+      "brakes": "rear only"
+    },
+    "kz2_gearbox": {
+      "bias": "front brakes fitted: braking-zone advice differs (light trail braking is real); gearbox adds downshift settling as a symptom source",
+      "brakes": "front + rear"
+    },
+    "four_stroke": {
+      "bias": "4SS Torini sealed engine: no jetting conversation; low power = momentum bias; gearing and free-rolling chassis matter more",
+      "brakes": "rear only"
+    }
+  },
+  "escalation_order_rule": "cheapest/most-reversible first: pressures -> hub spacers/track widths -> caster/camber/toe -> ride heights -> axle/hubs -> torsion bars/struts -> seat position",
   "safety_rules": [
     "no numeric setting unless cited from KB",
-    "junior classes: conservative bias",
-    "never promise lap time"
+    "junior classes: conservative bias, parent/guardian sign-off for mechanical work",
+    "never promise lap time",
+    "pressure changes max 0.1 bar per step",
+    "sprint classes brake with rear only - never advise car/bike trail-braking depth",
+    "hot/blistered tyre or brake fade = pit in immediately"
   ]
 }

@@ -1,0 +1,168 @@
+{
+  "note": "Karting Australia 2026 NCR + state regs. Confirm live Manual before racing. Separate from kb/ setup notes.",
+  "edition": "2026-update-1",
+  "router": "Match aliases/tags then open file. Prefer data/*.json for numbers.",
+  "topics": [
+    {
+      "id": "ncr-overview",
+      "title": "2026 NCR overview",
+      "file": "national/overview.md",
+      "category": "national",
+      "tags": ["ncr", "manual", "toc"],
+      "aliases": ["aka manual", "karting australia rules", "ncr", "59th edition"],
+      "summary": "Manual map, authority, and which file to open for each question type."
+    },
+    {
+      "id": "ncr-2026-changes",
+      "title": "2026 NCR headline changes",
+      "file": "national/2026-changes.md",
+      "category": "national",
+      "tags": ["2026", "lightning", "trophy", "e85"],
+      "aliases": ["what's new 2026", "trophy class", "significant incident"],
+      "summary": "Lightning appendix, Trophy Class, E85 Vintage, TaG Restricted grades, Rotax restrictor."
+    },
+    {
+      "id": "ncr-licences",
+      "title": "KA licences, ages, grades",
+      "file": "national/licences.md",
+      "category": "licence",
+      "tags": ["licence", "komp", "grade", "p-plate"],
+      "aliases": ["komp", "8-day", "d grade", "c grade", "how to get a licence", "cadet licence", "junior licence"],
+      "summary": "Club first, KOMP, ODS, P plate, D→C 4 meetings, C→B 6, age table."
+    },
+    {
+      "id": "ncr-competition",
+      "title": "Competition structure",
+      "file": "national/competition.md",
+      "category": "competition",
+      "tags": ["akc", "club", "consolidation", "ska"],
+      "aliases": ["australian kart championship", "akc", "club meeting", "social karting", "grid"],
+      "summary": "Meeting ladder, 2026 AKC venues, consolidation order, 75% finisher rule."
+    },
+    {
+      "id": "ncr-flags-driving",
+      "title": "Flags, lights, driving code",
+      "file": "national/flags-driving.md",
+      "category": "competition",
+      "tags": ["flags", "yellow", "red", "blue"],
+      "aliases": ["yellow flag", "red flag", "blue flag", "chequered", "full course yellow", "meatball"],
+      "summary": "All flag/light meanings and FCY note (mandatory in WA state events)."
+    },
+    {
+      "id": "ncr-technical",
+      "title": "Technical fuel tyres oils apparel",
+      "file": "national/technical.md",
+      "category": "technical",
+      "tags": ["fuel", "tyres", "oil", "homologation", "apparel"],
+      "aliases": ["pulp", "e85", "lecont", "maxxis", "penrite", "rib protector", "homologation"],
+      "summary": "Permitted fuels/oils, tyre suppliers, homologated engines list, apparel."
+    },
+    {
+      "id": "ncr-classes",
+      "title": "2026 Class Rules catalog",
+      "file": "national/classes.md",
+      "category": "classes",
+      "tags": ["cadet", "ka3", "tag", "4ss", "rotax"],
+      "aliases": ["cadet 9", "cadet 12", "ka3", "ka2", "ka4", "tag 125", "tag restricted", "x30", "dd2", "4ss", "junior max", "rok gp", "yamaha", "vintage", "kz2"],
+      "summary": "All national classes with ages, engines, tyres, and minimum weights."
+    },
+    {
+      "id": "ncr-fees-penalties",
+      "title": "Fees, protests, penalties",
+      "file": "national/fees-penalties.md",
+      "category": "judiciary",
+      "tags": ["protest", "appeal", "fine"],
+      "aliases": ["protest fee", "appeal", "tdf", "disqualification"],
+      "summary": "National $ list and penalty ladder. Confirm Manual for time windows."
+    },
+    {
+      "id": "state-nsw",
+      "title": "NSW 2026 State Regulations",
+      "file": "states/nsw.md",
+      "category": "state",
+      "tags": ["nsw", "kansw"],
+      "aliases": ["kansw", "nsw", "kansw combined", "trophy series"],
+      "summary": "KANSW Combined weights, Restricted Masters L/M, Trophy Series, reverse grid ≤20."
+    },
+    {
+      "id": "state-qld",
+      "title": "QLD 2026 State Regulations",
+      "file": "states/qld.md",
+      "category": "state",
+      "tags": ["qld"],
+      "aliases": ["karting queensland", "qld open performance", "tag combined"],
+      "summary": "State Cup must-classes, Combined weights, QLD Open Performance table."
+    },
+    {
+      "id": "state-sa",
+      "title": "SA 2026 State Regulations",
+      "file": "states/sa.md",
+      "category": "state",
+      "tags": ["sa"],
+      "aliases": ["karting sa", "festival state cup", "fsc", "sprocket rocket"],
+      "summary": "4SS Heavy 175 kg, cameras, FSC series, D-grade endorsements."
+    },
+    {
+      "id": "state-vic",
+      "title": "VIC 2026 State Regulations",
+      "file": "states/vic.md",
+      "category": "state",
+      "tags": ["vic"],
+      "aliases": ["karting victoria", "golden power", "country series", "victorian combined", "ladies masters"],
+      "summary": "Country + GPS series lists, Combined/Ladies Masters 165/172, reverse grid ≤8."
+    },
+    {
+      "id": "state-tas",
+      "title": "TAS 2026 State Regulations",
+      "file": "states/tas.md",
+      "category": "state",
+      "tags": ["tas"],
+      "aliases": ["karting tasmania", "tas open performance", "tas ka3 masters"],
+      "summary": "Restricted grade cap at State Cup, KA3 Masters 165/172, TAS OP table."
+    },
+    {
+      "id": "state-wa",
+      "title": "WA 2026 State Regulations",
+      "file": "states/wa.md",
+      "category": "state",
+      "tags": ["wa"],
+      "aliases": ["karting wa", "wa karting series", "wa open performance"],
+      "summary": "Series best-6, FCY mandatory, WA OP weights and 5+5 tyres."
+    },
+    {
+      "id": "ka-clubs",
+      "title": "Australian kart clubs by state",
+      "file": "clubs.md",
+      "category": "clubs",
+      "tags": ["clubs", "calendar", "contact"],
+      "aliases": ["club finder", "find a club", "kansw", "karting nsw", "eastern creek", "oakleigh", "ipswich", "tiger kart"],
+      "summary": "KA-affiliated clubs by state with phone, email, website, calendar. Karting NSW listed separately (not KA)."
+    }
+  ],
+  "playbooks": [
+    {
+      "id": "playbook-class-picker",
+      "title": "Pick an Australian class",
+      "file": "playbooks/class-picker.md",
+      "tags": ["class", "pathway"],
+      "aliases": ["what class", "which class", "beginner class"]
+    },
+    {
+      "id": "playbook-licence-path",
+      "title": "Australian licence path",
+      "file": "playbooks/licence-path.md",
+      "tags": ["licence"],
+      "aliases": ["upgrade licence", "how to get licensed"]
+    }
+  ],
+  "data": [
+    {"id": "classes", "file": "data/classes.json", "aliases": ["weights", "minimum weight", "class table"]},
+    {"id": "licences", "file": "data/licences.json", "aliases": ["grade", "komp", "age"]},
+    {"id": "restrictors", "file": "data/restrictors.json", "aliases": ["sr2", "sr3", "sr4", "aka1", "22mm"]},
+    {"id": "tyres-fuel-oils", "file": "data/tyres-fuel-oils.json", "aliases": ["lh03", "sv1", "pulp", "oil"]},
+    {"id": "fees-penalties", "file": "data/fees-penalties.json", "aliases": ["protest", "$150", "tdf"]},
+    {"id": "state-overrides", "file": "data/state-overrides.json", "aliases": ["state weight", "combined"]},
+    {"id": "meeting-levels", "file": "data/meeting-levels.json", "aliases": ["akc", "coffs", "ipswich"]},
+    {"id": "clubs", "file": "data/clubs.json", "aliases": ["club list", "club contact", "club calendar"]}
+  ]
+}

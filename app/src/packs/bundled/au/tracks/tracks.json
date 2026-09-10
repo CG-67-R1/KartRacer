@@ -1,4 +1,4051 @@
 {
   "version": 1,
-  "tracks": []
+  "tracks": [
+    {
+      "id": "albanyk",
+      "name": "Albany City Kart Club",
+      "direction": "unknown",
+      "lengthKm": "0.916 km",
+      "isOther": false,
+      "club": "Albany City Kart Club",
+      "state": "WA",
+      "lengthM": 916,
+      "lat": -34.956628,
+      "lon": 117.81554,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "albanyk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "albanyk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "a_wodongak",
+      "name": "Albury-Wodonga Kart Club (1)",
+      "layout": "1",
+      "direction": "unknown",
+      "lengthKm": "0.961 km",
+      "isOther": false,
+      "club": "Albury-Wodonga Kart Club",
+      "state": "VIC",
+      "lengthM": 961,
+      "lat": -36.097345,
+      "lon": 146.855607,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "a_wodongak_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "a_wodongak_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "a_wodongak2",
+      "name": "Albury-Wodonga Kart Club (2)",
+      "layout": "2",
+      "direction": "unknown",
+      "lengthKm": "0.718 km",
+      "isOther": false,
+      "club": "Albury-Wodonga Kart Club",
+      "state": "VIC",
+      "lengthM": 718,
+      "lat": -36.097093,
+      "lon": 146.855647,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "a_wodongak2_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "a_wodongak2_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "a_wodongak3",
+      "name": "Albury-Wodonga Kart Club (3)",
+      "layout": "3",
+      "direction": "unknown",
+      "lengthKm": "0.584 km",
+      "isOther": false,
+      "club": "Albury-Wodonga Kart Club",
+      "state": "VIC",
+      "lengthM": 584,
+      "lat": -36.097073,
+      "lon": 146.855362,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "a_wodongak3_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "a_wodongak3_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "equipvar",
+      "name": "Albury-Wodonga Kart Club (Kart Equip variant)",
+      "layout": "Kart Equip variant",
+      "direction": "unknown",
+      "lengthKm": "0.953 km",
+      "isOther": false,
+      "club": "Albury-Wodonga Kart Club",
+      "state": "VIC",
+      "lengthM": 953,
+      "lat": -36.097368,
+      "lon": 146.855645,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "equipvar_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "equipvar_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "kartequip",
+      "name": "Albury-Wodonga Kart Club (Kart Equip)",
+      "layout": "Kart Equip",
+      "direction": "unknown",
+      "lengthKm": "0.577 km",
+      "isOther": false,
+      "club": "Albury-Wodonga Kart Club",
+      "state": "VIC",
+      "lengthM": 577,
+      "lat": -36.09708,
+      "lon": 146.855355,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "kartequip_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "kartequip_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "bairnsdalek",
+      "name": "Bairnsdale Kart Club",
+      "direction": "unknown",
+      "lengthKm": "0.760 km",
+      "isOther": false,
+      "club": "Bairnsdale Kart Club",
+      "state": "VIC",
+      "lengthM": 760,
+      "lat": -37.8809,
+      "lon": 147.572147,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "bairnsdalek_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "bairnsdalek_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "ballaratk",
+      "name": "Ballarat Kart Club (Haddon Park) (1)",
+      "layout": "1",
+      "direction": "unknown",
+      "lengthKm": "0.641 km",
+      "isOther": false,
+      "club": "Ballarat Kart Club",
+      "state": "VIC",
+      "lengthM": 641,
+      "lat": -37.58916,
+      "lon": 143.713152,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "ballaratk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "ballaratk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "ballarat_2",
+      "name": "Ballarat Kart Club (Haddon Park) (2)",
+      "layout": "2",
+      "direction": "unknown",
+      "lengthKm": "0.750 km",
+      "isOther": false,
+      "club": "Ballarat Kart Club",
+      "state": "VIC",
+      "lengthM": 750,
+      "lat": -37.589137,
+      "lon": 143.713164,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "ballarat_2_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "ballarat_2_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "barossa_ccw",
+      "name": "Barossa Go-Kart Club (CCW)",
+      "layout": "CCW",
+      "direction": "unknown",
+      "lengthKm": "0.482 km",
+      "isOther": false,
+      "club": "Barossa Go-Kart Club",
+      "state": "SA",
+      "lengthM": 482,
+      "lat": -34.459279,
+      "lon": 138.986965,
+      "timezone": "Australia/Adelaide",
+      "corners": [
+        {
+          "id": "barossa_ccw_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "barossa_ccw_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "bendigok",
+      "name": "Bendigo Kart Club (Marong)",
+      "direction": "unknown",
+      "lengthKm": "0.610 km",
+      "isOther": false,
+      "club": "Bendigo Kart Club",
+      "state": "VIC",
+      "lengthM": 610,
+      "lat": -36.757837,
+      "lon": 144.240856,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "bendigok_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "bendigok_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "bhkc",
+      "name": "Broken Hill Kart Club",
+      "direction": "unknown",
+      "lengthKm": "0.385 km",
+      "isOther": false,
+      "club": "Broken Hill Kart Club",
+      "state": "NSW",
+      "lengthM": 385,
+      "lat": -31.966808,
+      "lon": 141.495072,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "bhkc_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "bhkc_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "bunburyk",
+      "name": "Bunbury City Kart Club (1)",
+      "layout": "1",
+      "direction": "unknown",
+      "lengthKm": "0.671 km",
+      "isOther": false,
+      "club": "Bunbury City Kart Club",
+      "state": "WA",
+      "lengthM": 671,
+      "lat": -33.381021,
+      "lon": 115.681359,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "bunburyk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "bunburyk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "bunkart",
+      "name": "Bunbury City Kart Club (2)",
+      "layout": "2",
+      "direction": "unknown",
+      "lengthKm": "0.692 km",
+      "isOther": false,
+      "club": "Bunbury City Kart Club",
+      "state": "WA",
+      "lengthM": 692,
+      "lat": -33.381002,
+      "lon": 115.681346,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "bunkart_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "bunkart_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "bundabergk",
+      "name": "Bundaberg Kart Club (Dromeside)",
+      "direction": "unknown",
+      "lengthKm": "0.727 km",
+      "isOther": false,
+      "club": "Bundaberg Kart Club",
+      "state": "QLD",
+      "lengthM": 727,
+      "lat": -24.896875,
+      "lon": 152.309997,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "bundabergk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "bundabergk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "burnettk",
+      "name": "Burnett Kart Track",
+      "direction": "unknown",
+      "lengthKm": "0.756 km",
+      "isOther": false,
+      "club": "Burnett Kart Track",
+      "state": "QLD",
+      "lengthM": 756,
+      "lat": -26.685763,
+      "lon": 151.990441,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "burnettk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "burnettk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "cairnsk_acw",
+      "name": "Cairns Kart Club (ACW)",
+      "layout": "ACW",
+      "direction": "unknown",
+      "lengthKm": "0.394 km",
+      "isOther": false,
+      "club": "Cairns Kart Club",
+      "state": "QLD",
+      "lengthM": 394,
+      "lat": -17.001946,
+      "lon": 145.765984,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "cairnsk_acw_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "cairnsk_acw_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "cairnsk_var1",
+      "name": "Cairns Kart Club (Var 1)",
+      "layout": "Var 1",
+      "direction": "unknown",
+      "lengthKm": "0.399 km",
+      "isOther": false,
+      "club": "Cairns Kart Club",
+      "state": "QLD",
+      "lengthM": 399,
+      "lat": -17.001959,
+      "lon": 145.765985,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "cairnsk_var1_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "cairnsk_var1_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "cairnsk_var2",
+      "name": "Cairns Kart Club (Var 2)",
+      "layout": "Var 2",
+      "direction": "unknown",
+      "lengthKm": "0.424 km",
+      "isOther": false,
+      "club": "Cairns Kart Club",
+      "state": "QLD",
+      "lengthM": 424,
+      "lat": -17.001932,
+      "lon": 145.765971,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "cairnsk_var2_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "cairnsk_var2_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "canberralong",
+      "name": "Canberra Kart Racing Club (Pialligo) (Long)",
+      "layout": "Long",
+      "direction": "unknown",
+      "lengthKm": "1.077 km",
+      "isOther": false,
+      "club": "Canberra Kart Racing Club",
+      "state": "ACT",
+      "lengthM": 1077,
+      "lat": -35.327585,
+      "lon": 149.232703,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "canberralong_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "canberralong_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "canberrak",
+      "name": "Canberra Kart Racing Club (Pialligo) (Short)",
+      "layout": "Short",
+      "direction": "unknown",
+      "lengthKm": "0.723 km",
+      "isOther": false,
+      "club": "Canberra Kart Racing Club",
+      "state": "ACT",
+      "lengthM": 723,
+      "lat": -35.327444,
+      "lon": 149.232719,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "canberrak_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "canberrak_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "rockhamptonk",
+      "name": "Cap Coast Kart Club",
+      "direction": "unknown",
+      "lengthKm": "0.846 km",
+      "isOther": false,
+      "club": "Cap Coast Kart Club",
+      "state": "QLD",
+      "lengthM": 846,
+      "lat": -23.586974,
+      "lon": 150.580347,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "rockhamptonk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "rockhamptonk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "towerskart",
+      "name": "Charters Towers Kart Track (1)",
+      "layout": "1",
+      "direction": "unknown",
+      "lengthKm": "0.548 km",
+      "isOther": false,
+      "club": "Charters Towers Kart Track",
+      "state": "QLD",
+      "lengthM": 548,
+      "lat": -20.056705,
+      "lon": 146.309457,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "towerskart_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "towerskart_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "towerskart2",
+      "name": "Charters Towers Kart Track (2)",
+      "layout": "2",
+      "direction": "unknown",
+      "lengthKm": "0.498 km",
+      "isOther": false,
+      "club": "Charters Towers Kart Track",
+      "state": "QLD",
+      "lengthM": 498,
+      "lat": -20.056678,
+      "lon": 146.309433,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "towerskart2_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "towerskart2_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "bpkc",
+      "name": "Circular Head Kart Club",
+      "direction": "unknown",
+      "lengthKm": "0.709 km",
+      "isOther": false,
+      "club": "Circular Head Kart Club",
+      "state": "TAS",
+      "lengthM": 709,
+      "lat": -40.841061,
+      "lon": 145.153447,
+      "timezone": "Australia/Hobart",
+      "corners": [
+        {
+          "id": "bpkc_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "bpkc_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "chkrc_a",
+      "name": "Coffs Harbour Kart Racing Club (C.ex Raceway) (A)",
+      "layout": "A",
+      "direction": "unknown",
+      "lengthKm": "0.816 km",
+      "isOther": false,
+      "club": "Coffs Harbour Kart Racing Club",
+      "state": "NSW",
+      "lengthM": 816,
+      "lat": -30.319903,
+      "lon": 153.098377,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "chkrc_a_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "chkrc_a_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "chkrc_a3",
+      "name": "Coffs Harbour Kart Racing Club (C.ex Raceway) (A3)",
+      "layout": "A3",
+      "direction": "unknown",
+      "lengthKm": "1.020 km",
+      "isOther": false,
+      "club": "Coffs Harbour Kart Racing Club",
+      "state": "NSW",
+      "lengthM": 1020,
+      "lat": -30.319804,
+      "lon": 153.098388,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "chkrc_a3_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "chkrc_a3_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "chkrc_b1",
+      "name": "Coffs Harbour Kart Racing Club (C.ex Raceway) (B1)",
+      "layout": "B1",
+      "direction": "unknown",
+      "lengthKm": "0.773 km",
+      "isOther": false,
+      "club": "Coffs Harbour Kart Racing Club",
+      "state": "NSW",
+      "lengthM": 773,
+      "lat": -30.319896,
+      "lon": 153.098383,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "chkrc_b1_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "chkrc_b1_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "chkrc_c",
+      "name": "Coffs Harbour Kart Racing Club (C.ex Raceway) (C)",
+      "layout": "C",
+      "direction": "unknown",
+      "lengthKm": "0.575 km",
+      "isOther": false,
+      "club": "Coffs Harbour Kart Racing Club",
+      "state": "NSW",
+      "lengthM": 575,
+      "lat": -30.320199,
+      "lon": 153.098371,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "chkrc_c_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "chkrc_c_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "chkrc_d",
+      "name": "Coffs Harbour Kart Racing Club (C.ex Raceway) (D)",
+      "layout": "D",
+      "direction": "unknown",
+      "lengthKm": "0.621 km",
+      "isOther": false,
+      "club": "Coffs Harbour Kart Racing Club",
+      "state": "NSW",
+      "lengthM": 621,
+      "lat": -30.320199,
+      "lon": 153.098365,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "chkrc_d_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "chkrc_d_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "chkrc_e1",
+      "name": "Coffs Harbour Kart Racing Club (C.ex Raceway) (E1)",
+      "layout": "E1",
+      "direction": "unknown",
+      "lengthKm": "0.638 km",
+      "isOther": false,
+      "club": "Coffs Harbour Kart Racing Club",
+      "state": "NSW",
+      "lengthM": 638,
+      "lat": -30.319907,
+      "lon": 153.098375,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "chkrc_e1_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "chkrc_e1_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "cdkc",
+      "name": "Combined Districts Kart Club (Marrangaroo)",
+      "direction": "unknown",
+      "lengthKm": "0.721 km",
+      "isOther": false,
+      "club": "Combined Districts Kart Club",
+      "state": "NSW",
+      "lengthM": 721,
+      "lat": -33.453852,
+      "lon": 150.107997,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "cdkc_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "cdkc_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "cooloolak",
+      "name": "Cooloola Coast Kart Club (Gympie Gold Raceway)",
+      "direction": "unknown",
+      "lengthKm": "0.857 km",
+      "isOther": false,
+      "club": "Cooloola Coast Kart Club",
+      "state": "QLD",
+      "lengthM": 857,
+      "lat": -26.22823,
+      "lon": 152.700337,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "cooloolak_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "cooloolak_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "dalbyk",
+      "name": "Dalby Kart Track",
+      "direction": "unknown",
+      "lengthKm": "0.536 km",
+      "isOther": false,
+      "club": "Dalby Kart Track",
+      "state": "QLD",
+      "lengthM": 536,
+      "lat": -27.182337,
+      "lon": 151.230192,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "dalbyk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "dalbyk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "darwink_var1",
+      "name": "Darwin Karting Association (Hidden Valley) (Var 1)",
+      "layout": "Var 1",
+      "direction": "unknown",
+      "lengthKm": "0.861 km",
+      "isOther": false,
+      "club": "Darwin Karting Association",
+      "state": "NT",
+      "lengthM": 861,
+      "lat": -12.444015,
+      "lon": 130.912093,
+      "timezone": "Australia/Darwin",
+      "corners": [
+        {
+          "id": "darwink_var1_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "darwink_var1_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "darwink_var2",
+      "name": "Darwin Karting Association (Hidden Valley) (Var 2)",
+      "layout": "Var 2",
+      "direction": "unknown",
+      "lengthKm": "0.771 km",
+      "isOther": false,
+      "club": "Darwin Karting Association",
+      "state": "NT",
+      "lengthM": 771,
+      "lat": -12.44402,
+      "lon": 130.912138,
+      "timezone": "Australia/Darwin",
+      "corners": [
+        {
+          "id": "darwink_var2_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "darwink_var2_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "darwink_var3",
+      "name": "Darwin Karting Association (Hidden Valley) (Var 3)",
+      "layout": "Var 3",
+      "direction": "unknown",
+      "lengthKm": "1.001 km",
+      "isOther": false,
+      "club": "Darwin Karting Association",
+      "state": "NT",
+      "lengthM": 1001,
+      "lat": -12.444017,
+      "lon": 130.912084,
+      "timezone": "Australia/Darwin",
+      "corners": [
+        {
+          "id": "darwink_var3_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "darwink_var3_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "dubbok",
+      "name": "Dubbo Kart Club",
+      "direction": "unknown",
+      "lengthKm": "1.004 km",
+      "isOther": false,
+      "club": "Dubbo Kart Club",
+      "state": "NSW",
+      "lengthM": 1004,
+      "lat": -32.169018,
+      "lon": 148.6159,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "dubbok_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "dubbok_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "goldfieldsk",
+      "name": "Eastern Goldfields Kart Club (Kalgoorlie)",
+      "direction": "unknown",
+      "lengthKm": "0.905 km",
+      "isOther": false,
+      "club": "Eastern Goldfields Kart Club",
+      "state": "WA",
+      "lengthM": 905,
+      "lat": -30.797145,
+      "lon": 121.441546,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "goldfieldsk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "goldfieldsk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "elkc",
+      "name": "Eastern Lions Kart Club (Hume International) (National)",
+      "layout": "National",
+      "direction": "unknown",
+      "lengthKm": "1.032 km",
+      "isOther": false,
+      "club": "Eastern Lions Kart Club",
+      "state": "VIC",
+      "lengthM": 1032,
+      "lat": -37.012121,
+      "lon": 145.027291,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "elkc_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "elkc_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "elkc_short",
+      "name": "Eastern Lions Kart Club (Hume International) (Short)",
+      "layout": "Short",
+      "direction": "unknown",
+      "lengthKm": "0.835 km",
+      "isOther": false,
+      "club": "Eastern Lions Kart Club",
+      "state": "VIC",
+      "lengthM": 835,
+      "lat": -37.012121,
+      "lon": 145.027553,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "elkc_short_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "elkc_short_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "emerald_acw",
+      "name": "Emerald Kart Club (ACW)",
+      "layout": "ACW",
+      "direction": "unknown",
+      "lengthKm": "0.970 km",
+      "isOther": false,
+      "club": "Emerald Kart Club",
+      "state": "QLD",
+      "lengthM": 970,
+      "lat": -23.540532,
+      "lon": 148.210026,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "emerald_acw_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "emerald_acw_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "emerald_cw",
+      "name": "Emerald Kart Club (CW)",
+      "layout": "CW",
+      "direction": "unknown",
+      "lengthKm": "0.969 km",
+      "isOther": false,
+      "club": "Emerald Kart Club",
+      "state": "QLD",
+      "lengthM": 969,
+      "lat": -23.540489,
+      "lon": 148.210029,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "emerald_cw_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "emerald_cw_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "esperancek",
+      "name": "Esperance Kart Klub",
+      "direction": "unknown",
+      "lengthKm": "0.646 km",
+      "isOther": false,
+      "club": "Esperance Kart Klub",
+      "state": "WA",
+      "lengthM": 646,
+      "lat": -33.759052,
+      "lon": 121.871379,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "esperancek_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "esperancek_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "exmouth",
+      "name": "Exmouth Kart Club",
+      "direction": "unknown",
+      "lengthKm": "0.640 km",
+      "isOther": false,
+      "club": "Exmouth Kart Club",
+      "state": "WA",
+      "lengthM": 640,
+      "lat": -21.959123,
+      "lon": 114.132357,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "exmouth_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "exmouth_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "extremek",
+      "name": "Extreme Karting (Gold Coast) (Long)",
+      "layout": "Long",
+      "direction": "unknown",
+      "lengthKm": "1.547 km",
+      "isOther": false,
+      "club": "Extreme Karting",
+      "state": "QLD",
+      "lengthM": 1547,
+      "lat": -27.790501,
+      "lon": 153.311626,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "extremek_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "extremek_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "extremek_s",
+      "name": "Extreme Karting (Gold Coast) (Short)",
+      "layout": "Short",
+      "direction": "unknown",
+      "lengthKm": "1.127 km",
+      "isOther": false,
+      "club": "Extreme Karting",
+      "state": "QLD",
+      "lengthM": 1127,
+      "lat": -27.790726,
+      "lon": 153.311039,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "extremek_s_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "extremek_s_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "geelongk",
+      "name": "Geelong Kart Track",
+      "direction": "unknown",
+      "lengthKm": "0.734 km",
+      "isOther": false,
+      "club": "Geelong Kart Track",
+      "state": "VIC",
+      "lengthM": 734,
+      "lat": -38.059393,
+      "lon": 144.383328,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "geelongk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "geelongk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "gippslandk",
+      "name": "Gippsland Go-Kart Club (Tramway Park)",
+      "direction": "unknown",
+      "lengthKm": "0.611 km",
+      "isOther": false,
+      "club": "Gippsland Go-Kart Club",
+      "state": "VIC",
+      "lengthM": 611,
+      "lat": -38.234476,
+      "lon": 146.439831,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "gippslandk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "gippslandk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "gladstonek",
+      "name": "Gladstone Kart Club (Formula K Raceway)",
+      "direction": "unknown",
+      "lengthKm": "0.693 km",
+      "isOther": false,
+      "club": "Gladstone Kart Club",
+      "state": "QLD",
+      "lengthM": 693,
+      "lat": -23.905776,
+      "lon": 151.288393,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "gladstonek_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "gladstonek_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "clubsa_a_ccw",
+      "name": "Go Kart Club of SA (Monarto / Rocky Gully) (A CCW)",
+      "layout": "A CCW",
+      "direction": "unknown",
+      "lengthKm": "0.979 km",
+      "isOther": false,
+      "club": "Go Kart Club of SA",
+      "state": "SA",
+      "lengthM": 979,
+      "lat": -35.120268,
+      "lon": 139.174244,
+      "timezone": "Australia/Adelaide",
+      "corners": [
+        {
+          "id": "clubsa_a_ccw_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "clubsa_a_ccw_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "clubsa_a_cw",
+      "name": "Go Kart Club of SA (Monarto / Rocky Gully) (A CW)",
+      "layout": "A CW",
+      "direction": "unknown",
+      "lengthKm": "0.978 km",
+      "isOther": false,
+      "club": "Go Kart Club of SA",
+      "state": "SA",
+      "lengthM": 978,
+      "lat": -35.120238,
+      "lon": 139.174241,
+      "timezone": "Australia/Adelaide",
+      "corners": [
+        {
+          "id": "clubsa_a_cw_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "clubsa_a_cw_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "clubsa_b_cw",
+      "name": "Go Kart Club of SA (Monarto / Rocky Gully) (B CW)",
+      "layout": "B CW",
+      "direction": "unknown",
+      "lengthKm": "0.786 km",
+      "isOther": false,
+      "club": "Go Kart Club of SA",
+      "state": "SA",
+      "lengthM": 786,
+      "lat": -35.120249,
+      "lon": 139.174231,
+      "timezone": "Australia/Adelaide",
+      "corners": [
+        {
+          "id": "clubsa_b_cw_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "clubsa_b_cw_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "clubsa_c_ccw",
+      "name": "Go Kart Club of SA (Monarto / Rocky Gully) (C CCW)",
+      "layout": "C CCW",
+      "direction": "unknown",
+      "lengthKm": "0.749 km",
+      "isOther": false,
+      "club": "Go Kart Club of SA",
+      "state": "SA",
+      "lengthM": 749,
+      "lat": -35.120059,
+      "lon": 139.17422,
+      "timezone": "Australia/Adelaide",
+      "corners": [
+        {
+          "id": "clubsa_c_ccw_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "clubsa_c_ccw_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "gok_world_ac",
+      "name": "Go Kart World (Newcastle) (ACW)",
+      "layout": "ACW",
+      "direction": "unknown",
+      "lengthKm": "1.017 km",
+      "isOther": false,
+      "club": "Go Kart World",
+      "state": "NSW",
+      "lengthM": 1017,
+      "lat": -32.89753,
+      "lon": 151.591888,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "gok_world_ac_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "gok_world_ac_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "gok_world_cw",
+      "name": "Go Kart World (Newcastle) (CW)",
+      "layout": "CW",
+      "direction": "unknown",
+      "lengthKm": "1.018 km",
+      "isOther": false,
+      "club": "Go Kart World",
+      "state": "NSW",
+      "lengthM": 1018,
+      "lat": -32.897564,
+      "lon": 151.59189,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "gok_world_cw_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "gok_world_cw_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "gkcv_cw",
+      "name": "Go-Kart Club of Victoria (Port Melbourne) (CW)",
+      "layout": "CW",
+      "direction": "unknown",
+      "lengthKm": "0.945 km",
+      "isOther": false,
+      "club": "Go-Kart Club of Victoria",
+      "state": "VIC",
+      "lengthM": 945,
+      "lat": -37.830836,
+      "lon": 144.913552,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "gkcv_cw_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "gkcv_cw_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "gkcv",
+      "name": "Go-Kart Club of Victoria (Port Melbourne) (National)",
+      "layout": "National",
+      "direction": "unknown",
+      "lengthKm": "0.883 km",
+      "isOther": false,
+      "club": "Go-Kart Club of Victoria",
+      "state": "VIC",
+      "lengthM": 883,
+      "lat": -37.830812,
+      "lon": 144.913561,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "gkcv_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "gkcv_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "gvkc",
+      "name": "Goulburn Valley Kart Club (Numurkah)",
+      "direction": "unknown",
+      "lengthKm": "0.514 km",
+      "isOther": false,
+      "club": "Goulburn Valley Kart Club",
+      "state": "VIC",
+      "lengthM": 514,
+      "lat": -36.09839,
+      "lon": 145.486257,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "gvkc_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "gvkc_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "indy800c",
+      "name": "Greater Sydney Kart Club (Indy 800) (Club)",
+      "layout": "Club",
+      "direction": "unknown",
+      "lengthKm": "0.767 km",
+      "isOther": false,
+      "club": "Greater Sydney Kart Club",
+      "state": "NSW",
+      "lengthM": 767,
+      "lat": -33.571621,
+      "lon": 150.836379,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "indy800c_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "indy800c_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "indy800_sh",
+      "name": "Greater Sydney Kart Club (Indy 800) (Short)",
+      "layout": "Short",
+      "direction": "unknown",
+      "lengthKm": "0.504 km",
+      "isOther": false,
+      "club": "Greater Sydney Kart Club",
+      "state": "NSW",
+      "lengthM": 504,
+      "lat": -33.571601,
+      "lon": 150.836788,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "indy800_sh_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "indy800_sh_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "grenfellk",
+      "name": "Grenfell Kart Club",
+      "direction": "unknown",
+      "lengthKm": "0.642 km",
+      "isOther": false,
+      "club": "Grenfell Kart Club",
+      "state": "NSW",
+      "lengthM": 642,
+      "lat": -33.844624,
+      "lon": 148.08708,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "grenfellk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "grenfellk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "griffithk",
+      "name": "Griffith Kart Club",
+      "direction": "unknown",
+      "lengthKm": "0.788 km",
+      "isOther": false,
+      "club": "Griffith Kart Club",
+      "state": "NSW",
+      "lengthM": 788,
+      "lat": -34.26083,
+      "lon": 145.987846,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "griffithk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "griffithk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "hamiltonk",
+      "name": "Hamilton Kart Club (Buckley Park)",
+      "direction": "unknown",
+      "lengthKm": "0.674 km",
+      "isOther": false,
+      "club": "Hamilton Kart Club",
+      "state": "VIC",
+      "lengthM": 674,
+      "lat": -37.849266,
+      "lon": 142.072705,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "hamiltonk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "hamiltonk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "hedlandkart",
+      "name": "Hedland Kart Club (1)",
+      "layout": "1",
+      "direction": "unknown",
+      "lengthKm": "0.670 km",
+      "isOther": false,
+      "club": "Hedland Kart Club",
+      "state": "WA",
+      "lengthM": 670,
+      "lat": -20.388401,
+      "lon": 118.655963,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "hedlandkart_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "hedlandkart_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "port_hedland",
+      "name": "Hedland Kart Club (2)",
+      "layout": "2",
+      "direction": "unknown",
+      "lengthKm": "0.665 km",
+      "isOther": false,
+      "club": "Hedland Kart Club",
+      "state": "WA",
+      "lengthM": 665,
+      "lat": -20.388408,
+      "lon": 118.655942,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "port_hedland_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "port_hedland_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "wundowie_wa",
+      "name": "Hurricane Go Kart Club (Wundowie)",
+      "direction": "unknown",
+      "lengthKm": "0.728 km",
+      "isOther": false,
+      "club": "Hurricane Go Kart Club",
+      "state": "WA",
+      "lengthM": 728,
+      "lat": -31.76187,
+      "lon": 116.370968,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "wundowie_wa_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "wundowie_wa_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "impalak",
+      "name": "Impala Kart Club (Tom Price)",
+      "direction": "unknown",
+      "lengthKm": "0.642 km",
+      "isOther": false,
+      "club": "Impala Kart Club",
+      "state": "WA",
+      "lengthM": 642,
+      "lat": -22.698993,
+      "lon": 117.788734,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "impalak_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "impalak_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "ipswichk",
+      "name": "Ipswich Kart Club (1)",
+      "layout": "1",
+      "direction": "unknown",
+      "lengthKm": "1.040 km",
+      "isOther": false,
+      "club": "Ipswich Kart Club",
+      "state": "QLD",
+      "lengthM": 1040,
+      "lat": -27.693379,
+      "lon": 152.666104,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "ipswichk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "ipswichk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "ipswichk2",
+      "name": "Ipswich Kart Club (2)",
+      "layout": "2",
+      "direction": "unknown",
+      "lengthKm": "0.894 km",
+      "isOther": false,
+      "club": "Ipswich Kart Club",
+      "state": "QLD",
+      "lengthM": 894,
+      "lat": -27.693363,
+      "lon": 152.666108,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "ipswichk2_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "ipswichk2_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "jabiruk",
+      "name": "Jabiru Kart Track",
+      "direction": "unknown",
+      "lengthKm": "0.696 km",
+      "isOther": false,
+      "club": "Jabiru Kart Track",
+      "state": "NT",
+      "lengthM": 696,
+      "lat": -12.656115,
+      "lon": 132.83956,
+      "timezone": "Australia/Darwin",
+      "corners": [
+        {
+          "id": "jabiruk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "jabiruk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "karratha",
+      "name": "Karratha Kart Club (National)",
+      "layout": "National",
+      "direction": "unknown",
+      "lengthKm": "0.668 km",
+      "isOther": false,
+      "club": "Karratha Kart Club",
+      "state": "WA",
+      "lengthM": 668,
+      "lat": -20.774298,
+      "lon": 116.874042,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "karratha_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "karratha_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "karratha_sh",
+      "name": "Karratha Kart Club (Short)",
+      "layout": "Short",
+      "direction": "unknown",
+      "lengthKm": "0.634 km",
+      "isOther": false,
+      "club": "Karratha Kart Club",
+      "state": "WA",
+      "lengthM": 634,
+      "lat": -20.774319,
+      "lon": 116.87406,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "karratha_sh_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "karratha_sh_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "lakekingk",
+      "name": "Lake King Kart Club",
+      "direction": "unknown",
+      "lengthKm": "0.657 km",
+      "isOther": false,
+      "club": "Lake King Kart Club",
+      "state": "WA",
+      "lengthM": 657,
+      "lat": -33.089985,
+      "lon": 119.671657,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "lakekingk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "lakekingk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "launcestonk",
+      "name": "Launceston Kart Club (Archerville) (1)",
+      "layout": "1",
+      "direction": "unknown",
+      "lengthKm": "0.753 km",
+      "isOther": false,
+      "club": "Launceston Kart Club",
+      "state": "TAS",
+      "lengthM": 753,
+      "lat": -41.32332,
+      "lon": 147.135308,
+      "timezone": "Australia/Hobart",
+      "corners": [
+        {
+          "id": "launcestonk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "launcestonk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "lkc",
+      "name": "Launceston Kart Club (Archerville) (2)",
+      "layout": "2",
+      "direction": "unknown",
+      "lengthKm": "0.757 km",
+      "isOther": false,
+      "club": "Launceston Kart Club",
+      "state": "TAS",
+      "lengthM": 757,
+      "lat": -41.323295,
+      "lon": 147.135315,
+      "timezone": "Australia/Hobart",
+      "corners": [
+        {
+          "id": "lkc_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "lkc_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "lismorek",
+      "name": "Lismore Kart Club",
+      "direction": "unknown",
+      "lengthKm": "0.639 km",
+      "isOther": false,
+      "club": "Lismore Kart Club",
+      "state": "NSW",
+      "lengthM": 639,
+      "lat": -28.793427,
+      "lon": 153.274766,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "lismorek_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "lismorek_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "mackayk",
+      "name": "Mackay Kart Track",
+      "direction": "unknown",
+      "lengthKm": "0.756 km",
+      "isOther": false,
+      "club": "Mackay Kart Track",
+      "state": "QLD",
+      "lengthM": 756,
+      "lat": -21.205254,
+      "lon": 149.072538,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "mackayk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "mackayk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "mvkc_2024",
+      "name": "Manning Valley Kart Club (Wingham)",
+      "direction": "unknown",
+      "lengthKm": "0.688 km",
+      "isOther": false,
+      "club": "Manning Valley Kart Club",
+      "state": "NSW",
+      "lengthM": 688,
+      "lat": -31.84878,
+      "lon": 152.371997,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "mvkc_2024_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "mvkc_2024_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "mfastkartcoc",
+      "name": "Mega Fast Karts (Cockburn) (Cockburn)",
+      "layout": "Cockburn",
+      "direction": "unknown",
+      "lengthKm": "0.639 km",
+      "isOther": false,
+      "club": "Mega Fast Karts",
+      "state": "WA",
+      "lengthM": 639,
+      "lat": -32.169274,
+      "lon": 115.776327,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "mfastkartcoc_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "mfastkartcoc_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "mfastkartd",
+      "name": "Mega Fast Karts (Cockburn) (D)",
+      "layout": "D",
+      "direction": "unknown",
+      "lengthKm": "0.639 km",
+      "isOther": false,
+      "club": "Mega Fast Karts",
+      "state": "WA",
+      "lengthM": 639,
+      "lat": -32.169274,
+      "lon": 115.776327,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "mfastkartd_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "mfastkartd_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "megafastb",
+      "name": "Mega Fast Karts (Wanneroo) (B)",
+      "layout": "B",
+      "direction": "unknown",
+      "lengthKm": "1.016 km",
+      "isOther": false,
+      "club": "Mega Fast Karts",
+      "state": "WA",
+      "lengthM": 1016,
+      "lat": -31.663986,
+      "lon": 115.800205,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "megafastb_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "megafastb_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "megafastc",
+      "name": "Mega Fast Karts (Wanneroo) (C)",
+      "layout": "C",
+      "direction": "unknown",
+      "lengthKm": "0.768 km",
+      "isOther": false,
+      "club": "Mega Fast Karts",
+      "state": "WA",
+      "lengthM": 768,
+      "lat": -31.663989,
+      "lon": 115.800234,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "megafastc_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "megafastc_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "megafastkart",
+      "name": "Mega Fast Karts (Wanneroo) (National)",
+      "layout": "National",
+      "direction": "unknown",
+      "lengthKm": "0.821 km",
+      "isOther": false,
+      "club": "Mega Fast Karts",
+      "state": "WA",
+      "lengthM": 821,
+      "lat": -31.664255,
+      "lon": 115.800088,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "megafastkart_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "megafastkart_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "geraldtonk_2",
+      "name": "Midwest Kart Club (Geraldton) (2)",
+      "layout": "2",
+      "direction": "unknown",
+      "lengthKm": "0.664 km",
+      "isOther": false,
+      "club": "Midwest Kart Club",
+      "state": "WA",
+      "lengthM": 664,
+      "lat": -28.781712,
+      "lon": 114.732197,
+      "timezone": "Australia/Perth",
+      "corners": [
+        {
+          "id": "geraldtonk_2_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "geraldtonk_2_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "mildurak",
+      "name": "Mildura Kart Club",
+      "direction": "unknown",
+      "lengthKm": "0.764 km",
+      "isOther": false,
+      "club": "Mildura Kart Club",
+      "state": "VIC",
+      "lengthM": 764,
+      "lat": -34.232076,
+      "lon": 142.079841,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "mildurak_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "mildurak_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "moranbahk",
+      "name": "Moranbah Kart Track",
+      "direction": "unknown",
+      "lengthKm": "0.522 km",
+      "isOther": false,
+      "club": "Moranbah Kart Track",
+      "state": "QLD",
+      "lengthM": 522,
+      "lat": -21.989836,
+      "lon": 148.025083,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "moranbahk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "moranbahk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "mt_isa",
+      "name": "Mount Isa Kart Track",
+      "direction": "unknown",
+      "lengthKm": "0.463 km",
+      "isOther": false,
+      "club": "Mount Isa Kart Track",
+      "state": "QLD",
+      "lengthM": 463,
+      "lat": -20.76001,
+      "lon": 139.501647,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "mt_isa_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "mt_isa_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "mtgambierk",
+      "name": "Mt Gambier Karting Club (Glenburnie) (National)",
+      "layout": "National",
+      "direction": "unknown",
+      "lengthKm": "0.740 km",
+      "isOther": false,
+      "club": "Mt Gambier Karting Club",
+      "state": "SA",
+      "lengthM": 740,
+      "lat": -37.856473,
+      "lon": 140.864239,
+      "timezone": "Australia/Adelaide",
+      "corners": [
+        {
+          "id": "mtgambierk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "mtgambierk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "mtgambierk_s",
+      "name": "Mt Gambier Karting Club (Glenburnie) (Short)",
+      "layout": "Short",
+      "direction": "unknown",
+      "lengthKm": "0.359 km",
+      "isOther": false,
+      "club": "Mt Gambier Karting Club",
+      "state": "SA",
+      "lengthM": 359,
+      "lat": -37.856302,
+      "lon": 140.864174,
+      "timezone": "Australia/Adelaide",
+      "corners": [
+        {
+          "id": "mtgambierk_s_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "mtgambierk_s_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "nwkc",
+      "name": "North Western Kart Club (Highclere)",
+      "direction": "unknown",
+      "lengthKm": "0.747 km",
+      "isOther": false,
+      "club": "North Western Kart Club",
+      "state": "TAS",
+      "lengthM": 747,
+      "lat": -41.187462,
+      "lon": 145.805801,
+      "timezone": "Australia/Hobart",
+      "corners": [
+        {
+          "id": "nwkc_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "nwkc_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "oakleighk",
+      "name": "Oakleigh Go-Kart Club (Clayton) (Club)",
+      "layout": "Club",
+      "direction": "unknown",
+      "lengthKm": "0.793 km",
+      "isOther": false,
+      "club": "Oakleigh Go-Kart Club",
+      "state": "VIC",
+      "lengthM": 793,
+      "lat": -37.953767,
+      "lon": 145.120024,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "oakleighk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "oakleighk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "oakleigh_lon",
+      "name": "Oakleigh Go-Kart Club (Clayton) (Long)",
+      "layout": "Long",
+      "direction": "unknown",
+      "lengthKm": "0.996 km",
+      "isOther": false,
+      "club": "Oakleigh Go-Kart Club",
+      "state": "VIC",
+      "lengthM": 996,
+      "lat": -37.95341,
+      "lon": 145.119997,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "oakleigh_lon_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "oakleigh_lon_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "oakleigh_new",
+      "name": "Oakleigh Go-Kart Club (Clayton) (New)",
+      "layout": "New",
+      "direction": "unknown",
+      "lengthKm": "0.971 km",
+      "isOther": false,
+      "club": "Oakleigh Go-Kart Club",
+      "state": "VIC",
+      "lengthM": 971,
+      "lat": -37.953384,
+      "lon": 145.120037,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "oakleigh_new_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "oakleigh_new_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "orangek_a",
+      "name": "Orange Kart Club (A)",
+      "layout": "A",
+      "direction": "unknown",
+      "lengthKm": "0.354 km",
+      "isOther": false,
+      "club": "Orange Kart Club",
+      "state": "NSW",
+      "lengthM": 354,
+      "lat": -33.302285,
+      "lon": 149.127866,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "orangek_a_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "orangek_a_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "orangek_b",
+      "name": "Orange Kart Club (B)",
+      "layout": "B",
+      "direction": "unknown",
+      "lengthKm": "0.696 km",
+      "isOther": false,
+      "club": "Orange Kart Club",
+      "state": "NSW",
+      "lengthM": 696,
+      "lat": -33.303193,
+      "lon": 149.128147,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "orangek_b_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "orangek_b_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "orangek_c",
+      "name": "Orange Kart Club (C)",
+      "layout": "C",
+      "direction": "unknown",
+      "lengthKm": "0.829 km",
+      "isOther": false,
+      "club": "Orange Kart Club",
+      "state": "NSW",
+      "lengthM": 829,
+      "lat": -33.303194,
+      "lon": 149.128137,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "orangek_c_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "orangek_c_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "pi_kart",
+      "name": "Phillip Island Kart Track",
+      "direction": "unknown",
+      "lengthKm": "0.712 km",
+      "isOther": false,
+      "club": "Phillip Island Kart Track",
+      "state": "VIC",
+      "lengthM": 712,
+      "lat": -38.507933,
+      "lon": 145.230785,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "pi_kart_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "pi_kart_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "pictionk",
+      "name": "Picton Kart Track",
+      "direction": "unknown",
+      "lengthKm": "0.603 km",
+      "isOther": false,
+      "club": "Picton Kart Track",
+      "state": "NSW",
+      "lengthM": 603,
+      "lat": -34.19041,
+      "lon": 150.632629,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "pictionk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "pictionk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "portgawlerk",
+      "name": "Port Gawler Kart Track",
+      "direction": "unknown",
+      "lengthKm": "0.677 km",
+      "isOther": false,
+      "club": "Port Gawler Kart Track",
+      "state": "SA",
+      "lengthM": 677,
+      "lat": -34.646248,
+      "lon": 138.443857,
+      "timezone": "Australia/Adelaide",
+      "corners": [
+        {
+          "id": "portgawlerk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "portgawlerk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "pmkrc_var1",
+      "name": "Port Macquarie Kart Racing Club (Var 1)",
+      "layout": "Var 1",
+      "direction": "unknown",
+      "lengthKm": "1.010 km",
+      "isOther": false,
+      "club": "Port Macquarie Kart Racing Club",
+      "state": "NSW",
+      "lengthM": 1010,
+      "lat": -31.52411,
+      "lon": 152.790352,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "pmkrc_var1_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "pmkrc_var1_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "pmkrc_var2",
+      "name": "Port Macquarie Kart Racing Club (Var 2)",
+      "layout": "Var 2",
+      "direction": "unknown",
+      "lengthKm": "1.010 km",
+      "isOther": false,
+      "club": "Port Macquarie Kart Racing Club",
+      "state": "NSW",
+      "lengthM": 1010,
+      "lat": -31.52411,
+      "lon": 152.790352,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "pmkrc_var2_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "pmkrc_var2_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "pdkc_long",
+      "name": "Portland District Karting Club (Long)",
+      "layout": "Long",
+      "direction": "unknown",
+      "lengthKm": "0.717 km",
+      "isOther": false,
+      "club": "Portland District Karting Club",
+      "state": "VIC",
+      "lengthM": 717,
+      "lat": -38.366857,
+      "lon": 141.585393,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "pdkc_long_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "pdkc_long_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "pdkc_short",
+      "name": "Portland District Karting Club (Short)",
+      "layout": "Short",
+      "direction": "unknown",
+      "lengthKm": "0.475 km",
+      "isOther": false,
+      "club": "Portland District Karting Club",
+      "state": "VIC",
+      "lengthM": 475,
+      "lat": -38.36686,
+      "lon": 141.585393,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "pdkc_short_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "pdkc_short_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "rochesterk",
+      "name": "Rochester Kart Club (Nanneella)",
+      "direction": "unknown",
+      "lengthKm": "0.737 km",
+      "isOther": false,
+      "club": "Rochester Kart Club",
+      "state": "VIC",
+      "lengthM": 737,
+      "lat": -36.390867,
+      "lon": 144.778701,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "rochesterk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "rochesterk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "sapphire_nsw",
+      "name": "Sapphire Coast Kart Club (Frogs Hollow)",
+      "direction": "unknown",
+      "lengthKm": "0.618 km",
+      "isOther": false,
+      "club": "Sapphire Coast Kart Club",
+      "state": "NSW",
+      "lengthM": 618,
+      "lat": -36.762326,
+      "lon": 149.80733,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "sapphire_nsw_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "sapphire_nsw_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "silhouettek",
+      "name": "Silhouette Kart Track",
+      "direction": "unknown",
+      "lengthKm": "0.534 km",
+      "isOther": false,
+      "club": "Silhouette Kart Track",
+      "state": "VIC",
+      "lengthM": 534,
+      "lat": -37.634026,
+      "lon": 144.951566,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "silhouettek_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "silhouettek_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "cobdenk",
+      "name": "South West Kart Club (Cobden)",
+      "direction": "unknown",
+      "lengthKm": "0.940 km",
+      "isOther": false,
+      "club": "South West Kart Club",
+      "state": "VIC",
+      "lengthM": 940,
+      "lat": -38.322596,
+      "lon": 143.059694,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "cobdenk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "cobdenk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "bolivar_long",
+      "name": "Southern Go Kart Club (Bolivar Raceway) (Long)",
+      "layout": "Long",
+      "direction": "unknown",
+      "lengthKm": "0.922 km",
+      "isOther": false,
+      "club": "Southern Go Kart Club",
+      "state": "SA",
+      "lengthM": 922,
+      "lat": -34.741959,
+      "lon": 138.577516,
+      "timezone": "Australia/Adelaide",
+      "corners": [
+        {
+          "id": "bolivar_long_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "bolivar_long_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "bolivark",
+      "name": "Southern Go Kart Club (Bolivar Raceway) (National)",
+      "layout": "National",
+      "direction": "unknown",
+      "lengthKm": "0.747 km",
+      "isOther": false,
+      "club": "Southern Go Kart Club",
+      "state": "SA",
+      "lengthM": 747,
+      "lat": -34.741975,
+      "lon": 138.577339,
+      "timezone": "Australia/Adelaide",
+      "corners": [
+        {
+          "id": "bolivark_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "bolivark_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "bolivark_sh",
+      "name": "Southern Go Kart Club (Bolivar Raceway) (Short)",
+      "layout": "Short",
+      "direction": "unknown",
+      "lengthKm": "0.620 km",
+      "isOther": false,
+      "club": "Southern Go Kart Club",
+      "state": "SA",
+      "lengthM": 620,
+      "lat": -34.74196,
+      "lon": 138.577328,
+      "timezone": "Australia/Adelaide",
+      "corners": [
+        {
+          "id": "bolivark_sh_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "bolivark_sh_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "stkc",
+      "name": "Southern Tasmanian Kart Club (Orielton)",
+      "direction": "unknown",
+      "lengthKm": "0.746 km",
+      "isOther": false,
+      "club": "Southern Tasmanian Kart Club",
+      "state": "TAS",
+      "lengthM": 746,
+      "lat": -42.704655,
+      "lon": 147.494784,
+      "timezone": "Australia/Hobart",
+      "corners": [
+        {
+          "id": "stkc_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "stkc_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "stonycreek",
+      "name": "Stony Creek Kart Track",
+      "direction": "unknown",
+      "lengthKm": "0.731 km",
+      "isOther": false,
+      "club": "Stony Creek Kart Track",
+      "state": "VIC",
+      "lengthM": 731,
+      "lat": -38.580377,
+      "lon": 146.041807,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "stonycreek_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "stonycreek_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "swan_vic",
+      "name": "Swan Hill Kart Club",
+      "direction": "unknown",
+      "lengthKm": "0.820 km",
+      "isOther": false,
+      "club": "Swan Hill Kart Club",
+      "state": "VIC",
+      "lengthM": 820,
+      "lat": -35.366765,
+      "lon": 143.47011,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "swan_vic_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "swan_vic_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "east_crk_nsw",
+      "name": "Sydney International Karting Raceway (Eastern Creek) (National)",
+      "layout": "National",
+      "direction": "unknown",
+      "lengthKm": "0.994 km",
+      "isOther": false,
+      "club": "Sydney Illawarra Kart Club",
+      "state": "NSW",
+      "lengthM": 994,
+      "lat": -33.805043,
+      "lon": 150.881661,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "east_crk_nsw_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "east_crk_nsw_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "spkp_var1",
+      "name": "Sydney International Karting Raceway (Eastern Creek) (Var 1)",
+      "layout": "Var 1",
+      "direction": "unknown",
+      "lengthKm": "1.001 km",
+      "isOther": false,
+      "club": "Sydney Illawarra Kart Club",
+      "state": "NSW",
+      "lengthM": 1001,
+      "lat": -33.805039,
+      "lon": 150.881675,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "spkp_var1_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "spkp_var1_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "spkp_var3",
+      "name": "Sydney International Karting Raceway (Eastern Creek) (Var 3)",
+      "layout": "Var 3",
+      "direction": "unknown",
+      "lengthKm": "0.830 km",
+      "isOther": false,
+      "club": "Sydney Illawarra Kart Club",
+      "state": "NSW",
+      "lengthM": 830,
+      "lat": -33.80484,
+      "lon": 150.881745,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "spkp_var3_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "spkp_var3_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "spkp_var4",
+      "name": "Sydney International Karting Raceway (Eastern Creek) (Var 4)",
+      "layout": "Var 4",
+      "direction": "unknown",
+      "lengthKm": "0.830 km",
+      "isOther": false,
+      "club": "Sydney Illawarra Kart Club",
+      "state": "NSW",
+      "lengthM": 830,
+      "lat": -33.804832,
+      "lon": 150.881763,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "spkp_var4_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "spkp_var4_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "tamworth",
+      "name": "Tamworth Kart Racing Club",
+      "direction": "unknown",
+      "lengthKm": "0.738 km",
+      "isOther": false,
+      "club": "Tamworth Kart Racing Club",
+      "state": "NSW",
+      "lengthM": 738,
+      "lat": -31.061139,
+      "lon": 150.833932,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "tamworth_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "tamworth_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "toowoomba_cw",
+      "name": "Toowoomba & Lockyer Valley Kart Club (Greer Park) (CW)",
+      "layout": "CW",
+      "direction": "unknown",
+      "lengthKm": "0.807 km",
+      "isOther": false,
+      "club": "Toowoomba & Lockyer Valley Kart Club",
+      "state": "QLD",
+      "lengthM": 807,
+      "lat": -27.534007,
+      "lon": 152.090503,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "toowoomba_cw_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "toowoomba_cw_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "townsvillek",
+      "name": "Townsville Kart Club (Sun City Raceway)",
+      "direction": "unknown",
+      "lengthKm": "0.976 km",
+      "isOther": false,
+      "club": "Townsville Kart Club",
+      "state": "QLD",
+      "lengthM": 976,
+      "lat": -19.280929,
+      "lon": 146.697854,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "townsvillek_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "townsvillek_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "waggak",
+      "name": "Wagga & District Kart Racing Club",
+      "direction": "unknown",
+      "lengthKm": "0.808 km",
+      "isOther": false,
+      "club": "Wagga & District Kart Racing Club",
+      "state": "NSW",
+      "lengthM": 808,
+      "lat": -35.13722,
+      "lon": 147.416951,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "waggak_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "waggak_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "warrnamboolk",
+      "name": "Warrnambool Kart Club (Lake Gillear)",
+      "direction": "unknown",
+      "lengthKm": "0.706 km",
+      "isOther": false,
+      "club": "Warrnambool Kart Club",
+      "state": "VIC",
+      "lengthM": 706,
+      "lat": -38.42852,
+      "lon": 142.583238,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "warrnamboolk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "warrnamboolk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "warwickk",
+      "name": "Warwick Kart Club (Sandy Creek Raceway)",
+      "direction": "unknown",
+      "lengthKm": "0.962 km",
+      "isOther": false,
+      "club": "Warwick Kart Club",
+      "state": "QLD",
+      "lengthM": 962,
+      "lat": -28.185386,
+      "lon": 151.947276,
+      "timezone": "Australia/Brisbane",
+      "corners": [
+        {
+          "id": "warwickk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "warwickk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "whyallak",
+      "name": "Whyalla Go Kart Club (Mt Young Raceway)",
+      "direction": "unknown",
+      "lengthKm": "0.498 km",
+      "isOther": false,
+      "club": "Whyalla Go Kart Club",
+      "state": "SA",
+      "lengthM": 498,
+      "lat": -33.055955,
+      "lon": 137.486653,
+      "timezone": "Australia/Adelaide",
+      "corners": [
+        {
+          "id": "whyallak_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "whyallak_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "wimmerak",
+      "name": "Wimmera Kart Racing Club (Dooen) (1)",
+      "layout": "1",
+      "direction": "unknown",
+      "lengthKm": "0.501 km",
+      "isOther": false,
+      "club": "Wimmera Kart Racing Club",
+      "state": "VIC",
+      "lengthM": 501,
+      "lat": -36.667474,
+      "lon": 142.247305,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "wimmerak_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "wimmerak_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "wimmerak2",
+      "name": "Wimmera Kart Racing Club (Dooen) (2)",
+      "layout": "2",
+      "direction": "unknown",
+      "lengthKm": "0.606 km",
+      "isOther": false,
+      "club": "Wimmera Kart Racing Club",
+      "state": "VIC",
+      "lengthM": 606,
+      "lat": -36.667379,
+      "lon": 142.247409,
+      "timezone": "Australia/Melbourne",
+      "corners": [
+        {
+          "id": "wimmerak2_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "wimmerak2_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    },
+    {
+      "id": "wollongongk",
+      "name": "Wollongong Kart Track",
+      "direction": "unknown",
+      "lengthKm": "0.511 km",
+      "isOther": false,
+      "club": "Wollongong Kart Track",
+      "state": "NSW",
+      "lengthM": 511,
+      "lat": -34.472721,
+      "lon": 150.814274,
+      "timezone": "Australia/Sydney",
+      "corners": [
+        {
+          "id": "wollongongk_t1",
+          "number": 1,
+          "label": "T1",
+          "direction": "complex",
+          "approachFrom": "main straight / start-finish"
+        },
+        {
+          "id": "wollongongk_t_finish",
+          "number": null,
+          "label": "T-Finish",
+          "shape": "Straight",
+          "direction": "straight",
+          "approachFrom": "final corner exit onto main straight",
+          "isFinish": true
+        }
+      ]
+    }
+  ]
 }

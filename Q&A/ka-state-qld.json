@@ -1,0 +1,59 @@
+{
+  "origin": "kb-au-rules/states/qld.md",
+  "title": "Karting Queensland notes",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "---\nid: state-qld\ntitle: QLD 2026 State Regulations\ntags: [qld, open-performance, combined]\n---\n\n# QLD 2026 State Regulations\n\nV2, 2 April 2026. Overrides: `data/state-overrides.json` → `qld`.\n\n## Meetings\n\n- State Cup **must** offer: Cadet 9, Cadet 12, KA3 Junior, KA3 Senior, TaG 125. Discretionary: KA2, TaG Restricted, Open Performance.\n- Constitute a class: **8** entries (Cup) / **6** (Trophy) unless Supplementary Regulations say otherwise.\n- 4SS may run at Top Guns and C&D Titles as a **Club** class.\n- Formats 1–12 State Series and above-ish; 1–18 Club.\n\n## Extra divisions\n\n**TaG 125 Combined** kg: Fireball 162; X30 / Rotax / Galaxy / Rok GP **172**.\n\n**TaG Restricted Combined:** all engines **170 kg**.\n\n## Queensland Open Performance\n\nRead with Class Rules Ch 17. No supercharging. Combined weight **≥ 170 kg** needs front brakes + rear or dual rear. Club: DD2 and KZ2 may run to their own class weights/tyres.\n\n| Engine | Max cc | Min kg |\n|---|---|---|\n| Twin Torini | 430 | 165 |\n| Twin KT100S/SEC | 200 | 175 |\n| Rotax DD2 | 125 | 170 |\n| Twin TAG | 255 | 200 |\n| IAME Super X30 | 175 | 185 |\n| KZ styled | 128 | 185 |\n| Super X30 Shifter | 175 | 190 |\n| Vortex Rok Shifter | 125 | 177 |\n",
+  "contentBlocks": [
+    {
+      "type": "paragraph",
+      "text": "---\nid: state-qld\ntitle: QLD 2026 State Regulations\ntags: [qld, open-performance, combined]\n---"
+    },
+    {
+      "type": "heading",
+      "text": "# QLD 2026 State Regulations"
+    },
+    {
+      "type": "paragraph",
+      "text": "V2, 2 April 2026. Overrides: `data/state-overrides.json` → `qld`."
+    },
+    {
+      "type": "heading",
+      "text": "## Meetings"
+    },
+    {
+      "type": "paragraph",
+      "text": "- State Cup **must** offer: Cadet 9, Cadet 12, KA3 Junior, KA3 Senior, TaG 125. Discretionary: KA2, TaG Restricted, Open Performance.\n- Constitute a class: **8** entries (Cup) / **6** (Trophy) unless Supplementary Regulations say otherwise.\n- 4SS may run at Top Guns and C&D Titles as a **Club** class.\n- Formats 1–12 State Series and above-ish; 1–18 Club."
+    },
+    {
+      "type": "heading",
+      "text": "## Extra divisions"
+    },
+    {
+      "type": "paragraph",
+      "text": "**TaG 125 Combined** kg: Fireball 162; X30 / Rotax / Galaxy / Rok GP **172**."
+    },
+    {
+      "type": "paragraph",
+      "text": "**TaG Restricted Combined:** all engines **170 kg**."
+    },
+    {
+      "type": "heading",
+      "text": "## Queensland Open Performance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Read with Class Rules Ch 17. No supercharging. Combined weight **≥ 170 kg** needs front brakes + rear or dual rear. Club: DD2 and KZ2 may run to their own class weights/tyres."
+    },
+    {
+      "type": "paragraph",
+      "text": "| Engine | Max cc | Min kg |\n|---|---|---|\n| Twin Torini | 430 | 165 |\n| Twin KT100S/SEC | 200 | 175 |\n| Rotax DD2 | 125 | 170 |\n| Twin TAG | 255 | 200 |\n| IAME Super X30 | 175 | 185 |\n| KZ styled | 128 | 185 |\n| Super X30 Shifter | 175 | 190 |\n| Vortex Rok Shifter | 125 | 177 |"
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "kb-au-rules",
+    "builtAt": "2026-09-10T08:52:32.891Z"
+  }
+}

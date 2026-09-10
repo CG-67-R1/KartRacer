@@ -1,0 +1,40 @@
+{
+  "trackId": "waggak",
+  "name": "Wagga & District Kart Racing Club",
+  "lengthM": 808,
+  "startFinish": [
+    51.18,
+    50.76
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "waggak_t1",
+      "number": 1,
+      "apex": [
+        62.72,
+        87.85
+      ],
+      "label": [
+        64.02,
+        92.89
+      ],
+      "entry": [
+        65.06,
+        83.51
+      ],
+      "exit": [
+        57.05,
+        91.14
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

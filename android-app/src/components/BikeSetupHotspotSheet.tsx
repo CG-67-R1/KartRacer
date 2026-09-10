@@ -47,8 +47,8 @@ export function BikeSetupHotspotSheet({ hotspot, onClose, onAskAi, simpleTips = 
 
                 {simpleTips ? (
                   <Text style={styles.note}>
-                    Skip fine clicker chasing for now. Ask Bike Setup AI if you want one change to
-                    try next — and change how you ride in Settings if you want more detail.
+                    Skip fine chassis chasing for now. Ask Kart Setup AI if you want one change to
+                    try next — and change how you race in Settings if you want more detail.
                   </Text>
                 ) : (
                   <>
@@ -64,7 +64,7 @@ export function BikeSetupHotspotSheet({ hotspot, onClose, onAskAi, simpleTips = 
                 onPress={() => onAskAi(hotspot)}
                 activeOpacity={0.85}
               >
-                <Text style={styles.aiBtnText}>Learn more with Bike Setup AI</Text>
+                <Text style={styles.aiBtnText}>Learn more with Kart Setup AI</Text>
               </TouchableOpacity>
               <TouchableOpacity style={styles.cancel} onPress={onClose} activeOpacity={0.85}>
                 <Text style={styles.cancelText}>Close</Text>

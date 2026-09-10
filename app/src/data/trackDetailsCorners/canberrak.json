@@ -1,0 +1,40 @@
+{
+  "trackId": "canberrak",
+  "name": "Canberra Kart Racing Club (Pialligo) (Short)",
+  "lengthM": 723,
+  "startFinish": [
+    50.03,
+    53.64
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "canberrak_t1",
+      "number": 1,
+      "apex": [
+        26.18,
+        89.82
+      ],
+      "label": [
+        23.56,
+        94.31
+      ],
+      "entry": [
+        24.25,
+        91.28
+      ],
+      "exit": [
+        26.89,
+        86.72
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

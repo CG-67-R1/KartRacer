@@ -1,0 +1,292 @@
+{
+  "trackId": "albanyk",
+  "name": "Albany City Kart Club",
+  "lengthM": 916,
+  "startFinish": [
+    53.95,
+    49.2
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "albanyk_t1",
+      "number": 1,
+      "apex": [
+        53.23,
+        39.27
+      ],
+      "label": [
+        58.24,
+        37.89
+      ],
+      "entry": [
+        51.83,
+        40.66
+      ],
+      "exit": [
+        55.43,
+        38.97
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "albanyk_t2",
+      "number": 2,
+      "apex": [
+        63.68,
+        33.79
+      ],
+      "label": [
+        68.4,
+        31.62
+      ],
+      "entry": [
+        63.86,
+        36.42
+      ],
+      "exit": [
+        61.29,
+        31.29
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "albanyk_t3",
+      "number": 3,
+      "apex": [
+        56.09,
+        18.51
+      ],
+      "label": [
+        57.58,
+        13.53
+      ],
+      "entry": [
+        53.84,
+        19.27
+      ],
+      "exit": [
+        59.03,
+        19.6
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "albanyk_t4",
+      "number": 4,
+      "apex": [
+        76.05,
+        24.4
+      ],
+      "label": [
+        80.51,
+        21.73
+      ],
+      "entry": [
+        71.75,
+        25.84
+      ],
+      "exit": [
+        78.89,
+        20.97
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "albanyk_t5",
+      "number": 5,
+      "apex": [
+        74.87,
+        9.25
+      ],
+      "label": [
+        78.16,
+        5.22
+      ],
+      "entry": [
+        78.31,
+        12.18
+      ],
+      "exit": [
+        69.07,
+        8.33
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "albanyk_t6",
+      "number": 6,
+      "apex": [
+        20.32,
+        16.34
+      ],
+      "label": [
+        16.3,
+        13.05
+      ],
+      "entry": [
+        20.6,
+        13.87
+      ],
+      "exit": [
+        21.63,
+        18.31
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "albanyk_t7",
+      "number": 7,
+      "apex": [
+        41.17,
+        29.29
+      ],
+      "label": [
+        38.01,
+        25.16
+      ],
+      "entry": [
+        38.91,
+        25.63
+      ],
+      "exit": [
+        41.2,
+        37.34
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "albanyk_t8",
+      "number": 8,
+      "apex": [
+        30.49,
+        85.3
+      ],
+      "label": [
+        28.46,
+        90.09
+      ],
+      "entry": [
+        30.24,
+        78.9
+      ],
+      "exit": [
+        32.12,
+        88.6
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "albanyk_t9",
+      "number": 9,
+      "apex": [
+        52.11,
+        82.29
+      ],
+      "label": [
+        52.42,
+        87.48
+      ],
+      "entry": [
+        47.78,
+        87.47
+      ],
+      "exit": [
+        52.51,
+        78.54
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "albanyk_t10",
+      "number": 10,
+      "apex": [
+        45.9,
+        68.51
+      ],
+      "label": [
+        45.23,
+        73.67
+      ],
+      "entry": [
+        47.61,
+        72.06
+      ],
+      "exit": [
+        46.28,
+        64.62
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    }
+  ]
+}

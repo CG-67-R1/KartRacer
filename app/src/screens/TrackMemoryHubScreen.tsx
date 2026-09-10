@@ -199,7 +199,7 @@ export function TrackMemoryHubScreen() {
           </View>
 
           <View style={styles.card}>
-            <Text style={styles.cardTitle}>ASBK class lap records</Text>
+            <Text style={styles.cardTitle}>AKC class lap records</Text>
             {asbk.length > 0 ? (
               asbk.map((row) => (
                 <View key={`${row.class}-${row.time}`} style={styles.recordRow}>
@@ -213,7 +213,7 @@ export function TrackMemoryHubScreen() {
                 </View>
               ))
             ) : (
-              <Text style={styles.body}>No ASBK class record in the app yet.</Text>
+              <Text style={styles.body}>No AKC class record in the app yet.</Text>
             )}
           </View>
 

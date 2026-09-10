@@ -1,0 +1,730 @@
+{
+  "note": "Internal kart technical KB for GPT ingest. Confirm current class regs. era-1996 PSI is not modern CIK. Australian NCR/state rules: ../kb-au-rules/.",
+  "topics": [
+    {
+      "id": "apparel-suppliers",
+      "title": "Helmets and apparel brands",
+      "file": "topics/apparel-suppliers.md",
+      "category": "sporting",
+      "tags": [
+        "helmet",
+        "apparel"
+      ],
+      "summary": "Typical race-shop stock (confirm current homologation before buying):"
+    },
+    {
+      "id": "axle-removal-and-replacement",
+      "title": "Axle removal and replacement",
+      "file": "topics/axle-removal-and-replacement.md",
+      "category": "service",
+      "tags": [
+        "axle",
+        "hubs",
+        "keys",
+        "dd2",
+        "alignment"
+      ],
+      "summary": "Same sequence for 30 / 40 / 50 mm. DD2 adds the overload clutch and has **no RHS insert** (axle lives in the gearbox hollow shaft). Leave the DD2 engine bolted unless you are aligning a new build."
+    },
+    {
+      "id": "axles-rims-tyres",
+      "title": "Axles, rims and tyres",
+      "file": "topics/axles-rims-tyres.md",
+      "category": "tyres",
+      "tags": [
+        "axle",
+        "rims",
+        "hubs",
+        "tyres",
+        "track-width"
+      ],
+      "summary": "The rear axle is a cantilever spring. Stiffness (material + **ID^4**) controls how fast the inside rear lifts and returns. Hollow axles are lighter and springier than old solid Bambino bars."
+    },
+    {
+      "id": "braking-system",
+      "title": "The braking system",
+      "file": "topics/braking-system.md",
+      "category": "brakes",
+      "tags": [
+        "brakes",
+        "pads",
+        "fluid",
+        "bleed",
+        "bias"
+      ],
+      "summary": "Power cited: ~1.5 kW Bambino to ~24 kW DD2. All karts have a **rear disc**. Bigger karts add **two front discs** because brake dive unloads the rear and the fronts do most of the work."
+    },
+    {
+      "id": "caster-camber-adjusters",
+      "title": "Caster and camber adjusters",
+      "file": "topics/caster-camber-adjusters.md",
+      "category": "front-end",
+      "tags": [
+        "front-end",
+        "pill",
+        "sniper",
+        "toe",
+        "ackermann",
+        "caster",
+        "camber"
+      ],
+      "summary": "Yoke hole axis sets **caster** (side view, off vertical) and **kingpin inclination**. Changing inclination changes **camber** (front view): negative = tops in, positive = tops out. Camber on karts is usually quoted in **mm**."
+    },
+    {
+      "id": "centrifugal-clutch",
+      "title": "Centrifugal clutch",
+      "file": "topics/centrifugal-clutch.md",
+      "category": "drive",
+      "tags": [
+        "clutch",
+        "rotax",
+        "engagement",
+        "service"
+      ],
+      "summary": "Shoes or a slotted disc are thrown out against a **drum that freewheels on a needle bearing**. Force scales with mass and with **rpm²**."
+    },
+    {
+      "id": "chains-sprockets-ratios",
+      "title": "Chains, sprockets and ratios",
+      "file": "topics/chains-sprockets-ratios.md",
+      "category": "drive",
+      "tags": [
+        "gearing",
+        "chain",
+        "#219",
+        "wet",
+        "sprocket"
+      ],
+      "summary": "Power sets top speed; **torque at the rear tyres** sets acceleration. Class engines are largely sealed; gearing is the legal torque lever."
+    },
+    {
+      "id": "changing-tyres",
+      "title": "Changing tyres",
+      "file": "topics/changing-tyres.md",
+      "category": "tyres",
+      "tags": [
+        "tyres",
+        "bead-breaker",
+        "rims"
+      ],
+      "summary": "Tools: compressor, gauge, **bead breaker**, tyre tongs, valve key, tyre grease or dishwashing liquid."
+    },
+    {
+      "id": "chassis-cornering-dynamics",
+      "title": "Chassis cornering dynamics",
+      "file": "topics/chassis-cornering-dynamics.md",
+      "category": "chassis",
+      "tags": [
+        "cg",
+        "jacking",
+        "caster",
+        "stiffness",
+        "weight-transfer"
+      ],
+      "summary": "Cornering is CG location, weight transfer, caster, and chassis stiffness (plus more)."
+    },
+    {
+      "id": "chassis-size-vs-axle",
+      "title": "Chassis size vs axle choice",
+      "file": "topics/chassis-size-vs-axle.md",
+      "category": "chassis",
+      "tags": [
+        "950",
+        "1050",
+        "crg",
+        "otk",
+        "axle"
+      ],
+      "summary": "Standard paddock rule (true for most **1050 mm** seniors): mid-range axle; **stiff** for cold/slippery; **soft** for high grip / rubbered; high-power likes stiff; low-power and tall drivers like softer."
+    },
+    {
+      "id": "chassis-straightening",
+      "title": "Chassis straightening",
+      "file": "topics/chassis-straightening.md",
+      "category": "chassis",
+      "tags": [
+        "bent",
+        "crab",
+        "scales",
+        "43/57",
+        "straightening"
+      ],
+      "summary": "Rubbing is racing until the tubes take a **permanent set**. Many bends are recoverable; a **kinked / creased** tube has lost strength — usually buy a new chassis. Do not cut-and-weld mystery tube (unknown alloy, heat-treat, HAZ)."
+    },
+    {
+      "id": "cooling-and-lubrication",
+      "title": "Cooling and lubrication",
+      "file": "topics/cooling-and-lubrication.md",
+      "category": "engine",
+      "tags": [
+        "cooling",
+        "radiator",
+        "oil",
+        "two-stroke",
+        "rotax"
+      ],
+      "summary": "Numbers: [`data/rotax-hardware.json`](../data/rotax-hardware.json).",
+      "data": "data/rotax-hardware.json"
+    },
+    {
+      "id": "dellorto-carburettor",
+      "title": "The Dellorto carburettor",
+      "file": "topics/dellorto-carburettor.md",
+      "category": "engine",
+      "tags": [
+        "dellorto",
+        "jet",
+        "needle",
+        "float",
+        "rotax"
+      ],
+      "summary": "Jobs: atomise fuel to a stable A/F, and meter mixture with the slide (or butterfly). Pump petrol ignites ~**7:1 to 20:1**; stoich **14.7:1 by mass** (~9000 L air per 1 L fuel). SA Rok OKJ uses Dellorto VHSH 30 (page also mentions VHST 24 BS"
+    },
+    {
+      "id": "engine-mixture-flow",
+      "title": "Engine mixture flow",
+      "file": "topics/engine-mixture-flow.md",
+      "category": "engine",
+      "tags": [
+        "two-stroke",
+        "reed",
+        "ports",
+        "exhaust",
+        "scavenging"
+      ],
+      "summary": "Path: airbox → carb → inlet → crankcase → transfers → burn → exhaust port → tuned pipe. Port **height** vs TDC/BDC is the timing."
+    },
+    {
+      "id": "eyeballing-temperatures",
+      "title": "Eyeballing the temperatures",
+      "file": "topics/eyeballing-temperatures.md",
+      "category": "engine",
+      "tags": [
+        "wt",
+        "egt",
+        "lambda",
+        "jetting",
+        "rotax"
+      ],
+      "summary": "Temps are a tool for longevity, economy, or power — not a substitute for the stopwatch."
+    },
+    {
+      "id": "homologation-insights",
+      "title": "Homologation insights",
+      "file": "topics/homologation-insights.md",
+      "category": "sporting",
+      "tags": [
+        "homologation",
+        "cik",
+        "chassis",
+        "tyres",
+        "groups"
+      ],
+      "summary": "Tool numbers: [`data/sporting-msa.json`](../data/sporting-msa.json). FIA → CIK (karting, 1962) → ASN (MSA in ZA).",
+      "data": "data/sporting-msa.json"
+    },
+    {
+      "id": "ignition-system",
+      "title": "The ignition system",
+      "file": "topics/ignition-system.md",
+      "category": "engine",
+      "tags": [
+        "ignition",
+        "timing",
+        "ecu",
+        "rotax",
+        "advance"
+      ],
+      "summary": "Spark must fire **before TDC** so peak pressure lands just after TDC. More rpm → more crank angle in the same burn time → **more advance**. Analogue = fixed advance. Digital = rpm-mapped."
+    },
+    {
+      "id": "intro-for-rookies",
+      "title": "Intro for rookies",
+      "file": "topics/intro-for-rookies.md",
+      "category": "sporting",
+      "tags": [
+        "rookie",
+        "license",
+        "classes",
+        "clubman",
+        "wpmc"
+      ],
+      "summary": "Club process is similar everywhere. The ASN issues the rules. Register with the club and sign the indemnity before track time. Do a structured intro (circuit closed to others) before you spend heavily."
+    },
+    {
+      "id": "jetting-and-air-density",
+      "title": "Jetting and air density",
+      "file": "topics/jetting-and-air-density.md",
+      "category": "engine",
+      "tags": [
+        "jetting",
+        "rad",
+        "density",
+        "main-jet"
+      ],
+      "summary": "Calculator inputs: [`data/jetting-rad.json`](../data/jetting-rad.json).",
+      "data": "data/jetting-rad.json"
+    },
+    {
+      "id": "kart-setup",
+      "title": "Kart setup",
+      "file": "topics/kart-setup.md",
+      "category": "chassis",
+      "tags": [
+        "setup",
+        "chassis",
+        "handling",
+        "wet",
+        "terminology"
+      ],
+      "summary": "A kart is a flexible tube frame with a **live axle** (no differential). It turns properly only when the **inside rear tyre lifts** on entry so the outside rear can drive around the corner. If the inside rear stays down, the kart **pushes** "
+    },
+    {
+      "id": "karting-apparel",
+      "title": "Karting apparel",
+      "file": "topics/karting-apparel.md",
+      "category": "sporting",
+      "tags": [
+        "suit",
+        "boots",
+        "gloves",
+        "rib",
+        "neck",
+        "safety"
+      ],
+      "summary": "Kart suits are **abrasion**, not fire. No harness/suspension → you get thrown around and may slide on asphalt."
+    },
+    {
+      "id": "karting-helmets",
+      "title": "Karting helmets",
+      "file": "topics/karting-helmets.md",
+      "category": "sporting",
+      "tags": [
+        "helmet",
+        "snell",
+        "cmr",
+        "safety"
+      ],
+      "summary": "MSA: full-face, unbreakable eye protection, **DOT / SNELL / ECE / CMR** as approved for cars, bikes or karts. **CMR strongly recommended under 16** (compulsory in much of Europe). **No helmet older than 10 years** from manufacture. Labels m"
+    },
+    {
+      "id": "know-your-flags",
+      "title": "Know your flags",
+      "file": "topics/know-your-flags.md",
+      "category": "sporting",
+      "tags": [
+        "flags",
+        "yellow",
+        "sporting",
+        "safety"
+      ],
+      "summary": "Use current **ASN / event SRs** for the official flag table — you sit a flag test before the licence is issued."
+    },
+    {
+      "id": "martin-baseline-setup",
+      "title": "US sprint baseline (era-1996)",
+      "file": "topics/martin-baseline-setup.md",
+      "category": "era",
+      "tags": [
+        "baseline",
+        "alignment",
+        "scales",
+        "seat",
+        "wheelbase",
+        "era-1996"
+      ],
+      "summary": "Every good team can return to a known setup when the current one is lost. Record the kart **as it is** before you start changing it. Do not tear a decent-handling kart down to a bare frame for a tenth. Small changes, written down. The **sto"
+    },
+    {
+      "id": "martin-chassis-theory",
+      "title": "US sprint chassis theory (era-1996)",
+      "file": "topics/martin-chassis-theory.md",
+      "category": "era",
+      "tags": [
+        "chassis",
+        "flex",
+        "side-bite",
+        "torsion-bar",
+        "ackermann",
+        "era-1996"
+      ],
+      "summary": "Numbers in [`data/chassis-setup.json`](../data/chassis-setup.json) under `era_1996_us_sprint`. Do not copy PSI/stagger onto a modern CIK/Rotax kart."
+    },
+    {
+      "id": "martin-trackside-tuning",
+      "title": "US sprint trackside (era-1996)",
+      "file": "topics/martin-trackside-tuning.md",
+      "category": "era",
+      "tags": [
+        "handling",
+        "understeer",
+        "oversteer",
+        "hop",
+        "bicycle",
+        "dart",
+        "veer",
+        "era-1996"
+      ],
+      "summary": "Sort handling on a **practice day**. Race day is for small steps only — changing three things at once teaches nothing."
+    },
+    {
+      "id": "martin-tyres-era",
+      "title": "US sprint tyres (era-1996)",
+      "file": "topics/martin-tyres-era.md",
+      "category": "era",
+      "tags": [
+        "tyres",
+        "pyrometer",
+        "rain",
+        "dirt",
+        "stagger",
+        "balance",
+        "era-1996"
+      ],
+      "summary": "**Across-tread heat** (practice, as soon as you stop — cool-down + scales ruin race-day pyrometer work):"
+    },
+    {
+      "id": "measuring-equipment",
+      "title": "Measuring equipment",
+      "file": "topics/measuring-equipment.md",
+      "category": "service",
+      "tags": [
+        "vernier",
+        "tape",
+        "squish",
+        "feeler",
+        "micrometer"
+      ],
+      "summary": "Wrong number at tech = exclusion. Use **this year’s** class spec, not memory."
+    },
+    {
+      "id": "must-know-driving-rules",
+      "title": "Must-know driving rules",
+      "file": "topics/must-know-driving-rules.md",
+      "category": "sporting",
+      "tags": [
+        "sporting",
+        "start",
+        "penalties",
+        "flags",
+        "formation"
+      ],
+      "summary": "Two books: **technical** (kart/engine) and **sporting** (driver, team, family). Source examples are **MSA National Karting 2023** — confirm current series regs. Penalties are harsher if an advantage was gained."
+    },
+    {
+      "id": "paper-frame-stiffness",
+      "title": "Frame stiffness vs path",
+      "file": "topics/paper-frame-stiffness.md",
+      "category": "papers",
+      "tags": [
+        "papers",
+        "stiffness",
+        "adams",
+        "slip-angle",
+        "chassis"
+      ],
+      "summary": "ADAMS flexible-frame model of a production Italian kart, checked against **static torsion** and **constant-radius** running. Frame steel noted as **25CrMo4**."
+    },
+    {
+      "id": "paper-kart-aero",
+      "title": "Kart aerodynamics (CFD and spoiler)",
+      "file": "topics/paper-kart-aero.md",
+      "category": "papers",
+      "tags": [
+        "papers",
+        "aero",
+        "drag",
+        "bodywork",
+        "spoiler"
+      ],
+      "summary": "CIK sprint karts are not F1 — aero is real but **small in lap time** next to chassis and tyres."
+    },
+    {
+      "id": "paper-kart-physiology",
+      "title": "Driver physiology",
+      "file": "topics/paper-kart-physiology.md",
+      "category": "papers",
+      "tags": [
+        "papers",
+        "fitness",
+        "heart-rate",
+        "g-force",
+        "heat"
+      ],
+      "summary": "Amateur kart drivers, on-track sensors. Small sample — **preliminary**, not a training prescription."
+    },
+    {
+      "id": "paper-lap-time-optimisation",
+      "title": "Locked-axle lap dynamics",
+      "file": "topics/paper-lap-time-optimisation.md",
+      "category": "papers",
+      "tags": [
+        "papers",
+        "dynamics",
+        "live-axle",
+        "slip",
+        "jacking",
+        "telemetry"
+      ],
+      "summary": "Optimal-control lap of a 125 cc kart. Model validated against a professional driver’s telemetry. Theory model — no setup sheet."
+    },
+    {
+      "id": "paper-load-transfers",
+      "title": "Load-transfer FEM",
+      "file": "topics/paper-load-transfers.md",
+      "category": "papers",
+      "tags": [
+        "papers",
+        "fem",
+        "load-transfer",
+        "steering",
+        "stiffness"
+      ],
+      "summary": "FEM + track-data paper from Tor Vergata. Goal: **vertical load on each tyre** of a suspension-less kart, including the moment a rear wheel lifts (3-contact vs 4-contact)."
+    },
+    {
+      "id": "protests-and-appeals",
+      "title": "Protests and appeals",
+      "file": "topics/protests-and-appeals.md",
+      "category": "sporting",
+      "tags": [
+        "protest",
+        "appeal",
+        "msa",
+        "gcr",
+        "fees"
+      ],
+      "summary": "Fees in [`data/sporting-msa.json`](../data/sporting-msa.json) are **MSA examples**. Confirm current GCR before you write a cheque.",
+      "data": "data/sporting-msa.json"
+    },
+    {
+      "id": "race-day",
+      "title": "It's race day",
+      "file": "topics/race-day.md",
+      "category": "sporting",
+      "tags": [
+        "scrutineering",
+        "quali",
+        "parc-ferme",
+        "protest",
+        "weigh"
+      ],
+      "summary": "Process for a club/national meeting (MSA-style). Read **that event's SRs**."
+    },
+    {
+      "id": "race-license-and-number",
+      "title": "Race licence and number",
+      "file": "topics/race-license-and-number.md",
+      "category": "sporting",
+      "tags": [
+        "license",
+        "number",
+        "msa",
+        "rok",
+        "rotax"
+      ],
+      "summary": "Cape Town Rok/Rotax sits under **MSA**. You need a licence, a number, and the current rules. Join WPMC and pay pit/practice fees first."
+    },
+    {
+      "id": "replacement-of-bearings",
+      "title": "Replacement of bearings",
+      "file": "topics/replacement-of-bearings.md",
+      "category": "service",
+      "tags": [
+        "bearings",
+        "axle",
+        "rose-joint",
+        "skf"
+      ],
+      "summary": "Three replacement classes:"
+    },
+    {
+      "id": "rotax-exhausts-matting",
+      "title": "Rotax exhausts and matting",
+      "file": "topics/rotax-exhausts-matting.md",
+      "category": "engine",
+      "tags": [
+        "rotax",
+        "exhaust",
+        "matting",
+        "egt",
+        "stinger"
+      ],
+      "summary": "Numbers: [`data/rotax-hardware.json`](../data/rotax-hardware.json). Muffler is **competitor-maintained** (not a sealed engine part). Confirm current part numbers.",
+      "data": "data/rotax-hardware.json"
+    },
+    {
+      "id": "rotax-power-valve",
+      "title": "Rotax power valve",
+      "file": "topics/rotax-power-valve.md",
+      "category": "engine",
+      "tags": [
+        "rotax",
+        "power-valve",
+        "evo",
+        "rpm"
+      ],
+      "summary": "Numbers: [`data/rotax-hardware.json`](../data/rotax-hardware.json). **Senior Max and DD2 only.** Legal valve is the **EVO electronic** unit.",
+      "data": "data/rotax-hardware.json"
+    },
+    {
+      "id": "scrutineering-weight-fuel",
+      "title": "Scrutineering, weight and fuel",
+      "file": "topics/scrutineering-weight-fuel.md",
+      "category": "sporting",
+      "tags": [
+        "scrutineering",
+        "weigh",
+        "fuel",
+        "digatron",
+        "ballast"
+      ],
+      "summary": "Written for officials but competitors should self-check the same list. Rule stack, bottom-up if silent: class spec → provincial → SSR → GCR → CIK/FIA, plus circulars, SRs, COC bulletins."
+    },
+    {
+      "id": "servicing-your-kart",
+      "title": "Servicing your kart",
+      "file": "topics/servicing-your-kart.md",
+      "category": "service",
+      "tags": [
+        "service",
+        "checklist",
+        "nyloc",
+        "chassis"
+      ],
+      "summary": "Read this year’s class regs, SSRs, SRs and circulars before round 1 — wrong tyre rotation is an easy exclusion."
+    },
+    {
+      "id": "spark-plug",
+      "title": "Spark plug",
+      "file": "topics/spark-plug.md",
+      "category": "engine",
+      "tags": [
+        "spark-plug",
+        "gap",
+        "heat-range",
+        "ngk",
+        "rotax"
+      ],
+      "summary": "Machine numbers: [`data/spark-plugs.json`](../data/spark-plugs.json). Confirm class regs — gap over the limit is a **non-protestable exclusion**.",
+      "data": "data/spark-plugs.json"
+    },
+    {
+      "id": "substance-abuse",
+      "title": "Substance abuse",
+      "file": "topics/substance-abuse.md",
+      "category": "sporting",
+      "tags": [
+        "wada",
+        "saids",
+        "tue",
+        "safety"
+      ],
+      "summary": "In a kart, a changed reaction time is a **safety** problem for other drivers and marshals, not only a health problem for the user. Strict liability: whatever is in the system counts, intent does not.",
+      "data": "data/sporting-msa.json"
+    },
+    {
+      "id": "tillotson-hw-49a",
+      "title": "Tillotson HW-49A (OK-N)",
+      "file": "topics/tillotson-hw-49a.md",
+      "category": "engine",
+      "tags": [
+        "tillotson",
+        "okn",
+        "diaphragm",
+        "pop-off"
+      ],
+      "summary": "OK-N uses a **diaphragm** carb with a **butterfly**, not a Dellorto slide. Pump + pump diaphragm + **metering diaphragm**. Works in any orientation (same family as a chainsaw carb)."
+    },
+    {
+      "id": "tyre-setup",
+      "title": "Tyre setup",
+      "file": "topics/tyre-setup.md",
+      "category": "tyres",
+      "tags": [
+        "pyrometer",
+        "pressure",
+        "camber",
+        "cone-wear",
+        "blister"
+      ],
+      "summary": "Four contact patches about the size of a palm keep the kart on the road. Treat them as the primary sensor."
+    }
+  ],
+  "playbooks": [
+    {
+      "id": "handling-troubleshoot",
+      "title": "Handling troubleshoot",
+      "file": "playbooks/handling-troubleshoot.md",
+      "tags": [
+        "understeer",
+        "oversteer",
+        "hop",
+        "dart",
+        "push-kick"
+      ]
+    },
+    {
+      "id": "jetting-rad",
+      "title": "Jetting from RAD",
+      "file": "playbooks/jetting-rad.md",
+      "tags": [
+        "jetting",
+        "rad",
+        "main-jet"
+      ]
+    },
+    {
+      "id": "martin-era-vs-modern",
+      "title": "Era-1996 vs modern CIK",
+      "file": "playbooks/martin-era-vs-modern.md",
+      "tags": [
+        "era-1996",
+        "handling",
+        "caveats"
+      ]
+    },
+    {
+      "id": "tyre-temps",
+      "title": "Tyre temperature lookup",
+      "file": "playbooks/tyre-temps.md",
+      "tags": [
+        "pyrometer",
+        "cone-wear",
+        "blister"
+      ]
+    },
+    {
+      "id": "wet-weather",
+      "title": "Wet weather",
+      "file": "playbooks/wet-weather.md",
+      "tags": [
+        "wet",
+        "rain",
+        "gearing"
+      ]
+    }
+  ],
+  "data": [
+    {
+      "id": "chassis-setup",
+      "file": "data/chassis-setup.json"
+    },
+    {
+      "id": "jetting-rad",
+      "file": "data/jetting-rad.json"
+    },
+    {
+      "id": "rotax-hardware",
+      "file": "data/rotax-hardware.json"
+    },
+    {
+      "id": "spark-plugs",
+      "file": "data/spark-plugs.json"
+    },
+    {
+      "id": "sporting-msa",
+      "file": "data/sporting-msa.json"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+import { tyreTempRules } from "./rules/load.js";
+import type { TempPatternRule } from "./rules/schema.js";
+import type {
+  Advice,
+  AnalysisResult,
+  ChassisSetup,
+  Conditions,
+  TreadTemps,
+  TyreCorner,
+  TyreTemps,
+} from "./types.js";
+import { TYRE_CORNERS } from "./types.js";
+
+export type TreadPattern = "cold_middle" | "hot_middle" | "hot_inner" | "hot_outer" | "even" | "incomplete";
+
+const SOURCE = tyreTempRules.sources?.[0] ?? "https://www.angriracing.com/tyre-setup";
+
+function adviceFrom(
+  rule: TempPatternRule,
+  priority: number,
+  extra?: string,
+): Advice {
+  return {
+    id: rule.id,
+    lever: rule.lever,
+    direction: rule.direction,
+    magnitude: rule.magnitude,
+    title: rule.title,
+    why: extra ? `${rule.why} ${extra}` : rule.why,
+    kbSource: SOURCE,
+    kbSourceId: tyreTempRules.id,
+    priority,
+    oneChange: true,
+  };
+}
+
+export function classifyTread(temps: TreadTemps, deltaC = tyreTempRules.deltaC): TreadPattern {
+  const { outside, middle, inside } = temps;
+  if (outside == null || middle == null || inside == null) return "incomplete";
+  const edgeAvg = (outside + inside) / 2;
+  if (middle <= edgeAvg - deltaC && middle < outside && middle < inside) return "cold_middle";
+  if (middle >= edgeAvg + deltaC && middle > outside && middle > inside) return "hot_middle";
+  if (inside >= outside + deltaC && inside >= middle) return "hot_inner";
+  if (outside >= inside + deltaC && outside >= middle) return "hot_outer";
+  return "even";
+}
+
+function treadAvg(temps: TreadTemps): number | null {
+  const { outside, middle, inside } = temps;
+  if (outside == null || middle == null || inside == null) return null;
+  return (outside + middle + inside) / 3;
+}
+
+function complete(temps: TyreTemps): boolean {
+  return TYRE_CORNERS.every((c) => classifyTread(temps[c]) !== "incomplete");
+}
+
+function axleAvg(temps: TyreTemps, corners: TyreCorner[]): number | null {
+  const values = corners.map((c) => treadAvg(temps[c]));
+  if (values.some((v) => v == null)) return null;
+  return (values as number[]).reduce((a, b) => a + b, 0) / values.length;
+}
+
+function maxReading(temps: TyreTemps): number {
+  let max = -Infinity;
+  for (const corner of TYRE_CORNERS) {
+    const t = temps[corner];
+    for (const value of [t.outside, t.middle, t.inside]) {
+      if (typeof value === "number") max = Math.max(max, value);
+    }
+  }
+  return max;
+}
+
+function majority(patterns: TreadPattern[]): TreadPattern | null {
+  const counts = new Map<TreadPattern, number>();
+  for (const pattern of patterns) {
+    if (pattern === "incomplete" || pattern === "even") continue;
+    counts.set(pattern, (counts.get(pattern) ?? 0) + 1);
+  }
+  let best: TreadPattern | null = null;
+  let n = 0;
+  for (const [pattern, count] of counts) {
+    if (count > n) {
+      best = pattern;
+      n = count;
+    }
+  }
+  return n > 0 ? best : null;
+}
+
+export function analyzeTemps(
+  _setup: ChassisSetup,
+  conditions: Conditions,
+  temps: TyreTemps,
+): AnalysisResult {
+  const warnings: string[] = [];
+  const advice: Advice[] = [];
+  const { min, max, danger } = tyreTempRules.bandC;
+
+  if (!complete(temps)) {
+    return {
+      kind: "temperature",
+      reminder: "Read outside / middle / inside as soon as the kart stops.",
+      advice: [],
+      blocked: [],
+      warnings: ["Tyre temperatures are incomplete. Needle pyrometer under the tread is best."],
+    };
+  }
+
+  const peak = maxReading(temps);
+  if (peak >= danger) {
+    warnings.push(`Danger: a reading at ${peak.toFixed(0)} °C is at or above ~${danger} °C. The tyre can destroy itself.`);
+  }
+
+  const frontAvg = axleAvg(temps, ["fl", "fr"]);
+  const rearAvg = axleAvg(temps, ["rl", "rr"]);
+  const leftAvg = axleAvg(temps, ["fl", "rl"]);
+  const rightAvg = axleAvg(temps, ["fr", "rr"]);
+
+  if (leftAvg != null && rightAvg != null) {
+    const split = Math.abs(leftAvg - rightAvg);
+    if (split >= tyreTempRules.lrSplitWarnC) {
+      advice.push({
+        id: "lr_split",
+        lever: "chassis_check",
+        direction: "check",
+        magnitude: `${split.toFixed(0)} °C L/R`,
+        title: "Large left/right temperature split",
+        why: "Ignore left vs right unless the split is huge. A split this large can mean a bent or twisted chassis — check scales before chasing camber.",
+        kbSource: SOURCE,
+        kbSourceId: tyreTempRules.id,
+        priority: 1,
+        oneChange: true,
+      });
+    }
+  }
+
+  if (frontAvg != null && rearAvg != null) {
+    const split = frontAvg - rearAvg;
+    if (Math.abs(split) >= tyreTempRules.frontRearSplitC) {
+      advice.push({
+        id: "front_rear_split",
+        lever: split > 0 ? "front_ride_height" : "rear_ride_height",
+        direction: "check",
+        title: split > 0 ? "Fronts hotter than rears" : "Rears hotter than fronts",
+        why: "Match front-versus-rear averages first. Use chassis (ride height and transfer) to move overall front/rear into the 75–85 °C band after pressures and camber.",
+        kbSource: SOURCE,
+        kbSourceId: tyreTempRules.id,
+        priority: 2,
+        oneChange: true,
+      });
+    }
+    const allAvg = (frontAvg + rearAvg) / 2;
+    if (allAvg < min) {
+      warnings.push(`Overall average ${allAvg.toFixed(0)} °C is below the ${min}–${max} °C working band. Smooth / no grain usually means the tyre is not working.`);
+    } else if (allAvg > max && allAvg < danger) {
+      warnings.push(`Overall average ${allAvg.toFixed(0)} °C is above ${max} °C. Soften the work (pressure, transfer) before they blister.`);
+    }
+  }
+
+  const rearPattern = majority([classifyTread(temps.rl), classifyTread(temps.rr)]);
+  const frontPattern = majority([classifyTread(temps.fl), classifyTread(temps.fr)]);
+
+  if (rearPattern) {
+    const rule = tyreTempRules.rearPatterns.find((item) => item.pattern === rearPattern);
+    if (rule) advice.push(adviceFrom(rule, 3));
+  }
+  if (frontPattern) {
+    const rule = tyreTempRules.frontPatterns.find((item) => item.pattern === frontPattern);
+    if (rule) {
+      let extra = "Softer pressure increases sidewall roll — you may need more negative camber after a pressure change.";
+      if (
+        frontPattern === "hot_inner" &&
+        (classifyTread(temps.fl) === "hot_inner" || classifyTread(temps.fr) === "hot_inner")
+      ) {
+        extra += " Both front inners hottest plus turn-in oversteer usually means too much caster.";
+      }
+      advice.push(adviceFrom(rule, 4, extra));
+    }
+  }
+
+  if (conditions.targetTyreTempC < min || conditions.targetTyreTempC > max) {
+    warnings.push(`Target ${conditions.targetTyreTempC} °C is outside the cited ${min}–${max} °C maker band.`);
+  }
+
+  if (advice.length === 0) {
+    advice.push({
+      id: "temps_ok",
+      lever: "pressures",
+      direction: "check",
+      title: "Tread pattern looks even",
+      why: `Outside / middle / inside are within ${tyreTempRules.deltaC} °C. Stay in the ${min}–${max} °C band and log the next run.`,
+      kbSource: SOURCE,
+      kbSourceId: tyreTempRules.id,
+      priority: 10,
+      oneChange: true,
+    });
+  }
+
+  advice.sort((a, b) => a.priority - b.priority);
+  return {
+    kind: "temperature",
+    reminder: `Read outside / middle / inside immediately. Band ${min}–${max} °C. Danger ~${danger} °C. One change at a time.`,
+    advice,
+    blocked: [],
+    warnings,
+  };
+}

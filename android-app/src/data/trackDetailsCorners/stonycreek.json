@@ -1,0 +1,264 @@
+{
+  "trackId": "stonycreek",
+  "name": "Stony Creek Kart Track",
+  "lengthM": 731,
+  "startFinish": [
+    50.68,
+    60.16
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "stonycreek_t1",
+      "number": 1,
+      "apex": [
+        36.07,
+        88.78
+      ],
+      "label": [
+        34.56,
+        93.76
+      ],
+      "entry": [
+        36.34,
+        85.91
+      ],
+      "exit": [
+        37.06,
+        90.55
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "stonycreek_t2",
+      "number": 2,
+      "apex": [
+        39.53,
+        91.67
+      ],
+      "label": [
+        38.47,
+        96.76
+      ],
+      "entry": [
+        37.45,
+        90.9
+      ],
+      "exit": [
+        43.11,
+        90.52
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "stonycreek_t3",
+      "number": 3,
+      "apex": [
+        61.02,
+        26.66
+      ],
+      "label": [
+        63.75,
+        22.24
+      ],
+      "entry": [
+        60.64,
+        30.35
+      ],
+      "exit": [
+        63.56,
+        23.99
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "stonycreek_t4",
+      "number": 4,
+      "apex": [
+        66.79,
+        21.17
+      ],
+      "label": [
+        69.81,
+        16.94
+      ],
+      "entry": [
+        64.44,
+        23.51
+      ],
+      "exit": [
+        67.04,
+        19.3
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "stonycreek_t5",
+      "number": 5,
+      "apex": [
+        63.9,
+        16.79
+      ],
+      "label": [
+        66.25,
+        12.15
+      ],
+      "entry": [
+        65.61,
+        17.18
+      ],
+      "exit": [
+        61.3,
+        18.09
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "stonycreek_t6",
+      "number": 6,
+      "apex": [
+        55.28,
+        17.19
+      ],
+      "label": [
+        56.38,
+        12.11
+      ],
+      "entry": [
+        56.84,
+        18.68
+      ],
+      "exit": [
+        54.97,
+        13.6
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "stonycreek_t7",
+      "number": 7,
+      "apex": [
+        49.41,
+        8.83
+      ],
+      "label": [
+        49.46,
+        3.63
+      ],
+      "entry": [
+        51.54,
+        8.34
+      ],
+      "exit": [
+        47.57,
+        11.06
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "stonycreek_t8",
+      "number": 8,
+      "apex": [
+        33.35,
+        74.54
+      ],
+      "label": [
+        30.84,
+        79.09
+      ],
+      "entry": [
+        33.59,
+        65.33
+      ],
+      "exit": [
+        35.09,
+        76.7
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "stonycreek_t9",
+      "number": 9,
+      "apex": [
+        41,
+        59.15
+      ],
+      "label": [
+        38.28,
+        63.58
+      ],
+      "entry": [
+        40.88,
+        66.89
+      ],
+      "exit": [
+        43.17,
+        56.28
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    }
+  ]
+}

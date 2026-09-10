@@ -22,7 +22,7 @@ export function BikeSetupHubScreen() {
         <AppLogo size={COMPACT_LOGO_SIZE} />
       </View>
 
-      <Text style={styles.sectionLabel}>Bike Setup</Text>
+      <Text style={styles.sectionLabel}>Kart Setup</Text>
       <Text style={styles.privacyNote}>
         Setup tools keep your data private on this device. Save snapshots for later comparison, and
         share a setup as text via Messages only when you choose.
@@ -32,21 +32,21 @@ export function BikeSetupHubScreen() {
         onPress={() => navigation.navigate('CoachChat', { mode: 'bikesetup' })}
         activeOpacity={0.8}
       >
-        <Text style={styles.navButtonText}>Bike Setup AI</Text>
+        <Text style={styles.navButtonText}>Kart Setup AI</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.navButton}
         onPress={() => navigation.navigate('BikeSetupSheet')}
         activeOpacity={0.8}
       >
-        <Text style={styles.navButtonText}>Bike Setup Sheet</Text>
+        <Text style={styles.navButtonText}>Kart Setup Sheet</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.navButton}
         onPress={() => navigation.navigate('BikeBalanceSetup')}
         activeOpacity={0.8}
       >
-        <Text style={styles.navButtonText}>Bike Balance Setup</Text>
+        <Text style={styles.navButtonText}>Chassis Balance</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.navButton}
@@ -67,7 +67,7 @@ export function BikeSetupHubScreen() {
         onPress={() => navigation.navigate('BikeSetupBasics')}
         activeOpacity={0.8}
       >
-        <Text style={styles.navButtonText}>Bike Setup Basics</Text>
+        <Text style={styles.navButtonText}>Kart Setup Basics</Text>
       </TouchableOpacity>
     </ScrollView>
   );

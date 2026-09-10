@@ -1,0 +1,320 @@
+{
+  "trackId": "darwink_var3",
+  "name": "Darwin Karting Association (Hidden Valley) (Var 3)",
+  "lengthM": 1001,
+  "startFinish": [
+    49.95,
+    50.75
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "darwink_var3_t1",
+      "number": 1,
+      "apex": [
+        40.59,
+        21.42
+      ],
+      "label": [
+        38.35,
+        16.73
+      ],
+      "entry": [
+        40.74,
+        27.51
+      ],
+      "exit": [
+        44.04,
+        15.71
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "darwink_var3_t2",
+      "number": 2,
+      "apex": [
+        58.09,
+        14.66
+      ],
+      "label": [
+        58.79,
+        9.51
+      ],
+      "entry": [
+        52.7,
+        12.83
+      ],
+      "exit": [
+        62.62,
+        19.3
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "darwink_var3_t3",
+      "number": 3,
+      "apex": [
+        76.52,
+        32.6
+      ],
+      "label": [
+        80.8,
+        29.64
+      ],
+      "entry": [
+        72.99,
+        32.61
+      ],
+      "exit": [
+        79.07,
+        30.6
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "darwink_var3_t4",
+      "number": 4,
+      "apex": [
+        79.06,
+        11.73
+      ],
+      "label": [
+        82.03,
+        7.46
+      ],
+      "entry": [
+        78.21,
+        16.48
+      ],
+      "exit": [
+        81.4,
+        9.11
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "darwink_var3_t5",
+      "number": 5,
+      "apex": [
+        88.94,
+        11.39
+      ],
+      "label": [
+        92.53,
+        7.63
+      ],
+      "entry": [
+        86.79,
+        9.16
+      ],
+      "exit": [
+        90.9,
+        19.26
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "darwink_var3_t6",
+      "number": 6,
+      "apex": [
+        78.22,
+        64.57
+      ],
+      "label": [
+        82.58,
+        67.4
+      ],
+      "entry": [
+        78.26,
+        60.62
+      ],
+      "exit": [
+        79.77,
+        67.19
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "darwink_var3_t7",
+      "number": 7,
+      "apex": [
+        85.67,
+        81.7
+      ],
+      "label": [
+        89.29,
+        85.43
+      ],
+      "entry": [
+        87.13,
+        78.68
+      ],
+      "exit": [
+        78.07,
+        85.9
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "darwink_var3_t8",
+      "number": 8,
+      "apex": [
+        14.35,
+        84.61
+      ],
+      "label": [
+        10.53,
+        88.13
+      ],
+      "entry": [
+        15.33,
+        87.56
+      ],
+      "exit": [
+        15.4,
+        81.19
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "darwink_var3_t9",
+      "number": 9,
+      "apex": [
+        59.44,
+        72.36
+      ],
+      "label": [
+        60.69,
+        77.41
+      ],
+      "entry": [
+        58.06,
+        75.41
+      ],
+      "exit": [
+        58.9,
+        69.41
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "darwink_var3_t10",
+      "number": 10,
+      "apex": [
+        29.74,
+        66.5
+      ],
+      "label": [
+        25.59,
+        69.64
+      ],
+      "entry": [
+        38.31,
+        67.88
+      ],
+      "exit": [
+        21.36,
+        60.21
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "darwink_var3_t11",
+      "number": 11,
+      "apex": [
+        13.46,
+        29.26
+      ],
+      "label": [
+        8.77,
+        27.01
+      ],
+      "entry": [
+        10.72,
+        31.49
+      ],
+      "exit": [
+        17.37,
+        28.92
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    }
+  ]
+}

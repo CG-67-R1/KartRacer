@@ -1,0 +1,55 @@
+{
+  "origin": "kb-au-rules/states/tas.md",
+  "title": "Karting Tasmania notes",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "---\nid: state-tas\ntitle: TAS 2026 State Regulations\ntags: [tas, open-performance, ka3-masters]\n---\n\n# TAS 2026 State Regulations\n\nFinal V1. Overrides: `data/state-overrides.json` → `tas`.\n\n## General\n\n- Min **4** entries to constitute a class.\n- Club: all national classes permitted. Vintage by era only.\n- **TaG Restricted at State Cup / Championship:** B Grade and above Senior **not permitted** (Class Rules Ch 12 apply at the Championship).\n- Club: all grades in TaG Restricted are eligible for points/awards.\n\n## TAS extras\n\n**KA3 Masters:** Light **165**, Heavy **172**.\n\n**KA3 Junior feature** (one-off at Zonal / State Cup / Trophy): KA100 **141 kg**.\n\n## TAS Open Performance (with Ch 17)\n\n| Type | Max cc | Min kg |\n|---|---|---|\n| Piston port | 125 | 130 |\n| Pre-1998 CIK reed/rotary | 103 | 140 |\n| Post-1998 CIK reed/rotary | 100–103 | 155 |\n| Biland 4-stroke | 250 | 155 |\n| 106–135 reed/rotary/piston | 141 | 150 |\n| KF-derived | 135 | 160 |\n| Twin Clubman / Formula Aus | 206 | 160 |\n| Twin Torini sealed | 430 | 165 |\n| DD2 / Rok DVS SV Sr | 125 | 175 |\n| X30 Super | 175 | 175 |\n| Twin air 2-stroke | 210 | 180 |\n| Twin water 2-stroke | 210 | 190 |\n| ICC / KZ | 128 | 185 |\n| Twin 125 TAG | 255 | 185 |\n| X30 Super Shifter | 175 | 195 |\n",
+  "contentBlocks": [
+    {
+      "type": "paragraph",
+      "text": "---\nid: state-tas\ntitle: TAS 2026 State Regulations\ntags: [tas, open-performance, ka3-masters]\n---"
+    },
+    {
+      "type": "heading",
+      "text": "# TAS 2026 State Regulations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Final V1. Overrides: `data/state-overrides.json` → `tas`."
+    },
+    {
+      "type": "heading",
+      "text": "## General"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Min **4** entries to constitute a class.\n- Club: all national classes permitted. Vintage by era only.\n- **TaG Restricted at State Cup / Championship:** B Grade and above Senior **not permitted** (Class Rules Ch 12 apply at the Championship).\n- Club: all grades in TaG Restricted are eligible for points/awards."
+    },
+    {
+      "type": "heading",
+      "text": "## TAS extras"
+    },
+    {
+      "type": "paragraph",
+      "text": "**KA3 Masters:** Light **165**, Heavy **172**."
+    },
+    {
+      "type": "paragraph",
+      "text": "**KA3 Junior feature** (one-off at Zonal / State Cup / Trophy): KA100 **141 kg**."
+    },
+    {
+      "type": "heading",
+      "text": "## TAS Open Performance (with Ch 17)"
+    },
+    {
+      "type": "paragraph",
+      "text": "| Type | Max cc | Min kg |\n|---|---|---|\n| Piston port | 125 | 130 |\n| Pre-1998 CIK reed/rotary | 103 | 140 |\n| Post-1998 CIK reed/rotary | 100–103 | 155 |\n| Biland 4-stroke | 250 | 155 |\n| 106–135 reed/rotary/piston | 141 | 150 |\n| KF-derived | 135 | 160 |\n| Twin Clubman / Formula Aus | 206 | 160 |\n| Twin Torini sealed | 430 | 165 |\n| DD2 / Rok DVS SV Sr | 125 | 175 |\n| X30 Super | 175 | 175 |\n| Twin air 2-stroke | 210 | 180 |\n| Twin water 2-stroke | 210 | 190 |\n| ICC / KZ | 128 | 185 |\n| Twin 125 TAG | 255 | 185 |\n| X30 Super Shifter | 175 | 195 |"
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "kb-au-rules",
+    "builtAt": "2026-09-10T08:52:32.896Z"
+  }
+}

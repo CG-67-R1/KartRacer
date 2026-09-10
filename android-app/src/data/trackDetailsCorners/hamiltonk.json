@@ -1,0 +1,96 @@
+{
+  "trackId": "hamiltonk",
+  "name": "Hamilton Kart Club (Buckley Park)",
+  "lengthM": 674,
+  "startFinish": [
+    59.66,
+    59.67
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "hamiltonk_t1",
+      "number": 1,
+      "apex": [
+        73.22,
+        68.67
+      ],
+      "label": [
+        77.01,
+        72.23
+      ],
+      "entry": [
+        65.28,
+        73.81
+      ],
+      "exit": [
+        75.17,
+        62.26
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "hamiltonk_t2",
+      "number": 2,
+      "apex": [
+        59.76,
+        15.32
+      ],
+      "label": [
+        61.57,
+        10.45
+      ],
+      "entry": [
+        74.49,
+        58.5
+      ],
+      "exit": [
+        54.41,
+        12.57
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "hamiltonk_t3",
+      "number": 3,
+      "apex": [
+        42.11,
+        14.03
+      ],
+      "label": [
+        41.06,
+        8.94
+      ],
+      "entry": [
+        51.43,
+        12.51
+      ],
+      "exit": [
+        33.31,
+        9.08
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "trackId": "bundabergk",
+  "name": "Bundaberg Kart Club (Dromeside)",
+  "lengthM": 727,
+  "startFinish": [
+    50.36,
+    50.85
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "bundabergk_t1",
+      "number": 1,
+      "apex": [
+        47.82,
+        17.86
+      ],
+      "label": [
+        47.51,
+        12.67
+      ],
+      "entry": [
+        43.7,
+        17.84
+      ],
+      "exit": [
+        53.17,
+        21.73
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "bundabergk_t2",
+      "number": 2,
+      "apex": [
+        60.78,
+        48.56
+      ],
+      "label": [
+        65.37,
+        51
+      ],
+      "entry": [
+        58.56,
+        39.92
+      ],
+      "exit": [
+        63.67,
+        50.73
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "bundabergk_t3",
+      "number": 3,
+      "apex": [
+        71.5,
+        47.42
+      ],
+      "label": [
+        76.57,
+        48.56
+      ],
+      "entry": [
+        69.44,
+        50.12
+      ],
+      "exit": [
+        70.82,
+        40.66
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "bundabergk_t4",
+      "number": 4,
+      "apex": [
+        77.89,
+        26.25
+      ],
+      "label": [
+        82.42,
+        23.69
+      ],
+      "entry": [
+        74.12,
+        26.41
+      ],
+      "exit": [
+        84.39,
+        30.24
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "bundabergk_t5",
+      "number": 5,
+      "apex": [
+        86.26,
+        62.83
+      ],
+      "label": [
+        90.81,
+        65.34
+      ],
+      "entry": [
+        90.28,
+        57.76
+      ],
+      "exit": [
+        68.82,
+        68.12
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "bundabergk_t6",
+      "number": 6,
+      "apex": [
+        18.56,
+        80.07
+      ],
+      "label": [
+        15.27,
+        84.1
+      ],
+      "entry": [
+        27.32,
+        82.43
+      ],
+      "exit": [
+        13.16,
+        71.6
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "bundabergk_t7",
+      "number": 7,
+      "apex": [
+        8.97,
+        26.93
+      ],
+      "label": [
+        4.12,
+        25.06
+      ],
+      "entry": [
+        10.99,
+        52.34
+      ],
+      "exit": [
+        11.69,
+        23.31
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "bundabergk_t8",
+      "number": 8,
+      "apex": [
+        18.73,
+        21.24
+      ],
+      "label": [
+        14.46,
+        18.27
+      ],
+      "entry": [
+        14.95,
+        21.53
+      ],
+      "exit": [
+        21.94,
+        22.92
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "bundabergk_t9",
+      "number": 9,
+      "apex": [
+        26.76,
+        57.92
+      ],
+      "label": [
+        22.47,
+        60.87
+      ],
+      "entry": [
+        25.9,
+        35.12
+      ],
+      "exit": [
+        30.41,
+        62.68
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    }
+  ]
+}

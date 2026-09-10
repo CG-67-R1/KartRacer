@@ -1,0 +1,292 @@
+{
+  "trackId": "mtgambierk",
+  "name": "Mt Gambier Karting Club (Glenburnie) (National)",
+  "lengthM": 740,
+  "startFinish": [
+    48.88,
+    51.67
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "mtgambierk_t1",
+      "number": 1,
+      "apex": [
+        65.45,
+        61.62
+      ],
+      "label": [
+        70.02,
+        64.1
+      ],
+      "entry": [
+        62.52,
+        57.34
+      ],
+      "exit": [
+        65.35,
+        65.73
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "mtgambierk_t2",
+      "number": 2,
+      "apex": [
+        56.02,
+        77.15
+      ],
+      "label": [
+        56.07,
+        82.35
+      ],
+      "entry": [
+        60.78,
+        71.52
+      ],
+      "exit": [
+        55.53,
+        81.8
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "mtgambierk_t3",
+      "number": 3,
+      "apex": [
+        66.8,
+        85.91
+      ],
+      "label": [
+        68.61,
+        90.78
+      ],
+      "entry": [
+        62.57,
+        87.36
+      ],
+      "exit": [
+        72.35,
+        76.76
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "mtgambierk_t4",
+      "number": 4,
+      "apex": [
+        83.82,
+        47.33
+      ],
+      "label": [
+        88.77,
+        45.73
+      ],
+      "entry": [
+        78.5,
+        63.32
+      ],
+      "exit": [
+        82.36,
+        43.74
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "mtgambierk_t5",
+      "number": 5,
+      "apex": [
+        78.18,
+        41.76
+      ],
+      "label": [
+        82.53,
+        38.92
+      ],
+      "entry": [
+        81.24,
+        42.75
+      ],
+      "exit": [
+        72.97,
+        43.77
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "mtgambierk_t6",
+      "number": 6,
+      "apex": [
+        60.88,
+        43.92
+      ],
+      "label": [
+        62.84,
+        39.1
+      ],
+      "entry": [
+        64.65,
+        46.04
+      ],
+      "exit": [
+        59.02,
+        39.68
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "mtgambierk_t7",
+      "number": 7,
+      "apex": [
+        69.67,
+        13.08
+      ],
+      "label": [
+        71.26,
+        8.13
+      ],
+      "entry": [
+        70.89,
+        19.5
+      ],
+      "exit": [
+        65.71,
+        9.38
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "mtgambierk_t8",
+      "number": 8,
+      "apex": [
+        16.13,
+        81.27
+      ],
+      "label": [
+        11.73,
+        84.03
+      ],
+      "entry": [
+        31.88,
+        42.85
+      ],
+      "exit": [
+        17.72,
+        86.24
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "mtgambierk_t9",
+      "number": 9,
+      "apex": [
+        42.55,
+        90.77
+      ],
+      "label": [
+        40.68,
+        95.62
+      ],
+      "entry": [
+        30.83,
+        91.23
+      ],
+      "exit": [
+        45.68,
+        88.23
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "mtgambierk_t10",
+      "number": 10,
+      "apex": [
+        36.46,
+        60.95
+      ],
+      "label": [
+        31.4,
+        62.15
+      ],
+      "entry": [
+        45.28,
+        77.18
+      ],
+      "exit": [
+        37.41,
+        55.45
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    }
+  ]
+}

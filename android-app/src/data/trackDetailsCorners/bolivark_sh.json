@@ -1,0 +1,40 @@
+{
+  "trackId": "bolivark_sh",
+  "name": "Southern Go Kart Club (Bolivar Raceway) (Short)",
+  "lengthM": 620,
+  "startFinish": [
+    18.38,
+    40.97
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "bolivark_sh_t1",
+      "number": 1,
+      "apex": [
+        21.49,
+        64.25
+      ],
+      "label": [
+        16.64,
+        66.12
+      ],
+      "entry": [
+        12.38,
+        62.25
+      ],
+      "exit": [
+        67.08,
+        65.13
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

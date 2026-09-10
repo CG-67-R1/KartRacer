@@ -1,0 +1,320 @@
+{
+  "trackId": "griffithk",
+  "name": "Griffith Kart Club",
+  "lengthM": 788,
+  "startFinish": [
+    48.01,
+    48.46
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "griffithk_t1",
+      "number": 1,
+      "apex": [
+        67.75,
+        38.44
+      ],
+      "label": [
+        72.9,
+        37.75
+      ],
+      "entry": [
+        60.89,
+        40.95
+      ],
+      "exit": [
+        68.58,
+        36.34
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "griffithk_t2",
+      "number": 2,
+      "apex": [
+        67.37,
+        33.29
+      ],
+      "label": [
+        72.18,
+        31.31
+      ],
+      "entry": [
+        68.55,
+        35.64
+      ],
+      "exit": [
+        64.59,
+        32.03
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "griffithk_t3",
+      "number": 3,
+      "apex": [
+        50.2,
+        25.7
+      ],
+      "label": [
+        50.73,
+        20.53
+      ],
+      "entry": [
+        52.48,
+        28.96
+      ],
+      "exit": [
+        50.48,
+        22.87
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "griffithk_t4",
+      "number": 4,
+      "apex": [
+        53.93,
+        20.71
+      ],
+      "label": [
+        55.25,
+        15.68
+      ],
+      "entry": [
+        51.36,
+        21.68
+      ],
+      "exit": [
+        60.21,
+        22.62
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "griffithk_t5",
+      "number": 5,
+      "apex": [
+        71.86,
+        14.32
+      ],
+      "label": [
+        75.27,
+        10.4
+      ],
+      "entry": [
+        73.4,
+        16.69
+      ],
+      "exit": [
+        61.84,
+        11.4
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "griffithk_t6",
+      "number": 6,
+      "apex": [
+        39.87,
+        8.73
+      ],
+      "label": [
+        38.51,
+        3.71
+      ],
+      "entry": [
+        45.51,
+        8.72
+      ],
+      "exit": [
+        37.37,
+        10.53
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "griffithk_t7",
+      "number": 7,
+      "apex": [
+        39.35,
+        28.85
+      ],
+      "label": [
+        36.2,
+        24.71
+      ],
+      "entry": [
+        37.31,
+        20.73
+      ],
+      "exit": [
+        33.68,
+        38.74
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "griffithk_t8",
+      "number": 8,
+      "apex": [
+        29.03,
+        49.37
+      ],
+      "label": [
+        24.25,
+        51.41
+      ],
+      "entry": [
+        29.58,
+        45.02
+      ],
+      "exit": [
+        31.3,
+        53.22
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "griffithk_t9",
+      "number": 9,
+      "apex": [
+        36.1,
+        61.81
+      ],
+      "label": [
+        33.42,
+        66.26
+      ],
+      "entry": [
+        34.74,
+        57.01
+      ],
+      "exit": [
+        32.42,
+        68.36
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "griffithk_t10",
+      "number": 10,
+      "apex": [
+        26.89,
+        85.1
+      ],
+      "label": [
+        24.59,
+        89.76
+      ],
+      "entry": [
+        27.12,
+        77.2
+      ],
+      "exit": [
+        30.31,
+        90.18
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "griffithk_t11",
+      "number": 11,
+      "apex": [
+        41.14,
+        88.41
+      ],
+      "label": [
+        40.33,
+        93.55
+      ],
+      "entry": [
+        38.25,
+        90.9
+      ],
+      "exit": [
+        44.51,
+        75.45
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    }
+  ]
+}

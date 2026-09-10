@@ -18,7 +18,7 @@ export async function shareBikeSetupAsText(options: ShareBikeSetupOptions): Prom
   if (!trimmed) {
     throw new Error('Nothing to share — fill in some setup values first.');
   }
-  const message = `${title}\n\n${trimmed}\n\n— Shared from RoadRacer (setup kept private on your device until you share)`;
+  const message = `${title}\n\n${trimmed}\n\n— Shared from KartRacer (setup kept private on your device until you share)`;
   await Share.share({
     message,
     title: Platform.OS === 'ios' ? title : undefined,

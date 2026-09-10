@@ -1,0 +1,59 @@
+{
+  "origin": "kb-au-rules/states/vic.md",
+  "title": "Karting Victoria notes",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "---\nid: state-vic\ntitle: VIC 2026 State Regulations\ntags: [vic, country-series, gps, combined-masters]\n---\n\n# VIC 2026 State Regulations\n\nFinal V4, 17 February 2026. Overrides: `data/state-overrides.json` → `vic`.\n\n## General\n\n- Cadet / Junior / TaG Restricted at State Series: engines **sealed**; restrictors may be checked.\n- Reverse grid if **≤ 8** karts — named in Supplementary Regulations.\n- Cadet/Junior **D Grade:** 2× D→C endorsements before Zonal / State Series / Cup / Trophy.\n- SKA within 48 h of those events: approval + entered drivers only.\n- Trackside assistants may be mandatory (roster; refusal → two-place grid penalty next non-final section).\n\n## Victorian Country Series\n\nMust: Cadet 9, Cadet 12, KA3 Junior L/H, KA3 Senior L/M, TaG 125 L/H. Optional: Victorian Combined Masters, TaG Restricted L/M/H. Min **6** entries at ≥ 5 rounds for series awards. Entry **$125**. Drop lowest round (DSQ cannot be dropped).\n\n## Golden Power Series\n\nSame must-list; optional adds **KA2**. Min **8** to constitute. Licence: Karting Victoria, KANSW if Griffith or Wagga home club, Karting SA, or Karting Tasmania. Entry **$140** (includes $45 levy). Entire-series entrants cannot change class after Round 1 close.\n\n## Extra divisions\n\n**Victorian Combined Masters** and **Ladies Masters:** KA100 **165 kg**; all other engines **172 kg** (TaG Restricted + KA3 mix).\n",
+  "contentBlocks": [
+    {
+      "type": "paragraph",
+      "text": "---\nid: state-vic\ntitle: VIC 2026 State Regulations\ntags: [vic, country-series, gps, combined-masters]\n---"
+    },
+    {
+      "type": "heading",
+      "text": "# VIC 2026 State Regulations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Final V4, 17 February 2026. Overrides: `data/state-overrides.json` → `vic`."
+    },
+    {
+      "type": "heading",
+      "text": "## General"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Cadet / Junior / TaG Restricted at State Series: engines **sealed**; restrictors may be checked.\n- Reverse grid if **≤ 8** karts — named in Supplementary Regulations.\n- Cadet/Junior **D Grade:** 2× D→C endorsements before Zonal / State Series / Cup / Trophy.\n- SKA within 48 h of those events: approval + entered drivers only.\n- Trackside assistants may be mandatory (roster; refusal → two-place grid penalty next non-final section)."
+    },
+    {
+      "type": "heading",
+      "text": "## Victorian Country Series"
+    },
+    {
+      "type": "paragraph",
+      "text": "Must: Cadet 9, Cadet 12, KA3 Junior L/H, KA3 Senior L/M, TaG 125 L/H. Optional: Victorian Combined Masters, TaG Restricted L/M/H. Min **6** entries at ≥ 5 rounds for series awards. Entry **$125**. Drop lowest round (DSQ cannot be dropped)."
+    },
+    {
+      "type": "heading",
+      "text": "## Golden Power Series"
+    },
+    {
+      "type": "paragraph",
+      "text": "Same must-list; optional adds **KA2**. Min **8** to constitute. Licence: Karting Victoria, KANSW if Griffith or Wagga home club, Karting SA, or Karting Tasmania. Entry **$140** (includes $45 levy). Entire-series entrants cannot change class after Round 1 close."
+    },
+    {
+      "type": "heading",
+      "text": "## Extra divisions"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Victorian Combined Masters** and **Ladies Masters:** KA100 **165 kg**; all other engines **172 kg** (TaG Restricted + KA3 mix)."
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "kb-au-rules",
+    "builtAt": "2026-09-10T08:52:32.890Z"
+  }
+}

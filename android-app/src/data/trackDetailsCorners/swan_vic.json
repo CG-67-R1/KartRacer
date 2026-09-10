@@ -1,0 +1,292 @@
+{
+  "trackId": "swan_vic",
+  "name": "Swan Hill Kart Club",
+  "lengthM": 820,
+  "startFinish": [
+    58.63,
+    40.66
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "swan_vic_t1",
+      "number": 1,
+      "apex": [
+        73.14,
+        40.38
+      ],
+      "label": [
+        77.43,
+        37.44
+      ],
+      "entry": [
+        68.7,
+        38.28
+      ],
+      "exit": [
+        75.81,
+        44.74
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "swan_vic_t2",
+      "number": 2,
+      "apex": [
+        70.08,
+        65.67
+      ],
+      "label": [
+        73.89,
+        69.21
+      ],
+      "entry": [
+        74.06,
+        55.98
+      ],
+      "exit": [
+        70.9,
+        70.62
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "swan_vic_t3",
+      "number": 3,
+      "apex": [
+        80.94,
+        79.66
+      ],
+      "label": [
+        84.47,
+        83.48
+      ],
+      "entry": [
+        75.15,
+        74.98
+      ],
+      "exit": [
+        81.62,
+        82.7
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "swan_vic_t4",
+      "number": 4,
+      "apex": [
+        78.25,
+        87.86
+      ],
+      "label": [
+        81.03,
+        92.25
+      ],
+      "entry": [
+        81.08,
+        84.91
+      ],
+      "exit": [
+        52.31,
+        91.3
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "swan_vic_t5",
+      "number": 5,
+      "apex": [
+        34.44,
+        86.78
+      ],
+      "label": [
+        31.71,
+        91.2
+      ],
+      "entry": [
+        42.82,
+        91.11
+      ],
+      "exit": [
+        26.26,
+        62.98
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "swan_vic_t6",
+      "number": 6,
+      "apex": [
+        20.44,
+        22.59
+      ],
+      "label": [
+        16.46,
+        19.24
+      ],
+      "entry": [
+        18.48,
+        28.24
+      ],
+      "exit": [
+        30.97,
+        14.82
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "swan_vic_t7",
+      "number": 7,
+      "apex": [
+        48.32,
+        8.33
+      ],
+      "label": [
+        47.46,
+        3.2
+      ],
+      "entry": [
+        30.97,
+        14.82
+      ],
+      "exit": [
+        53.3,
+        9.3
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "swan_vic_t8",
+      "number": 8,
+      "apex": [
+        56.75,
+        22.1
+      ],
+      "label": [
+        56.93,
+        16.9
+      ],
+      "entry": [
+        58.4,
+        17.46
+      ],
+      "exit": [
+        47.93,
+        27.48
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "swan_vic_t9",
+      "number": 9,
+      "apex": [
+        39.29,
+        37.88
+      ],
+      "label": [
+        35.38,
+        34.45
+      ],
+      "entry": [
+        42.44,
+        31.71
+      ],
+      "exit": [
+        42.41,
+        61.61
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "swan_vic_t10",
+      "number": 10,
+      "apex": [
+        46.67,
+        73.25
+      ],
+      "label": [
+        44.61,
+        78.02
+      ],
+      "entry": [
+        43.6,
+        66.73
+      ],
+      "exit": [
+        49.37,
+        74.58
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    }
+  ]
+}

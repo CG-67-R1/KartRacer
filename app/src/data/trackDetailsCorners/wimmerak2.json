@@ -1,0 +1,68 @@
+{
+  "trackId": "wimmerak2",
+  "name": "Wimmera Kart Racing Club (Dooen) (2)",
+  "lengthM": 606,
+  "startFinish": [
+    54.55,
+    55.06
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "wimmerak2_t1",
+      "number": 1,
+      "apex": [
+        18.87,
+        50.87
+      ],
+      "label": [
+        13.68,
+        51.21
+      ],
+      "entry": [
+        19.33,
+        56.83
+      ],
+      "exit": [
+        45.99,
+        13.01
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "wimmerak2_t2",
+      "number": 2,
+      "apex": [
+        63.62,
+        17.76
+      ],
+      "label": [
+        66.18,
+        13.23
+      ],
+      "entry": [
+        60.17,
+        12.34
+      ],
+      "exit": [
+        72.19,
+        20.49
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    }
+  ]
+}

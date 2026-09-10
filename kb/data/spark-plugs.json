@@ -1,0 +1,87 @@
+{
+  "id": "spark-plugs",
+  "purpose": "Class plug, thread, reach, hex, resistor, heat range, max gap.",
+  "confirm": "Gaps and allowed part numbers are class-reg items. Non-compliant gap is a non-protestable exclusion.",
+  "physics": {
+    "self_clean_tip_c": [500, 800],
+    "rich_fouling_below_c": 500,
+    "lean_overheat_above_c": 800,
+    "good_insulator_colour": "light straw to brown",
+    "fouled": "damp, dark/black",
+    "overheated": "dry, blistered, toward white",
+    "ngk_denso_higher_number": "colder",
+    "champion_bosch_higher_number": "hotter",
+    "ngk_step_tip_delta_c": [75, 100],
+    "correct_plug_power_gain_percent": [1, 2]
+  },
+  "cik_head": {
+    "dim_A_min_mm_for_19mm_reach": 18.5,
+    "note": "Do not machine plug seat / thin gasket to raise compression. Gauges exist."
+  },
+  "gapping": {
+    "metric_feeler_step_mm": 0.05,
+    "max_blade_typical_mm": 1.0,
+    "stack_nearby_blades": true,
+    "example_1_10_mm": [0.5, 0.6],
+    "near_limit": "err tight vs the legal max",
+    "ground_electrode_bends_max": 6,
+    "iridium": "do not load the centre electrode"
+  },
+  "classes": [
+    {
+      "class": "Bambino",
+      "allowed": ["Champion RCJ7Y", "Bosch WS5F", "NGK BPMR7A"],
+      "thread": "M14×1.25",
+      "reach_mm": 9.5,
+      "hex_mm": 19,
+      "gap_rule": "free",
+      "gap_oem_guide_mm": null
+    },
+    {
+      "class": "Rotax Micro/Mini",
+      "allowed": ["NGK GR8DI", "NGK GR9DI"],
+      "thread": "M14×1.25",
+      "reach_mm": 19,
+      "hex_mm": 21,
+      "resistor_kohm": 5,
+      "heat": "8 warmer than 9 (NGK)",
+      "gap_max_mm": 1.2,
+      "gap_oem_mm": 0.9
+    },
+    {
+      "class": "Rotax Jnr/Snr/DD2",
+      "allowed": ["NGK GR8DI", "NGK GR9DI"],
+      "thread": "M14×1.25",
+      "reach_mm": 19,
+      "hex_mm": 21,
+      "resistor_kohm": 5,
+      "gap_max_mm": 1.0,
+      "gap_oem_mm": 0.9
+    },
+    {
+      "class": "Kid Rok / OKJ",
+      "allowed": ["NGK B9EG", "NGK B10EG"],
+      "thread": "M14×1.25",
+      "reach_mm": 19,
+      "hex_mm": 21,
+      "electrode": "fine-wire nickel",
+      "heat": "9 warmer than 10 (NGK)",
+      "gap_rule": "free",
+      "gap_oem_mm": 0.6
+    },
+    {
+      "class": "Mini Rok",
+      "allowed": ["NGK B10EG"],
+      "thread": "M14×1.25",
+      "reach_mm": 19,
+      "hex_mm": 21,
+      "gap_rule": "free",
+      "gap_oem_mm": 0.6
+    },
+    {
+      "class": "KZ2",
+      "allowed": ["mass-produced original only"],
+      "gap_rule": "free"
+    }
+  ]
+}

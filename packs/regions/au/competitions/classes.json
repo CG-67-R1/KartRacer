@@ -1,5 +1,175 @@
 {
-  "classes": [],
-  "_placeholder": true,
-  "_explainer": "Motorcycle pack content stripped. Refill from C:/KartRacer/docs/KR_DATA_EQUIVALENTS.md and CURSOR_BUILD_JOBS.md J4.1."
+  "classes": [
+    {
+      "id": "cadet-9",
+      "name": "cadet 9",
+      "chapter": 1,
+      "licence": "Cadet 9; National min C Grade",
+      "eligibility": [
+        "Club",
+        "Zonal",
+        "State",
+        "National"
+      ]
+    },
+    {
+      "id": "micromax",
+      "name": "micromax",
+      "chapter": 2,
+      "licence": "min C Grade Cadet 9",
+      "eligibility": [
+        "Social Karting only"
+      ]
+    },
+    {
+      "id": "cadet-12",
+      "name": "cadet 12",
+      "chapter": 3,
+      "licence": "Cadet 12; National min C Grade",
+      "eligibility": [
+        "Club",
+        "Zonal",
+        "State",
+        "National"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "minimax",
+      "chapter": 4,
+      "licence": "min C Grade Cadet 12",
+      "eligibility": [
+        "Social Karting only"
+      ]
+    },
+    {
+      "id": "ka4",
+      "name": "ka4",
+      "chapter": 5
+    },
+    {
+      "id": "ka3",
+      "name": "ka3",
+      "chapter": 6,
+      "licence": {
+        "national": "min C Grade",
+        "other": "Junior or Senior as applicable"
+      },
+      "eligibility": [
+        "Club",
+        "Zonal",
+        "State",
+        "National"
+      ]
+    },
+    {
+      "id": "rotax-junior-max",
+      "name": "rotax junior max",
+      "chapter": 8,
+      "licence": "min B Grade Junior"
+    },
+    {
+      "id": "ka2",
+      "name": "ka2",
+      "chapter": 9,
+      "licence": "min B Grade Junior",
+      "eligibility": [
+        "Club",
+        "Zonal",
+        "State",
+        "National"
+      ]
+    },
+    {
+      "id": "x30",
+      "name": "x30",
+      "chapter": 10,
+      "licence": "min B Grade Senior"
+    },
+    {
+      "id": "rotax-125",
+      "name": "rotax 125",
+      "chapter": 11,
+      "licence": "min B Grade Senior"
+    },
+    {
+      "id": "tag-125-restricted",
+      "name": "tag 125 restricted",
+      "chapter": 12,
+      "licence": "Senior; National Cup / State Championship+ max C Grade (40+ may hold A/B). State champ winners in Light/Medium/Heavy ineligible for Restricted at next year's State Championship."
+    },
+    {
+      "id": "tag-125",
+      "name": "tag 125",
+      "chapter": 13,
+      "licence": "min B Grade Senior"
+    },
+    {
+      "id": "dd2",
+      "name": "dd2",
+      "chapter": 14,
+      "licence": "min B Grade Senior"
+    },
+    {
+      "id": "rok-gp",
+      "name": "rok gp",
+      "chapter": 15,
+      "licence": "min B Grade Senior"
+    },
+    {
+      "id": "kz2",
+      "name": "kz2",
+      "chapter": 16,
+      "licence": "confirm class (typically high-grade Senior)"
+    },
+    {
+      "id": "open-performance",
+      "name": "open performance",
+      "chapter": 17,
+      "licence": "min B Grade Senior (C Grade if 4-stroke only)"
+    },
+    {
+      "id": "gearbox",
+      "name": "gearbox",
+      "chapter": 18
+    },
+    {
+      "id": "yamaha",
+      "name": "yamaha",
+      "chapter": 19
+    },
+    {
+      "id": "vintage",
+      "name": "vintage",
+      "chapter": 20,
+      "licence": "Vintage licence"
+    },
+    {
+      "id": "4ss",
+      "name": "4ss",
+      "chapter": 21
+    },
+    {
+      "id": "4ss-super",
+      "name": "4ss super",
+      "chapter": 22,
+      "licence": "max B Grade Senior unless 40+ (A Grade ok); A-Grade at Club usually no points",
+      "eligibility": [
+        "Social",
+        "Club",
+        "one State Trophy per state",
+        "Ultimate Club Racer"
+      ]
+    },
+    {
+      "id": "4se",
+      "name": "4se",
+      "chapter": 23
+    },
+    {
+      "id": "dirt-track",
+      "name": "dirt track",
+      "chapter": 24
+    }
+  ]
 }

@@ -1,0 +1,320 @@
+{
+  "trackId": "gok_world_cw",
+  "name": "Go Kart World (Newcastle) (CW)",
+  "lengthM": 1018,
+  "startFinish": [
+    56.08,
+    53.58
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "gok_world_cw_t1",
+      "number": 1,
+      "apex": [
+        81.51,
+        42.96
+      ],
+      "label": [
+        86.68,
+        42.45
+      ],
+      "entry": [
+        73.55,
+        45.67
+      ],
+      "exit": [
+        86.94,
+        44.48
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "gok_world_cw_t2",
+      "number": 2,
+      "apex": [
+        87.54,
+        60.16
+      ],
+      "label": [
+        92.38,
+        62.06
+      ],
+      "entry": [
+        90.92,
+        56.57
+      ],
+      "exit": [
+        82.8,
+        60.62
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "gok_world_cw_t3",
+      "number": 3,
+      "apex": [
+        14.53,
+        85.91
+      ],
+      "label": [
+        11,
+        89.73
+      ],
+      "entry": [
+        18.76,
+        85.37
+      ],
+      "exit": [
+        11.63,
+        83.89
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "gok_world_cw_t4",
+      "number": 4,
+      "apex": [
+        10.27,
+        77.13
+      ],
+      "label": [
+        6.13,
+        80.27
+      ],
+      "entry": [
+        10.47,
+        81.88
+      ],
+      "exit": [
+        13.52,
+        72.31
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "gok_world_cw_t5",
+      "number": 5,
+      "apex": [
+        38.54,
+        63.61
+      ],
+      "label": [
+        35.48,
+        67.81
+      ],
+      "entry": [
+        33.13,
+        66.44
+      ],
+      "exit": [
+        40.42,
+        60.76
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "gok_world_cw_t6",
+      "number": 6,
+      "apex": [
+        35.12,
+        52.91
+      ],
+      "label": [
+        30.34,
+        54.95
+      ],
+      "entry": [
+        38.13,
+        53.87
+      ],
+      "exit": [
+        30.53,
+        53.64
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "gok_world_cw_t7",
+      "number": 7,
+      "apex": [
+        9.13,
+        55.04
+      ],
+      "label": [
+        4.05,
+        56.13
+      ],
+      "entry": [
+        12.86,
+        58.62
+      ],
+      "exit": [
+        8.48,
+        50.25
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "gok_world_cw_t8",
+      "number": 8,
+      "apex": [
+        32.84,
+        40.97
+      ],
+      "label": [
+        27.82,
+        39.62
+      ],
+      "entry": [
+        23.09,
+        42.7
+      ],
+      "exit": [
+        43.1,
+        31.16
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "gok_world_cw_t9",
+      "number": 9,
+      "apex": [
+        71.39,
+        18.65
+      ],
+      "label": [
+        74.46,
+        14.45
+      ],
+      "entry": [
+        66.39,
+        16.5
+      ],
+      "exit": [
+        75.2,
+        17.45
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "gok_world_cw_t10",
+      "number": 10,
+      "apex": [
+        86.23,
+        21.69
+      ],
+      "label": [
+        90.5,
+        18.72
+      ],
+      "entry": [
+        85.93,
+        18.5
+      ],
+      "exit": [
+        83.83,
+        24.34
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "gok_world_cw_t11",
+      "number": 11,
+      "apex": [
+        69.19,
+        35.46
+      ],
+      "label": [
+        73.67,
+        32.82
+      ],
+      "entry": [
+        74.13,
+        32.92
+      ],
+      "exit": [
+        64.85,
+        33.59
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    }
+  ]
+}

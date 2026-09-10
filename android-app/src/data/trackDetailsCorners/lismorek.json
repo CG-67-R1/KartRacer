@@ -1,0 +1,68 @@
+{
+  "trackId": "lismorek",
+  "name": "Lismore Kart Club",
+  "lengthM": 639,
+  "startFinish": [
+    49.21,
+    28.99
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "lismorek_t1",
+      "number": 1,
+      "apex": [
+        8.45,
+        25.96
+      ],
+      "label": [
+        3.54,
+        24.24
+      ],
+      "entry": [
+        8.67,
+        28.66
+      ],
+      "exit": [
+        10.11,
+        23.78
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "lismorek_t2",
+      "number": 2,
+      "apex": [
+        77.26,
+        39.24
+      ],
+      "label": [
+        82.33,
+        38.08
+      ],
+      "entry": [
+        72.07,
+        36.29
+      ],
+      "exit": [
+        85.5,
+        37.59
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "trackId": "pdkc_long",
+  "name": "Portland District Karting Club (Long)",
+  "lengthM": 717,
+  "startFinish": [
+    50.07,
+    50.69
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "pdkc_long_t1",
+      "number": 1,
+      "apex": [
+        16.19,
+        16.84
+      ],
+      "label": [
+        12.04,
+        13.71
+      ],
+      "entry": [
+        33.17,
+        38.63
+      ],
+      "exit": [
+        13.33,
+        16.14
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "pdkc_long_t2",
+      "number": 2,
+      "apex": [
+        8.33,
+        21.48
+      ],
+      "label": [
+        3.74,
+        19.03
+      ],
+      "entry": [
+        9.62,
+        18.06
+      ],
+      "exit": [
+        12.54,
+        33.73
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "pdkc_long_t3",
+      "number": 3,
+      "apex": [
+        86.52,
+        83
+      ],
+      "label": [
+        89.87,
+        86.97
+      ],
+      "entry": [
+        63.02,
+        75.3
+      ],
+      "exit": [
+        90.19,
+        80.37
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "pdkc_long_t4",
+      "number": 4,
+      "apex": [
+        61.11,
+        56.24
+      ],
+      "label": [
+        63.57,
+        60.82
+      ],
+      "entry": [
+        60.39,
+        59.26
+      ],
+      "exit": [
+        63.51,
+        54.52
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "pdkc_long_t5",
+      "number": 5,
+      "apex": [
+        81.86,
+        55.15
+      ],
+      "label": [
+        86.82,
+        56.72
+      ],
+      "entry": [
+        73.35,
+        55.04
+      ],
+      "exit": [
+        84.26,
+        53.14
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "pdkc_long_t6",
+      "number": 6,
+      "apex": [
+        49.79,
+        22.34
+      ],
+      "label": [
+        48.49,
+        17.3
+      ],
+      "entry": [
+        67.74,
+        32.7
+      ],
+      "exit": [
+        44.5,
+        22.86
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "pdkc_long_t7",
+      "number": 7,
+      "apex": [
+        41.24,
+        30.21
+      ],
+      "label": [
+        37.79,
+        26.32
+      ],
+      "entry": [
+        41.34,
+        26.61
+      ],
+      "exit": [
+        43.4,
+        33.58
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "pdkc_long_t8",
+      "number": 8,
+      "apex": [
+        55.28,
+        38.45
+      ],
+      "label": [
+        54.76,
+        33.28
+      ],
+      "entry": [
+        48.96,
+        35.65
+      ],
+      "exit": [
+        57.09,
+        42.23
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "pdkc_long_t9",
+      "number": 9,
+      "apex": [
+        55.12,
+        48.08
+      ],
+      "label": [
+        51.61,
+        51.91
+      ],
+      "entry": [
+        57.1,
+        44.23
+      ],
+      "exit": [
+        51.22,
+        50.44
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    }
+  ]
+}

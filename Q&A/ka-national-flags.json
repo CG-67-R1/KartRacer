@@ -1,0 +1,47 @@
+{
+  "origin": "kb-au-rules/national/flags-driving.md",
+  "title": "2026 KA Manual — flags and driving",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "---\nid: ncr-flags-driving\ntitle: Flags, lights, driving code\ntags: [flags, yellow, red, blue, black, chequered, driving]\n---\n\n# Flags, lights, driving code\n\nCompetition Rules Ch 2–3. Flags **≥ 500 × 500 mm**. Lights may replace or augment flags. Night meetings: battery yellow + red at each flag point.\n\n| Signal | Meaning |\n|---|---|\n| National flag | May start the race |\n| Green + yellow chevron | Restart / reform — only before leader completes lap 1 |\n| Yellow | Danger. Slow, **no overtake** until the next point not showing yellow. Raise an arm if safe. Failure to slow is serious |\n| Green (optional) | All clear; sometimes starts warm-up/practice (often international) |\n| Blue | About to be lapped. Hold line, do not impede |\n| Red | Session/race stopped. No overtaking. Arm up, reduced speed to the designated area. Clerk/Steward only |\n| Yellow + red stripes (vertical) | Surface adhesion change (oil, water). Up to 4 laps or until normal. Sky-point if rain |\n| Blue + red double diagonal | Unsporting / specific instruction — obey officials (see Manual) |\n| Black + white diagonal | Warning for unsporting driving |\n| Black | Report to officials / disqualification path — stop as instructed |\n| Black + orange disc | Mechanical issue — leave the track to pits |\n| White / last-lap board | Last lap |\n| Black + white chequered | Finish. From chequered until Parc Fermé, follow Technical/parc rules |\n\n**Full Course Yellow** exists in Competition Rules Ch 1 Rule 24. WA **must** use it at State Series/Cup/Trophy. SA **may**.\n\n## Driving code (high level)\n\nFlag/light rules are part of the code. Nose-to-rear-wheel and nose-alongside diagrams in the Manual define when a kart is entitled to space. Contact, forcing off, and ignoring yellows are offences under General Rules Ch 8 plus this chapter.\n\nCadet/Junior: rib protectors mandatory in those classes; neck/chest recommended.\n",
+  "contentBlocks": [
+    {
+      "type": "paragraph",
+      "text": "---\nid: ncr-flags-driving\ntitle: Flags, lights, driving code\ntags: [flags, yellow, red, blue, black, chequered, driving]\n---"
+    },
+    {
+      "type": "heading",
+      "text": "# Flags, lights, driving code"
+    },
+    {
+      "type": "paragraph",
+      "text": "Competition Rules Ch 2–3. Flags **≥ 500 × 500 mm**. Lights may replace or augment flags. Night meetings: battery yellow + red at each flag point."
+    },
+    {
+      "type": "paragraph",
+      "text": "| Signal | Meaning |\n|---|---|\n| National flag | May start the race |\n| Green + yellow chevron | Restart / reform — only before leader completes lap 1 |\n| Yellow | Danger. Slow, **no overtake** until the next point not showing yellow. Raise an arm if safe. Failure to slow is serious |\n| Green (optional) | All clear; sometimes starts warm-up/practice (often international) |\n| Blue | About to be lapped. Hold line, do not impede |\n| Red | Session/race stopped. No overtaking. Arm up, reduced speed to the designated area. Clerk/Steward only |\n| Yellow + red stripes (vertical) | Surface adhesion change (oil, water). Up to 4 laps or until normal. Sky-point if rain |\n| Blue + red double diagonal | Unsporting / specific instruction — obey officials (see Manual) |\n| Black + white diagonal | Warning for unsporting driving |\n| Black | Report to officials / disqualification path — stop as instructed |\n| Black + orange disc | Mechanical issue — leave the track to pits |\n| White / last-lap board | Last lap |\n| Black + white chequered | Finish. From chequered until Parc Fermé, follow Technical/parc rules |"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Full Course Yellow** exists in Competition Rules Ch 1 Rule 24. WA **must** use it at State Series/Cup/Trophy. SA **may**."
+    },
+    {
+      "type": "heading",
+      "text": "## Driving code (high level)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Flag/light rules are part of the code. Nose-to-rear-wheel and nose-alongside diagrams in the Manual define when a kart is entitled to space. Contact, forcing off, and ignoring yellows are offences under General Rules Ch 8 plus this chapter."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cadet/Junior: rib protectors mandatory in those classes; neck/chest recommended."
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "kb-au-rules",
+    "builtAt": "2026-09-10T08:52:32.878Z"
+  }
+}

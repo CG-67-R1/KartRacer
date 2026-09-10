@@ -1,0 +1,404 @@
+{
+  "trackId": "indy800c",
+  "name": "Greater Sydney Kart Club (Indy 800) (Club)",
+  "lengthM": 767,
+  "startFinish": [
+    44.98,
+    63.47
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "indy800c_t1",
+      "number": 1,
+      "apex": [
+        36.41,
+        64.05
+      ],
+      "label": [
+        31.72,
+        66.3
+      ],
+      "entry": [
+        44.98,
+        63.47
+      ],
+      "exit": [
+        31.24,
+        61.64
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "indy800c_t2",
+      "number": 2,
+      "apex": [
+        28.15,
+        52.72
+      ],
+      "label": [
+        22.95,
+        52.67
+      ],
+      "entry": [
+        28.38,
+        57.04
+      ],
+      "exit": [
+        29.98,
+        49.56
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "indy800c_t3",
+      "number": 3,
+      "apex": [
+        42.53,
+        44.52
+      ],
+      "label": [
+        37.89,
+        42.17
+      ],
+      "entry": [
+        37.32,
+        46.94
+      ],
+      "exit": [
+        44.15,
+        41.45
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "indy800c_t4",
+      "number": 4,
+      "apex": [
+        34.94,
+        33.14
+      ],
+      "label": [
+        30.91,
+        29.86
+      ],
+      "entry": [
+        39.38,
+        33.41
+      ],
+      "exit": [
+        28.18,
+        36.58
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "indy800c_t5",
+      "number": 5,
+      "apex": [
+        12.14,
+        73.53
+      ],
+      "label": [
+        7.37,
+        75.6
+      ],
+      "entry": [
+        8.33,
+        64.51
+      ],
+      "exit": [
+        20.22,
+        78.84
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "indy800c_t6",
+      "number": 6,
+      "apex": [
+        68.07,
+        83.28
+      ],
+      "label": [
+        69.51,
+        88.28
+      ],
+      "entry": [
+        64.43,
+        86.48
+      ],
+      "exit": [
+        69.06,
+        78.88
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "indy800c_t7",
+      "number": 7,
+      "apex": [
+        62.35,
+        59.8
+      ],
+      "label": [
+        64.46,
+        64.55
+      ],
+      "entry": [
+        61.1,
+        64.21
+      ],
+      "exit": [
+        64.96,
+        58.06
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "indy800c_t8",
+      "number": 8,
+      "apex": [
+        73.62,
+        59.42
+      ],
+      "label": [
+        78.37,
+        61.55
+      ],
+      "entry": [
+        67.78,
+        57.57
+      ],
+      "exit": [
+        76.2,
+        62.62
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "indy800c_t9",
+      "number": 9,
+      "apex": [
+        80.17,
+        76.35
+      ],
+      "label": [
+        83.63,
+        80.23
+      ],
+      "entry": [
+        77.7,
+        71.82
+      ],
+      "exit": [
+        82.81,
+        77.99
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "indy800c_t10",
+      "number": 10,
+      "apex": [
+        90.03,
+        75.95
+      ],
+      "label": [
+        94.2,
+        79.06
+      ],
+      "entry": [
+        87.72,
+        77.64
+      ],
+      "exit": [
+        91.67,
+        71.74
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "indy800c_t11",
+      "number": 11,
+      "apex": [
+        83.52,
+        46.9
+      ],
+      "label": [
+        88.56,
+        45.62
+      ],
+      "entry": [
+        89.52,
+        59.32
+      ],
+      "exit": [
+        77.86,
+        44.17
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    },
+    {
+      "id": "indy800c_t12",
+      "number": 12,
+      "apex": [
+        70.66,
+        37.9
+      ],
+      "label": [
+        73.77,
+        33.74
+      ],
+      "entry": [
+        72.4,
+        41.15
+      ],
+      "exit": [
+        70.97,
+        35.08
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 12 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T11 exit"
+    },
+    {
+      "id": "indy800c_t13",
+      "number": 13,
+      "apex": [
+        81.88,
+        26.67
+      ],
+      "label": [
+        85.26,
+        22.72
+      ],
+      "entry": [
+        77.12,
+        30.14
+      ],
+      "exit": [
+        83.4,
+        22.5
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 13 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T12 exit"
+    },
+    {
+      "id": "indy800c_t14",
+      "number": 14,
+      "apex": [
+        78.17,
+        13.34
+      ],
+      "label": [
+        80.4,
+        8.64
+      ],
+      "entry": [
+        81.22,
+        15.67
+      ],
+      "exit": [
+        73.71,
+        12.54
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 14 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T13 exit"
+    }
+  ]
+}

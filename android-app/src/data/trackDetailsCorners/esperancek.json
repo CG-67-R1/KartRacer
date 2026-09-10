@@ -1,0 +1,40 @@
+{
+  "trackId": "esperancek",
+  "name": "Esperance Kart Klub",
+  "lengthM": 646,
+  "startFinish": [
+    27.51,
+    64.32
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "esperancek_t1",
+      "number": 1,
+      "apex": [
+        54.32,
+        9.25
+      ],
+      "label": [
+        54.67,
+        4.06
+      ],
+      "entry": [
+        27.56,
+        35.38
+      ],
+      "exit": [
+        60.69,
+        8.46
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

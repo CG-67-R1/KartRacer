@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "id": "pressure-analysis",
+  "sources": [
+    "https://www.angriracing.com/tyre-setup",
+    "https://www.angriracing.com/kart-setup"
+  ],
+  "windowBar": {
+    "min": 0.8,
+    "max": 1.5,
+    "start": 1.0
+  },
+  "stepBar": 0.1,
+  "evenToleranceBar": 0.05,
+  "rise": {
+    "aluminiumBar": 0.15,
+    "magnesiumBar": 0.25,
+    "note": "Magnesium rims heat faster and usually show a larger cold-to-hot rise. These rise figures are paddock estimates for the advisor, not a published table."
+  }
+}

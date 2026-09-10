@@ -1,0 +1,68 @@
+{
+  "trackId": "chkrc_c",
+  "name": "Coffs Harbour Kart Racing Club (C.ex Raceway) (C)",
+  "lengthM": 575,
+  "startFinish": [
+    57.41,
+    56.98
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "chkrc_c_t1",
+      "number": 1,
+      "apex": [
+        44.37,
+        10.74
+      ],
+      "label": [
+        42.36,
+        5.94
+      ],
+      "entry": [
+        39.53,
+        19.15
+      ],
+      "exit": [
+        51.44,
+        8.33
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "chkrc_c_t2",
+      "number": 2,
+      "apex": [
+        71.95,
+        64.61
+      ],
+      "label": [
+        74.8,
+        68.96
+      ],
+      "entry": [
+        74.92,
+        65.53
+      ],
+      "exit": [
+        70.3,
+        61.95
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    }
+  ]
+}

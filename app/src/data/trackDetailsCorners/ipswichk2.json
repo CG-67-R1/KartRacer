@@ -1,0 +1,320 @@
+{
+  "trackId": "ipswichk2",
+  "name": "Ipswich Kart Club (2)",
+  "lengthM": 894,
+  "startFinish": [
+    43.69,
+    48.95
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "ipswichk2_t1",
+      "number": 1,
+      "apex": [
+        38.51,
+        44.7
+      ],
+      "label": [
+        34.73,
+        41.13
+      ],
+      "entry": [
+        40.78,
+        44.41
+      ],
+      "exit": [
+        28.45,
+        57.51
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "ipswichk2_t2",
+      "number": 2,
+      "apex": [
+        13.47,
+        77.87
+      ],
+      "label": [
+        9.45,
+        81.17
+      ],
+      "entry": [
+        17.16,
+        75.3
+      ],
+      "exit": [
+        11.38,
+        77.78
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "ipswichk2_t3",
+      "number": 3,
+      "apex": [
+        18.72,
+        18.15
+      ],
+      "label": [
+        15.45,
+        14.11
+      ],
+      "entry": [
+        14.81,
+        31.36
+      ],
+      "exit": [
+        20.85,
+        16.93
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "ipswichk2_t4",
+      "number": 4,
+      "apex": [
+        25.17,
+        29.46
+      ],
+      "label": [
+        21.62,
+        25.66
+      ],
+      "entry": [
+        25.03,
+        22.68
+      ],
+      "exit": [
+        26.96,
+        31.31
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "ipswichk2_t5",
+      "number": 5,
+      "apex": [
+        30.26,
+        31.26
+      ],
+      "label": [
+        27.1,
+        27.13
+      ],
+      "entry": [
+        28.41,
+        31.75
+      ],
+      "exit": [
+        32.54,
+        28.85
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "ipswichk2_t6",
+      "number": 6,
+      "apex": [
+        49.46,
+        26.09
+      ],
+      "label": [
+        50.23,
+        20.95
+      ],
+      "entry": [
+        43.44,
+        23.53
+      ],
+      "exit": [
+        60.05,
+        43.88
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "ipswichk2_t7",
+      "number": 7,
+      "apex": [
+        74.2,
+        63.06
+      ],
+      "label": [
+        79.02,
+        65.02
+      ],
+      "entry": [
+        70.23,
+        60.59
+      ],
+      "exit": [
+        82.01,
+        62.89
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "ipswichk2_t8",
+      "number": 8,
+      "apex": [
+        90.3,
+        64.2
+      ],
+      "label": [
+        95.3,
+        65.63
+      ],
+      "entry": [
+        88.1,
+        62.68
+      ],
+      "exit": [
+        91.64,
+        67.45
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "ipswichk2_t9",
+      "number": 9,
+      "apex": [
+        81.04,
+        83.01
+      ],
+      "label": [
+        84.92,
+        86.47
+      ],
+      "entry": [
+        86.46,
+        80.43
+      ],
+      "exit": [
+        68.87,
+        80.15
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "ipswichk2_t10",
+      "number": 10,
+      "apex": [
+        59.52,
+        66.56
+      ],
+      "label": [
+        63.03,
+        70.39
+      ],
+      "entry": [
+        62.28,
+        72.85
+      ],
+      "exit": [
+        49.82,
+        62.89
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "ipswichk2_t11",
+      "number": 11,
+      "apex": [
+        40.7,
+        57.6
+      ],
+      "label": [
+        37.43,
+        61.64
+      ],
+      "entry": [
+        42.65,
+        60.43
+      ],
+      "exit": [
+        40.73,
+        54.42
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    }
+  ]
+}

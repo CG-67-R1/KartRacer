@@ -1,0 +1,208 @@
+{
+  "trackId": "ballaratk",
+  "name": "Ballarat Kart Club (Haddon Park) (1)",
+  "lengthM": 641,
+  "startFinish": [
+    49.89,
+    50.23
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "ballaratk_t1",
+      "number": 1,
+      "apex": [
+        55.71,
+        71.82
+      ],
+      "label": [
+        56.4,
+        76.97
+      ],
+      "entry": [
+        50.05,
+        71.28
+      ],
+      "exit": [
+        60.41,
+        68.92
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "ballaratk_t2",
+      "number": 2,
+      "apex": [
+        73.08,
+        65.42
+      ],
+      "label": [
+        77.76,
+        67.69
+      ],
+      "entry": [
+        70.14,
+        64
+      ],
+      "exit": [
+        74.55,
+        67.71
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "ballaratk_t3",
+      "number": 3,
+      "apex": [
+        73.99,
+        72.5
+      ],
+      "label": [
+        78.03,
+        75.77
+      ],
+      "entry": [
+        74.82,
+        69.05
+      ],
+      "exit": [
+        69.74,
+        76.22
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "ballaratk_t4",
+      "number": 4,
+      "apex": [
+        69.58,
+        91.35
+      ],
+      "label": [
+        71.72,
+        96.09
+      ],
+      "entry": [
+        66.67,
+        89.23
+      ],
+      "exit": [
+        72.7,
+        91.51
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "ballaratk_t5",
+      "number": 5,
+      "apex": [
+        75.47,
+        89.68
+      ],
+      "label": [
+        78.3,
+        94.04
+      ],
+      "entry": [
+        73.34,
+        91.3
+      ],
+      "exit": [
+        78.22,
+        79.48
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "ballaratk_t6",
+      "number": 6,
+      "apex": [
+        81.24,
+        65.74
+      ],
+      "label": [
+        86.14,
+        67.47
+      ],
+      "entry": [
+        78.22,
+        79.48
+      ],
+      "exit": [
+        62.69,
+        42.86
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "ballaratk_t7",
+      "number": 7,
+      "apex": [
+        20.54,
+        19.63
+      ],
+      "label": [
+        17.04,
+        15.78
+      ],
+      "entry": [
+        18.65,
+        16.86
+      ],
+      "exit": [
+        26.31,
+        21.51
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    }
+  ]
+}

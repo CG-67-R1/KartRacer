@@ -1,0 +1,264 @@
+{
+  "trackId": "mvkc_2024",
+  "name": "Manning Valley Kart Club (Wingham)",
+  "lengthM": 688,
+  "startFinish": [
+    48.51,
+    48.69
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "mvkc_2024_t1",
+      "number": 1,
+      "apex": [
+        39.55,
+        65.49
+      ],
+      "label": [
+        36.85,
+        69.93
+      ],
+      "entry": [
+        45.03,
+        56.22
+      ],
+      "exit": [
+        36.52,
+        66.62
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "mvkc_2024_t2",
+      "number": 2,
+      "apex": [
+        30.28,
+        63.72
+      ],
+      "label": [
+        25.97,
+        66.63
+      ],
+      "entry": [
+        32.28,
+        65.89
+      ],
+      "exit": [
+        30.34,
+        55.07
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "mvkc_2024_t3",
+      "number": 3,
+      "apex": [
+        31.64,
+        35.59
+      ],
+      "label": [
+        27.98,
+        31.9
+      ],
+      "entry": [
+        31.17,
+        49.7
+      ],
+      "exit": [
+        45.67,
+        14.69
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "mvkc_2024_t4",
+      "number": 4,
+      "apex": [
+        52.51,
+        8.57
+      ],
+      "label": [
+        53.07,
+        3.4
+      ],
+      "entry": [
+        45.67,
+        14.69
+      ],
+      "exit": [
+        55.39,
+        8.57
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "mvkc_2024_t5",
+      "number": 5,
+      "apex": [
+        76.93,
+        34.49
+      ],
+      "label": [
+        81.39,
+        31.82
+      ],
+      "entry": [
+        69.36,
+        30.65
+      ],
+      "exit": [
+        79.92,
+        40.83
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "mvkc_2024_t6",
+      "number": 6,
+      "apex": [
+        21.32,
+        88.05
+      ],
+      "label": [
+        18.25,
+        92.25
+      ],
+      "entry": [
+        25.9,
+        90.55
+      ],
+      "exit": [
+        19.95,
+        84.97
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "mvkc_2024_t7",
+      "number": 7,
+      "apex": [
+        21.4,
+        79.87
+      ],
+      "label": [
+        17.83,
+        83.65
+      ],
+      "entry": [
+        19.92,
+        83.27
+      ],
+      "exit": [
+        26.13,
+        77.31
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "mvkc_2024_t8",
+      "number": 8,
+      "apex": [
+        44.28,
+        75.29
+      ],
+      "label": [
+        43.5,
+        80.43
+      ],
+      "entry": [
+        29.02,
+        77.14
+      ],
+      "exit": [
+        58.1,
+        61.38
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "mvkc_2024_t9",
+      "number": 9,
+      "apex": [
+        61.9,
+        53.55
+      ],
+      "label": [
+        67.06,
+        54.16
+      ],
+      "entry": [
+        58.1,
+        61.38
+      ],
+      "exit": [
+        61.08,
+        49.62
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "trackId": "oakleigh_new",
+  "name": "Oakleigh Go-Kart Club (Clayton) (New)",
+  "lengthM": 971,
+  "startFinish": [
+    50.12,
+    50.41
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "oakleigh_new_t1",
+      "number": 1,
+      "apex": [
+        64.47,
+        50.75
+      ],
+      "label": [
+        69.63,
+        50.07
+      ],
+      "entry": [
+        61.5,
+        52.67
+      ],
+      "exit": [
+        65.7,
+        46.47
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "oakleigh_new_t2",
+      "number": 2,
+      "apex": [
+        71.95,
+        39.24
+      ],
+      "label": [
+        76.34,
+        36.46
+      ],
+      "entry": [
+        70.33,
+        38.03
+      ],
+      "exit": [
+        72.8,
+        42.66
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "oakleigh_new_t3",
+      "number": 3,
+      "apex": [
+        66.61,
+        88.73
+      ],
+      "label": [
+        68.68,
+        93.5
+      ],
+      "entry": [
+        71.61,
+        82.44
+      ],
+      "exit": [
+        58.53,
+        91.55
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "oakleigh_new_t4",
+      "number": 4,
+      "apex": [
+        31.23,
+        86.06
+      ],
+      "label": [
+        28.59,
+        90.54
+      ],
+      "entry": [
+        39.17,
+        89.8
+      ],
+      "exit": [
+        27.17,
+        78.57
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "oakleigh_new_t5",
+      "number": 5,
+      "apex": [
+        31.95,
+        12.6
+      ],
+      "label": [
+        29.72,
+        7.9
+      ],
+      "entry": [
+        30.59,
+        23.21
+      ],
+      "exit": [
+        34.61,
+        9.64
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "oakleigh_new_t6",
+      "number": 6,
+      "apex": [
+        44.4,
+        12.76
+      ],
+      "label": [
+        43.56,
+        7.63
+      ],
+      "entry": [
+        43.16,
+        10.3
+      ],
+      "exit": [
+        43.47,
+        17.06
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "oakleigh_new_t7",
+      "number": 7,
+      "apex": [
+        44.72,
+        39.69
+      ],
+      "label": [
+        42.45,
+        35.01
+      ],
+      "entry": [
+        42.65,
+        34.13
+      ],
+      "exit": [
+        42.1,
+        44.95
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "oakleigh_new_t8",
+      "number": 8,
+      "apex": [
+        36.31,
+        75.56
+      ],
+      "label": [
+        33.52,
+        79.95
+      ],
+      "entry": [
+        35.17,
+        69.74
+      ],
+      "exit": [
+        40.99,
+        79.44
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "oakleigh_new_t9",
+      "number": 9,
+      "apex": [
+        59.12,
+        82.64
+      ],
+      "label": [
+        60.48,
+        87.66
+      ],
+      "entry": [
+        50.62,
+        82.31
+      ],
+      "exit": [
+        63.14,
+        79.93
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "oakleigh_new_t10",
+      "number": 10,
+      "apex": [
+        60.77,
+        61.49
+      ],
+      "label": [
+        64.61,
+        64.99
+      ],
+      "entry": [
+        64.34,
+        68.7
+      ],
+      "exit": [
+        57.82,
+        59.94
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "oakleigh_new_t11",
+      "number": 11,
+      "apex": [
+        45.4,
+        60.98
+      ],
+      "label": [
+        42.55,
+        65.33
+      ],
+      "entry": [
+        48.36,
+        61.33
+      ],
+      "exit": [
+        43.55,
+        59.36
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    }
+  ]
+}

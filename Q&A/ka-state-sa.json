@@ -1,0 +1,47 @@
+{
+  "origin": "kb-au-rules/states/sa.md",
+  "title": "Karting SA notes",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "---\nid: state-sa\ntitle: SA 2026 State Regulations\ntags: [sa, fsc, 4ss, cameras]\n---\n\n# SA 2026 State Regulations\n\nFinal V2, 3 February 2026. Overrides: `data/state-overrides.json` → `sa`.\n\n## General\n\n- **4SS Senior Heavy = 175 kg** (national 170).\n- Cadet 9 + 4SS Cadet + Cadet 12 consolidation **not recommended**; if done, Cadet 9 / 4SS Cadet at the **rear**, ~**25 m** gap at the start.\n- State Series/Cup/Trophy/Zonal: Cadet 9, KA3, TaG Restricted engines **sealed**.\n- **Cameras compulsory** from first practice at Zonal / State Series / Cup / Trophy.\n- Cadet/Junior **D Grade:** 2× D→C endorsements before Zonal / State Series / Cup / Trophy.\n- Full Course Yellow **may** be used at State Series and similar.\n- SKA within 48 h of those events: entered drivers, entered classes, race-order sessions.\n\n## Festival State Cup (State Series)\n\nMust offer: Cadet 12; KA3 Junior L/H; KA3 Senior Light; 4SS Senior M/H (Club status for 4SS in FSC); TaG Restricted L/M; TaG 125 Championship; TaG 125 Masters.\n\nEntry **$125**. Cadet/Junior: no minimum field. Series awards: min 5 entries at ≥ 3 rounds. Drop **five** lowest results. Min 3 rounds to be eligible. 4SS in FSC is treated as Club competition status under the national standing-reg note.\n",
+  "contentBlocks": [
+    {
+      "type": "paragraph",
+      "text": "---\nid: state-sa\ntitle: SA 2026 State Regulations\ntags: [sa, fsc, 4ss, cameras]\n---"
+    },
+    {
+      "type": "heading",
+      "text": "# SA 2026 State Regulations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Final V2, 3 February 2026. Overrides: `data/state-overrides.json` → `sa`."
+    },
+    {
+      "type": "heading",
+      "text": "## General"
+    },
+    {
+      "type": "paragraph",
+      "text": "- **4SS Senior Heavy = 175 kg** (national 170).\n- Cadet 9 + 4SS Cadet + Cadet 12 consolidation **not recommended**; if done, Cadet 9 / 4SS Cadet at the **rear**, ~**25 m** gap at the start.\n- State Series/Cup/Trophy/Zonal: Cadet 9, KA3, TaG Restricted engines **sealed**.\n- **Cameras compulsory** from first practice at Zonal / State Series / Cup / Trophy.\n- Cadet/Junior **D Grade:** 2× D→C endorsements before Zonal / State Series / Cup / Trophy.\n- Full Course Yellow **may** be used at State Series and similar.\n- SKA within 48 h of those events: entered drivers, entered classes, race-order sessions."
+    },
+    {
+      "type": "heading",
+      "text": "## Festival State Cup (State Series)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Must offer: Cadet 12; KA3 Junior L/H; KA3 Senior Light; 4SS Senior M/H (Club status for 4SS in FSC); TaG Restricted L/M; TaG 125 Championship; TaG 125 Masters."
+    },
+    {
+      "type": "paragraph",
+      "text": "Entry **$125**. Cadet/Junior: no minimum field. Series awards: min 5 entries at ≥ 3 rounds. Drop **five** lowest results. Min 3 rounds to be eligible. 4SS in FSC is treated as Club competition status under the national standing-reg note."
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "kb-au-rules",
+    "builtAt": "2026-09-10T08:52:32.893Z"
+  }
+}

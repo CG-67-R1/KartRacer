@@ -1,0 +1,320 @@
+{
+  "trackId": "townsvillek",
+  "name": "Townsville Kart Club (Sun City Raceway)",
+  "lengthM": 976,
+  "startFinish": [
+    44.37,
+    49.8
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "townsvillek_t1",
+      "number": 1,
+      "apex": [
+        27.55,
+        10.39
+      ],
+      "label": [
+        26.19,
+        5.37
+      ],
+      "entry": [
+        26.38,
+        13.4
+      ],
+      "exit": [
+        29.99,
+        8.53
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "townsvillek_t2",
+      "number": 2,
+      "apex": [
+        34.82,
+        9.74
+      ],
+      "label": [
+        34.32,
+        4.56
+      ],
+      "entry": [
+        32.23,
+        8.45
+      ],
+      "exit": [
+        40.09,
+        17.89
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "townsvillek_t3",
+      "number": 3,
+      "apex": [
+        48,
+        35.71
+      ],
+      "label": [
+        50.47,
+        31.13
+      ],
+      "entry": [
+        44.93,
+        31.78
+      ],
+      "exit": [
+        51.7,
+        37.24
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "townsvillek_t4",
+      "number": 4,
+      "apex": [
+        78.98,
+        30.73
+      ],
+      "label": [
+        83.55,
+        28.25
+      ],
+      "entry": [
+        78.69,
+        28.06
+      ],
+      "exit": [
+        76.48,
+        32.51
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "townsvillek_t5",
+      "number": 5,
+      "apex": [
+        37.77,
+        90.09
+      ],
+      "label": [
+        37.61,
+        95.29
+      ],
+      "entry": [
+        43.29,
+        85.58
+      ],
+      "exit": [
+        30.19,
+        91.67
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "townsvillek_t6",
+      "number": 6,
+      "apex": [
+        22.83,
+        82.73
+      ],
+      "label": [
+        20.38,
+        87.32
+      ],
+      "entry": [
+        22.35,
+        85.9
+      ],
+      "exit": [
+        25.38,
+        79.62
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "townsvillek_t7",
+      "number": 7,
+      "apex": [
+        30.74,
+        74.73
+      ],
+      "label": [
+        28.94,
+        79.61
+      ],
+      "entry": [
+        29.45,
+        76.82
+      ],
+      "exit": [
+        30.64,
+        73.04
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "townsvillek_t8",
+      "number": 8,
+      "apex": [
+        23.08,
+        71.56
+      ],
+      "label": [
+        19.75,
+        75.56
+      ],
+      "entry": [
+        25.04,
+        72.04
+      ],
+      "exit": [
+        21.45,
+        69.7
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "townsvillek_t9",
+      "number": 9,
+      "apex": [
+        22.76,
+        56.43
+      ],
+      "label": [
+        17.71,
+        57.66
+      ],
+      "entry": [
+        21.84,
+        58.62
+      ],
+      "exit": [
+        25.05,
+        54.58
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "townsvillek_t10",
+      "number": 10,
+      "apex": [
+        29.29,
+        54.87
+      ],
+      "label": [
+        24.24,
+        56.12
+      ],
+      "entry": [
+        26.4,
+        54.28
+      ],
+      "exit": [
+        31.87,
+        57.44
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "townsvillek_t11",
+      "number": 11,
+      "apex": [
+        42.57,
+        63.99
+      ],
+      "label": [
+        44.12,
+        68.95
+      ],
+      "entry": [
+        39.97,
+        64.68
+      ],
+      "exit": [
+        44.75,
+        61.83
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    }
+  ]
+}

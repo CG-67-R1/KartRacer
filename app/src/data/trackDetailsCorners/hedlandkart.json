@@ -1,0 +1,40 @@
+{
+  "trackId": "hedlandkart",
+  "name": "Hedland Kart Club (1)",
+  "lengthM": 670,
+  "startFinish": [
+    48.48,
+    52.64
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "hedlandkart_t1",
+      "number": 1,
+      "apex": [
+        19.04,
+        23.67
+      ],
+      "label": [
+        15.48,
+        19.88
+      ],
+      "entry": [
+        23.53,
+        22.51
+      ],
+      "exit": [
+        9.41,
+        37.06
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

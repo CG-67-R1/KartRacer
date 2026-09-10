@@ -1,0 +1,40 @@
+{
+  "trackId": "spkp_var1",
+  "name": "Sydney International Karting Raceway (Eastern Creek) (Var 1)",
+  "lengthM": 1001,
+  "startFinish": [
+    25.51,
+    47.77
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "spkp_var1_t1",
+      "number": 1,
+      "apex": [
+        64.09,
+        32.3
+      ],
+      "label": [
+        67.51,
+        28.38
+      ],
+      "entry": [
+        58.48,
+        29.44
+      ],
+      "exit": [
+        70.99,
+        31.38
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

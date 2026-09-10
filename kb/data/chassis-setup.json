@@ -1,0 +1,82 @@
+{
+  "id": "chassis-setup",
+  "purpose": "Numbers for setup tools. Split modern CIK vs era-1996 US sprint/oval.",
+  "modern": {
+    "weight": { "front_pct": 43, "rear_pct": 57, "left_right": "50/50" },
+    "tyre_hot_c": { "aim": [75, 85], "destroy": 95 },
+    "pressure_start_bar": 1.0,
+    "toe_out_mm": [0, 3],
+    "camber_neg_mm_per_side": [0, 2],
+    "chain_slack_mm_total": 10,
+    "chain_slack_pct_centres": 4,
+    "wet_extra_rear_teeth": 3,
+    "axle_30mm": { "mass_g": 2900, "mass_tol_g": 10, "length_mm": 960, "length_tol_mm": 10 },
+    "rear_track_max_mm": { "cadet": 1100, "senior": 1400 },
+    "ride": {
+      "normal_dry": "lowest front, rear higher (wedge)",
+      "green": "raise both, stiffer rear, more caster",
+      "high_grip": "lowest rear, soft axle, drop struts/bar, less caster"
+    }
+  },
+  "era_1996_us_sprint": {
+    "do_not_use_on_modern_cik": true,
+    "scale_session_psi": { "rear": 20, "front": 15 },
+    "front_lift_split_lb": 10,
+    "stagger_asphalt_in": [0, 0.25],
+    "stagger_oval_dirt_in": [1, 3],
+    "practice_rear_track_step_in": 1,
+    "raceday_track_step_in": 0.5,
+    "hop_move_outside_rear_in": 1,
+    "rear_pressure_floor_psi": 10,
+    "frame_rails_narrow_in": [24, 25],
+    "frame_rails_wide_in": [27, 28],
+    "kingpin_narrow_in": [22, 24],
+    "kingpin_wide_in": [28, 30],
+    "ackermann_zero_example_deg": { "wheel": 15, "each_spindle": [7, 9] },
+    "ackermann_on_example_deg": { "outside": 7, "inside": 12 },
+    "kingpin_common_deg": [12, 15],
+    "asphalt_weight_hint": "60/40 F/R era note — conflict with modern 43/57; do not mix",
+    "effects": {
+      "wider_front": "more push, slower steer, more rear transfer",
+      "narrower_front": "more front bite, quicker steer, looser rear",
+      "narrower_rear": "more rear side bite, more front push",
+      "wider_rear": "looser rear, more front bite",
+      "more_stagger": "less bite, looser",
+      "stiffer_frame": "less transfer, less rear bite",
+      "more_rr_offset": "looser on entry",
+      "less_rr_offset": "tighter entry, more drive off"
+    }
+  },
+  "papers": {
+    "note": "Lab/sim numbers from published kart dynamics work. For models, not pit PSI.",
+    "locked_axle": "inside rear +long slip, outside −long slip; unload inside rear",
+    "rear_brake_only_ax_mps2": -5.5,
+    "example_lat_acc_mps2": 13,
+    "steer_jacking": "inside front pulled down, outside front lifted",
+    "example_kingpin_deg": -10,
+    "example_caster_deg": -13,
+    "example_column_deg": -52,
+    "circular_path_model_error_pct": 9,
+    "aero_driver_size_drag_delta_pct": -4.5,
+    "aero_lap_delta_s": [0.1, 0.2],
+    "example_cd_drag_n": 192.31,
+    "hr_amateur_bpm": 150,
+    "pacejka_example": {
+      "pCx1": 2.3,
+      "pDx1": 0.9,
+      "pEx1": 0.95,
+      "pKx1": 20,
+      "pKx2": 1,
+      "pKx3": -0.5,
+      "pCy1": { "rear": 2.3, "front": 2.13 },
+      "pDy1": 1.5,
+      "pEy1": { "rear": 0.9, "front": 0.8 },
+      "pKy1": { "rear": -37.6, "front": -34.1 },
+      "pKy2": 1.6,
+      "prBx1": 14,
+      "prBy1": 12,
+      "prCy1": 0.6,
+      "lambda_Fz0": 1.6
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "trackId": "east_crk_nsw",
+  "name": "Sydney International Karting Raceway (Eastern Creek) (National)",
+  "lengthM": 994,
+  "startFinish": [
+    64.78,
+    39.22
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "east_crk_nsw_t1",
+      "number": 1,
+      "apex": [
+        9.59,
+        31.44
+      ],
+      "label": [
+        4.57,
+        30.07
+      ],
+      "entry": [
+        8.33,
+        27.85
+      ],
+      "exit": [
+        16.73,
+        35.82
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

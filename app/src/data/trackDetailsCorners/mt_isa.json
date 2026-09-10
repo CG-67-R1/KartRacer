@@ -1,0 +1,68 @@
+{
+  "trackId": "mt_isa",
+  "name": "Mount Isa Kart Track",
+  "lengthM": 463,
+  "startFinish": [
+    48.34,
+    52.57
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "mt_isa_t1",
+      "number": 1,
+      "apex": [
+        19.41,
+        84.96
+      ],
+      "label": [
+        16.02,
+        88.9
+      ],
+      "entry": [
+        23.68,
+        88.53
+      ],
+      "exit": [
+        18.06,
+        50.73
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "mt_isa_t2",
+      "number": 2,
+      "apex": [
+        24.29,
+        12.4
+      ],
+      "label": [
+        22.57,
+        7.49
+      ],
+      "entry": [
+        24.83,
+        20.07
+      ],
+      "exit": [
+        27.67,
+        9.05
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    }
+  ]
+}

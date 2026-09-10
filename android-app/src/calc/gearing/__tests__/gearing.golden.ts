@@ -22,92 +22,92 @@ function assert(name: string, pass: boolean, detail?: string): void {
   if (!pass) failed += 1;
 }
 
-assert('45/14 ratio 3.21', formatRatio(finalDriveRatio(14, 45)) === '3.21');
-assert('45/13 ratio 3.46', formatRatio(finalDriveRatio(13, 45)) === '3.46');
-assert('48/14 ratio 3.43', formatRatio(finalDriveRatio(14, 48)) === '3.43');
+assert('80/10 ratio 8.00', formatRatio(finalDriveRatio(10, 80)) === '8.00');
+assert('84/10 ratio 8.40', formatRatio(finalDriveRatio(10, 84)) === '8.40');
+assert('80/11 ratio 7.27', formatRatio(finalDriveRatio(11, 80)) === '7.27');
 
 {
-  const pct = driveSpeedPercents(finalDriveRatio(14, 45), finalDriveRatio(13, 45));
+  const pct = driveSpeedPercents(finalDriveRatio(10, 80), finalDriveRatio(10, 83));
   assert('drive% and speed% opposite sign', Math.abs(pct.drivePct + pct.speedPct) < 1e-9);
   assert('shorter gearing raises drive%', pct.drivePct > 0);
 }
 
-assert('parse 16/43', (() => {
-  const parsed = parseSprocketPair('16/43');
-  return parsed?.front === 16 && parsed?.rear === 43;
+assert('parse 10/80', (() => {
+  const parsed = parseSprocketPair('10/80');
+  return parsed?.front === 10 && parsed?.rear === 80;
 })());
 assert('parse rejects junk', parseSprocketPair('sprockets') == null);
-assert('parse rejects out-of-range front', parseSprocketPair('5/43') == null);
+assert('parse rejects out-of-range front', parseSprocketPair('16/80') == null);
 
 {
-  assert('parseTeethInRange accepts 16', parseTeethInRange('16', 11, 20) === 16);
-  assert('parseTeethInRange rejects 5', parseTeethInRange('5', 11, 20) == null);
-  assert('sprocketTeethError empty is null', sprocketTeethError('', 11, 20, 'New front') == null);
+  assert('parseTeethInRange accepts 10', parseTeethInRange('10', 10, 11) === 10);
+  assert('parseTeethInRange rejects 16', parseTeethInRange('16', 10, 11) == null);
+  assert('sprocketTeethError empty is null', sprocketTeethError('', 10, 11, 'New front') == null);
   assert(
     'sprocketTeethError out of range',
-    sprocketTeethError('5', 11, 20, 'New front') === 'New front must be 11–20 teeth.'
+    sprocketTeethError('16', 10, 11, 'New front') === 'New front must be 10–11 teeth.'
   );
 }
 
 {
-  const rows = nearbyPairs(16, 43);
+  const rows = nearbyPairs(10, 80);
   const current = rows.find((row) => row.kind === 'current');
-  assert('nearby includes current', current?.front === 16 && current?.rear === 43);
-  assert('nearby includes +1 rear', rows.some((row) => row.front === 16 && row.rear === 44));
-  assert('nearby includes -1 front', rows.some((row) => row.front === 15 && row.rear === 43));
+  assert('nearby includes current', current?.front === 10 && current?.rear === 80);
+  assert('nearby includes +1 rear', rows.some((row) => row.front === 10 && row.rear === 81));
+  assert('nearby includes +1 front', rows.some((row) => row.front === 11 && row.rear === 80));
 }
 
 {
-  const r6 = matchBikePowerbandRef('yamaha r6');
-  assert('alias matches R6', r6?.id === 'yamaha_yzf_r6_2017');
-  assert('unknown bike does not invent a row', matchBikePowerbandRef('random trike 99') == null);
+  const x30 = matchBikePowerbandRef('x30');
+  assert('alias matches X30', x30?.id === 'iame_x30');
+  assert('unknown engine does not invent a row', matchBikePowerbandRef('random trike 99') == null);
 }
 
 {
-  const r6 = matchBikePowerbandRef('R6');
+  const x30 = matchBikePowerbandRef('X30');
   const seed = formatGearingForCoach({
-    manufacturer: 'Yamaha',
-    family: 'YZF-R6',
-    yearFrom: '2017',
-    yearTo: '2025',
-    capacityCc: '599',
-    engineConfig: 'I4',
-    peakTorqueRpm: '10500',
-    peakPowerRpm: '14500',
-    powerbandRpmFrom: '10500',
-    powerbandRpmTo: '14500',
+    manufacturer: 'IAME',
+    family: 'X30',
+    yearFrom: '2010',
+    yearTo: '2026',
+    capacityCc: '125',
+    engineConfig: 'other',
+    peakTorqueRpm: '10250',
+    peakPowerRpm: '11000',
+    powerbandRpmFrom: '9000',
+    powerbandRpmTo: '16000',
     provenance: 'catalog',
-    catalog: r6,
-    front: 16,
-    rear: 43,
+    catalog: x30,
+    front: 10,
+    rear: 80,
     newFront: null,
     newRear: null,
     goalId: 'limiter_early',
-    requestText: 'Keep 6th for Gardner',
-    trackName: 'Phillip Island',
+    requestText: 'Keep drive for Bolivar',
+    trackName: 'Southern Go Kart Club (Bolivar Raceway)',
   });
-  assert('seed has current ratio', seed.includes('16/43') && seed.includes('2.69'));
+  assert('seed has current ratio', seed.includes('10/80') && seed.includes('8.00'));
   assert('seed has goal', seed.includes('Hitting the limiter too early'));
-  assert('seed has verbatim request', seed.includes('Keep 6th for Gardner'));
+  assert('seed has verbatim request', seed.includes('Keep drive for Bolivar'));
   assert('seed has catalog provenance', seed.includes('Identity provenance: catalog'));
 }
 
 {
-  const r6 = matchBikePowerbandRef('R6');
+  const x30 = matchBikePowerbandRef('X30');
   const provenance = resolveBikeProvenance({
-    manufacturer: 'Yamaha',
-    family: 'YZF-R6',
-    yearFrom: '2017',
-    yearTo: '2025',
-    capacityCc: '599',
-    engineConfig: 'I4',
+    manufacturer: 'IAME',
+    family: 'X30',
+    yearFrom: '2010',
+    yearTo: '2026',
+    capacityCc: '125',
+    engineConfig: 'other',
     peakTorqueRpm: '11000',
-    peakPowerRpm: '14500',
-    powerbandRpmFrom: '10500',
-    powerbandRpmTo: '14500',
-    catalog: r6,
-    front: 16,
-    rear: 43,
+    peakPowerRpm: '11000',
+    powerbandRpmFrom: '9000',
+    powerbandRpmTo: '16000',
+    catalog: x30,
+    front: 10,
+    rear: 80,
     newFront: null,
     newRear: null,
     goalId: 'more_drive',
@@ -123,16 +123,16 @@ assert('parse rejects out-of-range front', parseSprocketPair('5/43') == null);
     family: 'Special',
     yearFrom: '',
     yearTo: '',
-    capacityCc: '600',
-    engineConfig: 'I4',
+    capacityCc: '125',
+    engineConfig: 'other',
     peakTorqueRpm: '',
     peakPowerRpm: '',
     powerbandRpmFrom: '',
     powerbandRpmTo: '',
     provenance: 'manual',
     catalog: null,
-    front: 15,
-    rear: 45,
+    front: 10,
+    rear: 82,
     newFront: null,
     newRear: null,
     goalId: 'more_drive',

@@ -25,9 +25,9 @@ const CORE_JSON_FILES = new Set([
   'AUS_Q&A.json',
 ]);
 
-/** Filename / title / corpus markers for Manual of Motorcycle Sport (MoMS) rule books. */
+/** Filename / title / corpus markers for official rule books (KA Manual + legacy MoMS). */
 const MOMS_NAME_RE =
-  /moms|mo[\s_-]?ms|manual[\s_-]?of[\s_-]?motorcycle[\s_-]?sport|motorcycle[\s_-]?sport[\s_-]?manual|gc[\s_-]?rs|rule[\s_-]?book|rulebook/i;
+  /moms|mo[\s_-]?ms|manual[\s_-]?of[\s_-]?motorcycle[\s_-]?sport|motorcycle[\s_-]?sport[\s_-]?manual|gc[\s_-]?rs|rule[\s_-]?book|rulebook|karting|ka[\s_-]?manual|australian[\s_-]?karting[\s_-]?manual|kb-au-rules|ka-national|ka-data|ka-playbook|ka-state|ka-rules|ka-clubs/i;
 
 let cachedDocs = [];
 let cachedQa = [];
@@ -493,7 +493,8 @@ export async function retrieveForAsk(query, limit = 5) {
  */
 export function isMomsDocument(doc) {
   if (!doc) return false;
-  if (String(doc.corpus || '').toLowerCase() === 'moms') return true;
+  const corpus = String(doc.corpus || '').toLowerCase();
+  if (corpus === 'moms' || corpus === 'ka' || corpus === 'karting') return true;
   const hay = [doc.origin, doc.title, doc.id].filter(Boolean).join(' ');
   return MOMS_NAME_RE.test(hay);
 }

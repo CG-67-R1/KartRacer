@@ -1,6 +1,7 @@
 /**
- * Fun / motivational facts for favourite riders and bikes.
+ * Fun / motivational facts for favourite drivers and karts.
  * Catalogs: data/onboardingRiders.json + data/onboardingBikes.json
+ * (same files as onboardingDrivers.json / onboardingKarts.json).
  * Prefer longest alias match; short aliases require an exact match.
  */
 
@@ -83,16 +84,16 @@ function bestBlurb(input: string, entries: OnboardingFactEntry[]): string | null
 }
 
 const DEFAULT_RIDER_FACT =
-  "Your favourite rider is the one who makes you want to ride. That's the only fact that matters — and it's a good one.";
+  "Your favourite driver is the one who makes you want to race. That's the only fact that matters — and it's a good one.";
 
 const DEFAULT_BIKE_FACT =
-  "Your favourite bike is the one you think about when you're not riding. That's not a small thing — that's the dream. Keep it close.";
+  "Your favourite kart is the one you think about when you're not racing. That's not a small thing — that's the dream. Keep it close.";
 
 const UNKNOWN_RIDER_FACT =
-  "Solid pick — every favourite rider has a story. Keep that inspiration close; that's what this app is for.";
+  "Solid pick — every favourite driver has a story. Keep that inspiration close; that's what this app is for.";
 
 const UNKNOWN_BIKE_FACT =
-  "Solid pick — that bike's got stories whether or not it's in our book. Keep the dream close.";
+  "Solid pick — that kart's got stories whether or not it's in our book. Keep the dream close.";
 
 export function getRiderFact(riderName: string): string {
   const trimmed = riderName.trim();

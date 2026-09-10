@@ -1,0 +1,68 @@
+{
+  "trackId": "silhouettek",
+  "name": "Silhouette Kart Track",
+  "lengthM": 534,
+  "startFinish": [
+    50.44,
+    53.49
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "silhouettek_t1",
+      "number": 1,
+      "apex": [
+        26.88,
+        58.33
+      ],
+      "label": [
+        21.94,
+        59.96
+      ],
+      "entry": [
+        30.87,
+        44.02
+      ],
+      "exit": [
+        22.58,
+        61.3
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "silhouettek_t2",
+      "number": 2,
+      "apex": [
+        45.14,
+        64.17
+      ],
+      "label": [
+        43.24,
+        69.01
+      ],
+      "entry": [
+        57.97,
+        72.72
+      ],
+      "exit": [
+        44.28,
+        59.45
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    }
+  ]
+}

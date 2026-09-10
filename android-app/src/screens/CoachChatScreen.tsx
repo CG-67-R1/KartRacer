@@ -190,8 +190,8 @@ export function CoachChatScreen() {
     setSuggestMode(null);
     const handoff =
       target === 'bikesetup'
-        ? 'Switched to Bike Setup. Tell me your bike, what feels off (tyres, sag, damping, gearing), and we will dig in.'
-        : 'Switched to Coach. Tell me what you are working on — lines, braking, body position, or a specific corner — and we will dig in.';
+        ? 'Switched to Kart Setup. Tell me your kart, what feels off (tyres, width, caster, gearing), and we will dig in.'
+        : 'Switched to Coach. Tell me what you are working on — lines, braking, or a specific corner — and we will dig in.';
     navigation.navigate('CoachChat', {
       mode: target,
       seedMessages: [createChatMessage({ role: 'assistant', content: handoff })],
@@ -307,9 +307,9 @@ export function CoachChatScreen() {
         >
           {messages.length === 0 && mode === 'bikesetup' ? (
             <View style={styles.welcome}>
-              <Text style={styles.welcomeTitle}>RR Bike Setup</Text>
+              <Text style={styles.welcomeTitle}>Kart Setup</Text>
               <Text style={styles.welcomeSubtitle}>
-                Ask about suspension, gearing, tyres, and setup. Attach photos or telemetry exports
+                Ask about chassis, gearing, tyres, and setup. Attach photos or notes
                 for specific feedback.
               </Text>
             </View>
@@ -367,8 +367,8 @@ export function CoachChatScreen() {
           >
             <Text style={styles.suggestText}>
               {suggestMode === 'bikesetup'
-                ? 'This sounds more like bike setup — tap to open RR Bike Setup'
-                : 'This sounds more like riding technique — tap to open RR AI Coach'}
+                ? 'This sounds more like chassis setup — tap to open Kart Setup'
+                : 'This sounds more like driving technique — tap to open KartRacer Coach'}
             </Text>
           </TouchableOpacity>
         ) : null}

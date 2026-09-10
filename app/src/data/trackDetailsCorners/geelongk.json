@@ -1,0 +1,96 @@
+{
+  "trackId": "geelongk",
+  "name": "Geelong Kart Track",
+  "lengthM": 734,
+  "startFinish": [
+    48.73,
+    50.1
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "geelongk_t1",
+      "number": 1,
+      "apex": [
+        68.57,
+        73.35
+      ],
+      "label": [
+        70.49,
+        78.18
+      ],
+      "entry": [
+        66.85,
+        82.28
+      ],
+      "exit": [
+        72.71,
+        70.12
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "geelongk_t2",
+      "number": 2,
+      "apex": [
+        80.45,
+        13.5
+      ],
+      "label": [
+        82.94,
+        8.94
+      ],
+      "entry": [
+        88.21,
+        16.9
+      ],
+      "exit": [
+        46.34,
+        22.22
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "geelongk_t3",
+      "number": 3,
+      "apex": [
+        11.63,
+        33.39
+      ],
+      "label": [
+        6.76,
+        31.57
+      ],
+      "entry": [
+        46.34,
+        22.22
+      ],
+      "exit": [
+        8.54,
+        37.87
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    }
+  ]
+}

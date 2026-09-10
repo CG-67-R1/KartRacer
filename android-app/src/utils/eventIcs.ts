@@ -90,7 +90,7 @@ export function buildEventIcs(input: EventIcsInput, now = new Date()): string {
   const lines = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//RoadRacer//Events//EN',
+    'PRODID:-//KartRacer//Events//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
     'BEGIN:VEVENT',

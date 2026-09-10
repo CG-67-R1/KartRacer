@@ -3,8 +3,1930 @@
   "name": "KartRacer_Catalog_Track_Geofences",
   "metadata": {
     "version": 1,
-    "feature_count": 0,
-    "note": "Empty until J1.4. Source GPX in C:/KartRacer/data/gpx"
+    "feature_count": 128,
+    "detection": "haversine_point_radius",
+    "source": "data/gpx bounding boxes + Start/Finish"
   },
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "albanyk",
+        "name": "Albany City Kart Club",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.81554,
+          -34.956628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "a_wodongak",
+        "name": "Albury-Wodonga Kart Club (1)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.855523,
+          -36.097192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "a_wodongak2",
+        "name": "Albury-Wodonga Kart Club (2)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.855523,
+          -36.097192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "a_wodongak3",
+        "name": "Albury-Wodonga Kart Club (3)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.855523,
+          -36.097192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "equipvar",
+        "name": "Albury-Wodonga Kart Club (Kart Equip variant)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.855523,
+          -36.097192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "kartequip",
+        "name": "Albury-Wodonga Kart Club (Kart Equip)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.855523,
+          -36.097192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "bairnsdalek",
+        "name": "Bairnsdale Kart Club",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.572147,
+          -37.8809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "ballaratk",
+        "name": "Ballarat Kart Club (Haddon Park) (1)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.713158,
+          -37.589149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "ballarat_2",
+        "name": "Ballarat Kart Club (Haddon Park) (2)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.713158,
+          -37.589149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "barossa_ccw",
+        "name": "Barossa Go-Kart Club (CCW)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.986965,
+          -34.459279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "bendigok",
+        "name": "Bendigo Kart Club (Marong)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.240856,
+          -36.757837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "bhkc",
+        "name": "Broken Hill Kart Club",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.495072,
+          -31.966808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "bunburyk",
+        "name": "Bunbury City Kart Club (1)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.681353,
+          -33.381011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "bunkart",
+        "name": "Bunbury City Kart Club (2)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.681353,
+          -33.381011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "bundabergk",
+        "name": "Bundaberg Kart Club (Dromeside)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.309997,
+          -24.896875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "burnettk",
+        "name": "Burnett Kart Track",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.990441,
+          -26.685763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "cairnsk_acw",
+        "name": "Cairns Kart Club (ACW)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.76598,
+          -17.001946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "cairnsk_var1",
+        "name": "Cairns Kart Club (Var 1)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.76598,
+          -17.001946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "cairnsk_var2",
+        "name": "Cairns Kart Club (Var 2)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.76598,
+          -17.001946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "canberralong",
+        "name": "Canberra Kart Racing Club (Pialligo) (Long)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.232711,
+          -35.327514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "canberrak",
+        "name": "Canberra Kart Racing Club (Pialligo) (Short)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.232711,
+          -35.327514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "rockhamptonk",
+        "name": "Cap Coast Kart Club",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.580347,
+          -23.586974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "towerskart",
+        "name": "Charters Towers Kart Track (1)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.309445,
+          -20.056691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "towerskart2",
+        "name": "Charters Towers Kart Track (2)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.309445,
+          -20.056691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "bpkc",
+        "name": "Circular Head Kart Club",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.153447,
+          -40.841061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "chkrc_a",
+        "name": "Coffs Harbour Kart Racing Club (C.ex Raceway) (A)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.098377,
+          -30.319985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "chkrc_a3",
+        "name": "Coffs Harbour Kart Racing Club (C.ex Raceway) (A3)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.098377,
+          -30.319985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "chkrc_b1",
+        "name": "Coffs Harbour Kart Racing Club (C.ex Raceway) (B1)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.098377,
+          -30.319985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "chkrc_c",
+        "name": "Coffs Harbour Kart Racing Club (C.ex Raceway) (C)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.098377,
+          -30.319985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "chkrc_d",
+        "name": "Coffs Harbour Kart Racing Club (C.ex Raceway) (D)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.098377,
+          -30.319985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "chkrc_e1",
+        "name": "Coffs Harbour Kart Racing Club (C.ex Raceway) (E1)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.098377,
+          -30.319985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "cdkc",
+        "name": "Combined Districts Kart Club (Marrangaroo)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.107997,
+          -33.453852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "cooloolak",
+        "name": "Cooloola Coast Kart Club (Gympie Gold Raceway)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.700337,
+          -26.22823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "dalbyk",
+        "name": "Dalby Kart Track",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.230192,
+          -27.182337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "darwink_var1",
+        "name": "Darwin Karting Association (Hidden Valley) (Var 1)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.912105,
+          -12.444017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "darwink_var2",
+        "name": "Darwin Karting Association (Hidden Valley) (Var 2)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.912105,
+          -12.444017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "darwink_var3",
+        "name": "Darwin Karting Association (Hidden Valley) (Var 3)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.912105,
+          -12.444017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "dubbok",
+        "name": "Dubbo Kart Club",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.6159,
+          -32.169018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "goldfieldsk",
+        "name": "Eastern Goldfields Kart Club (Kalgoorlie)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.441546,
+          -30.797145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "elkc",
+        "name": "Eastern Lions Kart Club (Hume International) (National)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.027422,
+          -37.012121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "elkc_short",
+        "name": "Eastern Lions Kart Club (Hume International) (Short)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.027422,
+          -37.012121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "emerald_acw",
+        "name": "Emerald Kart Club (ACW)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.210027,
+          -23.54051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "emerald_cw",
+        "name": "Emerald Kart Club (CW)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.210027,
+          -23.54051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "esperancek",
+        "name": "Esperance Kart Klub",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.871379,
+          -33.759052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "exmouth",
+        "name": "Exmouth Kart Club",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.132357,
+          -21.959123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "extremek",
+        "name": "Extreme Karting (Gold Coast) (Long)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.311332,
+          -27.790613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "extremek_s",
+        "name": "Extreme Karting (Gold Coast) (Short)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.311332,
+          -27.790613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "geelongk",
+        "name": "Geelong Kart Track",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.383328,
+          -38.059393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "gippslandk",
+        "name": "Gippsland Go-Kart Club (Tramway Park)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.439831,
+          -38.234476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "gladstonek",
+        "name": "Gladstone Kart Club (Formula K Raceway)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.288393,
+          -23.905776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "clubsa_a_ccw",
+        "name": "Go Kart Club of SA (Monarto / Rocky Gully) (A CCW)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.174234,
+          -35.120204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "clubsa_a_cw",
+        "name": "Go Kart Club of SA (Monarto / Rocky Gully) (A CW)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.174234,
+          -35.120204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "clubsa_b_cw",
+        "name": "Go Kart Club of SA (Monarto / Rocky Gully) (B CW)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.174234,
+          -35.120204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "clubsa_c_ccw",
+        "name": "Go Kart Club of SA (Monarto / Rocky Gully) (C CCW)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.174234,
+          -35.120204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "gok_world_ac",
+        "name": "Go Kart World (Newcastle) (ACW)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.591889,
+          -32.897547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "gok_world_cw",
+        "name": "Go Kart World (Newcastle) (CW)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.591889,
+          -32.897547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "gkcv_cw",
+        "name": "Go-Kart Club of Victoria (Port Melbourne) (CW)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.913556,
+          -37.830824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "gkcv",
+        "name": "Go-Kart Club of Victoria (Port Melbourne) (National)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.913556,
+          -37.830824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "gvkc",
+        "name": "Goulburn Valley Kart Club (Numurkah)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.486257,
+          -36.09839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "indy800c",
+        "name": "Greater Sydney Kart Club (Indy 800) (Club)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.836584,
+          -33.571611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "indy800_sh",
+        "name": "Greater Sydney Kart Club (Indy 800) (Short)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.836584,
+          -33.571611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "grenfellk",
+        "name": "Grenfell Kart Club",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.08708,
+          -33.844624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "griffithk",
+        "name": "Griffith Kart Club",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.987846,
+          -34.26083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "hamiltonk",
+        "name": "Hamilton Kart Club (Buckley Park)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.072705,
+          -37.849266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "hedlandkart",
+        "name": "Hedland Kart Club (1)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.655952,
+          -20.388405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "port_hedland",
+        "name": "Hedland Kart Club (2)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.655952,
+          -20.388405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "wundowie_wa",
+        "name": "Hurricane Go Kart Club (Wundowie)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.370968,
+          -31.76187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "impalak",
+        "name": "Impala Kart Club (Tom Price)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.788734,
+          -22.698993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "ipswichk",
+        "name": "Ipswich Kart Club (1)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.666106,
+          -27.693371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "ipswichk2",
+        "name": "Ipswich Kart Club (2)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.666106,
+          -27.693371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "jabiruk",
+        "name": "Jabiru Kart Track",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.83956,
+          -12.656115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "karratha",
+        "name": "Karratha Kart Club (National)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.874051,
+          -20.774309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "karratha_sh",
+        "name": "Karratha Kart Club (Short)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.874051,
+          -20.774309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "lakekingk",
+        "name": "Lake King Kart Club",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.671657,
+          -33.089985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "launcestonk",
+        "name": "Launceston Kart Club (Archerville) (1)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.135312,
+          -41.323307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "lkc",
+        "name": "Launceston Kart Club (Archerville) (2)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.135312,
+          -41.323307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "lismorek",
+        "name": "Lismore Kart Club",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.274766,
+          -28.793427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "mackayk",
+        "name": "Mackay Kart Track",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.072538,
+          -21.205254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "mvkc_2024",
+        "name": "Manning Valley Kart Club (Wingham)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.371997,
+          -31.84878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "mfastkartcoc",
+        "name": "Mega Fast Karts (Cockburn) (Cockburn)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.776327,
+          -32.169274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "mfastkartd",
+        "name": "Mega Fast Karts (Cockburn) (D)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.776327,
+          -32.169274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "megafastb",
+        "name": "Mega Fast Karts (Wanneroo) (B)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.800176,
+          -31.664077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "megafastc",
+        "name": "Mega Fast Karts (Wanneroo) (C)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.800176,
+          -31.664077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "megafastkart",
+        "name": "Mega Fast Karts (Wanneroo) (National)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.800176,
+          -31.664077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "geraldtonk_2",
+        "name": "Midwest Kart Club (Geraldton) (2)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.732197,
+          -28.781712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "mildurak",
+        "name": "Mildura Kart Club",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.079841,
+          -34.232076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "moranbahk",
+        "name": "Moranbah Kart Track",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.025083,
+          -21.989836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "mt_isa",
+        "name": "Mount Isa Kart Track",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.501647,
+          -20.76001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "mtgambierk",
+        "name": "Mt Gambier Karting Club (Glenburnie) (National)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.864206,
+          -37.856387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "mtgambierk_s",
+        "name": "Mt Gambier Karting Club (Glenburnie) (Short)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.864206,
+          -37.856387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "nwkc",
+        "name": "North Western Kart Club (Highclere)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.805801,
+          -41.187462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "oakleighk",
+        "name": "Oakleigh Go-Kart Club (Clayton) (Club)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.120019,
+          -37.95352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "oakleigh_lon",
+        "name": "Oakleigh Go-Kart Club (Clayton) (Long)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.120019,
+          -37.95352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "oakleigh_new",
+        "name": "Oakleigh Go-Kart Club (Clayton) (New)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.120019,
+          -37.95352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "orangek_a",
+        "name": "Orange Kart Club (A)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.12805,
+          -33.302891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "orangek_b",
+        "name": "Orange Kart Club (B)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.12805,
+          -33.302891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "orangek_c",
+        "name": "Orange Kart Club (C)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.12805,
+          -33.302891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "pi_kart",
+        "name": "Phillip Island Kart Track",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.230785,
+          -38.507933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "pictionk",
+        "name": "Picton Kart Track",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.632629,
+          -34.19041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "portgawlerk",
+        "name": "Port Gawler Kart Track",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.443857,
+          -34.646248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "pmkrc_var1",
+        "name": "Port Macquarie Kart Racing Club (Var 1)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.790352,
+          -31.52411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "pmkrc_var2",
+        "name": "Port Macquarie Kart Racing Club (Var 2)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.790352,
+          -31.52411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "pdkc_long",
+        "name": "Portland District Karting Club (Long)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.585393,
+          -38.366859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "pdkc_short",
+        "name": "Portland District Karting Club (Short)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.585393,
+          -38.366859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "rochesterk",
+        "name": "Rochester Kart Club (Nanneella)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.778701,
+          -36.390867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "sapphire_nsw",
+        "name": "Sapphire Coast Kart Club (Frogs Hollow)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.80733,
+          -36.762326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "silhouettek",
+        "name": "Silhouette Kart Track",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.951566,
+          -37.634026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "cobdenk",
+        "name": "South West Kart Club (Cobden)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.059694,
+          -38.322596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "bolivar_long",
+        "name": "Southern Go Kart Club (Bolivar Raceway) (Long)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.577394,
+          -34.741965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "bolivark",
+        "name": "Southern Go Kart Club (Bolivar Raceway) (National)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.577394,
+          -34.741965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "bolivark_sh",
+        "name": "Southern Go Kart Club (Bolivar Raceway) (Short)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.577394,
+          -34.741965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "stkc",
+        "name": "Southern Tasmanian Kart Club (Orielton)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.494784,
+          -42.704655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "stonycreek",
+        "name": "Stony Creek Kart Track",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.041807,
+          -38.580377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "swan_vic",
+        "name": "Swan Hill Kart Club",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.47011,
+          -35.366765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "east_crk_nsw",
+        "name": "Sydney International Karting Raceway (Eastern Creek) (National)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.881711,
+          -33.804938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "spkp_var1",
+        "name": "Sydney International Karting Raceway (Eastern Creek) (Var 1)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.881711,
+          -33.804938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "spkp_var3",
+        "name": "Sydney International Karting Raceway (Eastern Creek) (Var 3)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.881711,
+          -33.804938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "spkp_var4",
+        "name": "Sydney International Karting Raceway (Eastern Creek) (Var 4)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.881711,
+          -33.804938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "tamworth",
+        "name": "Tamworth Kart Racing Club",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.833932,
+          -31.061139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "toowoomba_cw",
+        "name": "Toowoomba & Lockyer Valley Kart Club (Greer Park) (CW)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.090503,
+          -27.534007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "townsvillek",
+        "name": "Townsville Kart Club (Sun City Raceway)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.697854,
+          -19.280929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "waggak",
+        "name": "Wagga & District Kart Racing Club",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.416951,
+          -35.13722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "warrnamboolk",
+        "name": "Warrnambool Kart Club (Lake Gillear)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.583238,
+          -38.42852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "warwickk",
+        "name": "Warwick Kart Club (Sandy Creek Raceway)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.947276,
+          -28.185386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "whyallak",
+        "name": "Whyalla Go Kart Club (Mt Young Raceway)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.486653,
+          -33.055955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "wimmerak",
+        "name": "Wimmera Kart Racing Club (Dooen) (1)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.247357,
+          -36.667426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "wimmerak2",
+        "name": "Wimmera Kart Racing Club (Dooen) (2)",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.247357,
+          -36.667426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "trackId": "wollongongk",
+        "name": "Wollongong Kart Track",
+        "radius_m": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.814274,
+          -34.472721
+        ]
+      }
+    }
+  ]
 }

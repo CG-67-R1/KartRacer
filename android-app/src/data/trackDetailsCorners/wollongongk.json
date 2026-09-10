@@ -1,0 +1,68 @@
+{
+  "trackId": "wollongongk",
+  "name": "Wollongong Kart Track",
+  "lengthM": 511,
+  "startFinish": [
+    67.17,
+    50.65
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "wollongongk_t1",
+      "number": 1,
+      "apex": [
+        31.32,
+        48.6
+      ],
+      "label": [
+        26.54,
+        50.64
+      ],
+      "entry": [
+        31.25,
+        55.17
+      ],
+      "exit": [
+        25.94,
+        42.05
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "wollongongk_t2",
+      "number": 2,
+      "apex": [
+        56.13,
+        33.08
+      ],
+      "label": [
+        60.22,
+        29.87
+      ],
+      "entry": [
+        38.87,
+        30.18
+      ],
+      "exit": [
+        62.78,
+        28.91
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    }
+  ]
+}

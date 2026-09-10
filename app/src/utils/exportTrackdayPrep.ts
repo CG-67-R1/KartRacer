@@ -27,7 +27,7 @@ export async function exportTrackdayPrepReport(
     url: uri,
     message:
       Platform.OS === 'android'
-        ? `${title}\n\nRoadRacer Trackday Prep PDF\n${uri}`
+        ? `${title}\n\nKartRacer Track Prep PDF\n${uri}`
         : title,
   });
 }

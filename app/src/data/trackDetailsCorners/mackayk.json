@@ -1,0 +1,348 @@
+{
+  "trackId": "mackayk",
+  "name": "Mackay Kart Track",
+  "lengthM": 756,
+  "startFinish": [
+    47.82,
+    46.23
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "mackayk_t1",
+      "number": 1,
+      "apex": [
+        46.51,
+        55.49
+      ],
+      "label": [
+        41.94,
+        57.97
+      ],
+      "entry": [
+        44.06,
+        53.73
+      ],
+      "exit": [
+        53.86,
+        54.56
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "mackayk_t2",
+      "number": 2,
+      "apex": [
+        61.81,
+        53.91
+      ],
+      "label": [
+        67.01,
+        53.79
+      ],
+      "entry": [
+        53.86,
+        54.56
+      ],
+      "exit": [
+        63.97,
+        55.36
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "mackayk_t3",
+      "number": 3,
+      "apex": [
+        65,
+        57.54
+      ],
+      "label": [
+        70.09,
+        58.59
+      ],
+      "entry": [
+        63.97,
+        55.36
+      ],
+      "exit": [
+        64.62,
+        59.89
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "mackayk_t4",
+      "number": 4,
+      "apex": [
+        62.71,
+        62
+      ],
+      "label": [
+        67.24,
+        64.55
+      ],
+      "entry": [
+        64.62,
+        59.89
+      ],
+      "exit": [
+        48.11,
+        64.19
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "mackayk_t5",
+      "number": 5,
+      "apex": [
+        32.95,
+        63.69
+      ],
+      "label": [
+        28.48,
+        66.35
+      ],
+      "entry": [
+        48.11,
+        64.19
+      ],
+      "exit": [
+        30.5,
+        61.49
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "mackayk_t6",
+      "number": 6,
+      "apex": [
+        29.46,
+        51.36
+      ],
+      "label": [
+        24.32,
+        50.6
+      ],
+      "entry": [
+        29.99,
+        54.87
+      ],
+      "exit": [
+        27.57,
+        49.72
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "mackayk_t7",
+      "number": 7,
+      "apex": [
+        23.69,
+        49.63
+      ],
+      "label": [
+        18.57,
+        48.7
+      ],
+      "entry": [
+        26.82,
+        49.45
+      ],
+      "exit": [
+        19.64,
+        53.65
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "mackayk_t8",
+      "number": 8,
+      "apex": [
+        10.78,
+        59.47
+      ],
+      "label": [
+        5.63,
+        60.18
+      ],
+      "entry": [
+        12.98,
+        60.02
+      ],
+      "exit": [
+        8.86,
+        56.9
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "mackayk_t9",
+      "number": 9,
+      "apex": [
+        16.42,
+        38.65
+      ],
+      "label": [
+        11.73,
+        36.4
+      ],
+      "entry": [
+        10.46,
+        44.35
+      ],
+      "exit": [
+        61.81,
+        33.47
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "mackayk_t10",
+      "number": 10,
+      "apex": [
+        84.28,
+        33.19
+      ],
+      "label": [
+        88.75,
+        30.54
+      ],
+      "entry": [
+        61.81,
+        33.47
+      ],
+      "exit": [
+        88.61,
+        36.49
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "mackayk_t11",
+      "number": 11,
+      "apex": [
+        90.66,
+        64.85
+      ],
+      "label": [
+        95.7,
+        66.13
+      ],
+      "entry": [
+        90.81,
+        46.14
+      ],
+      "exit": [
+        88.77,
+        66.9
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    },
+    {
+      "id": "mackayk_t12",
+      "number": 12,
+      "apex": [
+        85,
+        67.59
+      ],
+      "label": [
+        89.88,
+        69.39
+      ],
+      "entry": [
+        87.57,
+        67.47
+      ],
+      "exit": [
+        82.13,
+        65.91
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 12 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T11 exit"
+    }
+  ]
+}

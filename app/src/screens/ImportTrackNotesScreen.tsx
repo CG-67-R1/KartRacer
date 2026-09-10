@@ -186,7 +186,7 @@ export function ImportTrackNotesScreen() {
         <Text style={styles.heroTitle}>Import track notes</Text>
         <Text style={styles.heroSubtitle}>
           Import notes from your clipboard, a file paste, or another session export — then send them
-          to Coach. This does not pull other riders&apos; private notes.
+          to Coach. This does not pull other drivers&apos; private notes.
         </Text>
 
         <TouchableOpacity

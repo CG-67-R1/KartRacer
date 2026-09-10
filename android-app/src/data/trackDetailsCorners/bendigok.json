@@ -1,0 +1,40 @@
+{
+  "trackId": "bendigok",
+  "name": "Bendigo Kart Club (Marong)",
+  "lengthM": 610,
+  "startFinish": [
+    40.99,
+    60.92
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "bendigok_t1",
+      "number": 1,
+      "apex": [
+        24.91,
+        40.24
+      ],
+      "label": [
+        20.44,
+        37.58
+      ],
+      "entry": [
+        36.27,
+        27.97
+      ],
+      "exit": [
+        24.49,
+        43.84
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

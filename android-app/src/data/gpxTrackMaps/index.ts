@@ -1,7 +1,263 @@
+import albanyk from './albanyk.json';
+import aWodongak from './a_wodongak.json';
+import aWodongak2 from './a_wodongak2.json';
+import aWodongak3 from './a_wodongak3.json';
+import equipvar from './equipvar.json';
+import kartequip from './kartequip.json';
+import bairnsdalek from './bairnsdalek.json';
+import ballaratk from './ballaratk.json';
+import ballarat2 from './ballarat_2.json';
+import barossaCcw from './barossa_ccw.json';
+import bendigok from './bendigok.json';
+import bhkc from './bhkc.json';
+import bunburyk from './bunburyk.json';
+import bunkart from './bunkart.json';
+import bundabergk from './bundabergk.json';
+import burnettk from './burnettk.json';
+import cairnskAcw from './cairnsk_acw.json';
+import cairnskVar1 from './cairnsk_var1.json';
+import cairnskVar2 from './cairnsk_var2.json';
+import canberralong from './canberralong.json';
+import canberrak from './canberrak.json';
+import rockhamptonk from './rockhamptonk.json';
+import towerskart from './towerskart.json';
+import towerskart2 from './towerskart2.json';
+import bpkc from './bpkc.json';
+import chkrcA from './chkrc_a.json';
+import chkrcA3 from './chkrc_a3.json';
+import chkrcB1 from './chkrc_b1.json';
+import chkrcC from './chkrc_c.json';
+import chkrcD from './chkrc_d.json';
+import chkrcE1 from './chkrc_e1.json';
+import cdkc from './cdkc.json';
+import cooloolak from './cooloolak.json';
+import dalbyk from './dalbyk.json';
+import darwinkVar1 from './darwink_var1.json';
+import darwinkVar2 from './darwink_var2.json';
+import darwinkVar3 from './darwink_var3.json';
+import dubbok from './dubbok.json';
+import goldfieldsk from './goldfieldsk.json';
+import elkc from './elkc.json';
+import elkcShort from './elkc_short.json';
+import emeraldAcw from './emerald_acw.json';
+import emeraldCw from './emerald_cw.json';
+import esperancek from './esperancek.json';
+import exmouth from './exmouth.json';
+import extremek from './extremek.json';
+import extremekS from './extremek_s.json';
+import geelongk from './geelongk.json';
+import gippslandk from './gippslandk.json';
+import gladstonek from './gladstonek.json';
+import clubsaACcw from './clubsa_a_ccw.json';
+import clubsaACw from './clubsa_a_cw.json';
+import clubsaBCw from './clubsa_b_cw.json';
+import clubsaCCcw from './clubsa_c_ccw.json';
+import gokWorldAc from './gok_world_ac.json';
+import gokWorldCw from './gok_world_cw.json';
+import gkcvCw from './gkcv_cw.json';
+import gkcv from './gkcv.json';
+import gvkc from './gvkc.json';
+import indy800c from './indy800c.json';
+import indy800Sh from './indy800_sh.json';
+import grenfellk from './grenfellk.json';
+import griffithk from './griffithk.json';
+import hamiltonk from './hamiltonk.json';
+import hedlandkart from './hedlandkart.json';
+import portHedland from './port_hedland.json';
+import wundowieWa from './wundowie_wa.json';
+import impalak from './impalak.json';
+import ipswichk from './ipswichk.json';
+import ipswichk2 from './ipswichk2.json';
+import jabiruk from './jabiruk.json';
+import karratha from './karratha.json';
+import karrathaSh from './karratha_sh.json';
+import lakekingk from './lakekingk.json';
+import launcestonk from './launcestonk.json';
+import lkc from './lkc.json';
+import lismorek from './lismorek.json';
+import mackayk from './mackayk.json';
+import mvkc2024 from './mvkc_2024.json';
+import mfastkartcoc from './mfastkartcoc.json';
+import mfastkartd from './mfastkartd.json';
+import megafastb from './megafastb.json';
+import megafastc from './megafastc.json';
+import megafastkart from './megafastkart.json';
+import geraldtonk2 from './geraldtonk_2.json';
+import mildurak from './mildurak.json';
+import moranbahk from './moranbahk.json';
+import mtIsa from './mt_isa.json';
+import mtgambierk from './mtgambierk.json';
+import mtgambierkS from './mtgambierk_s.json';
+import nwkc from './nwkc.json';
+import oakleighk from './oakleighk.json';
+import oakleighLon from './oakleigh_lon.json';
+import oakleighNew from './oakleigh_new.json';
+import orangekA from './orangek_a.json';
+import orangekB from './orangek_b.json';
+import orangekC from './orangek_c.json';
+import piKart from './pi_kart.json';
+import pictionk from './pictionk.json';
+import portgawlerk from './portgawlerk.json';
+import pmkrcVar1 from './pmkrc_var1.json';
+import pmkrcVar2 from './pmkrc_var2.json';
+import pdkcLong from './pdkc_long.json';
+import pdkcShort from './pdkc_short.json';
+import rochesterk from './rochesterk.json';
+import sapphireNsw from './sapphire_nsw.json';
+import silhouettek from './silhouettek.json';
+import cobdenk from './cobdenk.json';
+import bolivarLong from './bolivar_long.json';
+import bolivark from './bolivark.json';
+import bolivarkSh from './bolivark_sh.json';
+import stkc from './stkc.json';
+import stonycreek from './stonycreek.json';
+import swanVic from './swan_vic.json';
+import eastCrkNsw from './east_crk_nsw.json';
+import spkpVar1 from './spkp_var1.json';
+import spkpVar3 from './spkp_var3.json';
+import spkpVar4 from './spkp_var4.json';
+import tamworth from './tamworth.json';
+import toowoombaCw from './toowoomba_cw.json';
+import townsvillek from './townsvillek.json';
+import waggak from './waggak.json';
+import warrnamboolk from './warrnamboolk.json';
+import warwickk from './warwickk.json';
+import whyallak from './whyallak.json';
+import wimmerak from './wimmerak.json';
+import wimmerak2 from './wimmerak2.json';
+import wollongongk from './wollongongk.json';
 import type { GpxTrackMap } from './types';
 
-/** Empty until J1.3 bakes C:\\KartRacer\\data\\gpx via build-gpx-track-maps.mjs */
-const MAPS: Record<string, GpxTrackMap> = {};
+const MAPS: Record<string, GpxTrackMap> = {
+  albanyk: albanyk as GpxTrackMap,
+  a_wodongak: aWodongak as GpxTrackMap,
+  a_wodongak2: aWodongak2 as GpxTrackMap,
+  a_wodongak3: aWodongak3 as GpxTrackMap,
+  equipvar: equipvar as GpxTrackMap,
+  kartequip: kartequip as GpxTrackMap,
+  bairnsdalek: bairnsdalek as GpxTrackMap,
+  ballaratk: ballaratk as GpxTrackMap,
+  ballarat_2: ballarat2 as GpxTrackMap,
+  barossa_ccw: barossaCcw as GpxTrackMap,
+  bendigok: bendigok as GpxTrackMap,
+  bhkc: bhkc as GpxTrackMap,
+  bunburyk: bunburyk as GpxTrackMap,
+  bunkart: bunkart as GpxTrackMap,
+  bundabergk: bundabergk as GpxTrackMap,
+  burnettk: burnettk as GpxTrackMap,
+  cairnsk_acw: cairnskAcw as GpxTrackMap,
+  cairnsk_var1: cairnskVar1 as GpxTrackMap,
+  cairnsk_var2: cairnskVar2 as GpxTrackMap,
+  canberralong: canberralong as GpxTrackMap,
+  canberrak: canberrak as GpxTrackMap,
+  rockhamptonk: rockhamptonk as GpxTrackMap,
+  towerskart: towerskart as GpxTrackMap,
+  towerskart2: towerskart2 as GpxTrackMap,
+  bpkc: bpkc as GpxTrackMap,
+  chkrc_a: chkrcA as GpxTrackMap,
+  chkrc_a3: chkrcA3 as GpxTrackMap,
+  chkrc_b1: chkrcB1 as GpxTrackMap,
+  chkrc_c: chkrcC as GpxTrackMap,
+  chkrc_d: chkrcD as GpxTrackMap,
+  chkrc_e1: chkrcE1 as GpxTrackMap,
+  cdkc: cdkc as GpxTrackMap,
+  cooloolak: cooloolak as GpxTrackMap,
+  dalbyk: dalbyk as GpxTrackMap,
+  darwink_var1: darwinkVar1 as GpxTrackMap,
+  darwink_var2: darwinkVar2 as GpxTrackMap,
+  darwink_var3: darwinkVar3 as GpxTrackMap,
+  dubbok: dubbok as GpxTrackMap,
+  goldfieldsk: goldfieldsk as GpxTrackMap,
+  elkc: elkc as GpxTrackMap,
+  elkc_short: elkcShort as GpxTrackMap,
+  emerald_acw: emeraldAcw as GpxTrackMap,
+  emerald_cw: emeraldCw as GpxTrackMap,
+  esperancek: esperancek as GpxTrackMap,
+  exmouth: exmouth as GpxTrackMap,
+  extremek: extremek as GpxTrackMap,
+  extremek_s: extremekS as GpxTrackMap,
+  geelongk: geelongk as GpxTrackMap,
+  gippslandk: gippslandk as GpxTrackMap,
+  gladstonek: gladstonek as GpxTrackMap,
+  clubsa_a_ccw: clubsaACcw as GpxTrackMap,
+  clubsa_a_cw: clubsaACw as GpxTrackMap,
+  clubsa_b_cw: clubsaBCw as GpxTrackMap,
+  clubsa_c_ccw: clubsaCCcw as GpxTrackMap,
+  gok_world_ac: gokWorldAc as GpxTrackMap,
+  gok_world_cw: gokWorldCw as GpxTrackMap,
+  gkcv_cw: gkcvCw as GpxTrackMap,
+  gkcv: gkcv as GpxTrackMap,
+  gvkc: gvkc as GpxTrackMap,
+  indy800c: indy800c as GpxTrackMap,
+  indy800_sh: indy800Sh as GpxTrackMap,
+  grenfellk: grenfellk as GpxTrackMap,
+  griffithk: griffithk as GpxTrackMap,
+  hamiltonk: hamiltonk as GpxTrackMap,
+  hedlandkart: hedlandkart as GpxTrackMap,
+  port_hedland: portHedland as GpxTrackMap,
+  wundowie_wa: wundowieWa as GpxTrackMap,
+  impalak: impalak as GpxTrackMap,
+  ipswichk: ipswichk as GpxTrackMap,
+  ipswichk2: ipswichk2 as GpxTrackMap,
+  jabiruk: jabiruk as GpxTrackMap,
+  karratha: karratha as GpxTrackMap,
+  karratha_sh: karrathaSh as GpxTrackMap,
+  lakekingk: lakekingk as GpxTrackMap,
+  launcestonk: launcestonk as GpxTrackMap,
+  lkc: lkc as GpxTrackMap,
+  lismorek: lismorek as GpxTrackMap,
+  mackayk: mackayk as GpxTrackMap,
+  mvkc_2024: mvkc2024 as GpxTrackMap,
+  mfastkartcoc: mfastkartcoc as GpxTrackMap,
+  mfastkartd: mfastkartd as GpxTrackMap,
+  megafastb: megafastb as GpxTrackMap,
+  megafastc: megafastc as GpxTrackMap,
+  megafastkart: megafastkart as GpxTrackMap,
+  geraldtonk_2: geraldtonk2 as GpxTrackMap,
+  mildurak: mildurak as GpxTrackMap,
+  moranbahk: moranbahk as GpxTrackMap,
+  mt_isa: mtIsa as GpxTrackMap,
+  mtgambierk: mtgambierk as GpxTrackMap,
+  mtgambierk_s: mtgambierkS as GpxTrackMap,
+  nwkc: nwkc as GpxTrackMap,
+  oakleighk: oakleighk as GpxTrackMap,
+  oakleigh_lon: oakleighLon as GpxTrackMap,
+  oakleigh_new: oakleighNew as GpxTrackMap,
+  orangek_a: orangekA as GpxTrackMap,
+  orangek_b: orangekB as GpxTrackMap,
+  orangek_c: orangekC as GpxTrackMap,
+  pi_kart: piKart as GpxTrackMap,
+  pictionk: pictionk as GpxTrackMap,
+  portgawlerk: portgawlerk as GpxTrackMap,
+  pmkrc_var1: pmkrcVar1 as GpxTrackMap,
+  pmkrc_var2: pmkrcVar2 as GpxTrackMap,
+  pdkc_long: pdkcLong as GpxTrackMap,
+  pdkc_short: pdkcShort as GpxTrackMap,
+  rochesterk: rochesterk as GpxTrackMap,
+  sapphire_nsw: sapphireNsw as GpxTrackMap,
+  silhouettek: silhouettek as GpxTrackMap,
+  cobdenk: cobdenk as GpxTrackMap,
+  bolivar_long: bolivarLong as GpxTrackMap,
+  bolivark: bolivark as GpxTrackMap,
+  bolivark_sh: bolivarkSh as GpxTrackMap,
+  stkc: stkc as GpxTrackMap,
+  stonycreek: stonycreek as GpxTrackMap,
+  swan_vic: swanVic as GpxTrackMap,
+  east_crk_nsw: eastCrkNsw as GpxTrackMap,
+  spkp_var1: spkpVar1 as GpxTrackMap,
+  spkp_var3: spkpVar3 as GpxTrackMap,
+  spkp_var4: spkpVar4 as GpxTrackMap,
+  tamworth: tamworth as GpxTrackMap,
+  toowoomba_cw: toowoombaCw as GpxTrackMap,
+  townsvillek: townsvillek as GpxTrackMap,
+  waggak: waggak as GpxTrackMap,
+  warrnamboolk: warrnamboolk as GpxTrackMap,
+  warwickk: warwickk as GpxTrackMap,
+  whyallak: whyallak as GpxTrackMap,
+  wimmerak: wimmerak as GpxTrackMap,
+  wimmerak2: wimmerak2 as GpxTrackMap,
+  wollongongk: wollongongk as GpxTrackMap,
+};
 
 export const GPX_TRACK_MAP_IDS = Object.keys(MAPS);
 

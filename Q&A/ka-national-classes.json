@@ -1,0 +1,67 @@
+{
+  "origin": "kb-au-rules/national/classes.md",
+  "title": "2026 KA Manual — classes",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "---\nid: ncr-classes\ntitle: 2026 Class Rules catalog\ntags: [cadet, ka3, ka2, tag, rotax, 4ss, x30, dd2, vintage]\n---\n\n# 2026 Class Rules catalog\n\nMachine table: `data/classes.json`. Restrictors: `data/restrictors.json`. State extras: `data/state-overrides.json`.\n\nWeights = kart + driver + kit. Confirm the meeting Supplementary Regulations.\n\n## Pathway (typical Australian club)\n\n**4SS** (sealed Torini, cheap) or **Cadet 9** (Mini Rok + 16 mm) → **Cadet 12** (Mini Rok open) → **KA3 Junior** (KA100 + 22 mm) → **KA3 Senior** or **TaG Restricted** → **TaG 125 / X30 / Rotax 125 / Rok GP** → **DD2 / KZ2**. **KA2** is the faster junior (Rok DVS). **Yamaha** remains a club option.\n\nMicroMax / MiniMax = **social only**. KA4 = **state/club class** in the 2026 book.\n\n## Snapshot (national minimums)\n\n| Class | Age / licence | Engine | Key min kg |\n|---|---|---|---|\n| Cadet 9 | 7–10th bday | Mini Rok +16 mm / Comer / KT100J 13.02 | 100 / 90 / 100 |\n| Cadet 12 | 9–13th | Mini Rok / KT100J 16 mm | 110 / 105 |\n| KA4 | Jr 11–16; Club | KA100 +19 mm | Jr 128/148; Sr 148/163; Mast 163 |\n| KA3 Jr | 11–16 | KA100 +22 mm | 137 champ / 132 L / 150 H |\n| KA3 Sr | licence; Mast 40+ | KA100 open | 160 C / 150 L / 170 M / 190 H / 170 Mast |\n| Jr Max | 12–16, B Jr | Rotax + SR4 23.5 | 145 |\n| KA2 | 12–16, B Jr | Rok DVS Jr | 142 |\n| X30 | B Sr | X30 open | 162 L / 176 H |\n| Rotax 125 | B Sr | Max 125 | 160/180 other; 165/180 Nat Series |\n| TaG Restricted | Sr; Mast 40+ | restricted 125s | 160/180/200 (+5 Rotax SR2/SR4) |\n| TaG 125 | B Sr | open 125s | champ 172; L 160 (Fireball 150) |\n| DD2 | B Sr; Mast 32+ | DD2 2-speed | 173 / 180 Mast |\n| Rok GP | B Sr; Mast 32+ | Rok GP | 162 / 180 / 180 |\n| KZ2 | Senior | KZ | 177 |\n| Yamaha | Jr/Sr | KT100 | Jr 131/141; Sr 141/161/181 |\n| 4SS | Cadet/Jr/Sr | Clubmaxx 210 | 100 / 130 / 140–170 |\n| 4SS Super | max B Sr | Supermaxx 250 | 155 / 170 / 185 |\n| 4SE | endurance | 4-stroke | 175 single / 185 twin |\n| Vintage | Vintage licence | pre-2001 classes, 15 y off book | no racing — parade/demo/time/regularity |\n\n**Tyres (race):** Cadet Maxxis 190D / MW21. KA3/KA4/Restricted/DD2/Jr Max LH03 (or class list) + SV1. KA2 and TaG 125 **LOH**. X30 and Rok GP **LPM**. 4SS Cadet Maxxis; 4SS Jr/Sr Maxxis Sport.\n\n**Plates:** Cadet white/red. Junior white/black. Senior yellow/black.\n\n**Two engines** from first qualifying. **One dry + one wet set** from first qualifying.\n\nOpen Performance / Gearbox / Dirt weights are State or Supplementary. QLD, TAS, WA publish OP tables in `states/`.\n",
+  "contentBlocks": [
+    {
+      "type": "paragraph",
+      "text": "---\nid: ncr-classes\ntitle: 2026 Class Rules catalog\ntags: [cadet, ka3, ka2, tag, rotax, 4ss, x30, dd2, vintage]\n---"
+    },
+    {
+      "type": "heading",
+      "text": "# 2026 Class Rules catalog"
+    },
+    {
+      "type": "paragraph",
+      "text": "Machine table: `data/classes.json`. Restrictors: `data/restrictors.json`. State extras: `data/state-overrides.json`."
+    },
+    {
+      "type": "paragraph",
+      "text": "Weights = kart + driver + kit. Confirm the meeting Supplementary Regulations."
+    },
+    {
+      "type": "heading",
+      "text": "## Pathway (typical Australian club)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**4SS** (sealed Torini, cheap) or **Cadet 9** (Mini Rok + 16 mm) → **Cadet 12** (Mini Rok open) → **KA3 Junior** (KA100 + 22 mm) → **KA3 Senior** or **TaG Restricted** → **TaG 125 / X30 / Rotax 125 / Rok GP** → **DD2 / KZ2**. **KA2** is the faster junior (Rok DVS). **Yamaha** remains a club option."
+    },
+    {
+      "type": "paragraph",
+      "text": "MicroMax / MiniMax = **social only**. KA4 = **state/club class** in the 2026 book."
+    },
+    {
+      "type": "heading",
+      "text": "## Snapshot (national minimums)"
+    },
+    {
+      "type": "paragraph",
+      "text": "| Class | Age / licence | Engine | Key min kg |\n|---|---|---|---|\n| Cadet 9 | 7–10th bday | Mini Rok +16 mm / Comer / KT100J 13.02 | 100 / 90 / 100 |\n| Cadet 12 | 9–13th | Mini Rok / KT100J 16 mm | 110 / 105 |\n| KA4 | Jr 11–16; Club | KA100 +19 mm | Jr 128/148; Sr 148/163; Mast 163 |\n| KA3 Jr | 11–16 | KA100 +22 mm | 137 champ / 132 L / 150 H |\n| KA3 Sr | licence; Mast 40+ | KA100 open | 160 C / 150 L / 170 M / 190 H / 170 Mast |\n| Jr Max | 12–16, B Jr | Rotax + SR4 23.5 | 145 |\n| KA2 | 12–16, B Jr | Rok DVS Jr | 142 |\n| X30 | B Sr | X30 open | 162 L / 176 H |\n| Rotax 125 | B Sr | Max 125 | 160/180 other; 165/180 Nat Series |\n| TaG Restricted | Sr; Mast 40+ | restricted 125s | 160/180/200 (+5 Rotax SR2/SR4) |\n| TaG 125 | B Sr | open 125s | champ 172; L 160 (Fireball 150) |\n| DD2 | B Sr; Mast 32+ | DD2 2-speed | 173 / 180 Mast |\n| Rok GP | B Sr; Mast 32+ | Rok GP | 162 / 180 / 180 |\n| KZ2 | Senior | KZ | 177 |\n| Yamaha | Jr/Sr | KT100 | Jr 131/141; Sr 141/161/181 |\n| 4SS | Cadet/Jr/Sr | Clubmaxx 210 | 100 / 130 / 140–170 |\n| 4SS Super | max B Sr | Supermaxx 250 | 155 / 170 / 185 |\n| 4SE | endurance | 4-stroke | 175 single / 185 twin |\n| Vintage | Vintage licence | pre-2001 classes, 15 y off book | no racing — parade/demo/time/regularity |"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Tyres (race):** Cadet Maxxis 190D / MW21. KA3/KA4/Restricted/DD2/Jr Max LH03 (or class list) + SV1. KA2 and TaG 125 **LOH**. X30 and Rok GP **LPM**. 4SS Cadet Maxxis; 4SS Jr/Sr Maxxis Sport."
+    },
+    {
+      "type": "paragraph",
+      "text": "**Plates:** Cadet white/red. Junior white/black. Senior yellow/black."
+    },
+    {
+      "type": "paragraph",
+      "text": "**Two engines** from first qualifying. **One dry + one wet set** from first qualifying."
+    },
+    {
+      "type": "paragraph",
+      "text": "Open Performance / Gearbox / Dirt weights are State or Supplementary. QLD, TAS, WA publish OP tables in `states/`."
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "kb-au-rules",
+    "builtAt": "2026-09-10T08:52:32.875Z"
+  }
+}

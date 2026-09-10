@@ -1,0 +1,292 @@
+{
+  "trackId": "mfastkartcoc",
+  "name": "Mega Fast Karts (Cockburn) (Cockburn)",
+  "lengthM": 639,
+  "startFinish": [
+    48.87,
+    39.3
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "mfastkartcoc_t1",
+      "number": 1,
+      "apex": [
+        80.63,
+        38.22
+      ],
+      "label": [
+        85.83,
+        38.02
+      ],
+      "entry": [
+        75.05,
+        40.6
+      ],
+      "exit": [
+        82.35,
+        35.39
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "mfastkartcoc_t2",
+      "number": 2,
+      "apex": [
+        76.69,
+        27.28
+      ],
+      "label": [
+        81.49,
+        25.27
+      ],
+      "entry": [
+        80.05,
+        28.95
+      ],
+      "exit": [
+        53.29,
+        32.36
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "mfastkartcoc_t3",
+      "number": 3,
+      "apex": [
+        37.65,
+        27.63
+      ],
+      "label": [
+        34.33,
+        23.63
+      ],
+      "entry": [
+        40.6,
+        31.18
+      ],
+      "exit": [
+        37.45,
+        25.43
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "mfastkartcoc_t4",
+      "number": 4,
+      "apex": [
+        43.39,
+        20.11
+      ],
+      "label": [
+        42.32,
+        15.02
+      ],
+      "entry": [
+        39.86,
+        21.54
+      ],
+      "exit": [
+        47.97,
+        21.04
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "mfastkartcoc_t5",
+      "number": 5,
+      "apex": [
+        59.56,
+        18.94
+      ],
+      "label": [
+        62.19,
+        14.46
+      ],
+      "entry": [
+        56.98,
+        21.51
+      ],
+      "exit": [
+        60.02,
+        16.46
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "mfastkartcoc_t6",
+      "number": 6,
+      "apex": [
+        56.3,
+        10.65
+      ],
+      "label": [
+        57.82,
+        5.68
+      ],
+      "entry": [
+        59.3,
+        13.88
+      ],
+      "exit": [
+        45.15,
+        8.33
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "mfastkartcoc_t7",
+      "number": 7,
+      "apex": [
+        18.13,
+        83.73
+      ],
+      "label": [
+        15.25,
+        88.06
+      ],
+      "entry": [
+        24.67,
+        38.88
+      ],
+      "exit": [
+        21.16,
+        89.46
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "mfastkartcoc_t8",
+      "number": 8,
+      "apex": [
+        25.42,
+        91.61
+      ],
+      "label": [
+        23.39,
+        96.4
+      ],
+      "entry": [
+        21.71,
+        89.91
+      ],
+      "exit": [
+        29.51,
+        91.1
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "mfastkartcoc_t9",
+      "number": 9,
+      "apex": [
+        41.32,
+        74.49
+      ],
+      "label": [
+        40.42,
+        79.61
+      ],
+      "entry": [
+        36.1,
+        85.65
+      ],
+      "exit": [
+        39.23,
+        63.28
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "mfastkartcoc_t10",
+      "number": 10,
+      "apex": [
+        33.82,
+        48.71
+      ],
+      "label": [
+        29.51,
+        51.62
+      ],
+      "entry": [
+        37.08,
+        59.51
+      ],
+      "exit": [
+        34.81,
+        45.22
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    }
+  ]
+}

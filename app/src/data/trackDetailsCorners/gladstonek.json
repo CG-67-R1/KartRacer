@@ -1,0 +1,152 @@
+{
+  "trackId": "gladstonek",
+  "name": "Gladstone Kart Club (Formula K Raceway)",
+  "lengthM": 693,
+  "startFinish": [
+    36.9,
+    48.12
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "gladstonek_t1",
+      "number": 1,
+      "apex": [
+        31.68,
+        62.3
+      ],
+      "label": [
+        26.79,
+        64.06
+      ],
+      "entry": [
+        30.51,
+        59.17
+      ],
+      "exit": [
+        43.63,
+        66.06
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "gladstonek_t2",
+      "number": 2,
+      "apex": [
+        56.88,
+        70.97
+      ],
+      "label": [
+        60.11,
+        75.04
+      ],
+      "entry": [
+        37.73,
+        64.82
+      ],
+      "exit": [
+        59.25,
+        74.68
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "gladstonek_t3",
+      "number": 3,
+      "apex": [
+        22.16,
+        36.02
+      ],
+      "label": [
+        18.28,
+        32.56
+      ],
+      "entry": [
+        20.85,
+        37.66
+      ],
+      "exit": [
+        20.66,
+        24.74
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "gladstonek_t4",
+      "number": 4,
+      "apex": [
+        27.59,
+        15.25
+      ],
+      "label": [
+        25.51,
+        10.49
+      ],
+      "entry": [
+        24.07,
+        16.25
+      ],
+      "exit": [
+        76.85,
+        41.61
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "gladstonek_t5",
+      "number": 5,
+      "apex": [
+        81.51,
+        78.77
+      ],
+      "label": [
+        85.96,
+        81.47
+      ],
+      "entry": [
+        84.95,
+        79.72
+      ],
+      "exit": [
+        67.25,
+        59.17
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    }
+  ]
+}

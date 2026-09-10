@@ -1,0 +1,320 @@
+{
+  "trackId": "grenfellk",
+  "name": "Grenfell Kart Club",
+  "lengthM": 642,
+  "startFinish": [
+    59.13,
+    46.11
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "grenfellk_t1",
+      "number": 1,
+      "apex": [
+        84.84,
+        52.21
+      ],
+      "label": [
+        89.83,
+        53.68
+      ],
+      "entry": [
+        76.23,
+        51.19
+      ],
+      "exit": [
+        88.14,
+        55.4
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "grenfellk_t2",
+      "number": 2,
+      "apex": [
+        76.62,
+        91.31
+      ],
+      "label": [
+        78.74,
+        96.06
+      ],
+      "entry": [
+        84.84,
+        87.58
+      ],
+      "exit": [
+        40.68,
+        83.83
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "grenfellk_t3",
+      "number": 3,
+      "apex": [
+        11.38,
+        74.97
+      ],
+      "label": [
+        7.15,
+        78
+      ],
+      "entry": [
+        25.1,
+        79.98
+      ],
+      "exit": [
+        9.43,
+        70.87
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "grenfellk_t4",
+      "number": 4,
+      "apex": [
+        10.32,
+        65.57
+      ],
+      "label": [
+        5.65,
+        67.86
+      ],
+      "entry": [
+        9.27,
+        70.05
+      ],
+      "exit": [
+        15.07,
+        61.3
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "grenfellk_t5",
+      "number": 5,
+      "apex": [
+        36.19,
+        36.32
+      ],
+      "label": [
+        31.32,
+        34.49
+      ],
+      "entry": [
+        29.61,
+        49.06
+      ],
+      "exit": [
+        35.4,
+        29.69
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "grenfellk_t6",
+      "number": 6,
+      "apex": [
+        26.81,
+        17.86
+      ],
+      "label": [
+        22.95,
+        14.38
+      ],
+      "entry": [
+        30.98,
+        23.79
+      ],
+      "exit": [
+        27.19,
+        14.56
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "grenfellk_t7",
+      "number": 7,
+      "apex": [
+        33.53,
+        8.81
+      ],
+      "label": [
+        30.77,
+        4.4
+      ],
+      "entry": [
+        28.57,
+        12.12
+      ],
+      "exit": [
+        78.2,
+        14.24
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "grenfellk_t8",
+      "number": 8,
+      "apex": [
+        88.29,
+        21.49
+      ],
+      "label": [
+        92.62,
+        18.61
+      ],
+      "entry": [
+        86.58,
+        17.98
+      ],
+      "exit": [
+        87.43,
+        25.29
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "grenfellk_t9",
+      "number": 9,
+      "apex": [
+        79.83,
+        29.43
+      ],
+      "label": [
+        84.34,
+        26.84
+      ],
+      "entry": [
+        84.93,
+        27.83
+      ],
+      "exit": [
+        72.75,
+        26.65
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "grenfellk_t10",
+      "number": 10,
+      "apex": [
+        63.52,
+        22.5
+      ],
+      "label": [
+        65.42,
+        17.66
+      ],
+      "entry": [
+        72.75,
+        26.65
+      ],
+      "exit": [
+        58.43,
+        23.92
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "grenfellk_t11",
+      "number": 11,
+      "apex": [
+        54.82,
+        28.64
+      ],
+      "label": [
+        54.66,
+        23.44
+      ],
+      "entry": [
+        57.48,
+        24.64
+      ],
+      "exit": [
+        54.81,
+        36.13
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    }
+  ]
+}

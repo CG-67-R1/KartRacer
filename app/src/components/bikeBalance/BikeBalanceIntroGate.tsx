@@ -22,39 +22,39 @@ export function BikeBalanceIntroGate({
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <Text style={styles.kicker}>Before you start</Text>
-      <Text style={styles.title}>Bike Balance Setup is a deep technical tool</Text>
+      <Text style={styles.title}>Chassis Balance is a deep technical tool</Text>
       <Text style={styles.body}>
-        This screen is for riders and tuners who want a greater technical understanding of chassis
-        balance: rake and trail, wheel rates, mass placement, and anti-squat, with auditable math.
+        This screen is for drivers and tuners who want a greater technical understanding of chassis
+        balance: corner weights, mass placement, and geometry, with auditable math.
       </Text>
       <Text style={styles.body}>
         It is denser than our other Coach tools on purpose. If you mainly want session notes, simple
-        suspension hotspots, or Q and A, you will have a better experience elsewhere.
+        chassis hotspots, or Q and A, you will have a better experience elsewhere.
       </Text>
 
       <Text style={styles.section}>Better fits for most sessions</Text>
       <TouchableOpacity style={styles.altBtn} onPress={onGoDaySetup} activeOpacity={0.85}>
-        <Text style={styles.altTitle}>Bike Setup Sheet</Text>
+        <Text style={styles.altTitle}>Kart Setup Sheet</Text>
         <Text style={styles.altSub}>Log today settings, temps, and notes</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.altBtn} onPress={onGoBasics} activeOpacity={0.85}>
-        <Text style={styles.altTitle}>Bike Setup Basics</Text>
-        <Text style={styles.altSub}>Interactive suspension hotspots and plain-language tips</Text>
+        <Text style={styles.altTitle}>Kart Setup Basics</Text>
+        <Text style={styles.altSub}>Interactive chassis hotspots and plain-language tips</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.altBtn} onPress={onGoFaqs} activeOpacity={0.85}>
-        <Text style={styles.altTitle}>RoadRacer AI FAQs</Text>
-        <Text style={styles.altSub}>Search common coach and bike-setup questions</Text>
+        <Text style={styles.altTitle}>KartRacer Coach FAQs</Text>
+        <Text style={styles.altSub}>Search common coach and chassis-setup questions</Text>
       </TouchableOpacity>
 
       <Text style={styles.section}>If you want the deep tool</Text>
       <TouchableOpacity style={styles.primaryBtn} onPress={onOpenDataGuide} activeOpacity={0.85}>
-        <Text style={styles.primaryText}>Continue with the R6 data guide</Text>
+        <Text style={styles.primaryText}>Continue with the data guide</Text>
         <Text style={styles.primarySub}>
-          Walk through gathering numbers using 2020 Yamaha YZF-R6 public stock specs
+          Walk through gathering numbers from a chassis scale and your setup sheet
         </Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.secondaryBtn} onPress={onContinue} activeOpacity={0.85}>
-        <Text style={styles.secondaryText}>Continue to Bike Balance</Text>
+        <Text style={styles.secondaryText}>Continue to Chassis Balance</Text>
       </TouchableOpacity>
 
       <Text style={styles.foot}>

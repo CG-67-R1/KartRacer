@@ -1,5 +1,21 @@
 {
-  "sources": [],
-  "_placeholder": true,
-  "_explainer": "Motorcycle pack content stripped. Refill from C:/KartRacer/docs/KR_DATA_EQUIVALENTS.md and CURSOR_BUILD_JOBS.md J4.1."
+  "sources": [
+    {
+      "id": "kartsportnews",
+      "name": "KartSportNews",
+      "url": "https://www.kartsportnews.com/",
+      "rss": "https://www.kartsportnews.com/feed/",
+      "confidence": "high",
+      "nodeId": "au",
+      "notes": "PRIMARY — probed 200 valid RSS 2026-09-10"
+    },
+    {
+      "id": "karting_australia_news",
+      "name": "Karting Australia",
+      "url": "https://www.karting.net.au/",
+      "rss": "https://www.karting.net.au/feed/",
+      "confidence": "high",
+      "nodeId": "au"
+    }
+  ]
 }

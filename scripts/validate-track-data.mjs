@@ -20,17 +20,39 @@ const VALID_CORNER_DIRS = new Set(['left', 'right', 'straight', 'complex']);
 const VALID_TRACK_DIRS = new Set(['clockwise', 'anticlockwise', 'unknown']);
 const TURNING_SHAPES = /hairpin|sweeper|double-?apex/i;
 
-/** Official Bend lengths (km) — flag catalog mismatches */
-const BEND_LENGTH_KM = {
-  the_bend_international: 4.95,
-  the_bend_gt: 7.77,
-  the_bend_west: 3.41,
-  the_bend_east: 3.93,
-};
+/** Official length locks — none for kart venues yet (GPX declared length is the catalog source). */
+const BEND_LENGTH_KM = {};
 
 const MULTI_LAYOUT_GROUPS = [
-  ['the_bend_international', 'the_bend_gt', 'the_bend_west', 'the_bend_east'],
-  ['smp_gardner', 'smp_brabham', 'smp_druitt', 'smp_amaroo'],
+  ['a_wodongak', 'a_wodongak2', 'a_wodongak3', 'equipvar', 'kartequip'],
+  ['ballarat_2', 'ballaratk'],
+  ['bolivar_long', 'bolivark_sh', 'bolivark'],
+  ['bunburyk', 'bunkart'],
+  ['cairnsk_acw', 'cairnsk_var1', 'cairnsk_var2'],
+  ['canberrak', 'canberralong'],
+  ['chkrc_a', 'chkrc_a3', 'chkrc_b1', 'chkrc_c', 'chkrc_d', 'chkrc_e1'],
+  ['clubsa_a_ccw', 'clubsa_a_cw', 'clubsa_b_cw', 'clubsa_c_ccw'],
+  ['darwink_var1', 'darwink_var2', 'darwink_var3'],
+  ['elkc', 'elkc_short'],
+  ['emerald_acw', 'emerald_cw'],
+  ['extremek', 'extremek_s'],
+  ['gkcv', 'gkcv_cw'],
+  ['gok_world_ac', 'gok_world_cw'],
+  ['hedlandkart', 'port_hedland'],
+  ['indy800_sh', 'indy800c'],
+  ['ipswichk', 'ipswichk2'],
+  ['karratha', 'karratha_sh'],
+  ['launcestonk', 'lkc'],
+  ['megafastb', 'megafastc', 'megafastkart'],
+  ['mfastkartcoc', 'mfastkartd'],
+  ['mtgambierk', 'mtgambierk_s'],
+  ['oakleigh_lon', 'oakleigh_new', 'oakleighk'],
+  ['orangek_a', 'orangek_b', 'orangek_c'],
+  ['pdkc_long', 'pdkc_short'],
+  ['pmkrc_var1', 'pmkrc_var2'],
+  ['east_crk_nsw', 'spkp_var1', 'spkp_var3', 'spkp_var4'],
+  ['towerskart', 'towerskart2'],
+  ['wimmerak', 'wimmerak2'],
 ];
 
 const failures = [];
@@ -72,7 +94,7 @@ function balancedParens(s) {
   return n === 0;
 }
 
-console.log('Send-It track data validation');
+console.log('KartRacer track data validation');
 console.log(`Repo: ${ROOT}`);
 console.log(`Date: ${new Date().toISOString().slice(0, 10)}`);
 
@@ -214,10 +236,10 @@ for (const group of MULTI_LAYOUT_GROUPS) {
 // Turn counts on Track Details / Track Walk come from the GPX detector.
 // Do not reintroduce lockedCornerCounts — that froze the old catalog N.
 
-// Soft expectations for planned layouts (warn only)
-for (const id of ['the_bend_east', 'the_bend_west', 'smp_amaroo', 'collingrove_hillclimb']) {
+// Soft expectations for known gaps (warn only)
+for (const id of ['newcastle_nkrc']) {
   if (!trackIds.has(id)) {
-    warn(`planned layout not in catalog yet: ${id}`);
+    warn(`planned layout not in catalog yet: ${id} (Newcastle Kart Racing Club — no GPX in data/gpx)`);
   }
 }
 

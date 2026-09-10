@@ -1,0 +1,320 @@
+{
+  "trackId": "gkcv_cw",
+  "name": "Go-Kart Club of Victoria (Port Melbourne) (CW)",
+  "lengthM": 945,
+  "startFinish": [
+    47.61,
+    52.19
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "gkcv_cw_t1",
+      "number": 1,
+      "apex": [
+        48.03,
+        64.26
+      ],
+      "label": [
+        46.26,
+        69.15
+      ],
+      "entry": [
+        45.87,
+        62.1
+      ],
+      "exit": [
+        52.11,
+        64.63
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "gkcv_cw_t2",
+      "number": 2,
+      "apex": [
+        57.91,
+        34.89
+      ],
+      "label": [
+        59.45,
+        29.92
+      ],
+      "entry": [
+        60.27,
+        37.56
+      ],
+      "exit": [
+        55.65,
+        34.22
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "gkcv_cw_t3",
+      "number": 3,
+      "apex": [
+        10.75,
+        45.13
+      ],
+      "label": [
+        5.57,
+        44.65
+      ],
+      "entry": [
+        14.91,
+        46.81
+      ],
+      "exit": [
+        8.51,
+        41.79
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "gkcv_cw_t4",
+      "number": 4,
+      "apex": [
+        85.33,
+        19.58
+      ],
+      "label": [
+        89.14,
+        16.04
+      ],
+      "entry": [
+        78.81,
+        18.73
+      ],
+      "exit": [
+        88.85,
+        22.09
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "gkcv_cw_t5",
+      "number": 5,
+      "apex": [
+        86.32,
+        47.47
+      ],
+      "label": [
+        91.51,
+        47.22
+      ],
+      "entry": [
+        89.61,
+        41.63
+      ],
+      "exit": [
+        82.88,
+        49.5
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "gkcv_cw_t6",
+      "number": 6,
+      "apex": [
+        77.54,
+        46.57
+      ],
+      "label": [
+        82.71,
+        46.03
+      ],
+      "entry": [
+        78.59,
+        48.38
+      ],
+      "exit": [
+        77.51,
+        43.36
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "gkcv_cw_t7",
+      "number": 7,
+      "apex": [
+        79.29,
+        32.07
+      ],
+      "label": [
+        83.63,
+        29.21
+      ],
+      "entry": [
+        80.51,
+        34.82
+      ],
+      "exit": [
+        76.91,
+        30.42
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "gkcv_cw_t8",
+      "number": 8,
+      "apex": [
+        68.38,
+        33.76
+      ],
+      "label": [
+        72,
+        30.03
+      ],
+      "entry": [
+        70.28,
+        31.56
+      ],
+      "exit": [
+        67.41,
+        40.49
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "gkcv_cw_t9",
+      "number": 9,
+      "apex": [
+        70,
+        63.23
+      ],
+      "label": [
+        73.94,
+        66.62
+      ],
+      "entry": [
+        71.83,
+        58.45
+      ],
+      "exit": [
+        64.13,
+        68.58
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "gkcv_cw_t10",
+      "number": 10,
+      "apex": [
+        26.37,
+        79.05
+      ],
+      "label": [
+        22.88,
+        82.9
+      ],
+      "entry": [
+        29.15,
+        80.94
+      ],
+      "exit": [
+        25.39,
+        76.58
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "gkcv_cw_t11",
+      "number": 11,
+      "apex": [
+        35.48,
+        68.16
+      ],
+      "label": [
+        31.91,
+        71.94
+      ],
+      "entry": [
+        32.81,
+        70.58
+      ],
+      "exit": [
+        36.21,
+        65.31
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    }
+  ]
+}

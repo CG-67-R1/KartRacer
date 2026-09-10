@@ -1,0 +1,19 @@
+{
+  "origin": "kb-au-rules/data/restrictors.json",
+  "title": "KA structured data — restrictors.json",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "{\n  \"id\": \"ka-restrictors-2026\",\n  \"edition\": \"2026-update-1\",\n  \"note\": \"Internal hole must be no larger than listed. KA-issued plates are stamped. 2026 adds a revised Rotax restrictor when available from Rotax.\",\n  \"cadet\": {\n    \"mini_rok_cadet9\": \"16 mm (inlet/homologation)\",\n    \"kt100j_cadet9\": {\"id\": \"AKA1\", \"mm\": 13.02},\n    \"kt100j_cadet12\": {\"id\": \"AKA2A\", \"mm\": 16.0},\n    \"mini_rok_cadet12\": \"unrestricted\"\n  },\n  \"ka\": {\n    \"ka4\": \"19 mm IAME\",\n    \"ka3_junior\": \"22 mm Type 3 IAME KA100\",\n    \"ka3_senior\": \"unrestricted\"\n  },\n  \"rotax\": {\n    \"junior_max\": {\"id\": \"SR4\", \"mm\": 23.5},\n    \"rotax_125_trophy\": {\"id\": \"SR4\", \"mm\": 23.5},\n    \"tag_restricted_rotax_max\": [\n      {\"id\": \"AKA SR2\", \"mm\": 24.5},\n      {\"id\": \"AKA SR3\", \"mm\": 23.5},\n      {\"id\": \"Rotax SR4\", \"mm\": 23.5}\n    ],\n    \"tag_restricted_junior_max\": {\"id\": \"AKA SR2\", \"mm\": 24.5}\n  },\n  \"tag_restricted_other\": {\n    \"prd_fireball\": {\"id\": \"AKA F2\", \"mm\": 27.0},\n    \"leopard_black_module\": {\"id\": \"AKA L1\", \"mm\": 23.0},\n    \"leopard_green_aka20l\": {\"id\": \"AKA L2\", \"mm\": 23.8},\n    \"x30_type1_exhaust\": {\"id\": \"AKAX30\", \"mm\": 23.4},\n    \"x30_type2\": [\n      {\"id\": \"IAME D22\", \"mm\": 22.0},\n      {\"id\": \"IAME D22.70\", \"mm\": 22.8}\n    ],\n    \"sq_cheetah\": {\"id\": \"AKA SQ1\", \"mm\": 25.0},\n    \"prd_galaxy\": {\"id\": \"KA-G1\", \"mm\": 25.5},\n    \"rok_gp\": {\"id\": \"W10911\", \"mm\": 25.0}\n  },\n  \"4ss_cadet\": \"Cadet restrictor per Torini homologation (marketing: 16.5 mm carb)\"\n}\n",
+  "contentBlocks": [
+    {
+      "type": "paragraph",
+      "text": "{\n  \"id\": \"ka-restrictors-2026\",\n  \"edition\": \"2026-update-1\",\n  \"note\": \"Internal hole must be no larger than listed. KA-issued plates are stamped. 2026 adds a revised Rotax restrictor when available from Rotax.\",\n  \"cadet\": {\n    \"mini_rok_cadet9\": \"16 mm (inlet/homologation)\",\n    \"kt100j_cadet9\": {\"id\": \"AKA1\", \"mm\": 13.02},\n    \"kt100j_cadet12\": {\"id\": \"AKA2A\", \"mm\": 16.0},\n    \"mini_rok_cadet12\": \"unrestricted\"\n  },\n  \"ka\": {\n    \"ka4\": \"19 mm IAME\",\n    \"ka3_junior\": \"22 mm Type 3 IAME KA100\",\n    \"ka3_senior\": \"unrestricted\"\n  },\n  \"rotax\": {\n    \"junior_max\": {\"id\": \"SR4\", \"mm\": 23.5},\n    \"rotax_125_trophy\": {\"id\": \"SR4\", \"mm\": 23.5},\n    \"tag_restricted_rotax_max\": [\n      {\"id\": \"AKA SR2\", \"mm\": 24.5},\n      {\"id\": \"AKA SR3\", \"mm\": 23.5},\n      {\"id\": \"Rotax SR4\", \"mm\": 23.5}\n    ],\n    \"tag_restricted_junior_max\": {\"id\": \"AKA SR2\", \"mm\": 24.5}\n  },\n  \"tag_restricted_other\": {\n    \"prd_fireball\": {\"id\": \"AKA F2\", \"mm\": 27.0},\n    \"leopard_black_module\": {\"id\": \"AKA L1\", \"mm\": 23.0},\n    \"leopard_green_aka20l\": {\"id\": \"AKA L2\", \"mm\": 23.8},\n    \"x30_type1_exhaust\": {\"id\": \"AKAX30\", \"mm\": 23.4},\n    \"x30_type2\": [\n      {\"id\": \"IAME D22\", \"mm\": 22.0},\n      {\"id\": \"IAME D22.70\", \"mm\": 22.8}\n    ],\n    \"sq_cheetah\": {\"id\": \"AKA SQ1\", \"mm\": 25.0},\n    \"prd_galaxy\": {\"id\": \"KA-G1\", \"mm\": 25.5},\n    \"rok_gp\": {\"id\": \"W10911\", \"mm\": 25.0}\n  },\n  \"4ss_cadet\": \"Cadet restrictor per Torini homologation (marketing: 16.5 mm carb)\"\n}"
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "kb-au-rules/data",
+    "builtAt": "2026-09-10T08:52:32.909Z"
+  }
+}

@@ -11,7 +11,7 @@ import type { TrackdayPrepDraft } from '../storage/trackdayPrep';
 
 const FEATURE_REQUEST_MAILTO =
   'mailto:projectapex@outlook.com.au?subject=' +
-  encodeURIComponent('RoadRacer AI – feature request / improvement');
+  encodeURIComponent('KartRacer Coach – feature request / improvement');
 
 /** Seed payloads may omit `id`; CoachChatScreen assigns stable ids on ingest. */
 type SeedMessage = CoachChatMessage & {
@@ -94,7 +94,7 @@ export function RiderCoachScreen() {
         <AppLogo size={COMPACT_LOGO_SIZE} />
       </View>
 
-      <Text style={styles.sectionLabel}>Rider Coach</Text>
+      <Text style={styles.sectionLabel}>Driver Coach</Text>
       <Text style={styles.privacyNote}>
         Ask the coach when nobody is in the garage. Prep a track, walk corners, or study the
         layout before the day.
@@ -104,7 +104,7 @@ export function RiderCoachScreen() {
         onPress={() => navigation.navigate('CoachChat', { mode: 'coach' })}
         activeOpacity={0.8}
       >
-        <Text style={styles.navButtonText}>RR AI Coach</Text>
+        <Text style={styles.navButtonText}>KartRacer Coach</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.navButton}
@@ -118,7 +118,7 @@ export function RiderCoachScreen() {
         onPress={() => navigation.navigate('BikeSetupBasics')}
         activeOpacity={0.8}
       >
-        <Text style={styles.navButtonText}>Bike Setup Basics</Text>
+        <Text style={styles.navButtonText}>Kart Setup Basics</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.navButton}
@@ -141,7 +141,7 @@ export function RiderCoachScreen() {
         activeOpacity={0.7}
       >
         <Text style={styles.featureRequestText}>
-          Suggest a RoadRacer AI improvement or feature request
+          Suggest a KartRacer Coach improvement or feature request
         </Text>
       </TouchableOpacity>
     </ScrollView>

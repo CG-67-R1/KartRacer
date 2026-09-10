@@ -1,0 +1,74 @@
+{
+  "id": "ka-licences-2026",
+  "edition": "2026-update-1",
+  "portal": "portal.karting.net.au (KOMP)",
+  "phone": "1300 30 5278",
+  "prerequisite": "Join an affiliated club as a member before applying for a licence.",
+  "track_rule": "Must hold a current KA-issued or recognised Drivers Licence to drive on a KA-licensed track.",
+  "under_18": "Participant’s Licence holder (parent/guardian) required; accompanies Driver when addressed by Officials.",
+  "grades_high_to_low": ["A / E-A", "B / E-B", "C / E-C", "D", "E (social/recreational)", "8-Day"],
+  "p_plate": "D Grade and 8-Day must display P plate at all times.",
+  "ods": "Observed Driving Session required before first Meeting for D / 8-Day (and E where listed).",
+  "safety_training": "Required on application.",
+  "endorsements": "Meeting endorsements via KOMP; apply to State Secretary to upgrade.",
+  "levels": {
+    "cadet_9": {
+      "grades": ["8-Day", "E", "D", "C", "B* (legacy before 2023-01-01)"],
+      "min_age": "6th birthday (practice only until 7th)",
+      "max_age": "10th birthday",
+      "classes": ["Cadet 9", "Cadet 4SS", "MicroMax (social)"],
+      "upgrade_d_to_c": "4 Meetings with D Grade + endorsements"
+    },
+    "cadet_12": {
+      "grades": ["8-Day", "E", "D", "C", "B*"],
+      "min_age": "9th birthday",
+      "max_age": "13th birthday",
+      "classes": ["Cadet 12", "Cadet 4SS"],
+      "upgrade_d_to_c": "4 Meetings with D Grade + endorsements"
+    },
+    "junior": {
+      "grades": ["8-Day", "E", "D", "C / E-C", "B / E-B", "A / E-A"],
+      "min_age": "11th birthday (class restrictions — KA2 / Junior Max / Junior Performance from 12th)",
+      "max_age": "16th birthday",
+      "d_classes": ["KA3 Junior", "4SS Junior", "4SE Junior", "Yamaha Junior"],
+      "b_a_extra": ["KA2", "KA3 Junior", "Junior Performance", "Junior Max"],
+      "upgrade_d_to_c": "4 Meetings",
+      "upgrade_c_to_b": "6 Meetings or top-5 National Championship/Series Junior",
+      "upgrade_b_to_a": "top-3 State Championship Junior"
+    },
+    "senior": {
+      "grades": ["8-Day", "E", "D", "C / E-C", "B / E-B", "A / E-A"],
+      "min_age": "15th birthday (new); 14th birthday if moving up from Junior",
+      "max_age": null,
+      "d_classes": ["KA3 Senior", "TaG 125 Restricted", "4SS Senior", "4SE Senior", "Yamaha Senior"],
+      "c_extra": ["Vintage"],
+      "b_extra": ["4SS Super", "TaG 125", "X30", "Rok GP", "DD2", "Open Performance"],
+      "upgrade_d_to_c": "4 Meetings",
+      "upgrade_c_to_b": "6 Meetings or top-5 National Championship/Series",
+      "upgrade_b_to_a": "top-3 State Championship"
+    }
+  },
+  "other_licences": [
+    "8-Day Drivers (1 per person per year)",
+    "E Grade social/recreational",
+    "Vintage",
+    "Participants (no charge)",
+    "Pit Crew",
+    "Karting Activity Controller Level 5 ($25)",
+    "International Driver / Competitor",
+    "Dealer Trade"
+  ],
+  "tag_restricted_progression_2026": "Updated TaG Restricted licence progression in 2026 NCR — C Grade cap at State Championship+; 40+ may hold A/B.",
+  "state_contacts": {
+    "NSW": "admin@kansw.com.au",
+    "NT": "secretary@kartingnt.com.au",
+    "QLD": "secretary@kartingqld.com.au",
+    "SA": "secretary@kartingsa.com.au",
+    "TAS": "info@kartingtas.net.au",
+    "VIC": "secretary@kartingvic.net.au",
+    "WA": "secretary@kartingwa.com.au"
+  },
+  "d_grade_higher_events": {
+    "VIC_SA": "Cadet/Junior D Grade need at least 2 D-to-C endorsements before Zonal / State Series / Cup / Trophy"
+  }
+}

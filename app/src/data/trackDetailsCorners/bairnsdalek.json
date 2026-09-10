@@ -1,0 +1,264 @@
+{
+  "trackId": "bairnsdalek",
+  "name": "Bairnsdale Kart Club",
+  "lengthM": 760,
+  "startFinish": [
+    41.98,
+    54.11
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "bairnsdalek_t1",
+      "number": 1,
+      "apex": [
+        31.24,
+        39.19
+      ],
+      "label": [
+        28.39,
+        34.84
+      ],
+      "entry": [
+        39.21,
+        50.11
+      ],
+      "exit": [
+        31.04,
+        35.06
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "bairnsdalek_t2",
+      "number": 2,
+      "apex": [
+        33.42,
+        31.76
+      ],
+      "label": [
+        31.63,
+        26.88
+      ],
+      "entry": [
+        31.31,
+        34.3
+      ],
+      "exit": [
+        37.13,
+        31.07
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "bairnsdalek_t3",
+      "number": 3,
+      "apex": [
+        70.67,
+        57.73
+      ],
+      "label": [
+        75.86,
+        57.99
+      ],
+      "entry": [
+        48.41,
+        37.08
+      ],
+      "exit": [
+        71.63,
+        61.55
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "bairnsdalek_t4",
+      "number": 4,
+      "apex": [
+        12.79,
+        78.66
+      ],
+      "label": [
+        8.64,
+        81.79
+      ],
+      "entry": [
+        57.04,
+        74.29
+      ],
+      "exit": [
+        10,
+        80.96
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "bairnsdalek_t5",
+      "number": 5,
+      "apex": [
+        9.13,
+        87.66
+      ],
+      "label": [
+        5.34,
+        91.22
+      ],
+      "entry": [
+        9.07,
+        83.33
+      ],
+      "exit": [
+        11.9,
+        90.19
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "bairnsdalek_t6",
+      "number": 6,
+      "apex": [
+        83.37,
+        84.11
+      ],
+      "label": [
+        87.67,
+        87.03
+      ],
+      "entry": [
+        54.06,
+        89.5
+      ],
+      "exit": [
+        88.81,
+        78.54
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "bairnsdalek_t7",
+      "number": 7,
+      "apex": [
+        89.28,
+        61.25
+      ],
+      "label": [
+        94.45,
+        61.8
+      ],
+      "entry": [
+        91.1,
+        68.13
+      ],
+      "exit": [
+        58.15,
+        31.71
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "bairnsdalek_t8",
+      "number": 8,
+      "apex": [
+        20.01,
+        11.83
+      ],
+      "label": [
+        17.67,
+        7.19
+      ],
+      "entry": [
+        23.01,
+        9.07
+      ],
+      "exit": [
+        14.32,
+        35.22
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "bairnsdalek_t9",
+      "number": 9,
+      "apex": [
+        13.89,
+        59.02
+      ],
+      "label": [
+        8.71,
+        59.51
+      ],
+      "entry": [
+        14.32,
+        35.22
+      ],
+      "exit": [
+        17.58,
+        63.32
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "trackId": "cdkc",
+  "name": "Combined Districts Kart Club (Marrangaroo)",
+  "lengthM": 721,
+  "startFinish": [
+    48.39,
+    48.4
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "cdkc_t1",
+      "number": 1,
+      "apex": [
+        84.56,
+        27.66
+      ],
+      "label": [
+        88.93,
+        24.84
+      ],
+      "entry": [
+        77.91,
+        21.81
+      ],
+      "exit": [
+        87.54,
+        65.09
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "cdkc_t2",
+      "number": 2,
+      "apex": [
+        20.9,
+        87.47
+      ],
+      "label": [
+        17.83,
+        91.67
+      ],
+      "entry": [
+        25.58,
+        91.16
+      ],
+      "exit": [
+        14.4,
+        50.27
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    }
+  ]
+}

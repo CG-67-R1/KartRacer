@@ -1,0 +1,99 @@
+{
+  "origin": "kb-au-rules/national/technical.md",
+  "title": "2026 KA Manual — technical",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "---\nid: ncr-technical\ntitle: Technical — formula, fuel, tyres, oils, apparel, homologation\ntags: [fuel, tyres, oil, apparel, homologation, scrutineering]\n---\n\n# Technical — formula, fuel, tyres, oils, apparel\n\nNumbers: `data/tyres-fuel-oils.json`. Homologation PDFs live on the national technical page (not copied here).\n\n## Fuel (Technical Ch 3)\n\nAllowed: **PULP** (RON ≥ 95), **E10 PULP**, **E85 PULP (Vintage only)**, **Elf LMS**, **Panta Kart 102**, plus any fuel named in Supplementary Regulations. Do not mix unlike fuels. 4SS / 4SS Super: **PULP only**. Rok GP: pump or unleaded racing fuel.\n\n## Oils (tech page + homologation)\n\nUnless the homologation says otherwise: Penrite 10 Tenths Race Castor 20W-40; Penrite KO2ST 2-stroke; or current **CIK-FIA** homologated lubricants.\n\n## Tyres (Technical Ch 4)\n\nKA-approved only, from official suppliers (LeCont via Patrizicorse; Maxxis via St George). Class chapter names the compound. **Air only.** No dry+wet mix. One set = 2F+2R. Clerk declares **Wet** before wets.\n\nFrom first qualifying: **1 dry + 1 wet** (+ one replacement each if approved). Bead retention required on several 125 classes (KA2, Junior Max, X30, Rotax 125, TaG 125, DD2).\n\n## Homologated engines (current tech list)\n\n**2-stroke:** IAME KA100, X30, X30 Super / Super Shifter; PRD Galaxy (post-2019), Fireball; Vortex Mini Rok, DVS Jnr, DVS-SV, Rok GP, Rok Shifter; Rotax Mini/Junior/Senior MAX, DD2 + Appendix A.\n\n**4-stroke:** Torini TC210, TX250.\n\n**Expired but still usable where listed:** pre-2019 Galaxy, older Rotax papers, Briggs 206, Subaru KX21.\n\n**TD sheets:** KZ2, KA1, KA2. Trophy Class has its own technical regs.\n\n## Apparel (Technical Ch 7)\n\nCIK-style helmet and suit rules in the Manual. **2026:** long-hair apparel requirement added. Cadet/Junior: **rib protector mandatory**; neck brace and chest protector recommended. Video camera mandatory at National Championship (and many Cups) in several classes.\n\n## Scrutineering / weight\n\nKart + driver + equipment vs class minimum. Several heavy divisions also have a **max kart-only** weight (96–102 kg typical). Engines often **sealed** in Cadet / Junior / TaG Restricted at State Series and below. Two engines from first qualifying.\n\n## Chassis formula (high level)\n\nCadet min wheelbase **880 mm** (Micro/MiniMax 890+). Junior/Senior typical **1000 mm**. Cadet State/National: max width **1100 mm**, tighter axle ID. CIK front-fairing mounting kit and rear wheel protection as specified.\n",
+  "contentBlocks": [
+    {
+      "type": "paragraph",
+      "text": "---\nid: ncr-technical\ntitle: Technical — formula, fuel, tyres, oils, apparel, homologation\ntags: [fuel, tyres, oil, apparel, homologation, scrutineering]\n---"
+    },
+    {
+      "type": "heading",
+      "text": "# Technical — formula, fuel, tyres, oils, apparel"
+    },
+    {
+      "type": "paragraph",
+      "text": "Numbers: `data/tyres-fuel-oils.json`. Homologation PDFs live on the national technical page (not copied here)."
+    },
+    {
+      "type": "heading",
+      "text": "## Fuel (Technical Ch 3)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Allowed: **PULP** (RON ≥ 95), **E10 PULP**, **E85 PULP (Vintage only)**, **Elf LMS**, **Panta Kart 102**, plus any fuel named in Supplementary Regulations. Do not mix unlike fuels. 4SS / 4SS Super: **PULP only**. Rok GP: pump or unleaded racing fuel."
+    },
+    {
+      "type": "heading",
+      "text": "## Oils (tech page + homologation)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unless the homologation says otherwise: Penrite 10 Tenths Race Castor 20W-40; Penrite KO2ST 2-stroke; or current **CIK-FIA** homologated lubricants."
+    },
+    {
+      "type": "heading",
+      "text": "## Tyres (Technical Ch 4)"
+    },
+    {
+      "type": "paragraph",
+      "text": "KA-approved only, from official suppliers (LeCont via Patrizicorse; Maxxis via St George). Class chapter names the compound. **Air only.** No dry+wet mix. One set = 2F+2R. Clerk declares **Wet** before wets."
+    },
+    {
+      "type": "paragraph",
+      "text": "From first qualifying: **1 dry + 1 wet** (+ one replacement each if approved). Bead retention required on several 125 classes (KA2, Junior Max, X30, Rotax 125, TaG 125, DD2)."
+    },
+    {
+      "type": "heading",
+      "text": "## Homologated engines (current tech list)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**2-stroke:** IAME KA100, X30, X30 Super / Super Shifter; PRD Galaxy (post-2019), Fireball; Vortex Mini Rok, DVS Jnr, DVS-SV, Rok GP, Rok Shifter; Rotax Mini/Junior/Senior MAX, DD2 + Appendix A."
+    },
+    {
+      "type": "paragraph",
+      "text": "**4-stroke:** Torini TC210, TX250."
+    },
+    {
+      "type": "paragraph",
+      "text": "**Expired but still usable where listed:** pre-2019 Galaxy, older Rotax papers, Briggs 206, Subaru KX21."
+    },
+    {
+      "type": "paragraph",
+      "text": "**TD sheets:** KZ2, KA1, KA2. Trophy Class has its own technical regs."
+    },
+    {
+      "type": "heading",
+      "text": "## Apparel (Technical Ch 7)"
+    },
+    {
+      "type": "paragraph",
+      "text": "CIK-style helmet and suit rules in the Manual. **2026:** long-hair apparel requirement added. Cadet/Junior: **rib protector mandatory**; neck brace and chest protector recommended. Video camera mandatory at National Championship (and many Cups) in several classes."
+    },
+    {
+      "type": "heading",
+      "text": "## Scrutineering / weight"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kart + driver + equipment vs class minimum. Several heavy divisions also have a **max kart-only** weight (96–102 kg typical). Engines often **sealed** in Cadet / Junior / TaG Restricted at State Series and below. Two engines from first qualifying."
+    },
+    {
+      "type": "heading",
+      "text": "## Chassis formula (high level)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cadet min wheelbase **880 mm** (Micro/MiniMax 890+). Junior/Senior typical **1000 mm**. Cadet State/National: max width **1100 mm**, tighter axle ID. CIK front-fairing mounting kit and rear wheel protection as specified."
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "kb-au-rules",
+    "builtAt": "2026-09-10T08:52:32.876Z"
+  }
+}

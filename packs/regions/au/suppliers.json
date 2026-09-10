@@ -1,3 +1,60 @@
 {
-  "items": []
+  "items": [
+    {
+      "name": "OTK Kart Group Australia",
+      "brands": [
+        "Tony Kart",
+        "Kosmic",
+        "LN Kart"
+      ]
+    },
+    {
+      "name": "Patrizicorse / JDP",
+      "brands": [
+        "Birel ART",
+        "Lenzokart",
+        "LeCont"
+      ]
+    },
+    {
+      "name": "DPE Kart Superstore",
+      "brands": [
+        "Arrow",
+        "FA Kart",
+        "KR",
+        "DAP"
+      ]
+    },
+    {
+      "name": "Parolin Australia",
+      "brands": [
+        "Parolin"
+      ]
+    },
+    {
+      "name": "Alpha Motorsport / EKS",
+      "brands": [
+        "EOS"
+      ]
+    },
+    {
+      "name": "Remo Racing",
+      "brands": [
+        "IAME KA100",
+        "IAME X30"
+      ]
+    },
+    {
+      "name": "International Karting / IKD",
+      "brands": [
+        "Rotax"
+      ]
+    },
+    {
+      "name": "Torini",
+      "brands": [
+        "Clubmaxx TC210"
+      ]
+    }
+  ]
 }

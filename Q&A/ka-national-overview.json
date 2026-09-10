@@ -1,0 +1,71 @@
+{
+  "origin": "kb-au-rules/national/overview.md",
+  "title": "2026 KA Manual — national overview",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "---\nid: ncr-overview\ntitle: 2026 National Competition Rules overview\ntags: [ncr, ka, australia, 2026, manual]\n---\n\n# 2026 National Competition Rules overview\n\nKarting Australia publishes one **Australian Karting Manual**. Update 1 of the 2026 book is dated **2 March 2026** (59th edition). State Karting Associations publish **State Regulations** that add series formats, extra divisions, and some weights. Supplementary Regulations for a meeting sit on top.\n\n## Manual map (printed chapters)\n\n**General Rules** — standing regs, fees, insurance, circuit/safety, competitions, emergency/injury, officials, offences, penalties, infringement notices, steward hearings, protests, tribunals, appeals, communicable diseases.\n\n**Competition Rules** — general racing, flags/lights, driving code, **licences**, competition levels/structure.\n\n**Technical Rules** — Australian Kart Formula, homologation, fuel, tyres, noise, scrutineering, apparel.\n\n**Class Rules Ch 1–24** — Cadet 9, MicroMax, Cadet 12, MiniMax, KA4, KA3, (Ch 7 deleted), Rotax Junior Max, KA2, X30, Rotax 125, TaG Restricted, TaG 125, DD2, Rok GP, KZ2, Open Performance, Gearbox, Yamaha, Vintage, 4SS, 4SS Super, 4SE, Dirt.\n\n**Appendices** — social karting, teams, intro to karting, dealer trade, 4SS State Trophy, judicial, senior officials, **lightning/thunderstorm**, policies list.\n\n## How to answer a rules question\n\n1. Class / weight / restrictor / tyre → `data/classes.json` + `data/restrictors.json` + `national/classes.md`\n2. Licence / age / grade → `data/licences.json` + `national/licences.md`\n3. Flag / start / finish / consolidation → `national/flags-driving.md` + `national/competition.md`\n4. Fuel / oil / apparel / homologation → `national/technical.md`\n5. Protest / fee / penalty → `data/fees-penalties.json`\n6. State series or extra division → `states/{nsw|qld|sa|vic|tas|wa}.md` then `data/state-overrides.json`\n7. 2026-only changes → `national/2026-changes.md`\n\n## Authority\n\nGreen text in the Manual = inserted mid-2025. Struck black = removed 1 Jan 2026. Red = added 1 Jan 2026. The website PDF is the live book.\n\nNT has no 2026 state PDF on the national rules page.\n",
+  "contentBlocks": [
+    {
+      "type": "paragraph",
+      "text": "---\nid: ncr-overview\ntitle: 2026 National Competition Rules overview\ntags: [ncr, ka, australia, 2026, manual]\n---"
+    },
+    {
+      "type": "heading",
+      "text": "# 2026 National Competition Rules overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "Karting Australia publishes one **Australian Karting Manual**. Update 1 of the 2026 book is dated **2 March 2026** (59th edition). State Karting Associations publish **State Regulations** that add series formats, extra divisions, and some weights. Supplementary Regulations for a meeting sit on top."
+    },
+    {
+      "type": "heading",
+      "text": "## Manual map (printed chapters)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**General Rules** — standing regs, fees, insurance, circuit/safety, competitions, emergency/injury, officials, offences, penalties, infringement notices, steward hearings, protests, tribunals, appeals, communicable diseases."
+    },
+    {
+      "type": "paragraph",
+      "text": "**Competition Rules** — general racing, flags/lights, driving code, **licences**, competition levels/structure."
+    },
+    {
+      "type": "paragraph",
+      "text": "**Technical Rules** — Australian Kart Formula, homologation, fuel, tyres, noise, scrutineering, apparel."
+    },
+    {
+      "type": "paragraph",
+      "text": "**Class Rules Ch 1–24** — Cadet 9, MicroMax, Cadet 12, MiniMax, KA4, KA3, (Ch 7 deleted), Rotax Junior Max, KA2, X30, Rotax 125, TaG Restricted, TaG 125, DD2, Rok GP, KZ2, Open Performance, Gearbox, Yamaha, Vintage, 4SS, 4SS Super, 4SE, Dirt."
+    },
+    {
+      "type": "paragraph",
+      "text": "**Appendices** — social karting, teams, intro to karting, dealer trade, 4SS State Trophy, judicial, senior officials, **lightning/thunderstorm**, policies list."
+    },
+    {
+      "type": "heading",
+      "text": "## How to answer a rules question"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Class / weight / restrictor / tyre → `data/classes.json` + `data/restrictors.json` + `national/classes.md`\n2. Licence / age / grade → `data/licences.json` + `national/licences.md`\n3. Flag / start / finish / consolidation → `national/flags-driving.md` + `national/competition.md`\n4. Fuel / oil / apparel / homologation → `national/technical.md`\n5. Protest / fee / penalty → `data/fees-penalties.json`\n6. State series or extra division → `states/{nsw|qld|sa|vic|tas|wa}.md` then `data/state-overrides.json`\n7. 2026-only changes → `national/2026-changes.md`"
+    },
+    {
+      "type": "heading",
+      "text": "## Authority"
+    },
+    {
+      "type": "paragraph",
+      "text": "Green text in the Manual = inserted mid-2025. Struck black = removed 1 Jan 2026. Red = added 1 Jan 2026. The website PDF is the live book."
+    },
+    {
+      "type": "paragraph",
+      "text": "NT has no 2026 state PDF on the national rules page."
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "kb-au-rules",
+    "builtAt": "2026-09-10T08:52:32.854Z"
+  }
+}

@@ -1,1 +1,625 @@
-[]
+[
+  {
+    "id": "tony_kart",
+    "displayName": "Tony Kart",
+    "aliases": [
+      "tony kart",
+      "tonykart",
+      "otk tony"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "OTK Kart Group Australia"
+    },
+    "blurb": "Tony Kart is the OTK flagship chassis. Importer: OTK Kart Group Australia. Same family as Kosmic and LN Kart.",
+    "active": true
+  },
+  {
+    "id": "kosmic",
+    "displayName": "Kosmic",
+    "aliases": [
+      "kosmic",
+      "kosmic kart"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "OTK sister brand"
+    },
+    "blurb": "Kosmic is an OTK chassis — same factory family as Tony Kart, sold in Australia through OTK Kart Group.",
+    "active": true
+  },
+  {
+    "id": "ln_kart",
+    "displayName": "LN Kart",
+    "aliases": [
+      "ln kart",
+      "lnk",
+      "lnkart"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "OTK"
+    },
+    "blurb": "LN Kart is the third OTK brand on the KA partner list. Same Australian importer group as Tony Kart and Kosmic.",
+    "active": true
+  },
+  {
+    "id": "exprit",
+    "displayName": "Exprit",
+    "aliases": [
+      "exprit",
+      "otk exprit"
+    ],
+    "era": "classic",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "OTK family"
+    },
+    "blurb": "Exprit is the OTK sister many Australians still race. Same group idea: one factory family, different colours.",
+    "active": true
+  },
+  {
+    "id": "otk",
+    "displayName": "OTK Kart Group",
+    "aliases": [
+      "otk",
+      "otk kart"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "Tony / Kosmic / LN"
+    },
+    "blurb": "OTK Kart Group Australia is the official importer for Tony Kart, Kosmic and LN Kart. Ask the dealer which badge fits your class.",
+    "active": true
+  },
+  {
+    "id": "birel_art",
+    "displayName": "Birel ART",
+    "aliases": [
+      "birel art",
+      "birel",
+      "birelart"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "Patrizicorse / JDP"
+    },
+    "blurb": "Birel ART is an Italian chassis imported here by Patrizicorse / JDP. Common in club and AKC paddocks.",
+    "active": true
+  },
+  {
+    "id": "lenzokart",
+    "displayName": "Lenzokart",
+    "aliases": [
+      "lenzokart",
+      "lenzo"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "Patrizicorse"
+    },
+    "blurb": "Lenzokart sits with Birel ART on the Patrizicorse importer list. Same shop, different badge.",
+    "active": true
+  },
+  {
+    "id": "crg",
+    "displayName": "CRG",
+    "aliases": [
+      "crg",
+      "crg kart"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "Italian chassis"
+    },
+    "blurb": "CRG is a long-running Italian chassis brand. You will see them at Australian club days next to OTK and Birel.",
+    "active": true
+  },
+  {
+    "id": "arrow",
+    "displayName": "Arrow",
+    "aliases": [
+      "arrow",
+      "arrow kart"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "DPE Kart Superstore"
+    },
+    "blurb": "Arrow is imported by DPE Kart Superstore with FA Kart, KR and DAP. Check the dealer for the current Australian kit.",
+    "active": true
+  },
+  {
+    "id": "fa_kart",
+    "displayName": "FA Kart",
+    "aliases": [
+      "fa kart",
+      "fakart"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "DPE"
+    },
+    "blurb": "FA Kart is on the DPE Kart Superstore importer set. Italian chassis, Australian parts support.",
+    "active": true
+  },
+  {
+    "id": "kart_republic",
+    "displayName": "Kart Republic",
+    "aliases": [
+      "kart republic",
+      "kr kart",
+      "kr"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "DPE"
+    },
+    "blurb": "Kart Republic (KR) is a modern factory chassis on the DPE list. Confirm class homologation before you buy.",
+    "active": true
+  },
+  {
+    "id": "dap",
+    "displayName": "DAP",
+    "aliases": [
+      "dap",
+      "dap kart"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "DPE"
+    },
+    "blurb": "DAP is the historic Italian brand on the DPE Kart Superstore list. Same shop as Arrow, FA Kart and KR.",
+    "active": true
+  },
+  {
+    "id": "parolin",
+    "displayName": "Parolin",
+    "aliases": [
+      "parolin",
+      "parolin kart"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "Parolin Australia"
+    },
+    "blurb": "Parolin Australia is the official importer. Italian chassis, local support — ask them which frame is class-legal this year.",
+    "active": true
+  },
+  {
+    "id": "eos",
+    "displayName": "EOS",
+    "aliases": [
+      "eos",
+      "eos kart"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "Alpha Motorsport / EKS"
+    },
+    "blurb": "EOS is imported by Alpha Motorsport / EKS. Another chassis option on the KA partner page.",
+    "active": true
+  },
+  {
+    "id": "iame_ka100",
+    "displayName": "IAME KA100",
+    "aliases": [
+      "ka100",
+      "ka 100",
+      "iame ka100",
+      "reedjet"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "Remo Racing"
+    },
+    "blurb": "IAME KA100 is the air-cooled Reedjet used in KA3 and KA4. Remo Racing is the IAME importer in Australia.",
+    "active": true
+  },
+  {
+    "id": "iame_x30",
+    "displayName": "IAME X30",
+    "aliases": [
+      "x30",
+      "x 30",
+      "iame x30"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "Remo Racing"
+    },
+    "blurb": "IAME X30 is the water-cooled 125 TaG used in X30 Light/Heavy. Remo Racing supplies IAME in Australia.",
+    "active": true
+  },
+  {
+    "id": "rotax_max",
+    "displayName": "Rotax 125 MAX",
+    "aliases": [
+      "rotax",
+      "rotax max",
+      "senior max",
+      "rotax 125"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "International Karting / IKD"
+    },
+    "blurb": "Rotax 125 MAX is the Senior Max engine. International Karting / IKD is the Australian Rotax channel. Confirm series tyres (Mojo) separately.",
+    "active": true
+  },
+  {
+    "id": "rotax_junior",
+    "displayName": "Rotax Junior MAX",
+    "aliases": [
+      "junior max",
+      "jr max",
+      "rotax junior"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "IKD"
+    },
+    "blurb": "Rotax Junior MAX is the restricted junior version of the Max. Same importer family as Senior Max.",
+    "active": true
+  },
+  {
+    "id": "mini_rok",
+    "displayName": "Vortex Mini Rok",
+    "aliases": [
+      "mini rok",
+      "vortex mini rok",
+      "cadet rok"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "vortex-engines.com"
+    },
+    "blurb": "Vortex Mini Rok is the Cadet 9 (16 mm restrictor) and Cadet 12 (open) engine. Check the 2026 KA restrictor table.",
+    "active": true
+  },
+  {
+    "id": "torini",
+    "displayName": "Torini Clubmaxx TC210",
+    "aliases": [
+      "torini",
+      "clubmaxx",
+      "tc210",
+      "4ss"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "torini.com.au"
+    },
+    "blurb": "Torini Clubmaxx TC210 is the sealed 4-stroke for 4SS. Homologation PDF is on the KA media store (Feb 2024).",
+    "active": true
+  },
+  {
+    "id": "tony_ka100",
+    "displayName": "Tony Kart KA100",
+    "aliases": [
+      "tony kart ka100",
+      "tony ka100"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "OTK + IAME"
+    },
+    "blurb": "A common Australian club package: Tony Kart chassis, KA100 engine. Confirm weight and restrictor for your class.",
+    "active": true
+  },
+  {
+    "id": "tony_x30",
+    "displayName": "Tony Kart X30",
+    "aliases": [
+      "tony kart x30",
+      "tony x30"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "OTK + IAME"
+    },
+    "blurb": "Tony Kart with an X30 is a typical national-class pairing. Same OTK importer, Remo Racing for the engine.",
+    "active": true
+  },
+  {
+    "id": "birel_x30",
+    "displayName": "Birel ART X30",
+    "aliases": [
+      "birel x30",
+      "birel art x30"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "Patrizicorse + Remo"
+    },
+    "blurb": "Birel ART plus X30 is a paddock regular. Two importers: Patrizicorse for the frame, Remo for IAME.",
+    "active": true
+  },
+  {
+    "id": "birel_rotax",
+    "displayName": "Birel ART Rotax",
+    "aliases": [
+      "birel rotax",
+      "birel max"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "Patrizicorse + IKD"
+    },
+    "blurb": "Birel ART with a Rotax Max. Confirm Mojo / series tyre rules if you race Pro Tour, not just KA class regs.",
+    "active": true
+  },
+  {
+    "id": "kosmic_ka100",
+    "displayName": "Kosmic KA100",
+    "aliases": [
+      "kosmic ka100"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "OTK + IAME"
+    },
+    "blurb": "Kosmic chassis, KA100 engine. Same OTK family as Tony Kart, different colours.",
+    "active": true
+  },
+  {
+    "id": "crg_rotax",
+    "displayName": "CRG Rotax",
+    "aliases": [
+      "crg rotax",
+      "crg max"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "CRG + IKD"
+    },
+    "blurb": "CRG with Rotax Max. Club and state paddocks run this pairing a lot.",
+    "active": true
+  },
+  {
+    "id": "parolin_ka100",
+    "displayName": "Parolin KA100",
+    "aliases": [
+      "parolin ka100"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "Parolin Australia + Remo"
+    },
+    "blurb": "Parolin chassis, KA100. Ask Parolin Australia which 2026 homologated frame they stock.",
+    "active": true
+  },
+  {
+    "id": "eos_x30",
+    "displayName": "EOS X30",
+    "aliases": [
+      "eos x30"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "Alpha / EKS + Remo"
+    },
+    "blurb": "EOS with X30. Alpha Motorsport / EKS for the chassis, Remo Racing for IAME.",
+    "active": true
+  },
+  {
+    "id": "arrow_ka100",
+    "displayName": "Arrow KA100",
+    "aliases": [
+      "arrow ka100"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "DPE + Remo"
+    },
+    "blurb": "Arrow chassis from DPE, KA100 from Remo. A straightforward club-day package.",
+    "active": true
+  },
+  {
+    "id": "fa_x30",
+    "displayName": "FA Kart X30",
+    "aliases": [
+      "fa kart x30",
+      "fa x30"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "DPE + Remo"
+    },
+    "blurb": "FA Kart plus X30. DPE Kart Superstore for the frame.",
+    "active": true
+  },
+  {
+    "id": "kr_x30",
+    "displayName": "Kart Republic X30",
+    "aliases": [
+      "kr x30",
+      "kart republic x30"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "DPE + Remo"
+    },
+    "blurb": "Kart Republic with X30. Confirm the chassis is the homologated KR for your class.",
+    "active": true
+  },
+  {
+    "id": "cadet_mini_rok",
+    "displayName": "Cadet Mini Rok package",
+    "aliases": [
+      "cadet package",
+      "cadet 9",
+      "cadet 12"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "Mini Rok + Maxxis"
+    },
+    "blurb": "Cadet 9 uses Mini Rok + 16 mm; Cadet 12 is open Mini Rok. Tyres: Maxxis 190D dry / MW21 wet (2026 KA class table).",
+    "active": true
+  },
+  {
+    "id": "4ss_package",
+    "displayName": "4SS Torini package",
+    "aliases": [
+      "4ss package",
+      "four stroke kart"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "sealed TC210"
+    },
+    "blurb": "4SS is the sealed Torini Clubmaxx path — cheaper to run, PULP fuel. Cadet / Junior / Senior weights are in the 2026 KA class table.",
+    "active": true
+  },
+  {
+    "id": "tag_125",
+    "displayName": "TaG 125",
+    "aliases": [
+      "tag 125",
+      "tag"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "open 125"
+    },
+    "blurb": "TaG 125 is the open 125 class (senior B). Tyres: LeCont LOH dry + SV1 wet per the 2026 class map.",
+    "active": true
+  },
+  {
+    "id": "tag_restricted",
+    "displayName": "TaG Restricted",
+    "aliases": [
+      "tag restricted",
+      "tag rest"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "restricted 125"
+    },
+    "blurb": "TaG Restricted uses listed restrictors (see kb-au-rules restrictors.json). LeCont LH03 dry. Masters 40+.",
+    "active": true
+  },
+  {
+    "id": "kz2",
+    "displayName": "KZ2",
+    "aliases": [
+      "kz2",
+      "kz 2",
+      "gearbox kart"
+    ],
+    "era": "current",
+    "characteristics": {
+      "character": [
+        "kart"
+      ],
+      "signature": "125 gearbox"
+    },
+    "blurb": "KZ2 is the 125 gearbox class — front brakes, highest physical load. Min weight is in the 2026 KA class table. Engine make still VERIFY per homologation.",
+    "active": true
+  }
+]

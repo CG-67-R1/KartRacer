@@ -1,0 +1,40 @@
+{
+  "trackId": "warrnamboolk",
+  "name": "Warrnambool Kart Club (Lake Gillear)",
+  "lengthM": 706,
+  "startFinish": [
+    49.29,
+    51.85
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "warrnamboolk_t1",
+      "number": 1,
+      "apex": [
+        13.4,
+        64.5
+      ],
+      "label": [
+        8.68,
+        66.69
+      ],
+      "entry": [
+        14.17,
+        28.51
+      ],
+      "exit": [
+        19.68,
+        70.59
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

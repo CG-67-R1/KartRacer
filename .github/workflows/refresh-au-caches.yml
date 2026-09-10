@@ -1,8 +1,8 @@
-name: Refresh AU caches
+name: Refresh AU kart caches
 
 on:
   schedule:
-    # Mondays 06:00 UTC — aligns with au-road-race-sources metadata
+    # Mondays 06:00 UTC
     - cron: '0 6 * * 1'
   workflow_dispatch:
 
@@ -26,18 +26,18 @@ jobs:
         working-directory: api
         run: npm ci
 
-      - name: Refresh AU calendar cache
+      - name: Refresh AU kart calendar cache
         working-directory: api
-        run: npm run refresh-au-calendar
+        run: npm run refresh-au-kart-calendar
 
       - name: Commit cache updates if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add api/data/au-road-race-events.json
+          git add api/data/au-kart-events.json
           if git diff --staged --quiet; then
             echo "No cache changes to commit"
           else
-            git commit -m "chore: refresh AU calendar cache [skip render]"
+            git commit -m "chore: refresh AU kart calendar cache [skip render]"
             git push
           fi

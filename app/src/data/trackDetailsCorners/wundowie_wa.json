@@ -1,0 +1,68 @@
+{
+  "trackId": "wundowie_wa",
+  "name": "Hurricane Go Kart Club (Wundowie)",
+  "lengthM": 728,
+  "startFinish": [
+    53.39,
+    49.07
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "wundowie_wa_t1",
+      "number": 1,
+      "apex": [
+        51.94,
+        62.26
+      ],
+      "label": [
+        53.49,
+        67.22
+      ],
+      "entry": [
+        39.97,
+        63.68
+      ],
+      "exit": [
+        59.63,
+        67.21
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "wundowie_wa_t2",
+      "number": 2,
+      "apex": [
+        74.16,
+        32.42
+      ],
+      "label": [
+        78.01,
+        28.92
+      ],
+      "entry": [
+        64.94,
+        35.76
+      ],
+      "exit": [
+        78.75,
+        34.47
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    }
+  ]
+}

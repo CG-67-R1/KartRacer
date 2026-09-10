@@ -1,0 +1,320 @@
+{
+  "trackId": "rockhamptonk",
+  "name": "Cap Coast Kart Club",
+  "lengthM": 846,
+  "startFinish": [
+    81.22,
+    49.51
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "rockhamptonk_t1",
+      "number": 1,
+      "apex": [
+        84.42,
+        71.56
+      ],
+      "label": [
+        88.75,
+        74.44
+      ],
+      "entry": [
+        88.62,
+        65.85
+      ],
+      "exit": [
+        66.15,
+        77.21
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "rockhamptonk_t2",
+      "number": 2,
+      "apex": [
+        49.82,
+        78.39
+      ],
+      "label": [
+        48.97,
+        83.52
+      ],
+      "entry": [
+        66.15,
+        77.21
+      ],
+      "exit": [
+        47.26,
+        76.42
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "rockhamptonk_t3",
+      "number": 3,
+      "apex": [
+        46.9,
+        72.35
+      ],
+      "label": [
+        45.17,
+        77.25
+      ],
+      "entry": [
+        46.76,
+        75.23
+      ],
+      "exit": [
+        48.9,
+        69.66
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "rockhamptonk_t4",
+      "number": 4,
+      "apex": [
+        64.12,
+        65.52
+      ],
+      "label": [
+        67.11,
+        69.77
+      ],
+      "entry": [
+        58.18,
+        67.17
+      ],
+      "exit": [
+        65.92,
+        63.02
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "rockhamptonk_t5",
+      "number": 5,
+      "apex": [
+        62.32,
+        56.88
+      ],
+      "label": [
+        66.65,
+        59.77
+      ],
+      "entry": [
+        64.92,
+        58.22
+      ],
+      "exit": [
+        43.1,
+        61.72
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "rockhamptonk_t6",
+      "number": 6,
+      "apex": [
+        10.45,
+        59.86
+      ],
+      "label": [
+        5.34,
+        60.83
+      ],
+      "entry": [
+        16.96,
+        65.03
+      ],
+      "exit": [
+        8.33,
+        52.55
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "rockhamptonk_t7",
+      "number": 7,
+      "apex": [
+        22.06,
+        22.82
+      ],
+      "label": [
+        18.18,
+        19.36
+      ],
+      "entry": [
+        15.34,
+        28.48
+      ],
+      "exit": [
+        42.75,
+        21.55
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "rockhamptonk_t8",
+      "number": 8,
+      "apex": [
+        87.14,
+        23.88
+      ],
+      "label": [
+        91.12,
+        20.53
+      ],
+      "entry": [
+        52.92,
+        21.92
+      ],
+      "exit": [
+        90.78,
+        26.89
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "rockhamptonk_t9",
+      "number": 9,
+      "apex": [
+        91.36,
+        32.03
+      ],
+      "label": [
+        95.96,
+        29.61
+      ],
+      "entry": [
+        91.49,
+        28.68
+      ],
+      "exit": [
+        88.87,
+        35.42
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "rockhamptonk_t10",
+      "number": 10,
+      "apex": [
+        37.76,
+        33.07
+      ],
+      "label": [
+        34.29,
+        29.2
+      ],
+      "entry": [
+        81.44,
+        37.12
+      ],
+      "exit": [
+        33.02,
+        36.46
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "rockhamptonk_t11",
+      "number": 11,
+      "apex": [
+        32.45,
+        48.1
+      ],
+      "label": [
+        27.31,
+        47.3
+      ],
+      "entry": [
+        31.43,
+        43.98
+      ],
+      "exit": [
+        35.03,
+        49.69
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    }
+  ]
+}

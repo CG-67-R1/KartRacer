@@ -1,0 +1,96 @@
+{
+  "trackId": "extremek_s",
+  "name": "Extreme Karting (Gold Coast) (Short)",
+  "lengthM": 1127,
+  "startFinish": [
+    45.99,
+    47.97
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "extremek_s_t1",
+      "number": 1,
+      "apex": [
+        87.84,
+        15.39
+      ],
+      "label": [
+        91.8,
+        12.02
+      ],
+      "entry": [
+        72.15,
+        25.07
+      ],
+      "exit": [
+        88.71,
+        13.08
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "extremek_s_t2",
+      "number": 2,
+      "apex": [
+        84.01,
+        8.33
+      ],
+      "label": [
+        87.48,
+        4.46
+      ],
+      "entry": [
+        86.56,
+        9.01
+      ],
+      "exit": [
+        47.07,
+        24.29
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "extremek_s_t3",
+      "number": 3,
+      "apex": [
+        29.44,
+        87.22
+      ],
+      "label": [
+        27.36,
+        91.98
+      ],
+      "entry": [
+        29.22,
+        89.61
+      ],
+      "exit": [
+        20.64,
+        72.27
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    }
+  ]
+}

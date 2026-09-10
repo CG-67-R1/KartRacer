@@ -1,1 +1,514 @@
-{}
+{
+  "albanyk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "a_wodongak": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "a_wodongak2": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "a_wodongak3": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "equipvar": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "kartequip": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "bairnsdalek": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "ballaratk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "ballarat_2": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "barossa_ccw": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "bendigok": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "bhkc": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "bunburyk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "bunkart": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "bundabergk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "burnettk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "cairnsk_acw": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "cairnsk_var1": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "cairnsk_var2": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "canberralong": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "canberrak": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "rockhamptonk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "towerskart": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "towerskart2": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "bpkc": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "chkrc_a": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "chkrc_a3": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "chkrc_b1": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "chkrc_c": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "chkrc_d": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "chkrc_e1": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "cdkc": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "cooloolak": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "dalbyk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "darwink_var1": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "darwink_var2": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "darwink_var3": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "dubbok": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "goldfieldsk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "elkc": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "elkc_short": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "emerald_acw": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "emerald_cw": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "esperancek": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "exmouth": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "extremek": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "extremek_s": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "geelongk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "gippslandk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "gladstonek": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "clubsa_a_ccw": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "clubsa_a_cw": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "clubsa_b_cw": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "clubsa_c_ccw": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "gok_world_ac": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "gok_world_cw": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "gkcv_cw": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "gkcv": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "gvkc": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "indy800c": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "indy800_sh": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "grenfellk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "griffithk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "hamiltonk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "hedlandkart": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "port_hedland": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "wundowie_wa": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "impalak": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "ipswichk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "ipswichk2": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "jabiruk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "karratha": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "karratha_sh": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "lakekingk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "launcestonk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "lkc": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "lismorek": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "mackayk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "mvkc_2024": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "mfastkartcoc": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "mfastkartd": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "megafastb": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "megafastc": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "megafastkart": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "geraldtonk_2": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "mildurak": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "moranbahk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "mt_isa": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "mtgambierk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "mtgambierk_s": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "nwkc": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "oakleighk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "oakleigh_lon": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "oakleigh_new": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "orangek_a": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "orangek_b": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "orangek_c": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "pi_kart": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "pictionk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "portgawlerk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "pmkrc_var1": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "pmkrc_var2": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "pdkc_long": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "pdkc_short": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "rochesterk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "sapphire_nsw": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "silhouettek": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "cobdenk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "bolivar_long": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "bolivark": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "bolivark_sh": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "stkc": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "stonycreek": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "swan_vic": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "east_crk_nsw": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "spkp_var1": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "spkp_var3": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "spkp_var4": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "tamworth": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "toowoomba_cw": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "townsvillek": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "waggak": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "warrnamboolk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "warwickk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "whyallak": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "wimmerak": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "wimmerak2": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  },
+  "wollongongk": {
+    "surface": "asphalt",
+    "weatherUsual": "Not recorded yet — check the club and local forecast before you go."
+  }
+}

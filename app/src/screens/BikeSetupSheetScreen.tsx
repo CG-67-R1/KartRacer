@@ -363,7 +363,7 @@ export function BikeSetupSheetScreen() {
           label="Tyre brand / compound"
           value={sheet.tyreBrandCompound}
           onChangeText={(t) => setField('tyreBrandCompound', t)}
-          placeholder="e.g. Pirelli SC1 / SC2"
+          placeholder="e.g. LeCont LH03 / Maxxis 190D"
         />
         <View style={styles.row}>
           <View style={styles.half}>
@@ -537,7 +537,7 @@ export function BikeSetupSheetScreen() {
             <Text style={styles.clearButtonText}>Clear Sheet</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.importButton} onPress={onImport} activeOpacity={0.8}>
-            <Text style={styles.importButtonText}>Import to Bike Setup AI</Text>
+            <Text style={styles.importButtonText}>Import to Kart Setup AI</Text>
           </TouchableOpacity>
         </View>
 

@@ -1,0 +1,348 @@
+{
+  "trackId": "dubbok",
+  "name": "Dubbo Kart Club",
+  "lengthM": 1004,
+  "startFinish": [
+    52.53,
+    49.01
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "dubbok_t1",
+      "number": 1,
+      "apex": [
+        43.45,
+        35.07
+      ],
+      "label": [
+        40.94,
+        30.52
+      ],
+      "entry": [
+        44.3,
+        37.72
+      ],
+      "exit": [
+        43.89,
+        32.59
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "dubbok_t2",
+      "number": 2,
+      "apex": [
+        46.48,
+        30.53
+      ],
+      "label": [
+        45.57,
+        25.41
+      ],
+      "entry": [
+        45.01,
+        31.23
+      ],
+      "exit": [
+        48.09,
+        30.61
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "dubbok_t3",
+      "number": 3,
+      "apex": [
+        63.38,
+        50.33
+      ],
+      "label": [
+        68.28,
+        52.06
+      ],
+      "entry": [
+        59.87,
+        47.82
+      ],
+      "exit": [
+        66.51,
+        50.54
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "dubbok_t4",
+      "number": 4,
+      "apex": [
+        69.7,
+        45.51
+      ],
+      "label": [
+        74.9,
+        45.56
+      ],
+      "entry": [
+        69.26,
+        48.5
+      ],
+      "exit": [
+        68.87,
+        43.09
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "dubbok_t5",
+      "number": 5,
+      "apex": [
+        38.27,
+        8.73
+      ],
+      "label": [
+        36.79,
+        3.74
+      ],
+      "entry": [
+        41.12,
+        8.45
+      ],
+      "exit": [
+        36.55,
+        10.24
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "dubbok_t6",
+      "number": 6,
+      "apex": [
+        36.69,
+        23.99
+      ],
+      "label": [
+        34.07,
+        19.5
+      ],
+      "entry": [
+        38.06,
+        21.42
+      ],
+      "exit": [
+        34.4,
+        25.16
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "dubbok_t7",
+      "number": 7,
+      "apex": [
+        21.45,
+        23.85
+      ],
+      "label": [
+        17.34,
+        20.66
+      ],
+      "entry": [
+        24.84,
+        23.45
+      ],
+      "exit": [
+        19.79,
+        25.16
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "dubbok_t8",
+      "number": 8,
+      "apex": [
+        19.38,
+        27.77
+      ],
+      "label": [
+        14.9,
+        25.13
+      ],
+      "entry": [
+        19.27,
+        26.45
+      ],
+      "exit": [
+        20.96,
+        29.77
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "dubbok_t9",
+      "number": 9,
+      "apex": [
+        38.89,
+        41.23
+      ],
+      "label": [
+        34.06,
+        39.3
+      ],
+      "entry": [
+        36.68,
+        38.72
+      ],
+      "exit": [
+        39.66,
+        44.25
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "dubbok_t10",
+      "number": 10,
+      "apex": [
+        35.64,
+        50.49
+      ],
+      "label": [
+        30.79,
+        52.36
+      ],
+      "entry": [
+        36.57,
+        48.55
+      ],
+      "exit": [
+        36.04,
+        53.47
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "dubbok_t11",
+      "number": 11,
+      "apex": [
+        68.06,
+        91.24
+      ],
+      "label": [
+        70.04,
+        96.05
+      ],
+      "entry": [
+        63.43,
+        87.22
+      ],
+      "exit": [
+        71.3,
+        91.67
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    },
+    {
+      "id": "dubbok_t12",
+      "number": 12,
+      "apex": [
+        79.96,
+        81.8
+      ],
+      "label": [
+        83.32,
+        85.77
+      ],
+      "entry": [
+        80.74,
+        83.48
+      ],
+      "exit": [
+        78.47,
+        81.01
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 12 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T11 exit"
+    }
+  ]
+}

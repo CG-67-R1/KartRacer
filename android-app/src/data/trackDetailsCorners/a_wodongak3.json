@@ -1,0 +1,40 @@
+{
+  "trackId": "a_wodongak3",
+  "name": "Albury-Wodonga Kart Club (3)",
+  "lengthM": 584,
+  "startFinish": [
+    49.54,
+    48.45
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "a_wodongak3_t1",
+      "number": 1,
+      "apex": [
+        63.54,
+        88.91
+      ],
+      "label": [
+        65.09,
+        93.87
+      ],
+      "entry": [
+        60.91,
+        91.01
+      ],
+      "exit": [
+        65.17,
+        82.35
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

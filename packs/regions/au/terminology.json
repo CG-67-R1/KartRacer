@@ -1,5 +1,24 @@
 {
-  "terms": [],
-  "_placeholder": true,
-  "_explainer": "Motorcycle pack content stripped. Refill from C:/KartRacer/docs/KR_DATA_EQUIVALENTS.md and CURSOR_BUILD_JOBS.md J4.1."
+  "terms": [
+    {
+      "term": "AKC",
+      "meaning": "Australian Kart Championship"
+    },
+    {
+      "term": "KA",
+      "meaning": "Karting Australia"
+    },
+    {
+      "term": "KOMP",
+      "meaning": "Karting Officials and Members Portal"
+    },
+    {
+      "term": "TaG",
+      "meaning": "Touch and Go 125 engine class"
+    },
+    {
+      "term": "S/F",
+      "meaning": "Start/Finish"
+    }
+  ]
 }

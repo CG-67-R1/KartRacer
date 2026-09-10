@@ -1,0 +1,639 @@
+{
+  "version": "1.0.0",
+  "id": "handling-troubleshoot",
+  "reminder": "One change at a time. Confirm it is not the driver. On a 950, axle polarity can invert versus 1050 literature — if the book fails, try the opposite. Slide = add grip; hop = reduce grip.",
+  "sources": [
+    "https://www.angriracing.com/kart-setup",
+    "https://www.angriracing.com/tyre-setup",
+    "https://www.angriracing.com/chassis-size-vs-axle-choice"
+  ],
+  "rules": [
+    {
+      "id": "understeer_entry",
+      "symptoms": [
+        "understeer_entry",
+        "understeer_mid"
+      ],
+      "title": "Front not gripping / understeer on entry",
+      "failingEnd": "front",
+      "actions": [
+        {
+          "id": "us_entry_hubs_out",
+          "lever": "front_hubs",
+          "direction": "increase",
+          "magnitude": "one spacer each side",
+          "title": "Front hubs out one spacer each side",
+          "why": "Widen the front to add jacking and front bite so the kart turns in.",
+          "priority": 1,
+          "skipWhen": {
+            "frontTrack": [
+              "max"
+            ]
+          }
+        },
+        {
+          "id": "us_entry_max_wide_caster",
+          "lever": "caster",
+          "direction": "increase",
+          "magnitude": "restore start width, then add caster; recheck toe and camber",
+          "title": "Already max wide — add caster",
+          "why": "Front track is already at the limit. Restore a start width, add caster, then recheck toe and camber.",
+          "priority": 1,
+          "when": {
+            "frontTrack": [
+              "max"
+            ]
+          }
+        },
+        {
+          "id": "us_entry_rear_p",
+          "lever": "rear_pressure",
+          "direction": "increase",
+          "magnitude": "+0.1 bar",
+          "title": "Raise rear pressure 0.1 bar",
+          "why": "Frees the rear slightly so the front can take the kart into the corner.",
+          "priority": 2
+        },
+        {
+          "id": "us_entry_front_rh",
+          "lever": "front_ride_height",
+          "direction": "increase",
+          "title": "Raise front ride height",
+          "why": "More front transfer and grip on entry.",
+          "priority": 3,
+          "skipWhen": {
+            "frontRideHeight": [
+              "max"
+            ]
+          }
+        },
+        {
+          "id": "us_entry_toe",
+          "lever": "toe",
+          "direction": "increase",
+          "magnitude": "more toe-out",
+          "title": "Add toe-out",
+          "why": "Faster turn-in. Too much toe-out costs drag and can make the kart darty.",
+          "priority": 4
+        },
+        {
+          "id": "us_entry_caster",
+          "lever": "caster",
+          "direction": "increase",
+          "title": "Add caster",
+          "why": "More caster increases jacking and front bite, especially useful when the track is slow or green.",
+          "priority": 5,
+          "skipWhen": {
+            "frontTrack": [
+              "max"
+            ]
+          }
+        },
+        {
+          "id": "us_entry_ballast",
+          "lever": "ballast_fore_aft",
+          "direction": "increase",
+          "magnitude": "move ballast forward",
+          "title": "Ballast forward",
+          "why": "Puts more load on the front contact patches.",
+          "priority": 6,
+          "skipWhen": {
+            "ballastForeAft": [
+              "front"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "oversteer_entry",
+      "symptoms": [
+        "oversteer_entry",
+        "oversteer_mid",
+        "oversteer_exit"
+      ],
+      "title": "Rear sliding on entry / too much front bite",
+      "failingEnd": "rear",
+      "actions": [
+        {
+          "id": "os_hubs_in",
+          "lever": "front_hubs",
+          "direction": "decrease",
+          "magnitude": "one spacer",
+          "title": "Front hubs in one spacer",
+          "why": "Reduces front bite so the rear can stay with the kart.",
+          "priority": 1,
+          "skipWhen": {
+            "frontTrack": [
+              "min"
+            ]
+          }
+        },
+        {
+          "id": "os_rear_p",
+          "lever": "rear_pressure",
+          "direction": "decrease",
+          "magnitude": "−0.1 bar",
+          "title": "Drop rear pressure 0.1 bar",
+          "why": "Adds rear contact-patch grip.",
+          "priority": 2
+        },
+        {
+          "id": "os_ballast",
+          "lever": "ballast_fore_aft",
+          "direction": "decrease",
+          "magnitude": "ballast off the front",
+          "title": "Ballast off the front",
+          "why": "Reduces front load so the rear can work.",
+          "priority": 3,
+          "skipWhen": {
+            "ballastForeAft": [
+              "rear"
+            ]
+          }
+        },
+        {
+          "id": "os_front_rh",
+          "lever": "front_ride_height",
+          "direction": "decrease",
+          "title": "Lower front ride height",
+          "why": "Less front transfer. Recheck geometry after the change.",
+          "priority": 4,
+          "skipWhen": {
+            "frontRideHeight": [
+              "min"
+            ]
+          }
+        },
+        {
+          "id": "os_caster",
+          "lever": "caster",
+          "direction": "decrease",
+          "title": "Reduce caster",
+          "why": "Less jacking and less front bite.",
+          "priority": 5,
+          "skipWhen": {
+            "caster": [
+              "min"
+            ]
+          }
+        },
+        {
+          "id": "os_ackermann",
+          "lever": "ackermann",
+          "direction": "decrease",
+          "title": "Less Ackermann",
+          "why": "Inner-wheel steer and inside-rear lift both drop.",
+          "priority": 6,
+          "skipWhen": {
+            "ackermann": [
+              "outer"
+            ]
+          }
+        },
+        {
+          "id": "os_rear_track",
+          "lever": "rear_track",
+          "direction": "decrease",
+          "title": "Narrow rear track",
+          "why": "More rear grip, less stability.",
+          "priority": 7,
+          "skipWhen": {
+            "rearTrack": [
+              "min"
+            ]
+          }
+        },
+        {
+          "id": "os_rear_rh",
+          "lever": "rear_ride_height",
+          "direction": "increase",
+          "title": "Raise rear ride height",
+          "why": "Adds rear grip.",
+          "priority": 8,
+          "skipWhen": {
+            "rearRideHeight": [
+              "max"
+            ]
+          }
+        },
+        {
+          "id": "os_third",
+          "lever": "third_bearing",
+          "direction": "decrease",
+          "title": "Loosen third bearing",
+          "why": "Frees the rear if a third bearing is fitted.",
+          "priority": 9,
+          "requires": {
+            "thirdBearing": [
+              "loose",
+              "tight"
+            ]
+          }
+        },
+        {
+          "id": "os_axle",
+          "lever": "axle",
+          "direction": "increase",
+          "magnitude": "stiffer axle",
+          "title": "Stiffer axle",
+          "why": "1050 textbook: stiffer axle adds rear grip. On a 950 this polarity can invert — if it fails, try the opposite.",
+          "priority": 10,
+          "polarityNote": "950_may_invert",
+          "skipWhen": {
+            "axleStiffness": [
+              "stiff"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hop",
+      "symptoms": [
+        "hop"
+      ],
+      "title": "Tall-driver violent hop",
+      "failingEnd": "rear",
+      "actions": [
+        {
+          "id": "hop_ballast",
+          "lever": "ballast_vertical",
+          "direction": "decrease",
+          "title": "Lower rear ballast",
+          "why": "A high CG makes violent hop worse. Drop rear ballast first.",
+          "priority": 1
+        },
+        {
+          "id": "hop_seat",
+          "lever": "seat_position",
+          "direction": "decrease",
+          "magnitude": "seat back and down",
+          "title": "Seat back and down",
+          "why": "Lowers and rearward-shifts the CG so the rear can unload without hopping.",
+          "priority": 2
+        },
+        {
+          "id": "hop_rh",
+          "lever": "rear_ride_height",
+          "direction": "decrease",
+          "title": "Lower rear ride height",
+          "why": "Reduces rear grip and CG height.",
+          "priority": 3,
+          "skipWhen": {
+            "rearRideHeight": [
+              "min"
+            ]
+          }
+        },
+        {
+          "id": "hop_axle",
+          "lever": "axle",
+          "direction": "decrease",
+          "magnitude": "softer axle",
+          "title": "Softer axle",
+          "why": "Hop means too much grip — soften the rear. On a 950, axle polarity can invert.",
+          "priority": 4,
+          "polarityNote": "950_may_invert",
+          "skipWhen": {
+            "axleStiffness": [
+              "soft"
+            ]
+          }
+        },
+        {
+          "id": "hop_struts",
+          "lever": "seat_struts",
+          "direction": "remove",
+          "title": "Remove extra seat struts",
+          "why": "Extra struts stiffen the rear and feed hop.",
+          "priority": 5,
+          "skipWhen": {
+            "seatStruts": [
+              "none"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "chatter",
+      "symptoms": [
+        "chatter"
+      ],
+      "title": "Tyre chatter",
+      "failingEnd": "rear",
+      "actions": [
+        {
+          "id": "chatter_p",
+          "lever": "rear_pressure",
+          "direction": "increase",
+          "magnitude": "+0.1 bar",
+          "title": "Raise rear pressure 0.1 bar",
+          "why": "Chatter is the tyre letting go, often on a green track. Raise rear pressure first.",
+          "priority": 1
+        },
+        {
+          "id": "chatter_track",
+          "lever": "rear_track",
+          "direction": "decrease",
+          "title": "Narrower rear track",
+          "why": "Adds rear grip so the tyre stops chattering.",
+          "priority": 2,
+          "skipWhen": {
+            "rearTrack": [
+              "min"
+            ]
+          }
+        },
+        {
+          "id": "chatter_axle",
+          "lever": "axle",
+          "direction": "increase",
+          "magnitude": "stiffer axle",
+          "title": "Stiffer axle",
+          "why": "Adds rear grip. On a 950 this polarity can invert.",
+          "priority": 3,
+          "polarityNote": "950_may_invert",
+          "skipWhen": {
+            "axleStiffness": [
+              "stiff"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "four_wheel_slide",
+      "symptoms": [
+        "four_wheel_slide"
+      ],
+      "title": "Not enough side bite (four-wheel slide)",
+      "failingEnd": "both",
+      "actions": [
+        {
+          "id": "slide_torsion",
+          "lever": "rear_torsion",
+          "direction": "fit",
+          "title": "Stiffen or fit torsion bars",
+          "why": "Slide means add grip. Torsion bars add roll resistance and side bite.",
+          "priority": 1,
+          "skipWhen": {
+            "rearTorsion": [
+              "tight"
+            ]
+          }
+        },
+        {
+          "id": "slide_p",
+          "lever": "pressures",
+          "direction": "decrease",
+          "magnitude": "−0.1 bar hot",
+          "title": "Drop hot pressures 0.1 bar",
+          "why": "A larger contact patch adds side bite.",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "too_much_side_bite",
+      "symptoms": [
+        "too_much_side_bite"
+      ],
+      "title": "Too much side bite (not drifting)",
+      "failingEnd": "both",
+      "actions": [
+        {
+          "id": "bite_torsion",
+          "lever": "rear_torsion",
+          "direction": "remove",
+          "title": "Loosen or remove torsion bars",
+          "why": "Too much bite — free the chassis.",
+          "priority": 1,
+          "skipWhen": {
+            "rearTorsion": [
+              "off"
+            ]
+          }
+        },
+        {
+          "id": "bite_p",
+          "lever": "pressures",
+          "direction": "increase",
+          "magnitude": "+0.1 bar",
+          "title": "Raise pressures 0.1 bar",
+          "why": "Shrinks the contact patch and frees the kart.",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "id": "understeer_exit",
+      "symptoms": [
+        "understeer_exit"
+      ],
+      "title": "Tight / understeer on exit",
+      "failingEnd": "rear",
+      "actions": [
+        {
+          "id": "exit_rear_track",
+          "lever": "rear_track",
+          "direction": "decrease",
+          "title": "Narrow rear track",
+          "why": "Helps the rear rotate on throttle.",
+          "priority": 1,
+          "skipWhen": {
+            "rearTrack": [
+              "min"
+            ]
+          }
+        },
+        {
+          "id": "exit_rear_p",
+          "lever": "rear_pressure",
+          "direction": "increase",
+          "magnitude": "+0.1 bar",
+          "title": "Raise rear pressure 0.1 bar",
+          "why": "Frees the rear on exit.",
+          "priority": 2
+        },
+        {
+          "id": "exit_axle",
+          "lever": "axle",
+          "direction": "decrease",
+          "magnitude": "softer axle",
+          "title": "Softer axle",
+          "why": "Lets the inside rear stay up longer. On a 950, axle polarity can invert.",
+          "priority": 3,
+          "polarityNote": "950_may_invert",
+          "skipWhen": {
+            "axleStiffness": [
+              "soft"
+            ]
+          }
+        },
+        {
+          "id": "exit_ballast",
+          "lever": "ballast_fore_aft",
+          "direction": "increase",
+          "magnitude": "lower rear ballast / move forward",
+          "title": "Lower rear ballast",
+          "why": "Takes load off the rear so it can rotate.",
+          "priority": 4
+        },
+        {
+          "id": "exit_struts",
+          "lever": "seat_struts",
+          "direction": "decrease",
+          "magnitude": "one strut per side",
+          "title": "Drop to one strut per side",
+          "why": "Frees the rear on exit.",
+          "priority": 5,
+          "skipWhen": {
+            "seatStruts": [
+              "none",
+              "one_per_side"
+            ]
+          }
+        },
+        {
+          "id": "exit_rh",
+          "lever": "rear_ride_height",
+          "direction": "decrease",
+          "title": "Lower rear ride height",
+          "why": "Reduces rear grip on the way out.",
+          "priority": 6,
+          "skipWhen": {
+            "rearRideHeight": [
+              "min"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "one_direction_only",
+      "symptoms": [
+        "one_direction_only"
+      ],
+      "title": "Only wrong in one direction",
+      "failingEnd": "chassis",
+      "actions": [
+        {
+          "id": "dir_scales",
+          "lever": "chassis_check",
+          "direction": "check",
+          "title": "Check corner weights",
+          "why": "A one-direction problem is usually unequal corner weights, not a setup lever.",
+          "priority": 1
+        },
+        {
+          "id": "dir_bent",
+          "lever": "chassis_check",
+          "direction": "check",
+          "title": "Check for a bent or twisted chassis",
+          "why": "Do not chase handling with spacers until the frame and scales are honest.",
+          "priority": 2
+        },
+        {
+          "id": "dir_asym",
+          "lever": "chassis_check",
+          "direction": "check",
+          "title": "Check asymmetric settings and pressures",
+          "why": "Mismatched spacers, toe, or pressures will show up as a one-way fault.",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "id": "darty",
+      "symptoms": [
+        "darty"
+      ],
+      "title": "Darty on straights, dives into corners",
+      "failingEnd": "front",
+      "actions": [
+        {
+          "id": "dart_toe",
+          "lever": "toe",
+          "direction": "decrease",
+          "title": "Reduce toe-out",
+          "why": "Too much toe-out makes the kart darty on the straights and dive into corners.",
+          "priority": 1
+        },
+        {
+          "id": "dart_hubs",
+          "lever": "front_hubs",
+          "direction": "increase",
+          "magnitude": "at least one spacer",
+          "title": "Front hubs out at least one spacer",
+          "why": "A wider front calms the dart and helps the kart take a set.",
+          "priority": 2,
+          "skipWhen": {
+            "frontTrack": [
+              "max"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "push_kick",
+      "symptoms": [
+        "push_kick"
+      ],
+      "title": "Push / kick at apex (brake to throttle)",
+      "failingEnd": "both",
+      "actions": [
+        {
+          "id": "kick_seat",
+          "lever": "seat_position",
+          "direction": "increase",
+          "magnitude": "seat forward",
+          "title": "Move the seat forward",
+          "why": "Helps the kart rotate from brake to throttle without a kick.",
+          "priority": 1,
+          "skipWhen": {
+            "seatPosition": [
+              "forward"
+            ]
+          }
+        },
+        {
+          "id": "kick_rear",
+          "lever": "rear_track",
+          "direction": "decrease",
+          "title": "Narrow the rear",
+          "why": "Frees the rear at the apex.",
+          "priority": 2,
+          "skipWhen": {
+            "rearTrack": [
+              "min"
+            ]
+          }
+        },
+        {
+          "id": "kick_front",
+          "lever": "front_track",
+          "direction": "increase",
+          "title": "Widen the front",
+          "why": "Adds front bite through the apex.",
+          "priority": 3,
+          "skipWhen": {
+            "frontTrack": [
+              "max"
+            ]
+          }
+        },
+        {
+          "id": "kick_p",
+          "lever": "rear_pressure",
+          "direction": "increase",
+          "title": "Raise rear pressures",
+          "why": "Frees the rear as you pick up throttle.",
+          "priority": 4
+        }
+      ]
+    }
+  ]
+}

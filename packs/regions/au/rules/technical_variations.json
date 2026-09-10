@@ -1,11 +1,3 @@
 {
-  "variations": [
-    {
-      "id": "au-moms-road-race",
-      "title": "MoMS Chapter 6 Road Race",
-      "nodeId": "au",
-      "confidence": "official",
-      "notes": "Primary in-app rules KB for Australian road racing."
-    }
-  ]
+  "notes": "Restrictors, weights, and tyres: kb-au-rules/data. State/supp regs can change a meeting."
 }

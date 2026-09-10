@@ -1,0 +1,40 @@
+{
+  "trackId": "mtgambierk_s",
+  "name": "Mt Gambier Karting Club (Glenburnie) (Short)",
+  "lengthM": 359,
+  "startFinish": [
+    64.14,
+    50.54
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "mtgambierk_s_t1",
+      "number": 1,
+      "apex": [
+        72.88,
+        8.76
+      ],
+      "label": [
+        75.55,
+        4.3
+      ],
+      "entry": [
+        77.8,
+        11.26
+      ],
+      "exit": [
+        59.17,
+        9.14
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

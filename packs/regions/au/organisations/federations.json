@@ -1,5 +1,45 @@
 {
-  "items": [],
-  "_placeholder": true,
-  "_explainer": "Motorcycle pack content stripped. Refill from C:/KartRacer/docs/KR_DATA_EQUIVALENTS.md and CURSOR_BUILD_JOBS.md J4.1."
+  "items": [
+    {
+      "id": "ka",
+      "name": "Karting Australia",
+      "url": "https://www.karting.net.au/",
+      "role": "NSO"
+    },
+    {
+      "id": "kansw",
+      "name": "Karting Australia (NSW)",
+      "url": "https://www.kansw.com.au/"
+    },
+    {
+      "id": "kartingnt",
+      "name": "Karting Northern Territory",
+      "url": "https://www.kartingnt.com.au/"
+    },
+    {
+      "id": "kartingqld",
+      "name": "Karting Queensland",
+      "url": "https://www.kartingqld.com.au/"
+    },
+    {
+      "id": "kartingsa",
+      "name": "Karting SA",
+      "url": "https://www.kartingsa.com.au/"
+    },
+    {
+      "id": "kartingvic",
+      "name": "Karting Victoria",
+      "url": "https://www.kartingvic.net.au/"
+    },
+    {
+      "id": "kartingwa",
+      "name": "Karting Western Australia",
+      "url": "https://www.kartingwa.com.au/"
+    },
+    {
+      "id": "kartingtas",
+      "name": "Karting Tasmania",
+      "url": "https://www.kartingtas.net.au/"
+    }
+  ]
 }

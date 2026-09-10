@@ -1,3 +1,594 @@
 {
-  "areas": []
+  "areas": [
+    {
+      "code": "NSW",
+      "name": "New South Wales",
+      "clubs": [
+        {
+          "name": "Broken Hill Kart Club",
+          "location": "Menindee Road, Broken Hill",
+          "website": "",
+          "email": "bhkartclub@gmail.com"
+        },
+        {
+          "name": "Classic Kart Club",
+          "location": "NSW",
+          "website": "",
+          "email": "ckc.secretary.nsw@gmail.com"
+        },
+        {
+          "name": "Coffs Harbour Kart Racing Club",
+          "location": "Phil Hawthorn Drive",
+          "website": "http://www.coffskart.com",
+          "email": "coffskart@outlook.com"
+        },
+        {
+          "name": "Dubbo Kart Club",
+          "location": "69L Newell Hwy Brocklehurst",
+          "website": "http://www.dubbokartclub.com",
+          "email": "dubbokartclub@hotmail.com"
+        },
+        {
+          "name": "Greater Sydney Kart Club",
+          "location": "Indy 800 Wilberforce",
+          "website": "http://www.gskc.com.au/",
+          "email": "secretary@gskc.com.au"
+        },
+        {
+          "name": "Griffith Kart Club",
+          "location": "112 White Rd Tharbogang",
+          "website": "http://www.griffithkartclub.com.au",
+          "email": ""
+        },
+        {
+          "name": "Lismore Kart Club",
+          "location": "30 Dunoon Rd North Lismore",
+          "website": "http://www.lismorekartclub.com.au",
+          "email": "secretary@lismorekartclub.com.au"
+        },
+        {
+          "name": "Newcastle Kart Racing Club",
+          "location": "5 Cameron Park Drive",
+          "website": "http://www.nkrc.com.au/",
+          "email": "secretary@nkrc.com.au"
+        },
+        {
+          "name": "Port Macquarie Kart Racing Club",
+          "location": "735 Burrawan Forest Dr Lake Innes",
+          "website": "http://www.pmkc.com.au",
+          "email": "pmkrcinc@gmail.com"
+        },
+        {
+          "name": "Tamworth Kart Racing Club",
+          "location": "121 Showground Rd Tamworth",
+          "website": "",
+          "email": "grahame@eagleeyeselfstorage.com.au"
+        },
+        {
+          "name": "Wagga & District Kart Racing Club",
+          "location": "156 Tasman Rd East Wagga",
+          "website": "https://www.waggakartracing.com.au/",
+          "email": "admin@waggakartracing.com.au"
+        },
+        {
+          "name": "Combined Districts Kart Club",
+          "location": "Marrangaroo / Lithgow",
+          "website": "https://www.cdkc.com.au/",
+          "email": "president@cdkc.com.au"
+        },
+        {
+          "name": "Sydney Illawarra Kart Club",
+          "location": "Eastern Creek",
+          "website": "https://sikc.com.au/",
+          "email": "info@sikc.com.au"
+        },
+        {
+          "name": "Hunter Valley Kart Club",
+          "location": "NSW",
+          "website": "",
+          "email": ""
+        },
+        {
+          "name": "Gunnedah Kart Club",
+          "location": "NSW",
+          "website": "",
+          "email": ""
+        },
+        {
+          "name": "Manning Valley Kart Club",
+          "location": "Wingham",
+          "website": "",
+          "email": ""
+        },
+        {
+          "name": "Bathurst Kart Club",
+          "location": "NSW",
+          "website": "",
+          "email": ""
+        },
+        {
+          "name": "Grenfell Kart Club",
+          "location": "NSW",
+          "website": "",
+          "email": ""
+        },
+        {
+          "name": "Orange Kart Club",
+          "location": "NSW",
+          "website": "",
+          "email": ""
+        },
+        {
+          "name": "Sapphire Coast Kart Club",
+          "location": "Frogs Hollow / Bega",
+          "website": "",
+          "email": ""
+        },
+        {
+          "name": "Riverina Kart Club",
+          "location": "NSW",
+          "website": "",
+          "email": ""
+        },
+        {
+          "name": "Central Coast Speedway Kart Club",
+          "location": "Gosford Showground",
+          "website": "",
+          "email": ""
+        },
+        {
+          "name": "NSW Speedway Kart Club",
+          "location": "Castlereagh",
+          "website": "",
+          "email": ""
+        }
+      ],
+      "classes": [
+        "Cadet 9",
+        "Cadet 12",
+        "KA3",
+        "KA4",
+        "X30",
+        "TaG 125",
+        "4SS"
+      ],
+      "coaches": []
+    },
+    {
+      "code": "NT",
+      "name": "Northern Territory",
+      "clubs": [
+        {
+          "name": "Darwin Karting Association",
+          "location": "Hidden Valley",
+          "website": "http://www.dka.org.au/",
+          "email": "dkasecretary@outlook.com"
+        }
+      ],
+      "classes": [
+        "Cadet 9",
+        "Cadet 12",
+        "KA3",
+        "KA4",
+        "X30",
+        "TaG 125",
+        "4SS"
+      ],
+      "coaches": []
+    },
+    {
+      "code": "QLD",
+      "name": "Queensland",
+      "clubs": [
+        {
+          "name": "Bundaberg Kart Club",
+          "location": "Dromeside Raceway",
+          "website": "",
+          "email": "secretary@bundykartclub.com.au"
+        },
+        {
+          "name": "Cairns Kart Club",
+          "location": "QLD",
+          "website": "http://www.cairnskartclub.com",
+          "email": "secretary@cairnskartclub.com"
+        },
+        {
+          "name": "Cap Coast Kart Club",
+          "location": "QLD",
+          "website": "",
+          "email": "capcoastkartclub@gmail.com"
+        },
+        {
+          "name": "Cooloola Coast Kart Club",
+          "location": "Gympie Gold Raceway",
+          "website": "http://www.cckc.com.au",
+          "email": "secretary@cckc.com.au"
+        },
+        {
+          "name": "Emerald Kart Club",
+          "location": "QLD",
+          "website": "",
+          "email": "secretary@emeraldkartingclub.com"
+        },
+        {
+          "name": "Gladstone Kart Club",
+          "location": "Formula K Raceway",
+          "website": "http://www.gladstonekartclub.com.au",
+          "email": "secretary@gladstonekartclub.com.au"
+        },
+        {
+          "name": "Gold Coast Kart Club",
+          "location": "QLD",
+          "website": "http://www.goldcoastkartclub.com.au",
+          "email": "secretary@goldcoastkartclub.com.au"
+        },
+        {
+          "name": "Ipswich Kart Club",
+          "location": "QLD",
+          "website": "http://www.ipswichkartclub.org.au",
+          "email": "secretary@ipswichkartclub.org.au"
+        },
+        {
+          "name": "Qld Vintage & Historic Karting",
+          "location": "QLD",
+          "website": "",
+          "email": "secretaryqvhk@gmail.com"
+        },
+        {
+          "name": "Toowoomba & Lockyer Valley Kart Club",
+          "location": "Greer Park Helidon Spa",
+          "website": "http://www.toowoombakartclub.com",
+          "email": "secretary@toowoombakartclub.com"
+        },
+        {
+          "name": "Townsville Kart Club",
+          "location": "Sun City Raceway",
+          "website": "http://www.townsvillekartclub.com.au",
+          "email": "townsvillekartclub@gmail.com"
+        },
+        {
+          "name": "Warwick Kart Club",
+          "location": "Sandy Creek Raceway",
+          "website": "http://www.warwickkartclub.com.au",
+          "email": "secretary@warwickkartclub.com.au"
+        },
+        {
+          "name": "Whitsunday MotorSport Club",
+          "location": "Whitsunday Raceway",
+          "website": "http://www.wmsc.org.au",
+          "email": "karting@wmsc.org.au"
+        }
+      ],
+      "classes": [
+        "Cadet 9",
+        "Cadet 12",
+        "KA3",
+        "KA4",
+        "X30",
+        "TaG 125",
+        "4SS"
+      ],
+      "coaches": []
+    },
+    {
+      "code": "SA",
+      "name": "South Australia",
+      "clubs": [
+        {
+          "name": "Barossa Go-Kart Club",
+          "location": "Nuriootpa / Dublin",
+          "website": "",
+          "email": "secretary@barossagokartclub.asn.au"
+        },
+        {
+          "name": "Dublin Go Kart Club",
+          "location": "SA",
+          "website": "",
+          "email": ""
+        },
+        {
+          "name": "Go Kart Club of SA",
+          "location": "Rocky Gully / Monarto",
+          "website": "https://www.gokartclubofsa.au/",
+          "email": "gkcsainfo@gmail.com"
+        },
+        {
+          "name": "Mt Gambier Karting Club",
+          "location": "Glenburnie",
+          "website": "",
+          "email": "bgakspar@bigpond.net.au"
+        },
+        {
+          "name": "Southern Go Kart Club",
+          "location": "5 Summer Rd Bolivar",
+          "website": "",
+          "email": "sec@sgkc.au"
+        },
+        {
+          "name": "Whyalla Go Kart Club",
+          "location": "Mt Young Raceway",
+          "website": "",
+          "email": "whyallagokartclub@outlook.com"
+        }
+      ],
+      "classes": [
+        "Cadet 9",
+        "Cadet 12",
+        "KA3",
+        "KA4",
+        "X30",
+        "TaG 125",
+        "4SS"
+      ],
+      "coaches": []
+    },
+    {
+      "code": "TAS",
+      "name": "Tasmania",
+      "clubs": [
+        {
+          "name": "Circular Head Kart Club",
+          "location": "TAS",
+          "website": "",
+          "email": "circularheadkc@gmail.com"
+        },
+        {
+          "name": "Launceston Kart Club",
+          "location": "Archerville",
+          "website": "",
+          "email": "secretary.lkc@outlook.com"
+        },
+        {
+          "name": "North Western Kart Club",
+          "location": "Highclere",
+          "website": "https://www.nwkc.org.au/",
+          "email": "presidentnwkc@gmail.com"
+        },
+        {
+          "name": "Southern Tasmanian Kart Club",
+          "location": "Orielton",
+          "website": "",
+          "email": "president.stkc@gmail.com"
+        }
+      ],
+      "classes": [
+        "Cadet 9",
+        "Cadet 12",
+        "KA3",
+        "KA4",
+        "X30",
+        "TaG 125",
+        "4SS"
+      ],
+      "coaches": []
+    },
+    {
+      "code": "VIC",
+      "name": "Victoria",
+      "clubs": [
+        {
+          "name": "Albury-Wodonga Kart Club",
+          "location": "Sheathers Rd Wodonga",
+          "website": "http://kartracing.com.au",
+          "email": "president@kartracing.com.au"
+        },
+        {
+          "name": "Bairnsdale Kart Club",
+          "location": "VIC",
+          "website": "",
+          "email": "bairnsdalekartclub@gmail.com"
+        },
+        {
+          "name": "Ballarat Kart Club",
+          "location": "Haddon Park",
+          "website": "http://ballaratkartclub.com",
+          "email": "mal.mason@icloud.com"
+        },
+        {
+          "name": "Bendigo Kart Club",
+          "location": "Marong",
+          "website": "",
+          "email": "bendigokartclub@bigpond.com"
+        },
+        {
+          "name": "Eastern Lions Kart Club",
+          "location": "Hume International Hilldene",
+          "website": "http://elkc.com.au",
+          "email": "elkcsecretary@gmail.com"
+        },
+        {
+          "name": "Gippsland Go-Kart Club",
+          "location": "Tramway Park Morwell",
+          "website": "http://ggkc.org.au",
+          "email": "lpaitken@bigpond.com"
+        },
+        {
+          "name": "Go-Kart Club of Victoria",
+          "location": "Port Melbourne",
+          "website": "http://gkcv.com.au",
+          "email": "secretary@gkcv.com.au"
+        },
+        {
+          "name": "Goulburn Valley Kart Club",
+          "location": "Numurkah",
+          "website": "",
+          "email": "gvkc@bigpond.com"
+        },
+        {
+          "name": "Hamilton Kart Club",
+          "location": "Buckley Park",
+          "website": "",
+          "email": "hamiltonkartingclub@gmail.com"
+        },
+        {
+          "name": "Mildura Kart Club",
+          "location": "VIC",
+          "website": "http://mdakartclub.com.au",
+          "email": "mdakartclub@bigpond.net.au"
+        },
+        {
+          "name": "Oakleigh Go-Kart Club",
+          "location": "Clayton",
+          "website": "http://ogkrc.com.au",
+          "email": "secretary@ogkrc.com.au"
+        },
+        {
+          "name": "Portland District Karting Club",
+          "location": "VIC",
+          "website": "",
+          "email": "president@pdkc.com.au"
+        },
+        {
+          "name": "Rochester Kart Club",
+          "location": "Nanneella",
+          "website": "http://rochesterkartclub.com",
+          "email": "Rochestergokartclub@gmail.com"
+        },
+        {
+          "name": "South West Kart Club",
+          "location": "Cobden",
+          "website": "http://swkc.websyte.com.au",
+          "email": "35mgml@gmail.com"
+        },
+        {
+          "name": "Swan Hill Kart Club",
+          "location": "VIC",
+          "website": "http://swanhillkartclub.com.au",
+          "email": "president@swanhillkartclub.com"
+        },
+        {
+          "name": "Warrnambool Kart Club",
+          "location": "Lake Gillear",
+          "website": "http://warrnamboolkartclub.com",
+          "email": "wkcpresident@hotmail.com"
+        },
+        {
+          "name": "Wimmera Kart Racing Club",
+          "location": "Dooen",
+          "website": "http://wimmerakartracingclub.com.au",
+          "email": "wkrcsecretary@gmail.com"
+        }
+      ],
+      "classes": [
+        "Cadet 9",
+        "Cadet 12",
+        "KA3",
+        "KA4",
+        "X30",
+        "TaG 125",
+        "4SS"
+      ],
+      "coaches": []
+    },
+    {
+      "code": "WA",
+      "name": "Western Australia",
+      "clubs": [
+        {
+          "name": "Albany City Kart Club",
+          "location": "WA",
+          "website": "",
+          "email": "secretary@ackc.com.au"
+        },
+        {
+          "name": "Bunbury City Kart Club",
+          "location": "WA",
+          "website": "",
+          "email": "admin@bckc.com.au"
+        },
+        {
+          "name": "Eastern Goldfields Kart Club",
+          "location": "Kalgoorlie",
+          "website": "",
+          "email": "egkcinc@gmail.com"
+        },
+        {
+          "name": "Esperance Kart Klub",
+          "location": "WA",
+          "website": "",
+          "email": "secretary@esperancekartklub.com.au"
+        },
+        {
+          "name": "Exmouth Kart Club",
+          "location": "WA",
+          "website": "",
+          "email": "exmouthkartclub@outlook.com"
+        },
+        {
+          "name": "Hedland Kart Club",
+          "location": "WA",
+          "website": "",
+          "email": "hedlandkartclub@outlook.com"
+        },
+        {
+          "name": "Hurricane Go Kart Club",
+          "location": "Wundowie",
+          "website": "https://hurricanegokartclub.com.au/",
+          "email": "hurricanegokartclub@gmail.com"
+        },
+        {
+          "name": "Impala Kart Club",
+          "location": "Tom Price",
+          "website": "",
+          "email": "impalakartclub@gmail.com"
+        },
+        {
+          "name": "Karratha Kart Club",
+          "location": "WA",
+          "website": "http://www.karrathakartclub.com/",
+          "email": "karrathakartclub@live.com.au"
+        },
+        {
+          "name": "Lake King Kart Club",
+          "location": "WA",
+          "website": "",
+          "email": "lakekingkartclub@gmail.com"
+        },
+        {
+          "name": "Midwest Kart Club",
+          "location": "Geraldton",
+          "website": "",
+          "email": "midwestkartclubwa@gmail.com"
+        },
+        {
+          "name": "Tiger Kart Club",
+          "location": "Henderson and Wanneroo",
+          "website": "http://www.tigerkartclub.com.au/",
+          "email": "secretary@tigerkartclub.com.au"
+        }
+      ],
+      "classes": [
+        "Cadet 9",
+        "Cadet 12",
+        "KA3",
+        "KA4",
+        "X30",
+        "TaG 125",
+        "4SS"
+      ],
+      "coaches": []
+    },
+    {
+      "code": "ACT",
+      "name": "Australian Capital Territory",
+      "clubs": [
+        {
+          "name": "Canberra Kart Racing Club",
+          "location": "Pialligo",
+          "website": "https://canberrakarts.com.au",
+          "email": ""
+        }
+      ],
+      "classes": [
+        "Cadet 9",
+        "Cadet 12",
+        "KA3",
+        "KA4",
+        "X30",
+        "TaG 125",
+        "4SS"
+      ],
+      "coaches": []
+    }
+  ]
 }

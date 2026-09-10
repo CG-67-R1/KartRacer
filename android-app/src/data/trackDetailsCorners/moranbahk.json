@@ -1,0 +1,68 @@
+{
+  "trackId": "moranbahk",
+  "name": "Moranbah Kart Track",
+  "lengthM": 522,
+  "startFinish": [
+    50.95,
+    55.05
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "moranbahk_t1",
+      "number": 1,
+      "apex": [
+        50.63,
+        86.76
+      ],
+      "label": [
+        50.39,
+        91.95
+      ],
+      "entry": [
+        54,
+        88.7
+      ],
+      "exit": [
+        47.52,
+        87.54
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "moranbahk_t2",
+      "number": 2,
+      "apex": [
+        48.85,
+        35.98
+      ],
+      "label": [
+        48.1,
+        30.83
+      ],
+      "entry": [
+        50.94,
+        27.97
+      ],
+      "exit": [
+        53.16,
+        41.18
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    }
+  ]
+}

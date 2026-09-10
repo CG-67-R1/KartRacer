@@ -1,0 +1,51 @@
+{
+  "origin": "kb-au-rules/README.md",
+  "title": "Karting Australia rules snapshot — readme",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "# Australian karting rules KB\n\nStandalone rule set for **Karting Australia** national competition and **2026 state regulations**. Separate from the setup/engine KB in `kb/`.\n\nSource edition: **2026 Australian Karting Manual — Update 1 (2 March 2026)**, 59th edition, plus the state PDFs linked from the national rules page. Confirm current files before racing — the live Manual on the KA site overrides this snapshot.\n\nDo not paste Manual prose. Use the structured notes and `data/*.json`.\n\n## LLM entry\n\n1. `index.json` — every topic/playbook/data file with aliases and tags\n2. `lookup.json` — keyword → file map (class names, states, flags, licence grades)\n3. `INDEX.md` — human catalog\n4. `data/*.json` — numbers for tools (weights, restrictors, fees, state overrides)\n\n## Hierarchy\n\n| Path | Contents |\n|---|---|\n| `clubs.md` + `data/clubs.json` | Affiliated clubs by state: contact, website, calendar |\n| `national/` | NCR structure: licences, competition, flags, technical, classes, fees/penalties, 2026 changes |\n| `states/` | NSW, QLD, SA, VIC, TAS, WA extras (NT has no published 2026 state regs on the rules page) |\n| `data/` | Machine tables |\n| `playbooks/` | Class picker + licence path |\n\nWeights are **kart + driver + equipment** unless marked kart-only max.\n",
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "text": "# Australian karting rules KB"
+    },
+    {
+      "type": "paragraph",
+      "text": "Standalone rule set for **Karting Australia** national competition and **2026 state regulations**. Separate from the setup/engine KB in `kb/`."
+    },
+    {
+      "type": "paragraph",
+      "text": "Source edition: **2026 Australian Karting Manual — Update 1 (2 March 2026)**, 59th edition, plus the state PDFs linked from the national rules page. Confirm current files before racing — the live Manual on the KA site overrides this snapshot."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do not paste Manual prose. Use the structured notes and `data/*.json`."
+    },
+    {
+      "type": "heading",
+      "text": "## LLM entry"
+    },
+    {
+      "type": "heading",
+      "text": "1. `index.json` — every topic/playbook/data file with aliases and tags\n2. `lookup.json` — keyword → file map (class names, states, flags, licence grades)\n3. `INDEX.md` — human catalog\n4. `data/*.json` — numbers for tools (weights, restrictors, fees, state overrides)"
+    },
+    {
+      "type": "heading",
+      "text": "## Hierarchy"
+    },
+    {
+      "type": "paragraph",
+      "text": "| Path | Contents |\n|---|---|\n| `clubs.md` + `data/clubs.json` | Affiliated clubs by state: contact, website, calendar |\n| `national/` | NCR structure: licences, competition, flags, technical, classes, fees/penalties, 2026 changes |\n| `states/` | NSW, QLD, SA, VIC, TAS, WA extras (NT has no published 2026 state regs on the rules page) |\n| `data/` | Machine tables |\n| `playbooks/` | Class picker + licence path |"
+    },
+    {
+      "type": "paragraph",
+      "text": "Weights are **kart + driver + equipment** unless marked kart-only max."
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "kb-au-rules",
+    "builtAt": "2026-09-10T08:52:32.847Z"
+  }
+}

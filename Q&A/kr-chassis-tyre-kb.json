@@ -1,0 +1,147 @@
+{
+  "origin": "gpt-knowledge/chassis-setup-and-tyre-kb.md",
+  "title": "Chassis setup and tyre KB",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "# Chassis setup + control tyre KB (combined upload)\n\n> STATUS: POPULATED v1.0 — 2026-09. Sources: `kb/topics/kart-setup.md`,\n> `kb/topics/tyre-setup.md`, `kb/playbooks/handling-troubleshoot.md`,\n> `kb/playbooks/wet-weather.md`, `kb/data/chassis-setup.json` (modern CIK block),\n> `kb-au-rules/data/tyres-fuel-oils.json` (2026 KA Manual Update 1).\n> Numbers below are the modern CIK-style baseline from those files. Anything tagged\n> era-1996 in kb/ is historical US sprint/oval and is deliberately NOT in this upload.\n> Confirm class regs before racing any number.\n\n## Chassis theory (live axle, jacking, bind)\n\nA kart is a flexible tube frame with a **live axle** (no differential). It turns\nproperly only when the **inside rear tyre lifts** on corner entry so the outside\nrear can drive around the corner. Caster + kingpin geometry jack the inside front\ndown and the outside front up when steered — that jacking is what unloads the\ninside rear. If the inside rear stays down, the kart pushes (understeer). If\nturning the wheel loads the motor, the chassis is **bound**.\n\nWork on the end that is failing first. One change at a time. Confirm the problem\nis not the driver before rewriting the chassis.\n\n## Baseline dry setup\n\n- Weight distribution: ~43% front / ~57% rear, 50/50 left-right.\n- Front ride height: lowest; rear higher than front (wedge).\n- Tyre pressure: ~1.0 bar start (window cited 0.8–1.5 bar; class/tyre-specific).\n- Toe-out: 0–3 mm (smaller motors toward 0).\n- Camber: 0–2 mm negative per side.\n- Caster: central/neutral, then tune from driver feedback.\n- Side-pod bars loose in the chassis, bolts tight. Seat on standard mounts;\n  struts if class allows.\n- Chain slack: ~10 mm total (~4% of centres). 30 mm axle reference:\n  2900 g ±10, 960 mm ±10.\n- Rear track max: 1100 mm cadet / 1400 mm senior (regulation).\n\nLow-grip / green track: raise both ride heights, medium–stiff axle, two seat\nstruts per side, rear torsion bar in (flat), more caster.\n\nHigh-grip / rubbered-in: lowest rear ride height, soft axle, loosen/remove seat\nstruts, remove rear torsion bar, more negative camber, less caster.\n\n## Front: width, toe, Ackermann, caster, camber, ride height\n\n| Change | Typical result |\n|---|---|\n| Widen front track | More jacking, more front bite, faster turn-in |\n| Narrow front track | Slower turn-in, more push |\n| More toe-out | Faster turn-in, more drag, less top speed |\n| Toe-in | Rarely used |\n| More Ackermann (inner tie-rod hole) | Quicker steer, more inside-rear lift |\n| More caster | More front bite, more jacking, more entry rotation |\n| Less caster | Easier steer, frees the kart in high grip |\n| Raise front ride height | More front (and some rear) transfer / grip |\n\nCaster measurement shortcut (laser/sweep): ~4 mm height split ≈ 1° caster;\na ~4 mm unexplained L/R difference can also mean a twisted chassis\n(`tools/setup-engine` casterSweep).\n\n## Rear: track width, axle stiffness, hubs, ride height, torsion bars\n\n| Change | Typical result |\n|---|---|\n| Narrow rear track | More rear grip, less stable |\n| Widen rear track | More stable, less rear grip |\n| Stiffer axle | More rear grip (1050 textbook / high power) |\n| Softer axle | Frees chassis; inside rear stays up longer |\n| Raise rear ride height | More rear grip |\n| Longer hubs | Stiffen axle response (more rear grip) |\n| Seat struts on/tight | More rear bite |\n| Side-pod bars tight | More side bite |\n\nNote: on a **950 chassis**, axle polarity can invert vs 1050 literature — if the\nbook fails, try the opposite.\n\n## Seat position + struts\n\nSeat is the biggest single tuning mass. Tall-driver violent hop: lower ballast\nand seat (back and down), soften rear, lower rear ride height, remove extra\nstruts. More struts / tighter = more rear bite. Exit understeer: drop to one\nstrut per side, lower rear ballast.\n\n## Wet setup changes\n\n- Front track maximum (spindle extensions if available); rear track minimum.\n- Front ride height maximum; rear ride height maximum.\n- Maximum caster; add camber if possible.\n- Higher pressures (wets struggle to reach temperature).\n- Medium axle if time permits; remove torsion bars.\n- Seat rear ~25 mm higher (or folded towel). Drain holes in seat.\n- Shield the rear rotor; tape pod holes; WD-40 on ignition.\n- Airbox water deflector only if class-legal.\n- Gearing: +3 or more rear teeth on rain tyres; remove teeth as it dries.\n- Driving: square corners off the rubbered line; lean out to load the outside front.\n\n## Control tyres (2026 KA approved list)\n\nKA rule: only KA-approved tyres from official suppliers; class lists the\ncompound. Air inflation only. No mixing dry+wet. One set = 2F+2R. From first\nqualifying: 1 dry + 1 wet set (+1 replacement each if approved). Wets only after\nthe Clerk of the Course declares Wet.\n\n| Class group | Dry | Wet |\n|---|---|---|\n| Cadet | Maxxis 190D Cadet-KA 10x4.00-5 / 11x5.00-5 | Maxxis MW21 |\n| KA3 / KA4 / TaG Restricted / DD2 / Jr Max | LeCont LH03 AUS 10x4.50-5 / 11x7.10-5 | LeCont SV1 10x4.20-5 / 11x6.00-5 |\n| KA2 / TaG 125 | LeCont LOH (+ bead retention) | LeCont SV1 |\n| X30 / Rok GP | LeCont LPM | LeCont SV1 |\n| 4SS Cadet | Maxxis 190D | Maxxis MW21 |\n| 4SS Junior/Senior | Maxxis Sport | LeCont SV1 |\n\nSuppliers: LeCont via Patrizicorse; Maxxis via St George Kart Wholesale.\nSocial/practice extra dry options: LH03 Aus / LOH / LPM, Maxxis Sport,\nMaxxis Super Sport. Mojo = Rotax series (series regs, not the KA class table).\nSpec papers live on karting.net.au technical page — see\n`control-tyre-data-extract.md` for per-spec detail.\n\n## Tyre temperatures (pyrometer)\n\nRead outside / middle / inside as soon as the kart stops. Optimum band\n**75–85 °C**; near **95 °C** tyres self-destruct. Chase variance, not absolutes:\nmatch front vs rear averages; a big L/R split can mean a bent chassis.\n\nRear: cold middle → raise pressure; hot middle → drop pressure; hot inner →\nmore rear transfer (narrow rear / stiffen); hot outer → less transfer (widen /\nsoften — watch for hop).\n\nFront: hot inner → less negative camber (check caster); hot outer → more\nnegative camber; hot middle even edges → drop pressure; cold middle hot edges →\nraise pressure. Softer pressure increases roll → may need more negative camber\nafter a pressure change.\n\n## Photo wear diagnosis quick map\n\n- Even sandpaper grain: healthy working tyre.\n- Smooth / no grain: too cold, not working.\n- Aggressive strips on an inner edge: too much caster/camber or edge overheating.\n- Cone (inner gone, outer unused): rear = not enough transfer; front =\n  camber/caster/front width. Fix early — coned profile is permanent.\n- Blisters: overworked, too hot.\nFull atlas: `kart-tyre-wear-patterns.md` and `kart-tyre-photo-recognition.md`.\n\n## Troubleshooting table (symptom → ordered fixes)\n\nCheap and reversible first (matches session-learning escalation order).\n\n| Symptom | Ordered fixes |\n|---|---|\n| Entry understeer / front won't grip | Front hubs out 1 spacer/side → rear +0.1 bar → raise front ride height → more toe-out → more caster → ballast forward |\n| Entry oversteer / rear slides | Front hubs in 1 spacer → rear −0.1 bar → ballast off front → lower front ride height → less caster → less Ackermann → narrow rear → raise rear ride height → stiffer axle (verify on 950) |\n| Violent hop (often tall drivers) | Lower rear ballast → seat back+down → lower rear ride height → softer axle → remove extra struts |\n| Tyre chatter (often green track) | Rear +0.1 bar → narrower rear → stiffer axle |\n| Four-wheel slide (no side bite) | Fit/stiffen torsion bars → hot pressures −0.1 bar |\n| Too much side bite (won't drift) | Loosen/remove torsion bars → pressures +0.1 bar |\n| Exit understeer / tight | Narrow rear → rear +0.1 bar → softer axle → lower rear ballast → one strut per side → lower rear ride height |\n| Darty on straights | Reduce toe-out → front hubs out ≥1 spacer |\n| Push/kick at apex (brake→throttle) | Seat forward → narrow rear → widen front → raise rear pressures |\n| Wrong in one direction only | Corner weights → bent/twisted chassis → asymmetric settings |\n\nPower wasters checklist: brake-pad drag, tight wheel bearings, bad alignment,\nmisaligned engine/sprocket. Do not hide a handling problem with extra rear teeth.\n",
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "text": "# Chassis setup + control tyre KB (combined upload)"
+    },
+    {
+      "type": "paragraph",
+      "text": "> STATUS: POPULATED v1.0 — 2026-09. Sources: `kb/topics/kart-setup.md`,\n> `kb/topics/tyre-setup.md`, `kb/playbooks/handling-troubleshoot.md`,\n> `kb/playbooks/wet-weather.md`, `kb/data/chassis-setup.json` (modern CIK block),\n> `kb-au-rules/data/tyres-fuel-oils.json` (2026 KA Manual Update 1).\n> Numbers below are the modern CIK-style baseline from those files. Anything tagged\n> era-1996 in kb/ is historical US sprint/oval and is deliberately NOT in this upload.\n> Confirm class regs before racing any number."
+    },
+    {
+      "type": "heading",
+      "text": "## Chassis theory (live axle, jacking, bind)"
+    },
+    {
+      "type": "paragraph",
+      "text": "A kart is a flexible tube frame with a **live axle** (no differential). It turns\nproperly only when the **inside rear tyre lifts** on corner entry so the outside\nrear can drive around the corner. Caster + kingpin geometry jack the inside front\ndown and the outside front up when steered — that jacking is what unloads the\ninside rear. If the inside rear stays down, the kart pushes (understeer). If\nturning the wheel loads the motor, the chassis is **bound**."
+    },
+    {
+      "type": "paragraph",
+      "text": "Work on the end that is failing first. One change at a time. Confirm the problem\nis not the driver before rewriting the chassis."
+    },
+    {
+      "type": "heading",
+      "text": "## Baseline dry setup"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Weight distribution: ~43% front / ~57% rear, 50/50 left-right.\n- Front ride height: lowest; rear higher than front (wedge).\n- Tyre pressure: ~1.0 bar start (window cited 0.8–1.5 bar; class/tyre-specific).\n- Toe-out: 0–3 mm (smaller motors toward 0).\n- Camber: 0–2 mm negative per side.\n- Caster: central/neutral, then tune from driver feedback.\n- Side-pod bars loose in the chassis, bolts tight. Seat on standard mounts;\n  struts if class allows.\n- Chain slack: ~10 mm total (~4% of centres). 30 mm axle reference:\n  2900 g ±10, 960 mm ±10.\n- Rear track max: 1100 mm cadet / 1400 mm senior (regulation)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Low-grip / green track: raise both ride heights, medium–stiff axle, two seat\nstruts per side, rear torsion bar in (flat), more caster."
+    },
+    {
+      "type": "paragraph",
+      "text": "High-grip / rubbered-in: lowest rear ride height, soft axle, loosen/remove seat\nstruts, remove rear torsion bar, more negative camber, less caster."
+    },
+    {
+      "type": "heading",
+      "text": "## Front: width, toe, Ackermann, caster, camber, ride height"
+    },
+    {
+      "type": "paragraph",
+      "text": "| Change | Typical result |\n|---|---|\n| Widen front track | More jacking, more front bite, faster turn-in |\n| Narrow front track | Slower turn-in, more push |\n| More toe-out | Faster turn-in, more drag, less top speed |\n| Toe-in | Rarely used |\n| More Ackermann (inner tie-rod hole) | Quicker steer, more inside-rear lift |\n| More caster | More front bite, more jacking, more entry rotation |\n| Less caster | Easier steer, frees the kart in high grip |\n| Raise front ride height | More front (and some rear) transfer / grip |"
+    },
+    {
+      "type": "paragraph",
+      "text": "Caster measurement shortcut (laser/sweep): ~4 mm height split ≈ 1° caster;\na ~4 mm unexplained L/R difference can also mean a twisted chassis\n(`tools/setup-engine` casterSweep)."
+    },
+    {
+      "type": "heading",
+      "text": "## Rear: track width, axle stiffness, hubs, ride height, torsion bars"
+    },
+    {
+      "type": "paragraph",
+      "text": "| Change | Typical result |\n|---|---|\n| Narrow rear track | More rear grip, less stable |\n| Widen rear track | More stable, less rear grip |\n| Stiffer axle | More rear grip (1050 textbook / high power) |\n| Softer axle | Frees chassis; inside rear stays up longer |\n| Raise rear ride height | More rear grip |\n| Longer hubs | Stiffen axle response (more rear grip) |\n| Seat struts on/tight | More rear bite |\n| Side-pod bars tight | More side bite |"
+    },
+    {
+      "type": "paragraph",
+      "text": "Note: on a **950 chassis**, axle polarity can invert vs 1050 literature — if the\nbook fails, try the opposite."
+    },
+    {
+      "type": "heading",
+      "text": "## Seat position + struts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seat is the biggest single tuning mass. Tall-driver violent hop: lower ballast\nand seat (back and down), soften rear, lower rear ride height, remove extra\nstruts. More struts / tighter = more rear bite. Exit understeer: drop to one\nstrut per side, lower rear ballast."
+    },
+    {
+      "type": "heading",
+      "text": "## Wet setup changes"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Front track maximum (spindle extensions if available); rear track minimum.\n- Front ride height maximum; rear ride height maximum.\n- Maximum caster; add camber if possible.\n- Higher pressures (wets struggle to reach temperature).\n- Medium axle if time permits; remove torsion bars.\n- Seat rear ~25 mm higher (or folded towel). Drain holes in seat.\n- Shield the rear rotor; tape pod holes; WD-40 on ignition.\n- Airbox water deflector only if class-legal.\n- Gearing: +3 or more rear teeth on rain tyres; remove teeth as it dries.\n- Driving: square corners off the rubbered line; lean out to load the outside front."
+    },
+    {
+      "type": "heading",
+      "text": "## Control tyres (2026 KA approved list)"
+    },
+    {
+      "type": "paragraph",
+      "text": "KA rule: only KA-approved tyres from official suppliers; class lists the\ncompound. Air inflation only. No mixing dry+wet. One set = 2F+2R. From first\nqualifying: 1 dry + 1 wet set (+1 replacement each if approved). Wets only after\nthe Clerk of the Course declares Wet."
+    },
+    {
+      "type": "paragraph",
+      "text": "| Class group | Dry | Wet |\n|---|---|---|\n| Cadet | Maxxis 190D Cadet-KA 10x4.00-5 / 11x5.00-5 | Maxxis MW21 |\n| KA3 / KA4 / TaG Restricted / DD2 / Jr Max | LeCont LH03 AUS 10x4.50-5 / 11x7.10-5 | LeCont SV1 10x4.20-5 / 11x6.00-5 |\n| KA2 / TaG 125 | LeCont LOH (+ bead retention) | LeCont SV1 |\n| X30 / Rok GP | LeCont LPM | LeCont SV1 |\n| 4SS Cadet | Maxxis 190D | Maxxis MW21 |\n| 4SS Junior/Senior | Maxxis Sport | LeCont SV1 |"
+    },
+    {
+      "type": "paragraph",
+      "text": "Suppliers: LeCont via Patrizicorse; Maxxis via St George Kart Wholesale.\nSocial/practice extra dry options: LH03 Aus / LOH / LPM, Maxxis Sport,\nMaxxis Super Sport. Mojo = Rotax series (series regs, not the KA class table).\nSpec papers live on karting.net.au technical page — see\n`control-tyre-data-extract.md` for per-spec detail."
+    },
+    {
+      "type": "heading",
+      "text": "## Tyre temperatures (pyrometer)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Read outside / middle / inside as soon as the kart stops. Optimum band\n**75–85 °C**; near **95 °C** tyres self-destruct. Chase variance, not absolutes:\nmatch front vs rear averages; a big L/R split can mean a bent chassis."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rear: cold middle → raise pressure; hot middle → drop pressure; hot inner →\nmore rear transfer (narrow rear / stiffen); hot outer → less transfer (widen /\nsoften — watch for hop)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Front: hot inner → less negative camber (check caster); hot outer → more\nnegative camber; hot middle even edges → drop pressure; cold middle hot edges →\nraise pressure. Softer pressure increases roll → may need more negative camber\nafter a pressure change."
+    },
+    {
+      "type": "heading",
+      "text": "## Photo wear diagnosis quick map"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Even sandpaper grain: healthy working tyre.\n- Smooth / no grain: too cold, not working.\n- Aggressive strips on an inner edge: too much caster/camber or edge overheating.\n- Cone (inner gone, outer unused): rear = not enough transfer; front =\n  camber/caster/front width. Fix early — coned profile is permanent.\n- Blisters: overworked, too hot.\nFull atlas: `kart-tyre-wear-patterns.md` and `kart-tyre-photo-recognition.md`."
+    },
+    {
+      "type": "heading",
+      "text": "## Troubleshooting table (symptom → ordered fixes)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cheap and reversible first (matches session-learning escalation order)."
+    },
+    {
+      "type": "paragraph",
+      "text": "| Symptom | Ordered fixes |\n|---|---|\n| Entry understeer / front won't grip | Front hubs out 1 spacer/side → rear +0.1 bar → raise front ride height → more toe-out → more caster → ballast forward |\n| Entry oversteer / rear slides | Front hubs in 1 spacer → rear −0.1 bar → ballast off front → lower front ride height → less caster → less Ackermann → narrow rear → raise rear ride height → stiffer axle (verify on 950) |\n| Violent hop (often tall drivers) | Lower rear ballast → seat back+down → lower rear ride height → softer axle → remove extra struts |\n| Tyre chatter (often green track) | Rear +0.1 bar → narrower rear → stiffer axle |\n| Four-wheel slide (no side bite) | Fit/stiffen torsion bars → hot pressures −0.1 bar |\n| Too much side bite (won't drift) | Loosen/remove torsion bars → pressures +0.1 bar |\n| Exit understeer / tight | Narrow rear → rear +0.1 bar → softer axle → lower rear ballast → one strut per side → lower rear ride height |\n| Darty on straights | Reduce toe-out → front hubs out ≥1 spacer |\n| Push/kick at apex (brake→throttle) | Seat forward → narrow rear → widen front → raise rear pressures |\n| Wrong in one direction only | Corner weights → bent/twisted chassis → asymmetric settings |"
+    },
+    {
+      "type": "paragraph",
+      "text": "Power wasters checklist: brake-pad drag, tight wheel bearings, bad alignment,\nmisaligned engine/sprocket. Do not hide a handling problem with extra rear teeth."
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "gpt-knowledge",
+    "builtAt": "2026-09-10T08:52:32.898Z"
+  }
+}

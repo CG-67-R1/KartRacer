@@ -42,8 +42,8 @@ const ONBOARDING_STEPS = [
 
 const ACTIVITY_OPTIONS: { value: Activity; label: string }[] = [
   { value: 'race', label: 'I race 🏁' },
-  { value: 'intermediate', label: 'Intermediate rider' },
-  { value: 'track_days', label: 'Track days only 🛞' },
+  { value: 'intermediate', label: 'Intermediate driver' },
+  { value: 'track_days', label: 'Practice / club days 🛞' },
   { value: 'just_love_bikes', label: 'Just love karts' },
   { value: 'race_one_day', label: "I would like to know about local racing" },
 ];
@@ -109,11 +109,11 @@ export function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
     const resolvedAvatarId = avatarId ?? assignedRandomAvatarId ?? pickRandomNoPhotoAvatar();
     const preset = getAvatarPreset(resolvedAvatarId);
     const answers: OnboardingAnswers = {
-      favouriteBike: favouriteBike.trim() || 'my bike',
+      favouriteBike: favouriteBike.trim() || 'my kart',
       favouriteRider: favouriteRider.trim() || 'my hero',
       activity: activity ?? 'just_love_bikes',
       knowsJustSendIt: false,
-      riderNickname: riderNickname.trim() || 'Rider',
+      riderNickname: riderNickname.trim() || 'Driver',
       futureRacer: activity === 'race_one_day' || undefined,
       racingStateCode: selectedStateCode ?? undefined,
       racingInfoEmail: racingEmail.trim() || undefined,
@@ -159,8 +159,8 @@ export function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
       const bodyLines = [
         'A RoadRace user wants to learn how to go racing.',
         '',
-        `Favourite bike: ${favouriteBike || 'N/A'}`,
-        `Favourite rider: ${favouriteRider || 'N/A'}`,
+        `Favourite kart: ${favouriteBike || 'N/A'}`,
+        `Favourite driver: ${favouriteRider || 'N/A'}`,
         `Riding activity: wants to race one day`,
         `State: ${stateInfo ? stateInfo.name : selectedStateCode || 'N/A'}`,
         `Contact email: ${racingEmail || 'N/A'}`,
@@ -251,10 +251,10 @@ export function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
         {step === 2 && (
           <View style={styles.step}>
             <Text style={styles.title}>Who’s your favourite driver?</Text>
-            <Text style={styles.subtitle}>MotoGP, WSBK, local legend — anyone who makes you want to twist the throttle.</Text>
+            <Text style={styles.subtitle}>F1, Supercars, IndyCar, local legend — anyone who makes you want to race.</Text>
             <TextInput
               style={styles.input}
-              placeholder="e.g. Valentino Rossi, Marc Márquez..."
+              placeholder="e.g. Oscar Piastri, Daniel Ricciardo..."
               placeholderTextColor="#64748b"
               value={favouriteRider}
               onChangeText={setFavouriteRider}
@@ -271,11 +271,11 @@ export function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
             <Text style={styles.title}>Nice taste</Text>
             <Text style={styles.subtitle}>A little something about your picks.</Text>
             <View style={styles.justSendItBox}>
-              <Text style={styles.justSendItTitle}>Your rider</Text>
+              <Text style={styles.justSendItTitle}>Your driver</Text>
               <Text style={styles.justSendItText}>{getRiderFact(favouriteRider.trim())}</Text>
             </View>
             <View style={[styles.justSendItBox, { marginTop: 12 }]}>
-              <Text style={styles.justSendItTitle}>Your bike</Text>
+              <Text style={styles.justSendItTitle}>Your kart</Text>
               <Text style={styles.justSendItText}>{getBikeFact(favouriteBike.trim())}</Text>
             </View>
             <Text style={[styles.prompt, { marginTop: 24 }]}>
@@ -287,9 +287,9 @@ export function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
         {/* Step 4: Race / track days / just love bikes */}
         {step === 4 && (
           <View style={styles.step}>
-            <Text style={styles.title}>How do you ride?</Text>
+            <Text style={styles.title}>How do you race?</Text>
             <Text style={styles.subtitle}>
-              We’re here for all of it. Coach and Bike Setup will match this — simpler for track days
+              We’re here for all of it. Coach and Kart Setup will match this — simpler for club days
               and getting into racing, more detail if you’re intermediate or already racing.
             </Text>
             {ACTIVITY_OPTIONS.map((opt) => (
@@ -508,12 +508,12 @@ export function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
           <View style={styles.step}>
             <Text style={styles.title}>What should we call you?</Text>
             <Text style={styles.subtitle}>
-              Pick an avatar for your home screen (swipe sideways for more). For leathers with a
+              Pick an avatar for your home screen (swipe sideways for more). For a race suit with a
               blank face, you can add your photo below — totally optional.
             </Text>
             {!avatarId ? (
               <Text style={styles.avatarSkipHint}>
-                No avatar or photo? No worries — we'll pick a random rider mascot for you (no photo
+                No avatar or photo? No worries — we'll pick a random driver mascot for you (no photo
                 needed).
               </Text>
             ) : null}
@@ -581,7 +581,7 @@ export function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
               <View style={styles.faceUploadSection}>
                 <Text style={styles.faceUploadTitle}>Your face (optional)</Text>
                 <Text style={styles.faceUploadHint}>
-                  Take a selfie or pick from your library, then align your face on the rider so it sits in the
+                  Take a selfie or pick from your library, then align your face on the race suit so it sits in the
                   hole.
                 </Text>
                 <View style={styles.faceUploadRow}>
@@ -654,7 +654,7 @@ export function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
               ) : null}
               <View style={styles.summaryNameCol}>
                 <Text style={styles.summaryNickname}>
-                  {(riderNickname.trim() || 'Rider').toUpperCase()}
+                  {(riderNickname.trim() || 'Driver').toUpperCase()}
                 </Text>
                 {!avatarId && effectiveAvatarPreset ? (
                   <Text style={styles.summaryRandomAvatarNote}>

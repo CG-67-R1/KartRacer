@@ -1,0 +1,40 @@
+{
+  "trackId": "megafastc",
+  "name": "Mega Fast Karts (Wanneroo) (C)",
+  "lengthM": 768,
+  "startFinish": [
+    42.23,
+    57.21
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "megafastc_t1",
+      "number": 1,
+      "apex": [
+        82.5,
+        56.52
+      ],
+      "label": [
+        87.66,
+        57.13
+      ],
+      "entry": [
+        80.79,
+        53.85
+      ],
+      "exit": [
+        83.02,
+        61.93
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

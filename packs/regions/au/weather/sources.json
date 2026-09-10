@@ -1,5 +1,11 @@
 {
-  "sources": [],
-  "_placeholder": true,
-  "_explainer": "Motorcycle pack content stripped. Refill from C:/KartRacer/docs/KR_DATA_EQUIVALENTS.md and CURSOR_BUILD_JOBS.md J4.1."
+  "sources": [
+    {
+      "id": "bom",
+      "name": "Bureau of Meteorology",
+      "url": "https://www.bom.gov.au/",
+      "nodeId": "au",
+      "notes": "Official AU weather. Use club/track forecast on the day."
+    }
+  ]
 }

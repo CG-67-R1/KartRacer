@@ -1,0 +1,68 @@
+{
+  "trackId": "pdkc_short",
+  "name": "Portland District Karting Club (Short)",
+  "lengthM": 475,
+  "startFinish": [
+    48.27,
+    52.55
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "pdkc_short_t1",
+      "number": 1,
+      "apex": [
+        8.67,
+        18.12
+      ],
+      "label": [
+        4.88,
+        14.56
+      ],
+      "entry": [
+        17.35,
+        19.17
+      ],
+      "exit": [
+        11.65,
+        27.83
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "pdkc_short_t2",
+      "number": 2,
+      "apex": [
+        90.38,
+        80.29
+      ],
+      "label": [
+        94.84,
+        82.97
+      ],
+      "entry": [
+        80.01,
+        83.5
+      ],
+      "exit": [
+        89.77,
+        69.99
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    }
+  ]
+}

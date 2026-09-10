@@ -4,15 +4,15 @@ import type { RiderLevel } from '../storage/trackdayPrep';
 import { BIKE_SETUP_INTRO } from '../data/bikeSetupBasics';
 import { TRACK_INFO_COACHING } from '../data/trackInfo/coaching';
 
-/** Appended to Coach / Bike Setup user messages so every briefing matches how they ride. */
+/** Appended to Coach / Kart Setup user messages so every briefing matches how they race. */
 export function riderSkillReplyInstruction(skill: RiderAiSkill): string {
   if (skill === 'advanced') {
     return 'Reply for a club or national racer: include technical coaching and setup detail, why it works, and what to check next. Still one change at a time.';
   }
   if (skill === 'intermediate') {
-    return 'Reply for an intermediate track rider: combine technique and small setup changes, and explain why. One change at a time.';
+    return 'Reply for an intermediate club driver: combine technique and small setup changes, and explain why. One change at a time.';
   }
-  return 'Reply for a track-day or getting-into-racing rider: everyday language, short, one main focus, no jargon.';
+  return 'Reply for a club-day or getting-into-racing driver: everyday language, short, one main focus, no jargon.';
 }
 
 /** Default Trackday Prep rider-level chip from onboarding "how you ride". */
@@ -27,12 +27,12 @@ export function trackPrepLevelFromActivity(
 
 export function trackPrepBriefingInstruction(level: RiderLevel | ''): string {
   if (level === 'racer') {
-    return 'This rider races. Use race-engineer depth: session purpose, tyre windows, reference points, and what to log. Technical language is OK. Still one change at a time.';
+    return 'This driver races. Use race-engineer depth: session purpose, tyre windows, reference points, and what to log. Technical language is OK. Still one change at a time.';
   }
   if (level === 'experienced') {
-    return 'This rider is intermediate. Give more coaching and bike-setup detail than a beginner briefing, and explain why. One focus per session.';
+    return 'This driver is intermediate. Give more coaching and chassis-setup detail than a beginner briefing, and explain why. One focus per session.';
   }
-  return 'This rider is on track days or getting into racing. Keep the briefing short and simple: everyday language, one focus per session, skip clicker counts and geometry unless they asked.';
+  return 'This driver is on club days or getting into racing. Keep the briefing short and simple: everyday language, one focus per session, skip axle and seat work unless they asked.';
 }
 
 export type TrackInfoCoachingCopy = {
@@ -60,7 +60,7 @@ export function trackInfoCoachingForSkill(skill: RiderAiSkill): TrackInfoCoachin
       intro: TRACK_INFO_COACHING.intro,
       points: [
         ...TRACK_INFO_COACHING.points,
-        'Once the three markers are stable, add trail-brake and throttle-release points, and note where the bike wants to run wide or stand up.',
+        'Once the three markers are stable, add brake-release and throttle points, and note where the kart wants to run wide or push.',
       ],
     };
   }
@@ -71,9 +71,9 @@ export function bikeSetupIntroForSkill(skill: RiderAiSkill): typeof BIKE_SETUP_I
   if (skill === 'novice') {
     return {
       whyBase:
-        'A baseline is just a known starting point so the bike feels predictable. Set sag first if you can, then change one thing at a time.',
+        'A baseline is just a known starting point so the kart feels predictable. Set cold pressures first if you can, then change one thing at a time.',
       capabilityCaveat:
-        'Your bike may not have every adjuster on this picture. If you are not sure, ask Bike Setup AI with your make and model and keep it to one simple change.',
+        'Your kart may not have every adjuster on this picture. If you are not sure, ask Kart Setup AI with your class and chassis and keep it to one simple change.',
     };
   }
   return BIKE_SETUP_INTRO;

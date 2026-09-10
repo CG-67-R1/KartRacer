@@ -1,0 +1,162 @@
+export type LoggerSample = {
+  t: number;
+  speedKmh: number | null;
+  rpm: number | null;
+  wtC: number | null;
+  egtC: number | null;
+  latG: number | null;
+  lonG: number | null;
+  lat: number | null;
+  lon: number | null;
+  distM: number | null;
+  lap: number | null;
+};
+
+export type ColumnMap = {
+  t?: number;
+  speed?: number;
+  rpm?: number;
+  wt?: number;
+  egt?: number;
+  latG?: number;
+  lonG?: number;
+  lat?: number;
+  lon?: number;
+  dist?: number;
+  lap?: number;
+};
+
+const ALIASES: Record<keyof ColumnMap, string[]> = {
+  t: ["time", "time s", "t"],
+  speed: ["gps speed", "speed", "gps speed [km/h]", "gps_speed", "speed km/h"],
+  rpm: ["rpm", "engine rpm", "erpm"],
+  wt: ["water temp", "water temperature", "w2t", "twat", "t water", "engine temp"],
+  egt: ["exhaust temp", "egt", "exhaust temperature", "t1", "texh"],
+  latG: ["gps latacc", "latacc", "lat acc", "gps n1", "n1", "lateral acc", "accy"],
+  lonG: ["gps lonacc", "lonacc", "lon acc", "gps n2", "n2", "longitudinal acc", "accx"],
+  lat: ["gps latitude", "latitude", "gps lat"],
+  lon: ["gps longitude", "longitude", "gps lon"],
+  dist: ["distance", "gps dist", "distance on gps speed", "distance m"],
+  lap: ["lap", "lap number", "lap#", "lap num"],
+};
+
+function stripBom(text: string): string {
+  return text.replace(/^\uFEFF/, "");
+}
+
+function detectDelimiter(header: string): "," | ";" {
+  const commas = (header.match(/,/g) ?? []).length;
+  const semis = (header.match(/;/g) ?? []).length;
+  return semis > commas ? ";" : ",";
+}
+
+export function parseCsvLine(line: string, delimiter: "," | ";"): string[] {
+  const out: string[] = [];
+  let cur = "";
+  let inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (ch === '"') {
+      if (inQuotes && line[i + 1] === '"') {
+        cur += '"';
+        i++;
+      } else {
+        inQuotes = !inQuotes;
+      }
+    } else if (ch === delimiter && !inQuotes) {
+      out.push(cur);
+      cur = "";
+    } else {
+      cur += ch;
+    }
+  }
+  out.push(cur);
+  return out.map((cell) => cell.trim());
+}
+
+export function parseNumber(raw: string, decimalIsComma: boolean): number | null {
+  const trimmed = raw.trim();
+  if (!trimmed || trimmed === "-" || trimmed === "n/a") return null;
+  let s = trimmed;
+  if (decimalIsComma) {
+    s = s.replace(/\./g, "").replace(",", ".");
+  } else {
+    s = s.replace(/ /g, "");
+  }
+  const n = Number(s);
+  return Number.isFinite(n) ? n : null;
+}
+
+function normHeader(cell: string): string {
+  return cell.toLowerCase().replace(/\[.*?\]/g, "").replace(/[_/]+/g, " ").replace(/\s+/g, " ").trim();
+}
+
+export function mapColumns(headers: string[]): ColumnMap {
+  const map: ColumnMap = {};
+  const normalized = headers.map(normHeader);
+  for (const [key, aliases] of Object.entries(ALIASES) as [keyof ColumnMap, string[]][]) {
+    const idx = normalized.findIndex((h) => aliases.some((a) => h === a || h.startsWith(a)));
+    if (idx >= 0) map[key] = idx;
+  }
+  return map;
+}
+
+export function parseLoggerCsv(text: string): {
+  samples: LoggerSample[];
+  columns: ColumnMap;
+  delimiter: "," | ";";
+  warnings: string[];
+} {
+  const warnings: string[] = [];
+  const lines = stripBom(text).split(/\r?\n/).filter((line) => line.trim().length > 0);
+  let headerIndex = -1;
+  for (let i = 0; i < Math.min(lines.length, 50); i++) {
+    const lower = lines[i].toLowerCase();
+    if (lower.includes("time") && (lower.includes("speed") || lower.includes("rpm"))) {
+      headerIndex = i;
+      break;
+    }
+  }
+  if (headerIndex < 0) {
+    return { samples: [], columns: {}, delimiter: ",", warnings: ["No Time/Speed header found. Export Race Studio 3 CSV with all channels."] };
+  }
+
+  const delimiter = detectDelimiter(lines[headerIndex]);
+  const decimalIsComma = delimiter === ";";
+  const headers = parseCsvLine(lines[headerIndex], delimiter);
+  const columns = mapColumns(headers);
+  if (columns.t == null || (columns.speed == null && columns.rpm == null)) {
+    warnings.push("Header mapped poorly. Need Time plus GPS Speed or RPM.");
+  }
+
+  const samples: LoggerSample[] = [];
+  for (let i = headerIndex + 1; i < lines.length; i++) {
+    const cells = parseCsvLine(lines[i], delimiter);
+    if (cells.length < 2) continue;
+    const num = (key: keyof ColumnMap) => {
+      const idx = columns[key];
+      if (idx == null || cells[idx] == null) return null;
+      return parseNumber(cells[idx], decimalIsComma);
+    };
+    const t = num("t");
+    if (t == null) continue;
+    samples.push({
+      t,
+      speedKmh: num("speed"),
+      rpm: num("rpm"),
+      wtC: num("wt"),
+      egtC: num("egt"),
+      latG: num("latG"),
+      lonG: num("lonG"),
+      lat: num("lat"),
+      lon: num("lon"),
+      distM: num("dist"),
+      lap: num("lap"),
+    });
+  }
+
+  if (samples.length < 10) {
+    warnings.push("Fewer than 10 samples. The export may be truncated.");
+  }
+  return { samples, columns, delimiter, warnings };
+}

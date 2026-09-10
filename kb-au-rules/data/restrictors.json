@@ -1,0 +1,40 @@
+{
+  "id": "ka-restrictors-2026",
+  "edition": "2026-update-1",
+  "note": "Internal hole must be no larger than listed. KA-issued plates are stamped. 2026 adds a revised Rotax restrictor when available from Rotax.",
+  "cadet": {
+    "mini_rok_cadet9": "16 mm (inlet/homologation)",
+    "kt100j_cadet9": {"id": "AKA1", "mm": 13.02},
+    "kt100j_cadet12": {"id": "AKA2A", "mm": 16.0},
+    "mini_rok_cadet12": "unrestricted"
+  },
+  "ka": {
+    "ka4": "19 mm IAME",
+    "ka3_junior": "22 mm Type 3 IAME KA100",
+    "ka3_senior": "unrestricted"
+  },
+  "rotax": {
+    "junior_max": {"id": "SR4", "mm": 23.5},
+    "rotax_125_trophy": {"id": "SR4", "mm": 23.5},
+    "tag_restricted_rotax_max": [
+      {"id": "AKA SR2", "mm": 24.5},
+      {"id": "AKA SR3", "mm": 23.5},
+      {"id": "Rotax SR4", "mm": 23.5}
+    ],
+    "tag_restricted_junior_max": {"id": "AKA SR2", "mm": 24.5}
+  },
+  "tag_restricted_other": {
+    "prd_fireball": {"id": "AKA F2", "mm": 27.0},
+    "leopard_black_module": {"id": "AKA L1", "mm": 23.0},
+    "leopard_green_aka20l": {"id": "AKA L2", "mm": 23.8},
+    "x30_type1_exhaust": {"id": "AKAX30", "mm": 23.4},
+    "x30_type2": [
+      {"id": "IAME D22", "mm": 22.0},
+      {"id": "IAME D22.70", "mm": 22.8}
+    ],
+    "sq_cheetah": {"id": "AKA SQ1", "mm": 25.0},
+    "prd_galaxy": {"id": "KA-G1", "mm": 25.5},
+    "rok_gp": {"id": "W10911", "mm": 25.0}
+  },
+  "4ss_cadet": "Cadet restrictor per Torini homologation (marketing: 16.5 mm carb)"
+}

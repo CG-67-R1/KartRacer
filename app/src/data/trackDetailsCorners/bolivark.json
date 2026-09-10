@@ -1,0 +1,124 @@
+{
+  "trackId": "bolivark",
+  "name": "Southern Go Kart Club (Bolivar Raceway) (National)",
+  "lengthM": 747,
+  "startFinish": [
+    51.24,
+    45.15
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "bolivark_t1",
+      "number": 1,
+      "apex": [
+        16.77,
+        47.26
+      ],
+      "label": [
+        11.58,
+        46.89
+      ],
+      "entry": [
+        29.38,
+        54.66
+      ],
+      "exit": [
+        12.1,
+        48.15
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "bolivark_t2",
+      "number": 2,
+      "apex": [
+        68.33,
+        65.01
+      ],
+      "label": [
+        72.42,
+        68.22
+      ],
+      "entry": [
+        29.6,
+        64.63
+      ],
+      "exit": [
+        70.34,
+        63.55
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "bolivark_t3",
+      "number": 3,
+      "apex": [
+        70.93,
+        50.57
+      ],
+      "label": [
+        76.12,
+        50.81
+      ],
+      "entry": [
+        69.43,
+        53.36
+      ],
+      "exit": [
+        87.25,
+        43.91
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "bolivark_t4",
+      "number": 4,
+      "apex": [
+        88.77,
+        34.74
+      ],
+      "label": [
+        93.65,
+        32.94
+      ],
+      "entry": [
+        90.77,
+        36.18
+      ],
+      "exit": [
+        74.67,
+        35.92
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    }
+  ]
+}

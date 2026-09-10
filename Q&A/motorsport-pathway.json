@@ -1,0 +1,48 @@
+{
+  "origin": "Q&A/motorsport-pathway",
+  "title": "Karting to pro pathway",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "# Motorsport pathway facts (karting origin)\n\nKarting is the usual first step toward Formula 1, Supercars, IndyCar, F1 Academy, GT and endurance racing.\n\nA common single-seater path is karting → Formula 4 → F3 → F2 → Formula 1.\nA common Australian touring-car path is karting → Super3 / Super2 → Supercars.\nIndyCar paths often go karting → US junior open-wheel → Indy NXT → IndyCar.\nF1 Academy is a single-seater series aimed at developing women toward Formula 1.\nFIA WEC includes the 24 Hours of Le Mans. NASCAR Cup is the top US stock-car series.\n\nAustralian and New Zealand drivers who started in karts include Oscar Piastri, Daniel Ricciardo, Jack Doohan, Will Power, Scott McLaughlin, Broc Feeney, Will Brown, Cam Waters, Shane van Gisbergen, Matt Campbell and Marcos Ambrose.\n\nConfirm current race seats each season. Do not invent championship years that are not in this file.\nThe 2026 Penrite Australian Kart Championship is the national kart title (Karting Australia).\n",
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "text": "# Motorsport pathway facts (karting origin)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Karting is the usual first step toward Formula 1, Supercars, IndyCar, F1 Academy, GT and endurance racing."
+    },
+    {
+      "type": "paragraph",
+      "text": "A common single-seater path is karting → Formula 4 → F3 → F2 → Formula 1.\nA common Australian touring-car path is karting → Super3 / Super2 → Supercars.\nIndyCar paths often go karting → US junior open-wheel → Indy NXT → IndyCar.\nF1 Academy is a single-seater series aimed at developing women toward Formula 1.\nFIA WEC includes the 24 Hours of Le Mans. NASCAR Cup is the top US stock-car series."
+    },
+    {
+      "type": "paragraph",
+      "text": "Australian and New Zealand drivers who started in karts include Oscar Piastri, Daniel Ricciardo, Jack Doohan, Will Power, Scott McLaughlin, Broc Feeney, Will Brown, Cam Waters, Shane van Gisbergen, Matt Campbell and Marcos Ambrose."
+    },
+    {
+      "type": "paragraph",
+      "text": "Confirm current race seats each season. Do not invent championship years that are not in this file.\nThe 2026 Penrite Australian Kart Championship is the national kart title (Karting Australia)."
+    }
+  ],
+  "qa": [
+    {
+      "q": "Where do most Formula 1 drivers start?",
+      "a": "In karts."
+    },
+    {
+      "q": "What is a common path from karts to Formula 1?",
+      "a": "Karting, then Formula 4, F3, F2, then Formula 1."
+    },
+    {
+      "q": "What is a common path from karts to Supercars?",
+      "a": "Karting, then Super3 or Super2, then Supercars."
+    }
+  ],
+  "metadata": {
+    "source": "research-handoff-2026-09-10",
+    "builtAt": "2026-09-10T08:52:32.912Z"
+  }
+}

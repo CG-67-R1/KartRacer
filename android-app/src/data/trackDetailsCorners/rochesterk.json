@@ -1,0 +1,320 @@
+{
+  "trackId": "rochesterk",
+  "name": "Rochester Kart Club (Nanneella)",
+  "lengthM": 737,
+  "startFinish": [
+    50.49,
+    47.73
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "rochesterk_t1",
+      "number": 1,
+      "apex": [
+        45.07,
+        51.9
+      ],
+      "label": [
+        39.92,
+        52.62
+      ],
+      "entry": [
+        46.05,
+        49.04
+      ],
+      "exit": [
+        46.7,
+        58.28
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "rochesterk_t2",
+      "number": 2,
+      "apex": [
+        49.17,
+        84.2
+      ],
+      "label": [
+        49.26,
+        89.4
+      ],
+      "entry": [
+        50.74,
+        77.62
+      ],
+      "exit": [
+        45.75,
+        87.3
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "rochesterk_t3",
+      "number": 3,
+      "apex": [
+        39.34,
+        85.94
+      ],
+      "label": [
+        37.99,
+        90.96
+      ],
+      "entry": [
+        41.96,
+        87.62
+      ],
+      "exit": [
+        37.78,
+        82.1
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "rochesterk_t4",
+      "number": 4,
+      "apex": [
+        32.23,
+        11.92
+      ],
+      "label": [
+        30.24,
+        7.12
+      ],
+      "entry": [
+        29.02,
+        15.88
+      ],
+      "exit": [
+        42.06,
+        8.69
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "rochesterk_t5",
+      "number": 5,
+      "apex": [
+        51.31,
+        9.58
+      ],
+      "label": [
+        51.64,
+        4.39
+      ],
+      "entry": [
+        48.09,
+        8.41
+      ],
+      "exit": [
+        52.89,
+        12.35
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "rochesterk_t6",
+      "number": 6,
+      "apex": [
+        51.88,
+        16.21
+      ],
+      "label": [
+        52.36,
+        11.03
+      ],
+      "entry": [
+        53,
+        14.24
+      ],
+      "exit": [
+        47.38,
+        17.85
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "rochesterk_t7",
+      "number": 7,
+      "apex": [
+        42.37,
+        20.27
+      ],
+      "label": [
+        41.35,
+        15.17
+      ],
+      "entry": [
+        47.38,
+        17.85
+      ],
+      "exit": [
+        40.79,
+        23.21
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "rochesterk_t8",
+      "number": 8,
+      "apex": [
+        42.05,
+        28.06
+      ],
+      "label": [
+        40.64,
+        23.05
+      ],
+      "entry": [
+        40.71,
+        24.89
+      ],
+      "exit": [
+        49.37,
+        31.8
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "rochesterk_t9",
+      "number": 9,
+      "apex": [
+        59.05,
+        37.01
+      ],
+      "label": [
+        62.1,
+        32.8
+      ],
+      "entry": [
+        53.96,
+        33.37
+      ],
+      "exit": [
+        66.14,
+        55.13
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "rochesterk_t10",
+      "number": 10,
+      "apex": [
+        72.17,
+        88.27
+      ],
+      "label": [
+        74.97,
+        92.65
+      ],
+      "entry": [
+        72.74,
+        82.76
+      ],
+      "exit": [
+        70.22,
+        90.52
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "rochesterk_t11",
+      "number": 11,
+      "apex": [
+        58.99,
+        86.98
+      ],
+      "label": [
+        60.45,
+        91.97
+      ],
+      "entry": [
+        62.59,
+        90.56
+      ],
+      "exit": [
+        58.65,
+        64.54
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    }
+  ]
+}

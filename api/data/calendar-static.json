@@ -1,3 +1,131 @@
 {
-  "events": []
+  "motogp": [],
+  "australia": [
+    {
+      "title": "2026 Penrite AKC Round 1",
+      "venue": "C.ex Raceway, Coffs Harbour",
+      "state": "NSW",
+      "startDate": "2026-03-13",
+      "endDate": "2026-03-15",
+      "url": "https://www.karting.net.au/ka-calendar",
+      "country": "Australia",
+      "series": "akc",
+      "seriesLabel": "Australian Kart Championship",
+      "organiser": "Karting Australia"
+    },
+    {
+      "title": "2026 Penrite AKC Round 2",
+      "venue": "Ipswich Kart Club",
+      "state": "QLD",
+      "startDate": "2026-05-15",
+      "endDate": "2026-05-17",
+      "url": "https://www.karting.net.au/ka-calendar",
+      "country": "Australia",
+      "series": "akc",
+      "seriesLabel": "Australian Kart Championship",
+      "organiser": "Karting Australia"
+    },
+    {
+      "title": "2026 Penrite AKC Round 3",
+      "venue": "Townsville Kart Club (Sun City Raceway)",
+      "state": "QLD",
+      "startDate": "2026-07-03",
+      "endDate": "2026-07-05",
+      "url": "https://www.karting.net.au/ka-calendar",
+      "notes": "Venue per AKC provisional entry list (handoff 2026-09-10).",
+      "country": "Australia",
+      "series": "akc",
+      "seriesLabel": "Australian Kart Championship",
+      "organiser": "Karting Australia"
+    },
+    {
+      "title": "2026 Penrite AKC Round 4",
+      "venue": "Eastern Lions Kart Club, Seymour",
+      "state": "VIC",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-06",
+      "url": "https://www.karting.net.au/ka-calendar",
+      "country": "Australia",
+      "series": "akc",
+      "seriesLabel": "Australian Kart Championship",
+      "organiser": "Karting Australia"
+    },
+    {
+      "title": "2026 Penrite AKC Round 5",
+      "venue": "Bolivar Raceway, Southern Go Kart Club",
+      "state": "SA",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-18",
+      "url": "https://www.karting.net.au/ka-calendar",
+      "country": "Australia",
+      "series": "akc",
+      "seriesLabel": "Australian Kart Championship",
+      "organiser": "Karting Australia"
+    }
+  ],
+  "australia_club": [],
+  "national": [
+    {
+      "title": "2026 Penrite AKC Round 1",
+      "venue": "C.ex Raceway, Coffs Harbour",
+      "state": "NSW",
+      "startDate": "2026-03-13",
+      "endDate": "2026-03-15",
+      "url": "https://www.karting.net.au/ka-calendar",
+      "country": "Australia",
+      "series": "akc",
+      "seriesLabel": "Australian Kart Championship",
+      "organiser": "Karting Australia"
+    },
+    {
+      "title": "2026 Penrite AKC Round 2",
+      "venue": "Ipswich Kart Club",
+      "state": "QLD",
+      "startDate": "2026-05-15",
+      "endDate": "2026-05-17",
+      "url": "https://www.karting.net.au/ka-calendar",
+      "country": "Australia",
+      "series": "akc",
+      "seriesLabel": "Australian Kart Championship",
+      "organiser": "Karting Australia"
+    },
+    {
+      "title": "2026 Penrite AKC Round 3",
+      "venue": "Townsville Kart Club (Sun City Raceway)",
+      "state": "QLD",
+      "startDate": "2026-07-03",
+      "endDate": "2026-07-05",
+      "url": "https://www.karting.net.au/ka-calendar",
+      "notes": "Venue per AKC provisional entry list (handoff 2026-09-10).",
+      "country": "Australia",
+      "series": "akc",
+      "seriesLabel": "Australian Kart Championship",
+      "organiser": "Karting Australia"
+    },
+    {
+      "title": "2026 Penrite AKC Round 4",
+      "venue": "Eastern Lions Kart Club, Seymour",
+      "state": "VIC",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-06",
+      "url": "https://www.karting.net.au/ka-calendar",
+      "country": "Australia",
+      "series": "akc",
+      "seriesLabel": "Australian Kart Championship",
+      "organiser": "Karting Australia"
+    },
+    {
+      "title": "2026 Penrite AKC Round 5",
+      "venue": "Bolivar Raceway, Southern Go Kart Club",
+      "state": "SA",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-18",
+      "url": "https://www.karting.net.au/ka-calendar",
+      "country": "Australia",
+      "series": "akc",
+      "seriesLabel": "Australian Kart Championship",
+      "organiser": "Karting Australia"
+    }
+  ],
+  "club": []
 }

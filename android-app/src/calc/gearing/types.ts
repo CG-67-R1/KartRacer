@@ -36,24 +36,24 @@ export type NearbyPair = {
 };
 
 export const ENGINE_CONFIG_OPTIONS: { id: EngineConfig; label: string }[] = [
-  { id: 'I4', label: 'Inline-four' },
-  { id: 'I3', label: 'Inline-triple' },
-  { id: 'I2', label: 'Parallel twin' },
-  { id: 'V2', label: 'V-twin' },
-  { id: 'V4', label: 'V4' },
-  { id: 'other', label: 'Other' },
+  { id: 'I4', label: 'Inline-four (legacy)' },
+  { id: 'I3', label: 'Inline-triple (legacy)' },
+  { id: 'I2', label: 'Twin (legacy)' },
+  { id: 'V2', label: 'V-twin (legacy)' },
+  { id: 'V4', label: 'V4 (legacy)' },
+  { id: 'other', label: 'Kart engine' },
 ];
 
 export const GEARING_GOALS: { id: GearingGoalId; label: string }[] = [
   { id: 'more_drive', label: 'More drive off corners' },
   { id: 'limiter_early', label: 'Hitting the limiter too early' },
   { id: 'too_tall', label: 'Too tall / never reaches limiter' },
-  { id: 'awkward_shifts', label: 'Shift points in the wrong place' },
-  { id: 'first_too_tall', label: 'First gear too tall (hairpins / starts)' },
-  { id: 'too_much_drive', label: 'Too much drive / wheelie / spinning' },
+  { id: 'awkward_shifts', label: 'Ratio feels wrong on this track' },
+  { id: 'first_too_tall', label: 'Too tall off the line / hairpins' },
+  { id: 'too_much_drive', label: 'Too much drive / spinning' },
 ];
 
-export const FRONT_TEETH_MIN = 11;
-export const FRONT_TEETH_MAX = 20;
-export const REAR_TEETH_MIN = 28;
-export const REAR_TEETH_MAX = 70;
+export const FRONT_TEETH_MIN = 10;
+export const FRONT_TEETH_MAX = 11;
+export const REAR_TEETH_MIN = 68;
+export const REAR_TEETH_MAX = 95;

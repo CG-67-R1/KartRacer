@@ -1,0 +1,40 @@
+{
+  "trackId": "indy800_sh",
+  "name": "Greater Sydney Kart Club (Indy 800) (Short)",
+  "lengthM": 504,
+  "startFinish": [
+    49.62,
+    57.98
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "indy800_sh_t1",
+      "number": 1,
+      "apex": [
+        64.55,
+        23
+      ],
+      "label": [
+        66.46,
+        18.16
+      ],
+      "entry": [
+        66.11,
+        18.47
+      ],
+      "exit": [
+        56.74,
+        27.56
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

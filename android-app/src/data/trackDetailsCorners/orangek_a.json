@@ -1,0 +1,40 @@
+{
+  "trackId": "orangek_a",
+  "name": "Orange Kart Club (A)",
+  "lengthM": 354,
+  "startFinish": [
+    50.27,
+    51.9
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "orangek_a_t1",
+      "number": 1,
+      "apex": [
+        9.72,
+        38.78
+      ],
+      "label": [
+        4.64,
+        37.65
+      ],
+      "entry": [
+        15.11,
+        45.8
+      ],
+      "exit": [
+        8.64,
+        29.2
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

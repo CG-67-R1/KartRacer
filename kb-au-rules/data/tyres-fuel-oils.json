@@ -1,0 +1,42 @@
+{
+  "id": "ka-tyres-fuel-oils-2026",
+  "edition": "2026-update-1",
+  "tyres": {
+    "rule": "Only KA-approved tyres from official suppliers. Class lists the compound. Air only. No mixing dry+wet. One set = 2F+2R.",
+    "suppliers": {
+      "LeCont": "Patrizicorse (SVB/SVC now renamed — use current spec papers)",
+      "Maxxis": "St George Kart Wholesale"
+    },
+    "spec_papers_listed_on_tech_page": [
+      "LeCont LH03 AUS dry",
+      "LeCont SVB dry",
+      "LeCont SVC dry",
+      "LeCont SV1 wet",
+      "Maxxis Cadet dry",
+      "Maxxis MW22 wet"
+    ],
+    "typical_by_class": {
+      "cadet": {"dry": "Maxxis 190D Cadet-KA 10x4.00-5 / 11x5.00-5", "wet": "Maxxis MW21"},
+      "ka3_ka4": {"dry": "LeCont LH03 Aus 10x4.50-5 / 11x7.10-5", "wet": "LeCont SV1 10x4.20-5 / 11x6.00-5"},
+      "ka2_tag125": {"dry": "LeCont LOH + bead retention", "wet": "LeCont SV1"},
+      "x30_rok_gp": {"dry": "LeCont LPM", "wet": "LeCont SV1"},
+      "4ss_cadet": {"dry": "Maxxis 190D", "wet": "Maxxis MW21"},
+      "4ss_junior_senior": {"dry": "Maxxis Sport", "wet": "LeCont SV1"}
+    },
+    "meeting_allocation": "From first qualifying: 1 dry set + 1 wet set (+ 1 replacement each if approved). State Championship: nominate/mark wets before first wet session.",
+    "wet_declaration": "Clerk of the Course declares Wet before wets may be used.",
+    "social_extra_dry": ["LeCont LH03 Aus / LOH / LPM", "Maxxis Sport", "Maxxis Super Sport"]
+  },
+  "fuel": {
+    "permitted": ["PULP (RON >= 95)", "E10 PULP", "E85 PULP (Vintage only)", "Elf LMS", "Panta Kart 102", "KA-approved fuel in Supplementary Regulations"],
+    "no_mix": "Do not mix unlike fuels. Same-profile pump brands may be mixed.",
+    "4ss": "PULP only",
+    "rok_gp": "Pump Fuel or Unleaded Racing Fuel"
+  },
+  "oils_2stroke": [
+    "Penrite 10 Tenths Race Castor 20W-40 full synthetic castor",
+    "Penrite KO2ST001 Two Stroke 10 Tenths Ko2st (full synthetic)",
+    "Current CIK-FIA homologated lubricants",
+    "Oils named in the engine homologation"
+  ]
+}

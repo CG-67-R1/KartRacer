@@ -1,0 +1,49 @@
+{
+  "id": "ka-fees-penalties-2026",
+  "edition": "2026-update-1",
+  "gst_note": "Listed fees include 10% GST where applicable.",
+  "permits_aud": {
+    "akc": 2360,
+    "national_series": 1762,
+    "national_cup": 1545,
+    "state_and_below": "set by SKA"
+  },
+  "licences_aud": {
+    "competition_new_or_renew": "SKA",
+    "eight_day": 115,
+    "international_driver": 1145,
+    "international_upgrade_downgrade": 580,
+    "international_competitor": 300,
+    "international_start_permission": 350,
+    "trans_tasman_visa": 235,
+    "overseas_on_domestic": 345,
+    "kac": 25,
+    "participant": 0,
+    "photographer_accreditation": 212,
+    "dealer_trade": 750
+  },
+  "judiciary_aud": {
+    "protest_national_championship_series_cup": 700,
+    "protest_other": 150,
+    "appeal_tribunal_state_club": 900,
+    "appeal_tribunal_national": 4750,
+    "amsac": "apply to Motorsport Australia"
+  },
+  "levies": {
+    "national_infrastructure_development_fund_per_entry_aud": 3
+  },
+  "penalty_types": [
+    "reprimand / warning",
+    "points penalty (affects only that driver)",
+    "time / place penalty",
+    "disqualification from section / next section / Event / Meeting",
+    "fine (interest if unpaid; licence consequences until paid)",
+    "suspension / exclusion / warned off",
+    "series points deduction"
+  ],
+  "examples_from_table": {
+    "restrictor_infringement": "14 — Disqualification from the Meeting"
+  },
+  "hearing": "Penalty after accepted Infringement Notice or Steward Hearing. 2026 recommends AI audio recording/transcription at hearings.",
+  "protests_appeals": "General Rules Ch 12–14. Confirm current Manual for windows and forms."
+}

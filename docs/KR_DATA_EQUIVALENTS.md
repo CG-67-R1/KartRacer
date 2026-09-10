@@ -3,6 +3,11 @@
 Every data asset Send-It (RoadRace) uses, its kart-racing equivalent, and where to curate it.
 Status: DONE = exists in C:\KartRacer; BUILD = to create; N/A = drops out.
 
+> 2026-09 import: the KARTS Cursor project (Downloads) was merged in — `kb/` (setup/engine/tyre
+> KB), `kb-au-rules/` (2026 KA Manual Update 1 snapshot: classes, weights, restrictors, licences,
+> clubs, state regs), and `tools/setup-engine/` (tested calculators). Statuses below updated where
+> that import satisfied or partially satisfied a row.
+
 ## 1. Track data
 
 | RR asset | KR equivalent | Status | Source |
@@ -24,20 +29,20 @@ Status: DONE = exists in C:\KartRacer; BUILD = to create; N/A = drops out.
 | gearing/bikePowerbandRef.json | kartEngineRef.json (X30, KA100/KA3/KA4, Rotax Max/Junior/Senior, KZ2, 4SS) | BUILD | Karting Australia engine tech specs PDFs (karting.net.au/administration/technical), IAME + Rotax official docs |
 | onboardingBikes.json | onboardingKarts.json (chassis: Tony Kart, Kosmic, Exprit (OTK); Birel ART; CRG; Arrow; EOS; Parolin; FA Kart + engine packages) | BUILD | Manufacturer sites, AU importers (Patrizi Corse=Birel, Remo Racing=IAME, Parolin Australia, Alpha Motorsport=EOS) |
 | onboardingRiders.json (racer blurbs) | onboardingDrivers.json — DECIDED 2026-09: themed on the karting-to-pro pathway: Formula 1 (e.g. Ricciardo, Piastri, Hamilton, Verstappen — all ex-karters), V8 Supercars/Supercars champions who began in AU karting, IndyCar Series (e.g. Power, McLaughlin, Palou), F1 Academy drivers. Verify every blurb; aliases + characteristics format kept | BUILD | Official F1/Supercars/IndyCar/F1 Academy sites + driver bios; KartSportNews archive for their AU karting origins |
-| Suspension KB (Ohlins/WP/Nitron...) | Chassis tuning KB (no suspension; axle/torsion/seat tuning) | SKELETON in gpt-knowledge | ANGRI + OTK + chassis manuals as above |
-| Tyre KB (Pirelli/Michelin/Bridgestone/Dunlop road-race) | Control kart tyres: MG (AKC slick), LeCont SV1 wet, Maxxis MW22 wet, Dunlop DFM/DGM, Bridgestone YLC/YDS, Mojo (Rotax) | SKELETON in gpt-knowledge | Karting Australia tyre spec PDFs (karting.net.au/administration/technical), tyre maker sites, class regs |
-| tyre pressure guides | kart pressures (typical 8-14 psi slicks, class/tyre-specific) | BUILD | Tyre importer guidance, club tech notes, MG/LeCont official docs. No invented numbers |
-| tyre-wear-patterns / photo recognition | kart slick wear atlas (graining, blistering, hot tear, cold graining, flat spots, inner/outer shoulder wear from camber/width) | SKELETON | TKART technical articles, tyre maker tech notes, Paradigm Shift Racing |
+| Suspension KB (Ohlins/WP/Nitron...) | Chassis tuning KB (no suspension; axle/torsion/seat tuning) | DONE `gpt-knowledge/chassis-setup-and-tyre-kb.md` (from `kb/`) | ANGRI + OTK + chassis manuals as above |
+| Tyre KB (Pirelli/Michelin/Bridgestone/Dunlop road-race) | Control kart tyres: MG (AKC slick), LeCont SV1 wet, Maxxis MW22 wet, Dunlop DFM/DGM, Bridgestone YLC/YDS, Mojo (Rotax) | DONE — class map (`kb-au-rules/data/tyres-fuel-oils.json`) + full spec extract (`gpt-knowledge/control-tyre-data-extract.md`; PDFs in `kb/sources/tyre-spec-pdfs/`) | Karting Australia tyre spec PDFs (karting.net.au/administration/technical), tyre maker sites, class regs |
+| tyre pressure guides | kart pressures (typical 8-14 psi slicks, class/tyre-specific) | DONE — cited baselines per compound (LH03 9.5-11 psi, LOH 8.5-10, LPM 8.0-9.5, Maxxis Cadet 0.6 bar, SV1 0.9 bar) in `control-tyre-data-extract.md` + pyrometer loop in troubleshooting guide | Tyre importer guidance, club tech notes, MG/LeCont official docs. No invented numbers |
+| tyre-wear-patterns / photo recognition | kart slick wear atlas (graining, blistering, hot tear, cold graining, flat spots, inner/outer shoulder wear from camber/width) | DONE (`kart-tyre-wear-patterns.md` + `kart-tyre-photo-recognition.md`) | TKART technical articles, tyre maker tech notes, Paradigm Shift Racing |
 
 ## 3. Rules, licensing, organisations
 
 | RR asset | KR equivalent | Status | Source |
 |---|---|---|---|
-| MoMS (Manual of Motorcycle Sport) ingestion | 2026 Australian Karting Manual (KA National Competition Rules + updates) | BUILD | karting.net.au/administration/rules (PDF set, updated annually + mid-year updates) |
-| MA licensing pathways | KA licence grades (C Grade Junior/Senior, D Grade, E Grade practice, endorsements) | BUILD | karting.net.au licensing pages, KA Manual chapters |
-| Organisations: MA + state MCs + clubs | Karting Australia + state assocs (KANSW kansw.com.au, Karting SA kartingsa.com.au, KA Vic, KA Qld, KA WA, KA Tas, KA NT) + ~90 clubs | BUILD | karting.net.au club finder, state body sites; club list also derivable from the 129 GPX venue names |
-| Competitions: ASBK classes/series | KA classes: Cadet 9/12, KA4 Jnr, KA3 Snr, KA2, X30, TaG 125/Restricted, KZ2, Victorian Combined etc. Series: Australian Kart Championship (AKC), Rotax Pro Tour, state championships, club champs | BUILD | 2026 AKC Sporting Regulations PDF, KA Manual class rules, rotaxaustralia |
-| Rulebook quick-refs (flags, penalties) | kart flags/penalties/weights (same KA Manual) | BUILD | KA Manual |
+| MoMS (Manual of Motorcycle Sport) ingestion | 2026 Australian Karting Manual (KA National Competition Rules + updates) | DONE structured snapshot `kb-au-rules/` (2026 Update 1, national + states); raw PDF ingest for Q&A still BUILD (J3.4) | karting.net.au/administration/rules (PDF set, updated annually + mid-year updates) |
+| MA licensing pathways | KA licence grades (C Grade Junior/Senior, D Grade, E Grade practice, endorsements) | DONE `kb-au-rules/data/licences.json` + `national/licences.md` + `playbooks/licence-path.md` | karting.net.au licensing pages, KA Manual chapters |
+| Organisations: MA + state MCs + clubs | Karting Australia + state assocs (KANSW kansw.com.au, Karting SA kartingsa.com.au, KA Vic, KA Qld, KA WA, KA Tas, KA NT) + ~90 clubs | DONE `kb-au-rules/data/clubs.json` + `clubs.md` (affiliated clubs by state, contacts, sites) | karting.net.au club finder, state body sites; club list also derivable from the 129 GPX venue names |
+| Competitions: ASBK classes/series | KA classes: Cadet 9/12, KA4 Jnr, KA3 Snr, KA2, X30, TaG 125/Restricted, KZ2, Victorian Combined etc. Series: Australian Kart Championship (AKC), Rotax Pro Tour, state championships, club champs | PARTIAL — class rules DONE (`kb-au-rules/data/classes.json` + `national/classes.md` + `gpt-knowledge/kart-class-reference.md`); series/calendar data still BUILD | 2026 AKC Sporting Regulations PDF, KA Manual class rules, rotaxaustralia |
+| Rulebook quick-refs (flags, penalties) | kart flags/penalties/weights (same KA Manual) | DONE `kb-au-rules/national/flags-driving.md` + `fees-penalties.md` + `data/fees-penalties.json` | KA Manual |
 
 ## 4. Calendar + headlines (API)
 

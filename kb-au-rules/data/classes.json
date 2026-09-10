@@ -1,0 +1,297 @@
+{
+  "id": "ka-classes-2026",
+  "edition": "2026-update-1",
+  "weight_includes": "kart + driver + equipment unless max_kart_ex_driver",
+  "confirm": "State Regulations and Supplementary Regulations can change weights and eligible divisions.",
+  "age_bands_marketing": {
+    "cadet": "practice from 6th birthday, race from 7th, Cadet 9/12 split",
+    "junior": "licence from 11th birthday; some classes from 12th",
+    "senior": "new senior from 15th; junior may move up from 14th",
+    "masters_ka_classes": "usually 40+ (KA3 / TaG Restricted)",
+    "masters_dd2_rok": "32+ (Rok GP allows under 32 if driver+kit >= 85 kg)"
+  },
+  "plates": {
+    "cadet": {"bg": "white", "numbers": "red"},
+    "junior": {"bg": "white", "numbers": "black"},
+    "senior": {"bg": "yellow", "numbers": "black"}
+  },
+  "classes": [
+    {
+      "id": "cadet-9",
+      "chapter": 1,
+      "age": {"min": "6th birthday (practice); 7th to compete", "max": "10th birthday"},
+      "move": "can to Cadet 12 from 9th; must from 10th",
+      "licence": "Cadet 9; National min C Grade",
+      "wheelbase_min_mm": 880,
+      "engines": [
+        {"name": "Vortex Mini Rok + 16 mm restrictor", "weight_kg": 100, "levels": "all listed"},
+        {"name": "Comer SW80", "weight_kg": 90, "levels": "Zonal (unless SKA says no) and Club"},
+        {"name": "Yamaha KT100J + 13.02 mm AKA1 exhaust restrictor", "weight_kg": 100, "levels": "Zonal/Club"}
+      ],
+      "tyres": {"dry": "Maxxis 190D Cadet-KA 10x4.00-5 / 11x5.00-5", "wet": "Maxxis MW21 same sizes"},
+      "axle_club": "OD 30 / ID 24, length 920–970 mm",
+      "axle_state_national": "OD 30 / ID 20.2, length 950–970 mm, max width 1100 mm",
+      "eligibility": ["Club", "Zonal", "State", "National"],
+      "rib_protector": "mandatory"
+    },
+    {
+      "id": "micromax",
+      "chapter": 2,
+      "age": {"min": 7, "max": "10th birthday"},
+      "eligibility": ["Social Karting only"],
+      "licence": "min C Grade Cadet 9",
+      "engine": "Rotax Micro Max 110H",
+      "wheelbase_mm": [890, 960],
+      "weight_kg": 110
+    },
+    {
+      "id": "cadet-12",
+      "chapter": 3,
+      "age": {"min": "9th birthday", "max": "13th birthday"},
+      "licence": "Cadet 12; National min C Grade",
+      "wheelbase_min_mm": 880,
+      "engines": [
+        {"name": "Vortex Mini Rok unrestricted", "weight_kg": 110},
+        {"name": "Yamaha KT100J + 16.00 mm AKA2A restrictor", "weight_kg": 105, "levels": "Zonal/Club indefinitely"}
+      ],
+      "tyres": {"dry": "Maxxis 190D Cadet-KA", "wet": "Maxxis MW21"},
+      "eligibility": ["Club", "Zonal", "State", "National"],
+      "rib_protector": "mandatory"
+    },
+    {
+      "id": "minimax",
+      "chapter": 4,
+      "age": {"min": "9th birthday", "max": "13th birthday"},
+      "eligibility": ["Social Karting only"],
+      "licence": "min C Grade Cadet 12",
+      "engine": "Rotax Mini Max EVO MY20 111H/RH",
+      "wheelbase_mm": [890, 1020],
+      "axle_max_mm": 40,
+      "weight_kg": 125
+    },
+    {
+      "id": "ka4",
+      "chapter": 5,
+      "note": "State Regulation class ONLY — Club eligibility in NCR",
+      "engine": "IAME KA100 + 19 mm IAME restrictor",
+      "age": {"junior": "11th–16th birthday", "senior": "by licence", "masters": "40+"},
+      "tyres": {"dry": "LeCont LH03 Aus 10x4.50-5 / 11x7.10-5", "wet": "LeCont SV1 10x4.20-5 / 11x6.00-5"},
+      "weights_kg": {
+        "junior_light": 128,
+        "junior_heavy": 148,
+        "senior_light": 148,
+        "senior_heavy": 163,
+        "masters": 163
+      },
+      "max_kart_ex_driver_kg": {"junior_heavy_senior_heavy_masters": 96}
+    },
+    {
+      "id": "ka3",
+      "chapter": 6,
+      "engine": "IAME KA100",
+      "restrictor": {"junior": "22 mm Type 3 IAME", "senior": "unrestricted"},
+      "age": {"junior": "11th–16th birthday", "senior": "by licence", "masters": "40+"},
+      "licence": {"national": "min C Grade", "other": "Junior or Senior as applicable"},
+      "tyres": {"dry": "LeCont LH03 Aus", "wet": "LeCont SV1"},
+      "weights_kg": {
+        "junior_championship": 137,
+        "junior_light": 132,
+        "junior_heavy": 150,
+        "senior_championship": 160,
+        "senior_light": 150,
+        "senior_medium": 170,
+        "senior_heavy": 190,
+        "masters": 170
+      },
+      "max_kart_ex_driver_kg": {"junior_heavy_senior_medium_senior_heavy": 97},
+      "eligibility": ["Club", "Zonal", "State", "National"],
+      "marketing_top_speed_kmh": {"junior": 100, "senior": 120}
+    },
+    {
+      "id": "rotax-junior-max",
+      "chapter": 8,
+      "age": {"min": "12th birthday", "max": "16th birthday"},
+      "licence": "min B Grade Junior",
+      "engine": "Rotax MAX 125 / Junior Max EVO",
+      "restrictor": "Rotax SR4 23.50 mm",
+      "weight_kg": 145,
+      "tyres": {"dry": "LeCont LH03 + bead retention", "wet": "LeCont SV1"},
+      "chassis": "Rotax Trophy Class regs if Trophy"
+    },
+    {
+      "id": "ka2",
+      "chapter": 9,
+      "age": {"min": "12th birthday", "max": "16th birthday"},
+      "licence": "min B Grade Junior",
+      "engine": "Vortex Rok DVS Junior",
+      "weight_kg": 142,
+      "tyres": {"dry": "LeCont LOH + bead retention", "wet": "LeCont SV1"},
+      "eligibility": ["Club", "Zonal", "State", "National"]
+    },
+    {
+      "id": "x30",
+      "chapter": 10,
+      "age": "by licence",
+      "licence": "min B Grade Senior",
+      "engine": "IAME X30 78H/RH unrestricted",
+      "weights_kg": {"light": 162, "heavy": 176},
+      "max_kart_ex_driver_kg": {"heavy": 102},
+      "tyres": {"dry": "LeCont LPM + bead retention", "wet": "LeCont SV1"}
+    },
+    {
+      "id": "rotax-125",
+      "chapter": 11,
+      "age": "by licence",
+      "licence": "min B Grade Senior",
+      "engine": "Rotax 125 Max 113H/RH",
+      "trophy_restrictor": "SR4 23.50 mm (Trophy Class only; open Rotax 125 N/A)",
+      "weights_kg": {
+        "national_series_light": 165,
+        "national_series_heavy": 180,
+        "other_light": 160,
+        "other_heavy": 180
+      },
+      "max_kart_ex_driver_kg": {"heavy": 102},
+      "tyres": {"dry": "LeCont LH03 Aus + bead retention", "wet": "LeCont SV1"}
+    },
+    {
+      "id": "tag-125-restricted",
+      "chapter": 12,
+      "age": {"masters": "40+"},
+      "licence": "Senior; National Cup / State Championship+ max C Grade (40+ may hold A/B). State champ winners in Light/Medium/Heavy ineligible for Restricted at next year's State Championship.",
+      "engines": ["IAME X30", "Rotax Max 125", "Rotax Junior Max", "PRD Galaxy", "Vortex Rok GP", "PRD Fireball", "Parilla Leopard (expired homologation — State only)", "SQ Cheetah (expired — State only)"],
+      "tyres": {"dry": "LeCont LH03 Aus", "wet": "LeCont SV1"},
+      "weights_kg": {
+        "light": {"rotax_sr3": 160, "rotax_sr2_or_sr4": 165, "x30": 160, "rok_gp": 160, "other": 160},
+        "medium": {"rotax_sr3": 180, "rotax_sr2_or_sr4": 185, "x30": 180, "rok_gp": 180, "other": 180},
+        "heavy": {"rotax_sr3": 200, "rotax_sr2_or_sr4": 205, "x30": 200, "rok_gp": 200, "other": 200},
+        "masters": {"rotax_sr3": 180, "rotax_sr2_or_sr4": 185, "x30": 180, "rok_gp": 180, "other": 180}
+      },
+      "max_kart_ex_driver_kg": {"medium_heavy": 102}
+    },
+    {
+      "id": "tag-125",
+      "chapter": 13,
+      "age": {"masters": "40+"},
+      "licence": "min B Grade Senior",
+      "tyres": {"dry": "LeCont LOH + bead retention", "wet": "LeCont SV1"},
+      "weights_kg": {
+        "championship": {"x30": 172, "rotax": 172, "galaxy": 172, "rok_gp": 172},
+        "light": {"x30": 160, "rotax": 160, "galaxy": 160, "rok_gp": 160, "fireball": 150, "leopard": 155, "cheetah": 155},
+        "heavy": {"x30": 180, "rotax": 180, "galaxy": 180, "rok_gp": 180, "fireball": 170, "leopard": 175, "cheetah": 175},
+        "masters": {"x30": 180, "rotax": 180, "galaxy": 180, "rok_gp": 180, "fireball": 170, "leopard": 175, "cheetah": 175}
+      },
+      "max_kart_ex_driver_kg": {"heavy": 102}
+    },
+    {
+      "id": "dd2",
+      "chapter": 14,
+      "age": {"masters": "32+"},
+      "licence": "min B Grade Senior",
+      "engine": "Rotax 125 Max DD2 114H, 2-speed chainless",
+      "chassis": "DD2-specific with front brakes + rear tyre protection",
+      "weights_kg": {"open": 173, "masters": 180},
+      "tyres": {"dry": "LeCont LH03 + bead retention", "wet": "LeCont SV1"}
+    },
+    {
+      "id": "rok-gp",
+      "chapter": 15,
+      "age": {"masters": "32+ or driver+kit >= 85 kg"},
+      "licence": "min B Grade Senior",
+      "engine": "Vortex Rok GP 125 122H",
+      "fuel": ["Pump Fuel", "Unleaded Racing Fuel"],
+      "weights_kg": {"light": 162, "heavy": 180, "masters": 180},
+      "tyres": {"dry": "LeCont LPM", "wet": "LeCont SV1"}
+    },
+    {
+      "id": "kz2",
+      "chapter": 16,
+      "licence": "confirm class (typically high-grade Senior)",
+      "weight_kg": 177,
+      "tyres": {"wet": "LeCont SV1"}
+    },
+    {
+      "id": "open-performance",
+      "chapter": 17,
+      "licence": "min B Grade Senior (C Grade if 4-stroke only)",
+      "weights": "State Regulations or Supplementary Regulations",
+      "note": "QLD / TAS / WA publish engine-category weight tables."
+    },
+    {
+      "id": "gearbox",
+      "chapter": 18,
+      "weights": "State / Supplementary"
+    },
+    {
+      "id": "yamaha",
+      "chapter": 19,
+      "engines": ["KT100J (Junior licence)", "KT100SEC", "KT100SE", "KT100SD"],
+      "weights_kg": {
+        "junior_kt100j": 131,
+        "junior_other": 141,
+        "senior_light": 141,
+        "senior_medium": 161,
+        "senior_heavy": 181,
+        "masters": 161
+      },
+      "max_kart_ex_driver_kg": {"senior_medium_heavy": 90}
+    },
+    {
+      "id": "vintage",
+      "chapter": 20,
+      "cutoff": "class/engine last raced in Australia on or before 2000-12-31",
+      "removed_from_rules_years": 15,
+      "racing": false,
+      "allowed": ["practice", "parade", "multi-kart demonstration", "time trial (1 warm + 2 timed + 1 cool)", "regularity"],
+      "fuel": "E85 PULP permitted for specified Vintage categories (2026)",
+      "licence": "Vintage licence"
+    },
+    {
+      "id": "4ss",
+      "chapter": 21,
+      "role": "introductory sealed 4-stroke",
+      "engine": "Torini Clubmaxx 210 factory sealed (Cadet uses Cadet restrictor / 16.5 mm carb on marketing page)",
+      "fuel": "PULP only",
+      "wheelbase_min_mm": {"cadet": 880, "junior_senior": 1000},
+      "tyres": {
+        "cadet_dry": "Maxxis 190D Cadet-KA",
+        "junior_senior_dry": "Maxxis Sport (SuperSport only to 2025-04-30)",
+        "cadet_wet": "Maxxis MW21",
+        "junior_senior_wet": "LeCont SV1"
+      },
+      "weights_kg": {
+        "cadet": 100,
+        "junior": 130,
+        "senior_light": 140,
+        "senior_medium": 155,
+        "senior_heavy": 170
+      },
+      "ska_may_shift_senior_weights_kg": 5,
+      "max_kart_ex_driver_kg": {"medium_heavy": 102}
+    },
+    {
+      "id": "4ss-super",
+      "chapter": 22,
+      "engine": "Torini Supermaxx TX250 121H, four factory seals",
+      "eligibility": ["Social", "Club", "one State Trophy per state", "Ultimate Club Racer"],
+      "licence": "max B Grade Senior unless 40+ (A Grade ok); A-Grade at Club usually no points",
+      "fuel": "PULP only",
+      "weights_kg": {"light": 155, "medium": 170, "heavy": 185},
+      "max_kart_ex_driver_kg": {"medium_heavy": 102},
+      "grid_vs_4ss": "4SS Super in front when consolidated"
+    },
+    {
+      "id": "4se",
+      "chapter": 23,
+      "weights_kg": {"single": 175, "twin": 185},
+      "radio": "pit-to-car allowed if not on officials channels"
+    },
+    {
+      "id": "dirt-track",
+      "chapter": 24,
+      "note": "Separate dirt-track class rules in Manual."
+    }
+  ],
+  "engines_per_meeting": 2,
+  "tyre_sets_from_qualifying": {"dry": 1, "wet": 1, "plus_one_replacement_if_approved": true}
+}

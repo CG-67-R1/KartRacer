@@ -1,0 +1,68 @@
+{
+  "trackId": "clubsa_c_ccw",
+  "name": "Go Kart Club of SA (Monarto / Rocky Gully) (C CCW)",
+  "lengthM": 749,
+  "startFinish": [
+    47.86,
+    49.23
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "clubsa_c_ccw_t1",
+      "number": 1,
+      "apex": [
+        42.03,
+        53.22
+      ],
+      "label": [
+        40.15,
+        58.07
+      ],
+      "entry": [
+        45.09,
+        52.16
+      ],
+      "exit": [
+        40.03,
+        52.44
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "clubsa_c_ccw_t2",
+      "number": 2,
+      "apex": [
+        51.93,
+        16.97
+      ],
+      "label": [
+        53.12,
+        11.91
+      ],
+      "entry": [
+        54.95,
+        17.58
+      ],
+      "exit": [
+        50.51,
+        17.78
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    }
+  ]
+}

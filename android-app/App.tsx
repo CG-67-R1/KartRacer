@@ -169,7 +169,7 @@ function RiderCoachStack() {
         options={({ route }) => ({
           title:
             (route.params as { mode?: string } | undefined)?.mode === 'bikesetup'
-              ? 'Bike Setup'
+              ? 'Kart Setup'
               : 'AI Coach',
         })}
       />

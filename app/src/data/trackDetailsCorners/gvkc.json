@@ -1,0 +1,40 @@
+{
+  "trackId": "gvkc",
+  "name": "Goulburn Valley Kart Club (Numurkah)",
+  "lengthM": 514,
+  "startFinish": [
+    44.1,
+    53.61
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "gvkc_t1",
+      "number": 1,
+      "apex": [
+        54.92,
+        23.16
+      ],
+      "label": [
+        56.31,
+        18.15
+      ],
+      "entry": [
+        54.22,
+        27.17
+      ],
+      "exit": [
+        57.59,
+        19.94
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

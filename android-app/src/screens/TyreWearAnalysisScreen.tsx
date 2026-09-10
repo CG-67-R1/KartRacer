@@ -267,7 +267,7 @@ export function TyreWearAnalysisScreen() {
   return (
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled">
-        <PrivateSetupBanner detail="Photos and tyre facts stay on this device until you send them to Bike Setup Coach for diagnosis." />
+        <PrivateSetupBanner detail="Photos and tyre facts stay on this device until you send them to Kart Setup Coach for diagnosis." />
 
         <Text style={styles.intro}>
           Capture the tyre the way a crew chief would look at it, then fill what the photos cannot
@@ -334,7 +334,7 @@ export function TyreWearAnalysisScreen() {
           label="Brand / model / compound"
           value={state.brandCompound}
           onChangeText={(t) => setState((prev) => ({ ...prev, brandCompound: t }))}
-          placeholder="e.g. Pirelli Diablo Superbike SC2"
+          placeholder="e.g. LeCont LH03 / Maxxis 190D"
         />
 
         <View style={styles.row2}>
@@ -451,7 +451,7 @@ export function TyreWearAnalysisScreen() {
           {sending ? (
             <ActivityIndicator color="#0f172a" />
           ) : (
-            <Text style={styles.sendBtnText}>Analyse with Bike Setup Coach</Text>
+            <Text style={styles.sendBtnText}>Analyse with Kart Setup Coach</Text>
           )}
         </TouchableOpacity>
         {hasDraft && !sending ? (

@@ -1,0 +1,320 @@
+{
+  "trackId": "burnettk",
+  "name": "Burnett Kart Track",
+  "lengthM": 756,
+  "startFinish": [
+    50.7,
+    55.06
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "burnettk_t1",
+      "number": 1,
+      "apex": [
+        78.14,
+        31.24
+      ],
+      "label": [
+        82.61,
+        28.58
+      ],
+      "entry": [
+        73.32,
+        35.25
+      ],
+      "exit": [
+        83.46,
+        30.53
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "burnettk_t2",
+      "number": 2,
+      "apex": [
+        88.68,
+        44.69
+      ],
+      "label": [
+        93.85,
+        44.16
+      ],
+      "entry": [
+        91.38,
+        40.77
+      ],
+      "exit": [
+        83.84,
+        46.76
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "burnettk_t3",
+      "number": 3,
+      "apex": [
+        32.21,
+        82.55
+      ],
+      "label": [
+        29.92,
+        87.22
+      ],
+      "entry": [
+        38.02,
+        80.03
+      ],
+      "exit": [
+        22.51,
+        81.5
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "burnettk_t4",
+      "number": 4,
+      "apex": [
+        8.37,
+        67.14
+      ],
+      "label": [
+        3.64,
+        69.29
+      ],
+      "entry": [
+        9.48,
+        72.56
+      ],
+      "exit": [
+        11.44,
+        60.45
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "burnettk_t5",
+      "number": 5,
+      "apex": [
+        21.82,
+        50.4
+      ],
+      "label": [
+        16.63,
+        50.71
+      ],
+      "entry": [
+        18.12,
+        52.41
+      ],
+      "exit": [
+        24.58,
+        50.72
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "burnettk_t6",
+      "number": 6,
+      "apex": [
+        22.16,
+        66.94
+      ],
+      "label": [
+        17.87,
+        69.87
+      ],
+      "entry": [
+        23.43,
+        62.86
+      ],
+      "exit": [
+        23.15,
+        70.04
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "burnettk_t7",
+      "number": 7,
+      "apex": [
+        27.63,
+        72.13
+      ],
+      "label": [
+        24.14,
+        75.99
+      ],
+      "entry": [
+        24.93,
+        71.67
+      ],
+      "exit": [
+        30.4,
+        70.66
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "burnettk_t8",
+      "number": 8,
+      "apex": [
+        58.65,
+        17.63
+      ],
+      "label": [
+        60.22,
+        12.67
+      ],
+      "entry": [
+        53.65,
+        20.14
+      ],
+      "exit": [
+        63.71,
+        17.56
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "burnettk_t9",
+      "number": 9,
+      "apex": [
+        71.35,
+        24.02
+      ],
+      "label": [
+        74.86,
+        20.18
+      ],
+      "entry": [
+        69.46,
+        20.59
+      ],
+      "exit": [
+        70.84,
+        27.26
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "burnettk_t10",
+      "number": 10,
+      "apex": [
+        45.82,
+        38.92
+      ],
+      "label": [
+        44.33,
+        33.94
+      ],
+      "entry": [
+        51.99,
+        33.59
+      ],
+      "exit": [
+        43.07,
+        45.72
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "burnettk_t11",
+      "number": 11,
+      "apex": [
+        46.08,
+        54.18
+      ],
+      "label": [
+        43.77,
+        58.84
+      ],
+      "entry": [
+        43.83,
+        51.86
+      ],
+      "exit": [
+        50.7,
+        55.06
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    }
+  ]
+}

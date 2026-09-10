@@ -26,6 +26,21 @@ Do NOT redesign screens. Rename user-facing strings only where they say bike/rid
 
 ## Pre-import (do before J1.1)
 
+> **2026-09-10 research handoff (Hermes):** all remaining placeholder data has been researched
+> and compiled in [`CURSOR_RESEARCH_HANDOFF_2026-09-10.md`](CURSOR_RESEARCH_HANDOFF_2026-09-10.md)
+> — tyre pressures/specs (KA spec PDFs archived in `kb/sources/tyre-spec-pdfs/`), engine reference
+> table, 2026 AKC calendar, state calendar sources, verified RSS feeds, onboarding driver/kart
+> source lists, and the ordered P0→P2 job list with the ready-to-test gate checklist. Work from
+> that report; it supersedes per-job research notes below where they overlap.
+
+> **2026-09 KARTS import (Hermes):** `kb/` (setup/engine/tyre KB + machine JSON), `kb-au-rules/`
+> (2026 KA Manual Update 1 structured snapshot: classes/weights/restrictors/licences/clubs/fees,
+> national + 6 states), and `tools/setup-engine/` (tested TS calculators + rules JSON, 35 vitest
+> tests passing) now live in this repo. gpt-knowledge chassis/tyre/class/technique/diagnostic
+> files are POPULATED from those sources (see `gpt-knowledge/coaching-knowledge-base-index.md`).
+> J2.1/J2.2/J3.5 content sources are now local; J3.4 Q&A can cite `kb-au-rules/` while the raw
+> KA Manual PDF ingest is pending.
+
 From `docs/reviews/KARTCOACH_2026-09-08.md`:
 
 1. Fix S/F waypoints >30 m off polyline: GoldfieldsK, SPKP Var3, SPKP Var4, LismoreK, OrangeK B, OrangeK C, WollongongK, MegaFastKart.

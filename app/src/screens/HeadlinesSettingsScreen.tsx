@@ -126,12 +126,12 @@ export function HeadlinesSettingsScreen() {
     try {
       const updated = await updateOnboardingAnswers({ favouriteBike: trimmed });
       if (!updated) {
-        Alert.alert('Profile', 'Complete onboarding first to save your favourite bike.');
+        Alert.alert('Profile', 'Complete onboarding first to save your favourite kart.');
         return;
       }
       setFavouriteBike(trimmed);
     } catch (e) {
-      Alert.alert('Error', e instanceof Error ? e.message : 'Could not save favourite bike');
+      Alert.alert('Error', e instanceof Error ? e.message : 'Could not save favourite kart');
     } finally {
       setProfileBusy(false);
     }
@@ -159,7 +159,7 @@ export function HeadlinesSettingsScreen() {
   );
 
   const handleRemoveRiderFace = useCallback(() => {
-    Alert.alert('Remove rider photo', 'Remove the photo from your leathers avatar?', [
+    Alert.alert('Remove driver photo', 'Remove the photo from your race-suit avatar?', [
       { text: 'Cancel', style: 'cancel' },
       {
         text: 'Remove',
@@ -251,7 +251,7 @@ export function HeadlinesSettingsScreen() {
         null,
         2
       );
-      await Share.share({ title: 'RoadRacer data export', message: json });
+      await Share.share({ title: 'KartRacer data export', message: json });
     } catch (e) {
       Alert.alert('Export failed', e instanceof Error ? e.message : 'Could not export your data.');
     }
@@ -261,7 +261,7 @@ export function HeadlinesSettingsScreen() {
     if (!onboardingReset) return;
     Alert.alert(
       'Delete all local data?',
-      'This permanently removes your profile, photos, Bike Setup Sheet and saved setups, Bike Balance, Gearing Guide, Tyre Wear, and Track Walk notes from this device, then restarts onboarding.',
+      'This permanently removes your profile, photos, Kart Setup Sheet and saved setups, Chassis Balance, Gearing Guide, Tyre Wear, and Track Walk notes from this device, then restarts onboarding.',
       [
         { text: 'Cancel', style: 'cancel' },
         {
@@ -360,13 +360,13 @@ export function HeadlinesSettingsScreen() {
           disabled={profileBusy}
           activeOpacity={0.85}
         >
-          <Text style={styles.saveProfileBtnText}>Save favourite bike</Text>
+          <Text style={styles.saveProfileBtnText}>Save favourite kart</Text>
         </TouchableOpacity>
 
-        <Text style={[styles.fieldLabel, { marginTop: 16 }]}>How you ride</Text>
+        <Text style={[styles.fieldLabel, { marginTop: 16 }]}>How you race</Text>
         <Text style={styles.sectionSubtitle}>
-          Home shows setup tools if you race, or coach and track prep if you ride track days.
-          Coach and Bike Setup also use this: simpler for track days and getting into racing, more
+          Home shows setup tools if you race, or coach and track prep if you do club days.
+          Coach and Kart Setup also use this: simpler for club days and getting into racing, more
           detail if you are intermediate or already racing. Change it anytime — it applies to the
           next AI reply. Current home:{' '}
           {homeModeFromActivity(activity) === 'setup' ? 'Setup' : 'Learn'}.
@@ -524,13 +524,13 @@ export function HeadlinesSettingsScreen() {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Your data & privacy</Text>
         <Text style={styles.sectionSubtitle}>
-          Your profile, avatar, Bike Setup Sheet, saved bike setups, Bike Balance data, and Track Walk
+          Your profile, avatar, Kart Setup Sheet, saved kart setups, Chassis Balance data, and Track Walk
           notes stay private in local storage on this device or browser. They are not stored in an
           online account. Sharing a setup as text only happens when you choose Messages or another app.
         </Text>
         <Text style={styles.sectionSubtitle}>
-          AI Coach, Bike Setup, and Q&amp;A messages you send, including attachments, are transmitted
-          to the RoadRacer API and may be processed by OpenAI. Chat history is not stored on the
+          AI Coach, Kart Setup, and Q&amp;A messages you send, including attachments, are transmitted
+          to the KartRacer API and may be processed by OpenAI. Chat history is not stored on the
           server after the response.
         </Text>
         <View style={styles.legalLinks}>

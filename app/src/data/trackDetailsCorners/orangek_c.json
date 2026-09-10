@@ -1,0 +1,124 @@
+{
+  "trackId": "orangek_c",
+  "name": "Orange Kart Club (C)",
+  "lengthM": 829,
+  "startFinish": [
+    59.35,
+    56.64
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "orangek_c_t1",
+      "number": 1,
+      "apex": [
+        33.43,
+        21.48
+      ],
+      "label": [
+        31.04,
+        16.86
+      ],
+      "entry": [
+        41.21,
+        20.3
+      ],
+      "exit": [
+        30.97,
+        19.97
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "orangek_c_t2",
+      "number": 2,
+      "apex": [
+        65.55,
+        67.26
+      ],
+      "label": [
+        69.4,
+        70.75
+      ],
+      "entry": [
+        71.55,
+        58.52
+      ],
+      "exit": [
+        65.62,
+        78.44
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "orangek_c_t3",
+      "number": 3,
+      "apex": [
+        28.06,
+        90.83
+      ],
+      "label": [
+        25.48,
+        95.35
+      ],
+      "entry": [
+        35.88,
+        91.52
+      ],
+      "exit": [
+        26.8,
+        89.36
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "orangek_c_t4",
+      "number": 4,
+      "apex": [
+        27.55,
+        85.96
+      ],
+      "label": [
+        24.66,
+        90.28
+      ],
+      "entry": [
+        26.62,
+        87.29
+      ],
+      "exit": [
+        38.79,
+        82.8
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    }
+  ]
+}

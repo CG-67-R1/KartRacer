@@ -1,0 +1,35 @@
+{
+  "origin": "kb-au-rules/national/2026-changes.md",
+  "title": "2026 KA Manual — changes",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "---\nid: ncr-2026-changes\ntitle: 2026 NCR headline changes\ntags: [2026, ncr, lightning, trophy, e85, rotax]\n---\n\n# 2026 NCR headline changes\n\nEffective **1 January 2026**.\n\n- **Significant Incident / Significant Injury** — new definitions and mandatory reporting.\n- **Lightning / thunderstorm** — Appendix 8: monitor, suspend, resume.\n- **Officials** — clearer duties; Stewards/Clerk accountability; minimum officials by event risk; **Meeting Integrity Delegate** at State Championships.\n- **Steward hearings** — recommend AI audio recording and transcription.\n- **Technical/class tweaks** — clutch and spark-plug washer clarifications; **E85** allowed for specified Vintage categories; long-hair apparel rule; **TaG Restricted licence progression** updated; **revised Rotax restrictor** eligible when Rotax supplies it.\n- **Rotax Trophy Class** — as-supplied kart, minimal setup, no performance mods. Separate Trophy technical regs on the technical page (updated August 2026).\n\nState Regulations follow after the national book (NSW V3 May, WA V3 August, others Feb–April 2026).\n",
+  "contentBlocks": [
+    {
+      "type": "paragraph",
+      "text": "---\nid: ncr-2026-changes\ntitle: 2026 NCR headline changes\ntags: [2026, ncr, lightning, trophy, e85, rotax]\n---"
+    },
+    {
+      "type": "heading",
+      "text": "# 2026 NCR headline changes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Effective **1 January 2026**."
+    },
+    {
+      "type": "paragraph",
+      "text": "- **Significant Incident / Significant Injury** — new definitions and mandatory reporting.\n- **Lightning / thunderstorm** — Appendix 8: monitor, suspend, resume.\n- **Officials** — clearer duties; Stewards/Clerk accountability; minimum officials by event risk; **Meeting Integrity Delegate** at State Championships.\n- **Steward hearings** — recommend AI audio recording and transcription.\n- **Technical/class tweaks** — clutch and spark-plug washer clarifications; **E85** allowed for specified Vintage categories; long-hair apparel rule; **TaG Restricted licence progression** updated; **revised Rotax restrictor** eligible when Rotax supplies it.\n- **Rotax Trophy Class** — as-supplied kart, minimal setup, no performance mods. Separate Trophy technical regs on the technical page (updated August 2026)."
+    },
+    {
+      "type": "paragraph",
+      "text": "State Regulations follow after the national book (NSW V3 May, WA V3 August, others Feb–April 2026)."
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "kb-au-rules",
+    "builtAt": "2026-09-10T08:52:32.883Z"
+  }
+}

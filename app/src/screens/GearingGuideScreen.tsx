@@ -330,23 +330,23 @@ export function GearingGuideScreen() {
   if (!ready) return <View style={styles.container} />;
 
   const provenanceLabel =
-    provenance === 'catalog' ? 'Catalog specs' : provenance === 'user_override' ? 'You overrode catalog specs' : 'Manual bike';
+    provenance === 'catalog' ? 'Catalog specs' : provenance === 'user_override' ? 'You overrode catalog specs' : 'Manual engine';
 
   return (
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled">
-        <PrivateSetupBanner detail="Gearing inputs stay on this device until you send a brief to Bike Setup Coach." />
+        <PrivateSetupBanner detail="Gearing inputs stay on this device until you send a brief to Kart Setup Coach." />
         <Text style={styles.intro}>
-          Enter the bike, current sprockets, and the problem you want to fix. Nearby ratios are a
-          helper — Bike Setup Coach writes the recommendation.
+          Enter the engine, current sprockets, and the problem you want to fix. Nearby ratios are a
+          helper — Kart Setup Coach writes the recommendation.
         </Text>
 
-        <Text style={styles.section}>Bike</Text>
+        <Text style={styles.section}>Engine</Text>
         <TouchableOpacity style={styles.picker} onPress={() => setBikePickerOpen(true)} activeOpacity={0.8}>
           <Text style={styles.pickerText}>
             {state.family || state.manufacturer
               ? `${state.manufacturer} ${state.family}`.trim()
-              : 'Select a bike…'}
+              : 'Select an engine…'}
           </Text>
           <Text style={styles.chevron}>▼</Text>
         </TouchableOpacity>
@@ -566,29 +566,29 @@ export function GearingGuideScreen() {
           disabled={!canSend}
           activeOpacity={0.85}
         >
-          <Text style={styles.sendBtnText}>Send to Bike Setup Coach</Text>
+          <Text style={styles.sendBtnText}>Send to Kart Setup Coach</Text>
         </TouchableOpacity>
         {!canSend ? (
           <Text style={styles.hint}>
             {newPairError
               ? newPairError
-              : 'Need a bike, current front/rear, and a problem to send.'}
+              : 'Need an engine, current front/rear, and a problem to send.'}
           </Text>
         ) : null}
 
         <Text style={styles.footer}>
-          Sprocket changes also move anti-squat and wheelbase. For the most accurate overall setup,
-          use Bike Balance Setup.
+          More rear teeth = more drive, less top speed. Wet starting point: +3 rear teeth, then
+          drop teeth as it dries. Do not hide a handling problem with extra teeth.
         </Text>
         <TouchableOpacity onPress={() => navigation.navigate('BikeBalanceSetup')}>
-          <Text style={styles.link}>Open Bike Balance Setup</Text>
+          <Text style={styles.link}>Open Chassis Balance</Text>
         </TouchableOpacity>
       </ScrollView>
 
       <Modal visible={bikePickerOpen} transparent animationType="slide">
         <KeyboardAvoidingOverlay style={styles.overlay}>
           <View style={styles.sheet}>
-            <Text style={styles.sheetTitle}>Select bike</Text>
+            <Text style={styles.sheetTitle}>Select engine</Text>
             <TextInput
               style={styles.search}
               value={bikeQuery}
@@ -599,7 +599,7 @@ export function GearingGuideScreen() {
             />
             <ScrollView keyboardShouldPersistTaps="handled">
               <TouchableOpacity style={styles.option} onPress={useManualBike}>
-                <Text style={styles.optionText}>Manual — type the bike yourself</Text>
+                <Text style={styles.optionText}>Manual — type the engine yourself</Text>
                 <Text style={styles.optionMeta}>No catalog row. Fill capacity and RPM if you know them.</Text>
               </TouchableOpacity>
               {filteredBikes.map((row) => (

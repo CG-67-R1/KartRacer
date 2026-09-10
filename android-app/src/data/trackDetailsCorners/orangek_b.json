@@ -1,0 +1,96 @@
+{
+  "trackId": "orangek_b",
+  "name": "Orange Kart Club (B)",
+  "lengthM": 696,
+  "startFinish": [
+    58.2,
+    56.79
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "orangek_b_t1",
+      "number": 1,
+      "apex": [
+        45.39,
+        21.55
+      ],
+      "label": [
+        43.91,
+        16.56
+      ],
+      "entry": [
+        62.1,
+        38.87
+      ],
+      "exit": [
+        39.41,
+        20.86
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "orangek_b_t2",
+      "number": 2,
+      "apex": [
+        32.56,
+        22.16
+      ],
+      "label": [
+        29.29,
+        18.11
+      ],
+      "entry": [
+        39.41,
+        20.86
+      ],
+      "exit": [
+        30.28,
+        20.93
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "orangek_b_t3",
+      "number": 3,
+      "apex": [
+        64.36,
+        67.73
+      ],
+      "label": [
+        66.9,
+        72.27
+      ],
+      "entry": [
+        70.25,
+        59.35
+      ],
+      "exit": [
+        65.12,
+        80.08
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    }
+  ]
+}

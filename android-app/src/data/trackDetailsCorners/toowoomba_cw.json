@@ -1,0 +1,348 @@
+{
+  "trackId": "toowoomba_cw",
+  "name": "Toowoomba & Lockyer Valley Kart Club (Greer Park) (CW)",
+  "lengthM": 807,
+  "startFinish": [
+    51.34,
+    49.6
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "toowoomba_cw_t1",
+      "number": 1,
+      "apex": [
+        46.1,
+        47.63
+      ],
+      "label": [
+        42.79,
+        43.62
+      ],
+      "entry": [
+        48.38,
+        47.35
+      ],
+      "exit": [
+        43.84,
+        49.64
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "toowoomba_cw_t2",
+      "number": 2,
+      "apex": [
+        35.61,
+        89.62
+      ],
+      "label": [
+        33.58,
+        94.41
+      ],
+      "entry": [
+        38.3,
+        85.16
+      ],
+      "exit": [
+        31.18,
+        91.6
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "toowoomba_cw_t3",
+      "number": 3,
+      "apex": [
+        12.11,
+        80.37
+      ],
+      "label": [
+        7.83,
+        83.33
+      ],
+      "entry": [
+        17.51,
+        85.49
+      ],
+      "exit": [
+        11.62,
+        77.42
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "toowoomba_cw_t4",
+      "number": 4,
+      "apex": [
+        14.07,
+        74.43
+      ],
+      "label": [
+        9.55,
+        76.99
+      ],
+      "entry": [
+        12.48,
+        75.47
+      ],
+      "exit": [
+        19.55,
+        75.57
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "toowoomba_cw_t5",
+      "number": 5,
+      "apex": [
+        27.75,
+        74.33
+      ],
+      "label": [
+        23.88,
+        77.8
+      ],
+      "entry": [
+        26.34,
+        75.97
+      ],
+      "exit": [
+        28.03,
+        71.6
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "toowoomba_cw_t6",
+      "number": 6,
+      "apex": [
+        24.97,
+        64.05
+      ],
+      "label": [
+        20.15,
+        66
+      ],
+      "entry": [
+        27.12,
+        69.29
+      ],
+      "exit": [
+        26.98,
+        57.45
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "toowoomba_cw_t7",
+      "number": 7,
+      "apex": [
+        67.23,
+        9.64
+      ],
+      "label": [
+        69.04,
+        4.76
+      ],
+      "entry": [
+        41.61,
+        38.37
+      ],
+      "exit": [
+        77.46,
+        8.5
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "toowoomba_cw_t8",
+      "number": 8,
+      "apex": [
+        87.79,
+        13.02
+      ],
+      "label": [
+        91.29,
+        9.17
+      ],
+      "entry": [
+        84.74,
+        10.27
+      ],
+      "exit": [
+        88.42,
+        15.64
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "toowoomba_cw_t9",
+      "number": 9,
+      "apex": [
+        86.61,
+        18.35
+      ],
+      "label": [
+        90.31,
+        14.7
+      ],
+      "entry": [
+        87.97,
+        17.11
+      ],
+      "exit": [
+        84.33,
+        18.35
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "toowoomba_cw_t10",
+      "number": 10,
+      "apex": [
+        71.93,
+        20.4
+      ],
+      "label": [
+        74.71,
+        16.01
+      ],
+      "entry": [
+        74.29,
+        17.76
+      ],
+      "exit": [
+        71.38,
+        24.65
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "toowoomba_cw_t11",
+      "number": 11,
+      "apex": [
+        81.73,
+        64.66
+      ],
+      "label": [
+        86.62,
+        66.43
+      ],
+      "entry": [
+        72.54,
+        30.34
+      ],
+      "exit": [
+        80.1,
+        68.76
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    },
+    {
+      "id": "toowoomba_cw_t12",
+      "number": 12,
+      "apex": [
+        52.24,
+        68.25
+      ],
+      "label": [
+        52.69,
+        73.43
+      ],
+      "entry": [
+        68.77,
+        71.3
+      ],
+      "exit": [
+        49.77,
+        65.49
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 12 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T11 exit"
+    }
+  ]
+}

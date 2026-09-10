@@ -1,0 +1,236 @@
+{
+  "trackId": "emerald_cw",
+  "name": "Emerald Kart Club (CW)",
+  "lengthM": 969,
+  "startFinish": [
+    43.07,
+    48.22
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "emerald_cw_t1",
+      "number": 1,
+      "apex": [
+        20.44,
+        32.02
+      ],
+      "label": [
+        16.36,
+        28.79
+      ],
+      "entry": [
+        19.97,
+        41.89
+      ],
+      "exit": [
+        19.04,
+        29.92
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "emerald_cw_t2",
+      "number": 2,
+      "apex": [
+        13.34,
+        30.61
+      ],
+      "label": [
+        8.98,
+        27.78
+      ],
+      "entry": [
+        15.65,
+        29.04
+      ],
+      "exit": [
+        10.29,
+        38.89
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "emerald_cw_t3",
+      "number": 3,
+      "apex": [
+        11.37,
+        55.79
+      ],
+      "label": [
+        6.26,
+        56.74
+      ],
+      "entry": [
+        8.43,
+        50.39
+      ],
+      "exit": [
+        18.82,
+        59.08
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "emerald_cw_t4",
+      "number": 4,
+      "apex": [
+        51.21,
+        71.03
+      ],
+      "label": [
+        53.08,
+        75.88
+      ],
+      "entry": [
+        37.71,
+        64.5
+      ],
+      "exit": [
+        54.03,
+        70.72
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "emerald_cw_t5",
+      "number": 5,
+      "apex": [
+        64.83,
+        60.61
+      ],
+      "label": [
+        69.5,
+        62.9
+      ],
+      "entry": [
+        61.46,
+        60.98
+      ],
+      "exit": [
+        71.68,
+        64.2
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "emerald_cw_t6",
+      "number": 6,
+      "apex": [
+        91.67,
+        55.95
+      ],
+      "label": [
+        96.83,
+        56.59
+      ],
+      "entry": [
+        89.75,
+        61.63
+      ],
+      "exit": [
+        89.72,
+        50.01
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "emerald_cw_t7",
+      "number": 7,
+      "apex": [
+        35,
+        33.41
+      ],
+      "label": [
+        32.72,
+        28.74
+      ],
+      "entry": [
+        59.59,
+        38.77
+      ],
+      "exit": [
+        31.06,
+        35.02
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "emerald_cw_t8",
+      "number": 8,
+      "apex": [
+        29.05,
+        37.57
+      ],
+      "label": [
+        25.15,
+        34.13
+      ],
+      "entry": [
+        30.33,
+        35.63
+      ],
+      "exit": [
+        29.19,
+        39.54
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    }
+  ]
+}

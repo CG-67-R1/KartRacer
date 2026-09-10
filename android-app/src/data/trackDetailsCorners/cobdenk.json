@@ -1,0 +1,348 @@
+{
+  "trackId": "cobdenk",
+  "name": "South West Kart Club (Cobden)",
+  "lengthM": 940,
+  "startFinish": [
+    53.43,
+    42.85
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "cobdenk_t1",
+      "number": 1,
+      "apex": [
+        13.73,
+        9.23
+      ],
+      "label": [
+        9.88,
+        5.73
+      ],
+      "entry": [
+        17.56,
+        9.47
+      ],
+      "exit": [
+        10.79,
+        10.68
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "cobdenk_t2",
+      "number": 2,
+      "apex": [
+        9.17,
+        19.92
+      ],
+      "label": [
+        4.71,
+        17.24
+      ],
+      "entry": [
+        8.38,
+        14.94
+      ],
+      "exit": [
+        14.8,
+        26.02
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "cobdenk_t3",
+      "number": 3,
+      "apex": [
+        60.61,
+        66.14
+      ],
+      "label": [
+        61.5,
+        71.26
+      ],
+      "entry": [
+        57.23,
+        60.04
+      ],
+      "exit": [
+        60.48,
+        69.45
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "cobdenk_t4",
+      "number": 4,
+      "apex": [
+        43.53,
+        79.34
+      ],
+      "label": [
+        41.33,
+        84.05
+      ],
+      "entry": [
+        47.23,
+        76.95
+      ],
+      "exit": [
+        41.65,
+        82.79
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "cobdenk_t5",
+      "number": 5,
+      "apex": [
+        44.24,
+        89.08
+      ],
+      "label": [
+        42.59,
+        94.01
+      ],
+      "entry": [
+        42.02,
+        86.37
+      ],
+      "exit": [
+        50.72,
+        90.96
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "cobdenk_t6",
+      "number": 6,
+      "apex": [
+        88.44,
+        84.41
+      ],
+      "label": [
+        91.86,
+        88.33
+      ],
+      "entry": [
+        82.82,
+        87.36
+      ],
+      "exit": [
+        90.86,
+        80.84
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "cobdenk_t7",
+      "number": 7,
+      "apex": [
+        86.92,
+        65.95
+      ],
+      "label": [
+        91.43,
+        68.54
+      ],
+      "entry": [
+        89.84,
+        68.97
+      ],
+      "exit": [
+        83.43,
+        64.9
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "cobdenk_t8",
+      "number": 8,
+      "apex": [
+        72.91,
+        63.17
+      ],
+      "label": [
+        76.73,
+        66.69
+      ],
+      "entry": [
+        76.88,
+        64.91
+      ],
+      "exit": [
+        71.38,
+        60.69
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "cobdenk_t9",
+      "number": 9,
+      "apex": [
+        82.08,
+        44.34
+      ],
+      "label": [
+        87.18,
+        43.35
+      ],
+      "entry": [
+        80.57,
+        48.92
+      ],
+      "exit": [
+        80.41,
+        37.98
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "cobdenk_t10",
+      "number": 10,
+      "apex": [
+        66.98,
+        18.22
+      ],
+      "label": [
+        68.49,
+        13.24
+      ],
+      "entry": [
+        70.38,
+        21.12
+      ],
+      "exit": [
+        63.75,
+        17.48
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "cobdenk_t11",
+      "number": 11,
+      "apex": [
+        58.15,
+        24.83
+      ],
+      "label": [
+        58.26,
+        19.63
+      ],
+      "entry": [
+        58.51,
+        20.94
+      ],
+      "exit": [
+        59.78,
+        28.32
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    },
+    {
+      "id": "cobdenk_t12",
+      "number": 12,
+      "apex": [
+        63.62,
+        40.95
+      ],
+      "label": [
+        66.7,
+        36.76
+      ],
+      "entry": [
+        64.63,
+        37.47
+      ],
+      "exit": [
+        60.71,
+        43.42
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 12 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T11 exit"
+    }
+  ]
+}

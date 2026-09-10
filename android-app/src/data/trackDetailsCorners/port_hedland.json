@@ -1,0 +1,292 @@
+{
+  "trackId": "port_hedland",
+  "name": "Hedland Kart Club (2)",
+  "lengthM": 665,
+  "startFinish": [
+    48.4,
+    52.79
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "port_hedland_t1",
+      "number": 1,
+      "apex": [
+        39.23,
+        45.03
+      ],
+      "label": [
+        35.97,
+        40.98
+      ],
+      "entry": [
+        46.49,
+        51.11
+      ],
+      "exit": [
+        35.85,
+        44.78
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "port_hedland_t2",
+      "number": 2,
+      "apex": [
+        27.63,
+        48.72
+      ],
+      "label": [
+        22.68,
+        47.11
+      ],
+      "entry": [
+        34.76,
+        45.06
+      ],
+      "exit": [
+        18.58,
+        47.75
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "port_hedland_t3",
+      "number": 3,
+      "apex": [
+        8.63,
+        41.92
+      ],
+      "label": [
+        3.71,
+        40.24
+      ],
+      "entry": [
+        11.41,
+        45.38
+      ],
+      "exit": [
+        8.78,
+        37.8
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "port_hedland_t4",
+      "number": 4,
+      "apex": [
+        88.13,
+        60.14
+      ],
+      "label": [
+        93.29,
+        60.77
+      ],
+      "entry": [
+        74.01,
+        56.36
+      ],
+      "exit": [
+        91.18,
+        63.96
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "port_hedland_t5",
+      "number": 5,
+      "apex": [
+        87.98,
+        73.38
+      ],
+      "label": [
+        92.72,
+        75.51
+      ],
+      "entry": [
+        90.53,
+        70.87
+      ],
+      "exit": [
+        59.37,
+        77.08
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "port_hedland_t6",
+      "number": 6,
+      "apex": [
+        35.54,
+        64.53
+      ],
+      "label": [
+        31.47,
+        67.76
+      ],
+      "entry": [
+        36.23,
+        68.31
+      ],
+      "exit": [
+        37.07,
+        60.73
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "port_hedland_t7",
+      "number": 7,
+      "apex": [
+        44.35,
+        58.56
+      ],
+      "label": [
+        40.91,
+        62.46
+      ],
+      "entry": [
+        40.53,
+        58.54
+      ],
+      "exit": [
+        46.76,
+        60.99
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "port_hedland_t8",
+      "number": 8,
+      "apex": [
+        56.16,
+        68.41
+      ],
+      "label": [
+        59.03,
+        72.75
+      ],
+      "entry": [
+        49.98,
+        64.22
+      ],
+      "exit": [
+        59.46,
+        68.32
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "port_hedland_t9",
+      "number": 9,
+      "apex": [
+        61.9,
+        66.58
+      ],
+      "label": [
+        65.98,
+        69.8
+      ],
+      "entry": [
+        60.2,
+        68.01
+      ],
+      "exit": [
+        62.65,
+        63.53
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "port_hedland_t10",
+      "number": 10,
+      "apex": [
+        60.84,
+        59.51
+      ],
+      "label": [
+        65.79,
+        61.12
+      ],
+      "entry": [
+        62.53,
+        62.65
+      ],
+      "exit": [
+        52.68,
+        55.57
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    }
+  ]
+}

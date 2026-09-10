@@ -73,17 +73,17 @@ export function formatTyreWearForCoach(input: TyreWearCoachInput): string {
     lines.push(fact('Track', input.trackName, false));
   }
   if (input.bikeLabel.trim()) {
-    lines.push(fact('Bike', input.bikeLabel, false));
+    lines.push(fact('Kart', input.bikeLabel, false));
   }
 
   const notes = input.notes.trim();
   if (notes) {
-    lines.push('', `What the rider felt: ${notes}`);
+    lines.push('', `What the driver felt: ${notes}`);
   }
 
   lines.push(
     '',
-    'Please classify using the tyre-wear photo protocol: orientation, then zone (Z0–Z3), then band geometry (width, continuity), then surface morphology. Do not map shredded or rippled texture to cold tear by default. If a photo is unclear, ask for a second shot rather than guessing at High confidence. Ask at most 4 missing items. Apply the companion fix order (pressure before compound or suspension).'
+    'Please classify using the tyre-wear photo protocol: orientation, then zone (Z0–Z3), then band geometry (width, continuity), then surface morphology. Do not map shredded or rippled texture to cold tear by default. If a photo is unclear, ask for a second shot rather than guessing at High confidence. Ask at most 4 missing items. Apply the companion fix order (pressure before compound or chassis).'
   );
 
   return lines.join('\n');

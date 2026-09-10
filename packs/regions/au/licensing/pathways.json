@@ -1,5 +1,26 @@
 {
-  "pathways": [],
-  "_placeholder": true,
-  "_explainer": "Motorcycle pack content stripped. Refill from C:/KartRacer/docs/KR_DATA_EQUIVALENTS.md and CURSOR_BUILD_JOBS.md J4.1."
+  "pathways": [
+    {
+      "id": "cadet9",
+      "name": "Cadet 9",
+      "minAge": "7th birthday to race",
+      "portal": "https://portal.karting.net.au"
+    },
+    {
+      "id": "cadet12",
+      "name": "Cadet 12",
+      "minAge": "9th birthday"
+    },
+    {
+      "id": "junior",
+      "name": "Junior",
+      "minAge": "11th birthday"
+    },
+    {
+      "id": "senior",
+      "name": "Senior",
+      "minAge": "15th birthday (14th if moving up from Junior)"
+    }
+  ],
+  "notes": "2026 KA Manual Update 1. Join a club before applying."
 }

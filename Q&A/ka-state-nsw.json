@@ -1,0 +1,59 @@
+{
+  "origin": "kb-au-rules/states/nsw.md",
+  "title": "Karting NSW notes",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "---\nid: state-nsw\ntitle: NSW 2026 State Regulations\ntags: [nsw, kansw, combined, trophy-series]\n---\n\n# NSW 2026 State Regulations\n\nV3, 22 May 2026. Overrides: `data/state-overrides.json` → `nsw`.\n\n## General\n\n- Extra classes/divisions for State Series and below are in this file, not only the national book.\n- Consolidation allowed; clubs may cut laps.\n- Cadet / Junior / TaG Restricted: engines and restrictors **sealed**; restrictors checked before sealing. KZ2 may use CIK or listed exhaust at State Series and below.\n- Reverse grid: **≤ 20** karts in the class at State/Zonal/Club — one heat, named in Supplementary Regulations.\n- Club: **all licence grades** score points in TaG Restricted and 4SS Senior.\n- Trophy Series: min **5** entries to constitute; no oversubscribe; entry **$195** ($45 series levy). Drop lowest round. Formats 1–12 for State Series/Cup/Trophy; 1–18 Club.\n\n## Extra divisions (State Cup and below)\n\n**TaG Restricted Masters Light / Medium:** all engines **160 / 180 kg** (national Masters is a single band).\n\n**KANSW Combined** (TaG Restricted Ch 12 + KA3 Ch 6): max **B Grade Senior**.\n\nRestricted Light kg: KA3 **153**, X30 **160**, Fireball **160**, Rotax SR2 **165**, SR3 **160**, SR4 **165**. Medium = +20. Heavy = +40. KA3 weight may be moved during the year for parity.\n\n## Trophy Series classes (listed)\n\nCadet 9, Cadet 12, KA3 Junior Championship, KA2, KA3 Senior Championship, TaG 125 Championship, X30, Rotax Light, TaG Restricted Light, TaG Restricted Masters, KANSW Combined.\n",
+  "contentBlocks": [
+    {
+      "type": "paragraph",
+      "text": "---\nid: state-nsw\ntitle: NSW 2026 State Regulations\ntags: [nsw, kansw, combined, trophy-series]\n---"
+    },
+    {
+      "type": "heading",
+      "text": "# NSW 2026 State Regulations"
+    },
+    {
+      "type": "paragraph",
+      "text": "V3, 22 May 2026. Overrides: `data/state-overrides.json` → `nsw`."
+    },
+    {
+      "type": "heading",
+      "text": "## General"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Extra classes/divisions for State Series and below are in this file, not only the national book.\n- Consolidation allowed; clubs may cut laps.\n- Cadet / Junior / TaG Restricted: engines and restrictors **sealed**; restrictors checked before sealing. KZ2 may use CIK or listed exhaust at State Series and below.\n- Reverse grid: **≤ 20** karts in the class at State/Zonal/Club — one heat, named in Supplementary Regulations.\n- Club: **all licence grades** score points in TaG Restricted and 4SS Senior.\n- Trophy Series: min **5** entries to constitute; no oversubscribe; entry **$195** ($45 series levy). Drop lowest round. Formats 1–12 for State Series/Cup/Trophy; 1–18 Club."
+    },
+    {
+      "type": "heading",
+      "text": "## Extra divisions (State Cup and below)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**TaG Restricted Masters Light / Medium:** all engines **160 / 180 kg** (national Masters is a single band)."
+    },
+    {
+      "type": "paragraph",
+      "text": "**KANSW Combined** (TaG Restricted Ch 12 + KA3 Ch 6): max **B Grade Senior**."
+    },
+    {
+      "type": "paragraph",
+      "text": "Restricted Light kg: KA3 **153**, X30 **160**, Fireball **160**, Rotax SR2 **165**, SR3 **160**, SR4 **165**. Medium = +20. Heavy = +40. KA3 weight may be moved during the year for parity."
+    },
+    {
+      "type": "heading",
+      "text": "## Trophy Series classes (listed)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cadet 9, Cadet 12, KA3 Junior Championship, KA2, KA3 Senior Championship, TaG 125 Championship, X30, Rotax Light, TaG Restricted Light, TaG Restricted Masters, KANSW Combined."
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "kb-au-rules",
+    "builtAt": "2026-09-10T08:52:32.889Z"
+  }
+}

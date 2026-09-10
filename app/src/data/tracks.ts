@@ -21,6 +21,12 @@ export interface TrackDefinition {
   direction: 'clockwise' | 'anticlockwise' | 'unknown';
   lengthKm?: string;
   isOther: boolean;
+  club?: string;
+  state?: string;
+  lengthM?: number;
+  lat?: number;
+  lon?: number;
+  timezone?: string;
   corners: CornerDefinition[];
 }
 

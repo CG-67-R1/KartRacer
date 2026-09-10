@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "note": "Cited manufacturer/importer figures only. Rok DVS Junior and KZ2 omitted until VERIFY. Restrictors: kb-au-rules/data/restrictors.json is authority.",
+  "engines": [
+    {
+      "id": "iame_ka100",
+      "manufacturer": "IAME",
+      "family": "KA100",
+      "aliases": ["KA100", "KA 100", "Reedjet", "KA3", "KA4"],
+      "yearFrom": 2018,
+      "yearTo": 2026,
+      "capacityCc": 100,
+      "engineConfig": "other",
+      "peakTorqueRpm": 9750,
+      "peakPowerRpm": 9500,
+      "powerbandRpmFrom": 8000,
+      "powerbandRpmTo": 11000,
+      "sources": [
+        "agskartparts.com.au IAME KA sheet (VERIFY hp/rpm pairing vs sheet)",
+        "kb-au-rules/data/restrictors.json"
+      ]
+    },
+    {
+      "id": "iame_x30",
+      "manufacturer": "IAME",
+      "family": "X30",
+      "aliases": ["X30", "X 30", "IAME X30"],
+      "yearFrom": 2010,
+      "yearTo": 2026,
+      "capacityCc": 125,
+      "engineConfig": "other",
+      "peakTorqueRpm": 10250,
+      "peakPowerRpm": 11000,
+      "powerbandRpmFrom": 9000,
+      "powerbandRpmTo": 16000,
+      "sources": [
+        "velocekart.com.au (Lightning Karts AU)",
+        "italcorseamerica.com"
+      ]
+    },
+    {
+      "id": "rotax_senior_max_evo",
+      "manufacturer": "Rotax",
+      "family": "125 Senior MAX EVO",
+      "aliases": ["Senior Max", "Rotax Max", "Rotax 125", "SR2", "SR3"],
+      "yearFrom": 2015,
+      "yearTo": 2026,
+      "capacityCc": 125,
+      "engineConfig": "other",
+      "peakTorqueRpm": 9000,
+      "peakPowerRpm": 11500,
+      "powerbandRpmFrom": 7500,
+      "powerbandRpmTo": 13500,
+      "sources": ["rotax-racing.com datasheet"]
+    },
+    {
+      "id": "rotax_junior_max_evo",
+      "manufacturer": "Rotax",
+      "family": "125 Junior MAX EVO",
+      "aliases": ["Junior Max", "Jr Max", "Rotax Junior"],
+      "yearFrom": 2015,
+      "yearTo": 2026,
+      "capacityCc": 125,
+      "engineConfig": "other",
+      "peakTorqueRpm": 8500,
+      "peakPowerRpm": 8500,
+      "powerbandRpmFrom": 7000,
+      "powerbandRpmTo": 12000,
+      "sources": ["rotax-racing.com datasheet"]
+    },
+    {
+      "id": "vortex_mini_rok",
+      "manufacturer": "Vortex",
+      "family": "Mini Rok",
+      "aliases": ["Mini Rok", "Cadet 9", "Cadet 12", "60cc"],
+      "yearFrom": 2010,
+      "yearTo": 2026,
+      "capacityCc": 60,
+      "engineConfig": "other",
+      "peakTorqueRpm": 9000,
+      "peakPowerRpm": 11000,
+      "powerbandRpmFrom": 7000,
+      "powerbandRpmTo": 15500,
+      "sources": ["vortex-engines.com"]
+    },
+    {
+      "id": "torini_clubmaxx_tc210",
+      "manufacturer": "Torini",
+      "family": "Clubmaxx TC210",
+      "aliases": ["TC210", "4SS", "Clubmaxx", "Torini"],
+      "yearFrom": 2020,
+      "yearTo": 2026,
+      "capacityCc": 212,
+      "engineConfig": "other",
+      "peakTorqueRpm": 3400,
+      "peakPowerRpm": 5600,
+      "powerbandRpmFrom": 2800,
+      "powerbandRpmTo": 6000,
+      "sources": [
+        "patrizicorse.com",
+        "torini.com.au",
+        "kartingaustralia.mymedia.delivery TC210 homologation (Feb 2024)"
+      ]
+    }
+  ]
+}

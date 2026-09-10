@@ -1,0 +1,264 @@
+{
+  "trackId": "stkc",
+  "name": "Southern Tasmanian Kart Club (Orielton)",
+  "lengthM": 746,
+  "startFinish": [
+    51.28,
+    55.87
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "stkc_t1",
+      "number": 1,
+      "apex": [
+        61.2,
+        53.53
+      ],
+      "label": [
+        64.43,
+        57.6
+      ],
+      "entry": [
+        56.21,
+        53.58
+      ],
+      "exit": [
+        70.2,
+        59.4
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "stkc_t2",
+      "number": 2,
+      "apex": [
+        87.45,
+        67.36
+      ],
+      "label": [
+        91.82,
+        70.17
+      ],
+      "entry": [
+        83.52,
+        67.48
+      ],
+      "exit": [
+        90.27,
+        65.36
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "stkc_t3",
+      "number": 3,
+      "apex": [
+        90.07,
+        56.82
+      ],
+      "label": [
+        95.08,
+        58.23
+      ],
+      "entry": [
+        91.33,
+        58.85
+      ],
+      "exit": [
+        87.24,
+        55.66
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "stkc_t4",
+      "number": 4,
+      "apex": [
+        77.79,
+        54.3
+      ],
+      "label": [
+        82.74,
+        55.91
+      ],
+      "entry": [
+        78.37,
+        55.79
+      ],
+      "exit": [
+        78.39,
+        52.63
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "stkc_t5",
+      "number": 5,
+      "apex": [
+        78.88,
+        47.15
+      ],
+      "label": [
+        84.08,
+        47.11
+      ],
+      "entry": [
+        79.55,
+        49.27
+      ],
+      "exit": [
+        76.51,
+        45.43
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "stkc_t6",
+      "number": 6,
+      "apex": [
+        61.08,
+        41.29
+      ],
+      "label": [
+        64.33,
+        37.23
+      ],
+      "entry": [
+        64.55,
+        42.99
+      ],
+      "exit": [
+        59.07,
+        37.8
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "stkc_t7",
+      "number": 7,
+      "apex": [
+        54.84,
+        32.49
+      ],
+      "label": [
+        54.34,
+        27.31
+      ],
+      "entry": [
+        57.32,
+        34.17
+      ],
+      "exit": [
+        52.82,
+        32.63
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "stkc_t8",
+      "number": 8,
+      "apex": [
+        8.88,
+        41.3
+      ],
+      "label": [
+        3.72,
+        40.65
+      ],
+      "entry": [
+        8.33,
+        39.38
+      ],
+      "exit": [
+        10.54,
+        42.41
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "stkc_t9",
+      "number": 9,
+      "apex": [
+        21.82,
+        38.64
+      ],
+      "label": [
+        16.78,
+        37.37
+      ],
+      "entry": [
+        14.67,
+        41.46
+      ],
+      "exit": [
+        35.7,
+        42.4
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    }
+  ]
+}

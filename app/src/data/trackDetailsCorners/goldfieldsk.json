@@ -1,0 +1,376 @@
+{
+  "trackId": "goldfieldsk",
+  "name": "Eastern Goldfields Kart Club (Kalgoorlie)",
+  "lengthM": 905,
+  "startFinish": [
+    61.94,
+    37.31
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "goldfieldsk_t1",
+      "number": 1,
+      "apex": [
+        70.99,
+        36.85
+      ],
+      "label": [
+        75.99,
+        35.44
+      ],
+      "entry": [
+        67.68,
+        38.56
+      ],
+      "exit": [
+        72.8,
+        33.89
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "goldfieldsk_t2",
+      "number": 2,
+      "apex": [
+        72.44,
+        18.96
+      ],
+      "label": [
+        75.65,
+        14.87
+      ],
+      "entry": [
+        72.13,
+        23.39
+      ],
+      "exit": [
+        74.34,
+        16.64
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "goldfieldsk_t3",
+      "number": 3,
+      "apex": [
+        79.06,
+        16.1
+      ],
+      "label": [
+        82.65,
+        12.34
+      ],
+      "entry": [
+        77.02,
+        15.74
+      ],
+      "exit": [
+        82.14,
+        18.77
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "goldfieldsk_t4",
+      "number": 4,
+      "apex": [
+        91.1,
+        56.54
+      ],
+      "label": [
+        95.9,
+        58.54
+      ],
+      "entry": [
+        91.63,
+        53.43
+      ],
+      "exit": [
+        89.31,
+        58.22
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "goldfieldsk_t5",
+      "number": 5,
+      "apex": [
+        72.57,
+        54.04
+      ],
+      "label": [
+        76.8,
+        57.06
+      ],
+      "entry": [
+        77.34,
+        54.27
+      ],
+      "exit": [
+        70.2,
+        55.42
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "goldfieldsk_t6",
+      "number": 6,
+      "apex": [
+        76.21,
+        77.38
+      ],
+      "label": [
+        78.86,
+        81.85
+      ],
+      "entry": [
+        74.01,
+        70.63
+      ],
+      "exit": [
+        75.57,
+        82.28
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "goldfieldsk_t7",
+      "number": 7,
+      "apex": [
+        57.34,
+        88.24
+      ],
+      "label": [
+        57.62,
+        93.43
+      ],
+      "entry": [
+        62.31,
+        89.9
+      ],
+      "exit": [
+        50.01,
+        80.3
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "goldfieldsk_t8",
+      "number": 8,
+      "apex": [
+        27.6,
+        70.3
+      ],
+      "label": [
+        24.03,
+        74.08
+      ],
+      "entry": [
+        31.87,
+        72.04
+      ],
+      "exit": [
+        23.22,
+        64.28
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "goldfieldsk_t9",
+      "number": 9,
+      "apex": [
+        9.26,
+        17.6
+      ],
+      "label": [
+        4.65,
+        15.19
+      ],
+      "entry": [
+        8.45,
+        22.85
+      ],
+      "exit": [
+        13.14,
+        13.83
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "goldfieldsk_t10",
+      "number": 10,
+      "apex": [
+        30.66,
+        14.23
+      ],
+      "label": [
+        27.2,
+        10.35
+      ],
+      "entry": [
+        30.5,
+        12.02
+      ],
+      "exit": [
+        29.08,
+        16.88
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "goldfieldsk_t11",
+      "number": 11,
+      "apex": [
+        21.33,
+        22.8
+      ],
+      "label": [
+        16.78,
+        20.28
+      ],
+      "entry": [
+        22.89,
+        20.62
+      ],
+      "exit": [
+        21.24,
+        25.89
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    },
+    {
+      "id": "goldfieldsk_t12",
+      "number": 12,
+      "apex": [
+        29.84,
+        33.33
+      ],
+      "label": [
+        24.89,
+        31.73
+      ],
+      "entry": [
+        24.91,
+        31.06
+      ],
+      "exit": [
+        34.45,
+        32.13
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 12 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T11 exit"
+    },
+    {
+      "id": "goldfieldsk_t13",
+      "number": 13,
+      "apex": [
+        57.14,
+        14.9
+      ],
+      "label": [
+        57.59,
+        9.72
+      ],
+      "entry": [
+        52.83,
+        16.89
+      ],
+      "exit": [
+        59.56,
+        15.38
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 13 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T12 exit"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "trackId": "cairnsk_acw",
+  "name": "Cairns Kart Club (ACW)",
+  "lengthM": 394,
+  "startFinish": [
+    63.75,
+    46.29
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "cairnsk_acw_t1",
+      "number": 1,
+      "apex": [
+        31.88,
+        10.04
+      ],
+      "label": [
+        29.38,
+        5.48
+      ],
+      "entry": [
+        28.48,
+        8.43
+      ],
+      "exit": [
+        33.49,
+        14.89
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

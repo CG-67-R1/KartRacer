@@ -1,0 +1,40 @@
+{
+  "trackId": "lkc",
+  "name": "Launceston Kart Club (Archerville) (2)",
+  "lengthM": 757,
+  "startFinish": [
+    69.28,
+    64.01
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "lkc_t1",
+      "number": 1,
+      "apex": [
+        77.93,
+        37.31
+      ],
+      "label": [
+        83.02,
+        36.24
+      ],
+      "entry": [
+        91.53,
+        69.86
+      ],
+      "exit": [
+        68.51,
+        16.55
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

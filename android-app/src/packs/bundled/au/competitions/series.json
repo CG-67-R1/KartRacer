@@ -1,3 +1,20 @@
 {
-  "series": []
+  "series": [
+    {
+      "id": "akc",
+      "name": "Penrite Australian Kart Championship",
+      "local": true
+    },
+    {
+      "id": "au_club",
+      "name": "Club / state kart meetings",
+      "local": true
+    },
+    {
+      "id": "rotax_pro_tour",
+      "name": "Rotax Pro Tour",
+      "local": true,
+      "notes": "Dates VERIFY at rotax.com.au"
+    }
+  ]
 }

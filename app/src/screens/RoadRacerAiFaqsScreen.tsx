@@ -33,7 +33,7 @@ export function RoadRacerAiFaqsBody() {
   return (
     <View>
       <Text style={styles.lead}>
-        Common questions for Rider Coach and Bike Setup. Expand an answer, or send it straight into
+        Common questions for Driver Coach and Kart Setup. Expand an answer, or send it straight into
         the matching AI chat.
       </Text>
       <TextInput
@@ -51,7 +51,7 @@ export function RoadRacerAiFaqsBody() {
         <>
           <Text style={styles.subhead}>Coach</Text>
           <CoachFaqSection
-            title="Rider Coach FAQs"
+            title="Driver Coach FAQs"
             items={filteredCoachFaqs}
             askLabel="Ask coach about this"
             onAskQuestion={askCoach}
@@ -61,11 +61,11 @@ export function RoadRacerAiFaqsBody() {
 
       {filteredBikeFaqs.length ? (
         <>
-          <Text style={styles.subhead}>Bike Setup</Text>
+          <Text style={styles.subhead}>Kart Setup</Text>
           <CoachFaqSection
-            title="Bike Setup FAQs"
+            title="Kart Setup FAQs"
             items={filteredBikeFaqs}
-            askLabel="Ask Bike Setup AI about this"
+            askLabel="Ask Kart Setup AI about this"
             onAskQuestion={askBikeSetup}
           />
         </>

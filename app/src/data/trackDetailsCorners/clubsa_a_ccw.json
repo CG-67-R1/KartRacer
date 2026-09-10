@@ -1,0 +1,320 @@
+{
+  "trackId": "clubsa_a_ccw",
+  "name": "Go Kart Club of SA (Monarto / Rocky Gully) (A CCW)",
+  "lengthM": 979,
+  "startFinish": [
+    46.08,
+    43.7
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "clubsa_a_ccw_t1",
+      "number": 1,
+      "apex": [
+        38.58,
+        42.69
+      ],
+      "label": [
+        33.76,
+        40.74
+      ],
+      "entry": [
+        41.07,
+        44.24
+      ],
+      "exit": [
+        36.69,
+        37.95
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "clubsa_a_ccw_t2",
+      "number": 2,
+      "apex": [
+        33.72,
+        12.2
+      ],
+      "label": [
+        31.35,
+        7.57
+      ],
+      "entry": [
+        36.49,
+        35.54
+      ],
+      "exit": [
+        29.53,
+        8.85
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "clubsa_a_ccw_t3",
+      "number": 3,
+      "apex": [
+        18.8,
+        13.35
+      ],
+      "label": [
+        15.2,
+        9.6
+      ],
+      "entry": [
+        21.83,
+        9.72
+      ],
+      "exit": [
+        19.81,
+        37.82
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "clubsa_a_ccw_t4",
+      "number": 4,
+      "apex": [
+        23.1,
+        70.38
+      ],
+      "label": [
+        18.97,
+        73.54
+      ],
+      "entry": [
+        19.91,
+        40.05
+      ],
+      "exit": [
+        28.41,
+        75.25
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "clubsa_a_ccw_t5",
+      "number": 5,
+      "apex": [
+        44.25,
+        68.03
+      ],
+      "label": [
+        42.33,
+        72.86
+      ],
+      "entry": [
+        38.95,
+        71.83
+      ],
+      "exit": [
+        47.99,
+        68.01
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "clubsa_a_ccw_t6",
+      "number": 6,
+      "apex": [
+        68.54,
+        90.64
+      ],
+      "label": [
+        70.41,
+        95.49
+      ],
+      "entry": [
+        58.97,
+        80.11
+      ],
+      "exit": [
+        75,
+        91.56
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "clubsa_a_ccw_t7",
+      "number": 7,
+      "apex": [
+        80.98,
+        78.66
+      ],
+      "label": [
+        84.55,
+        82.44
+      ],
+      "entry": [
+        81.64,
+        85.35
+      ],
+      "exit": [
+        62.33,
+        58.99
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "clubsa_a_ccw_t8",
+      "number": 8,
+      "apex": [
+        62.21,
+        46.18
+      ],
+      "label": [
+        67.31,
+        45.17
+      ],
+      "entry": [
+        60.01,
+        48.44
+      ],
+      "exit": [
+        65.96,
+        45.45
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "clubsa_a_ccw_t9",
+      "number": 9,
+      "apex": [
+        75.51,
+        47.83
+      ],
+      "label": [
+        80.71,
+        47.75
+      ],
+      "entry": [
+        70.74,
+        46.93
+      ],
+      "exit": [
+        77.79,
+        46.84
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "clubsa_a_ccw_t10",
+      "number": 10,
+      "apex": [
+        79.65,
+        41.62
+      ],
+      "label": [
+        84.71,
+        40.42
+      ],
+      "entry": [
+        79.29,
+        44.85
+      ],
+      "exit": [
+        72.75,
+        32.2
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "clubsa_a_ccw_t11",
+      "number": 11,
+      "apex": [
+        53.49,
+        14.66
+      ],
+      "label": [
+        53.7,
+        9.46
+      ],
+      "entry": [
+        65.08,
+        24.47
+      ],
+      "exit": [
+        50.57,
+        15.06
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    }
+  ]
+}

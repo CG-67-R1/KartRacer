@@ -261,7 +261,7 @@ export function getLocalSeriesIds() {
     }
     // Compatibility aliases used by existing AU calendar
     if (packId === 'au') {
-      for (const a of ['asbk', 'au_club', 'au_national', 'au_track_day', 'australia']) {
+      for (const a of ['akc', 'asbk', 'au_club', 'au_national', 'au_club_day', 'australia']) {
         ids.add(a);
       }
     }

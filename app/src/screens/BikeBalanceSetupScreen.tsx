@@ -660,7 +660,7 @@ export function BikeBalanceSetupScreen() {
             {displayResults.map(renderResultCard)}
 
             <TouchableOpacity style={styles.primaryBtn} onPress={sendToAi}>
-              <Text style={styles.primaryBtnText}>Send to RR Bike Setup</Text>
+              <Text style={styles.primaryBtnText}>Send to Kart Setup</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.secondaryBtn}

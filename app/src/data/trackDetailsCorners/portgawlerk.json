@@ -1,0 +1,292 @@
+{
+  "trackId": "portgawlerk",
+  "name": "Port Gawler Kart Track",
+  "lengthM": 677,
+  "startFinish": [
+    48.16,
+    16
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "portgawlerk_t1",
+      "number": 1,
+      "apex": [
+        24.69,
+        19.4
+      ],
+      "label": [
+        21.33,
+        15.43
+      ],
+      "entry": [
+        26.65,
+        13.78
+      ],
+      "exit": [
+        32.29,
+        44.02
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "portgawlerk_t2",
+      "number": 2,
+      "apex": [
+        53.23,
+        89.07
+      ],
+      "label": [
+        52.93,
+        94.26
+      ],
+      "entry": [
+        32.29,
+        44.02
+      ],
+      "exit": [
+        57.33,
+        91.2
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "portgawlerk_t3",
+      "number": 3,
+      "apex": [
+        75.28,
+        83.72
+      ],
+      "label": [
+        78.29,
+        87.96
+      ],
+      "entry": [
+        73.65,
+        86.65
+      ],
+      "exit": [
+        75.09,
+        80.53
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "portgawlerk_t4",
+      "number": 4,
+      "apex": [
+        72.43,
+        78.06
+      ],
+      "label": [
+        75.58,
+        82.2
+      ],
+      "entry": [
+        74.73,
+        79.85
+      ],
+      "exit": [
+        68.01,
+        78.63
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "portgawlerk_t5",
+      "number": 5,
+      "apex": [
+        58.18,
+        77.3
+      ],
+      "label": [
+        58.88,
+        82.45
+      ],
+      "entry": [
+        61.31,
+        79.41
+      ],
+      "exit": [
+        57.08,
+        74.19
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "portgawlerk_t6",
+      "number": 6,
+      "apex": [
+        57.83,
+        71.2
+      ],
+      "label": [
+        58.69,
+        76.33
+      ],
+      "entry": [
+        57.08,
+        74.19
+      ],
+      "exit": [
+        62.13,
+        67.94
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "portgawlerk_t7",
+      "number": 7,
+      "apex": [
+        66.9,
+        64.43
+      ],
+      "label": [
+        71.01,
+        67.61
+      ],
+      "entry": [
+        62.13,
+        67.94
+      ],
+      "exit": [
+        68.56,
+        59.63
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "portgawlerk_t8",
+      "number": 8,
+      "apex": [
+        56.11,
+        41.02
+      ],
+      "label": [
+        56.45,
+        35.83
+      ],
+      "entry": [
+        59.12,
+        40.66
+      ],
+      "exit": [
+        53.98,
+        43.28
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "portgawlerk_t9",
+      "number": 9,
+      "apex": [
+        55.75,
+        52.25
+      ],
+      "label": [
+        56.69,
+        47.14
+      ],
+      "entry": [
+        55.01,
+        49.08
+      ],
+      "exit": [
+        54.5,
+        55.03
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "portgawlerk_t10",
+      "number": 10,
+      "apex": [
+        51.38,
+        56.45
+      ],
+      "label": [
+        46.38,
+        57.88
+      ],
+      "entry": [
+        53.98,
+        55.48
+      ],
+      "exit": [
+        48.53,
+        55.69
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    }
+  ]
+}

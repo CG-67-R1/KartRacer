@@ -182,7 +182,7 @@ export function TrackdayPrepScreen() {
         </View>
 
         <View style={styles.field}>
-          <Text style={styles.label}>Date of track day (YYYY-MM-DD)</Text>
+          <Text style={styles.label}>Date of race / practice day (YYYY-MM-DD)</Text>
           <TextInput
             style={styles.input}
             value={draft.dateIso}

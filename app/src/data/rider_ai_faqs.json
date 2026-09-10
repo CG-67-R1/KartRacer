@@ -1,8 +1,113 @@
 {
-  "version": 0,
-  "coach": [],
-  "bikesetup": [],
+  "version": 1,
+  "coach": [
+    {
+      "id": "coach_licence_001",
+      "question": "How do I get a Karting Australia licence?",
+      "answer": "Join an affiliated club in KOMP (portal.karting.net.au), then apply for the Cadet 9 / Cadet 12 / Junior / Senior licence that matches your age. Safety training is required. D Grade and 8-Day need an Observed Driving Session and must show a P plate. Under 18: a parent/guardian holds a Participant’s Licence. Source: 2026 Australian Karting Manual Update 1 (kb-au-rules licences).",
+      "recommended_user_inputs": [
+        "age",
+        "state",
+        "club"
+      ]
+    },
+    {
+      "id": "coach_licence_002",
+      "question": "What do the licence grades mean?",
+      "answer": "High to low: A / E-A, B / E-B, C / E-C, D, E (social), 8-Day (one try-a-meeting per year). D→C after 4 endorsed meetings. C→B after 6 meetings or a listed National top-5. B→A after a State Championship top-3. National Cadet/KA3 needs C. KA2, Junior Max, TaG 125, X30 need B. Source: 2026 KA Manual Update 1."
+    },
+    {
+      "id": "coach_class_001",
+      "question": "Which class should I start in?",
+      "answer": "Typical club ladder: 4SS (sealed Torini) or Cadet 9 (Mini Rok + 16 mm) → Cadet 12 → KA3 Junior → KA3 Senior or TaG Restricted → TaG 125 / X30 / Rotax 125. KA2 is the faster junior (Rok DVS). Age bands and minimum weights are in the 2026 Manual — state/supp regs can change them. Source: kb-au-rules classes + kart-class-reference.md."
+    },
+    {
+      "id": "coach_first_day_001",
+      "question": "What happens on a first club race day?",
+      "answer": "You need a current KA (or recognised) licence to drive on a KA track. D / 8-Day: ODS then P plate. Scrutineering, drivers briefing, practice, then heats. Transponder hire is a club item — ask the secretary. One change at a time if the kart feels odd. Parent/guardian stays with juniors when officials call you."
+    },
+    {
+      "id": "coach_weight_001",
+      "question": "Do class weights include the driver?",
+      "answer": "Yes. KA class minimums are kart + driver + equipment unless a row says otherwise. Example from the 2026 book: KA3 Senior Light 150 kg, Medium 170, Heavy 190. Always confirm the meeting Supplementary Regulations. Source: kb-au-rules/data/classes.json."
+    },
+    {
+      "id": "coach_transponder_001",
+      "question": "Do I need my own transponder?",
+      "answer": "Most clubs hire MyLaps-style transponders on the day. Buy one later if you race often. Clip it where the club shows you — usually the front bumper / number plate area. Ask the race secretary; do not invent a mounting rule."
+    },
+    {
+      "id": "coach_pathway_001",
+      "question": "Can karting lead to Formula 1?",
+      "answer": "Yes — that is the usual first step. A common single-seater path is karting → Formula 4 → F3 → F2 → F1. Australians who started in karts include Oscar Piastri, Daniel Ricciardo and Jack Doohan. There is no guaranteed ladder. Club craft comes first."
+    },
+    {
+      "id": "coach_pathway_002",
+      "question": "Can karting lead to Supercars?",
+      "answer": "Yes. Many Supercars drivers started in Australian or New Zealand karting (for example Will Power, Cam Waters, Broc Feeney, Will Brown, Scott McLaughlin). Super2 / Super3 sit later on that path. Confirm current series regs if you are planning a switch."
+    },
+    {
+      "id": "coach_pathway_003",
+      "question": "What is F1 Academy?",
+      "answer": "F1 Academy is a single-seater series aimed at developing women toward Formula 1. Several drivers arrived from karting. Australian Aiva Anagnostiadis came through karting — confirm the current grid each year before you quote a seat."
+    },
+    {
+      "id": "coach_flags_001",
+      "question": "What do the flags mean?",
+      "answer": "Use the current KA Manual flags chapter (kb-au-rules/national/flags-driving.md). Yellow = slow, no overtaking in that sector. Red = stop racing, return as directed. Blue = faster kart approaching. Black = report to officials. If this app and the briefing disagree, the briefing and Supp Regs win."
+    },
+    {
+      "id": "coach_wet_001",
+      "question": "When can I use wet tyres?",
+      "answer": "Wets only after the Clerk of the Course declares Wet. From first qualifying you get one dry set and one wet set (+1 replacement each if approved). Air only. No mixing dry and wet on the kart. Source: 2026 KA tyre rules in chassis-setup-and-tyre-kb.md."
+    }
+  ],
+  "bikesetup": [
+    {
+      "id": "setup_pressure_001",
+      "question": "What cold pressure should I start with?",
+      "answer": "Use the cited starting window for your compound, then adjust. LeCont LH03 9.5–11.0 psi (KA3/KA4/TaG Restricted/DD2/Jr Max); LOH 8.5–10 psi (KA2/TaG 125); LPM 8.0–9.5 psi (X30/Rok GP); Maxxis Cadet 0.6 bar (~8.7 psi). Wets: SV1 0.9 bar service; Maxxis MW21 1.0 bar service / 0.6 recommended. Present as a start point — not a race setting. Source: control-tyre-data-extract.md."
+    },
+    {
+      "id": "setup_one_change_001",
+      "question": "How many things should I change between sessions?",
+      "answer": "One. Cheap and reversible first: pressures → front width / hubs → caster/camber/toe → ride height → axle/hubs → seat. If a change makes the kart worse, put it back. Source: chassis-setup-and-tyre-kb.md session order."
+    },
+    {
+      "id": "setup_chain_001",
+      "question": "How much chain slack should I run?",
+      "answer": "About 10 mm total slack (~4% of centres) is the KB baseline. Check sprocket alignment. Do not hide a handling problem by adding rear teeth. Source: chassis-setup-and-tyre-kb.md."
+    },
+    {
+      "id": "setup_front_001",
+      "question": "The kart will not turn in. What first?",
+      "answer": "Confirm it is not the driver. Then: front hubs out one spacer per side → rear +0.1 bar → raise front ride height → a little more toe-out → more caster. One step only. Source: chassis-setup-and-tyre-kb.md troubleshooting table."
+    },
+    {
+      "id": "setup_hop_001",
+      "question": "The kart hops in the middle of the corner. Is that me?",
+      "answer": "Often it is bind — the rear tyres fighting each other — especially for taller drivers. Try: lower rear ballast, seat back and down, lower rear ride height, softer axle, fewer seat struts. Tell your coach. Source: chassis-setup-and-tyre-kb.md hop row."
+    },
+    {
+      "id": "setup_gearing_001",
+      "question": "How do I pick sprockets?",
+      "answer": "Single ratio: typical front 10–11T, rear about 68–95T. More rear teeth = more drive, less top speed. Wet starting point: +3 rear teeth, then drop teeth as it dries. Source: tools/setup-engine gearing + ANGRI chain notes."
+    },
+    {
+      "id": "setup_width_001",
+      "question": "What does front width do?",
+      "answer": "Wider front = more jacking and faster turn-in. Narrower front = slower turn-in, more push. Change one spacer per side. Source: chassis-setup-and-tyre-kb.md front table."
+    },
+    {
+      "id": "setup_pyrometer_001",
+      "question": "How do I read tyre temperatures?",
+      "answer": "Outside / middle / inside as soon as you stop. Optimum band 75–85 °C; near 95 °C the tyre is overworked. Cold middle → raise pressure; hot middle → drop. Chase left/right and front/rear variance, not a magic number. Source: chassis-setup-and-tyre-kb.md."
+    }
+  ],
   "global_principles": [
-    "KartRacer FAQs are empty until J2.6. Do not invent pressures or class weights."
+    "Cite the 2026 Australian Karting Manual (Update 1) or a named KB file. Do not invent pressures, weights, or restrictor sizes.",
+    "Weights are kart + driver + equipment unless stated.",
+    "Junior changes that touch brakes, steering, axle, or seat mounts need a parent/mechanic.",
+    "Sprint karts brake with the rear only (KZ2 adds front). Do not copy car/bike trail-brake advice."
   ]
 }

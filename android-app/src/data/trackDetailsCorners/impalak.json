@@ -1,0 +1,348 @@
+{
+  "trackId": "impalak",
+  "name": "Impala Kart Club (Tom Price)",
+  "lengthM": 642,
+  "startFinish": [
+    50.18,
+    48.56
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "impalak_t1",
+      "number": 1,
+      "apex": [
+        16.22,
+        63.75
+      ],
+      "label": [
+        11.53,
+        66.01
+      ],
+      "entry": [
+        25.96,
+        58.96
+      ],
+      "exit": [
+        12.22,
+        62.64
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "impalak_t2",
+      "number": 2,
+      "apex": [
+        9.41,
+        57.72
+      ],
+      "label": [
+        4.28,
+        58.54
+      ],
+      "entry": [
+        10.7,
+        61.33
+      ],
+      "exit": [
+        10.32,
+        54.33
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "impalak_t3",
+      "number": 3,
+      "apex": [
+        14.69,
+        45.66
+      ],
+      "label": [
+        9.73,
+        44.1
+      ],
+      "entry": [
+        11.18,
+        52.92
+      ],
+      "exit": [
+        9.51,
+        30.33
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "impalak_t4",
+      "number": 4,
+      "apex": [
+        10.37,
+        18.63
+      ],
+      "label": [
+        7.09,
+        14.59
+      ],
+      "entry": [
+        8.42,
+        23.04
+      ],
+      "exit": [
+        12.53,
+        17.27
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "impalak_t5",
+      "number": 5,
+      "apex": [
+        18.89,
+        19.41
+      ],
+      "label": [
+        16.29,
+        14.91
+      ],
+      "entry": [
+        15.59,
+        17.18
+      ],
+      "exit": [
+        20.77,
+        23.89
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "impalak_t6",
+      "number": 6,
+      "apex": [
+        25.99,
+        35.29
+      ],
+      "label": [
+        23.03,
+        31.02
+      ],
+      "entry": [
+        21.88,
+        28.98
+      ],
+      "exit": [
+        30.72,
+        37.14
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "impalak_t7",
+      "number": 7,
+      "apex": [
+        44.74,
+        33.48
+      ],
+      "label": [
+        46.35,
+        28.54
+      ],
+      "entry": [
+        36.31,
+        36.16
+      ],
+      "exit": [
+        52.2,
+        35.5
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "impalak_t8",
+      "number": 8,
+      "apex": [
+        90.71,
+        65.17
+      ],
+      "label": [
+        95.78,
+        66.34
+      ],
+      "entry": [
+        71.29,
+        48.19
+      ],
+      "exit": [
+        91.67,
+        68.87
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "impalak_t9",
+      "number": 9,
+      "apex": [
+        90.38,
+        72.82
+      ],
+      "label": [
+        95.24,
+        74.66
+      ],
+      "entry": [
+        91.65,
+        70.01
+      ],
+      "exit": [
+        87.69,
+        74.49
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "impalak_t10",
+      "number": 10,
+      "apex": [
+        31.43,
+        82.92
+      ],
+      "label": [
+        30.25,
+        87.99
+      ],
+      "entry": [
+        38.97,
+        81.25
+      ],
+      "exit": [
+        27.53,
+        81.18
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "impalak_t11",
+      "number": 11,
+      "apex": [
+        25.37,
+        77.89
+      ],
+      "label": [
+        22.96,
+        82.5
+      ],
+      "entry": [
+        26.86,
+        80.51
+      ],
+      "exit": [
+        25.61,
+        74.54
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    },
+    {
+      "id": "impalak_t12",
+      "number": 12,
+      "apex": [
+        63.36,
+        62.68
+      ],
+      "label": [
+        68.22,
+        64.54
+      ],
+      "entry": [
+        60.19,
+        65.86
+      ],
+      "exit": [
+        63.83,
+        59.21
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 12 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T11 exit"
+    }
+  ]
+}

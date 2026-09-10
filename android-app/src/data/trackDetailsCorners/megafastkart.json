@@ -1,0 +1,236 @@
+{
+  "trackId": "megafastkart",
+  "name": "Mega Fast Karts (Wanneroo) (National)",
+  "lengthM": 821,
+  "startFinish": [
+    44.69,
+    65.11
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "megafastkart_t1",
+      "number": 1,
+      "apex": [
+        58.04,
+        74
+      ],
+      "label": [
+        59.78,
+        78.9
+      ],
+      "entry": [
+        54.5,
+        73.98
+      ],
+      "exit": [
+        62.47,
+        71.26
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "megafastkart_t2",
+      "number": 2,
+      "apex": [
+        77.63,
+        51.48
+      ],
+      "label": [
+        82.82,
+        51.22
+      ],
+      "entry": [
+        73.89,
+        51.95
+      ],
+      "exit": [
+        80.49,
+        53.17
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "megafastkart_t3",
+      "number": 3,
+      "apex": [
+        82.58,
+        60.94
+      ],
+      "label": [
+        87.62,
+        62.21
+      ],
+      "entry": [
+        81.76,
+        55.02
+      ],
+      "exit": [
+        77.32,
+        72.29
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "megafastkart_t4",
+      "number": 4,
+      "apex": [
+        46.27,
+        82.5
+      ],
+      "label": [
+        45.53,
+        87.65
+      ],
+      "entry": [
+        53.07,
+        84.46
+      ],
+      "exit": [
+        38.82,
+        86.72
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "megafastkart_t5",
+      "number": 5,
+      "apex": [
+        19.74,
+        19.03
+      ],
+      "label": [
+        16.24,
+        15.19
+      ],
+      "entry": [
+        17.33,
+        50.47
+      ],
+      "exit": [
+        24.73,
+        12.48
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "megafastkart_t6",
+      "number": 6,
+      "apex": [
+        73.94,
+        23.72
+      ],
+      "label": [
+        77.2,
+        19.67
+      ],
+      "entry": [
+        75.39,
+        20.65
+      ],
+      "exit": [
+        71.01,
+        25.22
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "megafastkart_t7",
+      "number": 7,
+      "apex": [
+        39.05,
+        18.42
+      ],
+      "label": [
+        37.4,
+        13.49
+      ],
+      "entry": [
+        55.62,
+        18.06
+      ],
+      "exit": [
+        30.46,
+        24.29
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "megafastkart_t8",
+      "number": 8,
+      "apex": [
+        27.1,
+        69.97
+      ],
+      "label": [
+        22.9,
+        73.04
+      ],
+      "entry": [
+        26.08,
+        49.99
+      ],
+      "exit": [
+        29.62,
+        72.58
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    }
+  ]
+}

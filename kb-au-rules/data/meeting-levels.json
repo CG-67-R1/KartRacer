@@ -1,0 +1,49 @@
+{
+  "id": "meeting-levels",
+  "edition": "2026-update-1",
+  "note": "Competition Rules Ch 5. Confirm Supplementary Regulations for the meeting.",
+  "levels_high_to_low": [
+    "National Championship (AKC)",
+    "National Series",
+    "National Cup",
+    "State Championship",
+    "State Series",
+    "State Cup",
+    "State Trophy",
+    "Zonal",
+    "Club",
+    "Social Karting Activity (SKA)"
+  ],
+  "one_licence": "A current KA licence issued via KOMP is valid at affiliated clubs nationwide.",
+  "portal": "portal.karting.net.au",
+  "akc_2026": {
+    "rounds": [
+      {"round": 1, "dates": "2026-03-13/15", "venue": "Coffs Harbour NSW"},
+      {"round": 2, "dates": "2026-05-15/17", "venue": "Ipswich QLD"},
+      {"round": 3, "dates": "2026-07-03/05", "venue": "Townsville QLD"},
+      {"round": 4, "dates": "2026-09-04/06", "venue": "Seymour VIC"},
+      {"round": 5, "dates": "2026-10-16/18", "venue": "Bolivar SA"}
+    ],
+    "ska_before": "Rounds marked ** on the calendar may have a host-club SKA the day before."
+  },
+  "consolidation": {
+    "seniors_together": true,
+    "juniors_together": true,
+    "cadet9_cadet12_4ss_cadet": true,
+    "grid_slower_at_rear": true,
+    "typical_order_cadet": ["Cadet 12 front", "Cadet 9 / 4SS Cadet rear"],
+    "typical_order_junior": ["KA3 Junior front", "4SS Junior rear"],
+    "typical_order_4ss": ["4SS Super front", "4SS Senior rear"],
+    "club_may_use_single_weight_division": true,
+    "results_by_class_not_overall": true
+  },
+  "reverse_grid": {
+    "typical": "If 8 or fewer (VIC) or 20 or fewer (NSW) in a class at State/Zonal/Club, one heat may reverse — must be in Supplementary Regulations."
+  },
+  "finisher": "Must cross the finish line under own power and complete at least 75% of the winner's distance.",
+  "ska": {
+    "name": "Organised Social Karting Activity",
+    "appendix": 1,
+    "before_state_event": "If within 48 h of a State Series/Trophy/Cup/Zonal, sessions usually limited to entered drivers in their entered class (confirm SKA)."
+  }
+}

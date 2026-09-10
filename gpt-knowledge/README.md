@@ -60,5 +60,12 @@ Never: invent pressures from `kart-class-reference.md`; never let track prose ov
 
 ## Missing / do not invent
 
-Nothing in this pack is populated yet except structure. Until a file has real content,
-the GPT must say the knowledge is absent — never reconstruct from memory.
+Population status lives in `coaching-knowledge-base-index.md` (2026-09: chassis/tyre/
+class/technique/diagnostic files POPULATED from the imported `kb/` + `kb-au-rules/`
+trees; track files, session files, and instructions-extended still skeleton; control
+tyre spec PDFs partial). Until a file has real content, the GPT must say the knowledge
+is absent — never reconstruct from memory.
+
+Backing sources in this repo: `kb/` (setup/engine/tyre topics, playbooks, machine
+data), `kb-au-rules/` (2026 Australian Karting Manual Update 1 snapshot),
+`tools/setup-engine/` (tested calculators). Cite them when populating further.

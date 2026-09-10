@@ -1,0 +1,40 @@
+{
+  "trackId": "elkc_short",
+  "name": "Eastern Lions Kart Club (Hume International) (Short)",
+  "lengthM": 835,
+  "startFinish": [
+    57.27,
+    50.98
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "elkc_short_t1",
+      "number": 1,
+      "apex": [
+        78.98,
+        38.99
+      ],
+      "label": [
+        83.43,
+        36.31
+      ],
+      "entry": [
+        88.16,
+        40.75
+      ],
+      "exit": [
+        27.71,
+        22.86
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

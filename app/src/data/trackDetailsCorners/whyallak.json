@@ -1,0 +1,40 @@
+{
+  "trackId": "whyallak",
+  "name": "Whyalla Go Kart Club (Mt Young Raceway)",
+  "lengthM": 498,
+  "startFinish": [
+    47.62,
+    59.84
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "whyallak_t1",
+      "number": 1,
+      "apex": [
+        78.56,
+        55.23
+      ],
+      "label": [
+        83.37,
+        57.22
+      ],
+      "entry": [
+        91.54,
+        77.46
+      ],
+      "exit": [
+        53.73,
+        16.1
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

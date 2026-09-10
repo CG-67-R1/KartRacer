@@ -11,10 +11,12 @@ Mobile app for **Australian kart racing** (Motorsport Is Life). Sister product t
 - `api/` — Express calendar + Q&A + coach API
 - `packs/` — regional packs; AU-only launch (`active.json` = `["au"]`); `discipline`: `karting`
 - `data/gpx/` — **129 one-lap kart GPX** (import source; not yet baked)
-- `gpt-knowledge/` — KartRacer AI pack skeletons (do not upload as fact)
+- `gpt-knowledge/` — KartRacer AI pack; population status in `coaching-knowledge-base-index.md` (chassis/tyre/class/technique/diagnostic populated 2026-09; track + session files still skeleton)
+- `kb/` — kart setup/engine/tyre KB (topics, playbooks, machine `data/*.json`, `rules/*.json` consumed by setup-engine) — imported from the KARTS Cursor project
+- `kb-au-rules/` — 2026 Australian Karting Manual snapshot (national + state rules, classes/weights/restrictors/licences/clubs JSON) — authoritative local rules source
 - `Q&A/` — empty; ingest KA Manual in J3.4
 - `scripts/` — track-map factory (copied from RoadRacer) plus KartRacer `tools/`
-- `tools/` — `tkk2gpx.py`, `kartcoach_gpx_audit.py`
+- `tools/` — `tkk2gpx.py`, `kartcoach_gpx_audit.py`, `setup-engine/` (tested TS calculators: gearing, RAD jetting, air density, caster sweep, corner weights, fuel mix; `npm test` = vitest, 35 tests; reads `kb/rules` + `kb/data`)
 
 ## Stack
 

@@ -1,0 +1,348 @@
+{
+  "trackId": "geraldtonk_2",
+  "name": "Midwest Kart Club (Geraldton) (2)",
+  "lengthM": 664,
+  "startFinish": [
+    58.15,
+    47.84
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "geraldtonk_2_t1",
+      "number": 1,
+      "apex": [
+        72.53,
+        68.73
+      ],
+      "label": [
+        76.88,
+        71.58
+      ],
+      "entry": [
+        73.35,
+        64.69
+      ],
+      "exit": [
+        68.74,
+        71.78
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "geraldtonk_2_t2",
+      "number": 2,
+      "apex": [
+        25.85,
+        79.55
+      ],
+      "label": [
+        22.67,
+        83.66
+      ],
+      "entry": [
+        45.97,
+        77.69
+      ],
+      "exit": [
+        21.2,
+        77.23
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "geraldtonk_2_t3",
+      "number": 3,
+      "apex": [
+        19.38,
+        73.5
+      ],
+      "label": [
+        15.26,
+        76.68
+      ],
+      "entry": [
+        20.1,
+        75.79
+      ],
+      "exit": [
+        20.57,
+        70.94
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "geraldtonk_2_t4",
+      "number": 4,
+      "apex": [
+        40.1,
+        60.51
+      ],
+      "label": [
+        36.77,
+        64.51
+      ],
+      "entry": [
+        31.44,
+        65.43
+      ],
+      "exit": [
+        41.05,
+        57.93
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "geraldtonk_2_t5",
+      "number": 5,
+      "apex": [
+        35.14,
+        35.7
+      ],
+      "label": [
+        32.07,
+        31.5
+      ],
+      "entry": [
+        37.83,
+        38.47
+      ],
+      "exit": [
+        32.72,
+        35.69
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "geraldtonk_2_t6",
+      "number": 6,
+      "apex": [
+        30.33,
+        37.17
+      ],
+      "label": [
+        26.44,
+        33.72
+      ],
+      "entry": [
+        31.95,
+        35.99
+      ],
+      "exit": [
+        27.33,
+        45.7
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "geraldtonk_2_t7",
+      "number": 7,
+      "apex": [
+        12.01,
+        58.81
+      ],
+      "label": [
+        6.9,
+        59.79
+      ],
+      "entry": [
+        16.27,
+        59.87
+      ],
+      "exit": [
+        9.12,
+        55.41
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "geraldtonk_2_t8",
+      "number": 8,
+      "apex": [
+        27.58,
+        21.32
+      ],
+      "label": [
+        24.79,
+        16.93
+      ],
+      "entry": [
+        18.71,
+        28.53
+      ],
+      "exit": [
+        40.29,
+        20.79
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "geraldtonk_2_t9",
+      "number": 9,
+      "apex": [
+        88.59,
+        39.41
+      ],
+      "label": [
+        93.56,
+        37.89
+      ],
+      "entry": [
+        60.49,
+        26.33
+      ],
+      "exit": [
+        91.51,
+        45.39
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "geraldtonk_2_t10",
+      "number": 10,
+      "apex": [
+        87.7,
+        55.9
+      ],
+      "label": [
+        92.88,
+        56.39
+      ],
+      "entry": [
+        91.09,
+        50.98
+      ],
+      "exit": [
+        84.23,
+        57.24
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "geraldtonk_2_t11",
+      "number": 11,
+      "apex": [
+        81.21,
+        56.55
+      ],
+      "label": [
+        86.37,
+        57.23
+      ],
+      "entry": [
+        83.41,
+        57.21
+      ],
+      "exit": [
+        73.36,
+        46.78
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    },
+    {
+      "id": "geraldtonk_2_t12",
+      "number": 12,
+      "apex": [
+        60.74,
+        41.42
+      ],
+      "label": [
+        64.84,
+        38.22
+      ],
+      "entry": [
+        64.67,
+        40.83
+      ],
+      "exit": [
+        58.65,
+        43.77
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 12 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T11 exit"
+    }
+  ]
+}

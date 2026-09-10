@@ -1,0 +1,320 @@
+{
+  "trackId": "canberralong",
+  "name": "Canberra Kart Racing Club (Pialligo) (Long)",
+  "lengthM": 1077,
+  "startFinish": [
+    59.54,
+    53.22
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "canberralong_t1",
+      "number": 1,
+      "apex": [
+        61.46,
+        50.11
+      ],
+      "label": [
+        65.76,
+        47.18
+      ],
+      "entry": [
+        59.54,
+        53.22
+      ],
+      "exit": [
+        61.17,
+        41.75
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "canberralong_t2",
+      "number": 2,
+      "apex": [
+        80.11,
+        14.88
+      ],
+      "label": [
+        83.16,
+        10.67
+      ],
+      "entry": [
+        76.28,
+        18.48
+      ],
+      "exit": [
+        80.49,
+        12.27
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "canberralong_t3",
+      "number": 3,
+      "apex": [
+        71.9,
+        9.36
+      ],
+      "label": [
+        74.15,
+        4.67
+      ],
+      "entry": [
+        75.55,
+        8.33
+      ],
+      "exit": [
+        68.08,
+        13.78
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "canberralong_t4",
+      "number": 4,
+      "apex": [
+        41.21,
+        45.53
+      ],
+      "label": [
+        38.95,
+        40.85
+      ],
+      "entry": [
+        44.69,
+        42.92
+      ],
+      "exit": [
+        40.23,
+        47.55
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "canberralong_t5",
+      "number": 5,
+      "apex": [
+        20.55,
+        82.4
+      ],
+      "label": [
+        16.57,
+        85.75
+      ],
+      "entry": [
+        19.48,
+        78.64
+      ],
+      "exit": [
+        27.43,
+        87.71
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "canberralong_t6",
+      "number": 6,
+      "apex": [
+        45.46,
+        91.08
+      ],
+      "label": [
+        45.06,
+        96.26
+      ],
+      "entry": [
+        35.83,
+        91
+      ],
+      "exit": [
+        51.79,
+        87.47
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "canberralong_t7",
+      "number": 7,
+      "apex": [
+        56.76,
+        65.52
+      ],
+      "label": [
+        61.04,
+        68.48
+      ],
+      "entry": [
+        57.42,
+        68.31
+      ],
+      "exit": [
+        54.99,
+        63.73
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "canberralong_t8",
+      "number": 8,
+      "apex": [
+        47.82,
+        80.27
+      ],
+      "label": [
+        47.81,
+        85.47
+      ],
+      "entry": [
+        48.56,
+        77.12
+      ],
+      "exit": [
+        45.8,
+        82.71
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "canberralong_t9",
+      "number": 9,
+      "apex": [
+        30.77,
+        81.5
+      ],
+      "label": [
+        27.59,
+        85.61
+      ],
+      "entry": [
+        32.95,
+        82.85
+      ],
+      "exit": [
+        29.68,
+        79.25
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "canberralong_t10",
+      "number": 10,
+      "apex": [
+        31.65,
+        75.4
+      ],
+      "label": [
+        27.95,
+        79.05
+      ],
+      "entry": [
+        30,
+        76.82
+      ],
+      "exit": [
+        33.54,
+        75.35
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "canberralong_t11",
+      "number": 11,
+      "apex": [
+        40.45,
+        73.15
+      ],
+      "label": [
+        37.98,
+        77.73
+      ],
+      "entry": [
+        37.79,
+        75.31
+      ],
+      "exit": [
+        41.85,
+        69.55
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 /**
- * Refresh AU road-race calendar cache file.
+ * Refresh AU kart calendar cache file.
  * Usage: node scripts/refreshAuCalendar.js
  */
 import fs from 'fs/promises';
@@ -13,7 +13,7 @@ import {
 } from '../calendarScrapers.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const OUT_FILE = path.join(__dirname, '..', 'data', 'au-road-race-events.json');
+const OUT_FILE = path.join(__dirname, '..', 'data', 'au-kart-events.json');
 const STATIC_FILE = path.join(__dirname, '..', 'data', 'calendar-static.json');
 
 async function loadStaticDedupeKeys() {

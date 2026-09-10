@@ -1,0 +1,143 @@
+{
+  "origin": "gpt-knowledge/kart-class-reference.md",
+  "title": "Kart class reference",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "# KA class reference (bias only — NO numeric fallbacks)\n\n> STATUS: POPULATED v1.0 — 2026-09. Source: `kb-au-rules/` snapshot of the\n> 2026 Australian Karting Manual — Update 1 (2 March 2026), 59th edition.\n> Machine tables: `kb-au-rules/data/classes.json`, `restrictors.json`, `licences.json`.\n> Weights are kart + driver + equipment unless stated. State/Supplementary Regulations\n> can change weights and eligible divisions — always confirm the meeting Supp Regs.\n\n## Pathway (typical Australian club)\n\n**4SS** (sealed Torini, cheap) or **Cadet 9** (Mini Rok + 16 mm) → **Cadet 12**\n(Mini Rok open) → **KA3 Junior** (KA100 + 22 mm) → **KA3 Senior** or **TaG Restricted**\n→ **TaG 125 / X30 / Rotax 125 / Rok GP** → **DD2 / KZ2**. **KA2** is the faster junior\n(Rok DVS). Yamaha (KT100) remains a club option. MicroMax / MiniMax = social only.\nKA4 = state/club class in the 2026 book.\n\n## Cadet 9 / Cadet 12\n\n- Cadet 9: race from 7th birthday to 10th (practice from 6th). Mini Rok +16 mm\n  restrictor / Comer / KT100J with AKA1 13.02 mm. Min 100 / 90 / 100 kg by engine.\n- Cadet 12: 9th–13th birthday. Mini Rok unrestricted / KT100J AKA2A 16 mm.\n  Min 110 / 105 kg.\n- Tyres: Maxxis 190D Cadet-KA dry (10x4.00-5 / 11x5.00-5), Maxxis MW21 wet.\n- Plates: white/red. Coaching bias: momentum driving, tiny inputs; chassis windows\n  are narrow (rear track max 1100 mm cadet).\n\n## KA4 Junior (state/club)\n\n- Junior 11–16; KA100 with 19 mm IAME restrictor. Min Jr 128/148 kg (Light/Heavy);\n  Senior 148/163; Masters 163.\n- Tyres: LeCont LH03 AUS dry + SV1 wet.\n\n## KA3 Junior / KA3 Senior\n\n- KA3 Junior: 11–16, KA100 + 22 mm Type 3 restrictor. Min 137 champ / 132 Light / 150 Heavy.\n- KA3 Senior: senior licence; Masters 40+. KA100 unrestricted.\n  Min 160 Champ / 150 Light / 170 Medium / 190 Heavy / 170 Masters.\n- Tyres: LeCont LH03 AUS dry + SV1 wet.\n\n## KA2 Junior\n\n- 12–16, B-grade Junior licence. Rok DVS Junior. Min 142 kg.\n- Tyres: LeCont **LOH** dry (+ bead retention) + SV1 wet.\n\n## Junior Max / Rotax 125\n\n- Junior Max: 12–16, B Jr licence, Rotax with SR4 23.5 mm restrictor. Min 145 kg.\n- Rotax 125 (senior): Max 125. Min 160/180 (165/180 in the National Series).\n- Mojo tyres apply in Rotax Pro Tour contexts — confirm series regs (not in the KA\n  approved-tyre spec list; series-specific).\n\n## X30 (Light/Heavy)\n\n- Senior B licence. IAME X30 unrestricted. Min 162 Light / 176 Heavy.\n- Tyres: LeCont **LPM** dry + SV1 wet.\n\n## TaG 125 / TaG Restricted\n\n- TaG 125: senior B, open 125s. Champ 172; Light 160 (Fireball 150). LeCont LOH.\n- TaG Restricted: seniors; Masters 40+. Restricted 125s (AKA SR2 24.5 mm /\n  SR3 23.5 mm for Rotax Max, etc. — see `restrictors.json`). Min 160/180/200\n  (+5 kg for Rotax SR2/SR4). LeCont LH03 (class list) + SV1.\n\n## DD2 / Rok GP\n\n- DD2: senior B; Masters 32+. Rotax DD2 two-speed. Min 173 / 180 Masters.\n- Rok GP: senior B; Masters 32+ (under-32 allowed if driver+kit >= 85 kg).\n  Min 162 / 180 / 180. LeCont LPM dry.\n\n## KZ2 (gearbox)\n\n- Senior licence. KZ 125 gearbox. Min 177 kg. Highest cornering load and\n  physical demand; front brakes fitted (unlike sprint classes).\n\n## 4SS (4-stroke)\n\n- Cadet / Junior / Senior on Torini Clubmaxx 210 (sealed). Min 100 / 130 / 140–170.\n- 4SS Super: Supermaxx 250, max B senior. Min 155 / 170 / 185. PULP fuel only.\n- Tyres: Maxxis 190D (cadet) / Maxxis Sport (Jr/Sr).\n\n## Vintage\n\n- Vintage licence; pre-2001 classes, 15 years off the book. No racing — parade,\n  demo, time trial, regularity only.\n\n## Age ladder + licence grades (2026 Manual)\n\n- Grades high→low: A / E-A, B / E-B, C / E-C, D, E (social/recreational), 8-Day.\n- D Grade and 8-Day display a **P plate** at all times.\n- Cadet: practice 6th birthday, race 7th; Cadet 12 from 9th; junior licence from\n  11th (KA2 / Jr Max / Jr Performance from 12th); senior from 15th (junior may\n  move up from 14th). Masters: 40+ for KA3/TaG Restricted; 32+ for DD2/Rok GP.\n- Upgrades: D→C after 4 meetings + endorsements; C→B 6 meetings or top-5 national\n  junior; B→A top-3 state championship. Under-18 requires a Participant's\n  Licence holder (parent/guardian).\n- Portal: portal.karting.net.au (KOMP). Join an affiliated club first.\n\n## Meeting rules that shape coaching advice\n\n- Two engines allowed from first qualifying. One dry + one wet tyre set from\n  first qualifying (+1 replacement each if approved).\n- Wets only after the Clerk of the Course declares Wet.\n- Plates: Cadet white/red, Junior white/black, Senior yellow/black.\n\n## Anti-hallucination rule\n\nNo pressures, jetting numbers, or gear ratios live in this file on purpose.\nSetup numbers come only from `chassis-setup-and-tyre-kb.md` and\n`tyre-pressure-weather-troubleshooting-guide.md` with their cited ranges.\n",
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "text": "# KA class reference (bias only — NO numeric fallbacks)"
+    },
+    {
+      "type": "paragraph",
+      "text": "> STATUS: POPULATED v1.0 — 2026-09. Source: `kb-au-rules/` snapshot of the\n> 2026 Australian Karting Manual — Update 1 (2 March 2026), 59th edition.\n> Machine tables: `kb-au-rules/data/classes.json`, `restrictors.json`, `licences.json`.\n> Weights are kart + driver + equipment unless stated. State/Supplementary Regulations\n> can change weights and eligible divisions — always confirm the meeting Supp Regs."
+    },
+    {
+      "type": "heading",
+      "text": "## Pathway (typical Australian club)"
+    },
+    {
+      "type": "paragraph",
+      "text": "**4SS** (sealed Torini, cheap) or **Cadet 9** (Mini Rok + 16 mm) → **Cadet 12**\n(Mini Rok open) → **KA3 Junior** (KA100 + 22 mm) → **KA3 Senior** or **TaG Restricted**\n→ **TaG 125 / X30 / Rotax 125 / Rok GP** → **DD2 / KZ2**. **KA2** is the faster junior\n(Rok DVS). Yamaha (KT100) remains a club option. MicroMax / MiniMax = social only.\nKA4 = state/club class in the 2026 book."
+    },
+    {
+      "type": "heading",
+      "text": "## Cadet 9 / Cadet 12"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Cadet 9: race from 7th birthday to 10th (practice from 6th). Mini Rok +16 mm\n  restrictor / Comer / KT100J with AKA1 13.02 mm. Min 100 / 90 / 100 kg by engine.\n- Cadet 12: 9th–13th birthday. Mini Rok unrestricted / KT100J AKA2A 16 mm.\n  Min 110 / 105 kg.\n- Tyres: Maxxis 190D Cadet-KA dry (10x4.00-5 / 11x5.00-5), Maxxis MW21 wet.\n- Plates: white/red. Coaching bias: momentum driving, tiny inputs; chassis windows\n  are narrow (rear track max 1100 mm cadet)."
+    },
+    {
+      "type": "heading",
+      "text": "## KA4 Junior (state/club)"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Junior 11–16; KA100 with 19 mm IAME restrictor. Min Jr 128/148 kg (Light/Heavy);\n  Senior 148/163; Masters 163.\n- Tyres: LeCont LH03 AUS dry + SV1 wet."
+    },
+    {
+      "type": "heading",
+      "text": "## KA3 Junior / KA3 Senior"
+    },
+    {
+      "type": "paragraph",
+      "text": "- KA3 Junior: 11–16, KA100 + 22 mm Type 3 restrictor. Min 137 champ / 132 Light / 150 Heavy.\n- KA3 Senior: senior licence; Masters 40+. KA100 unrestricted.\n  Min 160 Champ / 150 Light / 170 Medium / 190 Heavy / 170 Masters.\n- Tyres: LeCont LH03 AUS dry + SV1 wet."
+    },
+    {
+      "type": "heading",
+      "text": "## KA2 Junior"
+    },
+    {
+      "type": "paragraph",
+      "text": "- 12–16, B-grade Junior licence. Rok DVS Junior. Min 142 kg.\n- Tyres: LeCont **LOH** dry (+ bead retention) + SV1 wet."
+    },
+    {
+      "type": "heading",
+      "text": "## Junior Max / Rotax 125"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Junior Max: 12–16, B Jr licence, Rotax with SR4 23.5 mm restrictor. Min 145 kg.\n- Rotax 125 (senior): Max 125. Min 160/180 (165/180 in the National Series).\n- Mojo tyres apply in Rotax Pro Tour contexts — confirm series regs (not in the KA\n  approved-tyre spec list; series-specific)."
+    },
+    {
+      "type": "heading",
+      "text": "## X30 (Light/Heavy)"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Senior B licence. IAME X30 unrestricted. Min 162 Light / 176 Heavy.\n- Tyres: LeCont **LPM** dry + SV1 wet."
+    },
+    {
+      "type": "heading",
+      "text": "## TaG 125 / TaG Restricted"
+    },
+    {
+      "type": "paragraph",
+      "text": "- TaG 125: senior B, open 125s. Champ 172; Light 160 (Fireball 150). LeCont LOH.\n- TaG Restricted: seniors; Masters 40+. Restricted 125s (AKA SR2 24.5 mm /\n  SR3 23.5 mm for Rotax Max, etc. — see `restrictors.json`). Min 160/180/200\n  (+5 kg for Rotax SR2/SR4). LeCont LH03 (class list) + SV1."
+    },
+    {
+      "type": "heading",
+      "text": "## DD2 / Rok GP"
+    },
+    {
+      "type": "paragraph",
+      "text": "- DD2: senior B; Masters 32+. Rotax DD2 two-speed. Min 173 / 180 Masters.\n- Rok GP: senior B; Masters 32+ (under-32 allowed if driver+kit >= 85 kg).\n  Min 162 / 180 / 180. LeCont LPM dry."
+    },
+    {
+      "type": "heading",
+      "text": "## KZ2 (gearbox)"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Senior licence. KZ 125 gearbox. Min 177 kg. Highest cornering load and\n  physical demand; front brakes fitted (unlike sprint classes)."
+    },
+    {
+      "type": "heading",
+      "text": "## 4SS (4-stroke)"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Cadet / Junior / Senior on Torini Clubmaxx 210 (sealed). Min 100 / 130 / 140–170.\n- 4SS Super: Supermaxx 250, max B senior. Min 155 / 170 / 185. PULP fuel only.\n- Tyres: Maxxis 190D (cadet) / Maxxis Sport (Jr/Sr)."
+    },
+    {
+      "type": "heading",
+      "text": "## Vintage"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Vintage licence; pre-2001 classes, 15 years off the book. No racing — parade,\n  demo, time trial, regularity only."
+    },
+    {
+      "type": "heading",
+      "text": "## Age ladder + licence grades (2026 Manual)"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Grades high→low: A / E-A, B / E-B, C / E-C, D, E (social/recreational), 8-Day.\n- D Grade and 8-Day display a **P plate** at all times.\n- Cadet: practice 6th birthday, race 7th; Cadet 12 from 9th; junior licence from\n  11th (KA2 / Jr Max / Jr Performance from 12th); senior from 15th (junior may\n  move up from 14th). Masters: 40+ for KA3/TaG Restricted; 32+ for DD2/Rok GP.\n- Upgrades: D→C after 4 meetings + endorsements; C→B 6 meetings or top-5 national\n  junior; B→A top-3 state championship. Under-18 requires a Participant's\n  Licence holder (parent/guardian).\n- Portal: portal.karting.net.au (KOMP). Join an affiliated club first."
+    },
+    {
+      "type": "heading",
+      "text": "## Meeting rules that shape coaching advice"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Two engines allowed from first qualifying. One dry + one wet tyre set from\n  first qualifying (+1 replacement each if approved).\n- Wets only after the Clerk of the Course declares Wet.\n- Plates: Cadet white/red, Junior white/black, Senior yellow/black."
+    },
+    {
+      "type": "heading",
+      "text": "## Anti-hallucination rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "No pressures, jetting numbers, or gear ratios live in this file on purpose.\nSetup numbers come only from `chassis-setup-and-tyre-kb.md` and\n`tyre-pressure-weather-troubleshooting-guide.md` with their cited ranges."
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "gpt-knowledge",
+    "builtAt": "2026-09-10T08:52:32.900Z"
+  }
+}

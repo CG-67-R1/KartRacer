@@ -1,0 +1,320 @@
+{
+  "trackId": "cooloolak",
+  "name": "Cooloola Coast Kart Club (Gympie Gold Raceway)",
+  "lengthM": 857,
+  "startFinish": [
+    44.91,
+    46.66
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "cooloolak_t1",
+      "number": 1,
+      "apex": [
+        78.04,
+        20.28
+      ],
+      "label": [
+        80.65,
+        15.78
+      ],
+      "entry": [
+        70.74,
+        24.97
+      ],
+      "exit": [
+        79.42,
+        16.27
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "cooloolak_t2",
+      "number": 2,
+      "apex": [
+        77.85,
+        11.4
+      ],
+      "label": [
+        79.99,
+        6.66
+      ],
+      "entry": [
+        79.39,
+        15.24
+      ],
+      "exit": [
+        74.47,
+        8.93
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "cooloolak_t3",
+      "number": 3,
+      "apex": [
+        67.57,
+        8.71
+      ],
+      "label": [
+        68.53,
+        3.6
+      ],
+      "entry": [
+        74.47,
+        8.93
+      ],
+      "exit": [
+        44.77,
+        26.19
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "cooloolak_t4",
+      "number": 4,
+      "apex": [
+        12.81,
+        59.14
+      ],
+      "label": [
+        7.66,
+        59.89
+      ],
+      "entry": [
+        36.52,
+        34.1
+      ],
+      "exit": [
+        12.73,
+        64.97
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "cooloolak_t5",
+      "number": 5,
+      "apex": [
+        55.83,
+        90.91
+      ],
+      "label": [
+        55.35,
+        96.09
+      ],
+      "entry": [
+        41.28,
+        80.81
+      ],
+      "exit": [
+        65.34,
+        90.99
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "cooloolak_t6",
+      "number": 6,
+      "apex": [
+        75.16,
+        82.5
+      ],
+      "label": [
+        77.57,
+        87.11
+      ],
+      "entry": [
+        69.43,
+        89.1
+      ],
+      "exit": [
+        75.43,
+        63.71
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "cooloolak_t7",
+      "number": 7,
+      "apex": [
+        87.5,
+        42.05
+      ],
+      "label": [
+        92.38,
+        40.26
+      ],
+      "entry": [
+        82.19,
+        48.46
+      ],
+      "exit": [
+        87.5,
+        39.02
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "cooloolak_t8",
+      "number": 8,
+      "apex": [
+        81.51,
+        34.88
+      ],
+      "label": [
+        85.59,
+        31.66
+      ],
+      "entry": [
+        85.24,
+        36.03
+      ],
+      "exit": [
+        70.08,
+        39.41
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "cooloolak_t9",
+      "number": 9,
+      "apex": [
+        59.06,
+        51.88
+      ],
+      "label": [
+        55.92,
+        47.74
+      ],
+      "entry": [
+        62.59,
+        44.94
+      ],
+      "exit": [
+        61.73,
+        61.66
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "cooloolak_t10",
+      "number": 10,
+      "apex": [
+        64.18,
+        70.81
+      ],
+      "label": [
+        65.48,
+        75.84
+      ],
+      "entry": [
+        61.73,
+        61.66
+      ],
+      "exit": [
+        62.41,
+        74.83
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "cooloolak_t11",
+      "number": 11,
+      "apex": [
+        54.51,
+        76.34
+      ],
+      "label": [
+        53.47,
+        81.43
+      ],
+      "entry": [
+        58.38,
+        77.04
+      ],
+      "exit": [
+        47.96,
+        69.46
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 11 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T10 exit"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "origin": "kb-au-rules/national/fees-penalties.md",
+  "title": "2026 KA Manual — fees and penalties",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "---\nid: ncr-fees-penalties\ntitle: Fees, protests, penalties\ntags: [protest, appeal, fine, penalty, fees]\n---\n\n# Fees, protests, penalties\n\nTables: `data/fees-penalties.json`.\n\n## Money (2026 national list, GST incl. where applicable)\n\n- Organising permits: AKC $2360; National Series $1762; National Cup $1545; state/club set by SKA.\n- 8-Day licence $115. International Driver $1145. KAC $25. Participant $0. Dealer $750. Photographer $212.\n- **TDF levy $3** every entry.\n- Protest: $700 national championship/series/cup; **$150** other.\n- Appeal tribunal: $900 state/club; **$4750** national. AMSAC via Motorsport Australia.\n\n## Penalty ladder\n\nReprimand → points (that driver only) → time/place → disqualify section / event / **meeting** → fine → suspension / exclusion. Unpaid fines accrue interest and block the licence.\n\n**Restrictor infringement** example in the book: meeting disqualification.\n\n2026: hearings should record audio (AI transcription recommended). Infringement Notice can be accepted without a full hearing.\n\nProtests and appeals: General Rules Ch 12–14 — use the current Manual for windows and forms, not memory.\n",
+  "contentBlocks": [
+    {
+      "type": "paragraph",
+      "text": "---\nid: ncr-fees-penalties\ntitle: Fees, protests, penalties\ntags: [protest, appeal, fine, penalty, fees]\n---"
+    },
+    {
+      "type": "heading",
+      "text": "# Fees, protests, penalties"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tables: `data/fees-penalties.json`."
+    },
+    {
+      "type": "heading",
+      "text": "## Money (2026 national list, GST incl. where applicable)"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Organising permits: AKC $2360; National Series $1762; National Cup $1545; state/club set by SKA.\n- 8-Day licence $115. International Driver $1145. KAC $25. Participant $0. Dealer $750. Photographer $212.\n- **TDF levy $3** every entry.\n- Protest: $700 national championship/series/cup; **$150** other.\n- Appeal tribunal: $900 state/club; **$4750** national. AMSAC via Motorsport Australia."
+    },
+    {
+      "type": "heading",
+      "text": "## Penalty ladder"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reprimand → points (that driver only) → time/place → disqualify section / event / **meeting** → fine → suspension / exclusion. Unpaid fines accrue interest and block the licence."
+    },
+    {
+      "type": "paragraph",
+      "text": "**Restrictor infringement** example in the book: meeting disqualification."
+    },
+    {
+      "type": "paragraph",
+      "text": "2026: hearings should record audio (AI transcription recommended). Infringement Notice can be accepted without a full hearing."
+    },
+    {
+      "type": "paragraph",
+      "text": "Protests and appeals: General Rules Ch 12–14 — use the current Manual for windows and forms, not memory."
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "kb-au-rules",
+    "builtAt": "2026-09-10T08:52:32.881Z"
+  }
+}

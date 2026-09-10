@@ -74,7 +74,7 @@ type QATab = QaSegment;
 
 const SCOOTER_COMMENTS = [
   "That wasn't a corner—that was a suggestion.",
-  "Your bike has more potential than that. So does a mobility scooter.",
+  "Your kart has more potential than that. So does a shopping trolley.",
   "Did you mean to tap 'walking simulator' instead?",
   "The only thing you're dragging is your confidence.",
   "Even the cone was surprised.",
@@ -91,15 +91,15 @@ function getTriviaResult(correct: number, wrong: number): { title: string; messa
   if (wrong >= 3) return null; // handled as fail
   if (correct <= 2) {
     const msg = SCOOTER_COMMENTS[Math.floor(Math.random() * SCOOTER_COMMENTS.length)];
-    return { title: 'Scooter rider', message: msg };
+    return { title: 'Cadet day', message: msg };
   }
   if (correct >= 8) {
     return { title: 'Track Guru!', message: TRACK_GURU_COMMENT };
   }
   if (correct >= 5) {
-    return { title: 'You must be a track rider!', message: TRACK_RIDER_COMMENT };
+    return { title: 'You must be a club karter!', message: TRACK_RIDER_COMMENT };
   }
-  return { title: 'Street rider', message: "You're getting there—book a track day." };
+  return { title: 'Practice day', message: "You're getting there—book a club day." };
 }
 
 export function QAScreen() {
@@ -512,12 +512,12 @@ export function QAScreen() {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Got a question?</Text>
         <Text style={styles.sectionSubtitle}>
-          Motorcycle road racing Q&A with live web search — {getLocalUiLabel()} first (active regional packs), then world. History, series, terminology, and bike tech (not car racing). For coaching or bike setup, use Rider Coach or Bike Setup. For official rules, use Official rule check below.
+          Karting Q&A with live web search — {getLocalUiLabel()} first (active regional packs), then world motorsport pathways (F1, Supercars, IndyCar, F1 Academy, GT, NASCAR, WEC). For coaching or chassis setup, use Driver Coach or Kart Setup. For official rules, use Official rule check below.
         </Text>
         <View style={styles.searchRow}>
           <TextInput
             style={styles.input}
-            placeholder="e.g. What is trail braking? ... or ... Who won the TT in 1994?"
+            placeholder="e.g. How do I get a KA licence? ... or ... Who is Oscar Piastri?"
             placeholderTextColor="#64748b"
             value={query}
             onChangeText={setQuery}
@@ -576,7 +576,7 @@ export function QAScreen() {
               ) : null}
             </View>
             <Text style={styles.coachHint}>
-              For personalized coaching or bike setup, open Rider Coach or Bike Setup.
+              For personalized coaching or chassis setup, open Driver Coach or Kart Setup.
             </Text>
           </View>
         ) : null}
@@ -584,8 +584,8 @@ export function QAScreen() {
         <View style={styles.rulesSection}>
           <Text style={styles.sectionTitle}>Official rule check?</Text>
           <Text style={styles.sectionSubtitle}>
-            Ask against the uploaded MoMS and get a quick answer with edition and clause/location
-            citations so you can verify it in the rule book.
+            Ask against the uploaded Karting Australia Manual snapshot and get a quick answer with
+            edition and clause/location citations so you can verify it in the rule book.
           </Text>
           <View style={styles.searchRow}>
             <TextInput
@@ -630,7 +630,7 @@ export function QAScreen() {
                     {rulesSources[0]?.edition || rulesSources[0]?.effectiveDate ? (
                       <Text style={styles.sourceEdition}>
                         {[
-                          rulesSources[0].edition ? `MoMS ${rulesSources[0].edition}` : null,
+                          rulesSources[0].edition ? `KA Manual ${rulesSources[0].edition}` : null,
                           rulesSources[0].effectiveDate
                             ? `effective ${rulesSources[0].effectiveDate}`
                             : null,
@@ -642,18 +642,18 @@ export function QAScreen() {
                     {rulesMomsOnline ? (
                       <View style={styles.momsOnlineRow}>
                         <TouchableOpacity
-                          onPress={() => openExternalLink(rulesMomsOnline.sourcePage, 'MoMS page')}
+                          onPress={() => openExternalLink(rulesMomsOnline.sourcePage, 'KA Manual page')}
                           activeOpacity={0.7}
                         >
-                          <Text style={styles.sourceLink}>MoMS on MA website →</Text>
+                          <Text style={styles.sourceLink}>KA Manual on karting.net.au →</Text>
                         </TouchableOpacity>
                         {rulesMomsOnline.fullPdfUrl ? (
                           <TouchableOpacity
-                            onPress={() => openExternalLink(rulesMomsOnline.fullPdfUrl!, 'MoMS PDF')}
+                            onPress={() => openExternalLink(rulesMomsOnline.fullPdfUrl!, 'KA Manual PDF')}
                             activeOpacity={0.7}
                           >
                             <Text style={styles.sourceLink}>
-                              Full {rulesMomsOnline.edition ? `MoMS ${rulesMomsOnline.edition}` : 'MoMS'} PDF →
+                              Full {rulesMomsOnline.edition ? `KA Manual ${rulesMomsOnline.edition}` : 'KA Manual'} PDF →
                             </Text>
                           </TouchableOpacity>
                         ) : null}

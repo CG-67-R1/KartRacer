@@ -1,1 +1,1075 @@
-[]
+[
+  {
+    "id": "piastri",
+    "displayName": "Oscar Piastri",
+    "aliases": [
+      "oscar piastri",
+      "piastri",
+      "oscar"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Victorian karting to F1"
+    },
+    "blurb": "Oscar Piastri started karting in Victoria as a kid. The same weekend-club habit you have — then Formula 1. Keep the dream close.",
+    "active": true
+  },
+  {
+    "id": "ricciardo",
+    "displayName": "Daniel Ricciardo",
+    "aliases": [
+      "daniel ricciardo",
+      "ricciardo",
+      "honey badger"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Tiger Kart Club WA"
+    },
+    "blurb": "Daniel Ricciardo learned to race at Tiger Kart Club in WA. Big smile, late braking — it started in a kart, not a grand prix car.",
+    "active": true
+  },
+  {
+    "id": "doohan_jack",
+    "displayName": "Jack Doohan",
+    "aliases": [
+      "jack doohan",
+      "doohan"
+    ],
+    "series": [
+      "f1",
+      "akc"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "AKC graduate"
+    },
+    "blurb": "Jack Doohan came through Australian Kart Championship weekends before F1. AKC is the same series your club talks about.",
+    "active": true
+  },
+  {
+    "id": "hamilton",
+    "displayName": "Lewis Hamilton",
+    "aliases": [
+      "lewis hamilton",
+      "hamilton"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Stevenage karting"
+    },
+    "blurb": "Lewis Hamilton started in karts as a kid in Stevenage. Titles came later. First it was a small chassis and a lot of practice days.",
+    "active": true
+  },
+  {
+    "id": "verstappen",
+    "displayName": "Max Verstappen",
+    "aliases": [
+      "max verstappen",
+      "verstappen"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "karting from age four"
+    },
+    "blurb": "Max Verstappen was in karts from age four. The speed you see in F1 was built on tiny tracks first.",
+    "active": true
+  },
+  {
+    "id": "leclerc",
+    "displayName": "Charles Leclerc",
+    "aliases": [
+      "charles leclerc",
+      "leclerc"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Monaco karting"
+    },
+    "blurb": "Charles Leclerc grew up karting around Monaco and France. Ferrari came after a lot of cadet and junior weekends.",
+    "active": true
+  },
+  {
+    "id": "norris",
+    "displayName": "Lando Norris",
+    "aliases": [
+      "lando norris",
+      "norris"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "British karting"
+    },
+    "blurb": "Lando Norris came through British karting before McLaren. The jokes are free. The lap craft started in a kart.",
+    "active": true
+  },
+  {
+    "id": "alonso",
+    "displayName": "Fernando Alonso",
+    "aliases": [
+      "fernando alonso",
+      "alonso"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Asturias karting"
+    },
+    "blurb": "Fernando Alonso started karting in Asturias as a little kid. Two F1 titles — and a karting origin like a lot of drivers in this list.",
+    "active": true
+  },
+  {
+    "id": "vettel",
+    "displayName": "Sebastian Vettel",
+    "aliases": [
+      "sebastian vettel",
+      "vettel",
+      "seb"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Kerpen karting"
+    },
+    "blurb": "Sebastian Vettel raced karts at Kerpen, the same German club scene that raised other champions. Four titles started small.",
+    "active": true
+  },
+  {
+    "id": "senna",
+    "displayName": "Ayrton Senna",
+    "aliases": [
+      "ayrton senna",
+      "senna"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Brazilian karting"
+    },
+    "blurb": "Ayrton Senna was a kart champion in Brazil long before Formula 1. The precision people still talk about was built on a kart track.",
+    "active": true
+  },
+  {
+    "id": "schumacher",
+    "displayName": "Michael Schumacher",
+    "aliases": [
+      "michael schumacher",
+      "schumacher"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Kerpen karting"
+    },
+    "blurb": "Michael Schumacher started at Kerpen kart club. Seven F1 titles. First job: learn the kart, then the rest.",
+    "active": true
+  },
+  {
+    "id": "russell",
+    "displayName": "George Russell",
+    "aliases": [
+      "george russell",
+      "russell"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "British karting"
+    },
+    "blurb": "George Russell came through British karting and the junior single-seater ladder. Mercedes F1 was not the first steering wheel.",
+    "active": true
+  },
+  {
+    "id": "sainz",
+    "displayName": "Carlos Sainz",
+    "aliases": [
+      "carlos sainz",
+      "sainz"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Spanish karting"
+    },
+    "blurb": "Carlos Sainz grew up in Spanish karting. Same family name as rally — different craft, same start: a kart.",
+    "active": true
+  },
+  {
+    "id": "rosberg",
+    "displayName": "Nico Rosberg",
+    "aliases": [
+      "nico rosberg",
+      "rosberg"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "karting then F1 title"
+    },
+    "blurb": "Nico Rosberg karted as a junior, then won the 2016 F1 title. Pathway first, champagne later.",
+    "active": true
+  },
+  {
+    "id": "button",
+    "displayName": "Jenson Button",
+    "aliases": [
+      "jenson button",
+      "button",
+      "jenson"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Frome karting"
+    },
+    "blurb": "Jenson Button started in karts around Frome. 2009 F1 champion — the smooth style was practiced on small tracks first.",
+    "active": true
+  },
+  {
+    "id": "raikkonen",
+    "displayName": "Kimi Räikkönen",
+    "aliases": [
+      "kimi raikkonen",
+      "raikkonen",
+      "kimi",
+      "iceman"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Finnish karting"
+    },
+    "blurb": "Kimi Räikkönen came out of Finnish karting. Few words. Lots of laps. The Iceman started small.",
+    "active": true
+  },
+  {
+    "id": "perez",
+    "displayName": "Sergio Pérez",
+    "aliases": [
+      "sergio perez",
+      "perez",
+      "checo"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Mexican karting"
+    },
+    "blurb": "Sergio Pérez learned to race in Mexican karting. Checo’s F1 career started with a club chassis, not a factory car.",
+    "active": true
+  },
+  {
+    "id": "webber",
+    "displayName": "Mark Webber",
+    "aliases": [
+      "mark webber",
+      "webber"
+    ],
+    "series": [
+      "f1"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Queanbeyan then Europe"
+    },
+    "blurb": "Mark Webber is a Queanbeyan racer who went to F1. Australian kids have used the same idea: karts, then Europe, then the big series.",
+    "active": true
+  },
+  {
+    "id": "mclaughlin",
+    "displayName": "Scott McLaughlin",
+    "aliases": [
+      "scott mclaughlin",
+      "mclaughlin"
+    ],
+    "series": [
+      "supercars",
+      "indycar"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "NZ karting to Supercars and Indy"
+    },
+    "blurb": "Scott McLaughlin started in New Zealand karting, won Supercars, then IndyCar. Two series, one origin story: karts.",
+    "active": true
+  },
+  {
+    "id": "power",
+    "displayName": "Will Power",
+    "aliases": [
+      "will power",
+      "power"
+    ],
+    "series": [
+      "indycar",
+      "supercars"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Toowoomba karting"
+    },
+    "blurb": "Will Power is from Toowoomba karting. Indy 500 winner. The first trophies were club kart plaques.",
+    "active": true
+  },
+  {
+    "id": "feeney",
+    "displayName": "Broc Feeney",
+    "aliases": [
+      "broc feeney",
+      "feeney"
+    ],
+    "series": [
+      "supercars"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Gold Coast karting"
+    },
+    "blurb": "Broc Feeney came through Gold Coast karting into Supercars. Triple Eight, Bathurst weekends — it started at a club track.",
+    "active": true
+  },
+  {
+    "id": "brown_will",
+    "displayName": "Will Brown",
+    "aliases": [
+      "will brown"
+    ],
+    "series": [
+      "supercars"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Victorian karting"
+    },
+    "blurb": "Will Brown raced karts in Victoria before Supercars titles. Club days first. Championship cars later.",
+    "active": true
+  },
+  {
+    "id": "waters",
+    "displayName": "Cam Waters",
+    "aliases": [
+      "cam waters",
+      "cameron waters",
+      "waters"
+    ],
+    "series": [
+      "supercars"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Mildura karting"
+    },
+    "blurb": "Cam Waters started in Mildura karting. Monster Mustang, Bathurst wins — same driver who once pushed a cadet kart.",
+    "active": true
+  },
+  {
+    "id": "svg",
+    "displayName": "Shane van Gisbergen",
+    "aliases": [
+      "shane van gisbergen",
+      "van gisbergen",
+      "svg"
+    ],
+    "series": [
+      "supercars",
+      "nascar"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "NZ karting"
+    },
+    "blurb": "Shane van Gisbergen came through New Zealand karting into Supercars, then NASCAR. Three disciplines, one start line.",
+    "active": true
+  },
+  {
+    "id": "whincup",
+    "displayName": "Jamie Whincup",
+    "aliases": [
+      "jamie whincup",
+      "whincup"
+    ],
+    "series": [
+      "supercars"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "karting then seven titles"
+    },
+    "blurb": "Jamie Whincup started in karts and became a seven-time Supercars champion. The count started at club meetings.",
+    "active": true
+  },
+  {
+    "id": "lowndes",
+    "displayName": "Craig Lowndes",
+    "aliases": [
+      "craig lowndes",
+      "lowndes"
+    ],
+    "series": [
+      "supercars"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "karting then Bathurst"
+    },
+    "blurb": "Craig Lowndes came out of karting into touring cars and Bathurst folklore. The kid in the kart is the same racer.",
+    "active": true
+  },
+  {
+    "id": "mostert",
+    "displayName": "Chaz Mostert",
+    "aliases": [
+      "chaz mostert",
+      "mostert"
+    ],
+    "series": [
+      "supercars"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "WA karting"
+    },
+    "blurb": "Chaz Mostert raced karts in WA before Supercars and Bathurst wins. Club origin, national Sundays.",
+    "active": true
+  },
+  {
+    "id": "depasquale",
+    "displayName": "Anton De Pasquale",
+    "aliases": [
+      "anton de pasquale",
+      "de pasquale"
+    ],
+    "series": [
+      "supercars"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Melbourne karting"
+    },
+    "blurb": "Anton De Pasquale came through Melbourne karting into Supercars. Shell Ford weekends started as club race days.",
+    "active": true
+  },
+  {
+    "id": "randle",
+    "displayName": "Thomas Randle",
+    "aliases": [
+      "thomas randle",
+      "randle"
+    ],
+    "series": [
+      "supercars"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Victorian karting"
+    },
+    "blurb": "Thomas Randle raced karts in Victoria, then Super2, then Supercars. The ladder is real. First rung is a kart.",
+    "active": true
+  },
+  {
+    "id": "kostecki",
+    "displayName": "Brodie Kostecki",
+    "aliases": [
+      "brodie kostecki",
+      "kostecki"
+    ],
+    "series": [
+      "supercars"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "WA karting"
+    },
+    "blurb": "Brodie Kostecki came through WA karting into a Supercars title. Heavy cars, light origin.",
+    "active": true
+  },
+  {
+    "id": "courtney",
+    "displayName": "James Courtney",
+    "aliases": [
+      "james courtney",
+      "courtney"
+    ],
+    "series": [
+      "supercars"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "karting then Bathurst"
+    },
+    "blurb": "James Courtney started in karts, went to Europe, came home to Supercars and Bathurst. A classic AU pathway.",
+    "active": true
+  },
+  {
+    "id": "tander",
+    "displayName": "Garth Tander",
+    "aliases": [
+      "garth tander",
+      "tander"
+    ],
+    "series": [
+      "supercars"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "karting then multiple Bathursts"
+    },
+    "blurb": "Garth Tander raced karts before a stack of Bathurst wins. The endurance craft started on short tracks.",
+    "active": true
+  },
+  {
+    "id": "reynolds",
+    "displayName": "David Reynolds",
+    "aliases": [
+      "david reynolds",
+      "reynolds"
+    ],
+    "series": [
+      "supercars"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Victorian karting"
+    },
+    "blurb": "David Reynolds came through Victorian karting. The showman in Supercars was a club karter first.",
+    "active": true
+  },
+  {
+    "id": "palou",
+    "displayName": "Alex Palou",
+    "aliases": [
+      "alex palou",
+      "palou"
+    ],
+    "series": [
+      "indycar"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Spanish karting"
+    },
+    "blurb": "Alex Palou grew up in Spanish karting, then won IndyCar titles. Same idea as the AU kids: karts, then the big oval series.",
+    "active": true
+  },
+  {
+    "id": "dixon",
+    "displayName": "Scott Dixon",
+    "aliases": [
+      "scott dixon",
+      "dixon"
+    ],
+    "series": [
+      "indycar"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "NZ karting"
+    },
+    "blurb": "Scott Dixon started in New Zealand karting. Six-time IndyCar champion. The smooth style was practiced early.",
+    "active": true
+  },
+  {
+    "id": "herta",
+    "displayName": "Colton Herta",
+    "aliases": [
+      "colton herta",
+      "herta"
+    ],
+    "series": [
+      "indycar"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "US karting"
+    },
+    "blurb": "Colton Herta came through US karting into IndyCar. Youngest pole at Indy — the hands were trained in a kart.",
+    "active": true
+  },
+  {
+    "id": "newgarden",
+    "displayName": "Josef Newgarden",
+    "aliases": [
+      "josef newgarden",
+      "newgarden"
+    ],
+    "series": [
+      "indycar"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "US karting"
+    },
+    "blurb": "Josef Newgarden raced karts in the US before Indy 500 wins. Club chassis, then the Brickyard.",
+    "active": true
+  },
+  {
+    "id": "oward",
+    "displayName": "Pato O’Ward",
+    "aliases": [
+      "pato oward",
+      "oward",
+      "pato"
+    ],
+    "series": [
+      "indycar"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Mexican karting"
+    },
+    "blurb": "Pato O’Ward came out of Mexican karting into IndyCar. Fast, young, same first step as everyone here.",
+    "active": true
+  },
+  {
+    "id": "hartley",
+    "displayName": "Brendon Hartley",
+    "aliases": [
+      "brendon hartley",
+      "hartley"
+    ],
+    "series": [
+      "wec",
+      "f1"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "NZ karting"
+    },
+    "blurb": "Brendon Hartley started in New Zealand karting, then F1 and Le Mans with Toyota. Endurance stars still begin in karts.",
+    "active": true
+  },
+  {
+    "id": "bamber",
+    "displayName": "Earl Bamber",
+    "aliases": [
+      "earl bamber",
+      "bamber"
+    ],
+    "series": [
+      "wec"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "NZ karting"
+    },
+    "blurb": "Earl Bamber raced karts in New Zealand before Le Mans wins. GT and endurance — karting first.",
+    "active": true
+  },
+  {
+    "id": "campbell",
+    "displayName": "Matt Campbell",
+    "aliases": [
+      "matt campbell"
+    ],
+    "series": [
+      "wec",
+      "gt"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Sunshine Coast karting"
+    },
+    "blurb": "Matt Campbell is a Sunshine Coast karter who went to Porsche and Le Mans. Australian karting to world GT is a real path.",
+    "active": true
+  },
+  {
+    "id": "anagnostiadis",
+    "displayName": "Aiva Anagnostiadis",
+    "aliases": [
+      "aiva anagnostiadis",
+      "anagnostiadis",
+      "aiva"
+    ],
+    "series": [
+      "f1_academy"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Australian karting"
+    },
+    "blurb": "Aiva Anagnostiadis is an Australian who came through karting toward F1 Academy. Confirm the current grid each season — the karting origin is the point.",
+    "active": true
+  },
+  {
+    "id": "gordon",
+    "displayName": "Jeff Gordon",
+    "aliases": [
+      "jeff gordon"
+    ],
+    "series": [
+      "nascar"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "quarter midgets and karts"
+    },
+    "blurb": "Jeff Gordon started in quarter midgets and karts before NASCAR titles. The US stock-car path has a karting on-ramp too.",
+    "active": true
+  },
+  {
+    "id": "larson",
+    "displayName": "Kyle Larson",
+    "aliases": [
+      "kyle larson",
+      "larson"
+    ],
+    "series": [
+      "nascar"
+    ],
+    "era": "current",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "dirt and karts"
+    },
+    "blurb": "Kyle Larson raced karts and midgets before NASCAR. Short-track craft, then the Cup series.",
+    "active": true
+  },
+  {
+    "id": "ambrose",
+    "displayName": "Marcos Ambrose",
+    "aliases": [
+      "marcos ambrose",
+      "ambrose"
+    ],
+    "series": [
+      "nascar",
+      "supercars"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Tasmanian karting"
+    },
+    "blurb": "Marcos Ambrose started in Tasmanian karting, won Supercars, then raced NASCAR. Island club days to America.",
+    "active": true
+  },
+  {
+    "id": "briscoe",
+    "displayName": "Ryan Briscoe",
+    "aliases": [
+      "ryan briscoe",
+      "briscoe"
+    ],
+    "series": [
+      "indycar"
+    ],
+    "era": "legend",
+    "characteristics": {
+      "style": [
+        "karters_pathway"
+      ],
+      "vibe": [
+        "karting_origin"
+      ],
+      "signature": "Sydney karting"
+    },
+    "blurb": "Ryan Briscoe came out of Sydney karting into IndyCar. Another Australian who used karts as the first ticket.",
+    "active": true
+  }
+]

@@ -1,6 +1,6 @@
 /**
- * Australian road-race calendar scrapers.
- * Reads source catalog from data/au-road-race-sources.json.
+ * Australian kart calendar scrapers.
+ * Reads source catalog from data/au-kart-sources.json.
  * Each event: { name, start_date, end_date, state, venue, organiser, source_id, source_url, entry_url, discipline, notes, confidence? }
  */
 import fetch from 'node-fetch';
@@ -12,7 +12,7 @@ import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const SOURCES_PATH = join(__dirname, 'data', 'au-road-race-sources.json');
+const SOURCES_PATH = join(__dirname, 'data', 'au-kart-sources.json');
 
 const FACEBOOK_RSS_BRIDGE_BASE =
   process.env.FACEBOOK_RSS_BRIDGE_BASE || 'https://rss-bridge.org/bridge01';
@@ -40,7 +40,7 @@ async function safeFetch(url, options = {}) {
       const res = await fetch(url, {
         ...options,
         headers: {
-          'User-Agent': 'RoadRaceCalendar/1.0 (AU events aggregator)',
+          'User-Agent': 'KartRacerCalendar/1.0 (AU kart events aggregator)',
           ...options.headers,
         },
         signal: AbortSignal.timeout(15000),
@@ -190,7 +190,7 @@ function makeEvent(source, fields) {
     source_id: source.id,
     source_url: source.url,
     entry_url: fields.entry_url || null,
-    discipline: fields.discipline || 'road_race',
+    discipline: fields.discipline || 'kart',
     notes: fields.notes || null,
     confidence: fields.confidence || 'high',
   };

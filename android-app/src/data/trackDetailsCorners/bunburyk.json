@@ -1,0 +1,40 @@
+{
+  "trackId": "bunburyk",
+  "name": "Bunbury City Kart Club (1)",
+  "lengthM": 671,
+  "startFinish": [
+    47.31,
+    43.01
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "bunburyk_t1",
+      "number": 1,
+      "apex": [
+        23.07,
+        74.21
+      ],
+      "label": [
+        19.86,
+        78.3
+      ],
+      "entry": [
+        28.19,
+        68.76
+      ],
+      "exit": [
+        22.19,
+        81.29
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

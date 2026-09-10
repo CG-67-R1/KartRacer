@@ -1,0 +1,292 @@
+{
+  "trackId": "tamworth",
+  "name": "Tamworth Kart Racing Club",
+  "lengthM": 738,
+  "startFinish": [
+    47.27,
+    48.42
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "tamworth_t1",
+      "number": 1,
+      "apex": [
+        51.59,
+        36.24
+      ],
+      "label": [
+        53.39,
+        31.36
+      ],
+      "entry": [
+        51.91,
+        40.44
+      ],
+      "exit": [
+        50.05,
+        34.33
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "tamworth_t2",
+      "number": 2,
+      "apex": [
+        42.79,
+        35.68
+      ],
+      "label": [
+        41.88,
+        30.56
+      ],
+      "entry": [
+        45.84,
+        33.62
+      ],
+      "exit": [
+        40.38,
+        42.28
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "tamworth_t3",
+      "number": 3,
+      "apex": [
+        36.17,
+        48.86
+      ],
+      "label": [
+        31.25,
+        47.18
+      ],
+      "entry": [
+        39.75,
+        44.17
+      ],
+      "exit": [
+        28.72,
+        51.25
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "tamworth_t4",
+      "number": 4,
+      "apex": [
+        9.68,
+        63.95
+      ],
+      "label": [
+        4.74,
+        65.57
+      ],
+      "entry": [
+        26.75,
+        52.04
+      ],
+      "exit": [
+        8.33,
+        67.95
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "tamworth_t5",
+      "number": 5,
+      "apex": [
+        10.88,
+        73.37
+      ],
+      "label": [
+        6.44,
+        76.08
+      ],
+      "entry": [
+        8.9,
+        71.01
+      ],
+      "exit": [
+        14.17,
+        73.74
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "tamworth_t6",
+      "number": 6,
+      "apex": [
+        28.49,
+        67.59
+      ],
+      "label": [
+        24.62,
+        71.06
+      ],
+      "entry": [
+        23.81,
+        67.29
+      ],
+      "exit": [
+        33.72,
+        73.2
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "tamworth_t7",
+      "number": 7,
+      "apex": [
+        38.95,
+        78.32
+      ],
+      "label": [
+        37.65,
+        83.35
+      ],
+      "entry": [
+        33.72,
+        73.2
+      ],
+      "exit": [
+        43.17,
+        78.78
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "tamworth_t8",
+      "number": 8,
+      "apex": [
+        88.43,
+        43.28
+      ],
+      "label": [
+        93.52,
+        42.23
+      ],
+      "entry": [
+        65.96,
+        63.93
+      ],
+      "exit": [
+        91.55,
+        27.73
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "tamworth_t9",
+      "number": 9,
+      "apex": [
+        88.62,
+        22.15
+      ],
+      "label": [
+        92.88,
+        19.17
+      ],
+      "entry": [
+        91.01,
+        25.44
+      ],
+      "exit": [
+        84.95,
+        21.16
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "tamworth_t10",
+      "number": 10,
+      "apex": [
+        48.9,
+        57.15
+      ],
+      "label": [
+        51.68,
+        61.54
+      ],
+      "entry": [
+        51.22,
+        57.16
+      ],
+      "exit": [
+        47.02,
+        55.71
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    }
+  ]
+}

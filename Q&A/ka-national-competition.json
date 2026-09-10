@@ -1,0 +1,79 @@
+{
+  "origin": "kb-au-rules/national/competition.md",
+  "title": "2026 KA Manual — competition",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "---\nid: ncr-competition\ntitle: Competition structure, starts, finish, consolidation\ntags: [akc, club, zonal, consolidation, grid, finish, ska]\n---\n\n# Competition structure, starts, finish, consolidation\n\nLevels and 2026 AKC rounds: `data/meeting-levels.json`.\n\n## Levels (high → low)\n\nNational Championship (AKC) → National Series → National Cup → State Championship → State Series → State Cup → State Trophy → Zonal → Club → Social Karting Activity.\n\nOne KA licence works at affiliated clubs Australia-wide. Entries via KOMP calendar.\n\n**2026 AKC:** Coffs Harbour, Ipswich, Townsville, Seymour, Bolivar.\n\n## Consolidation\n\nSeniors with seniors, juniors with juniors. Cadet 9 + Cadet 12 + 4SS Cadet may share a track. Slower class **at the rear**. Results and points **by class**, not overall. Club meetings may collapse to one weight division.\n\nTypical stack: Cadet 12 in front of Cadet 9 / 4SS Cadet; KA3 Junior in front of 4SS Junior; 4SS Super in front of 4SS Senior.\n\n## Start / finish notes\n\n- Weaving to warm tyres allowed before the Slow Down line on the roll-up.\n- After the Formation Line: no overtaking.\n- Restart (green/yellow chevron) only before the leader completes lap 1.\n- **Finisher:** under own power across the line, **≥ 75%** of the winner’s distance.\n- Early/late chequered: race ends when it should have under the schedule.\n- Red-flag declared race: classification from the penultimate lap. Stationary karts are not classified.\n- One kart faces the starter → win by default.\n- Points ties: random-grid heats use place counts then last section; qualifying grids use faster qualify (for grids) or last-section place (for final).\n\n## Entries\n\nEntry is a contract via KOMP. Under 18 needs a Participant’s Licence holder 18+. After close of entries, class changes follow the meeting regs (often locked).\n\n## Social Karting\n\nAppendix 1. MicroMax and MiniMax are **social only**. SKA inside 48 h of a State Series/Cup/Trophy/Zonal is usually limited to entered drivers in their entered class (VIC/SA spell this out).\n",
+  "contentBlocks": [
+    {
+      "type": "paragraph",
+      "text": "---\nid: ncr-competition\ntitle: Competition structure, starts, finish, consolidation\ntags: [akc, club, zonal, consolidation, grid, finish, ska]\n---"
+    },
+    {
+      "type": "heading",
+      "text": "# Competition structure, starts, finish, consolidation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Levels and 2026 AKC rounds: `data/meeting-levels.json`."
+    },
+    {
+      "type": "heading",
+      "text": "## Levels (high → low)"
+    },
+    {
+      "type": "paragraph",
+      "text": "National Championship (AKC) → National Series → National Cup → State Championship → State Series → State Cup → State Trophy → Zonal → Club → Social Karting Activity."
+    },
+    {
+      "type": "paragraph",
+      "text": "One KA licence works at affiliated clubs Australia-wide. Entries via KOMP calendar."
+    },
+    {
+      "type": "paragraph",
+      "text": "**2026 AKC:** Coffs Harbour, Ipswich, Townsville, Seymour, Bolivar."
+    },
+    {
+      "type": "heading",
+      "text": "## Consolidation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seniors with seniors, juniors with juniors. Cadet 9 + Cadet 12 + 4SS Cadet may share a track. Slower class **at the rear**. Results and points **by class**, not overall. Club meetings may collapse to one weight division."
+    },
+    {
+      "type": "paragraph",
+      "text": "Typical stack: Cadet 12 in front of Cadet 9 / 4SS Cadet; KA3 Junior in front of 4SS Junior; 4SS Super in front of 4SS Senior."
+    },
+    {
+      "type": "heading",
+      "text": "## Start / finish notes"
+    },
+    {
+      "type": "paragraph",
+      "text": "- Weaving to warm tyres allowed before the Slow Down line on the roll-up.\n- After the Formation Line: no overtaking.\n- Restart (green/yellow chevron) only before the leader completes lap 1.\n- **Finisher:** under own power across the line, **≥ 75%** of the winner’s distance.\n- Early/late chequered: race ends when it should have under the schedule.\n- Red-flag declared race: classification from the penultimate lap. Stationary karts are not classified.\n- One kart faces the starter → win by default.\n- Points ties: random-grid heats use place counts then last section; qualifying grids use faster qualify (for grids) or last-section place (for final)."
+    },
+    {
+      "type": "heading",
+      "text": "## Entries"
+    },
+    {
+      "type": "paragraph",
+      "text": "Entry is a contract via KOMP. Under 18 needs a Participant’s Licence holder 18+. After close of entries, class changes follow the meeting regs (often locked)."
+    },
+    {
+      "type": "heading",
+      "text": "## Social Karting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Appendix 1. MicroMax and MiniMax are **social only**. SKA inside 48 h of a State Series/Cup/Trophy/Zonal is usually limited to entered drivers in their entered class (VIC/SA spell this out)."
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "kb-au-rules",
+    "builtAt": "2026-09-10T08:52:32.879Z"
+  }
+}

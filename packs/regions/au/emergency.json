@@ -1,12 +1,3 @@
 {
-  "contacts": [
-    {
-      "id": "au-000",
-      "name": "Emergency services",
-      "phone": "000",
-      "nodeId": "au",
-      "notes": "Australia-wide emergency number"
-    }
-  ],
-  "notes": "At circuits follow organiser / flag marshal instructions first."
+  "notes": "Use the club’s posted medical / emergency contacts on the day. Triple Zero (000) in Australia."
 }

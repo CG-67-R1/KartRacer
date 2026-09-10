@@ -1,4 +1,4 @@
-import catalogFile from '../../data/gearing/bikePowerbandRef.json';
+import catalogFile from '../../data/gearing/kartEngineRef.json';
 import type { BikePowerbandRef, EngineConfig } from './types';
 
 type RawRef = {
@@ -17,7 +17,11 @@ type RawRef = {
   sources: string[];
 };
 
-const CATALOG: BikePowerbandRef[] = (catalogFile as { bikes: RawRef[] }).bikes;
+const CATALOG: BikePowerbandRef[] = (
+  (catalogFile as { engines?: RawRef[]; bikes?: RawRef[] }).engines ||
+  (catalogFile as { engines?: RawRef[]; bikes?: RawRef[] }).bikes ||
+  []
+);
 
 export function getBikePowerbandCatalog(): BikePowerbandRef[] {
   return CATALOG;

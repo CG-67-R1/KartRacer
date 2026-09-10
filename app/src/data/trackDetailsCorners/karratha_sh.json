@@ -1,0 +1,292 @@
+{
+  "trackId": "karratha_sh",
+  "name": "Karratha Kart Club (Short)",
+  "lengthM": 634,
+  "startFinish": [
+    50.43,
+    48.21
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "karratha_sh_t1",
+      "number": 1,
+      "apex": [
+        76.01,
+        40.64
+      ],
+      "label": [
+        81.05,
+        39.35
+      ],
+      "entry": [
+        56.02,
+        47.74
+      ],
+      "exit": [
+        81.37,
+        41.8
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "karratha_sh_t2",
+      "number": 2,
+      "apex": [
+        85.91,
+        48.23
+      ],
+      "label": [
+        91.1,
+        48.49
+      ],
+      "entry": [
+        84.78,
+        44.67
+      ],
+      "exit": [
+        83.62,
+        55.3
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "karratha_sh_t3",
+      "number": 3,
+      "apex": [
+        56.76,
+        86.46
+      ],
+      "label": [
+        57.26,
+        91.64
+      ],
+      "entry": [
+        62.11,
+        83.77
+      ],
+      "exit": [
+        53.31,
+        85.9
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "karratha_sh_t4",
+      "number": 4,
+      "apex": [
+        50.72,
+        83.49
+      ],
+      "label": [
+        50.42,
+        88.68
+      ],
+      "entry": [
+        53.31,
+        85.9
+      ],
+      "exit": [
+        49.76,
+        77.6
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "karratha_sh_t5",
+      "number": 5,
+      "apex": [
+        48.39,
+        70.56
+      ],
+      "label": [
+        47.43,
+        75.67
+      ],
+      "entry": [
+        49.76,
+        77.6
+      ],
+      "exit": [
+        44.86,
+        66.89
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "karratha_sh_t6",
+      "number": 6,
+      "apex": [
+        29.75,
+        34.35
+      ],
+      "label": [
+        25.15,
+        31.92
+      ],
+      "entry": [
+        12.24,
+        47.2
+      ],
+      "exit": [
+        31.78,
+        22.34
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "karratha_sh_t7",
+      "number": 7,
+      "apex": [
+        87.18,
+        15.4
+      ],
+      "label": [
+        91.03,
+        11.9
+      ],
+      "entry": [
+        75.3,
+        13.5
+      ],
+      "exit": [
+        90.33,
+        18.41
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "karratha_sh_t8",
+      "number": 8,
+      "apex": [
+        88.05,
+        28.53
+      ],
+      "label": [
+        92.68,
+        26.16
+      ],
+      "entry": [
+        90.75,
+        25.97
+      ],
+      "exit": [
+        61.96,
+        28.82
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "karratha_sh_t9",
+      "number": 9,
+      "apex": [
+        47.5,
+        34.19
+      ],
+      "label": [
+        45.43,
+        29.42
+      ],
+      "entry": [
+        56.34,
+        29.79
+      ],
+      "exit": [
+        44.55,
+        39.08
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "karratha_sh_t10",
+      "number": 10,
+      "apex": [
+        45.75,
+        45.31
+      ],
+      "label": [
+        40.63,
+        44.41
+      ],
+      "entry": [
+        44.38,
+        41.89
+      ],
+      "exit": [
+        49.7,
+        48
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    }
+  ]
+}

@@ -1,5 +1,20 @@
 {
-  "pathways": [],
-  "_placeholder": true,
-  "_explainer": "Motorcycle pack content stripped. Refill from C:/KartRacer/docs/KR_DATA_EQUIVALENTS.md and CURSOR_BUILD_JOBS.md J4.1."
+  "pathways": [
+    {
+      "id": "f1",
+      "name": "Karting → F4 → F3 → F2 → F1"
+    },
+    {
+      "id": "supercars",
+      "name": "Karting → Super3/Super2 → Supercars"
+    },
+    {
+      "id": "indycar",
+      "name": "Karting → US juniors → IndyCar"
+    },
+    {
+      "id": "f1academy",
+      "name": "Karting → F1 Academy"
+    }
+  ]
 }

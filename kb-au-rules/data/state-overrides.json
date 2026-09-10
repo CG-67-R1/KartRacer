@@ -1,0 +1,133 @@
+{
+  "id": "ka-state-overrides-2026",
+  "edition": "2026",
+  "nt": "No 2026 State Regulations PDF on the national rules page.",
+  "nsw": {
+    "file": "2026 KANSW State Regulations V3 (22 May 2026)",
+    "min_class_entries_series": 5,
+    "reverse_grid_if_le": 20,
+    "tag_restricted_4ss_club": "All licence grades eligible for points/awards in TaG Restricted and 4SS Senior at Club.",
+    "extra_divisions": {
+      "tag_restricted_masters_light_kg": 160,
+      "tag_restricted_masters_medium_kg": 180,
+      "kansw_combined": {
+        "licence_max": "B Grade Senior",
+        "restricted_light_kg": {
+          "KA3": 153,
+          "X30": 160,
+          "PRD Fireball": 160,
+          "Rotax SR2": 165,
+          "Rotax SR3": 160,
+          "Rotax SR4": 165
+        },
+        "medium_add_kg": 20,
+        "heavy_add_kg": 40,
+        "ka3_weight_may_be_adjusted_for_parity": true
+      }
+    },
+    "trophy_series_entry_aud": 195,
+    "trophy_series_classes_example": ["Cadet 9", "Cadet 12", "KA3 Junior Championship", "KA2", "KA3 Senior Championship", "TaG 125 Championship", "X30", "Rotax Light", "TaG Restricted Light", "TaG Restricted Masters", "KANSW Combined"]
+  },
+  "qld": {
+    "file": "2026 QLD State Regulations V2 (2 April 2026)",
+    "min_class_entries_cup": 8,
+    "min_class_entries_trophy": 6,
+    "state_cup_must": ["Cadet 9", "Cadet 12", "KA3 Junior", "KA3 Senior", "TaG 125"],
+    "state_cup_discretionary": ["KA2", "TaG 125 Restricted", "Open Performance"],
+    "extra_divisions": {
+      "tag_125_combined_kg": {"PRD Fireball": 162, "X30": 172, "Rotax": 172, "Galaxy": 172, "Rok GP": 172},
+      "tag_restricted_combined_kg": 170
+    },
+    "open_performance_kg": {
+      "Twin Torini 430cc": 165,
+      "Twin KT100S/SEC 200cc": 175,
+      "Rotax DD2 125": 170,
+      "Twin TAG 255cc": 200,
+      "IAME Super X30 175": 185,
+      "KZ styled 128": 185,
+      "IAME Super X30 Shifter 175": 190,
+      "Vortex Rok Shifter 125": 177
+    },
+    "op_front_or_dual_rear_brakes_from_kg": 170,
+    "4ss_at_top_guns_cd_titles": "Club Competition class"
+  },
+  "sa": {
+    "file": "2026 SA State Regulations Final V2 (3 February 2026)",
+    "4ss_senior_heavy_kg": 175,
+    "d_grade_endorsements_for_higher": 2,
+    "cameras": "Compulsory from first practice at Zonal / State Series / Cup / Trophy",
+    "fsc_series_must": ["Cadet 12", "KA3 Junior Light/Heavy", "KA3 Senior Light", "4SS Senior M/H", "TaG Restricted Light/Medium", "TaG 125 Championship", "TaG 125 Masters"],
+    "fsc_entry_aud": 125,
+    "fsc_drop": "five lowest results",
+    "cadet_consolidation": "not recommended; if done Cadet 9 and 4SS Cadet at rear of Cadet 12; ~25 m gap"
+  },
+  "vic": {
+    "file": "2026 Victorian State Regulations Final V4 (17 February 2026)",
+    "d_grade_endorsements_for_higher": 2,
+    "reverse_grid_if_le": 8,
+    "country_series_must": ["Cadet 9", "Cadet 12", "KA3 Junior Light/Heavy", "KA3 Senior Light/Medium", "TaG 125 Light/Heavy"],
+    "country_optional": ["Victorian Combined Masters", "TaG Restricted L/M/H"],
+    "gps_must_same_plus": "KA2 optional",
+    "victorian_combined_masters_kg": {"IAME KA100": 165, "other": 172},
+    "ladies_masters_kg": {"IAME KA100": 165, "other": 172},
+    "licence_for_gps": ["Karting Victoria", "KANSW if Griffith or Wagga home club", "Karting SA", "Karting Tasmania"]
+  },
+  "tas": {
+    "file": "2026 Tasmanian State Regulations Final V1",
+    "min_class_entries": 4,
+    "tag_restricted_state_cup": "B Grade+ Senior not permitted in TaG Restricted at State Cup / Championship",
+    "ka3_masters_kg": {"light": 165, "heavy": 172},
+    "ka3_junior_feature_kg": 141,
+    "open_performance_kg": {
+      "piston_port_125": 130,
+      "pre1998_cik_103": 140,
+      "post1998_cik_100_103": 155,
+      "biland_250": 155,
+      "106_135_reed_141": 150,
+      "kf_135": 160,
+      "twin_clubman_206": 160,
+      "twin_torini_430": 165,
+      "dd2_rok_dvs_125": 175,
+      "x30_super_175": 175,
+      "twin_air_210": 180,
+      "twin_water_210": 190,
+      "kz_128": 185,
+      "twin_tag_255": 185,
+      "x30_super_shifter_175": 195
+    }
+  },
+  "wa": {
+    "file": "2026 WA State Regulations V3 (4 August 2026)",
+    "series_name": "WA Karting Series",
+    "series_count": "best 6 meetings + travel bonus points",
+    "tag_restricted_4ss_club_points": "all grades eligible at Club",
+    "cameras_drop_bumpers": "mandatory at State Series/Cup/Trophy except WA Open Performance (no drop-down bumpers)",
+    "series_classes": ["Cadet 9", "Cadet 12", "KA3 Junior L/H", "KA2", "KA3 Senior Championship/Heavy", "TaG Restricted L/M/Masters", "TaG 125 L/H"],
+    "open_performance": {
+      "licence": "min Senior B",
+      "fuel": "PULP",
+      "front_brakes_and_bead_from_kg": 170,
+      "max_tyres_per_meeting": {"dry": 5, "wet": 5},
+      "weights_kg": {
+        "piston_port_125": 120,
+        "air_cik_110": 120,
+        "water_cik_100_110": 140,
+        "106_135_141": 140,
+        "kf_141": 150,
+        "dd2_125": 155,
+        "biland_250": 150,
+        "rok_dvs_sv_125": 160,
+        "x30_super_175": 170,
+        "twin_clubman_ka100_210": 165,
+        "twin_air_210": 175,
+        "twin_water_210": 180,
+        "mx_gearbox_128": 170,
+        "kz_128": 185,
+        "x30_super_shifter_or_rok_shifter": 190,
+        "twin_tag_255": 180,
+        "twin_kf_tag_250": 195,
+        "twin_torini_430": 160
+      }
+    }
+  }
+}

@@ -215,11 +215,11 @@ export function HeadlinesScreen() {
           </View>
           {!bikePhotoUri && !pickingPhoto ? (
             <View style={styles.heroHintWrap} pointerEvents="none">
-              <Text style={styles.heroHintText}>Tap to add your bike photo</Text>
+              <Text style={styles.heroHintText}>Tap to add your kart photo</Text>
               <Text style={styles.heroPlaceholderCaption}>
                 {favouriteBike
                   ? `Favourite: ${favouriteBike} · photo is a placeholder until you upload yours.`
-                  : 'Placeholder photo — upload your bike below. Your favourite bike from onboarding is saved in Profile.'}
+                  : 'Placeholder photo — upload your kart below. Your favourite kart from onboarding is saved in Profile.'}
               </Text>
             </View>
           ) : null}
@@ -283,7 +283,7 @@ export function HeadlinesScreen() {
               </Text>
             ) : (
               <Text style={styles.activityEmpty}>
-                Save a session from Bike Setup Sheet to see it here.
+                Save a session from Kart Setup Sheet to see it here.
               </Text>
             )}
           </TouchableOpacity>
@@ -311,10 +311,10 @@ export function HeadlinesScreen() {
         )}
 
         <TouchableOpacity style={styles.navButton} onPress={goToRiderCoach} activeOpacity={0.8}>
-          <Text style={styles.navButtonText}>Rider Coach</Text>
+          <Text style={styles.navButtonText}>Driver Coach</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.navButton} onPress={goToBikeSetup} activeOpacity={0.8}>
-          <Text style={styles.navButtonText}>Bike Setup</Text>
+          <Text style={styles.navButtonText}>Kart Setup</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.navButton} onPress={goToEvents} activeOpacity={0.8}>
           <Text style={styles.navButtonText}>Events</Text>

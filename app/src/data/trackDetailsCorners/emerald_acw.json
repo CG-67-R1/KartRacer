@@ -1,0 +1,96 @@
+{
+  "trackId": "emerald_acw",
+  "name": "Emerald Kart Club (ACW)",
+  "lengthM": 970,
+  "startFinish": [
+    41.43,
+    44.61
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "emerald_acw_t1",
+      "number": 1,
+      "apex": [
+        63.86,
+        60.56
+      ],
+      "label": [
+        68.36,
+        63.16
+      ],
+      "entry": [
+        73.51,
+        65.12
+      ],
+      "exit": [
+        61.18,
+        61.24
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "emerald_acw_t2",
+      "number": 2,
+      "apex": [
+        12.69,
+        30.84
+      ],
+      "label": [
+        8.2,
+        28.22
+      ],
+      "entry": [
+        8.4,
+        47.73
+      ],
+      "exit": [
+        14.78,
+        29.3
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "emerald_acw_t3",
+      "number": 3,
+      "apex": [
+        19.11,
+        45.1
+      ],
+      "label": [
+        13.97,
+        44.3
+      ],
+      "entry": [
+        20.15,
+        34.61
+      ],
+      "exit": [
+        22.64,
+        50.11
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    }
+  ]
+}

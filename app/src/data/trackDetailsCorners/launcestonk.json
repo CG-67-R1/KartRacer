@@ -1,0 +1,96 @@
+{
+  "trackId": "launcestonk",
+  "name": "Launceston Kart Club (Archerville) (1)",
+  "lengthM": 753,
+  "startFinish": [
+    27.17,
+    34.82
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "launcestonk_t1",
+      "number": 1,
+      "apex": [
+        65.15,
+        43.12
+      ],
+      "label": [
+        70.27,
+        44.01
+      ],
+      "entry": [
+        62.18,
+        42.9
+      ],
+      "exit": [
+        67.43,
+        41.42
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "launcestonk_t2",
+      "number": 2,
+      "apex": [
+        68.46,
+        37.51
+      ],
+      "label": [
+        73.49,
+        36.19
+      ],
+      "entry": [
+        67.9,
+        40.7
+      ],
+      "exit": [
+        62.57,
+        28.39
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "launcestonk_t3",
+      "number": 3,
+      "apex": [
+        70.38,
+        82.24
+      ],
+      "label": [
+        72.28,
+        87.08
+      ],
+      "entry": [
+        73.92,
+        85.85
+      ],
+      "exit": [
+        69.05,
+        64.15
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    }
+  ]
+}

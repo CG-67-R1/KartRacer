@@ -106,7 +106,7 @@ function eventLocation(item: CalendarEvent): string {
 }
 
 function eventNotes(item: CalendarEvent): string {
-  return item.url ? `Added from RoadRacer\n${item.url}` : 'Added from RoadRacer';
+  return item.url ? `Added from KartRacer\n${item.url}` : 'Added from KartRacer';
 }
 
 function addEventIcsOnWeb(item: CalendarEvent): void {
@@ -276,7 +276,7 @@ export function CalendarScreen() {
         <AppLogo size={SCREEN_LOGO_SIZE} />
         <Text style={styles.headerTitle}>Events</Text>
         <Text style={styles.headerSubtitle}>
-          {getLocalUiLabel()} club & state road racing • MotoGP • WorldSBK. Tap to open links.
+          {getLocalUiLabel()} club & state karting • AKC. Tap to open links.
         </Text>
         <View style={styles.filterRow}>
           {(['local', 'world', 'all'] as CalendarFilter[]).map((key) => (

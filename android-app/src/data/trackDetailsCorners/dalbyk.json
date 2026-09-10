@@ -1,0 +1,68 @@
+{
+  "trackId": "dalbyk",
+  "name": "Dalby Kart Track",
+  "lengthM": 536,
+  "startFinish": [
+    46.57,
+    53.12
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "dalbyk_t1",
+      "number": 1,
+      "apex": [
+        51.67,
+        14.44
+      ],
+      "label": [
+        51.83,
+        9.24
+      ],
+      "entry": [
+        40.62,
+        27.47
+      ],
+      "exit": [
+        51.32,
+        11.47
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "dalbyk_t2",
+      "number": 2,
+      "apex": [
+        61.16,
+        29.08
+      ],
+      "label": [
+        63.58,
+        24.48
+      ],
+      "entry": [
+        67.68,
+        53.34
+      ],
+      "exit": [
+        57.54,
+        26.52
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    }
+  ]
+}

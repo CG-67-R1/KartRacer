@@ -1,0 +1,292 @@
+{
+  "trackId": "sapphire_nsw",
+  "name": "Sapphire Coast Kart Club (Frogs Hollow)",
+  "lengthM": 618,
+  "startFinish": [
+    45.08,
+    50.13
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "sapphire_nsw_t1",
+      "number": 1,
+      "apex": [
+        28.82,
+        40.44
+      ],
+      "label": [
+        24.1,
+        38.26
+      ],
+      "entry": [
+        30.79,
+        36.84
+      ],
+      "exit": [
+        30.26,
+        46.43
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "sapphire_nsw_t2",
+      "number": 2,
+      "apex": [
+        25.21,
+        74.08
+      ],
+      "label": [
+        21.51,
+        77.73
+      ],
+      "entry": [
+        24.34,
+        69.15
+      ],
+      "exit": [
+        36.96,
+        83.85
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "sapphire_nsw_t3",
+      "number": 3,
+      "apex": [
+        57.11,
+        90.67
+      ],
+      "label": [
+        58.05,
+        95.78
+      ],
+      "entry": [
+        49.98,
+        91.43
+      ],
+      "exit": [
+        61.29,
+        86.05
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "sapphire_nsw_t4",
+      "number": 4,
+      "apex": [
+        72.52,
+        74.7
+      ],
+      "label": [
+        76.06,
+        78.51
+      ],
+      "entry": [
+        69.28,
+        77.96
+      ],
+      "exit": [
+        72.68,
+        70.26
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "sapphire_nsw_t5",
+      "number": 5,
+      "apex": [
+        68.94,
+        61.69
+      ],
+      "label": [
+        73.39,
+        64.38
+      ],
+      "entry": [
+        72.68,
+        70.26
+      ],
+      "exit": [
+        72.4,
+        37.78
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "sapphire_nsw_t6",
+      "number": 6,
+      "apex": [
+        74.68,
+        16.51
+      ],
+      "label": [
+        77.8,
+        12.35
+      ],
+      "entry": [
+        72.4,
+        37.78
+      ],
+      "exit": [
+        69.21,
+        9.98
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "sapphire_nsw_t7",
+      "number": 7,
+      "apex": [
+        45.49,
+        20.2
+      ],
+      "label": [
+        44.78,
+        15.05
+      ],
+      "entry": [
+        46.35,
+        16.19
+      ],
+      "exit": [
+        47.31,
+        23.62
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "sapphire_nsw_t8",
+      "number": 8,
+      "apex": [
+        59.63,
+        31.24
+      ],
+      "label": [
+        62.08,
+        26.65
+      ],
+      "entry": [
+        56.72,
+        27.49
+      ],
+      "exit": [
+        57.94,
+        50.9
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "sapphire_nsw_t9",
+      "number": 9,
+      "apex": [
+        52.6,
+        66.86
+      ],
+      "label": [
+        53.51,
+        71.98
+      ],
+      "entry": [
+        57.94,
+        50.9
+      ],
+      "exit": [
+        48.57,
+        69.21
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "sapphire_nsw_t10",
+      "number": 10,
+      "apex": [
+        41.2,
+        64.2
+      ],
+      "label": [
+        38.55,
+        68.67
+      ],
+      "entry": [
+        43.03,
+        67.7
+      ],
+      "exit": [
+        42.5,
+        56.72
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    }
+  ]
+}

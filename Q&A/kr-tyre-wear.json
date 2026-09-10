@@ -1,0 +1,91 @@
+{
+  "origin": "gpt-knowledge/kart-tyre-wear-patterns.md",
+  "title": "Kart tyre wear patterns",
+  "edition": "2026 Australian Karting Manual Update 1 snapshot",
+  "effectiveDate": "2026-03-02",
+  "corpus": "ka",
+  "content": "# Kart slick wear patterns — comprehensive\n\n> STATUS: POPULATED v1.0 — 2026-09. Sources: `kb/topics/tyre-setup.md`,\n> `kb/playbooks/tyre-temps.md` (pyrometer + wear reading), TKART tech articles\n> (concepts, no verbatim numbers). Pressure numbers defer to\n> `tyre-pressure-weather-troubleshooting-guide.md`.\n\n## Reading a kart slick (zones/bands)\n\nDivide the tread face into three bands: **outer shoulder / centre / inner\nshoulder** (relative to the kart, not the corner). Judge two things per band:\ntexture (grain quality) and relative wear/heat. Healthy reference: even fine\nsandpaper grain across all three bands, matching front-vs-rear averages.\nSmooth glassy face = tyre never reached temperature. Always pair a visual read\nwith a pyrometer read taken immediately on stopping (75–85 °C band).\n\n## Graining (cold/dirty track)\n\nTorn, dusty, feathered rubber pellets on the surface — the tyre slid before it\ncame up to temp (green track, cold morning, over-driving out-laps).\nFix order: raise pressure a step to bring the tyre in faster → smoother inputs\non the first laps → add mechanical grip for the green surface (stiffer rear,\nstruts in, torsion bar in, more caster) → graining usually clears once the\ntrack rubbers in.\n\n## Blistering (overheat)\n\nMelted bubbles or pockmarks, usually on one edge, rarely across the whole face —\noverworked rubber, carcass past ~95 °C (shiny wet look on track is the live\nwarning). Fix order: drop pressure → reduce the load on that end (rear: widen\ntrack / soften axle; front: less caster) → check the driver is not sliding the\nkart; a blistered edge does not recover.\n\n## Hot tear vs cold tear\n\n- **Hot tear:** rubber smeared/rolled in soft strips, greasy look — tyre over\n  temp or pressure too high for conditions. Lower pressure, remove grip, cool\n  the tyre on in-laps.\n- **Cold tear (chunking/rip):** sharp-edged torn flakes — tyre worked hard while\n  still below temp (cold track + aggressive first laps). Raise pressure, warm\n  the tyre progressively, don't attack kerbs until it's in.\nDistinguish by touch and timing: hot tear feels greasy after a long run; cold\ntear appears on the first laps of a session.\n\n## Flat spots (brake lockup)\n\nSingle flat patch, often with a vibration report from the driver. Kart-specific\ncause: rear-only brakes in sprint classes mean a lockup flat-spots BOTH rears.\nFix: none for the tyre (rotate to practice sets if allowed); coach the braking\nrelease and check brake-pad drag and pedal free play so it doesn't recur.\n\n## Inner/outer shoulder wear (camber/width)\n\n- **Cone wear** — inner edge eaten, outer unused (the classic kart pattern):\n  - Rear: not enough weight transfer → stiffen rear or **narrow** rear track.\n  - Front: too much negative camber or too little caster, often with understeer\n    → widen front or add positive camber. Fix early; a coned profile is permanent.\n- Outer shoulder hot/worn (front): not enough negative camber.\n- Aggressive strips on one inner edge: too much caster/camber on that corner or\n  that edge overheating.\n\n## One-side wear (toe/alignment)\n\nBoth fronts scrubbed evenly across the face with a dragged look = too much\ntoe-out (also shows as darty on straights and heavy tyre-temp spread). One\nwhole side of the kart working harder than the other beyond the normal track\nbias = corner weights, asymmetric settings, or a **bent/twisted chassis** —\ncheck before touching setup. Kerb strikes and incidents: recheck alignment\nbefore blaming wear on setup.\n\n## Fix order per pattern\n\nCheap and reversible first:\n\n| Pattern | Fix order |\n|---|---|\n| Graining | Pressure up → smoother inputs → green-track grip changes |\n| Blistering | Pressure down → unload that end → driver check |\n| Hot tear | Pressure down → remove grip → cooling laps |\n| Cold tear | Pressure up → progressive warm-up |\n| Flat spot | Braking technique → pad drag / free play check |\n| Cone (rear) | Stiffen rear → narrow rear track |\n| Cone (front) | Widen front → positive camber → caster check |\n| One-side / both-front scrub | Toe check → corner weights → chassis straightness |\n",
+  "contentBlocks": [
+    {
+      "type": "heading",
+      "text": "# Kart slick wear patterns — comprehensive"
+    },
+    {
+      "type": "paragraph",
+      "text": "> STATUS: POPULATED v1.0 — 2026-09. Sources: `kb/topics/tyre-setup.md`,\n> `kb/playbooks/tyre-temps.md` (pyrometer + wear reading), TKART tech articles\n> (concepts, no verbatim numbers). Pressure numbers defer to\n> `tyre-pressure-weather-troubleshooting-guide.md`."
+    },
+    {
+      "type": "heading",
+      "text": "## Reading a kart slick (zones/bands)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Divide the tread face into three bands: **outer shoulder / centre / inner\nshoulder** (relative to the kart, not the corner). Judge two things per band:\ntexture (grain quality) and relative wear/heat. Healthy reference: even fine\nsandpaper grain across all three bands, matching front-vs-rear averages.\nSmooth glassy face = tyre never reached temperature. Always pair a visual read\nwith a pyrometer read taken immediately on stopping (75–85 °C band)."
+    },
+    {
+      "type": "heading",
+      "text": "## Graining (cold/dirty track)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Torn, dusty, feathered rubber pellets on the surface — the tyre slid before it\ncame up to temp (green track, cold morning, over-driving out-laps).\nFix order: raise pressure a step to bring the tyre in faster → smoother inputs\non the first laps → add mechanical grip for the green surface (stiffer rear,\nstruts in, torsion bar in, more caster) → graining usually clears once the\ntrack rubbers in."
+    },
+    {
+      "type": "heading",
+      "text": "## Blistering (overheat)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Melted bubbles or pockmarks, usually on one edge, rarely across the whole face —\noverworked rubber, carcass past ~95 °C (shiny wet look on track is the live\nwarning). Fix order: drop pressure → reduce the load on that end (rear: widen\ntrack / soften axle; front: less caster) → check the driver is not sliding the\nkart; a blistered edge does not recover."
+    },
+    {
+      "type": "heading",
+      "text": "## Hot tear vs cold tear"
+    },
+    {
+      "type": "paragraph",
+      "text": "- **Hot tear:** rubber smeared/rolled in soft strips, greasy look — tyre over\n  temp or pressure too high for conditions. Lower pressure, remove grip, cool\n  the tyre on in-laps.\n- **Cold tear (chunking/rip):** sharp-edged torn flakes — tyre worked hard while\n  still below temp (cold track + aggressive first laps). Raise pressure, warm\n  the tyre progressively, don't attack kerbs until it's in.\nDistinguish by touch and timing: hot tear feels greasy after a long run; cold\ntear appears on the first laps of a session."
+    },
+    {
+      "type": "heading",
+      "text": "## Flat spots (brake lockup)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Single flat patch, often with a vibration report from the driver. Kart-specific\ncause: rear-only brakes in sprint classes mean a lockup flat-spots BOTH rears.\nFix: none for the tyre (rotate to practice sets if allowed); coach the braking\nrelease and check brake-pad drag and pedal free play so it doesn't recur."
+    },
+    {
+      "type": "heading",
+      "text": "## Inner/outer shoulder wear (camber/width)"
+    },
+    {
+      "type": "heading",
+      "text": "- **Cone wear** — inner edge eaten, outer unused (the classic kart pattern):\n  - Rear: not enough weight transfer → stiffen rear or **narrow** rear track.\n  - Front: too much negative camber or too little caster, often with understeer\n    → widen front or add positive camber. Fix early; a coned profile is permanent.\n- Outer shoulder hot/worn (front): not enough negative camber.\n- Aggressive strips on one inner edge: too much caster/camber on that corner or\n  that edge overheating."
+    },
+    {
+      "type": "heading",
+      "text": "## One-side wear (toe/alignment)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Both fronts scrubbed evenly across the face with a dragged look = too much\ntoe-out (also shows as darty on straights and heavy tyre-temp spread). One\nwhole side of the kart working harder than the other beyond the normal track\nbias = corner weights, asymmetric settings, or a **bent/twisted chassis** —\ncheck before touching setup. Kerb strikes and incidents: recheck alignment\nbefore blaming wear on setup."
+    },
+    {
+      "type": "heading",
+      "text": "## Fix order per pattern"
+    },
+    {
+      "type": "heading",
+      "text": "Cheap and reversible first:"
+    },
+    {
+      "type": "paragraph",
+      "text": "| Pattern | Fix order |\n|---|---|\n| Graining | Pressure up → smoother inputs → green-track grip changes |\n| Blistering | Pressure down → unload that end → driver check |\n| Hot tear | Pressure down → remove grip → cooling laps |\n| Cold tear | Pressure up → progressive warm-up |\n| Flat spot | Braking technique → pad drag / free play check |\n| Cone (rear) | Stiffen rear → narrow rear track |\n| Cone (front) | Widen front → positive camber → caster check |\n| One-side / both-front scrub | Toe check → corner weights → chassis straightness |"
+    }
+  ],
+  "qa": [],
+  "metadata": {
+    "source": "gpt-knowledge",
+    "builtAt": "2026-09-10T08:52:32.902Z"
+  }
+}

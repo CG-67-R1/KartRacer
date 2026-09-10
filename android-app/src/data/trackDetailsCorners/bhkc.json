@@ -1,0 +1,40 @@
+{
+  "trackId": "bhkc",
+  "name": "Broken Hill Kart Club",
+  "lengthM": 385,
+  "startFinish": [
+    50.42,
+    49.3
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "bhkc_t1",
+      "number": 1,
+      "apex": [
+        39.53,
+        12.2
+      ],
+      "label": [
+        37.68,
+        7.34
+      ],
+      "entry": [
+        44.44,
+        13.89
+      ],
+      "exit": [
+        31.78,
+        13.35
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "trackId": "towerskart2",
+  "name": "Charters Towers Kart Track (2)",
+  "lengthM": 498,
+  "startFinish": [
+    51.53,
+    39.75
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "towerskart2_t1",
+      "number": 1,
+      "apex": [
+        55.03,
+        23.08
+      ],
+      "label": [
+        57.19,
+        18.35
+      ],
+      "entry": [
+        53.43,
+        34.07
+      ],
+      "exit": [
+        53.37,
+        20.89
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "towerskart2_t2",
+      "number": 2,
+      "apex": [
+        83.44,
+        57.31
+      ],
+      "label": [
+        88.37,
+        58.97
+      ],
+      "entry": [
+        59.95,
+        61.31
+      ],
+      "exit": [
+        89.39,
+        51
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    }
+  ]
+}

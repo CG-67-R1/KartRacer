@@ -1,7 +1,263 @@
+import albanyk from './albanyk.json';
+import aWodongak from './a_wodongak.json';
+import aWodongak2 from './a_wodongak2.json';
+import aWodongak3 from './a_wodongak3.json';
+import equipvar from './equipvar.json';
+import kartequip from './kartequip.json';
+import bairnsdalek from './bairnsdalek.json';
+import ballaratk from './ballaratk.json';
+import ballarat2 from './ballarat_2.json';
+import barossaCcw from './barossa_ccw.json';
+import bendigok from './bendigok.json';
+import bhkc from './bhkc.json';
+import bunburyk from './bunburyk.json';
+import bunkart from './bunkart.json';
+import bundabergk from './bundabergk.json';
+import burnettk from './burnettk.json';
+import cairnskAcw from './cairnsk_acw.json';
+import cairnskVar1 from './cairnsk_var1.json';
+import cairnskVar2 from './cairnsk_var2.json';
+import canberralong from './canberralong.json';
+import canberrak from './canberrak.json';
+import rockhamptonk from './rockhamptonk.json';
+import towerskart from './towerskart.json';
+import towerskart2 from './towerskart2.json';
+import bpkc from './bpkc.json';
+import chkrcA from './chkrc_a.json';
+import chkrcA3 from './chkrc_a3.json';
+import chkrcB1 from './chkrc_b1.json';
+import chkrcC from './chkrc_c.json';
+import chkrcD from './chkrc_d.json';
+import chkrcE1 from './chkrc_e1.json';
+import cdkc from './cdkc.json';
+import cooloolak from './cooloolak.json';
+import dalbyk from './dalbyk.json';
+import darwinkVar1 from './darwink_var1.json';
+import darwinkVar2 from './darwink_var2.json';
+import darwinkVar3 from './darwink_var3.json';
+import dubbok from './dubbok.json';
+import goldfieldsk from './goldfieldsk.json';
+import elkc from './elkc.json';
+import elkcShort from './elkc_short.json';
+import emeraldAcw from './emerald_acw.json';
+import emeraldCw from './emerald_cw.json';
+import esperancek from './esperancek.json';
+import exmouth from './exmouth.json';
+import extremek from './extremek.json';
+import extremekS from './extremek_s.json';
+import geelongk from './geelongk.json';
+import gippslandk from './gippslandk.json';
+import gladstonek from './gladstonek.json';
+import clubsaACcw from './clubsa_a_ccw.json';
+import clubsaACw from './clubsa_a_cw.json';
+import clubsaBCw from './clubsa_b_cw.json';
+import clubsaCCcw from './clubsa_c_ccw.json';
+import gokWorldAc from './gok_world_ac.json';
+import gokWorldCw from './gok_world_cw.json';
+import gkcvCw from './gkcv_cw.json';
+import gkcv from './gkcv.json';
+import gvkc from './gvkc.json';
+import indy800c from './indy800c.json';
+import indy800Sh from './indy800_sh.json';
+import grenfellk from './grenfellk.json';
+import griffithk from './griffithk.json';
+import hamiltonk from './hamiltonk.json';
+import hedlandkart from './hedlandkart.json';
+import portHedland from './port_hedland.json';
+import wundowieWa from './wundowie_wa.json';
+import impalak from './impalak.json';
+import ipswichk from './ipswichk.json';
+import ipswichk2 from './ipswichk2.json';
+import jabiruk from './jabiruk.json';
+import karratha from './karratha.json';
+import karrathaSh from './karratha_sh.json';
+import lakekingk from './lakekingk.json';
+import launcestonk from './launcestonk.json';
+import lkc from './lkc.json';
+import lismorek from './lismorek.json';
+import mackayk from './mackayk.json';
+import mvkc2024 from './mvkc_2024.json';
+import mfastkartcoc from './mfastkartcoc.json';
+import mfastkartd from './mfastkartd.json';
+import megafastb from './megafastb.json';
+import megafastc from './megafastc.json';
+import megafastkart from './megafastkart.json';
+import geraldtonk2 from './geraldtonk_2.json';
+import mildurak from './mildurak.json';
+import moranbahk from './moranbahk.json';
+import mtIsa from './mt_isa.json';
+import mtgambierk from './mtgambierk.json';
+import mtgambierkS from './mtgambierk_s.json';
+import nwkc from './nwkc.json';
+import oakleighk from './oakleighk.json';
+import oakleighLon from './oakleigh_lon.json';
+import oakleighNew from './oakleigh_new.json';
+import orangekA from './orangek_a.json';
+import orangekB from './orangek_b.json';
+import orangekC from './orangek_c.json';
+import piKart from './pi_kart.json';
+import pictionk from './pictionk.json';
+import portgawlerk from './portgawlerk.json';
+import pmkrcVar1 from './pmkrc_var1.json';
+import pmkrcVar2 from './pmkrc_var2.json';
+import pdkcLong from './pdkc_long.json';
+import pdkcShort from './pdkc_short.json';
+import rochesterk from './rochesterk.json';
+import sapphireNsw from './sapphire_nsw.json';
+import silhouettek from './silhouettek.json';
+import cobdenk from './cobdenk.json';
+import bolivarLong from './bolivar_long.json';
+import bolivark from './bolivark.json';
+import bolivarkSh from './bolivark_sh.json';
+import stkc from './stkc.json';
+import stonycreek from './stonycreek.json';
+import swanVic from './swan_vic.json';
+import eastCrkNsw from './east_crk_nsw.json';
+import spkpVar1 from './spkp_var1.json';
+import spkpVar3 from './spkp_var3.json';
+import spkpVar4 from './spkp_var4.json';
+import tamworth from './tamworth.json';
+import toowoombaCw from './toowoomba_cw.json';
+import townsvillek from './townsvillek.json';
+import waggak from './waggak.json';
+import warrnamboolk from './warrnamboolk.json';
+import warwickk from './warwickk.json';
+import whyallak from './whyallak.json';
+import wimmerak from './wimmerak.json';
+import wimmerak2 from './wimmerak2.json';
+import wollongongk from './wollongongk.json';
 import type { TrackDetailsCorners } from './types';
 
-/** Empty until J1.3 / J1.6 run the locked detector on kart GPX. */
-const LAYOUTS: Record<string, TrackDetailsCorners> = {};
+const LAYOUTS: Record<string, TrackDetailsCorners> = {
+  albanyk: albanyk as TrackDetailsCorners,
+  a_wodongak: aWodongak as TrackDetailsCorners,
+  a_wodongak2: aWodongak2 as TrackDetailsCorners,
+  a_wodongak3: aWodongak3 as TrackDetailsCorners,
+  equipvar: equipvar as TrackDetailsCorners,
+  kartequip: kartequip as TrackDetailsCorners,
+  bairnsdalek: bairnsdalek as TrackDetailsCorners,
+  ballaratk: ballaratk as TrackDetailsCorners,
+  ballarat_2: ballarat2 as TrackDetailsCorners,
+  barossa_ccw: barossaCcw as TrackDetailsCorners,
+  bendigok: bendigok as TrackDetailsCorners,
+  bhkc: bhkc as TrackDetailsCorners,
+  bunburyk: bunburyk as TrackDetailsCorners,
+  bunkart: bunkart as TrackDetailsCorners,
+  bundabergk: bundabergk as TrackDetailsCorners,
+  burnettk: burnettk as TrackDetailsCorners,
+  cairnsk_acw: cairnskAcw as TrackDetailsCorners,
+  cairnsk_var1: cairnskVar1 as TrackDetailsCorners,
+  cairnsk_var2: cairnskVar2 as TrackDetailsCorners,
+  canberralong: canberralong as TrackDetailsCorners,
+  canberrak: canberrak as TrackDetailsCorners,
+  rockhamptonk: rockhamptonk as TrackDetailsCorners,
+  towerskart: towerskart as TrackDetailsCorners,
+  towerskart2: towerskart2 as TrackDetailsCorners,
+  bpkc: bpkc as TrackDetailsCorners,
+  chkrc_a: chkrcA as TrackDetailsCorners,
+  chkrc_a3: chkrcA3 as TrackDetailsCorners,
+  chkrc_b1: chkrcB1 as TrackDetailsCorners,
+  chkrc_c: chkrcC as TrackDetailsCorners,
+  chkrc_d: chkrcD as TrackDetailsCorners,
+  chkrc_e1: chkrcE1 as TrackDetailsCorners,
+  cdkc: cdkc as TrackDetailsCorners,
+  cooloolak: cooloolak as TrackDetailsCorners,
+  dalbyk: dalbyk as TrackDetailsCorners,
+  darwink_var1: darwinkVar1 as TrackDetailsCorners,
+  darwink_var2: darwinkVar2 as TrackDetailsCorners,
+  darwink_var3: darwinkVar3 as TrackDetailsCorners,
+  dubbok: dubbok as TrackDetailsCorners,
+  goldfieldsk: goldfieldsk as TrackDetailsCorners,
+  elkc: elkc as TrackDetailsCorners,
+  elkc_short: elkcShort as TrackDetailsCorners,
+  emerald_acw: emeraldAcw as TrackDetailsCorners,
+  emerald_cw: emeraldCw as TrackDetailsCorners,
+  esperancek: esperancek as TrackDetailsCorners,
+  exmouth: exmouth as TrackDetailsCorners,
+  extremek: extremek as TrackDetailsCorners,
+  extremek_s: extremekS as TrackDetailsCorners,
+  geelongk: geelongk as TrackDetailsCorners,
+  gippslandk: gippslandk as TrackDetailsCorners,
+  gladstonek: gladstonek as TrackDetailsCorners,
+  clubsa_a_ccw: clubsaACcw as TrackDetailsCorners,
+  clubsa_a_cw: clubsaACw as TrackDetailsCorners,
+  clubsa_b_cw: clubsaBCw as TrackDetailsCorners,
+  clubsa_c_ccw: clubsaCCcw as TrackDetailsCorners,
+  gok_world_ac: gokWorldAc as TrackDetailsCorners,
+  gok_world_cw: gokWorldCw as TrackDetailsCorners,
+  gkcv_cw: gkcvCw as TrackDetailsCorners,
+  gkcv: gkcv as TrackDetailsCorners,
+  gvkc: gvkc as TrackDetailsCorners,
+  indy800c: indy800c as TrackDetailsCorners,
+  indy800_sh: indy800Sh as TrackDetailsCorners,
+  grenfellk: grenfellk as TrackDetailsCorners,
+  griffithk: griffithk as TrackDetailsCorners,
+  hamiltonk: hamiltonk as TrackDetailsCorners,
+  hedlandkart: hedlandkart as TrackDetailsCorners,
+  port_hedland: portHedland as TrackDetailsCorners,
+  wundowie_wa: wundowieWa as TrackDetailsCorners,
+  impalak: impalak as TrackDetailsCorners,
+  ipswichk: ipswichk as TrackDetailsCorners,
+  ipswichk2: ipswichk2 as TrackDetailsCorners,
+  jabiruk: jabiruk as TrackDetailsCorners,
+  karratha: karratha as TrackDetailsCorners,
+  karratha_sh: karrathaSh as TrackDetailsCorners,
+  lakekingk: lakekingk as TrackDetailsCorners,
+  launcestonk: launcestonk as TrackDetailsCorners,
+  lkc: lkc as TrackDetailsCorners,
+  lismorek: lismorek as TrackDetailsCorners,
+  mackayk: mackayk as TrackDetailsCorners,
+  mvkc_2024: mvkc2024 as TrackDetailsCorners,
+  mfastkartcoc: mfastkartcoc as TrackDetailsCorners,
+  mfastkartd: mfastkartd as TrackDetailsCorners,
+  megafastb: megafastb as TrackDetailsCorners,
+  megafastc: megafastc as TrackDetailsCorners,
+  megafastkart: megafastkart as TrackDetailsCorners,
+  geraldtonk_2: geraldtonk2 as TrackDetailsCorners,
+  mildurak: mildurak as TrackDetailsCorners,
+  moranbahk: moranbahk as TrackDetailsCorners,
+  mt_isa: mtIsa as TrackDetailsCorners,
+  mtgambierk: mtgambierk as TrackDetailsCorners,
+  mtgambierk_s: mtgambierkS as TrackDetailsCorners,
+  nwkc: nwkc as TrackDetailsCorners,
+  oakleighk: oakleighk as TrackDetailsCorners,
+  oakleigh_lon: oakleighLon as TrackDetailsCorners,
+  oakleigh_new: oakleighNew as TrackDetailsCorners,
+  orangek_a: orangekA as TrackDetailsCorners,
+  orangek_b: orangekB as TrackDetailsCorners,
+  orangek_c: orangekC as TrackDetailsCorners,
+  pi_kart: piKart as TrackDetailsCorners,
+  pictionk: pictionk as TrackDetailsCorners,
+  portgawlerk: portgawlerk as TrackDetailsCorners,
+  pmkrc_var1: pmkrcVar1 as TrackDetailsCorners,
+  pmkrc_var2: pmkrcVar2 as TrackDetailsCorners,
+  pdkc_long: pdkcLong as TrackDetailsCorners,
+  pdkc_short: pdkcShort as TrackDetailsCorners,
+  rochesterk: rochesterk as TrackDetailsCorners,
+  sapphire_nsw: sapphireNsw as TrackDetailsCorners,
+  silhouettek: silhouettek as TrackDetailsCorners,
+  cobdenk: cobdenk as TrackDetailsCorners,
+  bolivar_long: bolivarLong as TrackDetailsCorners,
+  bolivark: bolivark as TrackDetailsCorners,
+  bolivark_sh: bolivarkSh as TrackDetailsCorners,
+  stkc: stkc as TrackDetailsCorners,
+  stonycreek: stonycreek as TrackDetailsCorners,
+  swan_vic: swanVic as TrackDetailsCorners,
+  east_crk_nsw: eastCrkNsw as TrackDetailsCorners,
+  spkp_var1: spkpVar1 as TrackDetailsCorners,
+  spkp_var3: spkpVar3 as TrackDetailsCorners,
+  spkp_var4: spkpVar4 as TrackDetailsCorners,
+  tamworth: tamworth as TrackDetailsCorners,
+  toowoomba_cw: toowoombaCw as TrackDetailsCorners,
+  townsvillek: townsvillek as TrackDetailsCorners,
+  waggak: waggak as TrackDetailsCorners,
+  warrnamboolk: warrnamboolk as TrackDetailsCorners,
+  warwickk: warwickk as TrackDetailsCorners,
+  whyallak: whyallak as TrackDetailsCorners,
+  wimmerak: wimmerak as TrackDetailsCorners,
+  wimmerak2: wimmerak2 as TrackDetailsCorners,
+  wollongongk: wollongongk as TrackDetailsCorners,
+};
 
 export const TRACK_DETAILS_CORNER_IDS = Object.keys(LAYOUTS);
 

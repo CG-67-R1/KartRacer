@@ -1,0 +1,236 @@
+{
+  "trackId": "a_wodongak",
+  "name": "Albury-Wodonga Kart Club (1)",
+  "lengthM": 961,
+  "startFinish": [
+    44.06,
+    51.4
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "a_wodongak_t1",
+      "number": 1,
+      "apex": [
+        33.81,
+        22.72
+      ],
+      "label": [
+        31.95,
+        17.86
+      ],
+      "entry": [
+        36.48,
+        24.78
+      ],
+      "exit": [
+        27.35,
+        22.41
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "a_wodongak_t2",
+      "number": 2,
+      "apex": [
+        21.67,
+        17.37
+      ],
+      "label": [
+        18.81,
+        13.03
+      ],
+      "entry": [
+        21.53,
+        19.36
+      ],
+      "exit": [
+        29.57,
+        10.31
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "a_wodongak_t3",
+      "number": 3,
+      "apex": [
+        38.46,
+        9.68
+      ],
+      "label": [
+        37.61,
+        4.55
+      ],
+      "entry": [
+        35.42,
+        8.35
+      ],
+      "exit": [
+        42.38,
+        18.21
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "a_wodongak_t4",
+      "number": 4,
+      "apex": [
+        67.01,
+        53.12
+      ],
+      "label": [
+        72.2,
+        52.88
+      ],
+      "entry": [
+        63.85,
+        53.45
+      ],
+      "exit": [
+        69.72,
+        50.06
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "a_wodongak_t5",
+      "number": 5,
+      "apex": [
+        76.79,
+        46.61
+      ],
+      "label": [
+        81.84,
+        45.39
+      ],
+      "entry": [
+        74.5,
+        46.04
+      ],
+      "exit": [
+        78.29,
+        48.48
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "a_wodongak_t6",
+      "number": 6,
+      "apex": [
+        23.78,
+        86.23
+      ],
+      "label": [
+        20.84,
+        90.52
+      ],
+      "entry": [
+        26.02,
+        88.53
+      ],
+      "exit": [
+        23.38,
+        84.02
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "a_wodongak_t7",
+      "number": 7,
+      "apex": [
+        25.3,
+        81.3
+      ],
+      "label": [
+        22.17,
+        85.45
+      ],
+      "entry": [
+        23.68,
+        82.9
+      ],
+      "exit": [
+        34.62,
+        81.87
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "a_wodongak_t8",
+      "number": 8,
+      "apex": [
+        51.31,
+        76.42
+      ],
+      "label": [
+        52.55,
+        81.47
+      ],
+      "entry": [
+        51.97,
+        78.78
+      ],
+      "exit": [
+        44.86,
+        71.84
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    }
+  ]
+}

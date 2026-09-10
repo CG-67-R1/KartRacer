@@ -756,7 +756,7 @@ export function TrackWalkScreen() {
                   style={styles.sharedInput}
                   value={bikeClass}
                   onChangeText={setBikeClass}
-                  placeholder="Bike class (optional)"
+                  placeholder="Kart class (optional)"
                   placeholderTextColor="#94a3b8"
                 />
                 <TextInput
@@ -776,7 +776,7 @@ export function TrackWalkScreen() {
               </View>
             ) : null}
             <Text style={styles.riderNoteHelp}>
-              All user notes are rider notes. Official and coach notes will be distinguished in a
+              All user notes are driver notes. Official and coach notes will be distinguished in a
               future update.
             </Text>
             <TouchableOpacity

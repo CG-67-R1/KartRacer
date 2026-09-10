@@ -1,0 +1,96 @@
+{
+  "trackId": "cairnsk_var2",
+  "name": "Cairns Kart Club (Var 2)",
+  "lengthM": 424,
+  "startFinish": [
+    61.19,
+    49.63
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "cairnsk_var2_t1",
+      "number": 1,
+      "apex": [
+        65.38,
+        25.16
+      ],
+      "label": [
+        67.98,
+        20.66
+      ],
+      "entry": [
+        60.82,
+        28.74
+      ],
+      "exit": [
+        75.11,
+        25.44
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "cairnsk_var2_t2",
+      "number": 2,
+      "apex": [
+        71.95,
+        87.55
+      ],
+      "label": [
+        74.27,
+        92.2
+      ],
+      "entry": [
+        76.34,
+        71.96
+      ],
+      "exit": [
+        66.34,
+        91.09
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "cairnsk_var2_t3",
+      "number": 3,
+      "apex": [
+        50.76,
+        74.58
+      ],
+      "label": [
+        50.48,
+        79.77
+      ],
+      "entry": [
+        33.73,
+        62.32
+      ],
+      "exit": [
+        57.08,
+        74.27
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    }
+  ]
+}

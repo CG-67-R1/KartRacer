@@ -1,0 +1,40 @@
+{
+  "trackId": "lakekingk",
+  "name": "Lake King Kart Club",
+  "lengthM": 657,
+  "startFinish": [
+    49.7,
+    54.69
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "lakekingk_t1",
+      "number": 1,
+      "apex": [
+        49.27,
+        16.63
+      ],
+      "label": [
+        49.06,
+        11.43
+      ],
+      "entry": [
+        49.36,
+        12.77
+      ],
+      "exit": [
+        55.5,
+        24.91
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    }
+  ]
+}

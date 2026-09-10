@@ -1,0 +1,109 @@
+import type { SetupSnapshot } from "./types.js";
+
+export type DiffRow = {
+  path: string;
+  label: string;
+  from: string;
+  to: string;
+};
+
+const SETUP_LABELS: Record<string, string> = {
+  name: "Sheet name",
+  wheelbase: "Wheelbase",
+  chassisBrand: "Chassis brand",
+  frontRideHeight: "Front ride height",
+  rearRideHeight: "Rear ride height",
+  frontTrack: "Front track",
+  rearTrack: "Rear track",
+  frontHubLength: "Front hub length",
+  rearHubLength: "Rear hub length",
+  frontHubSpacers: "Front hub spacers",
+  toeMm: "Toe (mm)",
+  camberMm: "Camber (mm)",
+  caster: "Caster",
+  ackermann: "Ackermann",
+  axleStiffness: "Axle",
+  rearTorsion: "Rear torsion",
+  frontTorsion: "Front torsion",
+  fourthTorsion: "4th torsion",
+  seatStruts: "Seat struts",
+  sidepods: "Side pods",
+  thirdBearing: "Third bearing",
+  frontBumper: "Front bumper",
+  rearBumper: "Rear bumper",
+  seatPosition: "Seat position",
+  seatHeight: "Seat height",
+  rainMeister: "Rain Meister",
+  tyreType: "Tyres",
+  rimMaterial: "Rims",
+  driverWeightKg: "Driver kg",
+  ballastKg: "Ballast kg",
+  ballastForeAft: "Ballast fore/aft",
+  ballastVertical: "Ballast height",
+  notes: "Notes",
+};
+
+const CONDITION_LABELS: Record<string, string> = {
+  grip: "Grip",
+  wet: "Wet",
+  trackDirection: "Direction",
+  airTempC: "Air °C",
+  trackTempC: "Track °C",
+  targetTyreTempC: "Target tyre °C",
+};
+
+function fmt(value: unknown): string {
+  if (value == null || value === "") return "—";
+  if (typeof value === "boolean") return value ? "yes" : "no";
+  if (typeof value === "number") return Number.isInteger(value) ? String(value) : String(value);
+  if (typeof value === "object") return JSON.stringify(value);
+  return String(value);
+}
+
+function pushChanged(
+  rows: DiffRow[],
+  path: string,
+  label: string,
+  from: unknown,
+  to: unknown,
+): void {
+  const a = fmt(from);
+  const b = fmt(to);
+  if (a === b) return;
+  rows.push({ path, label, from: a, to: b });
+}
+
+export function diffSnapshots(from: SetupSnapshot, to: SetupSnapshot): DiffRow[] {
+  const rows: DiffRow[] = [];
+  for (const key of Object.keys(SETUP_LABELS)) {
+    pushChanged(
+      rows,
+      `setup.${key}`,
+      SETUP_LABELS[key] ?? key,
+      (from.setup as Record<string, unknown>)[key],
+      (to.setup as Record<string, unknown>)[key],
+    );
+  }
+  for (const key of Object.keys(CONDITION_LABELS)) {
+    pushChanged(
+      rows,
+      `conditions.${key}`,
+      CONDITION_LABELS[key] ?? key,
+      (from.conditions as Record<string, unknown>)[key],
+      (to.conditions as Record<string, unknown>)[key],
+    );
+  }
+  for (const corner of ["fl", "fr", "rl", "rr"] as const) {
+    pushChanged(rows, `pressures.cold.${corner}`, `${corner.toUpperCase()} cold bar`, from.pressures.cold[corner], to.pressures.cold[corner]);
+    pushChanged(rows, `pressures.hot.${corner}`, `${corner.toUpperCase()} hot bar`, from.pressures.hot[corner], to.pressures.hot[corner]);
+    pushChanged(rows, `temps.${corner}`, `${corner.toUpperCase()} temps O/M/I`, from.temps[corner], to.temps[corner]);
+  }
+  return rows;
+}
+
+export function diffSummary(rows: DiffRow[]): string {
+  if (rows.length === 0) return "No recorded differences.";
+  const names = rows.slice(0, 4).map((row) => row.label);
+  const extra = rows.length > 4 ? ` (+${rows.length - 4} more)` : "";
+  return `${rows.length} change${rows.length === 1 ? "" : "s"}: ${names.join(", ")}${extra}`;
+}

@@ -1,0 +1,292 @@
+{
+  "trackId": "gippslandk",
+  "name": "Gippsland Go-Kart Club (Tramway Park)",
+  "lengthM": 611,
+  "startFinish": [
+    54.69,
+    46.44
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "gippslandk_t1",
+      "number": 1,
+      "apex": [
+        39.11,
+        67.06
+      ],
+      "label": [
+        35.64,
+        70.93
+      ],
+      "entry": [
+        54.69,
+        46.44
+      ],
+      "exit": [
+        39.69,
+        71.27
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "gippslandk_t2",
+      "number": 2,
+      "apex": [
+        47.88,
+        74.65
+      ],
+      "label": [
+        47.43,
+        79.83
+      ],
+      "entry": [
+        43.55,
+        74.82
+      ],
+      "exit": [
+        56.36,
+        62.33
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "gippslandk_t3",
+      "number": 3,
+      "apex": [
+        73.79,
+        58.54
+      ],
+      "label": [
+        78.95,
+        59.2
+      ],
+      "entry": [
+        72.72,
+        54.08
+      ],
+      "exit": [
+        71.24,
+        63.3
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "gippslandk_t4",
+      "number": 4,
+      "apex": [
+        44.8,
+        85.65
+      ],
+      "label": [
+        43.99,
+        90.79
+      ],
+      "entry": [
+        60.06,
+        73.85
+      ],
+      "exit": [
+        38.17,
+        84.47
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "gippslandk_t5",
+      "number": 5,
+      "apex": [
+        29.08,
+        81.79
+      ],
+      "label": [
+        25.89,
+        85.9
+      ],
+      "entry": [
+        31.06,
+        81.17
+      ],
+      "exit": [
+        27.39,
+        84.22
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "gippslandk_t6",
+      "number": 6,
+      "apex": [
+        10.32,
+        86.76
+      ],
+      "label": [
+        6.26,
+        90.01
+      ],
+      "entry": [
+        13.91,
+        88.98
+      ],
+      "exit": [
+        8.39,
+        79.63
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "gippslandk_t7",
+      "number": 7,
+      "apex": [
+        24.73,
+        68.45
+      ],
+      "label": [
+        20.13,
+        70.87
+      ],
+      "entry": [
+        18.51,
+        68.68
+      ],
+      "exit": [
+        26.98,
+        66.44
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "gippslandk_t8",
+      "number": 8,
+      "apex": [
+        59.43,
+        11.79
+      ],
+      "label": [
+        60.58,
+        6.72
+      ],
+      "entry": [
+        56.48,
+        18.13
+      ],
+      "exit": [
+        62.35,
+        10.46
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "gippslandk_t9",
+      "number": 9,
+      "apex": [
+        90.99,
+        16.82
+      ],
+      "label": [
+        94.8,
+        13.28
+      ],
+      "entry": [
+        88.01,
+        14.4
+      ],
+      "exit": [
+        91.61,
+        20.34
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "gippslandk_t10",
+      "number": 10,
+      "apex": [
+        88.36,
+        25.65
+      ],
+      "label": [
+        92.49,
+        22.49
+      ],
+      "entry": [
+        90.48,
+        23.66
+      ],
+      "exit": [
+        81.32,
+        25.3
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    }
+  ]
+}

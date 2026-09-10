@@ -1,0 +1,292 @@
+{
+  "trackId": "bolivar_long",
+  "name": "Southern Go Kart Club (Bolivar Raceway) (Long)",
+  "lengthM": 922,
+  "startFinish": [
+    49.77,
+    46.84
+  ],
+  "countSource": "autonomous",
+  "corners": [
+    {
+      "id": "bolivar_long_t1",
+      "number": 1,
+      "apex": [
+        26.46,
+        45.96
+      ],
+      "label": [
+        21.35,
+        45.01
+      ],
+      "entry": [
+        26.1,
+        43.69
+      ],
+      "exit": [
+        28,
+        47.7
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "bolivar_long_t2",
+      "number": 2,
+      "apex": [
+        39.11,
+        53.73
+      ],
+      "label": [
+        34,
+        54.69
+      ],
+      "entry": [
+        38.34,
+        50.97
+      ],
+      "exit": [
+        38.17,
+        55.94
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "bolivar_long_t3",
+      "number": 3,
+      "apex": [
+        14.85,
+        47.66
+      ],
+      "label": [
+        9.67,
+        47.21
+      ],
+      "entry": [
+        19.95,
+        49.2
+      ],
+      "exit": [
+        11.54,
+        48.72
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "bolivar_long_t4",
+      "number": 4,
+      "apex": [
+        8.41,
+        55.77
+      ],
+      "label": [
+        3.24,
+        56.32
+      ],
+      "entry": [
+        9.19,
+        51.25
+      ],
+      "exit": [
+        10.39,
+        59.94
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 4 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "bolivar_long_t5",
+      "number": 5,
+      "apex": [
+        62.59,
+        62.98
+      ],
+      "label": [
+        65.73,
+        67.13
+      ],
+      "entry": [
+        60.08,
+        64.46
+      ],
+      "exit": [
+        63.65,
+        61.4
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 5 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "bolivar_long_t6",
+      "number": 6,
+      "apex": [
+        62.69,
+        52.53
+      ],
+      "label": [
+        67.82,
+        53.38
+      ],
+      "entry": [
+        62.77,
+        56.18
+      ],
+      "exit": [
+        64.3,
+        49.86
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 6 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "bolivar_long_t7",
+      "number": 7,
+      "apex": [
+        78.66,
+        44.92
+      ],
+      "label": [
+        83.71,
+        43.7
+      ],
+      "entry": [
+        74.94,
+        44.66
+      ],
+      "exit": [
+        80.13,
+        46.22
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 7 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "bolivar_long_t8",
+      "number": 8,
+      "apex": [
+        74.92,
+        55.92
+      ],
+      "label": [
+        79.99,
+        57.08
+      ],
+      "entry": [
+        76.04,
+        53.71
+      ],
+      "exit": [
+        75.01,
+        58.3
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 8 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "bolivar_long_t9",
+      "number": 9,
+      "apex": [
+        91.57,
+        53.99
+      ],
+      "label": [
+        96.75,
+        54.4
+      ],
+      "entry": [
+        89.98,
+        57.51
+      ],
+      "exit": [
+        90.72,
+        49.1
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 9 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "bolivar_long_t10",
+      "number": 10,
+      "apex": [
+        85.32,
+        36.05
+      ],
+      "label": [
+        90.02,
+        33.84
+      ],
+      "entry": [
+        87.43,
+        38.1
+      ],
+      "exit": [
+        81.04,
+        35.49
+      ],
+      "classification": "corner",
+      "headingChangeDeg": 0,
+      "minimumRadiusM": 0,
+      "lengthM": 0,
+      "previousStraightM": 0,
+      "direction": null,
+      "summary": "Turn 10 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "approachFrom": "T9 exit"
+    }
+  ]
+}

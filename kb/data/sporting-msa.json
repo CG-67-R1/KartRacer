@@ -1,0 +1,46 @@
+{
+  "id": "sporting-msa",
+  "purpose": "Example MSA protest/appeal/homologation numbers. Confirm current GCR/SSR before using in a tool.",
+  "protests": {
+    "window_min": 30,
+    "fee_zar": { "regional": 2000, "national": 5000 },
+    "inadmissible": ["refused entry", "collective / multi-signatory", "late (unless GCR 200 note)", "bad faith / frivolous / vexatious"],
+    "one_kart_per_protest": true,
+    "legal_rep_at_stewards": false,
+    "success_refund": "fee minus ~10% admin",
+    "gcr_refs": ["200", "203", "206"]
+  },
+  "appeals": {
+    "leave_deadline": "Wednesday COB after the meeting (or 7 working days if results amended)",
+    "leave_fee_zar": 5000,
+    "if_granted_extra_zar": 5000,
+    "total_coa_zar": 10000,
+    "msa_reply_days": 7,
+    "legal_rep_coa": false,
+    "ncoa_leave_zar": 10000,
+    "ncoa_formulated_extra_zar": 20000,
+    "ncoa_total_zar": 30000,
+    "ncoa_legal_notice_days": 7
+  },
+  "homologation": {
+    "typical_validity_years": 3,
+    "min_production": {
+      "chassis_bodywork_brakes": 75,
+      "engine_carb_exhaust": 50,
+      "tyres": 500
+    },
+    "cik_groups": {
+      "1": "125 gearbox, ~1050 mm, ~170 kg min kart+driver, 0–100 ~3.5 s, ~180 km/h",
+      "2": "125 direct drive, ~1050 mm",
+      "3": "60 cc Mini, ~950 mm",
+      "4": "250 gearbox superkart, ~200 kg+, ~75 kW"
+    },
+    "tyre_life_km_cert": { "option_or_mini": 250, "prime": 150 },
+    "hardness_standard": "IRHD ISO 48"
+  },
+  "anti_doping": {
+    "tue_before_event_days": 7,
+    "bodies": ["WADA", "SAIDS", "MSA Appendix L"],
+    "strict_liability": true
+  }
+}

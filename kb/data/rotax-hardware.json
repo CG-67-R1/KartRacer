@@ -1,0 +1,75 @@
+{
+  "id": "rotax-hardware",
+  "purpose": "Rotax PV rpm, PV assembly lengths, exhaust matting, EGT, pump flow.",
+  "confirm": "Part numbers and used-mass minima change. Confirm current Rotax / series tech.",
+  "power_valve": {
+    "classes": ["Senior Max", "DD2"],
+    "legal": "EVO electronic only",
+    "pre_evo_open_rpm": 7500,
+    "senior_rpm": { "grounded": 7600, "open": 7900 },
+    "dd2_rpm": { "grounded": 8800, "open": 9100 },
+    "ground_wire": "loom ground = lower rpm pair",
+    "stud_to_blade_curve_mm": { "nom": 72.0, "tol": 0.3 },
+    "with_piston_mm": { "nom": 81.6, "tol": 0.3 },
+    "blade_chamfer": "faces down toward bottom of engine",
+    "check_free_every": "race day (cover + spring off)",
+    "full_strip_max_months": 3,
+    "loctite_stud": true,
+    "adjuster_screw_evo": "nip O-ring only; does not set rpm"
+  },
+  "exhaust_matting": {
+    "service_life_hours": 20,
+    "used_min_g": { "most": 140, "mini": 110 },
+    "new": [
+      {
+        "classes": ["Micro", "Junior", "Senior", "DD2"],
+        "part": "297982",
+        "size_mm": [480, 270],
+        "size_tol_mm": 10,
+        "mass_g": [176, 238]
+      },
+      {
+        "classes": ["Mini Max"],
+        "part": "297985",
+        "size_mm": [490, 180],
+        "size_tol_mm": 10,
+        "mass_g": [119, 163]
+      }
+    ],
+    "stingers": [
+      { "part": "273210", "use": "Jnr/Snr/DD2", "note": "perforated to engine end" },
+      { "part": "273211", "use": "Mini", "note": "welded engine-end, X on flange, larger OD" },
+      { "part": "273212", "use": "Micro", "note": "not perforated all the way (dim d)" }
+    ],
+    "rivet_drill_mm": 4,
+    "refasten": "M4 bolt/capscrew ≥10 mm + nyloc",
+    "micro_mini_header": "ball socket, 1.0 mm wall (old 1.5 mm illegal), new hook shape only"
+  },
+  "egt": {
+    "socket_from_header_ball_mm": [50, 80],
+    "rok_illegal": true
+  },
+  "cooling": {
+    "rotax_pump_l_per_min": 22,
+    "rotax_pump_at_rpm": 11000,
+    "target_wt_c": 50,
+    "thermal_efficiency_2stroke": 0.2,
+    "heat_split_approx": { "exhaust": 0.4, "cooling": 0.35, "friction_noise": 0.05, "shaft": 0.2 },
+    "combustion_gas_c": 1500,
+    "oil_in_fuel_ml_per_l": [20, 50],
+    "fuel_oil_examples": { "bambino_rok": "25:1", "rotax": "50:1" }
+  },
+  "dellorto_rotax_typical": {
+    "body": "VHSB 34 XS",
+    "needle": "K57",
+    "insert": "12.5",
+    "clip": { "1": "lean", "5": "rich" },
+    "micro_mini_restrictor_mm": [35, 18]
+  },
+  "tillotson_hw49a": {
+    "L_turns_start": 2.5,
+    "H_turns_start": 2.0,
+    "popoff_kpa": 80,
+    "in": "lean"
+  }
+}

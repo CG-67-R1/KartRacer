@@ -1,29 +1,21 @@
 {
   "sourceIds": [
-    "ma_roadrace",
-    "asbk",
-    "amcn_asbk"
+    "kartsportnews",
+    "karting_australia_news"
   ],
   "sources": [
     {
-      "id": "ma_roadrace",
-      "name": "Motorcycling Australia (Road Race)",
-      "type": "scraper",
-      "confidence": "official",
+      "id": "kartsportnews",
+      "name": "KartSportNews",
+      "type": "rss",
+      "confidence": "high",
       "nodeId": "au"
     },
     {
-      "id": "asbk",
-      "name": "ASBK",
-      "type": "scraper",
-      "confidence": "official",
-      "nodeId": "au"
-    },
-    {
-      "id": "amcn_asbk",
-      "name": "AMCN ASBK",
-      "type": "scraper",
-      "confidence": "established-press",
+      "id": "karting_australia_news",
+      "name": "Karting Australia",
+      "type": "rss",
+      "confidence": "high",
       "nodeId": "au"
     }
   ]
