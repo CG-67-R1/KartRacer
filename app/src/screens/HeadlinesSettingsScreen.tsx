@@ -42,6 +42,7 @@ import {
   clearKartSetupHistory,
   clearKartSetupSession,
   clearLegacyBikeSetupStorage,
+  clearSetupRole,
   loadKartSetupHistory,
   loadKartSetupSession,
 } from '../storage/kartSetup';
@@ -272,6 +273,7 @@ export function HeadlinesSettingsScreen() {
                 clearGearingGuideState(),
                 clearKartSetupSession(),
                 clearKartSetupHistory(),
+                clearSetupRole(),
                 clearTrackWalkSessions(),
                 clearAvatarFacePhoto(),
                 clearBikePhoto(),

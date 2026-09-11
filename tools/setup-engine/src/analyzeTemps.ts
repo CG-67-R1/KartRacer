@@ -3,6 +3,7 @@ import type { TempPatternRule } from "./rules/schema.js";
 import type {
   Advice,
   AnalysisResult,
+  AnalysisTraceStep,
   ChassisSetup,
   Conditions,
   TreadTemps,
@@ -105,6 +106,13 @@ export function analyzeTemps(
       advice: [],
       blocked: [],
       warnings: ["Tyre temperatures are incomplete. Needle pyrometer under the tread is best."],
+      trace: [
+        {
+          id: "need",
+          label: "Need",
+          detail: "Outside / middle / inside on all four tyres",
+        },
+      ] satisfies AnalysisTraceStep[],
     };
   }
 
@@ -199,11 +207,31 @@ export function analyzeTemps(
   }
 
   advice.sort((a, b) => a.priority - b.priority);
+  const first = advice[0];
   return {
     kind: "temperature",
     reminder: `Read outside / middle / inside immediately. Band ${min}–${max} °C. Danger ~${danger} °C. One change at a time.`,
     advice,
     blocked: [],
     warnings,
+    trace: [
+      {
+        id: "band",
+        label: "Band",
+        detail: `${min}–${max} °C working · danger ~${danger} °C · target ${conditions.targetTyreTempC} °C`,
+      },
+      {
+        id: "pattern",
+        label: "Pattern",
+        detail: `Front majority ${frontPattern ?? "mixed"} · rear majority ${rearPattern ?? "mixed"}`,
+      },
+      ...(first
+        ? [
+            { id: "first", label: "Do this first", detail: `${first.title} (${first.id})` },
+            { id: "why", label: "Why", detail: first.why },
+          ]
+        : []),
+      { id: "source", label: "Source", detail: SOURCE },
+    ],
   };
 }

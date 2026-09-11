@@ -20,6 +20,8 @@ import { BikeSetupBasicsScreen } from './src/screens/BikeSetupBasicsScreen';
 import { BikeSetupHubScreen } from './src/screens/BikeSetupHubScreen';
 import { KartSetupToolScreen } from './src/screens/KartSetupToolScreen';
 import { KartSetupHistoryScreen } from './src/screens/KartSetupHistoryScreen';
+import { KartSetupSheetScreen } from './src/screens/KartSetupSheetScreen';
+import { KartSetupCalculatorsScreen } from './src/screens/KartSetupCalculatorsScreen';
 import { KartSessionUploadScreen } from './src/screens/KartSessionUploadScreen';
 import { GearingGuideScreen } from './src/screens/GearingGuideScreen';
 import { TrackWalkScreen } from './src/screens/TrackWalkScreen';
@@ -249,6 +251,16 @@ function BikeSetupStack() {
         name="BikeSetupBasics"
         component={BikeSetupBasicsScreen}
         options={{ title: 'Kart Setup Basics' }}
+      />
+      <Stack.Screen
+        name="KartSetupSheet"
+        component={KartSetupSheetScreen}
+        options={{ title: 'Setup sheet' }}
+      />
+      <Stack.Screen
+        name="KartSetupCalculators"
+        component={KartSetupCalculatorsScreen}
+        options={{ title: 'Calculators' }}
       />
     </Stack.Navigator>
   );

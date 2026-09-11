@@ -36,6 +36,10 @@ export const ART = {
   historyTrack: require('../../assets/art/kr-history-track.png'),
   tabLogger: require('../../assets/art/kr-tab-logger.png'),
   loggerTrace: require('../../assets/art/kr-logger-trace.png'),
+  toolMainJet: require('../../assets/art/kr-tool-main-jet.png'),
+  toolTyreGauge: require('../../assets/art/kr-tool-tyre-gauge.png'),
+  weatherSun: require('../../assets/art/kr-weather-sun.png'),
+  weatherCloud: require('../../assets/art/kr-weather-cloud.png'),
 } as const;
 
 export const SYMPTOM_ART: Partial<Record<Symptom, ImageSourcePropType>> = {

@@ -1,13 +1,15 @@
-import { isBlockedByLimit, actionApplies } from "./limits.js";
+import { actionApplies, isBlockedByLimit, matchesGate } from "./limits.js";
 import { handlingRules } from "./rules/load.js";
 import type { HandlingAction } from "./rules/schema.js";
 import type {
   Advice,
   AnalysisResult,
+  AnalysisTraceStep,
   ChassisSetup,
   Conditions,
   Symptom,
 } from "./types.js";
+import { SYMPTOM_LABELS } from "./types.js";
 
 const SOURCE = handlingRules.sources?.[0] ?? "https://www.angriracing.com/kart-setup";
 
@@ -48,6 +50,70 @@ function gripNote(conditions: Conditions): string | null {
   return null;
 }
 
+function gateReason(setup: ChassisSetup, action: HandlingAction): string | null {
+  if (action.when && !matchesGate(setup, action.when)) {
+    return "when-gate not met for this sheet";
+  }
+  if (action.requires && !matchesGate(setup, action.requires)) {
+    return "requires-gate not met for this sheet";
+  }
+  if (action.skipWhen && matchesGate(setup, action.skipWhen)) {
+    return "skipWhen matched — this lever is not the move on the current sheet";
+  }
+  return null;
+}
+
+function drivingTrace(input: {
+  symptoms: Symptom[];
+  first?: Advice;
+  blocked: Advice[];
+  skipped: string[];
+  source: string;
+}): AnalysisTraceStep[] {
+  const steps: AnalysisTraceStep[] = [
+    {
+      id: "symptoms",
+      label: "Symptoms",
+      detail: input.symptoms.map((s) => SYMPTOM_LABELS[s]).join(", ") || "None selected",
+    },
+  ];
+  if (input.first) {
+    steps.push({
+      id: "first",
+      label: "Do this first",
+      detail: `${input.first.title} (${input.first.id}, priority ${input.first.priority})`,
+    });
+    steps.push({
+      id: "why",
+      label: "Why",
+      detail: input.first.why,
+    });
+    if (input.first.polarityNote === "950_may_invert") {
+      steps.push({
+        id: "polarity",
+        label: "950 / Bambino",
+        detail: "Axle polarity can invert versus 1050 literature. If this fails, try the opposite.",
+      });
+    }
+  }
+  if (input.skipped.length > 0) {
+    steps.push({
+      id: "skipped",
+      label: "Skipped",
+      detail: input.skipped.join(" · "),
+    });
+  }
+  if (input.blocked.length > 0) {
+    steps.push({
+      id: "blocked",
+      label: "Already at the limit",
+      detail: input.blocked.map((item) => item.title).join(" · "),
+    });
+  }
+  steps.push({ id: "source", label: "Source", detail: input.source });
+  return steps;
+}
+
 export function diagnoseDriving(
   setup: ChassisSetup,
   conditions: Conditions,
@@ -63,6 +129,7 @@ export function diagnoseDriving(
       advice: [],
       blocked: [],
       warnings: ["Pick at least one handling symptom."],
+      trace: drivingTrace({ symptoms: [], blocked: [], skipped: [], source: SOURCE }),
     };
   }
 
@@ -79,6 +146,7 @@ export function diagnoseDriving(
 
   const advice: Advice[] = [];
   const blocked: Advice[] = [];
+  const skipped: string[] = [];
 
   for (const symptom of unique) {
     const rule = handlingRules.rules.find((item) => item.symptoms.includes(symptom));
@@ -91,11 +159,14 @@ export function diagnoseDriving(
       const card = toAdvice(action, setup);
       const atLimit = isBlockedByLimit(setup, action.lever, action.direction);
       if (!actionApplies(setup, action)) {
+        const reason = gateReason(setup, action);
+        skipped.push(`${action.id}: ${reason ?? "gate"}`);
         if (atLimit) blocked.push(card);
         continue;
       }
       if (atLimit) {
         blocked.push(card);
+        skipped.push(`${action.id}: already at the recorded limit`);
         continue;
       }
       advice.push(card);
@@ -114,5 +185,12 @@ export function diagnoseDriving(
     advice,
     blocked,
     warnings,
+    trace: drivingTrace({
+      symptoms: unique,
+      first: advice[0],
+      blocked,
+      skipped,
+      source: SOURCE,
+    }),
   };
 }

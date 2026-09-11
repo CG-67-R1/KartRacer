@@ -3,6 +3,7 @@ import type { CompoundWindow } from "./rules/schema.js";
 import type {
   Advice,
   AnalysisResult,
+  AnalysisTraceStep,
   ChassisSetup,
   Conditions,
   TyreCorner,
@@ -24,6 +25,10 @@ function advice(partial: Omit<Advice, "oneChange" | "kbSource" | "kbSourceId">):
     kbSourceId: pressureRules.id,
     oneChange: true,
   };
+}
+
+function pressureTrace(steps: AnalysisTraceStep[]): AnalysisTraceStep[] {
+  return steps;
 }
 
 function expectedRise(setup: ChassisSetup): number {
@@ -64,6 +69,9 @@ export function analyzePressures(
       advice: [],
       blocked: [],
       warnings: ["Cold pressures are incomplete."],
+      trace: pressureTrace([
+        { id: "need", label: "Need", detail: "Cold pressures on FL / FR / RL / RR" },
+      ]),
     };
   }
 
@@ -74,6 +82,9 @@ export function analyzePressures(
       advice: [],
       blocked: [],
       warnings: ["Hot pressures are incomplete. Log them immediately after the run."],
+      trace: pressureTrace([
+        { id: "need", label: "Need", detail: "Hot pressures on FL / FR / RL / RR immediately after the run" },
+      ]),
     };
   }
 
@@ -244,6 +255,7 @@ export function analyzePressures(
   }
 
   adviceList.sort((a, b) => a.priority - b.priority);
+  const first = adviceList[0];
   return {
     kind: "pressure",
     reminder: compound
@@ -252,6 +264,31 @@ export function analyzePressures(
     advice: adviceList,
     blocked: [],
     warnings,
+    trace: pressureTrace([
+      {
+        id: "window",
+        label: "Window",
+        detail: compound
+          ? `${compound.label} cold ${compound.coldBar.min.toFixed(2)}–${compound.coldBar.max.toFixed(2)} bar · rims ${setup.rimMaterial}`
+          : `Generic ${min}–${max} bar · rims ${setup.rimMaterial}`,
+      },
+      {
+        id: "read",
+        label: "Readings",
+        detail: `Cold avg ${coldAvg.toFixed(2)} bar · hot avg ${hotAvg.toFixed(2)} bar · rise ${riseAvg.toFixed(2)} bar (expected ~${expect.toFixed(2)} on ${setup.rimMaterial})`,
+      },
+      ...(first
+        ? [
+            {
+              id: "first",
+              label: "Do this first",
+              detail: `${first.title} (${first.id})`,
+            },
+            { id: "why", label: "Why", detail: first.why },
+          ]
+        : []),
+      { id: "source", label: "Source", detail: SOURCE },
+    ]),
   };
 }
 

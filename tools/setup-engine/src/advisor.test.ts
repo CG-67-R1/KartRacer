@@ -34,6 +34,23 @@ describe("diagnoseDriving", () => {
     expect(result.advice[0]?.oneChange).toBe(true);
     expect(result.advice[0]?.kbSource).toContain("angriracing.com");
     expect(result.reminder).toMatch(/One change at a time/i);
+    expect(result.trace.some((step) => step.id === "first" && step.detail.includes("us_entry_hubs_out"))).toBe(
+      true,
+    );
+  });
+
+  it("traces skipped widen-front when the sheet is already max wide", () => {
+    const result = diagnoseDriving(
+      setup({ frontTrack: "max" }),
+      defaultConditions(),
+      ["understeer_entry"],
+    );
+    expect(result.trace.some((step) => step.id === "skipped" && step.detail.includes("us_entry_hubs_out"))).toBe(
+      true,
+    );
+    expect(result.trace.some((step) => step.id === "first" && step.detail.includes("us_entry_max_wide_caster"))).toBe(
+      true,
+    );
   });
 
   it("skips widen-front when already max and recommends caster instead", () => {

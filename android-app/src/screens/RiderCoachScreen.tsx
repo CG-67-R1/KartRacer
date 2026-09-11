@@ -60,6 +60,8 @@ export type RiderCoachStackParamList = {
     trackName?: string | null;
   };
   KartSessionUpload: undefined;
+  KartSetupSheet: undefined;
+  KartSetupCalculators: undefined;
 };
 
 type RiderCoachNav = NativeStackNavigationProp<RiderCoachStackParamList, 'RiderCoach'>;

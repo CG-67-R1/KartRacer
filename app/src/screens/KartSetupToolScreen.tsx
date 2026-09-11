@@ -1,19 +1,13 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import {
-  ScrollView,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View,
-  type ImageSourcePropType,
-} from 'react-native';
+import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { ART, SYMPTOM_ART } from '../assets/art';
 import { ArtThumb } from '../components/ArtThumb';
 import { KartSetupAdviceList } from '../components/KartSetupAdviceList';
 import { KartSetupVenuePanel } from '../components/KartSetupVenuePanel';
+import { KartSetupWeatherImport } from '../components/KartSetupWeatherImport';
+import { ChipRow, OptionalNum } from '../components/KartSetupForm';
 import {
   SYMPTOM_LABELS,
   analyzePressures,
@@ -38,9 +32,11 @@ import {
   defaultKartSetupSession,
   loadKartSetupHistory,
   loadKartSetupSession,
+  loadSetupRole,
   saveKartSetupHistory,
   saveKartSetupSession,
   type KartSetupSession,
+  type SetupRole,
 } from '../storage/kartSetup';
 import type { RiderCoachStackParamList } from './RiderCoachScreen';
 
@@ -59,82 +55,6 @@ const COMPOUND_OPTIONS = Object.entries(pressureRules.compounds ?? {}).map(([val
   label: spec?.label ?? 'Unknown / not listed',
 }));
 
-function ChipRow<T extends string>({
-  value,
-  options,
-  onChange,
-}: {
-  value: T;
-  options: { value: T; label: string; image?: ImageSourcePropType }[];
-  onChange: (value: T) => void;
-}) {
-  return (
-    <View style={styles.chipWrap}>
-      {options.map((opt) => {
-        const on = opt.value === value;
-        return (
-          <TouchableOpacity
-            key={opt.value}
-            style={[styles.chip, on ? styles.chipOn : null, opt.image ? styles.chipArt : null]}
-            onPress={() => onChange(opt.value)}
-            activeOpacity={0.8}
-            accessibilityRole="button"
-            accessibilityState={{ selected: on }}
-          >
-            {opt.image ? <ArtThumb source={opt.image} size={44} /> : null}
-            <Text style={[styles.chipText, on ? styles.chipTextOn : null]}>{opt.label}</Text>
-          </TouchableOpacity>
-        );
-      })}
-    </View>
-  );
-}
-
-function OptionalNum({
-  label,
-  value,
-  onChange,
-  stepHint,
-}: {
-  label: string;
-  value: number | null;
-  onChange: (value: number | null) => void;
-  stepHint?: string;
-}) {
-  const [text, setText] = useState(value == null ? '' : String(value));
-
-  useEffect(() => {
-    setText(value == null ? '' : String(value));
-  }, [value]);
-
-  const commit = () => {
-    const trimmed = text.trim();
-    if (!trimmed || trimmed === '.' || trimmed === '-' || trimmed === '-.') {
-      onChange(null);
-      return;
-    }
-    const n = Number(trimmed);
-    onChange(Number.isFinite(n) ? n : null);
-  };
-
-  return (
-    <View style={styles.field}>
-      <Text style={styles.fieldLabel}>{label}</Text>
-      <TextInput
-        style={styles.input}
-        keyboardType="decimal-pad"
-        inputMode="decimal"
-        placeholder={stepHint ?? '—'}
-        placeholderTextColor="#64748b"
-        value={text}
-        onChangeText={setText}
-        onEndEditing={commit}
-        onBlur={commit}
-      />
-    </View>
-  );
-}
-
 export function KartSetupToolScreen() {
   const navigation = useNavigation<Nav>();
   const [session, setSession] = useState<KartSetupSession>(defaultKartSetupSession);
@@ -143,17 +63,22 @@ export function KartSetupToolScreen() {
   const [mode, setMode] = useState<AnalysisKind>('driving');
   const [symptoms, setSymptoms] = useState<Symptom[]>([]);
   const [ran, setRan] = useState(false);
+  const [role, setRole] = useState<SetupRole>('advisor');
+  const engineer = role === 'engineer';
 
   useFocusEffect(
     useCallback(() => {
       let alive = true;
-      void Promise.all([loadKartSetupSession(), loadKartSetupHistory()]).then(([next, snaps]) => {
-        if (!alive) return;
-        setSession(next);
-        setHistory(snaps);
-        setReady(true);
-        setRan(false);
-      });
+      void Promise.all([loadKartSetupSession(), loadKartSetupHistory(), loadSetupRole()]).then(
+        ([next, snaps, nextRole]) => {
+          if (!alive) return;
+          setSession(next);
+          setHistory(snaps);
+          setRole(nextRole);
+          setReady(true);
+          setRan(false);
+        }
+      );
       return () => {
         alive = false;
       };
@@ -197,9 +122,20 @@ export function KartSetupToolScreen() {
       keyboardShouldPersistTaps="handled"
     >
       <Text style={styles.notice}>
-        Advisor for symptoms, pressures, and tyre temps. This is not a lap-time predictor. Confirm
-        it is not the driver before rewriting the chassis. Change one thing, then go back out.
+        {engineer
+          ? 'Engineer advisor: same one-change rule, with weather import and a work trace after you run analysis.'
+          : 'Advisor for symptoms, pressures, and tyre temps. This is not a lap-time predictor. Confirm it is not the driver before rewriting the chassis. Change one thing, then go back out.'}
       </Text>
+      {engineer ? (
+        <View style={styles.rowActions}>
+          <TouchableOpacity onPress={() => navigation.navigate('KartSetupSheet')}>
+            <Text style={styles.link}>Full sheet</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate('KartSetupCalculators')}>
+            <Text style={styles.link}>Calculators</Text>
+          </TouchableOpacity>
+        </View>
+      ) : null}
 
       <Text style={styles.section}>Track</Text>
       <KartSetupVenuePanel
@@ -257,6 +193,20 @@ export function KartSetupToolScreen() {
         ]}
         onChange={(axleStiffness) => setSetup({ axleStiffness })}
       />
+      {engineer ? (
+        <>
+          <Text style={styles.fieldLabel}>Rims</Text>
+          <ChipRow
+            value={session.setup.rimMaterial}
+            options={[
+              { value: 'aluminium', label: 'Aluminium', placeholder: 'Al rim' },
+              { value: 'magnesium', label: 'Magnesium', placeholder: 'Mg rim' },
+            ]}
+            onChange={(rimMaterial) => setSetup({ rimMaterial })}
+          />
+        </>
+      ) : null}
+
       <Text style={styles.fieldLabel}>Tyre compound</Text>
       <ChipRow
         value={session.setup.tyreCompound}
@@ -301,18 +251,22 @@ export function KartSetupToolScreen() {
         ]}
         onChange={(surface) => setConditions({ wet: surface === 'wet' })}
       />
-      <View style={styles.row}>
-        <OptionalNum
-          label="Air °C"
-          value={session.conditions.airTempC}
-          onChange={(airTempC) => setConditions({ airTempC })}
-        />
-        <OptionalNum
-          label="Track °C"
-          value={session.conditions.trackTempC}
-          onChange={(trackTempC) => setConditions({ trackTempC })}
-        />
-      </View>
+      {engineer ? (
+        <KartSetupWeatherImport conditions={session.conditions} onConditions={setConditions} />
+      ) : (
+        <View style={styles.row}>
+          <OptionalNum
+            label="Air °C"
+            value={session.conditions.airTempC}
+            onChange={(airTempC) => setConditions({ airTempC })}
+          />
+          <OptionalNum
+            label="Track °C"
+            value={session.conditions.trackTempC}
+            onChange={(trackTempC) => setConditions({ trackTempC })}
+          />
+        </View>
+      )}
 
       {session.conditions.wet ? (
         <View style={styles.panel}>
@@ -504,7 +458,7 @@ export function KartSetupToolScreen() {
       {result ? (
         <View style={styles.panel}>
           <Text style={styles.panelTitle}>Advice</Text>
-          <KartSetupAdviceList result={result} />
+          <KartSetupAdviceList result={result} showTrace={engineer} />
         </View>
       ) : null}
     </ScrollView>
@@ -595,4 +549,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   runText: { color: '#0f172a', fontSize: 17, fontWeight: '800' },
+  rowActions: { flexDirection: 'row', flexWrap: 'wrap', gap: 16, marginBottom: 10 },
+  link: { color: '#fbbf24', fontSize: 14, fontWeight: '700' },
 });

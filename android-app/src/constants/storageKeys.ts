@@ -26,6 +26,7 @@ export const STORAGE_KEYS = {
   TYRE_WEAR_ANALYSIS: '@kartrace_tyre_wear_analysis',
   KART_SETUP_CURRENT: '@kartrace_setup_current_v1',
   KART_SETUP_HISTORY: '@kartrace_setup_history_v1',
+  KART_SETUP_ROLE: '@kartrace_setup_role_v1',
 } as const;
 
 /** Pre-prefix trivia best-score key — migrate once then delete. */

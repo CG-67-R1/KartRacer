@@ -19,7 +19,41 @@ import { logStorageError } from './logStorageError';
 
 const CURRENT_KEY = STORAGE_KEYS.KART_SETUP_CURRENT;
 const HISTORY_KEY = STORAGE_KEYS.KART_SETUP_HISTORY;
+const ROLE_KEY = STORAGE_KEYS.KART_SETUP_ROLE;
 const HISTORY_CAP = 80;
+
+export type SetupRole = 'advisor' | 'engineer';
+
+export function isSetupRole(value: unknown): value is SetupRole {
+  return value === 'advisor' || value === 'engineer';
+}
+
+export async function loadSetupRole(): Promise<SetupRole> {
+  try {
+    const raw = await AsyncStorage.getItem(ROLE_KEY);
+    if (isSetupRole(raw)) return raw;
+    return 'advisor';
+  } catch (e) {
+    logStorageError('loadSetupRole', e);
+    return 'advisor';
+  }
+}
+
+export async function saveSetupRole(role: SetupRole): Promise<void> {
+  try {
+    await AsyncStorage.setItem(ROLE_KEY, role);
+  } catch (e) {
+    logStorageError('saveSetupRole', e);
+  }
+}
+
+export async function clearSetupRole(): Promise<void> {
+  try {
+    await AsyncStorage.removeItem(ROLE_KEY);
+  } catch (e) {
+    logStorageError('clearSetupRole', e);
+  }
+}
 
 export type KartSetupSession = CurrentSession;
 

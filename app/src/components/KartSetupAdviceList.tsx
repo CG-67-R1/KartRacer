@@ -16,9 +16,25 @@ function adviceArt(item: Advice, first?: boolean, blocked?: boolean): ImageSourc
   return ART.adviceOneChange;
 }
 
-export function KartSetupAdviceList({ result }: { result: AnalysisResult }) {
+export function KartSetupAdviceList({
+  result,
+  showTrace,
+}: {
+  result: AnalysisResult;
+  showTrace?: boolean;
+}) {
   return (
     <View>
+      {showTrace && result.trace.length > 0 ? (
+        <View style={styles.trace}>
+          <Text style={styles.traceTitle}>How the engine picked this</Text>
+          {result.trace.map((step) => (
+            <Text key={step.id} style={styles.traceRow}>
+              {step.label}: {step.detail}
+            </Text>
+          ))}
+        </View>
+      ) : null}
       <Text style={styles.notice}>{result.reminder}</Text>
       {result.warnings.map((warning) => (
         <Text key={warning} style={styles.warn}>
@@ -176,6 +192,26 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: '700',
     paddingVertical: 6,
+  },
+  trace: {
+    backgroundColor: '#0f172a',
+    borderRadius: 8,
+    padding: 10,
+    marginBottom: 12,
+    borderWidth: 1,
+    borderColor: '#334155',
+  },
+  traceTitle: {
+    color: '#fde68a',
+    fontSize: 13,
+    fontWeight: '700',
+    marginBottom: 6,
+  },
+  traceRow: {
+    color: '#cbd5e1',
+    fontSize: 12,
+    lineHeight: 17,
+    marginBottom: 4,
   },
   why: {
     color: '#e2e8f0',

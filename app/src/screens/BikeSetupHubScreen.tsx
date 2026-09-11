@@ -1,12 +1,13 @@
-import React from 'react';
-import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import React, { useCallback, useState } from 'react';
+import { ScrollView, StyleSheet, Text, TouchableOpacity, View, type ImageSourcePropType } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { useNavigation } from '@react-navigation/native';
+import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { ART } from '../assets/art';
 import { AppLogo } from '../components/AppLogo';
 import { ArtThumb } from '../components/ArtThumb';
 import { COMPACT_LOGO_SIZE } from '../constants/logoSizing';
+import { loadSetupRole, saveSetupRole, type SetupRole } from '../storage/kartSetup';
 import type { RiderCoachStackParamList } from './RiderCoachScreen';
 
 type Nav = NativeStackNavigationProp<RiderCoachStackParamList, 'BikeSetupHub'>;
@@ -14,13 +15,31 @@ type Nav = NativeStackNavigationProp<RiderCoachStackParamList, 'BikeSetupHub'>;
 type Secondary = {
   title: string;
   description: string;
-  art: (typeof ART)['tabTools'];
+  art: ImageSourcePropType;
   onPress: () => void;
 };
 
 /** Hub: Kart Setup Tool is the primary action; other tools are secondary rows. */
 export function BikeSetupHubScreen() {
   const navigation = useNavigation<Nav>();
+  const [role, setRole] = useState<SetupRole>('advisor');
+
+  useFocusEffect(
+    useCallback(() => {
+      let alive = true;
+      void loadSetupRole().then((next) => {
+        if (alive) setRole(next);
+      });
+      return () => {
+        alive = false;
+      };
+    }, [])
+  );
+
+  const chooseRole = (next: SetupRole) => {
+    setRole(next);
+    void saveSetupRole(next);
+  };
 
   const secondary: Secondary[] = [
     {
@@ -55,6 +74,23 @@ export function BikeSetupHubScreen() {
     },
   ];
 
+  if (role === 'engineer') {
+    secondary.unshift(
+      {
+        title: 'Full setup sheet',
+        description: 'Every lever on the kart now',
+        art: ART.tabTools,
+        onPress: () => navigation.navigate('KartSetupSheet'),
+      },
+      {
+        title: 'Calculators',
+        description: 'Weather, RAD, jet, premix, scales',
+        art: ART.toolMainJet,
+        onPress: () => navigation.navigate('KartSetupCalculators'),
+      }
+    );
+  }
+
   return (
     <ScrollView
       style={styles.container}
@@ -66,6 +102,29 @@ export function BikeSetupHubScreen() {
       </View>
 
       <Text style={styles.sectionLabel}>Kart Setup</Text>
+      <View style={styles.roleRow}>
+        <TouchableOpacity
+          style={[styles.roleChip, role === 'advisor' ? styles.roleOn : null]}
+          onPress={() => chooseRole('advisor')}
+          accessibilityRole="button"
+          accessibilityState={{ selected: role === 'advisor' }}
+        >
+          <Text style={[styles.roleText, role === 'advisor' ? styles.roleTextOn : null]}>Advisor</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.roleChip, role === 'engineer' ? styles.roleOn : null]}
+          onPress={() => chooseRole('engineer')}
+          accessibilityRole="button"
+          accessibilityState={{ selected: role === 'engineer' }}
+        >
+          <Text style={[styles.roleText, role === 'engineer' ? styles.roleTextOn : null]}>Engineer</Text>
+        </TouchableOpacity>
+      </View>
+      <Text style={styles.privacyNote}>
+        {role === 'engineer'
+          ? 'Engineer unlocks the full sheet, weather import, and calculators. Advice still changes one thing at a time.'
+          : 'Advisor keeps the junior sheet. Switch to Engineer when you want every lever and the maths.'}
+      </Text>
       <Text style={styles.privacyNote}>
         Setup tools keep your data private on this device. Save snapshots for later comparison, and
         share a setup as text via Messages only when you choose.
@@ -132,6 +191,20 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     marginTop: 4,
   },
+  roleRow: { flexDirection: 'row', gap: 8, marginBottom: 10 },
+  roleChip: {
+    flex: 1,
+    minHeight: 44,
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: '#334155',
+    backgroundColor: '#1e293b',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  roleOn: { borderColor: '#f59e0b', backgroundColor: '#422006' },
+  roleText: { color: '#cbd5e1', fontWeight: '700' },
+  roleTextOn: { color: '#fde68a' },
   privacyNote: {
     fontSize: 13,
     color: '#93c5fd',

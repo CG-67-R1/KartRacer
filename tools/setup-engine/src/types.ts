@@ -116,6 +116,16 @@ export type ChassisSetup = {
   /** Compound key into pressure rules `compounds` (e.g. "lecont_lh03"), or "unknown". */
   tyreCompound: string;
   rimMaterial: RimMaterial;
+  /** Sealed 4SS / Torini: hide jet stamps. */
+  engineKind: EngineKind;
+  /** Stopwatch-proven main-jet stamp at baselineRadPct. Null = direction only. */
+  baselineJetStamp: number | null;
+  /** RAD % when the baseline jet was proven. */
+  baselineRadPct: number | null;
+  /** Fuel:oil premix, e.g. 20 for 20:1. Null = not set. */
+  premixRatio: number | null;
+  /** Optional class label for reminders (not a numeric authority). */
+  classId: string | null;
 
   driverWeightKg: number;
   ballastKg: number;
@@ -178,7 +188,16 @@ export type SetupSnapshot = {
   lapSummary?: SnapshotLapSummary;
 };
 
+export type EngineKind = "two_stroke" | "sealed_4ss";
+
 export type AnalysisKind = "driving" | "pressure" | "temperature";
+
+/** Engineer-mode decision path. Advisor UI can ignore this. */
+export type AnalysisTraceStep = {
+  id: string;
+  label: string;
+  detail: string;
+};
 
 export type AnalysisResult = {
   kind: AnalysisKind;
@@ -186,6 +205,8 @@ export type AnalysisResult = {
   advice: Advice[];
   blocked: Advice[];
   warnings: string[];
+  /** How the engine picked the first card. Empty when analysis did not run. */
+  trace: AnalysisTraceStep[];
 };
 
 export type WetChecklistItem = {

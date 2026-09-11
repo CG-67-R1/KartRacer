@@ -35,7 +35,13 @@ const SETUP_LABELS: Record<string, string> = {
   seatHeight: "Seat height",
   rainMeister: "Rain Meister",
   tyreType: "Tyres",
+  tyreCompound: "Compound",
   rimMaterial: "Rims",
+  engineKind: "Engine",
+  baselineJetStamp: "Baseline jet",
+  baselineRadPct: "Baseline RAD %",
+  premixRatio: "Premix ratio",
+  classId: "Class",
   driverWeightKg: "Driver kg",
   ballastKg: "Ballast kg",
   ballastForeAft: "Ballast fore/aft",
@@ -50,6 +56,8 @@ const CONDITION_LABELS: Record<string, string> = {
   airTempC: "Air °C",
   trackTempC: "Track °C",
   targetTyreTempC: "Target tyre °C",
+  humidityPct: "Humidity %",
+  pressureHpa: "Pressure hPa",
 };
 
 function fmt(value: unknown): string {
