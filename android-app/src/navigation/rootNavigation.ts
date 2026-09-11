@@ -33,7 +33,9 @@ export type RootTabParamList = {
           | 'BikeSetupHub'
           | 'BikeBalanceSetup'
           | 'BikeSetupBasics'
-          | 'GearingGuide';
+          | 'GearingGuide'
+          | 'KartSetupHistory'
+          | 'KartSessionUpload';
         params?: {
           mode?: CoachSeedTab;
           seedDraftMessage?: string;

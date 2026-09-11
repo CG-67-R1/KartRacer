@@ -159,6 +159,14 @@ export type TreadTemps = {
 
 export type TyreTemps = CornerMap<TreadTemps>;
 
+/** Compact lap evidence stored on a snapshot — not the raw logger samples. */
+export type SnapshotLapSummary = {
+  bestS: number | null;
+  medianS: number | null;
+  consistencyPct: number | null;
+  lapCount: number;
+};
+
 export type SetupSnapshot = {
   id: string;
   createdAt: string;
@@ -168,6 +176,7 @@ export type SetupSnapshot = {
   conditions: Conditions;
   pressures: TyrePressures;
   temps: TyreTemps;
+  lapSummary?: SnapshotLapSummary;
 };
 
 export type AnalysisKind = "driving" | "pressure" | "temperature";

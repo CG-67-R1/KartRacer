@@ -55,6 +55,11 @@ export type RiderCoachStackParamList = {
   BikeSetupBasics: undefined;
   BikeBalanceSetup: undefined;
   GearingGuide: undefined;
+  KartSetupHistory: {
+    trackId?: string | null;
+    trackName?: string | null;
+  };
+  KartSessionUpload: undefined;
 };
 
 type RiderCoachNav = NativeStackNavigationProp<RiderCoachStackParamList, 'RiderCoach'>;

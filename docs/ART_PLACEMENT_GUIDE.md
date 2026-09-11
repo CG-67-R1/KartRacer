@@ -32,8 +32,10 @@ REGEN until it has been regenerated and re-passed.
 
 | Screen | File | Role |
 |---|---|---|
-| Kart Setup hub | `BikeSetupHubScreen` | Four buttons: AI, Tool, Gearing, Basics |
-| Kart Setup Tool | `KartSetupToolScreen` (route `BikeBalanceSetup`) | Advisor: chassis chips, grip/wet, driving / pressures / temps |
+| Kart Setup hub | `BikeSetupHubScreen` | Six buttons: AI, Tool, History, Upload, Gearing, Basics |
+| Kart Setup Tool | `KartSetupToolScreen` (route `BikeBalanceSetup`) | Advisor: chassis chips, track picker, grip/wet, driving / pressures / temps |
+| Setup History | `KartSetupHistoryScreen` | Snapshots, venue filter, compare / restore |
+| Upload session | `KartSessionUploadScreen` | MyChron CSV → laps, consistency, driver/chassis, attach |
 | Kart Setup Basics | `BikeSetupBasicsScreen` | Hotspot diagram (`kart-side.jpg` today) |
 | Gearing Guide | `GearingGuideScreen` | Sprocket / rollout |
 | Home | `HeadlinesScreen` | Hero is `app/assets/home-poc-kart.png`, not this set |
@@ -46,6 +48,8 @@ REGEN until it has been regenerated and re-passed.
 | File | Hub card |
 |---|---|
 | kr-tab-analysis.png | Kart Setup Tool |
+| kr-history-snapshot.png | Setup History |
+| kr-tab-logger.png | Upload session |
 | kr-tool-gearing.png | Gearing Guide |
 | kr-brand-empty-kart.png | Kart Setup Basics (or hub header) |
 | kr-tab-tools.png | Optional: Kart Setup AI (or leave AI text-only) |
@@ -68,6 +72,8 @@ Driving / pressures / temps already exist. Pair art to those panels only.
 | kr-advice-blocked.png | Blocked-advice rows |
 | kr-chassis-plan-corners.png | Pressure + temp entry (FL/FR/RL/RR map) |
 | kr-tyre-slick.png / kr-tyre-wet.png | Only if a slick/wet control is added; compound chips exist today |
+| kr-history-snapshot.png | Save snapshot / History hub tile |
+| kr-history-track.png | Track picker + “Here before” / History list |
 | kr-chassis-jacking-lift.png | Jacking / inside-rear-lift advice + Kart Setup Basics education |
 
 ### Kart Setup Basics — `BikeSetupBasicsScreen`
@@ -85,6 +91,13 @@ Keep `kart-side.jpg` as the photo diagram. Use lever tiles as hotspot popover ar
 | kr-lever-seat-position.png | Seat |
 | kr-lever-front-ride-height.png / kr-lever-rear-ride-height.png | Ride height |
 
+### Upload session — `KartSessionUploadScreen`
+
+| File | Placement |
+|---|---|
+| kr-tab-logger.png | Hub tile + screen header |
+| kr-logger-trace.png | Two-lap speed overlay header |
+
 ### Gearing Guide — `GearingGuideScreen`
 
 | File | Placement |
@@ -99,10 +112,10 @@ into the deleted setup sheet.
 | File | Was for | Hold until |
 |---|---|---|
 | kr-tab-chassis.png | Setup sheet hub tile | Full day-sheet screen (kart, not bike) |
-| kr-tab-history.png, kr-history-snapshot.png, kr-history-diff.png, kr-history-track.png | History | `KartSetupHistoryScreen` |
-| kr-tab-logger.png, kr-tab-upload.png, kr-logger-trace.png, kr-logger-briefing.png, kr-session-consistency.png | Upload / logger | Session upload screen |
+| kr-tab-history.png, kr-history-diff.png | History extras | REGEN — do not place until they re-pass |
+| kr-tab-upload.png, kr-logger-briefing.png, kr-session-consistency.png | Upload extras | REGEN — do not place until they re-pass |
 | kr-page-chassis-setup.png | Sheet hero | Kart day-sheet screen |
-| kr-tab-venue.png, kr-venue-circuit.png, kr-venue-clockwise.png, kr-venue-anticlockwise.png | Track picker on analysis | Venue/direction controls on Kart Setup Tool |
+| kr-tab-venue.png, kr-venue-circuit.png, kr-venue-clockwise.png, kr-venue-anticlockwise.png | Direction / venue tiles | REGEN — text chips ship until they re-pass |
 | kr-weather-sun/cloud/overcast/rain/wind/damp.png | Weather chips | Weather import on Kart Setup Tool |
 | kr-lever-ackermann.png, kr-lever-front-hubs.png, kr-lever-rear-track.png, kr-lever-rear-torsion.png, kr-lever-third-bearing.png, kr-lever-seat-struts.png, kr-lever-ballast.png | Sheet field popovers | Day-sheet or extra Basics hotspots |
 | kr-rim-aluminium.png, kr-rim-magnesium.png | Rim select | Day-sheet rim field |

@@ -18,6 +18,8 @@ import { ImportTrackNotesScreen } from './src/screens/ImportTrackNotesScreen';
 import { BikeSetupBasicsScreen } from './src/screens/BikeSetupBasicsScreen';
 import { BikeSetupHubScreen } from './src/screens/BikeSetupHubScreen';
 import { KartSetupToolScreen } from './src/screens/KartSetupToolScreen';
+import { KartSetupHistoryScreen } from './src/screens/KartSetupHistoryScreen';
+import { KartSessionUploadScreen } from './src/screens/KartSessionUploadScreen';
 import { GearingGuideScreen } from './src/screens/GearingGuideScreen';
 import { TrackWalkScreen } from './src/screens/TrackWalkScreen';
 import { TrackMemoryHubScreen } from './src/screens/TrackMemoryHubScreen';
@@ -227,6 +229,16 @@ function BikeSetupStack() {
         name="BikeBalanceSetup"
         component={KartSetupToolScreen}
         options={{ title: 'Kart Setup Tool' }}
+      />
+      <Stack.Screen
+        name="KartSetupHistory"
+        component={KartSetupHistoryScreen}
+        options={{ title: 'Setup History' }}
+      />
+      <Stack.Screen
+        name="KartSessionUpload"
+        component={KartSessionUploadScreen}
+        options={{ title: 'Upload session' }}
       />
       <Stack.Screen
         name="GearingGuide"

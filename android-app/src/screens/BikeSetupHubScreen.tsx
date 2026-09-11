@@ -10,7 +10,7 @@ import type { RiderCoachStackParamList } from './RiderCoachScreen';
 
 type Nav = NativeStackNavigationProp<RiderCoachStackParamList, 'BikeSetupHub'>;
 
-/** Hub for Kart Setup AI, setup tool, gearing, and basics. */
+/** Hub for Kart Setup AI, setup tool, history, upload, gearing, and basics. */
 export function BikeSetupHubScreen() {
   const navigation = useNavigation<Nav>();
 
@@ -44,6 +44,22 @@ export function BikeSetupHubScreen() {
       >
         <ArtThumb source={ART.tabAnalysis} size={64} />
         <Text style={styles.navButtonText}>Kart Setup Tool</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.navButton}
+        onPress={() => navigation.navigate('KartSetupHistory', {})}
+        activeOpacity={0.8}
+      >
+        <ArtThumb source={ART.historySnapshot} size={64} />
+        <Text style={styles.navButtonText}>Setup History</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.navButton}
+        onPress={() => navigation.navigate('KartSessionUpload')}
+        activeOpacity={0.8}
+      >
+        <ArtThumb source={ART.tabLogger} size={64} />
+        <Text style={styles.navButtonText}>Upload session</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.navButton}

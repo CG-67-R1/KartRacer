@@ -39,8 +39,10 @@ import { useAvatarFacePicker } from '../hooks/useAvatarFacePicker';
 import { clearGearingGuideState } from '../storage/gearingGuide';
 import { clearTrackWalkSessions } from '../storage/trackWalk';
 import {
+  clearKartSetupHistory,
   clearKartSetupSession,
   clearLegacyBikeSetupStorage,
+  loadKartSetupHistory,
   loadKartSetupSession,
 } from '../storage/kartSetup';
 import { clearBikePhoto } from '../storage/bikePhoto';
@@ -232,15 +234,17 @@ export function HeadlinesSettingsScreen() {
 
   const handleExportData = useCallback(async () => {
     try {
-      const [onboarding, kartSetup] = await Promise.all([
+      const [onboarding, kartSetup, kartSetupHistory] = await Promise.all([
         getOnboardingAnswers(),
         loadKartSetupSession(),
+        loadKartSetupHistory(),
       ]);
       const json = JSON.stringify(
         {
           exportedAt: new Date().toISOString(),
           onboarding,
           kartSetup,
+          kartSetupHistory,
         },
         null,
         2
@@ -267,6 +271,7 @@ export function HeadlinesSettingsScreen() {
                 clearLegacyBikeSetupStorage(),
                 clearGearingGuideState(),
                 clearKartSetupSession(),
+                clearKartSetupHistory(),
                 clearTrackWalkSessions(),
                 clearAvatarFacePhoto(),
                 clearBikePhoto(),

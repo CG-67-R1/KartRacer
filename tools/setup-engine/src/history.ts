@@ -3,6 +3,7 @@ import type {
   ChassisSetup,
   Conditions,
   SetupSnapshot,
+  SnapshotLapSummary,
   TyrePressures,
   TyreTemps,
 } from "./types.js";
@@ -25,6 +26,7 @@ export function createSnapshot(input: {
   label?: string;
   note?: string;
   createdAt?: string;
+  lapSummary?: SnapshotLapSummary;
 }): SetupSnapshot {
   return {
     id: createId("snap"),
@@ -35,6 +37,7 @@ export function createSnapshot(input: {
     conditions: clone(input.conditions),
     pressures: clone(input.pressures),
     temps: clone(input.temps),
+    ...(input.lapSummary ? { lapSummary: clone(input.lapSummary) } : {}),
   };
 }
 

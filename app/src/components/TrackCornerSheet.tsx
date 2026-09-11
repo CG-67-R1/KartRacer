@@ -11,6 +11,7 @@ import {
 import type { GpxTrackMap } from '../data/gpxTrackMaps/types';
 import type { RacingLine } from '../data/racingLines/types';
 import type { TrackDetailsCorner } from '../data/trackDetailsCorners/types';
+import { RacingLineLegend } from './RacingLineLegend';
 import { TrackMapView, cornerViewBox } from './TrackMapView';
 import { GRASS } from './trackMapTheme';
 
@@ -80,6 +81,7 @@ export function TrackCornerSheet({
                     />
                   </View>
                 ) : null}
+                {racingLine ? <RacingLineLegend compact palette={racingLine.palette} /> : null}
 
                 <Text style={styles.sectionLabel}>This turn</Text>
                 <Text style={styles.body}>{corner.summary}</Text>

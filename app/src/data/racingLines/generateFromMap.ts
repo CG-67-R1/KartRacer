@@ -1,15 +1,7 @@
 import type { GpxTrackMap } from '../gpxTrackMaps/types';
+import { racingLineBandIndex, racingLinePalette } from './colors';
 import type { RacingLine } from './types';
 
-/** Same ramp as scripts/lib/racing_line_colors.py — brake, release, throttle, drive. */
-const STOPS: [number, [number, number, number]][] = [
-  [-1.0, [0xdc, 0x26, 0x26]],
-  [-0.25, [0x25, 0x63, 0xeb]],
-  [0.2, [0x16, 0xa3, 0x4a]],
-  [1.0, [0xfa, 0xcc, 0x15]],
-];
-
-const BAND_COUNT = 8;
 const SMOOTH_WIN = 15;
 const AVAIL_FLOOR = 0.5;
 
@@ -21,41 +13,6 @@ const KART = {
   kDrag: 0.0025,
   vMax: 32,
 };
-
-function hex([r, g, b]: [number, number, number]): string {
-  return `#${[r, g, b].map((c) => c.toString(16).padStart(2, '0')).join('')}`;
-}
-
-function colorAt(u: number): [number, number, number] {
-  if (u <= STOPS[0][0]) return STOPS[0][1];
-  if (u >= STOPS[STOPS.length - 1][0]) return STOPS[STOPS.length - 1][1];
-  for (let i = 0; i < STOPS.length - 1; i++) {
-    const [u0, c0] = STOPS[i];
-    const [u1, c1] = STOPS[i + 1];
-    if (u0 <= u && u <= u1) {
-      const f = (u - u0) / (u1 - u0);
-      return [
-        Math.round(c0[0] + (c1[0] - c0[0]) * f),
-        Math.round(c0[1] + (c1[1] - c0[1]) * f),
-        Math.round(c0[2] + (c1[2] - c0[2]) * f),
-      ];
-    }
-  }
-  return STOPS[STOPS.length - 1][1];
-}
-
-function bandU(band: number): number {
-  return -1 + (2 * band) / (BAND_COUNT - 1);
-}
-
-function palette(): string[] {
-  return Array.from({ length: BAND_COUNT }, (_, b) => hex(colorAt(bandU(b))));
-}
-
-function bandIndex(u: number): number {
-  const t = (Math.max(-1, Math.min(1, u)) + 1) * 0.5;
-  return Math.max(0, Math.min(BAND_COUNT - 1, Math.round(t * (BAND_COUNT - 1))));
-}
 
 function smooth(values: number[], win: number): number[] {
   const n = values.length;
@@ -85,7 +42,7 @@ export function generateRacingLineFromMap(map: GpxTrackMap): RacingLine {
   const pts = map.polyline;
   const n = pts.length;
   if (n < 3) {
-    return { trackId: map.trackId, name: map.name, polyline: pts, palette: palette(), bands: pts.map(() => 4) };
+    return { trackId: map.trackId, name: map.name, polyline: pts, palette: racingLinePalette(), bands: pts.map(() => 4) };
   }
 
   const ds: number[] = [];
@@ -139,7 +96,7 @@ export function generateRacingLineFromMap(map: GpxTrackMap): RacingLine {
     trackId: map.trackId,
     name: map.name,
     polyline: pts,
-    palette: palette(),
-    bands: smooth(u, SMOOTH_WIN).map(bandIndex),
+    palette: racingLinePalette(),
+    bands: smooth(u, SMOOTH_WIN).map(racingLineBandIndex),
   };
 }

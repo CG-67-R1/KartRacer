@@ -4,8 +4,10 @@ import {
   conditionsAirDensity,
   defaultConditions,
   firstGpsFix,
+  formatSnapshotLapSummary,
   lapTableRows,
   sessionConsistency,
+  snapshotLapSummary,
   wmoImpliesWet,
 } from "./index.js";
 import { analyzeLogger } from "./logger/analyze.js";
@@ -127,5 +129,19 @@ describe("lapTableRows", () => {
     const best = rows[analysis.bestLapIndex!];
     expect(best.deltaToBest).toBe("+0.000");
     expect(rows.every((r) => r.time.includes(":"))).toBe(true);
+  });
+});
+
+describe("snapshotLapSummary", () => {
+  it("stores counts not raw samples", () => {
+    const analysis = analyzeLogger(sessionSamples([46.0, 45.0, 47.0]));
+    const summary = snapshotLapSummary(analysis);
+    expect(summary.lapCount).toBe(3);
+    expect(summary.bestS).toBeTypeOf("number");
+    expect(summary.medianS).toBeTypeOf("number");
+    expect(summary.bestS ?? 0).toBeLessThanOrEqual(summary.medianS ?? 0);
+    expect(summary.consistencyPct).not.toBeNull();
+    expect(formatSnapshotLapSummary(summary)).toContain("3 laps");
+    expect(formatSnapshotLapSummary(summary)).toContain("best");
   });
 });

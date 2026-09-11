@@ -10,6 +10,7 @@ import {
 import type { GpxTrackMap } from '../data/gpxTrackMaps/types';
 import type { RacingLine } from '../data/racingLines/types';
 import type { TrackDetailsCorner, TrackDetailsCorners } from '../data/trackDetailsCorners/types';
+import { RacingLineLegend } from './RacingLineLegend';
 import { TrackMapView } from './TrackMapView';
 import { GRASS } from './trackMapTheme';
 
@@ -20,8 +21,7 @@ const ZOOM_STEP = 0.5;
 
 const MAP_HINT =
   'Track map from the circuit GPS trace, drawn to the real width of the road — zoom in to read it.';
-const GUIDE_HINT =
-  'The coloured line is a suggested line — red braking, blue release, green throttle, yellow full drive — not instruction.';
+const GUIDE_HINT = 'The coloured line is a suggested line — not instruction.';
 const NOTES_HINT = 'Tap a turn number on the map, or the same number in the list.';
 
 type Props = {
@@ -112,6 +112,7 @@ export function TrackFacilityMap({ map, racingLine, corners, onCornerPress }: Pr
           </TouchableOpacity>
         </View>
       </View>
+      {racingLine ? <RacingLineLegend palette={racingLine.palette} /> : null}
       <Text style={styles.hint}>
         {[MAP_HINT, racingLine ? GUIDE_HINT : null, NOTES_HINT].filter(Boolean).join(' ')}
       </Text>

@@ -150,8 +150,8 @@ export function TrackMemoryHubScreen() {
       </View>
 
       <Text style={styles.lead}>
-        Pick a circuit. The map is the GPS layout with numbered turns and a suggested racing line
-        (red braking, blue release, green throttle, yellow drive). Tap a number to open that corner.
+        Pick a circuit. The map is the GPS layout with numbered turns and a suggested racing line.
+        Use the colour key under the map. Tap a number to open that corner.
       </Text>
 
       <TrackPicker

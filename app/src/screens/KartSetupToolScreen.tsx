@@ -8,9 +8,12 @@ import {
   View,
   type ImageSourcePropType,
 } from 'react-native';
+import { useFocusEffect, useNavigation } from '@react-navigation/native';
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { ART, SYMPTOM_ART } from '../assets/art';
 import { ArtThumb } from '../components/ArtThumb';
 import { KartSetupAdviceList } from '../components/KartSetupAdviceList';
+import { KartSetupVenuePanel } from '../components/KartSetupVenuePanel';
 import {
   SYMPTOM_LABELS,
   analyzePressures,
@@ -18,6 +21,7 @@ import {
   compoundWindow,
   diagnoseDriving,
   pressureRules,
+  restoreSnapshot,
   wetPaddockReminders,
   wetPresetChecklist,
   type AnalysisKind,
@@ -25,16 +29,22 @@ import {
   type ChassisSetup,
   type Conditions,
   type LimitState,
+  type SetupSnapshot,
   type Symptom,
   type TyreCorner,
   type Wheelbase,
 } from '../lib/setupEngine';
 import {
   defaultKartSetupSession,
+  loadKartSetupHistory,
   loadKartSetupSession,
+  saveKartSetupHistory,
   saveKartSetupSession,
   type KartSetupSession,
 } from '../storage/kartSetup';
+import type { RiderCoachStackParamList } from './RiderCoachScreen';
+
+type Nav = NativeStackNavigationProp<RiderCoachStackParamList, 'BikeBalanceSetup'>;
 
 const SYMPTOMS = Object.keys(SYMPTOM_LABELS) as Symptom[];
 const CORNERS: { id: TyreCorner; label: string }[] = [
@@ -89,42 +99,74 @@ function OptionalNum({
   onChange: (value: number | null) => void;
   stepHint?: string;
 }) {
+  const [text, setText] = useState(value == null ? '' : String(value));
+
+  useEffect(() => {
+    setText(value == null ? '' : String(value));
+  }, [value]);
+
+  const commit = () => {
+    const trimmed = text.trim();
+    if (!trimmed || trimmed === '.' || trimmed === '-' || trimmed === '-.') {
+      onChange(null);
+      return;
+    }
+    const n = Number(trimmed);
+    onChange(Number.isFinite(n) ? n : null);
+  };
+
   return (
     <View style={styles.field}>
       <Text style={styles.fieldLabel}>{label}</Text>
       <TextInput
         style={styles.input}
         keyboardType="decimal-pad"
+        inputMode="decimal"
         placeholder={stepHint ?? '—'}
         placeholderTextColor="#64748b"
-        value={value == null ? '' : String(value)}
-        onChangeText={(text) => {
-          const trimmed = text.trim();
-          if (!trimmed) {
-            onChange(null);
-            return;
-          }
-          const n = Number(trimmed);
-          onChange(Number.isFinite(n) ? n : null);
-        }}
+        value={text}
+        onChangeText={setText}
+        onEndEditing={commit}
+        onBlur={commit}
       />
     </View>
   );
 }
 
 export function KartSetupToolScreen() {
+  const navigation = useNavigation<Nav>();
   const [session, setSession] = useState<KartSetupSession>(defaultKartSetupSession);
+  const [history, setHistory] = useState<SetupSnapshot[]>([]);
+  const [ready, setReady] = useState(false);
   const [mode, setMode] = useState<AnalysisKind>('driving');
   const [symptoms, setSymptoms] = useState<Symptom[]>([]);
   const [ran, setRan] = useState(false);
 
-  useEffect(() => {
-    void loadKartSetupSession().then(setSession);
-  }, []);
+  useFocusEffect(
+    useCallback(() => {
+      let alive = true;
+      void Promise.all([loadKartSetupSession(), loadKartSetupHistory()]).then(([next, snaps]) => {
+        if (!alive) return;
+        setSession(next);
+        setHistory(snaps);
+        setReady(true);
+        setRan(false);
+      });
+      return () => {
+        alive = false;
+      };
+    }, [])
+  );
 
   useEffect(() => {
+    if (!ready) return;
     void saveKartSetupSession(session);
-  }, [session]);
+  }, [ready, session]);
+
+  useEffect(() => {
+    if (!ready) return;
+    void saveKartSetupHistory(history);
+  }, [history, ready]);
 
   const setSetup = useCallback((patch: Partial<ChassisSetup>) => {
     setRan(false);
@@ -156,6 +198,21 @@ export function KartSetupToolScreen() {
         Advisor for symptoms, pressures, and tyre temps. This is not a lap-time predictor. Confirm
         it is not the driver before rewriting the chassis. Change one thing, then go back out.
       </Text>
+
+      <Text style={styles.section}>Track</Text>
+      <KartSetupVenuePanel
+        session={session}
+        history={history}
+        onConditions={setConditions}
+        onRestore={(snapshot) => {
+          setRan(false);
+          setSession(restoreSnapshot(snapshot));
+        }}
+        onHistoryChange={setHistory}
+        onSeeAll={(trackId, trackName) =>
+          navigation.navigate('KartSetupHistory', { trackId, trackName })
+        }
+      />
 
       <Text style={styles.section}>On the kart now</Text>
       <Text style={styles.fieldLabel}>Wheelbase</Text>
@@ -214,15 +271,15 @@ export function KartSetupToolScreen() {
         <View style={styles.hintRow}>
           <ArtThumb source={ART.pressureCompoundWindow} size={52} />
           <Text style={styles.hint}>
-            {window.label}: {window.coldPsi.min}–{window.coldPsi.max} psi cold ({window.coldBar.min.toFixed(2)}–
-            {window.coldBar.max.toFixed(2)} bar).
+            {window.label}: {window.coldBar.min.toFixed(2)}–{window.coldBar.max.toFixed(2)} bar cold (
+            {window.coldPsi.min}–{window.coldPsi.max} psi).
           </Text>
         </View>
       ) : (
         <Text style={styles.hint}>Unknown compound uses the generic 0.8–1.5 bar band.</Text>
       )}
 
-      <Text style={styles.section}>Track / weather</Text>
+      <Text style={styles.section}>Weather</Text>
       <Text style={styles.fieldLabel}>Grip</Text>
       <ChipRow
         value={session.conditions.grip}

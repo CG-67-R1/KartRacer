@@ -54,6 +54,20 @@ describe("snapshotsForTrack", () => {
     expect(snapshotsForTrack(history, null, null)).toHaveLength(0);
     expect(snapshotsForTrack(history, null, "  ")).toHaveLength(0);
   });
+
+  it("keeps attached lap summary on the snapshot", () => {
+    const snap = createSnapshot({
+      ...base,
+      conditions: defaultConditions(),
+      lapSummary: { bestS: 45.123, medianS: 45.4, consistencyPct: 88, lapCount: 6 },
+    });
+    expect(snap.lapSummary).toEqual({
+      bestS: 45.123,
+      medianS: 45.4,
+      consistencyPct: 88,
+      lapCount: 6,
+    });
+  });
 });
 
 describe("snapshot diff", () => {

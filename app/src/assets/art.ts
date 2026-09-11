@@ -32,6 +32,10 @@ export const ART = {
   leverSeatPosition: require('../../assets/art/kr-lever-seat-position.png'),
   leverFrontRideHeight: require('../../assets/art/kr-lever-front-ride-height.png'),
   leverRearRideHeight: require('../../assets/art/kr-lever-rear-ride-height.png'),
+  historySnapshot: require('../../assets/art/kr-history-snapshot.png'),
+  historyTrack: require('../../assets/art/kr-history-track.png'),
+  tabLogger: require('../../assets/art/kr-tab-logger.png'),
+  loggerTrace: require('../../assets/art/kr-logger-trace.png'),
 } as const;
 
 export const SYMPTOM_ART: Partial<Record<Symptom, ImageSourcePropType>> = {

@@ -1,7 +1,7 @@
 import { airDensity, type AirDensityResult } from "./calculators/airDensity.js";
 import { formatLapTime, type LoggerAnalysis, type LoggerLap } from "./logger/analyze.js";
 import type { LoggerSample } from "./logger/parseCsv.js";
-import type { Conditions } from "./types.js";
+import type { Conditions, SnapshotLapSummary } from "./types.js";
 
 /**
  * Session context helpers: imported weather -> Conditions, RAD from conditions,
@@ -197,4 +197,25 @@ export function lapTableRows(
     topSpeed: lap.maxSpeedKmh != null ? `${lap.maxSpeedKmh.toFixed(0)} km/h` : "—",
     minSpeed: lap.minSpeedKmh != null ? `${lap.minSpeedKmh.toFixed(0)} km/h` : "—",
   }));
+}
+
+/** Persistable lap evidence for History — never store the raw CSV samples. */
+export function snapshotLapSummary(analysis: LoggerAnalysis): SnapshotLapSummary {
+  const result = sessionConsistency(analysis);
+  return {
+    bestS: result.bestS,
+    medianS: result.medianS,
+    consistencyPct: result.consistencyPct,
+    lapCount: result.lapCount,
+  };
+}
+
+export function formatSnapshotLapSummary(summary: SnapshotLapSummary): string {
+  const bits = [`${summary.lapCount} lap${summary.lapCount === 1 ? "" : "s"}`];
+  if (summary.bestS != null) bits.push(`best ${formatLapTime(summary.bestS)}`);
+  if (summary.medianS != null && summary.medianS !== summary.bestS) {
+    bits.push(`median ${formatLapTime(summary.medianS)}`);
+  }
+  if (summary.consistencyPct != null) bits.push(`${Math.round(summary.consistencyPct)}% consistent`);
+  return bits.join(" · ");
 }
