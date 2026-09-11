@@ -17,6 +17,7 @@ import { getRiderFact, getBikeFact, RACING_STATES, getRacingStateInfo } from '..
 import {
   setOnboardingDone,
   setOnboardingAnswers,
+  favouriteKartOrUnset,
   type OnboardingAnswers,
 } from '../storage/onboarding';
 import { AVATAR_PRESETS, DEFAULT_FACE_HOLE_LAYOUT, getAvatarPreset, getAvatarSource, getFaceHoleLayout, pickRandomNoPhotoAvatar } from '../avatar/presets';
@@ -109,7 +110,7 @@ export function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
     const resolvedAvatarId = avatarId ?? assignedRandomAvatarId ?? pickRandomNoPhotoAvatar();
     const preset = getAvatarPreset(resolvedAvatarId);
     const answers: OnboardingAnswers = {
-      favouriteBike: favouriteBike.trim() || 'my kart',
+      favouriteBike: favouriteKartOrUnset(favouriteBike),
       favouriteRider: favouriteRider.trim() || 'my hero',
       activity: activity ?? 'just_love_bikes',
       knowsJustSendIt: false,
@@ -155,9 +156,9 @@ export function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
     if (finishing) return;
     if (step === 5 && activity === 'race_one_day' && wantsRacingInfo && wantsRacingEmailInfo) {
       const stateInfo = selectedStateCode ? getRacingStateInfo(selectedStateCode) : undefined;
-      const subject = encodeURIComponent('RoadRace – Future racer enquiry');
+      const subject = encodeURIComponent('KartRacer – Future racer enquiry');
       const bodyLines = [
-        'A RoadRace user wants to learn how to go racing.',
+        'A KartRacer user wants to learn how to go racing.',
         '',
         `Favourite kart: ${favouriteBike || 'N/A'}`,
         `Favourite driver: ${favouriteRider || 'N/A'}`,
@@ -229,7 +230,7 @@ export function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
           </View>
         )}
 
-        {/* Step 1: Favourite bike */}
+        {/* Step 1: Favourite kart */}
         {step === 1 && (
           <View style={styles.step}>
             <Text style={styles.title}>What’s your favourite kart?</Text>
@@ -427,7 +428,7 @@ export function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
                         })()}
 
                         <Text style={[styles.subtitle, { marginTop: 16 }]}>
-                          Would you like to receive more information from RoadRace?
+                          Would you like to receive more information from KartRacer?
                         </Text>
                         <View style={styles.yesNoRow}>
                           <TouchableOpacity
@@ -483,7 +484,7 @@ export function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
                               onChangeText={setRacingEmail}
                             />
                             <Text style={{ color: '#94a3b8', fontSize: 13, marginTop: 8 }}>
-                              We’ll email your answers to the RoadRace team at
+                              We’ll email your answers to the KartRacer team at
                               {' '}
                               projectapex@outlook.com.au so they can get in touch.
                             </Text>

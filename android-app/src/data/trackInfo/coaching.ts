@@ -6,7 +6,7 @@ export const TRACK_INFO_COACHING = {
   points: [
     'More reference points is better: end of kerb, marshal post, tar snake, paint mark, a shadow that stays put.',
     'Pick one brake marker, one turn-in, and one apex / exit kerb per corner. Add more only when those three are stable.',
-    'Eyes lead the bike. Look through the corner to the exit, then pick up the next marker. Do not stare at the apex once you are committed.',
+    'Eyes lead the kart. Look through the corner to the exit, then pick up the next marker. Do not stare at the apex once you are committed.',
     'On a new track, walk or roll the lap first and name what you will look at. Notes on this page are for those markers — not for inventing speed.',
   ],
 } as const;

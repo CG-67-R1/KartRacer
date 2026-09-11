@@ -1,4 +1,4 @@
-# RoadRace AI – In-app Rider Coach & Bike Setup
+# KartRacer AI – In-app Driver Coach & Kart Setup
 
 The **Rider Coach** and **Bike Setup** tabs in the app now use an AI that runs **inside your hosted API**. Users never leave the app.
 
@@ -14,7 +14,7 @@ The **Q&A → Ask** tab uses OpenAI **Responses API + web search** (Australia-fi
 2. **App**:
    - Rider Coach screen: Coach | Bike Setup tabs with in-app chat.
    - Q&A screen → Ask tab: general Ask (web) plus **Official rule check?** (MoMS) below it.
-3. **Hosting**: Your existing API (e.g. Render) serves both the rest of the API and RoadRace AI routes. Set `OPENAI_API_KEY` in the server environment so the AI works.
+3. **Hosting**: Your existing API (e.g. Render) serves both the rest of the API and KartRacer AI routes. Set `OPENAI_API_KEY` in the server environment so the AI works.
 
 ## Setup
 

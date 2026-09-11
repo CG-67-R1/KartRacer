@@ -1,5 +1,5 @@
-import React from 'react';
-import { StyleSheet, Text, View, type ImageSourcePropType } from 'react-native';
+import React, { useState } from 'react';
+import { StyleSheet, Text, TouchableOpacity, View, type ImageSourcePropType } from 'react-native';
 import { ART } from '../assets/art';
 import { ArtThumb } from './ArtThumb';
 import { LEVER_LABELS, type Advice, type AnalysisResult } from '../lib/setupEngine';
@@ -49,6 +49,9 @@ function AdviceCard({
   first?: boolean;
   blocked?: boolean;
 }) {
+  const [expanded, setExpanded] = useState(false);
+  const showDetail = Boolean(first || blocked || expanded);
+
   return (
     <View style={[styles.card, first && !blocked ? styles.cardFirst : null, blocked ? styles.cardBlocked : null]}>
       <View style={styles.cardTop}>
@@ -63,14 +66,37 @@ function AdviceCard({
         {LEVER_LABELS[item.lever]} · {item.direction}
         {item.magnitude ? ` · ${item.magnitude}` : ''}
       </Text>
-      <Text style={styles.why}>{item.why}</Text>
-      {item.polarityNote === '950_may_invert' ? (
-        <Text style={styles.warn}>
-          950 / Bambino: axle polarity can invert versus 1050 literature. If this fails, try the
-          opposite.
-        </Text>
-      ) : null}
-      <Text style={styles.source}>Source: {item.kbSource}</Text>
+      {!showDetail ? (
+        <TouchableOpacity
+          onPress={() => setExpanded(true)}
+          accessibilityRole="button"
+          accessibilityLabel="More about this change"
+          accessibilityState={{ expanded: false }}
+        >
+          <Text style={styles.more}>More</Text>
+        </TouchableOpacity>
+      ) : (
+        <>
+          <Text style={styles.why}>{item.why}</Text>
+          {item.polarityNote === '950_may_invert' ? (
+            <Text style={styles.warn}>
+              950 / Bambino: axle polarity can invert versus 1050 literature. If this fails, try the
+              opposite.
+            </Text>
+          ) : null}
+          <Text style={styles.source}>Source: {item.kbSource}</Text>
+          {!first && !blocked ? (
+            <TouchableOpacity
+              onPress={() => setExpanded(false)}
+              accessibilityRole="button"
+              accessibilityLabel="Hide extra detail"
+              accessibilityState={{ expanded: true }}
+            >
+              <Text style={styles.more}>Less</Text>
+            </TouchableOpacity>
+          ) : null}
+        </>
+      )}
     </View>
   );
 }
@@ -144,6 +170,12 @@ const styles = StyleSheet.create({
     color: '#cbd5e1',
     fontSize: 12,
     marginBottom: 6,
+  },
+  more: {
+    color: '#f59e0b',
+    fontSize: 15,
+    fontWeight: '700',
+    paddingVertical: 6,
   },
   why: {
     color: '#e2e8f0',

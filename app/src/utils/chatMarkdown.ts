@@ -1,5 +1,5 @@
 /**
- * RoadRace AI replies are shown in a plain Text bubble (no Markdown renderer).
+ * KartRacer AI replies are shown in a plain Text bubble (no Markdown renderer).
  * GPT still emits headings/bold by default — strip those tokens for the phone UI.
  */
 export function stripChatMarkdown(text: string): string {

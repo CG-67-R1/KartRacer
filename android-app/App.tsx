@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { ActivityIndicator, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { Ionicons } from '@expo/vector-icons';
 import { StatusBar } from 'expo-status-bar';
 import { useFonts } from 'expo-font';
 import { NavigationContainer, type NavigationState } from '@react-navigation/native';
@@ -78,9 +79,10 @@ function HomeHeader({ navigation }: NativeStackHeaderProps) {
         <TouchableOpacity
           onPress={() => navigation.navigate('HeadlinesSettings')}
           style={homeHeaderStyles.settingsBtn}
-          hitSlop={8}
+          accessibilityRole="button"
+          accessibilityLabel="Profile and settings"
         >
-          <Text style={homeHeaderStyles.settingsText}>Settings</Text>
+          <Ionicons name="settings-outline" size={24} color="#f59e0b" />
         </TouchableOpacity>
       </View>
     </View>
@@ -117,12 +119,10 @@ const homeHeaderStyles = StyleSheet.create({
   },
   settingsBtn: {
     zIndex: 1,
-    paddingVertical: 8,
-  },
-  settingsText: {
-    color: '#f59e0b',
-    fontSize: 16,
-    fontWeight: '600',
+    width: 44,
+    height: 44,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });
 
@@ -170,7 +170,7 @@ function RiderCoachStack() {
           title:
             (route.params as { mode?: string } | undefined)?.mode === 'bikesetup'
               ? 'Kart Setup'
-              : 'AI Coach',
+              : 'Driver Coach',
         })}
       />
       <Stack.Screen
@@ -266,19 +266,46 @@ function MainTabs() {
         tabBarLabelStyle: { fontWeight: '600', fontSize: 11 },
       }}
     >
-      <Tab.Screen name="HeadlinesTab" component={HeadlinesStack} options={{ title: 'Home' }} />
-      <Tab.Screen name="CalendarTab" component={CalendarScreen} options={{ title: 'Events' }} />
+      <Tab.Screen
+        name="HeadlinesTab"
+        component={HeadlinesStack}
+        options={{
+          title: 'Home',
+          tabBarIcon: ({ color, size }) => <Ionicons name="home" color={color} size={size} />,
+        }}
+      />
+      <Tab.Screen
+        name="CalendarTab"
+        component={CalendarScreen}
+        options={{
+          title: 'Events',
+          tabBarIcon: ({ color, size }) => <Ionicons name="calendar" color={color} size={size} />,
+        }}
+      />
       <Tab.Screen
         name="RiderCoachTab"
         component={RiderCoachStack}
-        options={{ title: 'Driver Coach' }}
+        options={{
+          title: 'Driver Coach',
+          tabBarIcon: ({ color, size }) => <Ionicons name="school" color={color} size={size} />,
+        }}
       />
       <Tab.Screen
         name="BikeSetupTab"
         component={BikeSetupStack}
-        options={{ title: 'Kart Setup' }}
+        options={{
+          title: 'Kart Setup',
+          tabBarIcon: ({ color, size }) => <Ionicons name="construct" color={color} size={size} />,
+        }}
       />
-      <Tab.Screen name="Q&A" component={QAScreen} options={{ title: 'Q & A' }} />
+      <Tab.Screen
+        name="Q&A"
+        component={QAScreen}
+        options={{
+          title: 'Q&A',
+          tabBarIcon: ({ color, size }) => <Ionicons name="help-circle" color={color} size={size} />,
+        }}
+      />
     </Tab.Navigator>
   );
 }

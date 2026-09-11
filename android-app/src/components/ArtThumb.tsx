@@ -15,6 +15,8 @@ export function ArtThumb({
       source={source}
       style={[{ width: size, height: size, borderRadius: 8, backgroundColor: '#11151C' }, style]}
       resizeMode="contain"
+      accessible={false}
+      importantForAccessibility="no"
       accessibilityIgnoresInvertColors
     />
   );

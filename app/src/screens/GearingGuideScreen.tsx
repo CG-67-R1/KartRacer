@@ -1,5 +1,6 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
+  FlatList,
   Modal,
   ScrollView,
   StyleSheet,
@@ -9,6 +10,7 @@ import {
   View,
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { ART } from '../assets/art';
 import { ArtThumb } from '../components/ArtThumb';
@@ -46,7 +48,7 @@ import {
   type GearingBikeField,
   type GearingGuideState,
 } from '../storage/gearingGuide';
-import { getOnboardingAnswers } from '../storage/onboarding';
+import { getOnboardingAnswers, isFavouriteKartUnset } from '../storage/onboarding';
 import { getTrackPrepSelectedTrack } from '../storage/trackdayPrep';
 import type { RiderCoachStackParamList } from './RiderCoachScreen';
 
@@ -85,6 +87,8 @@ function teethRange(min: number, max: number): number[] {
   return values;
 }
 
+const TEETH_ROW_H = 48;
+
 function TeethDropdown({
   label,
   value,
@@ -102,9 +106,19 @@ function TeethDropdown({
   placeholder: string;
   allowEmpty?: boolean;
 }) {
+  const insets = useSafeAreaInsets();
+  const listRef = useRef<FlatList<{ key: string; label: string; value: string }>>(null);
   const [open, setOpen] = useState(false);
   const options = useMemo(() => teethRange(min, max), [min, max]);
   const selected = value.trim();
+  const rows = useMemo(() => {
+    const nums = options.map((n) => ({ key: String(n), label: `${n}T`, value: String(n) }));
+    return allowEmpty ? [{ key: 'none', label: 'None', value: '' }, ...nums] : nums;
+  }, [options, allowEmpty]);
+  const selectedIndex = useMemo(() => {
+    const i = rows.findIndex((row) => row.value === selected);
+    return i >= 0 ? i : 0;
+  }, [rows, selected]);
 
   return (
     <View style={styles.teethPickerWrap}>
@@ -117,36 +131,37 @@ function TeethDropdown({
       </TouchableOpacity>
       <Modal visible={open} transparent animationType="slide">
         <View style={styles.overlay}>
-          <View style={styles.sheet}>
+          <View style={[styles.sheet, { paddingBottom: Math.max(insets.bottom, 12) }]}>
             <Text style={styles.sheetTitle}>{label}</Text>
-            <ScrollView keyboardShouldPersistTaps="handled">
-              {allowEmpty ? (
-                <TouchableOpacity
-                  style={[styles.option, !selected && styles.optionSelected]}
-                  onPress={() => {
-                    onChange('');
-                    setOpen(false);
-                  }}
-                >
-                  <Text style={styles.optionText}>None</Text>
-                </TouchableOpacity>
-              ) : null}
-              {options.map((n) => {
-                const active = selected === String(n);
+            <FlatList
+              ref={listRef}
+              data={rows}
+              keyExtractor={(item) => item.key}
+              initialScrollIndex={selectedIndex}
+              getItemLayout={(_, index) => ({ length: TEETH_ROW_H, offset: TEETH_ROW_H * index, index })}
+              onScrollToIndexFailed={({ index }) => {
+                setTimeout(() => {
+                  listRef.current?.scrollToOffset({ offset: TEETH_ROW_H * index, animated: false });
+                }, 50);
+              }}
+              keyboardShouldPersistTaps="handled"
+              renderItem={({ item }) => {
+                const active = selected === item.value;
                 return (
                   <TouchableOpacity
-                    key={n}
                     style={[styles.option, active && styles.optionSelected]}
                     onPress={() => {
-                      onChange(String(n));
+                      onChange(item.value);
                       setOpen(false);
                     }}
+                    accessibilityRole="button"
+                    accessibilityState={{ selected: active }}
                   >
-                    <Text style={styles.optionText}>{n}T</Text>
+                    <Text style={styles.optionText}>{item.label}</Text>
                   </TouchableOpacity>
                 );
-              })}
-            </ScrollView>
+              }}
+            />
             <TouchableOpacity style={styles.cancel} onPress={() => setOpen(false)}>
               <Text style={styles.cancelText}>Cancel</Text>
             </TouchableOpacity>
@@ -177,10 +192,10 @@ export function GearingGuideScreen() {
       let next = saved;
       if (!next.catalogId && !next.manufacturer.trim() && !next.family.trim()) {
         const identity = onboarding?.favouriteBike ?? '';
-        const matched = identity ? matchBikePowerbandRef(identity) : null;
+        const matched = !isFavouriteKartUnset(identity) ? matchBikePowerbandRef(identity) : null;
         if (matched) {
           next = applyCatalog(next, matched);
-        } else if (identity) {
+        } else if (!isFavouriteKartUnset(identity)) {
           const parsed = parseFavouriteMachine(identity);
           next = {
             ...next,
@@ -720,7 +735,13 @@ const styles = StyleSheet.create({
     color: '#f8fafc',
     marginBottom: 12,
   },
-  option: { paddingVertical: 14, borderBottomWidth: 1, borderBottomColor: '#334155' },
+  option: {
+    height: TEETH_ROW_H,
+    justifyContent: 'center',
+    paddingHorizontal: 4,
+    borderBottomWidth: 1,
+    borderBottomColor: '#334155',
+  },
   optionSelected: { backgroundColor: 'rgba(245,158,11,0.1)' },
   optionText: { fontSize: 16, fontWeight: '600', color: '#f8fafc' },
   optionMeta: { fontSize: 13, color: '#94a3b8', marginTop: 2 },

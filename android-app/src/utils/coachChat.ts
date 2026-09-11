@@ -102,7 +102,7 @@ export function formatTrackNotesForCoach(session: TrackWalkSession): string {
   const footer = isOther
     ? [
         '',
-        'IMPORTANT: This track is not in the RoadRace knowledge base. Base advice only on the rider notes and context above. Ask clarifying questions if corner numbering or direction is ambiguous.',
+        'IMPORTANT: This track is not in the KartRacer knowledge base. Base advice only on the driver notes and context above. Ask clarifying questions if corner numbering or direction is ambiguous.',
         '',
         'Please review these structured track walk notes and give corner-specific coaching advice: lines, braking, reference points, and anything to work on next session.',
       ]

@@ -1,5 +1,5 @@
 /**
- * RoadRace AI replies are shown in a plain Text bubble (no Markdown renderer).
+ * KartRacer AI replies are shown in a plain Text bubble (no Markdown renderer).
  * Keep in sync with app/src/utils/chatMarkdown.ts
  * @param {string} text
  * @returns {string}

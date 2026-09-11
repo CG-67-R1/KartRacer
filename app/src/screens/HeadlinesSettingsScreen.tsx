@@ -26,7 +26,7 @@ import { AvatarFaceAlignModal } from '../components/AvatarFaceAlignModal';
 import { AvatarFaceCameraModal } from '../components/AvatarFaceCameraModal';
 import { AvatarFaceEllipse } from '../components/AvatarFaceEllipse';
 import { AVATAR_PRESETS, DEFAULT_FACE_HOLE_LAYOUT, getAvatarPreset, getAvatarSource, getFaceHoleLayout } from '../avatar/presets';
-import { getOnboardingAnswers, updateOnboardingAnswers } from '../storage/onboarding';
+import { displayFavouriteKart, favouriteKartOrUnset, getOnboardingAnswers, updateOnboardingAnswers } from '../storage/onboarding';
 import { homeModeFromActivity, rememberHomeMode, RIDE_ACTIVITY_OPTIONS, type RideActivity } from '../navigation/homeMode';
 import {
   clearAvatarFacePhoto,
@@ -65,8 +65,8 @@ export function HeadlinesSettingsScreen() {
   const loadRiderFace = useCallback(async () => {
     const [answers, uri] = await Promise.all([getOnboardingAnswers(), getAvatarFacePhotoUri()]);
     setAvatarId(answers?.avatarId ?? null);
-    setRiderNickname(answers?.riderNickname?.trim() || answers?.favouriteRider?.trim() || 'Rider');
-    setFavouriteBike(answers?.favouriteBike?.trim() || '');
+    setRiderNickname(answers?.riderNickname?.trim() || answers?.favouriteRider?.trim() || 'Driver');
+    setFavouriteBike(displayFavouriteKart(answers?.favouriteBike));
     setActivity(answers?.activity ?? 'just_love_bikes');
     setFacePreviewUri(uri);
   }, []);
@@ -121,7 +121,7 @@ export function HeadlinesSettingsScreen() {
   }, [riderNickname]);
 
   const handleSaveFavouriteBike = useCallback(async () => {
-    const trimmed = favouriteBike.trim() || 'my bike';
+    const trimmed = favouriteKartOrUnset(favouriteBike);
     setProfileBusy(true);
     try {
       const updated = await updateOnboardingAnswers({ favouriteBike: trimmed });
@@ -129,7 +129,7 @@ export function HeadlinesSettingsScreen() {
         Alert.alert('Profile', 'Complete onboarding first to save your favourite kart.');
         return;
       }
-      setFavouriteBike(trimmed);
+      setFavouriteBike(displayFavouriteKart(trimmed));
     } catch (e) {
       Alert.alert('Error', e instanceof Error ? e.message : 'Could not save favourite kart');
     } finally {
@@ -340,10 +340,10 @@ export function HeadlinesSettingsScreen() {
           <Text style={styles.saveProfileBtnText}>Save name</Text>
         </TouchableOpacity>
 
-        <Text style={[styles.fieldLabel, { marginTop: 16 }]}>Favourite bike</Text>
+        <Text style={[styles.fieldLabel, { marginTop: 16 }]}>Favourite kart</Text>
         <TextInput
           style={styles.input}
-          placeholder="e.g. Britten V1000"
+          placeholder="e.g. Tony Kart / IAME X30"
           placeholderTextColor="#64748b"
           value={favouriteBike}
           onChangeText={setFavouriteBike}
@@ -527,7 +527,7 @@ export function HeadlinesSettingsScreen() {
           setup as text only happens when you choose Messages or another app.
         </Text>
         <Text style={styles.sectionSubtitle}>
-          AI Coach, Kart Setup, and Q&amp;A messages you send, including attachments, are transmitted
+          Driver Coach, Kart Setup, and Q&amp;A messages you send, including attachments, are transmitted
           to the KartRacer API and may be processed by OpenAI. Chat history is not stored on the
           server after the response.
         </Text>

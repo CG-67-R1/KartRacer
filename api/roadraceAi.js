@@ -1,5 +1,5 @@
 /**
- * RoadRace AI – in-app Rider Coach & Bike Setup.
+ * KartRacer AI – in-app Driver Coach & Kart Setup.
  * Uses OpenAI Chat Completions with a system prompt derived from ST (Track Day GPT).
  * API key must be set in OPENAI_API_KEY (server-side only).
  */
@@ -391,7 +391,7 @@ export async function askChat(message, options = {}) {
       content: '',
       sources: [],
       fromKb: false,
-      error: 'RoadRace AI is not configured. Set OPENAI_API_KEY on the server.',
+      error: 'KartRacer AI is not configured. Set OPENAI_API_KEY on the server.',
     };
   }
 
@@ -450,7 +450,7 @@ export async function askChat(message, options = {}) {
       return { content, sources, fromKb, momsOnline };
     } catch (err) {
       const msg = err?.message || String(err);
-      console.error('RoadRace AI ask error:', msg);
+      console.error('KartRacer AI ask error:', msg);
       return {
         content: '',
         sources: [],
@@ -499,7 +499,7 @@ export async function askChat(message, options = {}) {
     return { content, sources, fromKb: false };
   } catch (err) {
     const msg = err?.message || String(err);
-    console.error('RoadRace AI ask web-search error:', msg);
+    console.error('KartRacer AI ask web-search error:', msg);
     // Retry once without include/filters if the model rejects newer web_search options
     if (/unknown|unsupported|invalid|include|filters|search_context/i.test(msg)) {
       try {
@@ -530,7 +530,7 @@ export async function askChat(message, options = {}) {
         }
         return { content, sources: extractWebSources(fallback), fromKb: false };
       } catch (err2) {
-        console.error('RoadRace AI ask web-search fallback error:', err2?.message || err2);
+        console.error('KartRacer AI ask web-search fallback error:', err2?.message || err2);
       }
     }
     return {
@@ -615,7 +615,7 @@ function normalizeAttachments(raw) {
 export async function chat(messages, mode = 'coach', attachments = [], riderSkill = 'novice') {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) {
-    return { content: '', error: 'RoadRace AI is not configured. Set OPENAI_API_KEY on the server.' };
+    return { content: '', error: 'KartRacer AI is not configured. Set OPENAI_API_KEY on the server.' };
   }
 
   const skill = normalizeRiderSkill(riderSkill);
@@ -654,7 +654,7 @@ export async function chat(messages, mode = 'coach', attachments = [], riderSkil
     return parseSuggestMode(content, mode === 'bikesetup' ? 'bikesetup' : 'coach');
   } catch (err) {
     const message = err?.message || String(err);
-    console.error('RoadRace AI error:', message);
+    console.error('KartRacer AI error:', message);
     return {
       content: '',
       error: message.includes('rate limit')

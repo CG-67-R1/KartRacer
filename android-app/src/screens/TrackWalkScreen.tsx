@@ -512,7 +512,7 @@ export function TrackWalkScreen() {
         <Text style={styles.purposeBlurb}>
           Use Track Walk to capture corner and general notes while walking the circuit or
           reviewing a session. Notes stay private on this device; finish a walk to save,
-          export a file, or ask RR AI Coach for feedback.
+          export a file, or ask Driver Coach for feedback.
         </Text>
 
         <TrackPicker selectedTrackId={trackId} onSelect={handleSelectTrack} />

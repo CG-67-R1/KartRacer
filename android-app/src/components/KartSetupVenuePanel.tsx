@@ -224,6 +224,8 @@ export function KartSetupVenuePanel({
                   key={value}
                   style={[styles.chip, on ? styles.chipOn : null]}
                   onPress={() => onConditions({ trackDirection: value })}
+                  accessibilityRole="button"
+                  accessibilityState={{ selected: on }}
                 >
                   <Text style={[styles.chipText, on ? styles.chipTextOn : null]}>{text}</Text>
                 </TouchableOpacity>
@@ -367,7 +369,7 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
     minHeight: 44,
   },
-  hint: { color: '#94a3b8', fontSize: 12, lineHeight: 17, marginBottom: 8 },
+  hint: { color: '#94a3b8', fontSize: 13, lineHeight: 18, marginBottom: 8 },
   chipWrap: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: 10 },
   chip: {
     paddingVertical: 8,

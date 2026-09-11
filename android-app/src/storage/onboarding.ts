@@ -8,6 +8,23 @@ const KEY_ONBOARDING_ANSWERS = STORAGE_KEYS.ONBOARDING_ANSWERS;
 
 export type RideActivity = 'race' | 'intermediate' | 'track_days' | 'just_love_bikes' | 'race_one_day';
 
+/** Sentinel when the favourite-kart question is skipped. Also accept the old `'my bike'` value. */
+export const FAVOURITE_KART_UNSET = 'my kart';
+
+export function isFavouriteKartUnset(value: string | null | undefined): boolean {
+  const v = value?.trim().toLowerCase() ?? '';
+  return !v || v === FAVOURITE_KART_UNSET || v === 'my bike';
+}
+
+export function favouriteKartOrUnset(value: string): string {
+  return value.trim() || FAVOURITE_KART_UNSET;
+}
+
+export function displayFavouriteKart(value: string | null | undefined): string {
+  if (isFavouriteKartUnset(value)) return '';
+  return value?.trim() ?? '';
+}
+
 export interface OnboardingAnswers {
   favouriteBike: string;
   favouriteRider: string;

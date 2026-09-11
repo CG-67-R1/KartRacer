@@ -17,6 +17,8 @@ export function ChipRow<T extends string>({ options, value, onChange }: Props<T>
             key={opt.id}
             style={[styles.chip, active && styles.chipActive]}
             onPress={() => onChange(opt.id)}
+            accessibilityRole="button"
+            accessibilityState={{ selected: active }}
           >
             <Text style={[styles.chipText, active && styles.chipTextActive]}>{opt.label}</Text>
           </TouchableOpacity>

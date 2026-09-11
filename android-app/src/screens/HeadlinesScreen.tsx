@@ -21,7 +21,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { getBikePhotoUri, setBikePhotoUri, clearBikePhoto } from '../storage/bikePhoto';
 import { photoDisplayUri } from '../storage/localPhotoStorage';
 import { getAvatarFacePhotoUri } from '../storage/avatarFacePhoto';
-import { getOnboardingAnswers } from '../storage/onboarding';
+import { displayFavouriteKart, getOnboardingAnswers } from '../storage/onboarding';
 import { getTrackdayPrepHistory, type TrackdayPrepReport } from '../storage/trackdayPrep';
 import { HERO_AVATAR_BADGE_SIZE } from '../avatar/heroBadgeSizing';
 import { getAvatarPreset, getAvatarSource, getFaceHoleLayout } from '../avatar/presets';
@@ -55,8 +55,8 @@ export function HeadlinesScreen() {
       getTrackdayPrepHistory(),
     ]);
     setBikePhotoUriState(uri);
-    setNickname(answers?.riderNickname?.trim() || answers?.favouriteRider?.trim() || 'Rider');
-    setFavouriteBike(answers?.favouriteBike?.trim() || '');
+    setNickname(answers?.riderNickname?.trim() || answers?.favouriteRider?.trim() || 'Driver');
+    setFavouriteBike(displayFavouriteKart(answers?.favouriteBike));
     const nextMode = homeModeFromActivity(answers?.activity);
     rememberHomeMode(nextMode);
     setHomeMode(nextMode);
@@ -81,7 +81,7 @@ export function HeadlinesScreen() {
       if (status !== 'granted') {
         Alert.alert(
           'Photo access',
-          'Allow photo access to set a picture of your bike.',
+          'Allow photo access to set a picture of your kart.',
           [{ text: 'OK' }, { text: 'Open Settings', onPress: () => Linking.openSettings() }]
         );
         return;
@@ -107,8 +107,8 @@ export function HeadlinesScreen() {
 
   const removeBikePhoto = useCallback(() => {
     Alert.alert(
-      'Remove bike photo',
-      'Remove the photo of your bike from the home screen?',
+      'Remove kart photo',
+      'Remove the photo of your kart from the home screen?',
       [
         { text: 'Cancel', style: 'cancel' },
         {

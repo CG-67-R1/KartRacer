@@ -700,7 +700,7 @@ export function QAScreen() {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Trivia quiz</Text>
         <Text style={styles.sectionSubtitle}>
-          Test your knowledge. 3 wrong = fail. 5 right = track rider. 8+ = Track Guru!
+          Test your knowledge. 3 wrong = fail. 5 right = track driver. 8+ = Track Guru!
         </Text>
         {triviaState === 'idle' && triviaBestScore > 0 && (
           <Text style={styles.bestScoreIdle}>Your best: {triviaBestScore} correct</Text>

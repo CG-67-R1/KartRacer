@@ -78,6 +78,8 @@ function ChipRow<T extends string>({
             style={[styles.chip, on ? styles.chipOn : null, opt.image ? styles.chipArt : null]}
             onPress={() => onChange(opt.value)}
             activeOpacity={0.8}
+            accessibilityRole="button"
+            accessibilityState={{ selected: on }}
           >
             {opt.image ? <ArtThumb source={opt.image} size={44} /> : null}
             <Text style={[styles.chipText, on ? styles.chipTextOn : null]}>{opt.label}</Text>
@@ -350,6 +352,8 @@ export function KartSetupToolScreen() {
               setMode(id);
               setRan(false);
             }}
+            accessibilityRole="button"
+            accessibilityState={{ selected: mode === id }}
           >
             <Text style={[styles.tabText, mode === id ? styles.tabTextOn : null]}>{label}</Text>
           </TouchableOpacity>
@@ -375,6 +379,8 @@ export function KartSetupToolScreen() {
                         : [...current, symptom]
                     );
                   }}
+                  accessibilityRole="button"
+                  accessibilityState={{ selected: on }}
                 >
                   {art ? <ArtThumb source={art} size={48} /> : null}
                   <Text style={[styles.chipText, on ? styles.chipTextOn : null]}>
@@ -519,7 +525,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   fieldLabel: { color: '#e2e8f0', fontSize: 13, fontWeight: '600', marginBottom: 6, marginTop: 4 },
-  hint: { color: '#94a3b8', fontSize: 12, lineHeight: 17, marginBottom: 8, flex: 1 },
+  hint: { color: '#94a3b8', fontSize: 13, lineHeight: 18, marginBottom: 8, flex: 1 },
   hintRow: { flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 8 },
   chipWrap: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: 10 },
   chip: {

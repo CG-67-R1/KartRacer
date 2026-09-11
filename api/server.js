@@ -90,7 +90,7 @@ app.get('/health', (_, res) => {
 
 app.get('/', (_, res) => {
   res.json({
-    name: 'RoadRacer API',
+    name: 'KartRacer API',
     health: '/health',
     endpoints: [
       '/qa/search',
@@ -236,7 +236,7 @@ app.post('/roadrace-ai/chat', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`RoadRace Headlines API on http://localhost:${PORT}`);
+  console.log(`KartRacer API on http://localhost:${PORT}`);
   if (process.env.OPENAI_API_KEY && !APP_SECRET) {
     console.warn(
       '[security] OPENAI_API_KEY is set but APP_API_SECRET is not — AI and refresh routes are open to the internet. Set APP_API_SECRET in production.'

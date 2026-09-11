@@ -218,7 +218,7 @@ export function formatTrackdayPrepForAi(draft: TrackdayPrepDraft): string {
   return [
     'Create a Trackday Prep briefing for this rider. Be practical, calm, and specific.',
     trackPrepBriefingInstruction(draft.riderLevel),
-    'Infer power type / character from the bike string.',
+    'Infer power type / character from the kart string.',
     'Cover mindset, session structure, tyre warm-up / grip expectations for type + condition, and weather implications.',
     draft.riderLevel === 'racer' || draft.riderLevel === 'experienced'
       ? 'Include what to log in Kart Setup Tool after each session.'

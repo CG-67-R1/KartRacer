@@ -1,5 +1,6 @@
 import React from 'react';
 import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { ART } from '../assets/art';
@@ -10,9 +11,49 @@ import type { RiderCoachStackParamList } from './RiderCoachScreen';
 
 type Nav = NativeStackNavigationProp<RiderCoachStackParamList, 'BikeSetupHub'>;
 
-/** Hub for Kart Setup AI, setup tool, history, upload, gearing, and basics. */
+type Secondary = {
+  title: string;
+  description: string;
+  art: (typeof ART)['tabTools'];
+  onPress: () => void;
+};
+
+/** Hub: Kart Setup Tool is the primary action; other tools are secondary rows. */
 export function BikeSetupHubScreen() {
   const navigation = useNavigation<Nav>();
+
+  const secondary: Secondary[] = [
+    {
+      title: 'Kart Setup AI',
+      description: 'Ask the setup coach',
+      art: ART.tabTools,
+      onPress: () => navigation.navigate('CoachChat', { mode: 'bikesetup' }),
+    },
+    {
+      title: 'Setup History',
+      description: 'Saved snapshots by track',
+      art: ART.historySnapshot,
+      onPress: () => navigation.navigate('KartSetupHistory', {}),
+    },
+    {
+      title: 'Upload session',
+      description: 'MyChron CSV lap analysis',
+      art: ART.tabLogger,
+      onPress: () => navigation.navigate('KartSessionUpload'),
+    },
+    {
+      title: 'Gearing Guide',
+      description: 'Sprockets and rollout',
+      art: ART.toolGearing,
+      onPress: () => navigation.navigate('GearingGuide'),
+    },
+    {
+      title: 'Kart Setup Basics',
+      description: 'What each lever does',
+      art: ART.chassisJackingLift,
+      onPress: () => navigation.navigate('BikeSetupBasics'),
+    },
+  ];
 
   return (
     <ScrollView
@@ -29,54 +70,41 @@ export function BikeSetupHubScreen() {
         Setup tools keep your data private on this device. Save snapshots for later comparison, and
         share a setup as text via Messages only when you choose.
       </Text>
+
       <TouchableOpacity
-        style={styles.navButton}
-        onPress={() => navigation.navigate('CoachChat', { mode: 'bikesetup' })}
-        activeOpacity={0.8}
-      >
-        <ArtThumb source={ART.tabTools} size={64} />
-        <Text style={styles.navButtonText}>Kart Setup AI</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={styles.navButton}
+        style={styles.primary}
         onPress={() => navigation.navigate('BikeBalanceSetup')}
-        activeOpacity={0.8}
+        activeOpacity={0.85}
+        accessibilityRole="button"
+        accessibilityLabel="Kart Setup Tool"
       >
-        <ArtThumb source={ART.tabAnalysis} size={64} />
-        <Text style={styles.navButtonText}>Kart Setup Tool</Text>
+        <ArtThumb source={ART.tabAnalysis} size={72} />
+        <View style={styles.primaryCopy}>
+          <Text style={styles.primaryTitle}>Kart Setup Tool</Text>
+          <Text style={styles.primaryDesc}>
+            Symptoms, pressures, and temps — change one thing, then go back out.
+          </Text>
+        </View>
+        <Ionicons name="chevron-forward" size={22} color="#f59e0b" />
       </TouchableOpacity>
-      <TouchableOpacity
-        style={styles.navButton}
-        onPress={() => navigation.navigate('KartSetupHistory', {})}
-        activeOpacity={0.8}
-      >
-        <ArtThumb source={ART.historySnapshot} size={64} />
-        <Text style={styles.navButtonText}>Setup History</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={styles.navButton}
-        onPress={() => navigation.navigate('KartSessionUpload')}
-        activeOpacity={0.8}
-      >
-        <ArtThumb source={ART.tabLogger} size={64} />
-        <Text style={styles.navButtonText}>Upload session</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={styles.navButton}
-        onPress={() => navigation.navigate('GearingGuide')}
-        activeOpacity={0.8}
-      >
-        <ArtThumb source={ART.toolGearing} size={64} />
-        <Text style={styles.navButtonText}>Gearing Guide</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={styles.navButton}
-        onPress={() => navigation.navigate('BikeSetupBasics')}
-        activeOpacity={0.8}
-      >
-        <ArtThumb source={ART.chassisJackingLift} size={64} />
-        <Text style={styles.navButtonText}>Kart Setup Basics</Text>
-      </TouchableOpacity>
+
+      {secondary.map((row) => (
+        <TouchableOpacity
+          key={row.title}
+          style={styles.row}
+          onPress={row.onPress}
+          activeOpacity={0.8}
+          accessibilityRole="button"
+          accessibilityLabel={row.title}
+        >
+          <ArtThumb source={row.art} size={48} />
+          <View style={styles.rowCopy}>
+            <Text style={styles.rowTitle}>{row.title}</Text>
+            <Text style={styles.rowDesc}>{row.description}</Text>
+          </View>
+          <Ionicons name="chevron-forward" size={18} color="#94a3b8" />
+        </TouchableOpacity>
+      ))}
     </ScrollView>
   );
 }
@@ -110,24 +138,60 @@ const styles = StyleSheet.create({
     lineHeight: 18,
     marginBottom: 14,
   },
-  navButton: {
+  primary: {
     width: '100%',
-    marginBottom: 12,
-    paddingVertical: 12,
+    marginBottom: 16,
+    paddingVertical: 16,
     paddingHorizontal: 16,
-    minHeight: 88,
+    minHeight: 104,
     backgroundColor: '#1e293b',
-    borderRadius: 12,
+    borderRadius: 14,
     borderWidth: 2,
     borderColor: '#f59e0b',
     flexDirection: 'row',
     alignItems: 'center',
     gap: 14,
   },
-  navButtonText: {
-    fontFamily: 'RaceSport',
-    fontSize: 17,
-    color: '#f8fafc',
+  primaryCopy: {
     flex: 1,
+  },
+  primaryTitle: {
+    fontFamily: 'RaceSport',
+    fontSize: 20,
+    color: '#f8fafc',
+    marginBottom: 6,
+  },
+  primaryDesc: {
+    fontSize: 15,
+    lineHeight: 20,
+    color: '#cbd5e1',
+  },
+  row: {
+    width: '100%',
+    marginBottom: 10,
+    paddingVertical: 12,
+    paddingHorizontal: 14,
+    minHeight: 72,
+    backgroundColor: '#1e293b',
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: '#334155',
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
+  rowCopy: {
+    flex: 1,
+  },
+  rowTitle: {
+    fontSize: 16,
+    fontWeight: '700',
+    color: '#f8fafc',
+    marginBottom: 2,
+  },
+  rowDesc: {
+    fontSize: 15,
+    lineHeight: 20,
+    color: '#94a3b8',
   },
 });
