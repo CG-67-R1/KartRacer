@@ -6,8 +6,7 @@ offset d(s) between explicit left/right limits. It never rewrites the road.
 Theoretical model line, not a claim that a driver must use it.
 d>0 is left of travel.
 
-KartRacer: do not run --with-lines until BIKES is replaced. Starting kart
-constants are in docs/KR_TOOLS_AND_RESEARCH.md section 4.3 (J1.7).
+KartRacer: use KARTS (J1.7). Do not pass BIKES into build-racing-lines.py.
 """
 
 from __future__ import annotations
@@ -38,17 +37,58 @@ class Bike:
     k_drag: float
     v_max: float
     margin_m: float = 0.4
+    control_spacing_m: float = 16.0
+    apex_min_gap_m: float = 28.0
+    seam_window_m: float = 45.0
 
 
 # Motorcycle envelopes from RoadRacer. Do not use for KartRacer lines (J1.7).
-# Kart starting points: docs/KR_TOOLS_AND_RESEARCH.md section 4.3
 BIKES = {
     "250": Bike("250", ay_max=9.4, ax_brake=8.5, ax_accel0=4.2, k_drag=0.0016, v_max=58.0),
     "mid": Bike("mid", ay_max=10.6, ax_brake=10.8, ax_accel0=7.2, k_drag=0.00115, v_max=72.0),
     "superbike": Bike("superbike", ay_max=11.2, ax_brake=12.2, ax_accel0=10.4, k_drag=0.00095, v_max=86.0),
 }
 
-KARTS: dict[str, Bike] = {}  # fill before python scripts/build-racing-lines.py
+# Sprint-kart starting envelope from docs/KR_TOOLS_AND_RESEARCH.md §4.3.
+# No lean-angle constraint. Engineering start points, not a lap-time claim.
+KARTS = {
+    "cadet": Bike(
+        "kart-cadet",
+        ay_max=1.45 * G,
+        ax_brake=1.2 * G,
+        ax_accel0=3.2,
+        k_drag=0.0035,
+        v_max=22.0,
+        margin_m=0.25,
+        control_spacing_m=10.0,
+        apex_min_gap_m=14.0,
+        seam_window_m=20.0,
+    ),
+    "sprint": Bike(
+        "kart-sprint",
+        ay_max=1.6 * G,
+        ax_brake=1.4 * G,
+        ax_accel0=4.5,
+        k_drag=0.0025,
+        v_max=32.0,
+        margin_m=0.25,
+        control_spacing_m=10.0,
+        apex_min_gap_m=16.0,
+        seam_window_m=22.0,
+    ),
+    "kz2": Bike(
+        "kart-kz2",
+        ay_max=1.75 * G,
+        ax_brake=1.6 * G,
+        ax_accel0=7.0,
+        k_drag=0.0020,
+        v_max=40.0,
+        margin_m=0.25,
+        control_spacing_m=10.0,
+        apex_min_gap_m=16.0,
+        seam_window_m=22.0,
+    ),
+}
 
 
 def closed_ring(pts: list[tuple[float, float]]) -> list[tuple[float, float]]:
@@ -386,8 +426,10 @@ def geometric_seed(
     kappa: list[float],
     half_w: float,
     n_ctrl: int,
+    apex_min_gap_m: float = 28.0,
+    seam_window_m: float = 45.0,
 ) -> tuple[list[float], list[int]]:
-    """Inside at curvature peaks, outside on the approaches — a 250-ish start."""
+    """Inside at curvature peaks, outside on the approaches."""
     n = len(centre)
     usable = half_w * 0.82
     k_abs = [abs(k) for k in kappa]
@@ -398,7 +440,6 @@ def geometric_seed(
     apexes: list[int] = []
     base_thresh = k_ref * 0.22
     seam_strict = max(base_thresh * 2.6, 0.012)
-    seam_window_m = 45.0
     for i, k in enumerate(kappa):
         near_seam = min(s[i], total - s[i]) <= seam_window_m
         is_turn = abs(k) > base_thresh and (not near_seam or abs(k) >= seam_strict)
@@ -412,7 +453,7 @@ def geometric_seed(
     for i in apexes:
         if deduped:
             prev = deduped[-1]
-            if (s[i] - s[prev]) < 28.0:
+            if (s[i] - s[prev]) < apex_min_gap_m:
                 if abs(kappa[i]) > abs(kappa[prev]):
                     deduped[-1] = i
                 continue
@@ -421,7 +462,7 @@ def geometric_seed(
         first = deduped[0]
         last = deduped[-1]
         wrap_gap = (s[first] + total) - s[last]
-        if wrap_gap < 28.0:
+        if wrap_gap < apex_min_gap_m:
             keep = first if abs(kappa[first]) >= abs(kappa[last]) else last
             deduped = [i for i in deduped if i not in (first, last)] + [keep]
             deduped.sort(key=lambda i: s[i])
@@ -445,11 +486,19 @@ def optimize(
 ) -> dict:
     _, ds0 = arc_and_ds(centre)
     s, _ = arc_and_ds(centre)
+    spacing = bike.control_spacing_m if bike.control_spacing_m else CONTROL_SPACING_M
     if n_ctrl is None:
-        n_ctrl = max(48, min(260, int(round(sum(ds0) / CONTROL_SPACING_M))))
+        n_ctrl = max(48, min(260, int(round(sum(ds0) / spacing))))
     kappa0 = curvature(centre, ds0)
     _, normals = headings_normals(centre)
-    seed_controls, apexes = geometric_seed(centre, kappa0, half_w, n_ctrl)
+    seed_controls, apexes = geometric_seed(
+        centre,
+        kappa0,
+        half_w,
+        n_ctrl,
+        apex_min_gap_m=bike.apex_min_gap_m,
+        seam_window_m=bike.seam_window_m,
+    )
     enforce_apex = [i for i in apexes if abs(kappa0[i]) >= 0.03]
 
     controls = seed_controls[:]

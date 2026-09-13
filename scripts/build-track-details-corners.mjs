@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /**
- * Bake Track Details corners from the same autonomous detector run as
- * scripts/export-gpx-corner-maps.mjs (rider profile, catalog length, your
- * start/finish offsets). Places each turn at the detector index the test PNG
- * used. Does not force the confirmed catalog count.
+ * Bake Track Details corners from the autonomous kart detector
+ * (KART_PROFILE). Catalog length and start/finish offsets are hints only.
+ * Does not force the confirmed catalog count. Hands stay null unless
+ * track_turn_verification.json has a matching official count.
  *
  * Usage:
  *   node scripts/build-track-details-corners.mjs

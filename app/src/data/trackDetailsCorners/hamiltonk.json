@@ -1,10 +1,10 @@
 {
   "trackId": "hamiltonk",
   "name": "Hamilton Kart Club (Buckley Park)",
-  "lengthM": 674,
+  "lengthM": 673.4,
   "startFinish": [
-    59.66,
-    59.67
+    56.75,
+    51.35
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,85 +12,253 @@
       "id": "hamiltonk_t1",
       "number": 1,
       "apex": [
-        73.22,
-        68.67
+        58.79,
+        57.18
       ],
       "label": [
-        77.01,
-        72.23
+        62.21,
+        61.1
       ],
       "entry": [
-        65.28,
-        73.81
+        56.92,
+        51.83
       ],
       "exit": [
-        75.17,
-        62.26
+        57.58,
+        62.94
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 74,
+      "minimumRadiusM": 20.1,
+      "lengthM": 37.5,
+      "previousStraightM": 3,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 74° of heading change, 20 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "hamiltonk_t2",
       "number": 2,
       "apex": [
-        59.76,
-        15.32
+        46.22,
+        90.78
       ],
       "label": [
-        61.57,
-        10.45
+        45.95,
+        95.97
       ],
       "entry": [
-        74.49,
-        58.5
+        46.18,
+        77.59
       ],
       "exit": [
-        54.41,
-        12.57
+        58.78,
+        84.08
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "double_apex",
+      "headingChangeDeg": 198,
+      "minimumRadiusM": 16.6,
+      "lengthM": 91.5,
+      "previousStraightM": 52.5,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a double-apex corner after a 53 m run. About 198° of heading change, 17 m minimum radius.",
       "approachFrom": "T1 exit"
     },
     {
       "id": "hamiltonk_t3",
       "number": 3,
       "apex": [
-        42.11,
+        62.73,
+        76.02
+      ],
+      "label": [
+        64.92,
+        80.74
+      ],
+      "entry": [
+        60.17,
+        80.64
+      ],
+      "exit": [
+        66.99,
+        72.91
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 40,
+      "minimumRadiusM": 32.7,
+      "lengthM": 31.5,
+      "previousStraightM": 10.5,
+      "direction": null,
+      "summary": "Turn 3 is a chicane. About 40° of heading change, 33 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "hamiltonk_t4",
+      "number": 4,
+      "apex": [
+        74.41,
+        66.55
+      ],
+      "label": [
+        78.44,
+        69.84
+      ],
+      "entry": [
+        68.86,
+        71.91
+      ],
+      "exit": [
+        73.89,
+        56.76
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 81,
+      "minimumRadiusM": 25.1,
+      "lengthM": 52.5,
+      "previousStraightM": 6,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 81° of heading change, 25 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "hamiltonk_t5",
+      "number": 5,
+      "apex": [
+        57.59,
+        13.67
+      ],
+      "label": [
+        59.01,
+        8.67
+      ],
+      "entry": [
+        62.1,
+        19.89
+      ],
+      "exit": [
+        49.42,
+        13.02
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 87,
+      "minimumRadiusM": 24.6,
+      "lengthM": 48,
+      "previousStraightM": 109.5,
+      "direction": null,
+      "summary": "Turn 5 is a triple-apex corner after a 110 m straight. About 87° of heading change, 25 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "hamiltonk_t6",
+      "number": 6,
+      "apex": [
+        42.12,
         14.03
       ],
       "label": [
-        41.06,
+        41.08,
         8.94
       ],
       "entry": [
-        51.43,
-        12.51
+        47.37,
+        13.55
       ],
       "exit": [
-        33.31,
-        9.08
+        37.35,
+        11.81
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 48,
+      "minimumRadiusM": 26.8,
+      "lengthM": 31.5,
+      "previousStraightM": 6,
       "direction": null,
-      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
-      "approachFrom": "T2 exit"
+      "summary": "Turn 6 is a chicane. About 48° of heading change, 27 m minimum radius.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "hamiltonk_t7",
+      "number": 7,
+      "apex": [
+        25.52,
+        10.87
+      ],
+      "label": [
+        22.64,
+        6.54
+      ],
+      "entry": [
+        35.15,
+        10.32
+      ],
+      "exit": [
+        33.2,
+        21.19
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 193,
+      "minimumRadiusM": 13.8,
+      "lengthM": 75,
+      "previousStraightM": 7.5,
+      "direction": null,
+      "summary": "Turn 7 is a chicane. About 193° of heading change, 14 m minimum radius.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "hamiltonk_t8",
+      "number": 8,
+      "apex": [
+        55.72,
+        35.47
+      ],
+      "label": [
+        58.75,
+        31.25
+      ],
+      "entry": [
+        40.94,
+        24.66
+      ],
+      "exit": [
+        55.49,
+        42.07
+      ],
+      "classification": "sweeper",
+      "headingChangeDeg": 78,
+      "minimumRadiusM": 21.8,
+      "lengthM": 73.5,
+      "previousStraightM": 24,
+      "direction": null,
+      "summary": "Turn 8 is a sweeper. About 78° of heading change, 22 m minimum radius.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "hamiltonk_t9",
+      "number": 9,
+      "apex": [
+        55.41,
+        47.46
+      ],
+      "label": [
+        60.4,
+        48.92
+      ],
+      "entry": [
+        55.23,
+        43.13
+      ],
+      "exit": [
+        56.58,
+        50.87
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 49,
+      "minimumRadiusM": 17.2,
+      "lengthM": 24,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 9 is a chicane. About 49° of heading change, 17 m minimum radius.",
+      "approachFrom": "T8 exit"
     }
   ]
 }

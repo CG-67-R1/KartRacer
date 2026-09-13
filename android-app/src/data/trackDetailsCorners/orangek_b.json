@@ -1,10 +1,10 @@
 {
   "trackId": "orangek_b",
   "name": "Orange Kart Club (B)",
-  "lengthM": 696,
+  "lengthM": 695.6,
   "startFinish": [
-    58.2,
-    56.79
+    56.68,
+    60.53
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,85 +12,225 @@
       "id": "orangek_b_t1",
       "number": 1,
       "apex": [
-        45.39,
-        21.55
+        58.58,
+        56.47
       ],
       "label": [
-        43.91,
-        16.56
+        61.31,
+        60.89
       ],
       "entry": [
-        62.1,
-        38.87
+        56.81,
+        60.04
       ],
       "exit": [
-        39.41,
-        20.86
+        61.69,
+        54.91
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "tightening",
+      "headingChangeDeg": 56,
+      "minimumRadiusM": 13.1,
+      "lengthM": 24,
+      "previousStraightM": 58.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a tightening corner after a 59 m run. About 56° of heading change, 13 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "orangek_b_t2",
       "number": 2,
       "apex": [
-        32.56,
-        22.16
+        66.44,
+        50.91
       ],
       "label": [
-        29.29,
-        18.11
+        71.49,
+        52.14
       ],
       "entry": [
-        39.41,
-        20.86
+        62.18,
+        54.77
       ],
       "exit": [
-        30.28,
-        20.93
+        61.24,
+        37.86
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 112,
+      "minimumRadiusM": 15.7,
+      "lengthM": 63,
+      "previousStraightM": 1.5,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a chicane. About 112° of heading change, 16 m minimum radius.",
       "approachFrom": "T1 exit"
     },
     {
       "id": "orangek_b_t3",
       "number": 3,
       "apex": [
-        64.36,
-        67.73
+        43.64,
+        20.95
       ],
       "label": [
-        66.9,
-        72.27
+        41.9,
+        16.05
       ],
       "entry": [
-        70.25,
-        59.35
+        49.79,
+        25.12
       ],
       "exit": [
-        65.12,
-        80.08
+        37.71,
+        21.33
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "tightening",
+      "headingChangeDeg": 61,
+      "minimumRadiusM": 26.5,
+      "lengthM": 42,
+      "previousStraightM": 51,
       "direction": null,
-      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 3 is a tightening corner after a 51 m run. About 61° of heading change, 27 m minimum radius.",
       "approachFrom": "T2 exit"
+    },
+    {
+      "id": "orangek_b_t4",
+      "number": 4,
+      "apex": [
+        27.72,
+        13.91
+      ],
+      "label": [
+        24.59,
+        9.76
+      ],
+      "entry": [
+        36.25,
+        21.73
+      ],
+      "exit": [
+        39.36,
+        9.88
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 219,
+      "minimumRadiusM": 14.2,
+      "lengthM": 88.4,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 219° of heading change, 14 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "orangek_b_t5",
+      "number": 5,
+      "apex": [
+        68.68,
+        23.87
+      ],
+      "label": [
+        71.52,
+        19.52
+      ],
+      "entry": [
+        60.35,
+        18.5
+      ],
+      "exit": [
+        71.13,
+        30.88
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 62,
+      "minimumRadiusM": 33.7,
+      "lengthM": 54,
+      "previousStraightM": 67.5,
+      "direction": null,
+      "summary": "Turn 5 is a double-apex corner after a 68 m run. About 62° of heading change, 34 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "orangek_b_t6",
+      "number": 6,
+      "apex": [
+        71.68,
+        56.47
+      ],
+      "label": [
+        76.38,
+        58.7
+      ],
+      "entry": [
+        72.25,
+        47.98
+      ],
+      "exit": [
+        69.06,
+        60.71
+      ],
+      "classification": "tightening",
+      "headingChangeDeg": 44,
+      "minimumRadiusM": 28.9,
+      "lengthM": 42,
+      "previousStraightM": 51,
+      "direction": null,
+      "summary": "Turn 6 is a tightening corner after a 51 m run. About 44° of heading change, 29 m minimum radius.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "orangek_b_t7",
+      "number": 7,
+      "apex": [
+        64.52,
+        67.28
+      ],
+      "label": [
+        67.13,
+        71.78
+      ],
+      "entry": [
+        67.42,
+        62.62
+      ],
+      "exit": [
+        64.24,
+        73.26
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 47,
+      "minimumRadiusM": 30.8,
+      "lengthM": 36,
+      "previousStraightM": 7.5,
+      "direction": null,
+      "summary": "Turn 7 is a chicane. About 47° of heading change, 31 m minimum radius.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "orangek_b_t8",
+      "number": 8,
+      "apex": [
+        56.78,
+        91.64
+      ],
+      "label": [
+        57.21,
+        96.82
+      ],
+      "entry": [
+        64.88,
+        78.26
+      ],
+      "exit": [
+        52.02,
+        79.11
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 203,
+      "minimumRadiusM": 16.6,
+      "lengthM": 101.9,
+      "previousStraightM": 15,
+      "direction": null,
+      "summary": "Turn 8 is a chicane. About 203° of heading change, 17 m minimum radius.",
+      "approachFrom": "T7 exit"
     }
   ]
 }

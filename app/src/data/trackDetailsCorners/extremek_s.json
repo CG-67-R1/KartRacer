@@ -1,10 +1,10 @@
 {
   "trackId": "extremek_s",
   "name": "Extreme Karting (Gold Coast) (Short)",
-  "lengthM": 1127,
+  "lengthM": 1123.4,
   "startFinish": [
-    45.99,
-    47.97
+    41.64,
+    51.84
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,85 +12,197 @@
       "id": "extremek_s_t1",
       "number": 1,
       "apex": [
-        87.84,
-        15.39
+        36.67,
+        71.65
       ],
       "label": [
-        91.8,
-        12.02
+        34.67,
+        76.45
       ],
       "entry": [
-        72.15,
-        25.07
+        39.73,
+        53.07
       ],
       "exit": [
-        88.71,
-        13.08
+        53.65,
+        68.99
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 192,
+      "minimumRadiusM": 19,
+      "lengthM": 141,
+      "previousStraightM": 9,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 192° of heading change, 19 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "extremek_s_t2",
       "number": 2,
       "apex": [
-        84.01,
-        8.33
+        60.43,
+        60.61
       ],
       "label": [
-        87.48,
-        4.46
+        64.97,
+        63.14
       ],
       "entry": [
-        86.56,
-        9.01
+        55.92,
+        66.77
       ],
       "exit": [
-        47.07,
-        24.29
+        61.48,
+        52.14
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "sweeper",
+      "headingChangeDeg": 47,
+      "minimumRadiusM": 42.9,
+      "lengthM": 55.5,
+      "previousStraightM": 10.5,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a sweeper. About 47° of heading change, 43 m minimum radius.",
       "approachFrom": "T1 exit"
     },
     {
       "id": "extremek_s_t3",
       "number": 3,
       "apex": [
-        29.44,
-        87.22
+        64.1,
+        33.15
       ],
       "label": [
-        27.36,
-        91.98
+        67.82,
+        29.52
       ],
       "entry": [
-        29.22,
-        89.61
+        61.25,
+        45.35
       ],
       "exit": [
-        20.64,
-        72.27
+        73.53,
+        24.29
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "triple_apex",
+      "headingChangeDeg": 62,
+      "minimumRadiusM": 44.5,
+      "lengthM": 87,
+      "previousStraightM": 22.5,
       "direction": null,
-      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 3 is a triple-apex corner. About 62° of heading change, 45 m minimum radius.",
       "approachFrom": "T2 exit"
+    },
+    {
+      "id": "extremek_s_t4",
+      "number": 4,
+      "apex": [
+        88.36,
+        10.86
+      ],
+      "label": [
+        92.14,
+        7.29
+      ],
+      "entry": [
+        85.27,
+        17.43
+      ],
+      "exit": [
+        80.1,
+        9.48
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 176,
+      "minimumRadiusM": 12.8,
+      "lengthM": 60,
+      "previousStraightM": 45,
+      "direction": null,
+      "summary": "Turn 4 is a hairpin after a 45 m run. About 176° of heading change, 13 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "extremek_s_t5",
+      "number": 5,
+      "apex": [
+        13.62,
+        50.45
+      ],
+      "label": [
+        8.43,
+        50.2
+      ],
+      "entry": [
+        30.1,
+        32
+      ],
+      "exit": [
+        12.4,
+        67.62
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 85,
+      "minimumRadiusM": 45.9,
+      "lengthM": 144,
+      "previousStraightM": 181.5,
+      "direction": null,
+      "summary": "Turn 5 is a triple-apex corner after a 182 m straight. About 85° of heading change, 46 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "extremek_s_t6",
+      "number": 6,
+      "apex": [
+        27.64,
+        91.28
+      ],
+      "label": [
+        25.55,
+        96.04
+      ],
+      "entry": [
+        17.65,
+        80.64
+      ],
+      "exit": [
+        27.3,
+        83.03
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 195,
+      "minimumRadiusM": 11,
+      "lengthM": 87,
+      "previousStraightM": 46.5,
+      "direction": null,
+      "summary": "Turn 6 is a hairpin after a 47 m run. About 195° of heading change, 11 m minimum radius.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "extremek_s_t7",
+      "number": 7,
+      "apex": [
+        42.69,
+        38.61
+      ],
+      "label": [
+        41.85,
+        33.48
+      ],
+      "entry": [
+        22.99,
+        76.64
+      ],
+      "exit": [
+        42.02,
+        51.6
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 273,
+      "minimumRadiusM": 14.8,
+      "lengthM": 219,
+      "previousStraightM": 25.5,
+      "direction": null,
+      "summary": "Turn 7 is a double-apex corner after a 26 m run. About 273° of heading change, 15 m minimum radius.",
+      "approachFrom": "T6 exit"
     }
   ]
 }

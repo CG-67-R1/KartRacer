@@ -1,10 +1,10 @@
 {
   "trackId": "towerskart",
   "name": "Charters Towers Kart Track (1)",
-  "lengthM": 548,
+  "lengthM": 454.6,
   "startFinish": [
-    50.14,
-    36.95
+    40.94,
+    43
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,57 +12,141 @@
       "id": "towerskart_t1",
       "number": 1,
       "apex": [
-        37.75,
-        62.08
+        38.33,
+        60.98
       ],
       "label": [
-        35.23,
-        66.63
+        35.8,
+        65.52
       ],
       "entry": [
-        40.17,
-        50.56
+        40.75,
+        44.82
       ],
       "exit": [
-        35.38,
-        63.84
+        26.21,
+        50.26
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 169,
+      "minimumRadiusM": 8,
+      "lengthM": 54,
+      "previousStraightM": 13.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 169° of heading change, 8 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "towerskart_t2",
       "number": 2,
       "apex": [
-        28.3,
-        79.61
+        14.67,
+        29.33
       ],
       "label": [
-        25.81,
-        84.17
+        10.03,
+        26.99
       ],
       "entry": [
-        23.46,
-        72.9
+        23.27,
+        36.15
       ],
       "exit": [
-        34.79,
-        79.9
+        8.55,
+        40.1
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 195,
+      "minimumRadiusM": 11.5,
+      "lengthM": 67.5,
+      "previousStraightM": 24,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a hairpin. About 195° of heading change, 12 m minimum radius.",
       "approachFrom": "T1 exit"
+    },
+    {
+      "id": "towerskart_t3",
+      "number": 3,
+      "apex": [
+        34.05,
+        80.07
+      ],
+      "label": [
+        32.23,
+        84.94
+      ],
+      "entry": [
+        21.91,
+        70.01
+      ],
+      "exit": [
+        46.37,
+        70.19
+      ],
+      "classification": "tightening",
+      "headingChangeDeg": 118,
+      "minimumRadiusM": 11,
+      "lengthM": 49.5,
+      "previousStraightM": 52.5,
+      "direction": null,
+      "summary": "Turn 3 is a tightening corner after a 53 m run. About 118° of heading change, 11 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "towerskart_t4",
+      "number": 4,
+      "apex": [
+        58.28,
+        61.5
+      ],
+      "label": [
+        61.3,
+        65.73
+      ],
+      "entry": [
+        50.54,
+        65.61
+      ],
+      "exit": [
+        65.19,
+        60.91
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 47,
+      "minimumRadiusM": 23,
+      "lengthM": 31.5,
+      "previousStraightM": 10.5,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 47° of heading change, 23 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "towerskart_t5",
+      "number": 5,
+      "apex": [
+        78.31,
+        34.62
+      ],
+      "label": [
+        83.22,
+        32.91
+      ],
+      "entry": [
+        67.45,
+        60.75
+      ],
+      "exit": [
+        41.65,
+        36.55
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 313,
+      "minimumRadiusM": 3.7,
+      "lengthM": 156,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 313° of heading change, 4 m minimum radius.",
+      "approachFrom": "T4 exit"
     }
   ]
 }

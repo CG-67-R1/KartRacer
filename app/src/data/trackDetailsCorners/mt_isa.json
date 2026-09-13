@@ -1,10 +1,10 @@
 {
   "trackId": "mt_isa",
   "name": "Mount Isa Kart Track",
-  "lengthM": 463,
+  "lengthM": 284.9,
   "startFinish": [
-    48.34,
-    52.57
+    65.8,
+    45.81
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,57 +12,169 @@
       "id": "mt_isa_t1",
       "number": 1,
       "apex": [
-        19.41,
-        84.96
+        68.16,
+        49.6
       ],
       "label": [
-        16.02,
-        88.9
+        73.02,
+        47.76
       ],
       "entry": [
-        23.68,
-        88.53
+        66.43,
+        46.82
       ],
       "exit": [
-        18.06,
-        50.73
+        67.63,
+        48.74
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 258,
+      "minimumRadiusM": 1.4,
+      "lengthM": 10.5,
+      "previousStraightM": 37.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a hairpin after a 38 m run. About 258° of heading change, 1 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "mt_isa_t2",
       "number": 2,
       "apex": [
-        24.29,
-        12.4
+        46.8,
+        50.73
       ],
       "label": [
-        22.57,
-        7.49
+        49.6,
+        46.35
       ],
       "entry": [
-        24.83,
-        20.07
+        67.1,
+        47.89
       ],
       "exit": [
-        27.67,
-        9.05
+        50.01,
+        66.24
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 161,
+      "minimumRadiusM": 13.4,
+      "lengthM": 52.5,
+      "previousStraightM": 1.5,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a chicane. About 161° of heading change, 13 m minimum radius.",
       "approachFrom": "T1 exit"
+    },
+    {
+      "id": "mt_isa_t3",
+      "number": 3,
+      "apex": [
+        48.35,
+        89.55
+      ],
+      "label": [
+        49.61,
+        94.59
+      ],
+      "entry": [
+        49.56,
+        67.93
+      ],
+      "exit": [
+        33.91,
+        78.38
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 205,
+      "minimumRadiusM": 10.4,
+      "lengthM": 64.5,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 3 is a chicane. About 205° of heading change, 10 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "mt_isa_t4",
+      "number": 4,
+      "apex": [
+        32.81,
+        48.44
+      ],
+      "label": [
+        29.81,
+        44.19
+      ],
+      "entry": [
+        27.52,
+        54.8
+      ],
+      "exit": [
+        22.85,
+        33.51
+      ],
+      "classification": "kink",
+      "headingChangeDeg": 26,
+      "minimumRadiusM": 38,
+      "lengthM": 25.5,
+      "previousStraightM": 28.5,
+      "direction": null,
+      "summary": "Turn 4 is a kink after a 29 m run. About 26° of heading change, 38 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "mt_isa_t5",
+      "number": 5,
+      "apex": [
+        25.13,
+        26.09
+      ],
+      "label": [
+        22.93,
+        21.38
+      ],
+      "entry": [
+        23.72,
+        31.29
+      ],
+      "exit": [
+        25,
+        21.31
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 34,
+      "minimumRadiusM": 23.6,
+      "lengthM": 21,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 34° of heading change, 24 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "mt_isa_t6",
+      "number": 6,
+      "apex": [
+        35.91,
+        9.43
+      ],
+      "label": [
+        35.4,
+        4.26
+      ],
+      "entry": [
+        37.65,
+        10.39
+      ],
+      "exit": [
+        49.25,
+        23.11
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 172,
+      "minimumRadiusM": 6.9,
+      "lengthM": 43.5,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 6 is a chicane. About 172° of heading change, 7 m minimum radius.",
+      "approachFrom": "T5 exit"
     }
   ]
 }

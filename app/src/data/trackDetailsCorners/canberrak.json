@@ -1,10 +1,10 @@
 {
   "trackId": "canberrak",
   "name": "Canberra Kart Racing Club (Pialligo) (Short)",
-  "lengthM": 723,
+  "lengthM": 720.3,
   "startFinish": [
-    50.03,
-    53.64
+    51.63,
+    52.61
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,309 @@
       "id": "canberrak_t1",
       "number": 1,
       "apex": [
-        26.18,
-        89.82
+        54.31,
+        50.7
       ],
       "label": [
-        23.56,
-        94.31
+        58.82,
+        48.11
       ],
       "entry": [
-        24.25,
-        91.28
+        52.42,
+        52.11
       ],
       "exit": [
-        26.89,
-        86.72
+        58.56,
+        46.27
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 17,
+      "minimumRadiusM": 42.1,
+      "lengthM": 28.5,
+      "previousStraightM": 4.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 17° of heading change, 42 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "canberrak_t2",
+      "number": 2,
+      "apex": [
+        76.57,
+        21.4
+      ],
+      "label": [
+        80.03,
+        17.52
+      ],
+      "entry": [
+        75.14,
+        23.29
+      ],
+      "exit": [
+        79.49,
+        19.03
+      ],
+      "classification": "kink",
+      "headingChangeDeg": 17,
+      "minimumRadiusM": 33.2,
+      "lengthM": 21,
+      "previousStraightM": 90,
+      "direction": null,
+      "summary": "Turn 2 is a kink after a 90 m straight. About 17° of heading change, 33 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "canberrak_t3",
+      "number": 3,
+      "apex": [
+        81.24,
+        9.48
+      ],
+      "label": [
+        84.39,
+        5.35
+      ],
+      "entry": [
+        80.64,
+        18.19
+      ],
+      "exit": [
+        68.7,
+        16.18
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 221,
+      "minimumRadiusM": 13.5,
+      "lengthM": 88.5,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 3 is a chicane. About 221° of heading change, 14 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "canberrak_t4",
+      "number": 4,
+      "apex": [
+        67.59,
+        19.77
+      ],
+      "label": [
+        70.26,
+        15.31
+      ],
+      "entry": [
+        68.49,
+        17.1
+      ],
+      "exit": [
+        66.24,
+        22.26
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 17,
+      "minimumRadiusM": 51.3,
+      "lengthM": 19.5,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 17° of heading change, 51 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "canberrak_t5",
+      "number": 5,
+      "apex": [
+        49.85,
+        45.23
+      ],
+      "label": [
+        51.59,
+        40.33
+      ],
+      "entry": [
+        53.72,
+        41.17
+      ],
+      "exit": [
+        46.2,
+        46.04
+      ],
+      "classification": "tightening",
+      "headingChangeDeg": 51,
+      "minimumRadiusM": 19.2,
+      "lengthM": 31.5,
+      "previousStraightM": 72,
+      "direction": null,
+      "summary": "Turn 5 is a tightening corner after a 72 m run. About 51° of heading change, 19 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "canberrak_t6",
+      "number": 6,
+      "apex": [
+        41.36,
+        47.48
+      ],
+      "label": [
+        38.61,
+        43.07
+      ],
+      "entry": [
+        45.73,
+        46.07
+      ],
+      "exit": [
+        39.26,
+        52.11
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 75,
+      "minimumRadiusM": 16.1,
+      "lengthM": 33,
+      "previousStraightM": 1.5,
+      "direction": null,
+      "summary": "Turn 6 is a chicane. About 75° of heading change, 16 m minimum radius.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "canberrak_t7",
+      "number": 7,
+      "apex": [
+        37.29,
+        59.87
+      ],
+      "label": [
+        32.65,
+        62.22
+      ],
+      "entry": [
+        38.39,
+        56.27
+      ],
+      "exit": [
+        33.29,
+        65.11
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 31,
+      "minimumRadiusM": 30.5,
+      "lengthM": 34.5,
+      "previousStraightM": 13.5,
+      "direction": null,
+      "summary": "Turn 7 is a chicane. About 31° of heading change, 31 m minimum radius.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "canberrak_t8",
+      "number": 8,
+      "apex": [
+        19.39,
+        91.01
+      ],
+      "label": [
+        16.26,
+        95.16
+      ],
+      "entry": [
+        19.77,
+        79.65
+      ],
+      "exit": [
+        26.73,
+        87.99
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 214,
+      "minimumRadiusM": 11.2,
+      "lengthM": 75,
+      "previousStraightM": 63,
+      "direction": null,
+      "summary": "Turn 8 is a hairpin after a 63 m run. About 214° of heading change, 11 m minimum radius.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "canberrak_t9",
+      "number": 9,
+      "apex": [
+        28.31,
+        84.21
+      ],
+      "label": [
+        25.56,
+        88.63
+      ],
+      "entry": [
+        26.85,
+        87.05
+      ],
+      "exit": [
+        31.46,
+        83.44
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 78,
+      "minimumRadiusM": 11.4,
+      "lengthM": 22.5,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 9 is a chicane. About 78° of heading change, 11 m minimum radius.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "canberrak_t10",
+      "number": 10,
+      "apex": [
+        37.22,
+        81.88
+      ],
+      "label": [
+        35.54,
+        86.8
+      ],
+      "entry": [
+        32.41,
+        83.42
+      ],
+      "exit": [
+        39.74,
+        75.67
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 74,
+      "minimumRadiusM": 21.5,
+      "lengthM": 40.5,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 10 is a chicane. About 74° of heading change, 22 m minimum radius.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "canberrak_t11",
+      "number": 11,
+      "apex": [
+        46.42,
+        55.9
+      ],
+      "label": [
+        47.81,
+        60.91
+      ],
+      "entry": [
+        40.8,
+        68.21
+      ],
+      "exit": [
+        51.23,
+        52.87
+      ],
+      "classification": "sweeper",
+      "headingChangeDeg": 44,
+      "minimumRadiusM": 39.6,
+      "lengthM": 60,
+      "previousStraightM": 24,
+      "direction": null,
+      "summary": "Turn 11 is a sweeper. About 44° of heading change, 40 m minimum radius.",
+      "approachFrom": "T10 exit"
     }
   ]
 }

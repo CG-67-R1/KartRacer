@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 import {
+  DETECTOR_PROFILES,
   GateFailure,
   RIDER_PROFILE,
   detectCornersFromGpxFile,
@@ -19,7 +20,7 @@ Usage:
 Options:
   --gpx <path>            GPX file path (required)
   --out <path>            Write output JSON file
-  --profile <id>          Counting profile (supported: rider)
+  --profile <id>          Counting profile (supported: rider, kart)
   --length-m <number>     Expected lap length in metres (optional)
   --length-km <number>    Expected lap length in kilometres (optional)
   --allow-ambiguous-lap   Disable strict lap-isolation ambiguity gate
@@ -136,8 +137,10 @@ function parseArgs(argv) {
   if (!args.help && !args.gpx) {
     throw new Error('missing required --gpx argument');
   }
-  if (args.profile !== 'rider') {
-    throw new Error(`unsupported --profile "${args.profile}". Available: rider`);
+  if (!DETECTOR_PROFILES[args.profile]) {
+    throw new Error(
+      `unsupported --profile "${args.profile}". Available: ${Object.keys(DETECTOR_PROFILES).join(', ')}`
+    );
   }
   return args;
 }
@@ -175,7 +178,7 @@ function main() {
 
   try {
     const result = detectCornersFromGpxFile(args.gpx, {
-      profile: RIDER_PROFILE,
+      profile: DETECTOR_PROFILES[args.profile] || RIDER_PROFILE,
       expectedLengthM: args.expectedLengthM,
       strictLapIsolation: args.strictLapIsolation,
       targetCornerCount: args.targetCorners,

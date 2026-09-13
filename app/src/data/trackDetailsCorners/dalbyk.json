@@ -1,10 +1,10 @@
 {
   "trackId": "dalbyk",
   "name": "Dalby Kart Track",
-  "lengthM": 536,
+  "lengthM": 534.6,
   "startFinish": [
-    46.57,
-    53.12
+    42.02,
+    44.96
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,57 +12,197 @@
       "id": "dalbyk_t1",
       "number": 1,
       "apex": [
-        51.67,
-        14.44
+        37.87,
+        33.88
       ],
       "label": [
-        51.83,
-        9.24
+        34.55,
+        29.88
       ],
       "entry": [
-        40.62,
-        27.47
+        41.47,
+        44.2
       ],
       "exit": [
-        51.32,
-        11.47
+        42.83,
+        25.23
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 81,
+      "minimumRadiusM": 17.2,
+      "lengthM": 36,
+      "previousStraightM": 3,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 81° of heading change, 17 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "dalbyk_t2",
       "number": 2,
       "apex": [
-        61.16,
-        29.08
+        49.76,
+        9.43
       ],
       "label": [
-        63.58,
-        24.48
+        49.65,
+        4.23
       ],
       "entry": [
-        67.68,
-        53.34
+        44.8,
+        23.23
       ],
       "exit": [
-        57.54,
-        26.52
+        36.96,
+        14.82
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 199,
+      "minimumRadiusM": 7.8,
+      "lengthM": 54.1,
+      "previousStraightM": 4.5,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a chicane. About 199° of heading change, 8 m minimum radius.",
       "approachFrom": "T1 exit"
+    },
+    {
+      "id": "dalbyk_t3",
+      "number": 3,
+      "apex": [
+        29.71,
+        28.82
+      ],
+      "label": [
+        25.99,
+        25.19
+      ],
+      "entry": [
+        34.32,
+        18.71
+      ],
+      "exit": [
+        31.68,
+        48.29
+      ],
+      "classification": "sweeper",
+      "headingChangeDeg": 48,
+      "minimumRadiusM": 26.6,
+      "lengthM": 51.1,
+      "previousStraightM": 7.5,
+      "direction": null,
+      "summary": "Turn 3 is a sweeper. About 48° of heading change, 27 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "dalbyk_t4",
+      "number": 4,
+      "apex": [
+        58.33,
+        91.39
+      ],
+      "label": [
+        59.27,
+        96.5
+      ],
+      "entry": [
+        38.14,
+        73.75
+      ],
+      "exit": [
+        69.91,
+        68.38
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 175,
+      "minimumRadiusM": 21.2,
+      "lengthM": 96.1,
+      "previousStraightM": 42,
+      "direction": null,
+      "summary": "Turn 4 is a triple-apex corner after a 42 m run. About 175° of heading change, 21 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "dalbyk_t5",
+      "number": 5,
+      "apex": [
+        53.08,
+        26.37
+      ],
+      "label": [
+        53.65,
+        21.2
+      ],
+      "entry": [
+        66.27,
+        45.21
+      ],
+      "exit": [
+        53.14,
+        45.95
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 205,
+      "minimumRadiusM": 9.6,
+      "lengthM": 79.6,
+      "previousStraightM": 37.5,
+      "direction": null,
+      "summary": "Turn 5 is a hairpin after a 38 m run. About 205° of heading change, 10 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "dalbyk_t6",
+      "number": 6,
+      "apex": [
+        57.73,
+        81.4
+      ],
+      "label": [
+        58.86,
+        86.48
+      ],
+      "entry": [
+        61.3,
+        65.87
+      ],
+      "exit": [
+        48.17,
+        62.49
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 209,
+      "minimumRadiusM": 10.2,
+      "lengthM": 69.1,
+      "previousStraightM": 34.5,
+      "direction": null,
+      "summary": "Turn 6 is a hairpin after a 35 m run. About 209° of heading change, 10 m minimum radius.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "dalbyk_t7",
+      "number": 7,
+      "apex": [
+        46.55,
+        53.08
+      ],
+      "label": [
+        42.8,
+        56.68
+      ],
+      "entry": [
+        48.27,
+        60.42
+      ],
+      "exit": [
+        42.58,
+        45.71
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 40,
+      "minimumRadiusM": 28.7,
+      "lengthM": 27,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 7 is a chicane. About 40° of heading change, 29 m minimum radius.",
+      "approachFrom": "T6 exit"
     }
   ]
 }

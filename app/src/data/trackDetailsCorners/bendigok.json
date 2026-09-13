@@ -1,10 +1,10 @@
 {
   "trackId": "bendigok",
   "name": "Bendigo Kart Club (Marong)",
-  "lengthM": 610,
+  "lengthM": 399.4,
   "startFinish": [
-    40.99,
-    60.92
+    83.34,
+    55.31
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,141 @@
       "id": "bendigok_t1",
       "number": 1,
       "apex": [
-        24.91,
-        40.24
+        58.97,
+        48.63
       ],
       "label": [
-        20.44,
-        37.58
+        63.87,
+        46.9
       ],
       "entry": [
-        36.27,
-        27.97
+        83.17,
+        55.41
       ],
       "exit": [
-        24.49,
-        43.84
+        57.08,
+        38.2
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 83,
+      "minimumRadiusM": 29.9,
+      "lengthM": 57.1,
+      "previousStraightM": 4.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 83° of heading change, 30 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "bendigok_t2",
+      "number": 2,
+      "apex": [
+        57.21,
+        39.46
+      ],
+      "label": [
+        60.45,
+        35.39
+      ],
+      "entry": [
+        83.17,
+        55.41
+      ],
+      "exit": [
+        28.56,
+        48.5
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 157,
+      "minimumRadiusM": 2,
+      "lengthM": 126.1,
+      "previousStraightM": 343.8,
+      "direction": null,
+      "summary": "Turn 2 is a hairpin after a 344 m straight. About 157° of heading change, 2 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "bendigok_t3",
+      "number": 3,
+      "apex": [
+        47.51,
+        44.1
+      ],
+      "label": [
+        48.15,
+        38.94
+      ],
+      "entry": [
+        46.51,
+        42.75
+      ],
+      "exit": [
+        28.56,
+        48.5
+      ],
+      "classification": "sweeper",
+      "headingChangeDeg": 72,
+      "minimumRadiusM": 24.3,
+      "lengthM": 55.6,
+      "previousStraightM": 345.3,
+      "direction": null,
+      "summary": "Turn 3 is a sweeper after a 345 m straight. About 72° of heading change, 24 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "bendigok_t4",
+      "number": 4,
+      "apex": [
+        12.42,
+        64.42
+      ],
+      "label": [
+        7.49,
+        66.07
+      ],
+      "entry": [
+        25.36,
+        45.84
+      ],
+      "exit": [
+        26.47,
+        62.97
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 191,
+      "minimumRadiusM": 10.5,
+      "lengthM": 78.1,
+      "previousStraightM": 16.5,
+      "direction": null,
+      "summary": "Turn 4 is a hairpin. About 191° of heading change, 11 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "bendigok_t5",
+      "number": 5,
+      "apex": [
+        87.7,
+        55.57
+      ],
+      "label": [
+        92.89,
+        55.89
+      ],
+      "entry": [
+        79.84,
+        57.31
+      ],
+      "exit": [
+        83.34,
+        55.31
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 208,
+      "minimumRadiusM": 11.3,
+      "lengthM": 69.1,
+      "previousStraightM": 109.6,
+      "direction": null,
+      "summary": "Turn 5 is a hairpin after a 110 m straight. About 208° of heading change, 11 m minimum radius.",
+      "approachFrom": "T4 exit"
     }
   ]
 }

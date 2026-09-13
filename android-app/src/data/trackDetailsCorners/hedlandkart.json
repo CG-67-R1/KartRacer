@@ -1,10 +1,10 @@
 {
   "trackId": "hedlandkart",
   "name": "Hedland Kart Club (1)",
-  "lengthM": 670,
+  "lengthM": 569.5,
   "startFinish": [
-    48.48,
-    52.64
+    10.51,
+    35.29
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,169 @@
       "id": "hedlandkart_t1",
       "number": 1,
       "apex": [
-        19.04,
-        23.67
+        10.73,
+        45.45
       ],
       "label": [
-        15.48,
-        19.88
+        5.75,
+        43.97
       ],
       "entry": [
-        23.53,
-        22.51
+        10.18,
+        35.82
       ],
       "exit": [
-        9.41,
-        37.06
+        29.17,
+        48.58
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 150,
+      "minimumRadiusM": 13.1,
+      "lengthM": 82.4,
+      "previousStraightM": 9,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a hairpin. About 150° of heading change, 13 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "hedlandkart_t2",
+      "number": 2,
+      "apex": [
+        45.05,
+        59.28
+      ],
+      "label": [
+        40.15,
+        61.03
+      ],
+      "entry": [
+        29.75,
+        48.37
+      ],
+      "exit": [
+        44.11,
+        59
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 286,
+      "minimumRadiusM": 1.8,
+      "lengthM": 52.5,
+      "previousStraightM": 1.5,
+      "direction": null,
+      "summary": "Turn 2 is a chicane. About 286° of heading change, 2 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "hedlandkart_t3",
+      "number": 3,
+      "apex": [
+        35.4,
+        65.69
+      ],
+      "label": [
+        30.85,
+        68.2
+      ],
+      "entry": [
+        43.5,
+        58.88
+      ],
+      "exit": [
+        62.64,
+        76.97
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 197,
+      "minimumRadiusM": 14.6,
+      "lengthM": 106.4,
+      "previousStraightM": 1.5,
+      "direction": null,
+      "summary": "Turn 3 is a chicane. About 197° of heading change, 15 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "hedlandkart_t4",
+      "number": 4,
+      "apex": [
+        91.67,
+        67.11
+      ],
+      "label": [
+        96.73,
+        68.32
+      ],
+      "entry": [
+        80.52,
+        74.69
+      ],
+      "exit": [
+        82.43,
+        58.38
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 176,
+      "minimumRadiusM": 15.9,
+      "lengthM": 71.9,
+      "previousStraightM": 43.5,
+      "direction": null,
+      "summary": "Turn 4 is a double-apex corner after a 44 m run. About 176° of heading change, 16 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "hedlandkart_t5",
+      "number": 5,
+      "apex": [
+        73.3,
+        56.56
+      ],
+      "label": [
+        78.5,
+        56.39
+      ],
+      "entry": [
+        81.18,
+        58.34
+      ],
+      "exit": [
+        67.42,
+        51.94
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 43,
+      "minimumRadiusM": 37,
+      "lengthM": 39,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 43° of heading change, 37 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "hedlandkart_t6",
+      "number": 6,
+      "apex": [
+        21.5,
+        22.67
+      ],
+      "label": [
+        18.16,
+        18.69
+      ],
+      "entry": [
+        30.32,
+        25.04
+      ],
+      "exit": [
+        12.16,
+        32.65
+      ],
+      "classification": "opening",
+      "headingChangeDeg": 90,
+      "minimumRadiusM": 17.2,
+      "lengthM": 56.9,
+      "previousStraightM": 110.9,
+      "direction": null,
+      "summary": "Turn 6 is a opening corner after a 111 m straight. About 90° of heading change, 17 m minimum radius.",
+      "approachFrom": "T5 exit"
     }
   ]
 }

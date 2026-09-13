@@ -1,10 +1,10 @@
 {
   "trackId": "warrnamboolk",
   "name": "Warrnambool Kart Club (Lake Gillear)",
-  "lengthM": 706,
+  "lengthM": 554.7,
   "startFinish": [
-    49.29,
-    51.85
+    25.07,
+    41.08
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,169 @@
       "id": "warrnamboolk_t1",
       "number": 1,
       "apex": [
-        13.4,
-        64.5
+        26.22,
+        8.84
       ],
       "label": [
-        8.68,
-        66.69
+        24,
+        4.14
       ],
       "entry": [
-        14.17,
-        28.51
+        29.79,
+        23.4
       ],
       "exit": [
-        19.68,
-        70.59
+        15.17,
+        20.07
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 191,
+      "minimumRadiusM": 11.9,
+      "lengthM": 72,
+      "previousStraightM": 37.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a hairpin after a 38 m run. About 191° of heading change, 12 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "warrnamboolk_t2",
+      "number": 2,
+      "apex": [
+        14.95,
+        66.81
+      ],
+      "label": [
+        10.42,
+        69.36
+      ],
+      "entry": [
+        11.88,
+        53.48
+      ],
+      "exit": [
+        26.43,
+        72.84
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 81,
+      "minimumRadiusM": 25.8,
+      "lengthM": 52.5,
+      "previousStraightM": 66,
+      "direction": null,
+      "summary": "Turn 2 is a triple-apex corner after a 66 m run. About 81° of heading change, 26 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "warrnamboolk_t3",
+      "number": 3,
+      "apex": [
+        35.31,
+        76.57
+      ],
+      "label": [
+        33.48,
+        81.44
+      ],
+      "entry": [
+        29.36,
+        73.67
+      ],
+      "exit": [
+        40.28,
+        82.05
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 35,
+      "minimumRadiusM": 28.2,
+      "lengthM": 30,
+      "previousStraightM": 6,
+      "direction": null,
+      "summary": "Turn 3 is a chicane. About 35° of heading change, 28 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "warrnamboolk_t4",
+      "number": 4,
+      "apex": [
+        47.43,
+        88.12
+      ],
+      "label": [
+        47.7,
+        93.31
+      ],
+      "entry": [
+        41.72,
+        83.82
+      ],
+      "exit": [
+        56.38,
+        89.71
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 45,
+      "minimumRadiusM": 20.2,
+      "lengthM": 33,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 45° of heading change, 20 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "warrnamboolk_t5",
+      "number": 5,
+      "apex": [
+        88.46,
+        81.54
+      ],
+      "label": [
+        92.64,
+        84.64
+      ],
+      "entry": [
+        71.53,
+        91.44
+      ],
+      "exit": [
+        72.23,
+        74.39
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 196,
+      "minimumRadiusM": 16.9,
+      "lengthM": 84,
+      "previousStraightM": 30,
+      "direction": null,
+      "summary": "Turn 5 is a triple-apex corner after a 30 m run. About 196° of heading change, 17 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "warrnamboolk_t6",
+      "number": 6,
+      "apex": [
+        38.22,
+        49.85
+      ],
+      "label": [
+        33.02,
+        50.01
+      ],
+      "entry": [
+        69.73,
+        74.71
+      ],
+      "exit": [
+        24.87,
+        41.82
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 258,
+      "minimumRadiusM": 1.7,
+      "lengthM": 143.9,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 6 is a chicane. About 258° of heading change, 2 m minimum radius.",
+      "approachFrom": "T5 exit"
     }
   ]
 }

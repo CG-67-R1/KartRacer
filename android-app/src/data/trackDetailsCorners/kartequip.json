@@ -1,10 +1,10 @@
 {
   "trackId": "kartequip",
   "name": "Albury-Wodonga Kart Club (Kart Equip)",
-  "lengthM": 577,
+  "lengthM": 577.1,
   "startFinish": [
-    48.53,
-    50.17
+    48.66,
+    50.73
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,169 @@
       "id": "kartequip_t1",
       "number": 1,
       "apex": [
-        24.39,
-        18.76
+        39.43,
+        28.05
       ],
       "label": [
-        20.91,
-        14.89
+        36.96,
+        23.47
       ],
       "entry": [
-        23.99,
-        21.69
+        44.9,
+        37.35
       ],
       "exit": [
-        32.41,
-        11.06
+        32.8,
+        26.67
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "double_apex",
+      "headingChangeDeg": 81,
+      "minimumRadiusM": 21.4,
+      "lengthM": 48,
+      "previousStraightM": 39,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a double-apex corner after a 39 m run. About 81° of heading change, 21 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "kartequip_t2",
+      "number": 2,
+      "apex": [
+        24.88,
+        17.82
+      ],
+      "label": [
+        21.51,
+        13.86
+      ],
+      "entry": [
+        32.23,
+        26.76
+      ],
+      "exit": [
+        48.97,
+        16.24
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 262,
+      "minimumRadiusM": 14.2,
+      "lengthM": 121.4,
+      "previousStraightM": 1.5,
+      "direction": null,
+      "summary": "Turn 2 is a chicane. About 262° of heading change, 14 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "kartequip_t3",
+      "number": 3,
+      "apex": [
+        59.95,
+        43.2
+      ],
+      "label": [
+        64.9,
+        41.62
+      ],
+      "entry": [
+        53.82,
+        32.97
+      ],
+      "exit": [
+        66.58,
+        44.59
+      ],
+      "classification": "sweeper",
+      "headingChangeDeg": 81,
+      "minimumRadiusM": 22.5,
+      "lengthM": 51,
+      "previousStraightM": 45,
+      "direction": null,
+      "summary": "Turn 3 is a sweeper after a 45 m run. About 81° of heading change, 23 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "kartequip_t4",
+      "number": 4,
+      "apex": [
+        74.95,
+        47.01
+      ],
+      "label": [
+        80.15,
+        47.1
+      ],
+      "entry": [
+        67.73,
+        44.38
+      ],
+      "exit": [
+        74.07,
+        57.46
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 121,
+      "minimumRadiusM": 15.2,
+      "lengthM": 51,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 121° of heading change, 15 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "kartequip_t5",
+      "number": 5,
+      "apex": [
+        54.64,
+        91.36
+      ],
+      "label": [
+        55.24,
+        96.52
+      ],
+      "entry": [
+        64.73,
+        82.99
+      ],
+      "exit": [
+        48.72,
+        75.29
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 194,
+      "minimumRadiusM": 17.7,
+      "lengthM": 91.4,
+      "previousStraightM": 70.4,
+      "direction": null,
+      "summary": "Turn 5 is a double-apex corner after a 70 m run. About 194° of heading change, 18 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "kartequip_t6",
+      "number": 6,
+      "apex": [
+        51.79,
+        65.37
+      ],
+      "label": [
+        52.45,
+        70.53
+      ],
+      "entry": [
+        49.46,
+        73.71
+      ],
+      "exit": [
+        49.15,
+        51.83
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 47,
+      "minimumRadiusM": 36.8,
+      "lengthM": 60,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 6 is a chicane. About 47° of heading change, 37 m minimum radius.",
+      "approachFrom": "T5 exit"
     }
   ]
 }

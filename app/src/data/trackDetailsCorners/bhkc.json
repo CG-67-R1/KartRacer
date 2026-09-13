@@ -1,10 +1,10 @@
 {
   "trackId": "bhkc",
   "name": "Broken Hill Kart Club",
-  "lengthM": 385,
+  "lengthM": 384.7,
   "startFinish": [
-    50.42,
-    49.3
+    65.71,
+    47.85
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,85 @@
       "id": "bhkc_t1",
       "number": 1,
       "apex": [
-        39.53,
-        12.2
+        49.62,
+        48.63
       ],
       "label": [
-        37.68,
-        7.34
+        46.44,
+        52.74
       ],
       "entry": [
-        44.44,
-        13.89
+        64.78,
+        48.33
       ],
       "exit": [
-        31.78,
-        13.35
+        47.39,
+        34.96
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 130,
+      "minimumRadiusM": 10.9,
+      "lengthM": 45.1,
+      "previousStraightM": 10.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 130° of heading change, 11 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "bhkc_t2",
+      "number": 2,
+      "apex": [
+        32.16,
+        13.22
+      ],
+      "label": [
+        29.42,
+        8.8
+      ],
+      "entry": [
+        48.47,
+        29.84
+      ],
+      "exit": [
+        21.65,
+        66.48
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 249,
+      "minimumRadiusM": 14,
+      "lengthM": 142.8,
+      "previousStraightM": 7.5,
+      "direction": null,
+      "summary": "Turn 2 is a chicane. About 249° of heading change, 14 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "bhkc_t3",
+      "number": 3,
+      "apex": [
+        91.62,
+        58.8
+      ],
+      "label": [
+        96.54,
+        60.47
+      ],
+      "entry": [
+        39.81,
+        78.91
+      ],
+      "exit": [
+        71.28,
+        44.93
+      ],
+      "classification": "tightening",
+      "headingChangeDeg": 242,
+      "minimumRadiusM": 14.2,
+      "lengthM": 151.8,
+      "previousStraightM": 31.6,
+      "direction": null,
+      "summary": "Turn 3 is a tightening corner after a 32 m run. About 242° of heading change, 14 m minimum radius.",
+      "approachFrom": "T2 exit"
     }
   ]
 }

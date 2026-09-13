@@ -1,10 +1,10 @@
 {
   "trackId": "chkrc_e1",
   "name": "Coffs Harbour Kart Racing Club (C.ex Raceway) (E1)",
-  "lengthM": 638,
+  "lengthM": 631.8,
   "startFinish": [
-    56.91,
-    51.72
+    57.31,
+    50.09
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,225 @@
       "id": "chkrc_e1_t1",
       "number": 1,
       "apex": [
-        50.46,
-        87.13
+        52.8,
+        64.63
       ],
       "label": [
-        50.78,
-        92.32
+        54.37,
+        69.59
       ],
       "entry": [
-        38.78,
-        66.84
+        56.67,
+        55.92
       ],
       "exit": [
-        50.11,
-        89.57
+        47.09,
+        62.5
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 130,
+      "minimumRadiusM": 9.6,
+      "lengthM": 43.5,
+      "previousStraightM": 22.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a hairpin. About 130° of heading change, 10 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "chkrc_e1_t2",
+      "number": 2,
+      "apex": [
+        39.32,
+        60.94
+      ],
+      "label": [
+        36.05,
+        64.98
+      ],
+      "entry": [
+        46.21,
+        61.71
+      ],
+      "exit": [
+        40.09,
+        68.98
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 166,
+      "minimumRadiusM": 10.2,
+      "lengthM": 43.5,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 2 is a chicane. About 166° of heading change, 10 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "chkrc_e1_t3",
+      "number": 3,
+      "apex": [
+        49.22,
+        90.75
+      ],
+      "label": [
+        49.35,
+        95.95
+      ],
+      "entry": [
+        48.21,
+        82.12
+      ],
+      "exit": [
+        40.33,
+        87.52
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 172,
+      "minimumRadiusM": 8.9,
+      "lengthM": 52.5,
+      "previousStraightM": 39,
+      "direction": null,
+      "summary": "Turn 3 is a hairpin after a 39 m run. About 172° of heading change, 9 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "chkrc_e1_t4",
+      "number": 4,
+      "apex": [
+        23.11,
+        62.06
+      ],
+      "label": [
+        18.42,
+        64.32
+      ],
+      "entry": [
+        28.2,
+        75.28
+      ],
+      "exit": [
+        31.12,
+        51.08
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 106,
+      "minimumRadiusM": 30.5,
+      "lengthM": 75,
+      "previousStraightM": 43.5,
+      "direction": null,
+      "summary": "Turn 4 is a triple-apex corner after a 44 m run. About 106° of heading change, 31 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "chkrc_e1_t5",
+      "number": 5,
+      "apex": [
+        43.01,
+        40.25
+      ],
+      "label": [
+        40.57,
+        35.66
+      ],
+      "entry": [
+        35.82,
+        48.52
+      ],
+      "exit": [
+        41.33,
+        23.53
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 83,
+      "minimumRadiusM": 27.1,
+      "lengthM": 73.5,
+      "previousStraightM": 13.5,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 83° of heading change, 27 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "chkrc_e1_t6",
+      "number": 6,
+      "apex": [
+        41.29,
+        10.37
+      ],
+      "label": [
+        40.4,
+        5.25
+      ],
+      "entry": [
+        40.21,
+        20.78
+      ],
+      "exit": [
+        53.5,
+        10.11
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 138,
+      "minimumRadiusM": 16.9,
+      "lengthM": 63,
+      "previousStraightM": 7.5,
+      "direction": null,
+      "summary": "Turn 6 is a chicane. About 138° of heading change, 17 m minimum radius.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "chkrc_e1_t7",
+      "number": 7,
+      "apex": [
+        76.54,
+        25.22
+      ],
+      "label": [
+        80.46,
+        21.8
+      ],
+      "entry": [
+        65.11,
+        14.53
+      ],
+      "exit": [
+        70.3,
+        28.43
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 157,
+      "minimumRadiusM": 14.4,
+      "lengthM": 72,
+      "previousStraightM": 31.5,
+      "direction": null,
+      "summary": "Turn 7 is a double-apex corner after a 32 m run. About 157° of heading change, 14 m minimum radius.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "chkrc_e1_t8",
+      "number": 8,
+      "apex": [
+        60.9,
+        35.48
+      ],
+      "label": [
+        64.33,
+        31.57
+      ],
+      "entry": [
+        67.37,
+        28.55
+      ],
+      "exit": [
+        58,
+        47.28
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 80,
+      "minimumRadiusM": 22.8,
+      "lengthM": 52.5,
+      "previousStraightM": 7.5,
+      "direction": null,
+      "summary": "Turn 8 is a chicane. About 80° of heading change, 23 m minimum radius.",
+      "approachFrom": "T7 exit"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "trackId": "cairnsk_var2",
   "name": "Cairns Kart Club (Var 2)",
-  "lengthM": 424,
+  "lengthM": 400.7,
   "startFinish": [
-    61.19,
-    49.63
+    60.29,
+    44.41
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,85 +12,113 @@
       "id": "cairnsk_var2_t1",
       "number": 1,
       "apex": [
-        65.38,
-        25.16
+        88.21,
+        38.86
       ],
       "label": [
-        67.98,
-        20.66
+        93.25,
+        37.58
       ],
       "entry": [
-        60.82,
-        28.74
+        60.06,
+        43.11
       ],
       "exit": [
-        75.11,
-        25.44
+        47.91,
+        85.68
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 343,
+      "minimumRadiusM": 10.5,
+      "lengthM": 150.1,
+      "previousStraightM": 3,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 343° of heading change, 11 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "cairnsk_var2_t2",
       "number": 2,
       "apex": [
-        71.95,
-        87.55
+        11.91,
+        57.86
       ],
       "label": [
-        74.27,
-        92.2
+        6.86,
+        59.1
       ],
       "entry": [
-        76.34,
-        71.96
+        20.4,
+        67.46
       ],
       "exit": [
-        66.34,
-        91.09
+        11.87,
+        41.14
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "opening",
+      "headingChangeDeg": 69,
+      "minimumRadiusM": 19.4,
+      "lengthM": 36,
+      "previousStraightM": 37.5,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a opening corner after a 38 m run. About 69° of heading change, 19 m minimum radius.",
       "approachFrom": "T1 exit"
     },
     {
       "id": "cairnsk_var2_t3",
       "number": 3,
       "apex": [
-        50.76,
-        74.58
+        43.78,
+        12.15
       ],
       "label": [
-        50.48,
-        79.77
+        42.59,
+        7.09
       ],
       "entry": [
-        33.73,
-        62.32
+        14.45,
+        30.9
       ],
       "exit": [
-        57.08,
-        74.27
+        40.44,
+        36.72
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 236,
+      "minimumRadiusM": 11.9,
+      "lengthM": 82.5,
+      "previousStraightM": 12,
       "direction": null,
-      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 3 is a hairpin. About 236° of heading change, 12 m minimum radius.",
       "approachFrom": "T2 exit"
+    },
+    {
+      "id": "cairnsk_var2_t4",
+      "number": 4,
+      "apex": [
+        38.05,
+        65.96
+      ],
+      "label": [
+        34.83,
+        70.05
+      ],
+      "entry": [
+        39.28,
+        37.35
+      ],
+      "exit": [
+        60.51,
+        45.71
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 262,
+      "minimumRadiusM": 9.5,
+      "lengthM": 84,
+      "previousStraightM": 1.5,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 262° of heading change, 10 m minimum radius.",
+      "approachFrom": "T3 exit"
     }
   ]
 }

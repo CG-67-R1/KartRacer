@@ -1,10 +1,10 @@
 {
   "trackId": "elkc_short",
   "name": "Eastern Lions Kart Club (Hume International) (Short)",
-  "lengthM": 835,
+  "lengthM": 832.7,
   "startFinish": [
-    57.27,
-    50.98
+    62.57,
+    52.02
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,169 @@
       "id": "elkc_short_t1",
       "number": 1,
       "apex": [
-        78.98,
-        38.99
+        91.53,
+        49.69
       ],
       "label": [
-        83.43,
-        36.31
+        96.72,
+        49.34
       ],
       "entry": [
-        88.16,
-        40.75
+        76.75,
+        56.51
       ],
       "exit": [
-        27.71,
-        22.86
+        82.18,
+        39.17
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "triple_apex",
+      "headingChangeDeg": 195,
+      "minimumRadiusM": 22.1,
+      "lengthM": 108,
+      "previousStraightM": 46.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a triple-apex corner after a 47 m run. About 195° of heading change, 22 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "elkc_short_t2",
+      "number": 2,
+      "apex": [
+        72.31,
+        38.4
+      ],
+      "label": [
+        76.15,
+        34.9
+      ],
+      "entry": [
+        75.26,
+        38.77
+      ],
+      "exit": [
+        66.1,
+        36.71
+      ],
+      "classification": "kink",
+      "headingChangeDeg": 16,
+      "minimumRadiusM": 50,
+      "lengthM": 30,
+      "previousStraightM": 21,
+      "direction": null,
+      "summary": "Turn 2 is a kink. About 16° of heading change, 50 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "elkc_short_t3",
+      "number": 3,
+      "apex": [
+        8.97,
+        27.35
+      ],
+      "label": [
+        4.33,
+        24.99
+      ],
+      "entry": [
+        29.26,
+        23.42
+      ],
+      "exit": [
+        15.87,
+        38.93
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 174,
+      "minimumRadiusM": 19.9,
+      "lengthM": 117,
+      "previousStraightM": 118.5,
+      "direction": null,
+      "summary": "Turn 3 is a triple-apex corner after a 119 m straight. About 174° of heading change, 20 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "elkc_short_t4",
+      "number": 4,
+      "apex": [
+        26.32,
+        44.6
+      ],
+      "label": [
+        21.26,
+        43.4
+      ],
+      "entry": [
+        19.87,
+        40.89
+      ],
+      "exit": [
+        29.37,
+        47.13
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 16,
+      "minimumRadiusM": 65.8,
+      "lengthM": 36,
+      "previousStraightM": 13.5,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 16° of heading change, 66 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "elkc_short_t5",
+      "number": 5,
+      "apex": [
+        80.57,
+        72.9
+      ],
+      "label": [
+        84.43,
+        76.39
+      ],
+      "entry": [
+        49.96,
+        70.56
+      ],
+      "exit": [
+        72.79,
+        64.36
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 224,
+      "minimumRadiusM": 11.9,
+      "lengthM": 148.5,
+      "previousStraightM": 94.5,
+      "direction": null,
+      "summary": "Turn 5 is a hairpin after a 95 m straight. About 224° of heading change, 12 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "elkc_short_t6",
+      "number": 6,
+      "apex": [
+        55.64,
+        55.03
+      ],
+      "label": [
+        53.02,
+        59.52
+      ],
+      "entry": [
+        61.04,
+        62.5
+      ],
+      "exit": [
+        62.09,
+        51.87
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 190,
+      "minimumRadiusM": 10.5,
+      "lengthM": 72,
+      "previousStraightM": 36,
+      "direction": null,
+      "summary": "Turn 6 is a hairpin after a 36 m run. About 190° of heading change, 11 m minimum radius.",
+      "approachFrom": "T5 exit"
     }
   ]
 }

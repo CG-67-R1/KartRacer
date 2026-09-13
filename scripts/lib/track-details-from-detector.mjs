@@ -1,19 +1,19 @@
 /**
- * The Track Details bake must call the detector with these options — the
- * same autonomous run as scripts/export-gpx-corner-maps.mjs.
+ * The Track Details bake must call the detector with KART_PROFILE — rider
+ * stays locked for motorcycle comparison tools.
  *
  * Corner markers use the detector polyline (the test PNG), fitted into the
  * same 0–100 box as build-gpx-track-maps.mjs, then snapped onto the live
  * ribbon so they stay on the road.
  */
-import { RIDER_PROFILE, detectCornersFromGpxFile } from './gpx-corner-detector.mjs';
+import { KART_PROFILE, detectCornersFromGpxFile } from './gpx-corner-detector.mjs';
 
 /** Must match scripts/build-gpx-track-maps.mjs PAD_FRAC. */
 const PAD_FRAC = 0.1;
 
 export function detectForTrackDetails(gpxPath, options = {}) {
   return detectCornersFromGpxFile(gpxPath, {
-    profile: RIDER_PROFILE,
+    profile: options.profile || KART_PROFILE,
     expectedLengthM: Number.isFinite(options.expectedLengthM) ? options.expectedLengthM : null,
     strictLapIsolation: false,
     includeGeometry: true,

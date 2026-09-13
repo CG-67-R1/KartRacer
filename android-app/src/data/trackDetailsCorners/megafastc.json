@@ -1,10 +1,10 @@
 {
   "trackId": "megafastc",
   "name": "Mega Fast Karts (Wanneroo) (C)",
-  "lengthM": 768,
+  "lengthM": 751,
   "startFinish": [
-    42.23,
-    57.21
+    42.08,
+    56.56
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,225 @@
       "id": "megafastc_t1",
       "number": 1,
       "apex": [
-        82.5,
-        56.52
+        54.43,
+        74.8
       ],
       "label": [
-        87.66,
-        57.13
+        54.21,
+        80
       ],
       "entry": [
-        80.79,
-        53.85
+        46.17,
+        67.24
       ],
       "exit": [
-        83.02,
-        61.93
+        66.81,
+        63.28
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "opening",
+      "headingChangeDeg": 138,
+      "minimumRadiusM": 14.1,
+      "lengthM": 64.5,
+      "previousStraightM": 25.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a opening corner after a 26 m run. About 138° of heading change, 14 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "megafastc_t2",
+      "number": 2,
+      "apex": [
+        79.55,
+        52.87
+      ],
+      "label": [
+        84.75,
+        52.78
+      ],
+      "entry": [
+        68.72,
+        58.64
+      ],
+      "exit": [
+        80.22,
+        68.07
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 195,
+      "minimumRadiusM": 12.9,
+      "lengthM": 67.5,
+      "previousStraightM": 10.5,
+      "direction": null,
+      "summary": "Turn 2 is a chicane. About 195° of heading change, 13 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "megafastc_t3",
+      "number": 3,
+      "apex": [
+        62.5,
+        87.04
+      ],
+      "label": [
+        63.58,
+        92.13
+      ],
+      "entry": [
+        71.35,
+        80.2
+      ],
+      "exit": [
+        53.53,
+        85.96
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 75,
+      "minimumRadiusM": 23.6,
+      "lengthM": 45,
+      "previousStraightM": 31.5,
+      "direction": null,
+      "summary": "Turn 3 is a double-apex corner after a 32 m run. About 75° of heading change, 24 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "megafastc_t4",
+      "number": 4,
+      "apex": [
+        44.05,
+        83.15
+      ],
+      "label": [
+        42.21,
+        88.01
+      ],
+      "entry": [
+        50.23,
+        84.57
+      ],
+      "exit": [
+        38.56,
+        86.3
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 64,
+      "minimumRadiusM": 14.8,
+      "lengthM": 28.5,
+      "previousStraightM": 7.5,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 64° of heading change, 15 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "megafastc_t5",
+      "number": 5,
+      "apex": [
+        23.89,
+        90.8
+      ],
+      "label": [
+        20.55,
+        94.78
+      ],
+      "entry": [
+        37.48,
+        87.23
+      ],
+      "exit": [
+        16.88,
+        71.96
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 131,
+      "minimumRadiusM": 21.1,
+      "lengthM": 77.9,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 131° of heading change, 21 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "megafastc_t6",
+      "number": 6,
+      "apex": [
+        23.34,
+        14.03
+      ],
+      "label": [
+        20.06,
+        10
+      ],
+      "entry": [
+        17.7,
+        28.29
+      ],
+      "exit": [
+        37.62,
+        8.51
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 87,
+      "minimumRadiusM": 35.7,
+      "lengthM": 67.5,
+      "previousStraightM": 91.4,
+      "direction": null,
+      "summary": "Turn 6 is a triple-apex corner after a 91 m straight. About 87° of heading change, 36 m minimum radius.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "megafastc_t7",
+      "number": 7,
+      "apex": [
+        75.72,
+        28.48
+      ],
+      "label": [
+        79.02,
+        24.46
+      ],
+      "entry": [
+        59.1,
+        8.61
+      ],
+      "exit": [
+        61.44,
+        34.03
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 204,
+      "minimumRadiusM": 20.4,
+      "lengthM": 116.9,
+      "previousStraightM": 45,
+      "direction": null,
+      "summary": "Turn 7 is a triple-apex corner after a 45 m run. About 204° of heading change, 20 m minimum radius.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "megafastc_t8",
+      "number": 8,
+      "apex": [
+        38.02,
+        38.6
+      ],
+      "label": [
+        34.06,
+        35.23
+      ],
+      "entry": [
+        59.47,
+        33.17
+      ],
+      "exit": [
+        41.93,
+        55.87
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 139,
+      "minimumRadiusM": 22.8,
+      "lengthM": 76.4,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 8 is a chicane. About 139° of heading change, 23 m minimum radius.",
+      "approachFrom": "T7 exit"
     }
   ]
 }

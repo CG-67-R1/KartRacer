@@ -1,10 +1,10 @@
 {
   "trackId": "waggak",
   "name": "Wagga & District Kart Racing Club",
-  "lengthM": 808,
+  "lengthM": 807.5,
   "startFinish": [
-    51.18,
-    50.76
+    50.29,
+    44.98
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,197 @@
       "id": "waggak_t1",
       "number": 1,
       "apex": [
-        62.72,
-        87.85
+        51.19,
+        50.74
       ],
       "label": [
-        64.02,
-        92.89
+        49.96,
+        55.79
       ],
       "entry": [
-        65.06,
-        83.51
+        50.53,
+        45.4
       ],
       "exit": [
-        57.05,
-        91.14
+        48.16,
+        54.37
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 81,
+      "minimumRadiusM": 14.6,
+      "lengthM": 33,
+      "previousStraightM": 3,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 81° of heading change, 15 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "waggak_t2",
+      "number": 2,
+      "apex": [
+        43.59,
+        63.12
+      ],
+      "label": [
+        41.17,
+        67.72
+      ],
+      "entry": [
+        47.37,
+        54.93
+      ],
+      "exit": [
+        53.2,
+        70
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 134,
+      "minimumRadiusM": 20.9,
+      "lengthM": 70.5,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 2 is a chicane. About 134° of heading change, 21 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "waggak_t3",
+      "number": 3,
+      "apex": [
+        61.26,
+        89.12
+      ],
+      "label": [
+        62.36,
+        94.2
+      ],
+      "entry": [
+        54.63,
+        70.25
+      ],
+      "exit": [
+        22.97,
+        60.71
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 265,
+      "minimumRadiusM": 27.3,
+      "lengthM": 262.7,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 3 is a chicane. About 265° of heading change, 27 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "waggak_t4",
+      "number": 4,
+      "apex": [
+        30.91,
+        24.12
+      ],
+      "label": [
+        27.36,
+        20.32
+      ],
+      "entry": [
+        25.46,
+        36.68
+      ],
+      "exit": [
+        40.25,
+        20.88
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 80,
+      "minimumRadiusM": 35.2,
+      "lengthM": 76.6,
+      "previousStraightM": 75,
+      "direction": null,
+      "summary": "Turn 4 is a triple-apex corner after a 75 m run. About 80° of heading change, 35 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "waggak_t5",
+      "number": 5,
+      "apex": [
+        57.82,
+        18.56
+      ],
+      "label": [
+        58.84,
+        13.46
+      ],
+      "entry": [
+        49.43,
+        20.53
+      ],
+      "exit": [
+        62.76,
+        14.02
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 51,
+      "minimumRadiusM": 39.6,
+      "lengthM": 49.5,
+      "previousStraightM": 28.5,
+      "direction": null,
+      "summary": "Turn 5 is a double-apex corner after a 29 m run. About 51° of heading change, 40 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "waggak_t6",
+      "number": 6,
+      "apex": [
+        75.67,
+        10.65
+      ],
+      "label": [
+        78.5,
+        6.29
+      ],
+      "entry": [
+        63.61,
+        12.84
+      ],
+      "exit": [
+        65.08,
+        28.9
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 218,
+      "minimumRadiusM": 17.6,
+      "lengthM": 123.1,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 6 is a chicane. About 218° of heading change, 18 m minimum radius.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "waggak_t7",
+      "number": 7,
+      "apex": [
+        49.21,
+        36.9
+      ],
+      "label": [
+        47.74,
+        31.91
+      ],
+      "entry": [
+        58.11,
+        30.92
+      ],
+      "exit": [
+        50.05,
+        44.57
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 102,
+      "minimumRadiusM": 24.9,
+      "lengthM": 61.5,
+      "previousStraightM": 22.5,
+      "direction": null,
+      "summary": "Turn 7 is a double-apex corner. About 102° of heading change, 25 m minimum radius.",
+      "approachFrom": "T6 exit"
     }
   ]
 }

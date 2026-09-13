@@ -1,10 +1,10 @@
 {
   "trackId": "clubsa_c_ccw",
   "name": "Go Kart Club of SA (Monarto / Rocky Gully) (C CCW)",
-  "lengthM": 749,
+  "lengthM": 749.9,
   "startFinish": [
-    47.86,
-    49.23
+    50.51,
+    38.15
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,57 +12,169 @@
       "id": "clubsa_c_ccw_t1",
       "number": 1,
       "apex": [
-        42.03,
-        53.22
+        42.45,
+        53.19
       ],
       "label": [
-        40.15,
-        58.07
+        40.77,
+        58.11
       ],
       "entry": [
-        45.09,
-        52.16
+        50.57,
+        38.79
       ],
       "exit": [
-        40.03,
-        52.44
+        36.68,
+        43.78
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 177,
+      "minimumRadiusM": 8.7,
+      "lengthM": 72,
+      "previousStraightM": 33,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a hairpin after a 33 m run. About 177° of heading change, 9 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "clubsa_c_ccw_t2",
       "number": 2,
       "apex": [
-        51.93,
-        16.97
+        21.39,
+        8.48
       ],
       "label": [
-        53.12,
-        11.91
+        18.5,
+        4.16
       ],
       "entry": [
-        54.95,
-        17.58
+        30.01,
+        15.45
       ],
       "exit": [
-        50.51,
-        17.78
+        12.67,
+        20.79
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "triple_apex",
+      "headingChangeDeg": 173,
+      "minimumRadiusM": 15.4,
+      "lengthM": 72,
+      "previousStraightM": 69,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a triple-apex corner after a 69 m run. About 173° of heading change, 15 m minimum radius.",
       "approachFrom": "T1 exit"
+    },
+    {
+      "id": "clubsa_c_ccw_t3",
+      "number": 3,
+      "apex": [
+        28.5,
+        91.38
+      ],
+      "label": [
+        26.73,
+        96.27
+      ],
+      "entry": [
+        16.1,
+        73.89
+      ],
+      "exit": [
+        38.64,
+        84.66
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 143,
+      "minimumRadiusM": 12.7,
+      "lengthM": 88.5,
+      "previousStraightM": 126,
+      "direction": null,
+      "summary": "Turn 3 is a hairpin after a 126 m straight. About 143° of heading change, 13 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "clubsa_c_ccw_t4",
+      "number": 4,
+      "apex": [
+        65.53,
+        55.54
+      ],
+      "label": [
+        70.08,
+        58.06
+      ],
+      "entry": [
+        59.88,
+        59.57
+      ],
+      "exit": [
+        70.56,
+        55.51
+      ],
+      "classification": "tightening",
+      "headingChangeDeg": 49,
+      "minimumRadiusM": 17.4,
+      "lengthM": 30,
+      "previousStraightM": 78,
+      "direction": null,
+      "summary": "Turn 4 is a tightening corner after a 78 m run. About 49° of heading change, 17 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "clubsa_c_ccw_t5",
+      "number": 5,
+      "apex": [
+        87.23,
+        53.23
+      ],
+      "label": [
+        92.32,
+        54.31
+      ],
+      "entry": [
+        75.61,
+        55.97
+      ],
+      "exit": [
+        85.11,
+        47.83
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 141,
+      "minimumRadiusM": 7.7,
+      "lengthM": 46.5,
+      "previousStraightM": 12,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 141° of heading change, 8 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "clubsa_c_ccw_t6",
+      "number": 6,
+      "apex": [
+        51.68,
+        17.04
+      ],
+      "label": [
+        52.83,
+        11.97
+      ],
+      "entry": [
+        58.06,
+        20.28
+      ],
+      "exit": [
+        49.35,
+        24.91
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 142,
+      "minimumRadiusM": 7.5,
+      "lengthM": 40.5,
+      "previousStraightM": 91.5,
+      "direction": null,
+      "summary": "Turn 6 is a hairpin after a 92 m straight. About 142° of heading change, 8 m minimum radius.",
+      "approachFrom": "T5 exit"
     }
   ]
 }

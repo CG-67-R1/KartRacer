@@ -35,8 +35,8 @@ function axRemaining(peak: number, ay: number, ayMax: number): number {
 }
 
 /**
- * Colour the GPS lap as a suggested line (red brake → blue release → green
- * throttle → yellow drive). Overlay only — not a modelled lap time.
+ * Centreline colourer only — same XY as the GPS ribbon. Prefer a baked
+ * solver line from build-racing-lines.py. Overlay only; not a lap time.
  */
 export function generateRacingLineFromMap(map: GpxTrackMap): RacingLine {
   const pts = map.polyline;

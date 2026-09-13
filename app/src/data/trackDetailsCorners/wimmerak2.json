@@ -1,10 +1,10 @@
 {
   "trackId": "wimmerak2",
   "name": "Wimmera Kart Racing Club (Dooen) (2)",
-  "lengthM": 606,
+  "lengthM": 606.3,
   "startFinish": [
-    54.55,
-    55.06
+    51.27,
+    57.17
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,57 +12,197 @@
       "id": "wimmerak2_t1",
       "number": 1,
       "apex": [
-        18.87,
-        50.87
+        58.44,
+        41.63
       ],
       "label": [
-        13.68,
-        51.21
+        62.91,
+        38.97
       ],
       "entry": [
-        19.33,
-        56.83
+        51.95,
+        56.79
       ],
       "exit": [
-        45.99,
-        13.01
+        41.06,
+        48.71
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 208,
+      "minimumRadiusM": 11.2,
+      "lengthM": 79.5,
+      "previousStraightM": 58.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a hairpin after a 59 m run. About 208° of heading change, 11 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "wimmerak2_t2",
       "number": 2,
       "apex": [
-        63.62,
-        17.76
+        21.43,
+        59.61
       ],
       "label": [
-        66.18,
-        13.23
+        16.65,
+        61.66
       ],
       "entry": [
-        60.17,
-        12.34
+        39.24,
+        51.24
       ],
       "exit": [
-        72.19,
-        20.49
+        21.94,
+        45.08
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 181,
+      "minimumRadiusM": 12.4,
+      "lengthM": 75,
+      "previousStraightM": 6,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a chicane. About 181° of heading change, 12 m minimum radius.",
       "approachFrom": "T1 exit"
+    },
+    {
+      "id": "wimmerak2_t3",
+      "number": 3,
+      "apex": [
+        54.98,
+        8.35
+      ],
+      "label": [
+        56.11,
+        3.27
+      ],
+      "entry": [
+        44.35,
+        15.17
+      ],
+      "exit": [
+        60.47,
+        13
+      ],
+      "classification": "tightening",
+      "headingChangeDeg": 117,
+      "minimumRadiusM": 10.4,
+      "lengthM": 42,
+      "previousStraightM": 72,
+      "direction": null,
+      "summary": "Turn 3 is a tightening corner after a 72 m run. About 117° of heading change, 10 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "wimmerak2_t4",
+      "number": 4,
+      "apex": [
+        64.04,
+        18.05
+      ],
+      "label": [
+        66.66,
+        13.56
+      ],
+      "entry": [
+        60.79,
+        13.71
+      ],
+      "exit": [
+        70.69,
+        20.24
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 52,
+      "minimumRadiusM": 16.3,
+      "lengthM": 25.5,
+      "previousStraightM": 1.5,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 52° of heading change, 16 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "wimmerak2_t5",
+      "number": 5,
+      "apex": [
+        80.38,
+        25.49
+      ],
+      "label": [
+        84.67,
+        22.55
+      ],
+      "entry": [
+        72.22,
+        20.5
+      ],
+      "exit": [
+        79.21,
+        36.5
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 109,
+      "minimumRadiusM": 15.8,
+      "lengthM": 43.5,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 109° of heading change, 16 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "wimmerak2_t6",
+      "number": 6,
+      "apex": [
+        43.88,
+        90.96
+      ],
+      "label": [
+        43.62,
+        96.15
+      ],
+      "entry": [
+        51.83,
+        82.75
+      ],
+      "exit": [
+        33.33,
+        90.08
+      ],
+      "classification": "opening",
+      "headingChangeDeg": 76,
+      "minimumRadiusM": 16.7,
+      "lengthM": 45,
+      "previousStraightM": 103.5,
+      "direction": null,
+      "summary": "Turn 6 is a opening corner after a 104 m straight. About 76° of heading change, 17 m minimum radius.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "wimmerak2_t7",
+      "number": 7,
+      "apex": [
+        18.87,
+        82.05
+      ],
+      "label": [
+        15.57,
+        86.07
+      ],
+      "entry": [
+        26.54,
+        88.35
+      ],
+      "exit": [
+        25.48,
+        71.68
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 138,
+      "minimumRadiusM": 12.7,
+      "lengthM": 48,
+      "previousStraightM": 13.5,
+      "direction": null,
+      "summary": "Turn 7 is a hairpin. About 138° of heading change, 13 m minimum radius.",
+      "approachFrom": "T6 exit"
     }
   ]
 }

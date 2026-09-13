@@ -1,10 +1,10 @@
 {
   "trackId": "lkc",
   "name": "Launceston Kart Club (Archerville) (2)",
-  "lengthM": 757,
+  "lengthM": 457.2,
   "startFinish": [
-    69.28,
-    64.01
+    31.25,
+    37.67
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,113 @@
       "id": "lkc_t1",
       "number": 1,
       "apex": [
-        77.93,
-        37.31
+        51.56,
+        51.73
       ],
       "label": [
-        83.02,
-        36.24
+        49.73,
+        56.6
       ],
       "entry": [
-        91.53,
-        69.86
+        38.04,
+        42.37
       ],
       "exit": [
-        68.51,
-        16.55
+        55.86,
+        54.71
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "sweeper",
+      "headingChangeDeg": 60,
+      "minimumRadiusM": 20.7,
+      "lengthM": 54,
+      "previousStraightM": 22.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a sweeper. About 60° of heading change, 21 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "lkc_t2",
+      "number": 2,
+      "apex": [
+        70.26,
+        83.41
+      ],
+      "label": [
+        72.04,
+        88.29
+      ],
+      "entry": [
+        56.73,
+        55.31
+      ],
+      "exit": [
+        66.29,
+        61.94
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 212,
+      "minimumRadiusM": 18.7,
+      "lengthM": 145.4,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 2 is a chicane. About 212° of heading change, 19 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "lkc_t3",
+      "number": 3,
+      "apex": [
+        35.53,
+        12.39
+      ],
+      "label": [
+        32.66,
+        8.05
+      ],
+      "entry": [
+        45.34,
+        18.35
+      ],
+      "exit": [
+        27.28,
+        16.79
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 183,
+      "minimumRadiusM": 12.8,
+      "lengthM": 75,
+      "previousStraightM": 97.4,
+      "direction": null,
+      "summary": "Turn 3 is a hairpin after a 97 m straight. About 183° of heading change, 13 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "lkc_t4",
+      "number": 4,
+      "apex": [
+        36.82,
+        41.52
+      ],
+      "label": [
+        31.62,
+        41.36
+      ],
+      "entry": [
+        31.4,
+        37.77
+      ],
+      "exit": [
+        31.62,
+        37.92
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 208,
+      "minimumRadiusM": 1.7,
+      "lengthM": 54,
+      "previousStraightM": 10.5,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 208° of heading change, 2 m minimum radius.",
+      "approachFrom": "T3 exit"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "trackId": "lakekingk",
   "name": "Lake King Kart Club",
-  "lengthM": 657,
+  "lengthM": 637.3,
   "startFinish": [
-    49.7,
-    54.69
+    52.33,
+    52.1
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,113 @@
       "id": "lakekingk_t1",
       "number": 1,
       "apex": [
-        49.27,
-        16.63
+        57.14,
+        8.36
       ],
       "label": [
-        49.06,
-        11.43
+        57.82,
+        3.21
       ],
       "entry": [
-        49.36,
-        12.77
+        58.05,
+        46.49
       ],
       "exit": [
-        55.5,
-        24.91
+        52.31,
+        21.24
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 269,
+      "minimumRadiusM": 13.6,
+      "lengthM": 167.9,
+      "previousStraightM": 22.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a hairpin. About 269° of heading change, 14 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "lakekingk_t2",
+      "number": 2,
+      "apex": [
+        56.77,
+        30.25
+      ],
+      "label": [
+        57.94,
+        25.18
+      ],
+      "entry": [
+        53.54,
+        22.62
+      ],
+      "exit": [
+        51.2,
+        39.46
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 91,
+      "minimumRadiusM": 19.5,
+      "lengthM": 49.5,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 2 is a chicane. About 91° of heading change, 20 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "lakekingk_t3",
+      "number": 3,
+      "apex": [
+        63.45,
+        83.14
+      ],
+      "label": [
+        65.63,
+        87.86
+      ],
+      "entry": [
+        41.29,
+        47.78
+      ],
+      "exit": [
+        49.5,
+        69.93
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 411,
+      "minimumRadiusM": 12.2,
+      "lengthM": 274.4,
+      "previousStraightM": 31.5,
+      "direction": null,
+      "summary": "Turn 3 is a hairpin after a 32 m run. About 411° of heading change, 12 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "lakekingk_t4",
+      "number": 4,
+      "apex": [
+        48.11,
+        77.36
+      ],
+      "label": [
+        47.45,
+        82.52
+      ],
+      "entry": [
+        48.98,
+        71.57
+      ],
+      "exit": [
+        51.45,
+        52.97
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 230,
+      "minimumRadiusM": 7.2,
+      "lengthM": 90,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 230° of heading change, 7 m minimum radius.",
+      "approachFrom": "T3 exit"
     }
   ]
 }

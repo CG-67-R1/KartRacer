@@ -8,8 +8,8 @@ SIZE = 2000
 GRASS = (0x6D, 0x9A, 0x46, 255)
 TRACK_EDGE = (255, 255, 255, 255)
 TRACK_GREY = (0x9C, 0xA3, 0xAF, 255)
-EDGE_WIDTH = 40
-SURFACE_WIDTH = 24
+EDGE_WIDTH = 108
+SURFACE_WIDTH = 84
 
 
 def to_px(polyline: list[list[float]]) -> list[tuple[float, float]]:

@@ -26,7 +26,7 @@ from PIL import Image, ImageDraw
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.gpx_track_preview import GRASS, SIZE, SURFACE_WIDTH, draw_ribbon
-from lib.quasi_steady_line import BIKES, densify_closed, optimize
+from lib.quasi_steady_line import BIKES, KARTS, densify_closed, optimize
 from lib.racing_line_colors import band_rgba, bands_for, palette
 
 MAPS_DIR = REPO / "app" / "src" / "data" / "gpxTrackMaps"
@@ -229,7 +229,13 @@ export function getRacingLine(trackId: string): RacingLine | undefined {{
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("ids", nargs="*", help="track ids; default is every GPX map")
-    parser.add_argument("--bike", choices=sorted(BIKES), default="mid")
+    parser.add_argument("--kart", choices=sorted(KARTS), default="sprint")
+    parser.add_argument(
+        "--bike",
+        choices=sorted(BIKES),
+        default=None,
+        help="Motorcycle envelope (RoadRacer only). KartRacer uses --kart.",
+    )
     parser.add_argument(
         "--exclude",
         nargs="*",
@@ -237,7 +243,7 @@ def main() -> None:
         help="track ids to skip, e.g. a layout whose GPX fails prove-track-maps",
     )
     args = parser.parse_args()
-    bike = BIKES[args.bike]
+    bike = BIKES[args.bike] if args.bike else KARTS[args.kart]
 
     tracks = catalog_tracks()
     available = sorted(p.stem for p in MAPS_DIR.glob("*.json"))
@@ -264,15 +270,21 @@ def main() -> None:
         (ANDROID_OUT / f"{track_id}.json").write_text(body, encoding="utf-8")
         lines.append(line)
 
-    if failures:
-        print(f"\nFAIL {len(failures)} layout(s) rejected; index.ts left as is:")
-        for row in failures:
-            print(f"  - {row}")
-        raise SystemExit(1)
-
     if args.ids:
         print(f"\nWrote {len(lines)} racing line(s); index.ts left as is")
+        if failures:
+            print(f"\nFAIL {len(failures)} layout(s) rejected:")
+            for row in failures:
+                print(f"  - {row}")
+            raise SystemExit(1)
         return
+
+    if failures:
+        print(f"\nFAIL {len(failures)} layout(s) rejected:")
+        for row in failures:
+            print(f"  - {row}")
+        if not lines:
+            raise SystemExit(1)
 
     types = """export type RacingLine = {
   trackId: string;
@@ -288,6 +300,8 @@ def main() -> None:
         (out_dir / "types.ts").write_text(types, encoding="utf-8")
         write_index(out_dir, lines)
     print(f"\nWrote {len(lines)} racing lines to app/ and android-app/")
+    if failures:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

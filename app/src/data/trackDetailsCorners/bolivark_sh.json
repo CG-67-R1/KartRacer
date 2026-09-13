@@ -1,10 +1,10 @@
 {
   "trackId": "bolivark_sh",
   "name": "Southern Go Kart Club (Bolivar Raceway) (Short)",
-  "lengthM": 620,
+  "lengthM": 614,
   "startFinish": [
-    18.38,
-    40.97
+    48.06,
+    43.7
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,169 @@
       "id": "bolivark_sh_t1",
       "number": 1,
       "apex": [
-        21.49,
-        64.25
+        8.34,
+        54.22
       ],
       "label": [
-        16.64,
-        66.12
+        3.15,
+        54.61
       ],
       "entry": [
-        12.38,
-        62.25
+        25.41,
+        41.62
       ],
       "exit": [
-        67.08,
-        65.13
+        17.39,
+        63.74
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "triple_apex",
+      "headingChangeDeg": 170,
+      "minimumRadiusM": 24.7,
+      "lengthM": 120.1,
+      "previousStraightM": 70.6,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a triple-apex corner after a 71 m run. About 170° of heading change, 25 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "bolivark_sh_t2",
+      "number": 2,
+      "apex": [
+        71.04,
+        62.78
+      ],
+      "label": [
+        74.94,
+        66.22
+      ],
+      "entry": [
+        63.85,
+        65.3
+      ],
+      "exit": [
+        71.08,
+        58.03
+      ],
+      "classification": "tightening",
+      "headingChangeDeg": 125,
+      "minimumRadiusM": 12.5,
+      "lengthM": 43.5,
+      "previousStraightM": 139.6,
+      "direction": null,
+      "summary": "Turn 2 is a tightening corner after a 140 m straight. About 125° of heading change, 13 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "bolivark_sh_t3",
+      "number": 3,
+      "apex": [
+        69.52,
+        53.21
+      ],
+      "label": [
+        74.6,
+        54.31
+      ],
+      "entry": [
+        70.77,
+        57.63
+      ],
+      "exit": [
+        77.44,
+        47.77
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 104,
+      "minimumRadiusM": 12.9,
+      "lengthM": 43.5,
+      "previousStraightM": 1.5,
+      "direction": null,
+      "summary": "Turn 3 is a chicane. About 104° of heading change, 13 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "bolivark_sh_t4",
+      "number": 4,
+      "apex": [
+        91.64,
+        37.89
+      ],
+      "label": [
+        96.52,
+        36.1
+      ],
+      "entry": [
+        83.6,
+        45.7
+      ],
+      "exit": [
+        84.47,
+        35.08
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 169,
+      "minimumRadiusM": 13.2,
+      "lengthM": 66.1,
+      "previousStraightM": 19.5,
+      "direction": null,
+      "summary": "Turn 4 is a hairpin. About 169° of heading change, 13 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "bolivark_sh_t5",
+      "number": 5,
+      "apex": [
+        67.07,
+        39.68
+      ],
+      "label": [
+        70.57,
+        35.84
+      ],
+      "entry": [
+        74.75,
+        36.57
+      ],
+      "exit": [
+        64.27,
+        42.85
+      ],
+      "classification": "sweeper",
+      "headingChangeDeg": 39,
+      "minimumRadiusM": 32.7,
+      "lengthM": 45,
+      "previousStraightM": 30,
+      "direction": null,
+      "summary": "Turn 5 is a sweeper after a 30 m run. About 39° of heading change, 33 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "bolivark_sh_t6",
+      "number": 6,
+      "apex": [
+        55.4,
+        44.38
+      ],
+      "label": [
+        53.95,
+        39.39
+      ],
+      "entry": [
+        60.16,
+        44.82
+      ],
+      "exit": [
+        48.54,
+        43.75
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 64,
+      "minimumRadiusM": 26.2,
+      "lengthM": 40.5,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 6 is a chicane. About 64° of heading change, 26 m minimum radius.",
+      "approachFrom": "T5 exit"
     }
   ]
 }

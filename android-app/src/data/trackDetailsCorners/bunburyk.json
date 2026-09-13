@@ -1,10 +1,10 @@
 {
   "trackId": "bunburyk",
   "name": "Bunbury City Kart Club (1)",
-  "lengthM": 671,
+  "lengthM": 450.8,
   "startFinish": [
-    47.31,
-    43.01
+    55.77,
+    24.22
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,113 @@
       "id": "bunburyk_t1",
       "number": 1,
       "apex": [
-        23.07,
-        74.21
+        44.72,
+        30.53
       ],
       "label": [
-        19.86,
-        78.3
+        44.21,
+        25.35
       ],
       "entry": [
-        28.19,
-        68.76
+        54.91,
+        24.9
       ],
       "exit": [
-        22.19,
-        81.29
+        42.57,
+        67.29
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 506,
+      "minimumRadiusM": 1.5,
+      "lengthM": 124.3,
+      "previousStraightM": 9,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 506° of heading change, 2 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "bunburyk_t2",
+      "number": 2,
+      "apex": [
+        22.11,
+        77.38
+      ],
+      "label": [
+        19.02,
+        81.57
+      ],
+      "entry": [
+        27.1,
+        53.67
+      ],
+      "exit": [
+        36.02,
+        91.48
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 184,
+      "minimumRadiusM": 19.9,
+      "lengthM": 91.4,
+      "previousStraightM": 18,
+      "direction": null,
+      "summary": "Turn 2 is a double-apex corner. About 184° of heading change, 20 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "bunburyk_t3",
+      "number": 3,
+      "apex": [
+        80.36,
+        79.76
+      ],
+      "label": [
+        84,
+        83.47
+      ],
+      "entry": [
+        62.24,
+        91
+      ],
+      "exit": [
+        82.8,
+        58.12
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 86,
+      "minimumRadiusM": 29.8,
+      "lengthM": 68.9,
+      "previousStraightM": 35.9,
+      "direction": null,
+      "summary": "Turn 3 is a double-apex corner after a 36 m run. About 86° of heading change, 30 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "bunburyk_t4",
+      "number": 4,
+      "apex": [
+        73.71,
+        21.38
+      ],
+      "label": [
+        77.67,
+        18.01
+      ],
+      "entry": [
+        81.82,
+        32.28
+      ],
+      "exit": [
+        59.24,
+        21.71
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 134,
+      "minimumRadiusM": 21.5,
+      "lengthM": 70.4,
+      "previousStraightM": 38.9,
+      "direction": null,
+      "summary": "Turn 4 is a triple-apex corner after a 39 m run. About 134° of heading change, 22 m minimum radius.",
+      "approachFrom": "T3 exit"
     }
   ]
 }

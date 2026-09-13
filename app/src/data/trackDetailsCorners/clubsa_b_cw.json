@@ -1,10 +1,10 @@
 {
   "trackId": "clubsa_b_cw",
   "name": "Go Kart Club of SA (Monarto / Rocky Gully) (B CW)",
-  "lengthM": 786,
+  "lengthM": 783.8,
   "startFinish": [
-    47.67,
-    43.65
+    51.22,
+    40.09
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,57 +12,197 @@
       "id": "clubsa_b_cw_t1",
       "number": 1,
       "apex": [
-        60.7,
-        55.88
+        59.75,
+        36.93
       ],
       "label": [
-        65.76,
-        57.09
+        62.7,
+        32.65
       ],
       "entry": [
-        59.87,
-        49.06
+        51.54,
+        39.69
       ],
       "exit": [
-        77.02,
-        72.9
+        61.35,
+        45.41
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 166,
+      "minimumRadiusM": 15.1,
+      "lengthM": 58.4,
+      "previousStraightM": 3,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 166° of heading change, 15 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "clubsa_b_cw_t2",
       "number": 2,
       "apex": [
-        49.92,
-        68.15
+        59.9,
+        53.2
       ],
       "label": [
-        50.35,
-        73.33
+        65.1,
+        53.29
       ],
       "entry": [
-        62.87,
-        85.8
+        60.73,
+        46.8
       ],
       "exit": [
-        45.47,
-        66.84
+        64.2,
+        60.48
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 69,
+      "minimumRadiusM": 25.5,
+      "lengthM": 46.5,
+      "previousStraightM": 4.5,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a chicane. About 69° of heading change, 26 m minimum radius.",
       "approachFrom": "T1 exit"
+    },
+    {
+      "id": "clubsa_b_cw_t3",
+      "number": 3,
+      "apex": [
+        77.98,
+        89.52
+      ],
+      "label": [
+        81.24,
+        93.57
+      ],
+      "entry": [
+        73.39,
+        69.19
+      ],
+      "exit": [
+        62.06,
+        84.6
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 193,
+      "minimumRadiusM": 22.8,
+      "lengthM": 128.9,
+      "previousStraightM": 37.5,
+      "direction": null,
+      "summary": "Turn 3 is a triple-apex corner after a 38 m run. About 193° of heading change, 23 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "clubsa_b_cw_t4",
+      "number": 4,
+      "apex": [
+        45.85,
+        66.86
+      ],
+      "label": [
+        44.82,
+        71.96
+      ],
+      "entry": [
+        53.5,
+        72.03
+      ],
+      "exit": [
+        39.24,
+        70.87
+      ],
+      "classification": "sweeper",
+      "headingChangeDeg": 109,
+      "minimumRadiusM": 19,
+      "lengthM": 54,
+      "previousStraightM": 45,
+      "direction": null,
+      "summary": "Turn 4 is a sweeper after a 45 m run. About 109° of heading change, 19 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "clubsa_b_cw_t5",
+      "number": 5,
+      "apex": [
+        28.91,
+        75.05
+      ],
+      "label": [
+        25.44,
+        78.92
+      ],
+      "entry": [
+        38.94,
+        71.28
+      ],
+      "exit": [
+        21.34,
+        62.49
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 141,
+      "minimumRadiusM": 23.6,
+      "lengthM": 82.4,
+      "previousStraightM": 1.5,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 141° of heading change, 24 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "clubsa_b_cw_t6",
+      "number": 6,
+      "apex": [
+        27.09,
+        8.33
+      ],
+      "label": [
+        24.83,
+        3.65
+      ],
+      "entry": [
+        18.98,
+        21.02
+      ],
+      "exit": [
+        36.29,
+        19.96
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 183,
+      "minimumRadiusM": 21.4,
+      "lengthM": 101.9,
+      "previousStraightM": 122.9,
+      "direction": null,
+      "summary": "Turn 6 is a triple-apex corner after a 123 m straight. About 183° of heading change, 21 m minimum radius.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "clubsa_b_cw_t7",
+      "number": 7,
+      "apex": [
+        42.72,
+        43.52
+      ],
+      "label": [
+        39.96,
+        39.11
+      ],
+      "entry": [
+        36.37,
+        31.62
+      ],
+      "exit": [
+        50.91,
+        40.49
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 142,
+      "minimumRadiusM": 15.8,
+      "lengthM": 73.4,
+      "previousStraightM": 34.5,
+      "direction": null,
+      "summary": "Turn 7 is a double-apex corner after a 35 m run. About 142° of heading change, 16 m minimum radius.",
+      "approachFrom": "T6 exit"
     }
   ]
 }

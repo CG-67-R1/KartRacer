@@ -5,13 +5,15 @@ import { reviewAndRepairGpx } from './gpx-trace-review.mjs';
 import { longestStraight, turnEvents, turnRate } from './track-geometry.mjs';
 
 /**
- * Frozen after the last-pass confirmation on 2026-09-08.
- * Do not change detection, refinement, numbering, or review without an explicit unlock.
+ * Rider/motorcycle detection stayed frozen after Mallala (2026-09-08).
+ * Do not retune RIDER_PROFILE to "fix" karts. Kart Track Details uses
+ * KART_PROFILE (unlocked 2026-09-13).
  */
 export const GPX_CORNER_DETECTOR_LOCKED = Object.freeze({
   frozen: true,
   frozenAt: '2026-09-08',
   reason: 'Last-pass confirmation after Mallala SVG rebuild and GPX preflight.',
+  kartProfileUnlockedAt: '2026-09-13',
 });
 
 const DEG_PER_RAD = 180 / Math.PI;
@@ -81,6 +83,68 @@ export const RIDER_PROFILE = Object.freeze({
   hairpinMaxRadiusM: 70,
   sweeperMinLengthM: 180,
   sweeperMinRadiusM: 90,
+  minClosedLapM: 500,
+  minSampleCount: 500,
+  minStartStraightM: 90,
+  allowStartMarkerInCorner: false,
+});
+
+/**
+ * Kart circuits are 350–1100 m with 8–15 m radii and short S/F straights.
+ * The rider profile's 500 m floor and "S/F must sit on a 90 m straight"
+ * gates reject them. Hands are still never written from this profile.
+ */
+export const KART_PROFILE = Object.freeze({
+  ...RIDER_PROFILE,
+  id: 'kart',
+  spacingM: 1.5,
+  smoothWindowM: 8,
+  turnWindowM: 6,
+  rateFloorDegPerM: 0.18,
+  mergeGapM: 6,
+  minSweptDeg: 16,
+  minCornerLengthM: 6,
+  minHeadingDeg: 16,
+  artifactRadiusM: 6,
+  weakEventDegMax: 22,
+  weakEventLenM: 16,
+  weakEventGapM: 8,
+  spikeOppDegMax: 32,
+  spikeOppLenM: 20,
+  spikeGapM: 6,
+  sameHandMergeGapM: 4,
+  oppositePairDegMax: 80,
+  oppositePairLenM: 18,
+  oppositePairGapM: 4,
+  seamSpikeLenM: 18,
+  seamSpikeDegMin: 200,
+  seamMergeGapM: 20,
+  underSegDensityMaxPerKm: 8,
+  underSegLargeEventMin: 2,
+  underSegTinyEventMax: 1,
+  compoundSplitMinDeg: 140,
+  compoundSplitMaxLenM: 90,
+  compoundSplitPartsMax: 4,
+  compoundSplitPartMinLenM: 18,
+  enrichMinEventDeg: 20,
+  enrichMinSeparationM: 22,
+  constrainMinSideM: 12,
+  chicaneGapM: 16,
+  kinkMaxAngleDeg: 28,
+  kinkMinRadiusM: 22,
+  hairpinMinAngleDeg: 130,
+  hairpinMaxRadiusM: 14,
+  sweeperMinLengthM: 45,
+  sweeperMinRadiusM: 18,
+  minClosedLapM: 220,
+  minSampleCount: 160,
+  minStartStraightM: 32,
+  allowStartMarkerInCorner: true,
+});
+
+export const DETECTOR_PROFILES = Object.freeze({
+  rider: RIDER_PROFILE,
+  kart: KART_PROFILE,
 });
 
 export class GateFailure extends Error {
@@ -741,7 +805,7 @@ function closeRingForResample(points) {
   return ring;
 }
 
-function resampleClosed(points, spacingM) {
+function resampleClosed(points, spacingM, profile = RIDER_PROFILE) {
   const ring = closeRingForResample(points);
   if (ring.length < 12) {
     throw new Error(`cannot resample ring with fewer than 12 points (got ${ring.length})`);
@@ -755,9 +819,11 @@ function resampleClosed(points, spacingM) {
     segLen.push(len);
     total += len;
   }
-  if (total < 500) throw new Error(`closed lap length too short (${round(total, 1)}m)`);
+  const minClosedLapM = profile.minClosedLapM ?? 500;
+  if (total < minClosedLapM) throw new Error(`closed lap length too short (${round(total, 1)}m)`);
 
-  const targetCount = Math.max(500, Math.min(7000, Math.round(total / spacingM)));
+  const minSamples = profile.minSampleCount ?? 500;
+  const targetCount = Math.max(minSamples, Math.min(7000, Math.round(total / spacingM)));
   const sampled = [];
   for (let i = 0; i < targetCount; i++) {
     const target = (i / targetCount) * total;
@@ -868,10 +934,11 @@ function isInsideAnyEvent(events, idx, n) {
   return false;
 }
 
-function pickStartFromLongestStraight(points, lengthM, events) {
+function pickStartFromLongestStraight(points, lengthM, events, profile = RIDER_PROFILE) {
   const n = points.length;
+  const minStraight = profile.minStartStraightM ?? 90;
   const straight = longestStraight(points, lengthM, 0.22);
-  if (!straight || straight.lenM < 90) return null;
+  if (!straight || straight.lenM < minStraight) return null;
   const run = walkClosedRange(straight.startI, straight.endI, n);
   const rate = turnRate(points, 12);
   const center = (run.length - 1) / 2;
@@ -903,18 +970,47 @@ function pickStartFromLongestStraight(points, lengthM, events) {
   };
 }
 
-function resolveStartFinishIndex(points, lengthM, waypointsLocal, events) {
+function walkOffCornerEvents(points, index, events) {
+  const n = points.length;
+  if (!isInsideAnyEvent(events, index, n)) return index;
+  let back = null;
+  let fwd = null;
+  for (let d = 1; d < n; d++) {
+    const b = (index - d + n) % n;
+    if (back == null && !isInsideAnyEvent(events, b, n)) back = d;
+    const f = (index + d) % n;
+    if (fwd == null && !isInsideAnyEvent(events, f, n)) fwd = d;
+    if (back != null && fwd != null) break;
+  }
+  if (back == null && fwd == null) return null;
+  if (fwd == null || (back != null && back <= fwd)) {
+    return (index - back + n) % n;
+  }
+  return (index + fwd) % n;
+}
+
+function resolveStartFinishIndex(points, lengthM, waypointsLocal, events, profile = RIDER_PROFILE) {
+  const allowInCorner = Boolean(profile.allowStartMarkerInCorner);
   for (const wpt of waypointsLocal) {
     const label = `${wpt.name} ${wpt.meta}`.trim();
     if (!START_MARKER_RE.test(label)) continue;
     const snapped = nearestIndex(points, wpt);
     if (snapped.distM > 40) continue;
-    for (const ev of events) {
-      if (eventContainsIndex(ev, snapped.index, points.length)) {
-        throw new Error(
-          `start marker "${wpt.name || 'unnamed'}" snaps inside a corner event; provide a marker on a straight`
-        );
-      }
+    const inside = isInsideAnyEvent(events, snapped.index, points.length);
+    if (inside && !allowInCorner) {
+      throw new Error(
+        `start marker "${wpt.name || 'unnamed'}" snaps inside a corner event; provide a marker on a straight`
+      );
+    }
+    if (inside && allowInCorner) {
+      const nudged = walkOffCornerEvents(points, snapped.index, events);
+      if (nudged == null) continue;
+      return {
+        index: nudged,
+        source: `waypoint:${wpt.name || 'unnamed'} (nudged off corner)`,
+        confidence: 0.86,
+        snapDistanceM: round(snapped.distM, 2),
+      };
     }
     return {
       index: snapped.index,
@@ -924,7 +1020,7 @@ function resolveStartFinishIndex(points, lengthM, waypointsLocal, events) {
     };
   }
 
-  const inferred = pickStartFromLongestStraight(points, lengthM, events);
+  const inferred = pickStartFromLongestStraight(points, lengthM, events, profile);
   if (!inferred) {
     throw new Error('no reliable straight found for start/finish inference');
   }
@@ -1990,7 +2086,13 @@ export function runGatedCornerDetection(options) {
     report,
     'review_gpx',
     () => {
-      const result = reviewAndRepairGpx(parsed.gpxXml, { expectedLengthM });
+      const result = reviewAndRepairGpx(parsed.gpxXml, {
+        expectedLengthM,
+        minChosenLengthM: Math.max(
+          profile.minClosedLapM ?? 500,
+          expectedLengthM ? expectedLengthM * 0.55 : 0
+        ),
+      });
       assert(result.points.length >= 24, 'review_gpx', `repaired trace is too short (${result.points.length} points)`);
       return result;
     },
@@ -2058,7 +2160,7 @@ export function runGatedCornerDetection(options) {
   const resampled = runGate(
     report,
     'resample',
-    () => resampleClosed(singleLap.points, profile.spacingM),
+    () => resampleClosed(singleLap.points, profile.spacingM, profile),
     (value) => ({ points: value.points.length, lapLengthM: round(value.lengthM, 1) })
   );
 
@@ -2105,7 +2207,11 @@ export function runGatedCornerDetection(options) {
         smoothed,
         profile
       );
-      assert(refined.kept.length > 0, 'turn_events', 'no corner events detected with rider profile');
+      assert(
+        refined.kept.length > 0,
+        'turn_events',
+        `no corner events detected with ${profile.id} profile`
+      );
       return refined;
     },
     (value) => ({
@@ -2156,7 +2262,14 @@ export function runGatedCornerDetection(options) {
   const startFinish = runGate(
     report,
     'start_finish',
-    () => resolveStartFinishIndex(smoothed, resampled.lengthM, projected.waypoints, activeEvents),
+    () =>
+      resolveStartFinishIndex(
+        smoothed,
+        resampled.lengthM,
+        projected.waypoints,
+        activeEvents,
+        profile
+      ),
     (value) => value
   );
 

@@ -1,10 +1,10 @@
 {
   "trackId": "mtgambierk_s",
   "name": "Mt Gambier Karting Club (Glenburnie) (Short)",
-  "lengthM": 359,
+  "lengthM": 317.4,
   "startFinish": [
-    64.14,
-    50.54
+    55.78,
+    66.48
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,85 @@
       "id": "mtgambierk_s_t1",
       "number": 1,
       "apex": [
-        72.88,
-        8.76
+        60.05,
+        58.35
       ],
       "label": [
-        75.55,
-        4.3
+        64.11,
+        61.6
       ],
       "entry": [
-        77.8,
-        11.26
+        56.71,
+        64.7
       ],
       "exit": [
-        59.17,
-        9.14
+        62.99,
+        52.74
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "kink",
+      "headingChangeDeg": 21,
+      "minimumRadiusM": 33.3,
+      "lengthM": 21,
+      "previousStraightM": 38.9,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a kink after a 39 m run. About 21° of heading change, 33 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "mtgambierk_s_t2",
+      "number": 2,
+      "apex": [
+        76.55,
+        10.3
+      ],
+      "label": [
+        79.58,
+        6.07
+      ],
+      "entry": [
+        76.94,
+        25.29
+      ],
+      "exit": [
+        45.05,
+        22.83
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 186,
+      "minimumRadiusM": 12,
+      "lengthM": 85.3,
+      "previousStraightM": 43.4,
+      "direction": null,
+      "summary": "Turn 2 is a hairpin after a 43 m run. About 186° of heading change, 12 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "mtgambierk_s_t3",
+      "number": 3,
+      "apex": [
+        23.04,
+        89.91
+      ],
+      "label": [
+        20.27,
+        94.31
+      ],
+      "entry": [
+        22.24,
+        73.09
+      ],
+      "exit": [
+        37.58,
+        84.41
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 163,
+      "minimumRadiusM": 10.7,
+      "lengthM": 55.4,
+      "previousStraightM": 77.9,
+      "direction": null,
+      "summary": "Turn 3 is a hairpin after a 78 m run. About 163° of heading change, 11 m minimum radius.",
+      "approachFrom": "T2 exit"
     }
   ]
 }

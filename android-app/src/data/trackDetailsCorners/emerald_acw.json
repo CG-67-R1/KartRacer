@@ -1,10 +1,10 @@
 {
   "trackId": "emerald_acw",
   "name": "Emerald Kart Club (ACW)",
-  "lengthM": 970,
+  "lengthM": 968.1,
   "startFinish": [
-    41.43,
-    44.61
+    36.52,
+    43.35
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,85 +12,225 @@
       "id": "emerald_acw_t1",
       "number": 1,
       "apex": [
-        63.86,
-        60.56
+        30.13,
+        40.93
       ],
       "label": [
-        68.36,
-        63.16
+        25.65,
+        38.29
       ],
       "entry": [
-        73.51,
-        65.12
+        35.68,
+        43.3
       ],
       "exit": [
-        61.18,
-        61.24
+        29.16,
+        37.01
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 99,
+      "minimumRadiusM": 17.2,
+      "lengthM": 39,
+      "previousStraightM": 4.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 99° of heading change, 17 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "emerald_acw_t2",
       "number": 2,
       "apex": [
-        12.69,
-        30.84
+        31.43,
+        33.67
       ],
       "label": [
-        8.2,
-        28.22
+        28.17,
+        29.62
       ],
       "entry": [
-        8.4,
-        47.73
+        29.16,
+        37.01
       ],
       "exit": [
-        14.78,
-        29.3
+        39.84,
+        32.71
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
+      "classification": "opening",
+      "headingChangeDeg": 95,
+      "minimumRadiusM": 17.1,
+      "lengthM": 48,
       "previousStraightM": 0,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a opening corner. About 95° of heading change, 17 m minimum radius.",
       "approachFrom": "T1 exit"
     },
     {
       "id": "emerald_acw_t3",
       "number": 3,
       "apex": [
-        19.11,
-        45.1
+        90.91,
+        60.42
       ],
       "label": [
-        13.97,
-        44.3
+        95.96,
+        61.65
       ],
       "entry": [
-        20.15,
-        34.61
+        77.89,
+        42.09
       ],
       "exit": [
-        22.64,
-        50.11
+        72.37,
+        64.48
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "triple_apex",
+      "headingChangeDeg": 193,
+      "minimumRadiusM": 30.5,
+      "lengthM": 169.6,
+      "previousStraightM": 141.1,
       "direction": null,
-      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 3 is a triple-apex corner after a 141 m straight. About 193° of heading change, 31 m minimum radius.",
       "approachFrom": "T2 exit"
+    },
+    {
+      "id": "emerald_acw_t4",
+      "number": 4,
+      "apex": [
+        62.09,
+        60.83
+      ],
+      "label": [
+        66.45,
+        63.66
+      ],
+      "entry": [
+        67.63,
+        61.85
+      ],
+      "exit": [
+        58.68,
+        65.27
+      ],
+      "classification": "opening",
+      "headingChangeDeg": 99,
+      "minimumRadiusM": 14.7,
+      "lengthM": 43.5,
+      "previousStraightM": 19.5,
+      "direction": null,
+      "summary": "Turn 4 is a opening corner. About 99° of heading change, 15 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "emerald_acw_t5",
+      "number": 5,
+      "apex": [
+        54.89,
+        70.46
+      ],
+      "label": [
+        57.28,
+        75.08
+      ],
+      "entry": [
+        58.41,
+        66.06
+      ],
+      "exit": [
+        47.68,
+        69.55
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 95,
+      "minimumRadiusM": 20.2,
+      "lengthM": 49.5,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 95° of heading change, 20 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "emerald_acw_t6",
+      "number": 6,
+      "apex": [
+        9.8,
+        54.57
+      ],
+      "label": [
+        4.67,
+        55.42
+      ],
+      "entry": [
+        17.5,
+        59.06
+      ],
+      "exit": [
+        8.67,
+        46.14
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 89,
+      "minimumRadiusM": 28.2,
+      "lengthM": 66,
+      "previousStraightM": 115.6,
+      "direction": null,
+      "summary": "Turn 6 is a double-apex corner after a 116 m straight. About 89° of heading change, 28 m minimum radius.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "emerald_acw_t7",
+      "number": 7,
+      "apex": [
+        16.57,
+        29.12
+      ],
+      "label": [
+        12.37,
+        26.05
+      ],
+      "entry": [
+        11.04,
+        34.71
+      ],
+      "exit": [
+        19.84,
+        36.17
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 179,
+      "minimumRadiusM": 12.3,
+      "lengthM": 64.5,
+      "previousStraightM": 42,
+      "direction": null,
+      "summary": "Turn 7 is a hairpin after a 42 m run. About 179° of heading change, 12 m minimum radius.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "emerald_acw_t8",
+      "number": 8,
+      "apex": [
+        38.45,
+        50.59
+      ],
+      "label": [
+        33.49,
+        52.14
+      ],
+      "entry": [
+        19.06,
+        40.27
+      ],
+      "exit": [
+        36.93,
+        43.37
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 279,
+      "minimumRadiusM": 12.8,
+      "lengthM": 159.1,
+      "previousStraightM": 15,
+      "direction": null,
+      "summary": "Turn 8 is a chicane. About 279° of heading change, 13 m minimum radius.",
+      "approachFrom": "T7 exit"
     }
   ]
 }

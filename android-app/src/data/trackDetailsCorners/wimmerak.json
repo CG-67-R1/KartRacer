@@ -1,10 +1,10 @@
 {
   "trackId": "wimmerak",
   "name": "Wimmera Kart Racing Club (Dooen) (1)",
-  "lengthM": 501,
+  "lengthM": 389.1,
   "startFinish": [
-    44.85,
-    42.63
+    68.37,
+    60.03
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,141 @@
       "id": "wimmerak_t1",
       "number": 1,
       "apex": [
-        46.71,
-        90.78
+        44.48,
+        91.43
       ],
       "label": [
-        46.47,
-        95.97
+        43.99,
+        96.61
       ],
       "entry": [
-        72.77,
-        52.65
+        53.17,
+        84.81
       ],
       "exit": [
-        38.72,
-        91.32
+        31.21,
+        89.44
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "opening",
+      "headingChangeDeg": 66,
+      "minimumRadiusM": 21.9,
+      "lengthM": 39.1,
+      "previousStraightM": 72.1,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a opening corner after a 72 m run. About 66° of heading change, 22 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "wimmerak_t2",
+      "number": 2,
+      "apex": [
+        18.45,
+        77.58
+      ],
+      "label": [
+        14.87,
+        81.35
+      ],
+      "entry": [
+        26.57,
+        88.08
+      ],
+      "exit": [
+        22.36,
+        71.55
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 129,
+      "minimumRadiusM": 15.3,
+      "lengthM": 60.1,
+      "previousStraightM": 7.5,
+      "direction": null,
+      "summary": "Turn 2 is a double-apex corner. About 129° of heading change, 15 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "wimmerak_t3",
+      "number": 3,
+      "apex": [
+        46.78,
+        40.24
+      ],
+      "label": [
+        44.98,
+        35.36
+      ],
+      "entry": [
+        44.49,
+        42.89
+      ],
+      "exit": [
+        47.63,
+        39.02
+      ],
+      "classification": "tightening",
+      "headingChangeDeg": 86,
+      "minimumRadiusM": 4.3,
+      "lengthM": 12,
+      "previousStraightM": 54.1,
+      "direction": null,
+      "summary": "Turn 3 is a tightening corner after a 54 m run. About 86° of heading change, 4 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "wimmerak_t4",
+      "number": 4,
+      "apex": [
+        48.45,
+        37.89
+      ],
+      "label": [
+        48.23,
+        32.69
+      ],
+      "entry": [
+        47.84,
+        38.73
+      ],
+      "exit": [
+        53.98,
+        32.38
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 50,
+      "minimumRadiusM": 7.7,
+      "lengthM": 22.5,
+      "previousStraightM": 1.5,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 50° of heading change, 8 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "wimmerak_t5",
+      "number": 5,
+      "apex": [
+        76.73,
+        16.22
+      ],
+      "label": [
+        80.31,
+        12.45
+      ],
+      "entry": [
+        55.52,
+        31.83
+      ],
+      "exit": [
+        77.05,
+        45.46
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 190,
+      "minimumRadiusM": 25.9,
+      "lengthM": 120.2,
+      "previousStraightM": 7.5,
+      "direction": null,
+      "summary": "Turn 5 is a triple-apex corner. About 190° of heading change, 26 m minimum radius.",
+      "approachFrom": "T4 exit"
     }
   ]
 }

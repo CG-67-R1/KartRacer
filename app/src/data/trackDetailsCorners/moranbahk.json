@@ -1,10 +1,10 @@
 {
   "trackId": "moranbahk",
   "name": "Moranbah Kart Track",
-  "lengthM": 522,
+  "lengthM": 520.6,
   "startFinish": [
-    50.95,
-    55.05
+    54.25,
+    55.94
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,57 +12,141 @@
       "id": "moranbahk_t1",
       "number": 1,
       "apex": [
-        50.63,
-        86.76
+        47.61,
+        57.06
       ],
       "label": [
-        50.39,
-        91.95
+        42.43,
+        56.66
       ],
       "entry": [
-        54,
-        88.7
+        53.63,
+        55.68
       ],
       "exit": [
-        47.52,
-        87.54
+        51.85,
+        66.11
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 163,
+      "minimumRadiusM": 8.1,
+      "lengthM": 40.5,
+      "previousStraightM": 3,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 163° of heading change, 8 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "moranbahk_t2",
       "number": 2,
       "apex": [
-        48.85,
-        35.98
+        57.67,
+        91.42
       ],
       "label": [
-        48.1,
-        30.83
+        58.53,
+        96.55
       ],
       "entry": [
-        50.94,
-        27.97
+        60.25,
+        73.97
       ],
       "exit": [
-        53.16,
-        41.18
+        34.15,
+        77.9
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 307,
+      "minimumRadiusM": 10,
+      "lengthM": 135,
+      "previousStraightM": 25.5,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a hairpin after a 26 m run. About 307° of heading change, 10 m minimum radius.",
       "approachFrom": "T1 exit"
+    },
+    {
+      "id": "moranbahk_t3",
+      "number": 3,
+      "apex": [
+        46.98,
+        8.61
+      ],
+      "label": [
+        46.45,
+        3.44
+      ],
+      "entry": [
+        37.3,
+        18.45
+      ],
+      "exit": [
+        51.77,
+        26.63
+      ],
+      "classification": "opening",
+      "headingChangeDeg": 208,
+      "minimumRadiusM": 14,
+      "lengthM": 85.5,
+      "previousStraightM": 132,
+      "direction": null,
+      "summary": "Turn 3 is a opening corner after a 132 m straight. About 208° of heading change, 14 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "moranbahk_t4",
+      "number": 4,
+      "apex": [
+        49.15,
+        36.72
+      ],
+      "label": [
+        48.45,
+        31.57
+      ],
+      "entry": [
+        51.06,
+        27.78
+      ],
+      "exit": [
+        55.63,
+        42.23
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 97,
+      "minimumRadiusM": 15.2,
+      "lengthM": 42,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 97° of heading change, 15 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "moranbahk_t5",
+      "number": 5,
+      "apex": [
+        64.32,
+        54.12
+      ],
+      "label": [
+        69.35,
+        52.79
+      ],
+      "entry": [
+        57.49,
+        43.03
+      ],
+      "exit": [
+        54.88,
+        56.2
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 179,
+      "minimumRadiusM": 10.7,
+      "lengthM": 57,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 179° of heading change, 11 m minimum radius.",
+      "approachFrom": "T4 exit"
     }
   ]
 }

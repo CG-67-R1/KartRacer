@@ -1,10 +1,10 @@
 {
   "trackId": "gvkc",
   "name": "Goulburn Valley Kart Club (Numurkah)",
-  "lengthM": 514,
+  "lengthM": 490.3,
   "startFinish": [
-    44.1,
-    53.61
+    60.34,
+    39.48
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,169 @@
       "id": "gvkc_t1",
       "number": 1,
       "apex": [
-        54.92,
-        23.16
+        58.59,
+        19.32
       ],
       "label": [
-        56.31,
-        18.15
+        60.39,
+        14.44
       ],
       "entry": [
-        54.22,
-        27.17
+        57.09,
+        33.99
       ],
       "exit": [
-        57.59,
-        19.94
+        82.51,
+        28.65
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 188,
+      "minimumRadiusM": 12.8,
+      "lengthM": 78,
+      "previousStraightM": 12,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 188° of heading change, 13 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "gvkc_t2",
+      "number": 2,
+      "apex": [
+        89.39,
+        63.76
+      ],
+      "label": [
+        94.25,
+        65.6
+      ],
+      "entry": [
+        88.24,
+        41.06
+      ],
+      "exit": [
+        67.99,
+        75.49
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 105,
+      "minimumRadiusM": 25.1,
+      "lengthM": 82.5,
+      "previousStraightM": 22.5,
+      "direction": null,
+      "summary": "Turn 2 is a triple-apex corner. About 105° of heading change, 25 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "gvkc_t3",
+      "number": 3,
+      "apex": [
+        10.57,
+        74.42
+      ],
+      "label": [
+        6.32,
+        77.41
+      ],
+      "entry": [
+        32.98,
+        81.63
+      ],
+      "exit": [
+        10.92,
+        57.92
+      ],
+      "classification": "tightening",
+      "headingChangeDeg": 140,
+      "minimumRadiusM": 17.5,
+      "lengthM": 72,
+      "previousStraightM": 58.5,
+      "direction": null,
+      "summary": "Turn 3 is a tightening corner after a 59 m run. About 140° of heading change, 18 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "gvkc_t4",
+      "number": 4,
+      "apex": [
+        15.24,
+        51.41
+      ],
+      "label": [
+        10.07,
+        51.93
+      ],
+      "entry": [
+        11.93,
+        56.42
+      ],
+      "exit": [
+        17.24,
+        44.93
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 35,
+      "minimumRadiusM": 25.1,
+      "lengthM": 24,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 35° of heading change, 25 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "gvkc_t5",
+      "number": 5,
+      "apex": [
+        18.39,
+        31.94
+      ],
+      "label": [
+        13.83,
+        29.45
+      ],
+      "entry": [
+        17.37,
+        44.18
+      ],
+      "exit": [
+        43.9,
+        52.72
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 159,
+      "minimumRadiusM": 11.6,
+      "lengthM": 69,
+      "previousStraightM": 1.5,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 159° of heading change, 12 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "gvkc_t6",
+      "number": 6,
+      "apex": [
+        57.99,
+        62.52
+      ],
+      "label": [
+        60.96,
+        66.79
+      ],
+      "entry": [
+        44.1,
+        53.6
+      ],
+      "exit": [
+        60.8,
+        40.27
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 192,
+      "minimumRadiusM": 14.6,
+      "lengthM": 75,
+      "previousStraightM": 1.5,
+      "direction": null,
+      "summary": "Turn 6 is a chicane. About 192° of heading change, 15 m minimum radius.",
+      "approachFrom": "T5 exit"
     }
   ]
 }

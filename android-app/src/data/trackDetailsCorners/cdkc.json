@@ -1,10 +1,10 @@
 {
   "trackId": "cdkc",
   "name": "Combined Districts Kart Club (Marrangaroo)",
-  "lengthM": 721,
+  "lengthM": 718.3,
   "startFinish": [
-    48.39,
-    48.4
+    57.06,
+    37.03
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,57 +12,169 @@
       "id": "cdkc_t1",
       "number": 1,
       "apex": [
-        84.56,
-        27.66
+        74.77,
+        21.04
       ],
       "label": [
-        88.93,
-        24.84
+        78.25,
+        17.18
       ],
       "entry": [
-        77.91,
-        21.81
+        57.61,
+        34.82
       ],
       "exit": [
-        87.54,
-        65.09
+        86.36,
+        35.48
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 164,
+      "minimumRadiusM": 24,
+      "lengthM": 90,
+      "previousStraightM": 6,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 164° of heading change, 24 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "cdkc_t2",
       "number": 2,
       "apex": [
-        20.9,
-        87.47
+        86.37,
+        87.69
       ],
       "label": [
-        17.83,
-        91.67
+        90.24,
+        91.17
       ],
       "entry": [
-        25.58,
-        91.16
+        89.42,
+        74.79
       ],
       "exit": [
-        14.4,
-        50.27
+        71.92,
+        84.07
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 139,
+      "minimumRadiusM": 13.7,
+      "lengthM": 61.5,
+      "previousStraightM": 78,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a hairpin after a 78 m run. About 139° of heading change, 14 m minimum radius.",
       "approachFrom": "T1 exit"
+    },
+    {
+      "id": "cdkc_t3",
+      "number": 3,
+      "apex": [
+        36.45,
+        66.49
+      ],
+      "label": [
+        33.42,
+        70.72
+      ],
+      "entry": [
+        51.13,
+        68.74
+      ],
+      "exit": [
+        34.13,
+        77.51
+      ],
+      "classification": "tightening",
+      "headingChangeDeg": 143,
+      "minimumRadiusM": 14.8,
+      "lengthM": 57,
+      "previousStraightM": 51,
+      "direction": null,
+      "summary": "Turn 3 is a tightening corner after a 51 m run. About 143° of heading change, 15 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "cdkc_t4",
+      "number": 4,
+      "apex": [
+        29.8,
+        91.41
+      ],
+      "label": [
+        27.74,
+        96.18
+      ],
+      "entry": [
+        34.57,
+        78.97
+      ],
+      "exit": [
+        17.96,
+        76.51
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 190,
+      "minimumRadiusM": 13.4,
+      "lengthM": 75,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 190° of heading change, 13 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "cdkc_t5",
+      "number": 5,
+      "apex": [
+        27.58,
+        8.91
+      ],
+      "label": [
+        25.47,
+        4.16
+      ],
+      "entry": [
+        10.38,
+        24.65
+      ],
+      "exit": [
+        39.33,
+        27.7
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 216,
+      "minimumRadiusM": 18.4,
+      "lengthM": 114,
+      "previousStraightM": 103.5,
+      "direction": null,
+      "summary": "Turn 5 is a double-apex corner after a 104 m straight. About 216° of heading change, 18 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "cdkc_t6",
+      "number": 6,
+      "apex": [
+        42.28,
+        48.39
+      ],
+      "label": [
+        38.27,
+        45.08
+      ],
+      "entry": [
+        37.92,
+        30.39
+      ],
+      "exit": [
+        56.88,
+        37.77
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 193,
+      "minimumRadiusM": 17.5,
+      "lengthM": 82.5,
+      "previousStraightM": 6,
+      "direction": null,
+      "summary": "Turn 6 is a chicane. About 193° of heading change, 18 m minimum radius.",
+      "approachFrom": "T5 exit"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "trackId": "geelongk",
   "name": "Geelong Kart Track",
-  "lengthM": 734,
+  "lengthM": 730.7,
   "startFinish": [
-    48.73,
-    50.1
+    49.27,
+    53.04
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,85 +12,197 @@
       "id": "geelongk_t1",
       "number": 1,
       "apex": [
-        68.57,
-        73.35
+        61.74,
+        86.66
       ],
       "label": [
-        70.49,
-        78.18
+        62.02,
+        91.85
       ],
       "entry": [
-        66.85,
-        82.28
+        53.54,
+        75.82
       ],
       "exit": [
-        72.71,
-        70.12
+        67.06,
+        80.08
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 166,
+      "minimumRadiusM": 12.7,
+      "lengthM": 63,
+      "previousStraightM": 60,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a hairpin after a 60 m run. About 166° of heading change, 13 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "geelongk_t2",
       "number": 2,
       "apex": [
-        80.45,
-        13.5
+        69.42,
+        72.29
       ],
       "label": [
-        82.94,
-        8.94
+        71.59,
+        77.02
       ],
       "entry": [
-        88.21,
-        16.9
+        67.23,
+        78.3
       ],
       "exit": [
-        46.34,
-        22.22
+        75.22,
+        69.54
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 72,
+      "minimumRadiusM": 18.8,
+      "lengthM": 34.5,
+      "previousStraightM": 4.5,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a chicane. About 72° of heading change, 19 m minimum radius.",
       "approachFrom": "T1 exit"
     },
     {
       "id": "geelongk_t3",
       "number": 3,
       "apex": [
-        11.63,
-        33.39
+        83.84,
+        63.19
       ],
       "label": [
-        6.76,
-        31.57
+        88.5,
+        65.49
       ],
       "entry": [
-        46.34,
-        22.22
+        77.54,
+        69
       ],
       "exit": [
-        8.54,
-        37.87
+        76.85,
+        57.51
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 163,
+      "minimumRadiusM": 12.8,
+      "lengthM": 51,
+      "previousStraightM": 6,
       "direction": null,
-      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 3 is a chicane. About 163° of heading change, 13 m minimum radius.",
       "approachFrom": "T2 exit"
+    },
+    {
+      "id": "geelongk_t4",
+      "number": 4,
+      "apex": [
+        65.88,
+        48.25
+      ],
+      "label": [
+        70.51,
+        45.89
+      ],
+      "entry": [
+        75.66,
+        57.4
+      ],
+      "exit": [
+        78.04,
+        36.01
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 163,
+      "minimumRadiusM": 22.8,
+      "lengthM": 87,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 163° of heading change, 23 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "geelongk_t5",
+      "number": 5,
+      "apex": [
+        91.41,
+        22.37
+      ],
+      "label": [
+        95.24,
+        18.86
+      ],
+      "entry": [
+        80.96,
+        35.43
+      ],
+      "exit": [
+        72.5,
+        14.26
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 185,
+      "minimumRadiusM": 24.7,
+      "lengthM": 108,
+      "previousStraightM": 7.5,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 185° of heading change, 25 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "geelongk_t6",
+      "number": 6,
+      "apex": [
+        9,
+        42.49
+      ],
+      "label": [
+        3.88,
+        41.6
+      ],
+      "entry": [
+        17.84,
+        30.6
+      ],
+      "exit": [
+        23.86,
+        44.75
+      ],
+      "classification": "constant_radius",
+      "headingChangeDeg": 196,
+      "minimumRadiusM": 17,
+      "lengthM": 88.5,
+      "previousStraightM": 144,
+      "direction": null,
+      "summary": "Turn 6 is a corner after a 144 m straight. About 196° of heading change, 17 m minimum radius.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "geelongk_t7",
+      "number": 7,
+      "apex": [
+        41.23,
+        41.34
+      ],
+      "label": [
+        36.65,
+        38.87
+      ],
+      "entry": [
+        25.4,
+        43.86
+      ],
+      "exit": [
+        49.16,
+        52.45
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 110,
+      "minimumRadiusM": 32,
+      "lengthM": 79.5,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 7 is a chicane. About 110° of heading change, 32 m minimum radius.",
+      "approachFrom": "T6 exit"
     }
   ]
 }

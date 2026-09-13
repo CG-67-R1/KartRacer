@@ -1,10 +1,10 @@
 {
   "trackId": "exmouth",
   "name": "Exmouth Kart Club",
-  "lengthM": 640,
+  "lengthM": 625.4,
   "startFinish": [
-    33.88,
-    42.66
+    49.7,
+    58.29
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,141 @@
       "id": "exmouth_t1",
       "number": 1,
       "apex": [
-        14.79,
-        37.46
+        58.63,
+        45.2
       ],
       "label": [
-        10.27,
-        34.9
+        62.52,
+        41.75
       ],
       "entry": [
-        8.33,
-        65.18
+        50.42,
+        58.29
       ],
       "exit": [
-        19.5,
-        29.94
+        28.18,
+        51.36
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 256,
+      "minimumRadiusM": 10.6,
+      "lengthM": 112.5,
+      "previousStraightM": 7.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 256° of heading change, 11 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "exmouth_t2",
+      "number": 2,
+      "apex": [
+        13.98,
+        73.82
+      ],
+      "label": [
+        9.43,
+        76.34
+      ],
+      "entry": [
+        24.99,
+        63.18
+      ],
+      "exit": [
+        9.17,
+        59.85
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 181,
+      "minimumRadiusM": 12.6,
+      "lengthM": 72,
+      "previousStraightM": 25.5,
+      "direction": null,
+      "summary": "Turn 2 is a hairpin after a 26 m run. About 181° of heading change, 13 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "exmouth_t3",
+      "number": 3,
+      "apex": [
+        22.02,
+        27.95
+      ],
+      "label": [
+        18.55,
+        24.08
+      ],
+      "entry": [
+        13.57,
+        41.65
+      ],
+      "exit": [
+        38.75,
+        27.44
+      ],
+      "classification": "sweeper",
+      "headingChangeDeg": 93,
+      "minimumRadiusM": 27.2,
+      "lengthM": 72,
+      "previousStraightM": 39,
+      "direction": null,
+      "summary": "Turn 3 is a sweeper after a 39 m run. About 93° of heading change, 27 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "exmouth_t4",
+      "number": 4,
+      "apex": [
+        91.62,
+        54.72
+      ],
+      "label": [
+        96.82,
+        54.61
+      ],
+      "entry": [
+        79.25,
+        40.26
+      ],
+      "exit": [
+        73.91,
+        68.5
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 154,
+      "minimumRadiusM": 24.5,
+      "lengthM": 96,
+      "previousStraightM": 88.5,
+      "direction": null,
+      "summary": "Turn 4 is a triple-apex corner after a 89 m straight. About 154° of heading change, 25 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "exmouth_t5",
+      "number": 5,
+      "apex": [
+        38.42,
+        65.14
+      ],
+      "label": [
+        34.96,
+        69.02
+      ],
+      "entry": [
+        50.41,
+        72.01
+      ],
+      "exit": [
+        46.87,
+        58.37
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 188,
+      "minimumRadiusM": 13.8,
+      "lengthM": 70.5,
+      "previousStraightM": 49.5,
+      "direction": null,
+      "summary": "Turn 5 is a hairpin after a 50 m run. About 188° of heading change, 14 m minimum radius.",
+      "approachFrom": "T4 exit"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "trackId": "esperancek",
   "name": "Esperance Kart Klub",
-  "lengthM": 646,
+  "lengthM": 642.3,
   "startFinish": [
-    27.51,
-    64.32
+    44.4,
+    50.8
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,169 @@
       "id": "esperancek_t1",
       "number": 1,
       "apex": [
-        54.32,
-        9.25
+        27.87,
+        64.03
       ],
       "label": [
-        54.67,
-        4.06
+        22.8,
+        65.21
       ],
       "entry": [
-        27.56,
-        35.38
+        31.55,
+        61.08
       ],
       "exit": [
-        60.69,
-        8.46
+        27.82,
+        70.48
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "opening",
+      "headingChangeDeg": 45,
+      "minimumRadiusM": 13.6,
+      "lengthM": 22.5,
+      "previousStraightM": 31.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a opening corner after a 32 m run. About 45° of heading change, 14 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "esperancek_t2",
+      "number": 2,
+      "apex": [
+        19.96,
+        91.47
+      ],
+      "label": [
+        16.39,
+        95.25
+      ],
+      "entry": [
+        28.52,
+        76.3
+      ],
+      "exit": [
+        12.7,
+        52.93
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 230,
+      "minimumRadiusM": 11,
+      "lengthM": 117.1,
+      "previousStraightM": 10.5,
+      "direction": null,
+      "summary": "Turn 2 is a chicane. About 230° of heading change, 11 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "esperancek_t3",
+      "number": 3,
+      "apex": [
+        65.19,
+        9.87
+      ],
+      "label": [
+        66.65,
+        4.88
+      ],
+      "entry": [
+        47.25,
+        14.21
+      ],
+      "exit": [
+        88.14,
+        35.91
+      ],
+      "classification": "triple_apex",
+      "headingChangeDeg": 148,
+      "minimumRadiusM": 21,
+      "lengthM": 102,
+      "previousStraightM": 93,
+      "direction": null,
+      "summary": "Turn 3 is a triple-apex corner after a 93 m straight. About 148° of heading change, 21 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "esperancek_t4",
+      "number": 4,
+      "apex": [
+        90.09,
+        66.34
+      ],
+      "label": [
+        95.19,
+        67.34
+      ],
+      "entry": [
+        91.19,
+        56.6
+      ],
+      "exit": [
+        80.43,
+        73.93
+      ],
+      "classification": "opening",
+      "headingChangeDeg": 69,
+      "minimumRadiusM": 18.3,
+      "lengthM": 42,
+      "previousStraightM": 37.5,
+      "direction": null,
+      "summary": "Turn 4 is a opening corner after a 38 m run. About 69° of heading change, 18 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "esperancek_t5",
+      "number": 5,
+      "apex": [
+        46.83,
+        80.19
+      ],
+      "label": [
+        45.85,
+        85.3
+      ],
+      "entry": [
+        67.02,
+        80.81
+      ],
+      "exit": [
+        52.3,
+        68.14
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 180,
+      "minimumRadiusM": 12.8,
+      "lengthM": 69,
+      "previousStraightM": 27,
+      "direction": null,
+      "summary": "Turn 5 is a hairpin after a 27 m run. About 180° of heading change, 13 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "esperancek_t6",
+      "number": 6,
+      "apex": [
+        66.89,
+        49.03
+      ],
+      "label": [
+        71.34,
+        46.34
+      ],
+      "entry": [
+        58.11,
+        64.81
+      ],
+      "exit": [
+        45.04,
+        50.29
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 201,
+      "minimumRadiusM": 10.6,
+      "lengthM": 87,
+      "previousStraightM": 12,
+      "direction": null,
+      "summary": "Turn 6 is a chicane. About 201° of heading change, 11 m minimum radius.",
+      "approachFrom": "T5 exit"
     }
   ]
 }

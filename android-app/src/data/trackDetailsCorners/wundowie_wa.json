@@ -1,10 +1,10 @@
 {
   "trackId": "wundowie_wa",
   "name": "Hurricane Go Kart Club (Wundowie)",
-  "lengthM": 728,
+  "lengthM": 715.2,
   "startFinish": [
-    53.39,
-    49.07
+    52.17,
+    48.11
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,57 +12,169 @@
       "id": "wundowie_wa_t1",
       "number": 1,
       "apex": [
-        51.94,
-        62.26
+        28.55,
+        44.69
       ],
       "label": [
-        53.49,
-        67.22
+        23.86,
+        42.44
       ],
       "entry": [
-        39.97,
-        63.68
+        49.64,
+        46.12
       ],
       "exit": [
-        59.63,
-        67.21
+        42.95,
+        62.98
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 233,
+      "minimumRadiusM": 13.1,
+      "lengthM": 105,
+      "previousStraightM": 61.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a hairpin after a 62 m run. About 233° of heading change, 13 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "wundowie_wa_t2",
       "number": 2,
       "apex": [
-        74.16,
-        32.42
+        63.14,
+        81.77
       ],
       "label": [
-        78.01,
-        28.92
+        65.47,
+        86.42
       ],
       "entry": [
-        64.94,
-        35.76
+        45.32,
+        62.46
       ],
       "exit": [
-        78.75,
-        34.47
+        21.26,
+        69.89
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 266,
+      "minimumRadiusM": 16.9,
+      "lengthM": 164.9,
+      "previousStraightM": 4.5,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a chicane. About 266° of heading change, 17 m minimum radius.",
       "approachFrom": "T1 exit"
+    },
+    {
+      "id": "wundowie_wa_t3",
+      "number": 3,
+      "apex": [
+        15.51,
+        13.76
+      ],
+      "label": [
+        12.19,
+        9.76
+      ],
+      "entry": [
+        9.61,
+        33.92
+      ],
+      "exit": [
+        32.38,
+        17.83
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 153,
+      "minimumRadiusM": 23,
+      "lengthM": 82.5,
+      "previousStraightM": 70.5,
+      "direction": null,
+      "summary": "Turn 3 is a double-apex corner after a 71 m run. About 153° of heading change, 23 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "wundowie_wa_t4",
+      "number": 4,
+      "apex": [
+        57.05,
+        37.09
+      ],
+      "label": [
+        59.07,
+        32.3
+      ],
+      "entry": [
+        44.14,
+        29.92
+      ],
+      "exit": [
+        67.86,
+        34.35
+      ],
+      "classification": "sweeper",
+      "headingChangeDeg": 71,
+      "minimumRadiusM": 24.5,
+      "lengthM": 49.5,
+      "previousStraightM": 31.5,
+      "direction": null,
+      "summary": "Turn 4 is a sweeper after a 32 m run. About 71° of heading change, 25 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "wundowie_wa_t5",
+      "number": 5,
+      "apex": [
+        77.78,
+        33.75
+      ],
+      "label": [
+        81.95,
+        30.64
+      ],
+      "entry": [
+        69.32,
+        33.68
+      ],
+      "exit": [
+        84.55,
+        45.77
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 103,
+      "minimumRadiusM": 13.2,
+      "lengthM": 48,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 103° of heading change, 13 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "wundowie_wa_t6",
+      "number": 6,
+      "apex": [
+        88.4,
+        80.09
+      ],
+      "label": [
+        92.76,
+        82.93
+      ],
+      "entry": [
+        89.8,
+        64.32
+      ],
+      "exit": [
+        71.78,
+        70.22
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 160,
+      "minimumRadiusM": 13.7,
+      "lengthM": 67.5,
+      "previousStraightM": 36,
+      "direction": null,
+      "summary": "Turn 6 is a hairpin after a 36 m run. About 160° of heading change, 14 m minimum radius.",
+      "approachFrom": "T5 exit"
     }
   ]
 }

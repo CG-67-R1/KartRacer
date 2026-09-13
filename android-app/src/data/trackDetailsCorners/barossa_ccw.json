@@ -1,10 +1,10 @@
 {
   "trackId": "barossa_ccw",
   "name": "Barossa Go-Kart Club (CCW)",
-  "lengthM": 482,
+  "lengthM": 420,
   "startFinish": [
-    50.43,
-    55.63
+    78.1,
+    39.66
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,84 +12,84 @@
       "id": "barossa_ccw_t1",
       "number": 1,
       "apex": [
-        12.08,
-        51.78
+        48.16,
+        54.44
       ],
       "label": [
-        6.94,
-        52.56
+        46.48,
+        59.36
       ],
       "entry": [
-        8.57,
-        44.62
+        77.76,
+        38.79
       ],
       "exit": [
-        32.14,
-        61.79
+        22.02,
+        57.91
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 723,
+      "minimumRadiusM": 1.3,
+      "lengthM": 249,
+      "previousStraightM": 9,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 723° of heading change, 1 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "barossa_ccw_t2",
       "number": 2,
       "apex": [
-        72.27,
-        28.62
+        90.83,
+        68.54
       ],
       "label": [
-        76.3,
-        25.33
+        95.35,
+        71.11
       ],
       "entry": [
-        82.3,
-        49.53
+        68.28,
+        76.37
       ],
       "exit": [
-        60.38,
-        22.36
+        86.45,
+        54.41
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 167,
+      "minimumRadiusM": 13.8,
+      "lengthM": 64.5,
+      "previousStraightM": 79.5,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a hairpin after a 80 m run. About 167° of heading change, 14 m minimum radius.",
       "approachFrom": "T1 exit"
     },
     {
       "id": "barossa_ccw_t3",
       "number": 3,
       "apex": [
-        44.69,
-        25.51
+        82.91,
+        50.45
       ],
       "label": [
-        43.13,
-        20.55
+        88.06,
+        51.19
       ],
       "entry": [
-        54.55,
-        22.14
+        85.78,
+        53.79
       ],
       "exit": [
-        42.09,
-        29.6
+        79.8,
+        44.03
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 25,
+      "minimumRadiusM": 28.6,
+      "lengthM": 21,
+      "previousStraightM": 1.5,
       "direction": null,
-      "summary": "Turn 3 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 3 is a chicane. About 25° of heading change, 29 m minimum radius.",
       "approachFrom": "T2 exit"
     }
   ]

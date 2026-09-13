@@ -1,10 +1,10 @@
 {
   "trackId": "chkrc_c",
   "name": "Coffs Harbour Kart Racing Club (C.ex Raceway) (C)",
-  "lengthM": 575,
+  "lengthM": 445,
   "startFinish": [
-    57.41,
-    56.98
+    72.39,
+    50.58
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,57 +12,113 @@
       "id": "chkrc_c_t1",
       "number": 1,
       "apex": [
-        44.37,
-        10.74
+        57.24,
+        60.25
       ],
       "label": [
-        42.36,
-        5.94
+        57.01,
+        65.44
       ],
       "entry": [
-        39.53,
-        19.15
+        72.15,
+        51.41
       ],
       "exit": [
-        51.44,
-        8.33
+        40.02,
+        88.94
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 284,
+      "minimumRadiusM": 1.4,
+      "lengthM": 131.8,
+      "previousStraightM": 46.4,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a hairpin after a 46 m run. About 284° of heading change, 1 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "chkrc_c_t2",
       "number": 2,
       "apex": [
-        71.95,
-        64.61
+        11.06,
+        47.94
       ],
       "label": [
-        74.8,
-        68.96
+        5.89,
+        48.45
       ],
       "entry": [
-        74.92,
-        65.53
+        22.77,
+        73.08
       ],
       "exit": [
-        70.3,
-        61.95
+        25.05,
+        32.4
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "triple_apex",
+      "headingChangeDeg": 111,
+      "minimumRadiusM": 28.7,
+      "lengthM": 82.4,
+      "previousStraightM": 40.5,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a triple-apex corner after a 41 m run. About 111° of heading change, 29 m minimum radius.",
       "approachFrom": "T1 exit"
+    },
+    {
+      "id": "chkrc_c_t3",
+      "number": 3,
+      "apex": [
+        36.17,
+        24.06
+      ],
+      "label": [
+        32.27,
+        20.62
+      ],
+      "entry": [
+        27.38,
+        31.24
+      ],
+      "exit": [
+        40.65,
+        16.45
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 39,
+      "minimumRadiusM": 39.6,
+      "lengthM": 39,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 3 is a chicane. About 39° of heading change, 40 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "chkrc_c_t4",
+      "number": 4,
+      "apex": [
+        69.09,
+        12.92
+      ],
+      "label": [
+        70.87,
+        8.04
+      ],
+      "entry": [
+        41.41,
+        14.78
+      ],
+      "exit": [
+        88.71,
+        27.81
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 202,
+      "minimumRadiusM": 11.3,
+      "lengthM": 103.4,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 202° of heading change, 11 m minimum radius.",
+      "approachFrom": "T3 exit"
     }
   ]
 }

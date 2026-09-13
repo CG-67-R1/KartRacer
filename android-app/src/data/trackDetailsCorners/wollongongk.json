@@ -1,10 +1,10 @@
 {
   "trackId": "wollongongk",
   "name": "Wollongong Kart Track",
-  "lengthM": 511,
+  "lengthM": 461.9,
   "startFinish": [
-    67.17,
-    50.65
+    72.64,
+    43.66
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,57 +12,141 @@
       "id": "wollongongk_t1",
       "number": 1,
       "apex": [
-        31.32,
-        48.6
+        19.33,
+        91.19
       ],
       "label": [
-        26.54,
-        50.64
+        17.06,
+        95.87
       ],
       "entry": [
-        31.25,
-        55.17
+        33.8,
+        84.08
       ],
       "exit": [
-        25.94,
-        42.05
+        21.91,
+        68.2
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "hairpin",
+      "headingChangeDeg": 177,
+      "minimumRadiusM": 13.6,
+      "lengthM": 76.5,
+      "previousStraightM": 105,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a hairpin after a 105 m straight. About 177° of heading change, 14 m minimum radius.",
       "approachFrom": "start/finish straight"
     },
     {
       "id": "wollongongk_t2",
       "number": 2,
       "apex": [
-        56.13,
-        33.08
+        31.5,
+        49.36
       ],
       "label": [
-        60.22,
-        29.87
+        26.86,
+        51.7
       ],
       "entry": [
-        38.87,
-        30.18
+        29.61,
+        58.63
       ],
       "exit": [
-        62.78,
-        28.91
+        27.95,
+        44.15
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "tightening",
+      "headingChangeDeg": 89,
+      "minimumRadiusM": 15.2,
+      "lengthM": 37.5,
+      "previousStraightM": 22.5,
       "direction": null,
-      "summary": "Turn 2 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 2 is a tightening corner. About 89° of heading change, 15 m minimum radius.",
       "approachFrom": "T1 exit"
+    },
+    {
+      "id": "wollongongk_t3",
+      "number": 3,
+      "apex": [
+        27.3,
+        33.57
+      ],
+      "label": [
+        23.02,
+        30.62
+      ],
+      "entry": [
+        26.81,
+        42.96
+      ],
+      "exit": [
+        43.54,
+        31.15
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 163,
+      "minimumRadiusM": 10,
+      "lengthM": 55.5,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 3 is a chicane. About 163° of heading change, 10 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "wollongongk_t4",
+      "number": 4,
+      "apex": [
+        62.38,
+        29.38
+      ],
+      "label": [
+        66.59,
+        26.33
+      ],
+      "entry": [
+        47.55,
+        32.14
+      ],
+      "exit": [
+        62.96,
+        18.58
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 140,
+      "minimumRadiusM": 11.8,
+      "lengthM": 51,
+      "previousStraightM": 7.5,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 140° of heading change, 12 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "wollongongk_t5",
+      "number": 5,
+      "apex": [
+        65.58,
+        8.58
+      ],
+      "label": [
+        68.44,
+        4.24
+      ],
+      "entry": [
+        62.36,
+        17.05
+      ],
+      "exit": [
+        73.65,
+        42.36
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 260,
+      "minimumRadiusM": 8,
+      "lengthM": 108,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 260° of heading change, 8 m minimum radius.",
+      "approachFrom": "T4 exit"
     }
   ]
 }

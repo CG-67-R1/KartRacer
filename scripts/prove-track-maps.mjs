@@ -20,7 +20,7 @@ const ANDROID_LINE_DIR = path.join(ROOT, 'android-app', 'src', 'data', 'racingLi
 const APP_CORNER_DIR = path.join(ROOT, 'app', 'src', 'data', 'trackDetailsCorners');
 const ANDROID_CORNER_DIR = path.join(ROOT, 'android-app', 'src', 'data', 'trackDetailsCorners');
 // Half the asphalt width the app draws, in map units; see TrackFacilityMap.
-const SURFACE_HALF_UNITS = 0.6;
+const SURFACE_HALF_UNITS = 2.1;
 const CATALOG_PATH = path.join(ROOT, 'app', 'src', 'data', 'tracks.json');
 const FORBIDDEN = [
   'app/src/assets/trackInfo/boards',

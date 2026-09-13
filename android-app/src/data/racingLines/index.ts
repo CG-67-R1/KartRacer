@@ -1,14 +1,266 @@
-import { getGpxTrackMap } from '../gpxTrackMaps';
-import { generateRacingLineFromMap } from './generateFromMap';
+import aWodongak from './a_wodongak.json';
+import aWodongak2 from './a_wodongak2.json';
+import aWodongak3 from './a_wodongak3.json';
+import albanyk from './albanyk.json';
+import bairnsdalek from './bairnsdalek.json';
+import ballarat2 from './ballarat_2.json';
+import ballaratk from './ballaratk.json';
+import barossaCcw from './barossa_ccw.json';
+import bendigok from './bendigok.json';
+import bhkc from './bhkc.json';
+import bolivarLong from './bolivar_long.json';
+import bolivark from './bolivark.json';
+import bolivarkSh from './bolivark_sh.json';
+import bpkc from './bpkc.json';
+import bunburyk from './bunburyk.json';
+import bundabergk from './bundabergk.json';
+import bunkart from './bunkart.json';
+import burnettk from './burnettk.json';
+import cairnskAcw from './cairnsk_acw.json';
+import cairnskVar1 from './cairnsk_var1.json';
+import cairnskVar2 from './cairnsk_var2.json';
+import canberrak from './canberrak.json';
+import canberralong from './canberralong.json';
+import cdkc from './cdkc.json';
+import chkrcA from './chkrc_a.json';
+import chkrcA3 from './chkrc_a3.json';
+import chkrcB1 from './chkrc_b1.json';
+import chkrcC from './chkrc_c.json';
+import chkrcD from './chkrc_d.json';
+import chkrcE1 from './chkrc_e1.json';
+import clubsaACcw from './clubsa_a_ccw.json';
+import clubsaACw from './clubsa_a_cw.json';
+import clubsaBCw from './clubsa_b_cw.json';
+import clubsaCCcw from './clubsa_c_ccw.json';
+import cobdenk from './cobdenk.json';
+import cooloolak from './cooloolak.json';
+import dalbyk from './dalbyk.json';
+import darwinkVar1 from './darwink_var1.json';
+import darwinkVar2 from './darwink_var2.json';
+import darwinkVar3 from './darwink_var3.json';
+import dubbok from './dubbok.json';
+import eastCrkNsw from './east_crk_nsw.json';
+import elkc from './elkc.json';
+import elkcShort from './elkc_short.json';
+import emeraldAcw from './emerald_acw.json';
+import emeraldCw from './emerald_cw.json';
+import equipvar from './equipvar.json';
+import esperancek from './esperancek.json';
+import exmouth from './exmouth.json';
+import extremek from './extremek.json';
+import extremekS from './extremek_s.json';
+import geelongk from './geelongk.json';
+import geraldtonk2 from './geraldtonk_2.json';
+import gippslandk from './gippslandk.json';
+import gkcv from './gkcv.json';
+import gkcvCw from './gkcv_cw.json';
+import gladstonek from './gladstonek.json';
+import gokWorldAc from './gok_world_ac.json';
+import gokWorldCw from './gok_world_cw.json';
+import goldfieldsk from './goldfieldsk.json';
+import grenfellk from './grenfellk.json';
+import griffithk from './griffithk.json';
+import gvkc from './gvkc.json';
+import hamiltonk from './hamiltonk.json';
+import hedlandkart from './hedlandkart.json';
+import impalak from './impalak.json';
+import indy800Sh from './indy800_sh.json';
+import indy800c from './indy800c.json';
+import ipswichk from './ipswichk.json';
+import ipswichk2 from './ipswichk2.json';
+import jabiruk from './jabiruk.json';
+import karratha from './karratha.json';
+import karrathaSh from './karratha_sh.json';
+import kartequip from './kartequip.json';
+import lakekingk from './lakekingk.json';
+import launcestonk from './launcestonk.json';
+import lismorek from './lismorek.json';
+import lkc from './lkc.json';
+import mackayk from './mackayk.json';
+import megafastb from './megafastb.json';
+import megafastc from './megafastc.json';
+import megafastkart from './megafastkart.json';
+import mfastkartcoc from './mfastkartcoc.json';
+import mfastkartd from './mfastkartd.json';
+import mildurak from './mildurak.json';
+import moranbahk from './moranbahk.json';
+import mtIsa from './mt_isa.json';
+import mtgambierk from './mtgambierk.json';
+import mtgambierkS from './mtgambierk_s.json';
+import mvkc2024 from './mvkc_2024.json';
+import nwkc from './nwkc.json';
+import oakleighLon from './oakleigh_lon.json';
+import oakleighNew from './oakleigh_new.json';
+import oakleighk from './oakleighk.json';
+import orangekA from './orangek_a.json';
+import orangekB from './orangek_b.json';
+import orangekC from './orangek_c.json';
+import pdkcLong from './pdkc_long.json';
+import pdkcShort from './pdkc_short.json';
+import piKart from './pi_kart.json';
+import pictionk from './pictionk.json';
+import pmkrcVar1 from './pmkrc_var1.json';
+import pmkrcVar2 from './pmkrc_var2.json';
+import portHedland from './port_hedland.json';
+import portgawlerk from './portgawlerk.json';
+import rochesterk from './rochesterk.json';
+import rockhamptonk from './rockhamptonk.json';
+import sapphireNsw from './sapphire_nsw.json';
+import silhouettek from './silhouettek.json';
+import spkpVar1 from './spkp_var1.json';
+import spkpVar3 from './spkp_var3.json';
+import spkpVar4 from './spkp_var4.json';
+import stkc from './stkc.json';
+import stonycreek from './stonycreek.json';
+import swanVic from './swan_vic.json';
+import tamworth from './tamworth.json';
+import toowoombaCw from './toowoomba_cw.json';
+import towerskart from './towerskart.json';
+import towerskart2 from './towerskart2.json';
+import townsvillek from './townsvillek.json';
+import waggak from './waggak.json';
+import warrnamboolk from './warrnamboolk.json';
+import warwickk from './warwickk.json';
+import whyallak from './whyallak.json';
+import wimmerak from './wimmerak.json';
+import wimmerak2 from './wimmerak2.json';
+import wollongongk from './wollongongk.json';
+import wundowieWa from './wundowie_wa.json';
 import type { RacingLine } from './types';
 
-/** Optional baked solver lines; otherwise colour the GPS lap with the kart generator. */
-const LINES: Record<string, RacingLine> = {};
+const LINES: Record<string, RacingLine> = {
+  a_wodongak: aWodongak as RacingLine,
+  a_wodongak2: aWodongak2 as RacingLine,
+  a_wodongak3: aWodongak3 as RacingLine,
+  albanyk: albanyk as RacingLine,
+  bairnsdalek: bairnsdalek as RacingLine,
+  ballarat_2: ballarat2 as RacingLine,
+  ballaratk: ballaratk as RacingLine,
+  barossa_ccw: barossaCcw as RacingLine,
+  bendigok: bendigok as RacingLine,
+  bhkc: bhkc as RacingLine,
+  bolivar_long: bolivarLong as RacingLine,
+  bolivark: bolivark as RacingLine,
+  bolivark_sh: bolivarkSh as RacingLine,
+  bpkc: bpkc as RacingLine,
+  bunburyk: bunburyk as RacingLine,
+  bundabergk: bundabergk as RacingLine,
+  bunkart: bunkart as RacingLine,
+  burnettk: burnettk as RacingLine,
+  cairnsk_acw: cairnskAcw as RacingLine,
+  cairnsk_var1: cairnskVar1 as RacingLine,
+  cairnsk_var2: cairnskVar2 as RacingLine,
+  canberrak: canberrak as RacingLine,
+  canberralong: canberralong as RacingLine,
+  cdkc: cdkc as RacingLine,
+  chkrc_a: chkrcA as RacingLine,
+  chkrc_a3: chkrcA3 as RacingLine,
+  chkrc_b1: chkrcB1 as RacingLine,
+  chkrc_c: chkrcC as RacingLine,
+  chkrc_d: chkrcD as RacingLine,
+  chkrc_e1: chkrcE1 as RacingLine,
+  clubsa_a_ccw: clubsaACcw as RacingLine,
+  clubsa_a_cw: clubsaACw as RacingLine,
+  clubsa_b_cw: clubsaBCw as RacingLine,
+  clubsa_c_ccw: clubsaCCcw as RacingLine,
+  cobdenk: cobdenk as RacingLine,
+  cooloolak: cooloolak as RacingLine,
+  dalbyk: dalbyk as RacingLine,
+  darwink_var1: darwinkVar1 as RacingLine,
+  darwink_var2: darwinkVar2 as RacingLine,
+  darwink_var3: darwinkVar3 as RacingLine,
+  dubbok: dubbok as RacingLine,
+  east_crk_nsw: eastCrkNsw as RacingLine,
+  elkc: elkc as RacingLine,
+  elkc_short: elkcShort as RacingLine,
+  emerald_acw: emeraldAcw as RacingLine,
+  emerald_cw: emeraldCw as RacingLine,
+  equipvar: equipvar as RacingLine,
+  esperancek: esperancek as RacingLine,
+  exmouth: exmouth as RacingLine,
+  extremek: extremek as RacingLine,
+  extremek_s: extremekS as RacingLine,
+  geelongk: geelongk as RacingLine,
+  geraldtonk_2: geraldtonk2 as RacingLine,
+  gippslandk: gippslandk as RacingLine,
+  gkcv: gkcv as RacingLine,
+  gkcv_cw: gkcvCw as RacingLine,
+  gladstonek: gladstonek as RacingLine,
+  gok_world_ac: gokWorldAc as RacingLine,
+  gok_world_cw: gokWorldCw as RacingLine,
+  goldfieldsk: goldfieldsk as RacingLine,
+  grenfellk: grenfellk as RacingLine,
+  griffithk: griffithk as RacingLine,
+  gvkc: gvkc as RacingLine,
+  hamiltonk: hamiltonk as RacingLine,
+  hedlandkart: hedlandkart as RacingLine,
+  impalak: impalak as RacingLine,
+  indy800_sh: indy800Sh as RacingLine,
+  indy800c: indy800c as RacingLine,
+  ipswichk: ipswichk as RacingLine,
+  ipswichk2: ipswichk2 as RacingLine,
+  jabiruk: jabiruk as RacingLine,
+  karratha: karratha as RacingLine,
+  karratha_sh: karrathaSh as RacingLine,
+  kartequip: kartequip as RacingLine,
+  lakekingk: lakekingk as RacingLine,
+  launcestonk: launcestonk as RacingLine,
+  lismorek: lismorek as RacingLine,
+  lkc: lkc as RacingLine,
+  mackayk: mackayk as RacingLine,
+  megafastb: megafastb as RacingLine,
+  megafastc: megafastc as RacingLine,
+  megafastkart: megafastkart as RacingLine,
+  mfastkartcoc: mfastkartcoc as RacingLine,
+  mfastkartd: mfastkartd as RacingLine,
+  mildurak: mildurak as RacingLine,
+  moranbahk: moranbahk as RacingLine,
+  mt_isa: mtIsa as RacingLine,
+  mtgambierk: mtgambierk as RacingLine,
+  mtgambierk_s: mtgambierkS as RacingLine,
+  mvkc_2024: mvkc2024 as RacingLine,
+  nwkc: nwkc as RacingLine,
+  oakleigh_lon: oakleighLon as RacingLine,
+  oakleigh_new: oakleighNew as RacingLine,
+  oakleighk: oakleighk as RacingLine,
+  orangek_a: orangekA as RacingLine,
+  orangek_b: orangekB as RacingLine,
+  orangek_c: orangekC as RacingLine,
+  pdkc_long: pdkcLong as RacingLine,
+  pdkc_short: pdkcShort as RacingLine,
+  pi_kart: piKart as RacingLine,
+  pictionk: pictionk as RacingLine,
+  pmkrc_var1: pmkrcVar1 as RacingLine,
+  pmkrc_var2: pmkrcVar2 as RacingLine,
+  port_hedland: portHedland as RacingLine,
+  portgawlerk: portgawlerk as RacingLine,
+  rochesterk: rochesterk as RacingLine,
+  rockhamptonk: rockhamptonk as RacingLine,
+  sapphire_nsw: sapphireNsw as RacingLine,
+  silhouettek: silhouettek as RacingLine,
+  spkp_var1: spkpVar1 as RacingLine,
+  spkp_var3: spkpVar3 as RacingLine,
+  spkp_var4: spkpVar4 as RacingLine,
+  stkc: stkc as RacingLine,
+  stonycreek: stonycreek as RacingLine,
+  swan_vic: swanVic as RacingLine,
+  tamworth: tamworth as RacingLine,
+  toowoomba_cw: toowoombaCw as RacingLine,
+  towerskart: towerskart as RacingLine,
+  towerskart2: towerskart2 as RacingLine,
+  townsvillek: townsvillek as RacingLine,
+  waggak: waggak as RacingLine,
+  warrnamboolk: warrnamboolk as RacingLine,
+  warwickk: warwickk as RacingLine,
+  whyallak: whyallak as RacingLine,
+  wimmerak: wimmerak as RacingLine,
+  wimmerak2: wimmerak2 as RacingLine,
+  wollongongk: wollongongk as RacingLine,
+  wundowie_wa: wundowieWa as RacingLine,
+};
 
 export const RACING_LINE_IDS = Object.keys(LINES);
 
 export function getRacingLine(trackId: string): RacingLine | undefined {
-  if (LINES[trackId]) return LINES[trackId];
-  const map = getGpxTrackMap(trackId);
-  return map ? generateRacingLineFromMap(map) : undefined;
+  return LINES[trackId];
 }

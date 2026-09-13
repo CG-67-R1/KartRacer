@@ -205,6 +205,11 @@ export function reviewAndRepairGpx(gpxXml, options = {}) {
   const expectedLengthM = Number.isFinite(options.expectedLengthM)
     ? options.expectedLengthM
     : null;
+  const minChosenLengthM = Number.isFinite(options.minChosenLengthM)
+    ? options.minChosenLengthM
+    : expectedLengthM
+      ? expectedLengthM * 0.55
+      : null;
   const xml = String(gpxXml || '').replace(/^\uFEFF/, '');
   const fixes = [];
   const warnings = [];
@@ -246,9 +251,23 @@ export function reviewAndRepairGpx(gpxXml, options = {}) {
     fixes.push(`chose one lap from ${laps.length} track segments`);
   } else if (laps.length === 1) {
     const split = splitAtReturns(laps[0]);
-    candidates = split;
-    source = split.length > 1 ? 'split at returns' : 'single lap';
-    if (split.length > 1) fixes.push(`split a flattened ${laps[0].length}-point trace into ${split.length} laps`);
+    const longEnough =
+      minChosenLengthM && split.length > 1
+        ? split.filter((pts) => pathLength(pts) >= minChosenLengthM)
+        : split;
+    if (split.length > 1 && longEnough.length === 0) {
+      candidates = [laps[0]];
+      source = 'single lap';
+      fixes.push(
+        `ignored ${split.length} return-splits shorter than ${Math.round(minChosenLengthM)}m`
+      );
+    } else {
+      candidates = longEnough.length ? longEnough : split;
+      source = candidates.length > 1 ? 'split at returns' : 'single lap';
+      if (split.length > 1 && candidates.length > 1) {
+        fixes.push(`split a flattened ${laps[0].length}-point trace into ${split.length} laps`);
+      }
+    }
   } else {
     throw new Error(
       `GPX review found only stub segments (${stubs.map((s) => s.length).join(', ')} points); no lap`

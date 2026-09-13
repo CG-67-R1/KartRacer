@@ -1,10 +1,10 @@
 {
   "trackId": "spkp_var1",
   "name": "Sydney International Karting Raceway (Eastern Creek) (Var 1)",
-  "lengthM": 1001,
+  "lengthM": 1000.2,
   "startFinish": [
-    25.51,
-    47.77
+    45.46,
+    43.26
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,309 @@
       "id": "spkp_var1_t1",
       "number": 1,
       "apex": [
-        64.09,
-        32.3
+        25.38,
+        47.68
       ],
       "label": [
-        67.51,
-        28.38
+        20.22,
+        48.35
       ],
       "entry": [
-        58.48,
-        29.44
+        31.05,
+        46.52
       ],
       "exit": [
-        70.99,
-        31.38
+        21.75,
+        42.93
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "double_apex",
+      "headingChangeDeg": 71,
+      "minimumRadiusM": 29.9,
+      "lengthM": 51,
+      "previousStraightM": 60,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a double-apex corner after a 60 m run. About 71° of heading change, 30 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "spkp_var1_t2",
+      "number": 2,
+      "apex": [
+        19.38,
+        38.61
+      ],
+      "label": [
+        14.24,
+        37.81
+      ],
+      "entry": [
+        21.3,
+        41.88
+      ],
+      "exit": [
+        15.57,
+        36.11
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 38,
+      "minimumRadiusM": 27.2,
+      "lengthM": 34.5,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 2 is a chicane. About 38° of heading change, 27 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "spkp_var1_t3",
+      "number": 3,
+      "apex": [
+        9.74,
+        23.8
+      ],
+      "label": [
+        5.01,
+        21.64
+      ],
+      "entry": [
+        14.56,
+        35.58
+      ],
+      "exit": [
+        18.74,
+        25.98
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 211,
+      "minimumRadiusM": 18.8,
+      "lengthM": 103.5,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 3 is a chicane. About 211° of heading change, 19 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "spkp_var1_t4",
+      "number": 4,
+      "apex": [
+        36.28,
+        38.16
+      ],
+      "label": [
+        31.34,
+        36.53
+      ],
+      "entry": [
+        20.78,
+        29.21
+      ],
+      "exit": [
+        50.61,
+        32.75
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 113,
+      "minimumRadiusM": 28.9,
+      "lengthM": 138,
+      "previousStraightM": 15,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 113° of heading change, 29 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "spkp_var1_t5",
+      "number": 5,
+      "apex": [
+        54.74,
+        29.08
+      ],
+      "label": [
+        55.03,
+        23.89
+      ],
+      "entry": [
+        51.24,
+        31.79
+      ],
+      "exit": [
+        59.78,
+        30.21
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 86,
+      "minimumRadiusM": 18.9,
+      "lengthM": 40.5,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 86° of heading change, 19 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "spkp_var1_t6",
+      "number": 6,
+      "apex": [
+        63.85,
+        32.25
+      ],
+      "label": [
+        67.21,
+        28.29
+      ],
+      "entry": [
+        61.09,
+        30.99
+      ],
+      "exit": [
+        67.64,
+        31.94
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 41,
+      "minimumRadiusM": 20.2,
+      "lengthM": 28.5,
+      "previousStraightM": 6,
+      "direction": null,
+      "summary": "Turn 6 is a chicane. About 41° of heading change, 20 m minimum radius.",
+      "approachFrom": "T5 exit"
+    },
+    {
+      "id": "spkp_var1_t7",
+      "number": 7,
+      "apex": [
+        77.35,
+        33.51
+      ],
+      "label": [
+        82.1,
+        31.39
+      ],
+      "entry": [
+        68.76,
+        31.72
+      ],
+      "exit": [
+        80.8,
+        44.76
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 102,
+      "minimumRadiusM": 30,
+      "lengthM": 85.5,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 7 is a chicane. About 102° of heading change, 30 m minimum radius.",
+      "approachFrom": "T6 exit"
+    },
+    {
+      "id": "spkp_var1_t8",
+      "number": 8,
+      "apex": [
+        82.07,
+        59.05
+      ],
+      "label": [
+        86.66,
+        61.5
+      ],
+      "entry": [
+        80.66,
+        52.01
+      ],
+      "exit": [
+        85.58,
+        62.99
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 55,
+      "minimumRadiusM": 36.6,
+      "lengthM": 51,
+      "previousStraightM": 28.5,
+      "direction": null,
+      "summary": "Turn 8 is a double-apex corner after a 29 m run. About 55° of heading change, 37 m minimum radius.",
+      "approachFrom": "T7 exit"
+    },
+    {
+      "id": "spkp_var1_t9",
+      "number": 9,
+      "apex": [
+        88.72,
+        76.91
+      ],
+      "label": [
+        92.5,
+        80.48
+      ],
+      "entry": [
+        88.08,
+        64.75
+      ],
+      "exit": [
+        72.74,
+        64.82
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 228,
+      "minimumRadiusM": 21.4,
+      "lengthM": 149.9,
+      "previousStraightM": 12,
+      "direction": null,
+      "summary": "Turn 9 is a chicane. About 228° of heading change, 21 m minimum radius.",
+      "approachFrom": "T8 exit"
+    },
+    {
+      "id": "spkp_var1_t10",
+      "number": 10,
+      "apex": [
+        66.65,
+        39.82
+      ],
+      "label": [
+        71.59,
+        38.21
+      ],
+      "entry": [
+        71.58,
+        50.75
+      ],
+      "exit": [
+        55,
+        41.1
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 119,
+      "minimumRadiusM": 23.6,
+      "lengthM": 99,
+      "previousStraightM": 55.5,
+      "direction": null,
+      "summary": "Turn 10 is a double-apex corner after a 56 m run. About 119° of heading change, 24 m minimum radius.",
+      "approachFrom": "T9 exit"
+    },
+    {
+      "id": "spkp_var1_t11",
+      "number": 11,
+      "apex": [
+        48.04,
+        42.67
+      ],
+      "label": [
+        42.97,
+        41.54
+      ],
+      "entry": [
+        50.5,
+        42.12
+      ],
+      "exit": [
+        45.83,
+        43.17
+      ],
+      "classification": "kink",
+      "headingChangeDeg": 20,
+      "minimumRadiusM": 37.5,
+      "lengthM": 21,
+      "previousStraightM": 19.5,
+      "direction": null,
+      "summary": "Turn 11 is a kink. About 20° of heading change, 38 m minimum radius.",
+      "approachFrom": "T10 exit"
     }
   ]
 }

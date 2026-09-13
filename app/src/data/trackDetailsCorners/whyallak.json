@@ -1,10 +1,10 @@
 {
   "trackId": "whyallak",
   "name": "Whyalla Go Kart Club (Mt Young Raceway)",
-  "lengthM": 498,
+  "lengthM": 497.5,
   "startFinish": [
-    47.62,
-    59.84
+    42.53,
+    59.19
   ],
   "countSource": "autonomous",
   "corners": [
@@ -12,29 +12,169 @@
       "id": "whyallak_t1",
       "number": 1,
       "apex": [
-        78.56,
-        55.23
+        52.63,
+        61.4
       ],
       "label": [
-        83.37,
-        57.22
+        54.47,
+        66.26
       ],
       "entry": [
-        91.54,
-        77.46
+        43.37,
+        59.3
       ],
       "exit": [
-        53.73,
-        16.1
+        61.86,
+        70.47
       ],
-      "classification": "corner",
-      "headingChangeDeg": 0,
-      "minimumRadiusM": 0,
-      "lengthM": 0,
-      "previousStraightM": 0,
+      "classification": "chicane_element",
+      "headingChangeDeg": 63,
+      "minimumRadiusM": 22.6,
+      "lengthM": 40.5,
+      "previousStraightM": 4.5,
       "direction": null,
-      "summary": "Turn 1 — hand not verified yet. Use a club map or walk the track before you treat this as left or right.",
+      "summary": "Turn 1 is a chicane. About 63° of heading change, 23 m minimum radius.",
       "approachFrom": "start/finish straight"
+    },
+    {
+      "id": "whyallak_t2",
+      "number": 2,
+      "apex": [
+        87.44,
+        87.19
+      ],
+      "label": [
+        90.97,
+        91.01
+      ],
+      "entry": [
+        67.74,
+        79.2
+      ],
+      "exit": [
+        86.25,
+        66.44
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 181,
+      "minimumRadiusM": 15.5,
+      "lengthM": 82.4,
+      "previousStraightM": 18,
+      "direction": null,
+      "summary": "Turn 2 is a double-apex corner. About 181° of heading change, 16 m minimum radius.",
+      "approachFrom": "T1 exit"
+    },
+    {
+      "id": "whyallak_t3",
+      "number": 3,
+      "apex": [
+        41.95,
+        12.05
+      ],
+      "label": [
+        41.4,
+        6.88
+      ],
+      "entry": [
+        55.73,
+        19.39
+      ],
+      "exit": [
+        39.49,
+        25.73
+      ],
+      "classification": "hairpin",
+      "headingChangeDeg": 176,
+      "minimumRadiusM": 12,
+      "lengthM": 58.4,
+      "previousStraightM": 95.9,
+      "direction": null,
+      "summary": "Turn 3 is a hairpin after a 96 m straight. About 176° of heading change, 12 m minimum radius.",
+      "approachFrom": "T2 exit"
+    },
+    {
+      "id": "whyallak_t4",
+      "number": 4,
+      "apex": [
+        37.71,
+        40.04
+      ],
+      "label": [
+        32.59,
+        39.11
+      ],
+      "entry": [
+        40.24,
+        27.31
+      ],
+      "exit": [
+        26.11,
+        29.88
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 195,
+      "minimumRadiusM": 10.4,
+      "lengthM": 56.9,
+      "previousStraightM": 3,
+      "direction": null,
+      "summary": "Turn 4 is a chicane. About 195° of heading change, 10 m minimum radius.",
+      "approachFrom": "T3 exit"
+    },
+    {
+      "id": "whyallak_t5",
+      "number": 5,
+      "apex": [
+        13.3,
+        17.27
+      ],
+      "label": [
+        9.16,
+        14.13
+      ],
+      "entry": [
+        25.49,
+        27.32
+      ],
+      "exit": [
+        11.27,
+        35.63
+      ],
+      "classification": "chicane_element",
+      "headingChangeDeg": 195,
+      "minimumRadiusM": 12,
+      "lengthM": 68.9,
+      "previousStraightM": 4.5,
+      "direction": null,
+      "summary": "Turn 5 is a chicane. About 195° of heading change, 12 m minimum radius.",
+      "approachFrom": "T4 exit"
+    },
+    {
+      "id": "whyallak_t6",
+      "number": 6,
+      "apex": [
+        28.94,
+        57.45
+      ],
+      "label": [
+        25.26,
+        61.12
+      ],
+      "entry": [
+        18.74,
+        49.5
+      ],
+      "exit": [
+        40.84,
+        58.97
+      ],
+      "classification": "double_apex",
+      "headingChangeDeg": 64,
+      "minimumRadiusM": 23.3,
+      "lengthM": 46.5,
+      "previousStraightM": 27,
+      "direction": null,
+      "summary": "Turn 6 is a double-apex corner after a 27 m run. About 64° of heading change, 23 m minimum radius.",
+      "approachFrom": "T5 exit"
     }
   ]
 }
