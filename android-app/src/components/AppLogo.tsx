@@ -12,7 +12,9 @@ export function AppLogo({ size = 32, style }: AppLogoProps) {
   return (
     <Image
       source={APP_LOGO}
-      style={[{ width: size, height: size, resizeMode: 'contain' }, style]}
+      accessibilityLabel="KartRacer"
+      resizeMode="contain"
+      style={[{ width: size, height: size }, style]}
     />
   );
 }
