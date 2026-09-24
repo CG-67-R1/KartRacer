@@ -6,13 +6,13 @@ Operational map for this app. Confirm live status in [App Store Connect](https:/
 
 | Field | Value |
 |-------|--------|
-| App | KartRacerr - Motorsport_Is_Life |
-| Bundle ID | `com.milroadracer.app` (App ID `MZM4TP7H87`, Push on) |
-| Apple ID (ASC) | `6799806571` |
-| SKU | `roadracer-ios-001` |
+| App | KartRacer - Motorsport_Is_Life |
+| Bundle ID | `com.milkartracer.app` |
+| Apple ID (ASC) | `6815476086` |
+| SKU | not recorded |
 | Team | `UAWP5NV4NQ` — Individual (seller name = legal name) |
-| Expo | [motorsport-is-life/roadracer](https://expo.dev/accounts/motorsport-is-life) |
-| Privacy / Terms | `docs/legal/PRIVACY.md`, `docs/legal/TERMS.md` — also linked from `app.json` extra |
+| Expo | [motorsport-is-life/kartracer](https://expo.dev/accounts/motorsport-is-life/projects/kartracer) |
+| Privacy / Terms | https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/PRIVACY.md and TERMS.md — also `app.json` extra + `app/constants/api.ts` |
 | Listing copy | `docs/ios/ASC_LISTING_COPY.md` |
 | Review notes | `docs/ios/APP_REVIEW_NOTES.md` |
 | Signing setup | `docs/ios/APPLE_DEVELOPER_SETUP.md` |
@@ -22,7 +22,7 @@ Operational map for this app. Confirm live status in [App Store Connect](https:/
 ```
 eas.json production (autoIncrement buildNumber)
   → EAS Build iOS (remote credentials, App Store profile)
-  → EAS Submit (ascAppId 6799806571, API key on EAS)
+  → EAS Submit (ascAppId 6815476086, API key on EAS)
   → ASC Processing
   → TestFlight (internal / external)
   → Submit for Review (version 1.0.0)

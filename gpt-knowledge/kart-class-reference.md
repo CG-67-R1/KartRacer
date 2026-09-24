@@ -20,7 +20,7 @@ KA4 = state/club class in the 2026 book.
   restrictor / Comer / KT100J with AKA1 13.02 mm. Min 100 / 90 / 100 kg by engine.
 - Cadet 12: 9th–13th birthday. Mini Rok unrestricted / KT100J AKA2A 16 mm.
   Min 110 / 105 kg.
-- Tyres: Maxxis 190D Cadet-KA dry (10x4.00-5 / 11x5.00-5), Maxxis MW21 wet.
+- Tyres: Maxxis 190D Cadet-KA dry (10x4.00-5 / 11x5.00-5); wet = Maxxis MW21 front + MW22 rear (KA competition-tyre FAQ, karting.net.au).
 - Plates: white/red. Coaching bias: momentum driving, tiny inputs; chassis windows
   are narrow (rear track max 1100 mm cadet).
 

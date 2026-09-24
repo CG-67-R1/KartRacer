@@ -1,6 +1,6 @@
 # KartRacer Privacy Policy
 
-**Last updated:** 9 September 2026
+**Last updated:** 25 September 2026
 
 KartRacer (“we”, “the app”) is a kart-racing companion from **Motorsport Is Life**.
 
@@ -24,4 +24,6 @@ When a KartRacer API exists, AI chats you send may be processed by the configure
 
 ## Contact
 
-Update this file when a support URL exists (J6.3).
+- App / source: [github.com/CG-67-R1/KartRacer](https://github.com/CG-67-R1/KartRacer)
+- Marketing: [kartracer.vercel.app/promo](https://kartracer.vercel.app/promo)
+- Email: `projectapex@outlook.com.au`

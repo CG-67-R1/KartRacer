@@ -47,12 +47,12 @@ Default when the user asks Agent Apple to review the app: **pre-submit**.
 
 | Item | Value |
 |------|--------|
-| Display name | KartRacerr - Motorsport_Is_Life |
-| Bundle ID | `com.milroadracer.app` |
-| ASC Apple ID | `6799806571` |
-| SKU | `roadracer-ios-001` |
+| Display name | KartRacer - Motorsport_Is_Life |
+| Bundle ID | `com.milkartracer.app` |
+| ASC Apple ID | `6815476086` |
+| SKU | not recorded |
 | Team | `UAWP5NV4NQ` (Individual) |
-| EAS | `@motorsport-is-life/roadracer` |
+| EAS | `@motorsport-is-life/kartracer` (`35684a13-12fc-4ec6-b561-553ee80c550a`) |
 | Marketing version | Keep `1.0.0` unless the user says otherwise; EAS `production` auto-increments **buildNumber** |
 | Min iOS | `16.4` (`expo-build-properties`) |
 | Stack | Expo SDK 57, React Native. Track Memory is a static SVG info map (no Skia). |

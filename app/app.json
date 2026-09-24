@@ -108,8 +108,8 @@
       ]
     ],
     "extra": {
-      "privacyPolicyUrl": "",
-      "termsOfUseUrl": "",
+      "privacyPolicyUrl": "https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/PRIVACY.md",
+      "termsOfUseUrl": "https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/TERMS.md",
       "eas": {
         "projectId": "35684a13-12fc-4ec6-b561-553ee80c550a"
       }

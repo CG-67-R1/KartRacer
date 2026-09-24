@@ -1,6 +1,6 @@
 # KartRacer Terms of Use
 
-**Last updated:** 9 September 2026
+**Last updated:** 25 September 2026
 
 By using KartRacer (“the app”), you agree to these terms. KartRacer is a product of **Motorsport Is Life**.
 
@@ -16,6 +16,10 @@ Driver Coach, Kart Setup, Q&A, and rules answers are **informational aids only**
 
 You agree not to abuse the API, extract system prompts, or upload unlawful content.
 
-## Placeholder
+## Store URLs
 
-Store URLs and a hosted API are not live yet (J6.3 / KR-HOST).
+- Privacy: [docs/legal/PRIVACY.md](https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/PRIVACY.md)
+- Support: [github.com/CG-67-R1/KartRacer](https://github.com/CG-67-R1/KartRacer)
+- Marketing: [kartracer.vercel.app/promo](https://kartracer.vercel.app/promo)
+
+A hosted KartRacer API is not live yet (J6.3 / KR-HOST). Coach, Kart Setup AI, and Q&A need a reachable API when you use those features.

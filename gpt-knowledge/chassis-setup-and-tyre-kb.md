@@ -102,7 +102,7 @@ the Clerk of the Course declares Wet.
 
 | Class group | Dry | Wet |
 |---|---|---|
-| Cadet | Maxxis 190D Cadet-KA 10x4.00-5 / 11x5.00-5 | Maxxis MW21 |
+| Cadet | Maxxis 190D Cadet-KA 10x4.00-5 / 11x5.00-5 | Maxxis MW21 front + MW22 rear |
 | KA3 / KA4 / TaG Restricted / DD2 / Jr Max | LeCont LH03 AUS 10x4.50-5 / 11x7.10-5 | LeCont SV1 10x4.20-5 / 11x6.00-5 |
 | KA2 / TaG 125 | LeCont LOH (+ bead retention) | LeCont SV1 |
 | X30 / Rok GP | LeCont LPM | LeCont SV1 |

@@ -1,18 +1,20 @@
 # App Store Connect — listing copy (en-AU)
 
-Paste-ready values for **RoadRacer - Motorsport_Is_Life** (`com.milroadracer.app`).
+Paste-ready values for **KartRacer - Motorsport_Is_Life** (`com.milkartracer.app`, ASC `6815476086`).
+
+Do not paste RoadRacer / Send-It URLs or `com.milroadracer.app`.
 
 ## App Privacy
 
 | Field | Value |
 |--------|--------|
-| Privacy Policy URL | `https://github.com/CG-67-R1/Send-It/blob/main/docs/legal/PRIVACY.md` |
+| Privacy Policy URL | `https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/PRIVACY.md` |
 
 Also complete the **App Privacy** questionnaire to match reality:
 
 - Data linked to user: generally **No** (no account).
 - Data used to track: **No**.
-- Collected / processed types that apply: **Contact Info** only if you collect support email in-app (you don’t); **User Content** (chat/messages you send to AI — disclosed as processed by API/OpenAI, not stored after response); **Photos or Videos** (on-device; AI attachments only when user sends); **Product Interaction** optional; **Diagnostics** if Sentry is on; **Precise Location** only if track-arrival feature ships and is used (on-device).
+- Collected / processed types that apply: **User Content** (chat/messages you send to AI — disclosed as processed by API/OpenAI, not stored after response); **Photos or Videos** (on-device; AI attachments only when user sends); **Product Interaction** optional; **Diagnostics** if Sentry is on; **Precise Location** only if track-arrival is used (on-device).
 - When unsure, match [`docs/legal/PRIVACY.md`](../legal/PRIVACY.md) and the in-app Settings privacy text.
 
 ## App Information
@@ -20,10 +22,11 @@ Also complete the **App Privacy** questionnaire to match reality:
 | Field | Value |
 |--------|--------|
 | Primary Category | **Sports** |
-| Secondary Category (optional) | Leave **blank**, or **Utilities** (setup sheets, track notes). **Not News** — the news feature was removed, so that category no longer describes the app. |
+| Secondary Category (optional) | **Utilities** (setup sheets, track notes). **Not News.** |
 | Copyright | Paste exactly as below (no URL; Apple adds ©). |
-| Content Rights | Does your app contain, display, or access third-party content? → **Yes**. The reason changed: it is no longer news headlines or publisher links, which are gone. What remains is cited reference material — ASBK lap records and the rule text behind Q&A's Official rule check. Confirm your rights basis for that material before answering, since quoting a rulebook is a different position from linking articles. |
+| Content Rights | Does your app contain, display, or access third-party content? → **Yes**. Cited reference material — Karting Australia class/rules text behind Q&A Official rule check, and circuit layouts from GPX. Confirm your rights basis before answering. |
 | Age Rating | Complete the questionnaire (no unrestricted web, mild competition themes — typically 4+ or 12+ depending on answers). |
+| Social media capabilities | **No.** Track Walk Private/Team/Community is a local device label only. |
 
 ### Copyright (required)
 
@@ -37,7 +40,7 @@ Trading-name alternative (if you prefer): `2026 Motorsport Is Life`
 
 ## App Encryption Documentation
 
-RoadRacer only uses **standard HTTPS/TLS** via the OS (API, OpenAI, RSS, Sentry). It does **not** ship proprietary or custom crypto. No CCATS or French encryption declaration upload is required.
+KartRacer only uses **standard HTTPS/TLS** via the OS (API, OpenAI, Sentry). It does **not** ship proprietary or custom crypto. No CCATS or French encryption declaration upload is required.
 
 Already set in [`app/app.json`](../../app/app.json):
 
@@ -65,73 +68,74 @@ If a build still asks every upload, confirm the production Info.plist includes `
 ### Description
 
 ```
-RoadRacer is your motorcycle road-racing companion — circuit study, race calendar, track notes, and AI coaching in one place.
+KartRacer is your Australian kart-racing companion from Motorsport Is Life — circuit study, race calendar, track notes, and AI coaching in one place.
 
-Learn a circuit before you ride it. Track Details draws each layout from its real GPS trace, at the true width of the road, with numbered turns and a suggested racing line. Tap a turn to zoom that corner. The list below uses the same numbers and holds your own notes. Walk the track with typed or spoken notes and photos, then send them straight to your coach.
+Learn a circuit before you drive it. Track Details draws layouts from real GPX traces, with numbered turns and a suggested racing line where we have one. Tap a turn to zoom that corner. Walk the track with typed or spoken notes and photos, then send them to your coach.
 
-Check the race calendar and add reminders to your own calendar. Keep Day Setup Sheets, bike balance, gearing, and tyre-wear notes on your device. Ask the Rider Coach or Bike Setup AI for practical guidance pitched at how you actually ride, or use Q&A and trivia to sharpen your knowledge.
+Check the calendar and add reminders. Keep Kart Setup Tool sheets, gearing, and session notes on your device. Ask Driver Coach or Kart Setup AI for practical guidance, or use Q&A and trivia.
 
-Your profile, avatar, setups, and track notes stay private on your device. AI chats you send go to the RoadRacer API and may be processed by OpenAI; chat history is not kept on our server after the reply.
+Your profile, avatar, setups, and track notes stay private on your device. AI chats you send go to the KartRacer API and may be processed by OpenAI; chat history is not kept on our server after the reply.
 
 Everything here is informational: the suggested line is a suggestion, not instruction, and we do not model lap times for you.
 
-Built for track-day riders and race fans who live motorsport.
+Built for club racers and kart fans who live motorsport.
 ```
 
 ### Keywords (max 100 characters, comma-separated, no trademark abuse)
 
 ```
-motorcycle,racing,motogp,superbike,track day,bike setup,coach,calendar
+kart,karting,racing,AKC,Rotax,IAME,coach,calendar
 ```
 
-(Character count: 78)
+(Character count: 49)
 
 ### URLs
 
 | Field | Value |
 |--------|--------|
-| Support URL | `https://github.com/CG-67-R1/Send-It` |
-| Marketing URL (optional) | `https://send-it-cg-67-r1s-projects.vercel.app/promo` |
-| Privacy Policy URL | (also under App Privacy — same GitHub PRIVACY.md link) |
+| Support URL | `https://github.com/CG-67-R1/KartRacer` |
+| Marketing URL (optional) | `https://kartracer.vercel.app/promo` |
+| Privacy Policy URL | `https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/PRIVACY.md` |
+| Terms of Use URL | `https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/TERMS.md` |
 
 ### Promotional Text (optional, 170 chars)
 
 ```
-GPS circuit maps, calendar, track walk, and AI coach for motorcycle road racing — setups stay on your device.
+Kart maps, calendar, track walk, and AI coach for Australian karting — setups stay on your device.
+```
+
+### What’s New (release notes)
+
+```
+First iOS TestFlight of KartRacer. Australian kart companion: circuit study, calendar, track notes, Kart Setup Tool, and Driver Coach. No accounts. Setups stay on your device.
 ```
 
 ## Version 1.0 — United Kingdom localization (English / en-GB)
 
-**Primary App Store locale remains English (Australia).** Add a UK localization in ASC for App Store UK storefront.
+**Primary App Store locale remains English (Australia).** AU-first launch. Add a UK localization only if you want the UK storefront; do not claim UK circuits as the default catalog.
 
 ### Description (UK)
 
 ```
-RoadRacer is your motorcycle road-racing companion — circuit study, race calendar, track notes, and AI coaching in one place.
+KartRacer is an Australian kart-racing companion from Motorsport Is Life — circuit study, calendar, track notes, and AI coaching. AU-first launch; the same app, kart data instead of motorcycle road race.
 
-Learn a circuit before you ride it. Track Details draws each layout from its real GPS trace, at the true width of the road, with a suggested racing line you can zoom into and a corner-by-corner list to hold your own notes. Walk Brands Hatch, Donington, Cadwell and more with typed or spoken notes and photos, then send them straight to your coach.
+Learn a circuit from GPX layouts, numbered turns, and a suggested racing line where we have one. Walk the track with notes and photos. Keep Kart Setup Tool sheets on your device. Ask Driver Coach or Kart Setup AI, or use Q&A and trivia.
 
-Check the race calendar and add reminders to your own calendar. Keep Day Setup Sheets, bike balance, gearing, and tyre-wear notes on your device. Ask the Rider Coach or Bike Setup AI for practical guidance for UK track days and club racing, or use Q&A and trivia to sharpen your knowledge.
-
-Your profile, avatar, setups, and track notes stay private on your device. AI chats you send go to the RoadRacer API and may be processed by OpenAI; chat history is not kept on our server after the reply.
-
-Everything here is informational: the suggested line is a suggestion, not instruction, and we do not model lap times for you.
-
-Built for UK track-day riders and club racers who live motorsport.
+Profile and setups stay on your device. AI chats may be processed by OpenAI; chat history is not kept on our server after the reply. The suggested line is a guide only; no modelled lap times.
 ```
 
 ### Keywords (UK — max 100 characters)
 
 ```
-motorcycle,racing,BSB,superbike,track day,bike setup,coach,calendar
+kart,karting,racing,Rotax,IAME,coach,calendar,club
 ```
 
-(Character count: 74 — uses BSB instead of motogp to fit UK search intent; keep trademarks accurate.)
+(Character count: 50)
 
 ### Promotional Text (UK, optional, 170 chars)
 
 ```
-GPS circuit maps, BSB calendar, UK track walk, and AI coach for motorcycle road racing — setups stay on your device.
+Kart maps, calendar, track walk, and AI coach — AU-first launch, setups stay on your device.
 ```
 
 UK review contact: same as AU (`projectapex@outlook.com.au`; phone may remain +61).
@@ -154,11 +158,11 @@ Demo account: not required (no login). Full Guideline 2.1 Notes, shot list, and 
 You must select a build under **Build** on the version page. That appears only after a successful EAS iOS upload:
 
 ```powershell
-cd C:\Users\Administrator\.cursor\Send-It\app
-npx eas-cli@latest build -p ios --profile production --no-wait
+cd C:\KartRacer\app
+npx eas-cli@latest build -p ios --profile production --auto-submit --no-wait
 ```
 
-Then in ASC: Build → **+** → select the processed build.
+First build needs an interactive Apple login so EAS can create the Distribution cert and App Store profile for `com.milkartracer.app`. Then in ASC: Build → **+** → select the processed build.
 
 ## Screenshots (iPhone 6.5")
 
@@ -167,45 +171,25 @@ Required sizes include:
 - **1242 × 2688** or **1284 × 2778** (portrait)
 - Landscape equivalents if you upload landscape
 
-Upload **at least 3** screenshots for iPhone 6.5" Display. Ready files (all **1284 × 2778**):
+Upload **at least 3** screenshots for iPhone 6.5" Display. Capture them from the **KartRacer TestFlight** binary. Do **not** reuse RoadRacer / Send-It screenshots (bike setup, News, motorcycle maps).
 
-> **Slot 1 must be recaptured before the next submission.** The `-01-news` files show the removed News feature. Uploading them with a build that has no News is a Guideline 2.3 rejection. Replace with **Track Details** (the GPX map with its suggested line) — it is the strongest screen in the build and the one the description now leads on. Screenshots are locked while the version is in review or Pending Developer Release, so pull the version back first.
+Suggested order once you have captures:
 
-| Order | File | Screen |
-|-------|------|--------|
-| 1 | ~~`asc-iphone65-01-news.png`~~ — **recapture as Track Details** | Track Details GPX map |
-| 2 | [`docs/ios/screenshots/iphone-6.5/asc-iphone65-02-track.png`](screenshots/iphone-6.5/asc-iphone65-02-track.png) | Track walk / Bend |
-| 3 | [`docs/ios/screenshots/iphone-6.5/asc-iphone65-03-setup.png`](screenshots/iphone-6.5/asc-iphone65-03-setup.png) | Bike Setup |
-| 4 | [`docs/ios/screenshots/iphone-6.5/asc-iphone65-04-tyre.png`](screenshots/iphone-6.5/asc-iphone65-04-tyre.png) | Tyre Wear Analysis |
+| Order | Screen |
+|-------|--------|
+| 1 | Track Details GPX map (numbered turns + suggested line) |
+| 2 | Track Walk |
+| 3 | Kart Setup Tool |
+| 4 | Home / Driver Coach |
 
-In ASC: **App Store** → version → **iPhone 6.5" Display** → upload 1–4 (minimum three). Do not upload arbitrary promo sizes without resizing.
+In ASC: **App Store** → version → **iPhone 6.5" Display** → upload at least three.
 
 ## Screenshots (iPad 12.9" / 13")
 
 Accepted sizes: **2064 × 2752**, **2752 × 2064**, **2048 × 2732**, or **2732 × 2048**.
 
-Ready files (portrait **2064 × 2752**):
-
-| Order | File | Screen |
-|-------|------|--------|
-| 1 | ~~`asc-ipad13-01-news.png`~~ — **recapture as Track Details** | Track Details GPX map |
-| 2 | [`docs/ios/screenshots/ipad-13/asc-ipad13-02-track.png`](screenshots/ipad-13/asc-ipad13-02-track.png) | Track walk / Bend |
-| 3 | [`docs/ios/screenshots/ipad-13/asc-ipad13-03-setup.png`](screenshots/ipad-13/asc-ipad13-03-setup.png) | Bike Setup |
-| 4 | [`docs/ios/screenshots/ipad-13/asc-ipad13-04-tyre.png`](screenshots/ipad-13/asc-ipad13-04-tyre.png) | Tyre Wear Analysis |
-
-In ASC: **App Store** → version → **iPad 12.9" / 13" Display** → upload at least three.
+Same KartRacer screens as iPhone. `supportsTablet` is true — either upload iPad shots or uncheck tablet.
 
 ## Screenshots (Apple Watch)
 
-Accepted sizes include Ultra 3 **422 × 514** or **410 × 502**, Series 11 **416 × 496**, Series 9 **396 × 484**, Series 6 **368 × 448**, Series 3 **312 × 390**.
-
-Ready files (Ultra 3 portrait **422 × 514**):
-
-| Order | File | Screen |
-|-------|------|--------|
-| 1 | ~~`asc-watch-01-news.png`~~ — **recapture or drop this slot** | Track Details or Calendar |
-| 2 | [`docs/ios/screenshots/apple-watch-ultra3/asc-watch-02-calendar.png`](screenshots/apple-watch-ultra3/asc-watch-02-calendar.png) | Calendar / next event |
-| 3 | [`docs/ios/screenshots/apple-watch-ultra3/asc-watch-03-coach.png`](screenshots/apple-watch-ultra3/asc-watch-03-coach.png) | Corner coach tip |
-| 4 | [`docs/ios/screenshots/apple-watch-ultra3/asc-watch-04-tyre.png`](screenshots/apple-watch-ultra3/asc-watch-04-tyre.png) | Tyre wear |
-
-Only upload these if ASC shows an Apple Watch screenshot slot (Watch companion target). RoadRacer iOS alone usually does **not** require Watch screenshots.
+KartRacer iOS alone does **not** require Watch screenshots. Do not upload Watch slots unless ASC shows a Watch companion target.
