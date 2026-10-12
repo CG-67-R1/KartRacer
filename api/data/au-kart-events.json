@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T12:55:37.968Z",
+  "updatedAt": "2026-10-12T13:47:39.016Z",
   "sourceCount": 8,
   "eventCount": 178,
   "errors": [],
@@ -495,20 +495,6 @@
       "confidence": "high"
     },
     {
-      "name": "Cairns Kart Club Club Meeting Cairns 52 Springs Road, Mareeba Crossy_s Crane Hire Gary Russell Memorial Cairns Kart Club Championship Round 2 1.pdf",
-      "start_date": "2026-04-11",
-      "end_date": "2026-04-11",
-      "state": "QLD",
-      "venue": null,
-      "organiser": "Karting Queensland",
-      "source_id": "kartingqld",
-      "source_url": "https://www.kartingqld.com.au/calendar/",
-      "entry_url": "https://www.google.com/maps/place/52+Springs+Road,+Mareeba",
-      "discipline": "kart",
-      "notes": null,
-      "confidence": "high"
-    },
-    {
       "name": "Warwick Kart Club State Trophy Warwick Junior p Guns Sandy Creek Rd, Warwick Junior p Guns 2026.pdf Junior p Guns Addendum 1.pdf Addendum 2 1.pdf",
       "start_date": "2026-04-11",
       "end_date": "2026-04-12",
@@ -532,6 +518,20 @@
       "source_id": "kartingqld",
       "source_url": "https://www.kartingqld.com.au/calendar/",
       "entry_url": "https://www.google.com/maps/place/South+Trees+Road,+Gladstone",
+      "discipline": "kart",
+      "notes": null,
+      "confidence": "high"
+    },
+    {
+      "name": "Cairns Kart Club Club Meeting Cairns 52 Springs Road, Mareeba Crossy_s Crane Hire Gary Russell Memorial Cairns Kart Club Championship Round 2 1.pdf",
+      "start_date": "2026-04-11",
+      "end_date": "2026-04-11",
+      "state": "QLD",
+      "venue": null,
+      "organiser": "Karting Queensland",
+      "source_id": "kartingqld",
+      "source_url": "https://www.kartingqld.com.au/calendar/",
+      "entry_url": "https://www.google.com/maps/place/52+Springs+Road,+Mareeba",
       "discipline": "kart",
       "notes": null,
       "confidence": "high"
@@ -1307,20 +1307,6 @@
       "confidence": "high"
     },
     {
-      "name": "owoomba & Lockyer Valley Kart Club Inc Club Meeting owoomba 40 Snellings Road, Helidon owoomba July 2026 Supplementary Regulations.pdf",
-      "start_date": "2026-07-19",
-      "end_date": "2026-07-19",
-      "state": "QLD",
-      "venue": null,
-      "organiser": "Karting Queensland",
-      "source_id": "kartingqld",
-      "source_url": "https://www.kartingqld.com.au/calendar/",
-      "entry_url": "https://www.google.com/maps/place/40+Snellings+Road,+Helidon",
-      "discipline": "kart",
-      "notes": null,
-      "confidence": "high"
-    },
-    {
       "name": "Glads ne Kart Club Club Meeting Glads ne South Trees Road, Glads ne 19 July Glads ne Meet Supplementary Regulations.pdf",
       "start_date": "2026-07-19",
       "end_date": "2026-07-19",
@@ -1330,6 +1316,20 @@
       "source_id": "kartingqld",
       "source_url": "https://www.kartingqld.com.au/calendar/",
       "entry_url": "https://www.google.com/maps/place/South+Trees+Road,+Gladstone",
+      "discipline": "kart",
+      "notes": null,
+      "confidence": "high"
+    },
+    {
+      "name": "owoomba & Lockyer Valley Kart Club Inc Club Meeting owoomba 40 Snellings Road, Helidon owoomba July 2026 Supplementary Regulations.pdf",
+      "start_date": "2026-07-19",
+      "end_date": "2026-07-19",
+      "state": "QLD",
+      "venue": null,
+      "organiser": "Karting Queensland",
+      "source_id": "kartingqld",
+      "source_url": "https://www.kartingqld.com.au/calendar/",
+      "entry_url": "https://www.google.com/maps/place/40+Snellings+Road,+Helidon",
       "discipline": "kart",
       "notes": null,
       "confidence": "high"
@@ -1741,20 +1741,6 @@
       "confidence": "high"
     },
     {
-      "name": "Cairns Kart Club Club Meeting Cairns 52 Springs Road, Mareeba Cairns ChemSafe FNQ Titles.pdf",
-      "start_date": "2026-09-12",
-      "end_date": "2026-09-12",
-      "state": "QLD",
-      "venue": null,
-      "organiser": "Karting Queensland",
-      "source_id": "kartingqld",
-      "source_url": "https://www.kartingqld.com.au/calendar/",
-      "entry_url": "https://www.google.com/maps/place/52+Springs+Road,+Mareeba",
-      "discipline": "kart",
-      "notes": null,
-      "confidence": "high"
-    },
-    {
       "name": "Warwick Kart Club Club Meeting Warwick Sandy Creek Rd, Warwick Warwick Kart Club _ Round 7 1.pdf",
       "start_date": "2026-09-12",
       "end_date": "2026-09-13",
@@ -1764,6 +1750,20 @@
       "source_id": "kartingqld",
       "source_url": "https://www.kartingqld.com.au/calendar/",
       "entry_url": "https://www.google.com/maps/place/Sandy+Creek+Rd,+Warwick",
+      "discipline": "kart",
+      "notes": null,
+      "confidence": "high"
+    },
+    {
+      "name": "Cairns Kart Club Club Meeting Cairns 52 Springs Road, Mareeba Cairns ChemSafe FNQ Titles.pdf",
+      "start_date": "2026-09-12",
+      "end_date": "2026-09-12",
+      "state": "QLD",
+      "venue": null,
+      "organiser": "Karting Queensland",
+      "source_id": "kartingqld",
+      "source_url": "https://www.kartingqld.com.au/calendar/",
+      "entry_url": "https://www.google.com/maps/place/52+Springs+Road,+Mareeba",
       "discipline": "kart",
       "notes": null,
       "confidence": "high"
@@ -1853,20 +1853,6 @@
       "confidence": "high"
     },
     {
-      "name": "owoomba & Lockyer Valley Kart Club Inc Club Meeting owoomba 40 Snellings Road, Helidon owoomba September Supp Regs.pdf",
-      "start_date": "2026-09-20",
-      "end_date": "2026-09-20",
-      "state": "QLD",
-      "venue": null,
-      "organiser": "Karting Queensland",
-      "source_id": "kartingqld",
-      "source_url": "https://www.kartingqld.com.au/calendar/",
-      "entry_url": "https://www.google.com/maps/place/40+Snellings+Road,+Helidon",
-      "discipline": "kart",
-      "notes": null,
-      "confidence": "high"
-    },
-    {
       "name": "Bundaberg Kart Club Club Meeting Bundaberg University Drive, Bundaberg 2026 BKC CLUB CHAMPS ROUND 4 _ Supplementary Regulations.pdf",
       "start_date": "2026-09-20",
       "end_date": "2026-09-20",
@@ -1876,6 +1862,20 @@
       "source_id": "kartingqld",
       "source_url": "https://www.kartingqld.com.au/calendar/",
       "entry_url": "https://www.google.com/maps/place/University+Drive,+Bundaberg",
+      "discipline": "kart",
+      "notes": null,
+      "confidence": "high"
+    },
+    {
+      "name": "owoomba & Lockyer Valley Kart Club Inc Club Meeting owoomba 40 Snellings Road, Helidon owoomba September Supp Regs.pdf",
+      "start_date": "2026-09-20",
+      "end_date": "2026-09-20",
+      "state": "QLD",
+      "venue": null,
+      "organiser": "Karting Queensland",
+      "source_id": "kartingqld",
+      "source_url": "https://www.kartingqld.com.au/calendar/",
+      "entry_url": "https://www.google.com/maps/place/40+Snellings+Road,+Helidon",
       "discipline": "kart",
       "notes": null,
       "confidence": "high"
@@ -2091,20 +2091,6 @@
       "confidence": "high"
     },
     {
-      "name": "Bundaberg Kart Club Club Meeting Bundaberg University Drive, Bundaberg",
-      "start_date": "2026-10-24",
-      "end_date": "2026-10-25",
-      "state": "QLD",
-      "venue": null,
-      "organiser": "Karting Queensland",
-      "source_id": "kartingqld",
-      "source_url": "https://www.kartingqld.com.au/calendar/",
-      "entry_url": "https://www.google.com/maps/place/University+Drive,+Bundaberg",
-      "discipline": "kart",
-      "notes": null,
-      "confidence": "high"
-    },
-    {
       "name": "owoomba & Lockyer Valley Kart Club Inc Club Meeting owoomba 40 Snellings Road, Helidon",
       "start_date": "2026-10-24",
       "end_date": "2026-10-25",
@@ -2114,6 +2100,20 @@
       "source_id": "kartingqld",
       "source_url": "https://www.kartingqld.com.au/calendar/",
       "entry_url": "https://www.google.com/maps/place/40+Snellings+Road,+Helidon",
+      "discipline": "kart",
+      "notes": null,
+      "confidence": "high"
+    },
+    {
+      "name": "Bundaberg Kart Club Club Meeting Bundaberg University Drive, Bundaberg 2026 BKC CLUB CHAMPS ROUND 5.pdf",
+      "start_date": "2026-10-25",
+      "end_date": "2026-10-25",
+      "state": "QLD",
+      "venue": null,
+      "organiser": "Karting Queensland",
+      "source_id": "kartingqld",
+      "source_url": "https://www.kartingqld.com.au/calendar/",
+      "entry_url": "https://www.google.com/maps/place/University+Drive,+Bundaberg",
       "discipline": "kart",
       "notes": null,
       "confidence": "high"
