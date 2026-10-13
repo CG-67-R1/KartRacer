@@ -101,8 +101,8 @@
       ]
     ],
     "extra": {
-      "privacyPolicyUrl": "https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/PRIVACY.md",
-      "termsOfUseUrl": "https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/TERMS.md",
+      "privacyPolicyUrl": "https://kartracer.vercel.app/privacy",
+      "termsOfUseUrl": "https://kartracer.vercel.app/terms",
       "eas": {
         "projectId": "0a94c0fe-79b2-46b3-a8f6-5001cd234926"
       }

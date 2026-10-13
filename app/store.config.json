@@ -7,6 +7,13 @@
     "release": {
       "automaticRelease": false
     },
+    "review": {
+      "firstName": "Christopher",
+      "lastName": "Greene",
+      "email": "projectapex@outlook.com.au",
+      "demoRequired": false,
+      "notes": "No account required. No IAP. No ATT. Track Walk Private/Team/Community is a local label only. Hosted API is not live; Coach/Q&A may time out. On-device: Home, Track Details, Kart Setup Tool, Settings. Privacy: https://kartracer.vercel.app/privacy"
+    },
     "advisory": {
       "ageRatingOverride": "NONE",
       "alcoholTobaccoOrDrugUseOrReferences": "NONE",
@@ -42,22 +49,22 @@
         "subtitle": "Kart racing support",
         "description": "KartRacer is your Australian kart-racing companion from Motorsport Is Life — circuit study, race calendar, track notes, and AI coaching in one place.\n\nLearn a circuit before you drive it. Track Details draws layouts from real GPX traces, with numbered turns and a suggested racing line where we have one. Tap a turn to zoom that corner. Walk the track with typed or spoken notes and photos, then send them to your coach.\n\nCheck the calendar and add reminders. Keep Kart Setup Tool sheets, gearing, and session notes on your device. Ask Driver Coach or Kart Setup AI for practical guidance, or use Q&A and trivia.\n\nYour profile, avatar, setups, and track notes stay private on your device. AI chats you send go to the KartRacer API and may be processed by OpenAI; chat history is not kept on our server after the reply.\n\nEverything here is informational: the suggested line is a suggestion, not instruction, and we do not model lap times for you.\n\nBuilt for club racers and kart fans who live motorsport.",
         "keywords": "kart,karting,racing,AKC,Rotax,IAME,coach,calendar",
-        "releaseNotes": "First iOS TestFlight of KartRacer. Australian kart companion: circuit study, calendar, track notes, Kart Setup Tool, and Driver Coach. No accounts. Setups stay on your device.",
+        "releaseNotes": "Latest TestFlight: numbered GPX corners and racing-line overlay, Engineer Kart Setup Tool (weather import and calculators), intermediate driver coaching, and just-love-karts onboarding. No accounts. Setups stay on your device.",
         "promoText": "Kart maps, calendar, track walk, and AI coach for Australian karting — setups stay on your device.",
         "marketingUrl": "https://kartracer.vercel.app/promo",
         "supportUrl": "https://github.com/CG-67-R1/KartRacer",
-        "privacyPolicyUrl": "https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/PRIVACY.md"
+        "privacyPolicyUrl": "https://kartracer.vercel.app/privacy"
       },
       "en-GB": {
         "title": "KartRacer - Motorsport_Is_Life",
         "subtitle": "Kart racing support",
         "description": "KartRacer is an Australian kart-racing companion from Motorsport Is Life — circuit study, calendar, track notes, and AI coaching. AU-first launch; the same app, kart data instead of motorcycle road race.\n\nLearn a circuit from GPX layouts, numbered turns, and a suggested racing line where we have one. Walk the track with notes and photos. Keep Kart Setup Tool sheets on your device. Ask Driver Coach or Kart Setup AI, or use Q&A and trivia.\n\nProfile and setups stay on your device. AI chats may be processed by OpenAI; chat history is not kept on our server after the reply. The suggested line is a guide only; no modelled lap times.",
         "keywords": "kart,karting,racing,Rotax,IAME,coach,calendar,club",
-        "releaseNotes": "First iOS TestFlight of KartRacer. AU-first kart companion: maps, calendar, track notes, Kart Setup Tool, and Driver Coach. No accounts.",
+        "releaseNotes": "Latest TestFlight: numbered GPX corners, Engineer setup calculators, intermediate coaching, and kart onboarding. AU-first. No accounts.",
         "promoText": "Kart maps, calendar, track walk, and AI coach — AU-first launch, setups stay on your device.",
         "marketingUrl": "https://kartracer.vercel.app/promo",
         "supportUrl": "https://github.com/CG-67-R1/KartRacer",
-        "privacyPolicyUrl": "https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/PRIVACY.md"
+        "privacyPolicyUrl": "https://kartracer.vercel.app/privacy"
       }
     }
   }

@@ -45,9 +45,9 @@ export const ROADRACE_FAQS_URL = `${API_BASE_URL}/roadrace-ai/faqs`;
 
 /** Public legal docs (GitHub). Update if you host HTML pages elsewhere. */
 export const PRIVACY_POLICY_URL =
-  'https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/PRIVACY.md';
+  'https://kartracer.vercel.app/privacy';
 export const TERMS_OF_USE_URL =
-  'https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/TERMS.md';
+  'https://kartracer.vercel.app/terms';
 
 /** Default for callers that do not pass `signal`. LLM routes should pass a longer timeout. */
 export const DEFAULT_API_TIMEOUT_MS = 60_000;

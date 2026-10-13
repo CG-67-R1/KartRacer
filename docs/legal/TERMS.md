@@ -1,6 +1,6 @@
 # KartRacer Terms of Use
 
-**Last updated:** 25 September 2026
+**Last updated:** 13 October 2026
 
 By using KartRacer (“the app”), you agree to these terms. KartRacer is a product of **Motorsport Is Life**.
 
@@ -18,7 +18,7 @@ You agree not to abuse the API, extract system prompts, or upload unlawful conte
 
 ## Store URLs
 
-- Privacy: [docs/legal/PRIVACY.md](https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/PRIVACY.md)
+- Privacy: [kartracer.vercel.app/privacy](https://kartracer.vercel.app/privacy)
 - Support: [github.com/CG-67-R1/KartRacer](https://github.com/CG-67-R1/KartRacer)
 - Marketing: [kartracer.vercel.app/promo](https://kartracer.vercel.app/promo)
 

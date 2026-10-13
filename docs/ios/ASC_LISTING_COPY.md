@@ -1,6 +1,6 @@
 # App Store Connect — listing copy (en-AU)
 
-Paste-ready values for **KartRacer - Motorsport_Is_Life** (`com.milkartracer.app`, ASC `6815476086`).
+Paste-ready values for **KartRacer - Motorsport_Is_Life** (`com.milkartracer.app`, ASC `6815476086`). Submit checklist: [`ASC_SUBMIT_CHECKLIST.md`](ASC_SUBMIT_CHECKLIST.md).
 
 Do not paste RoadRacer / Send-It URLs or `com.milroadracer.app`.
 
@@ -8,7 +8,7 @@ Do not paste RoadRacer / Send-It URLs or `com.milroadracer.app`.
 
 | Field | Value |
 |--------|--------|
-| Privacy Policy URL | `https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/PRIVACY.md` |
+| Privacy Policy URL | `https://kartracer.vercel.app/privacy` |
 
 Also complete the **App Privacy** questionnaire to match reality:
 
@@ -95,8 +95,8 @@ kart,karting,racing,AKC,Rotax,IAME,coach,calendar
 |--------|--------|
 | Support URL | `https://github.com/CG-67-R1/KartRacer` |
 | Marketing URL (optional) | `https://kartracer.vercel.app/promo` |
-| Privacy Policy URL | `https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/PRIVACY.md` |
-| Terms of Use URL | `https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/TERMS.md` |
+| Privacy Policy URL | `https://kartracer.vercel.app/privacy` |
+| Terms of Use URL | `https://kartracer.vercel.app/terms` |
 
 ### Promotional Text (optional, 170 chars)
 
@@ -107,7 +107,7 @@ Kart maps, calendar, track walk, and AI coach for Australian karting — setups 
 ### What’s New (release notes)
 
 ```
-First iOS TestFlight of KartRacer. Australian kart companion: circuit study, calendar, track notes, Kart Setup Tool, and Driver Coach. No accounts. Setups stay on your device.
+Latest TestFlight: numbered GPX corners and racing-line overlay, Engineer Kart Setup Tool (weather import and calculators), intermediate driver coaching, and just-love-karts onboarding. No accounts. Setups stay on your device.
 ```
 
 ## Version 1.0 — United Kingdom localization (English / en-GB)
@@ -146,8 +146,8 @@ Use a real person Apple can reach:
 
 | Field | Suggested |
 |--------|-----------|
-| First name | (your first name) |
-| Last name | (your last name) |
+| First name | Christopher |
+| Last name | Greene |
 | Phone | (your mobile with country code, e.g. +61…) |
 | Email | `projectapex@outlook.com.au` (same as privacy contact) |
 

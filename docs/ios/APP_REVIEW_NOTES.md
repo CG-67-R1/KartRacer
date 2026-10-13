@@ -90,8 +90,8 @@ Target audience: adults interested in kart racing (not children). Informational 
 - Q & A: Ask, Official rule check, Trivia, FAQs. Network for Ask/rules.
 - Settings → track arrival: optional foreground location near a known circuit.
 - Settings → Your data & privacy: export/delete local data; Privacy Policy and Terms.
-Hosted API is not live yet. Coach / Kart Setup AI / Q&A may time out unless a KartRacer API is reachable. Privacy: https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/PRIVACY.md
-Terms: https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/TERMS.md
+Hosted API is not live yet. Coach / Kart Setup AI / Q&A may time out unless a KartRacer API is reachable. Privacy: https://kartracer.vercel.app/privacy
+Terms: https://kartracer.vercel.app/terms
 
 5) EXTERNAL SERVICES
 - KartRacer API: not hosted yet (local default http://localhost:3001) — calendar, Q&A, Coach/Kart Setup proxy when reachable

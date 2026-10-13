@@ -12,7 +12,7 @@ Operational map for this app. Confirm live status in [App Store Connect](https:/
 | SKU | not recorded |
 | Team | `UAWP5NV4NQ` — Individual (seller name = legal name) |
 | Expo | [motorsport-is-life/kartracer](https://expo.dev/accounts/motorsport-is-life/projects/kartracer) |
-| Privacy / Terms | https://github.com/CG-67-R1/KartRacer/blob/main/docs/legal/PRIVACY.md and TERMS.md — also `app.json` extra + `app/constants/api.ts` |
+| Privacy / Terms | https://kartracer.vercel.app/privacy and https://kartracer.vercel.app/terms — also `app.json` extra + `app/constants/api.ts` |
 | Listing copy | `docs/ios/ASC_LISTING_COPY.md` |
 | Review notes | `docs/ios/APP_REVIEW_NOTES.md` |
 | Signing setup | `docs/ios/APPLE_DEVELOPER_SETUP.md` |

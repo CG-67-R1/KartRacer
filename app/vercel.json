@@ -4,6 +4,8 @@
   "framework": null,
   "installCommand": "npm install --legacy-peer-deps",
   "rewrites": [
-    { "source": "/promo", "destination": "/promo.html" }
+    { "source": "/promo", "destination": "/promo.html" },
+    { "source": "/privacy", "destination": "/privacy.html" },
+    { "source": "/terms", "destination": "/terms.html" }
   ]
 }
