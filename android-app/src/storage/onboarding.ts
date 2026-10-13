@@ -2,11 +2,13 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { STORAGE_KEYS } from '../constants/storageKeys';
 import { clearAvatarFacePhoto } from './avatarFacePhoto';
 import { logStorageError } from './logStorageError';
+import { normalizeRideActivity, type RideActivity } from './rideActivity';
 
 const KEY_ONBOARDING_DONE = STORAGE_KEYS.ONBOARDING_DONE;
 const KEY_ONBOARDING_ANSWERS = STORAGE_KEYS.ONBOARDING_ANSWERS;
 
-export type RideActivity = 'race' | 'intermediate' | 'track_days' | 'just_love_bikes' | 'race_one_day';
+export type { RideActivity } from './rideActivity';
+export { normalizeRideActivity } from './rideActivity';
 
 /** Sentinel when the favourite-kart question is skipped. Also accept the old `'my bike'` value. */
 export const FAVOURITE_KART_UNSET = 'my kart';
@@ -67,10 +69,22 @@ export async function setOnboardingDone(): Promise<void> {
 export async function getOnboardingAnswers(): Promise<OnboardingAnswers | null> {
   try {
     const raw = await AsyncStorage.getItem(KEY_ONBOARDING_ANSWERS);
-    if (raw) {
-      const parsed = JSON.parse(raw);
-      if (parsed && typeof parsed.favouriteBike === 'string') return parsed as OnboardingAnswers;
+    if (!raw) return null;
+    const parsed = JSON.parse(raw) as Partial<OnboardingAnswers> | null;
+    if (!parsed || typeof parsed.favouriteBike !== 'string') return null;
+    const storedActivity = (parsed as { activity?: unknown }).activity;
+    const activity = normalizeRideActivity(storedActivity);
+    if (storedActivity === 'just_love_bikes' && activity) {
+      const migrated: OnboardingAnswers = { ...(parsed as OnboardingAnswers), activity };
+      try {
+        await AsyncStorage.setItem(KEY_ONBOARDING_ANSWERS, JSON.stringify(migrated));
+      } catch (e) {
+        logStorageError('migrate just_love_bikes', e);
+      }
+      return migrated;
     }
+    if (activity) return { ...(parsed as OnboardingAnswers), activity };
+    return parsed as OnboardingAnswers;
   } catch (e) {
     logStorageError('getOnboardingAnswers', e);
   }

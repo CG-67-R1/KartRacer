@@ -256,7 +256,7 @@ export function KartSessionUploadScreen() {
       {analysis && table.length > 0 ? (
         <View style={styles.panel}>
           <Text style={styles.panelTitle}>Laps</Text>
-          <Text style={styles.hint}>Tap two laps to compare. Yellow is selected.</Text>
+          <Text style={styles.hint}>Tap two laps to compare. Selected laps are ticked and highlighted.</Text>
           <View style={styles.tableHead}>
             <Text style={[styles.cell, styles.cellLap, styles.cellHead]}>Lap</Text>
             <Text style={[styles.cell, styles.cellHead]}>Time</Text>
@@ -272,8 +272,12 @@ export function KartSessionUploadScreen() {
                 key={row.lap}
                 style={[styles.tableRow, on ? styles.tableRowOn : null]}
                 onPress={() => toggleLap(row.lap)}
+                accessibilityRole="button"
+                accessibilityState={{ selected: on }}
+                accessibilityLabel={`Lap ${row.lap}${on ? ', selected' : ''}${isBest ? ', best lap' : ''}`}
               >
                 <Text style={[styles.cell, styles.cellLap]}>
+                  {on ? '✓ ' : ''}
                   {row.lap}
                   {isBest ? ' ★' : ''}
                 </Text>
@@ -423,9 +427,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderTopWidth: 1,
     borderTopColor: '#334155',
+    borderLeftWidth: 3,
+    borderLeftColor: 'transparent',
     paddingVertical: 8,
   },
-  tableRowOn: { backgroundColor: 'rgba(245,158,11,0.12)' },
+  tableRowOn: { backgroundColor: 'rgba(245,158,11,0.12)', borderLeftColor: '#f59e0b' },
   cell: { flex: 1, color: '#e2e8f0', fontSize: 12 },
   cellLap: { flex: 0.6, fontWeight: '700' },
   cellHead: { color: '#94a3b8', fontWeight: '700' },

@@ -197,6 +197,8 @@ const styles = StyleSheet.create({
   chip: {
     paddingVertical: 8,
     paddingHorizontal: 10,
+    minHeight: 44,
+    justifyContent: 'center',
     borderRadius: 8,
     backgroundColor: '#1e293b',
     borderWidth: 1,

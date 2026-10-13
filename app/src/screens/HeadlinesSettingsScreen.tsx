@@ -53,7 +53,7 @@ export function HeadlinesSettingsScreen() {
   const [avatarId, setAvatarId] = useState<string | null>(null);
   const [riderNickname, setRiderNickname] = useState('');
   const [favouriteBike, setFavouriteBike] = useState('');
-  const [activity, setActivity] = useState<RideActivity>('just_love_bikes');
+  const [activity, setActivity] = useState<RideActivity>('just_love_karts');
   const [profileBusy, setProfileBusy] = useState(false);
   const [facePreviewUri, setFacePreviewUri] = useState<string | null>(null);
   const [trackArrivalReminders, setTrackArrivalRemindersState] = useState(true);
@@ -68,7 +68,7 @@ export function HeadlinesSettingsScreen() {
     setAvatarId(answers?.avatarId ?? null);
     setRiderNickname(answers?.riderNickname?.trim() || answers?.favouriteRider?.trim() || 'Driver');
     setFavouriteBike(displayFavouriteKart(answers?.favouriteBike));
-    setActivity(answers?.activity ?? 'just_love_bikes');
+    setActivity(answers?.activity ?? 'just_love_karts');
     setFacePreviewUri(uri);
   }, []);
 

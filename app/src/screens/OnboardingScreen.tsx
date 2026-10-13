@@ -19,6 +19,7 @@ import {
   setOnboardingAnswers,
   favouriteKartOrUnset,
   type OnboardingAnswers,
+  type RideActivity,
 } from '../storage/onboarding';
 import { AVATAR_PRESETS, DEFAULT_FACE_HOLE_LAYOUT, getAvatarPreset, getAvatarSource, getFaceHoleLayout, pickRandomNoPhotoAvatar } from '../avatar/presets';
 import { setAvatarFacePhotoUri, clearAvatarFacePhoto } from '../storage/avatarFacePhoto';
@@ -26,8 +27,6 @@ import { AvatarFaceAlignModal } from '../components/AvatarFaceAlignModal';
 import { AvatarFaceCameraModal } from '../components/AvatarFaceCameraModal';
 import { AvatarFaceEllipse } from '../components/AvatarFaceEllipse';
 import { useAvatarFacePicker } from '../hooks/useAvatarFacePicker';
-
-type Activity = 'race' | 'intermediate' | 'track_days' | 'just_love_bikes' | 'race_one_day';
 
 /** Keep in sync with step UI below — progress dots derive from this list. */
 const ONBOARDING_STEPS = [
@@ -41,11 +40,11 @@ const ONBOARDING_STEPS = [
   'summary',
 ] as const;
 
-const ACTIVITY_OPTIONS: { value: Activity; label: string }[] = [
+const ACTIVITY_OPTIONS: { value: RideActivity; label: string }[] = [
   { value: 'race', label: 'I race 🏁' },
   { value: 'intermediate', label: 'Intermediate driver' },
   { value: 'track_days', label: 'Practice / club days 🛞' },
-  { value: 'just_love_bikes', label: 'Just love karts' },
+  { value: 'just_love_karts', label: 'Just love karts' },
   { value: 'race_one_day', label: "I would like to know about local racing" },
 ];
 
@@ -57,7 +56,7 @@ export function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
   const [step, setStep] = useState(0);
   const [favouriteBike, setFavouriteBike] = useState('');
   const [favouriteRider, setFavouriteRider] = useState('');
-  const [activity, setActivity] = useState<Activity | null>(null);
+  const [activity, setActivity] = useState<RideActivity | null>(null);
   const [wantsRacingInfo, setWantsRacingInfo] = useState<boolean | null>(null);
   const [selectedStateCode, setSelectedStateCode] = useState<string | null>(null);
   const [wantsRacingEmailInfo, setWantsRacingEmailInfo] = useState<boolean | null>(null);
@@ -112,7 +111,7 @@ export function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
     const answers: OnboardingAnswers = {
       favouriteBike: favouriteKartOrUnset(favouriteBike),
       favouriteRider: favouriteRider.trim() || 'my hero',
-      activity: activity ?? 'just_love_bikes',
+      activity: activity ?? 'just_love_karts',
       knowsJustSendIt: false,
       riderNickname: riderNickname.trim() || 'Driver',
       futureRacer: activity === 'race_one_day' || undefined,

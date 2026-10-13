@@ -24,6 +24,8 @@ const DATA = jettingJson as JettingData;
 export const JETTING_SOURCE = "https://www.angriracing.com/jetting-and-air-density";
 
 export type JettingResult = {
+  /** False when stamp or either RAD is not above 0. Do not show suggestedStamp. */
+  valid: boolean;
   radBasePct: number;
   radNewPct: number;
   flowFactor: number;
@@ -50,7 +52,23 @@ export function nextMainJet(input: {
   radBasePct: number;
   radNewPct: number;
 }): JettingResult {
-  const radBasePct = input.radBasePct > 0 ? input.radBasePct : 1;
+  if (!(input.radBasePct > 0) || !(input.radNewPct > 0) || !(input.baselineStamp > 0)) {
+    return {
+      valid: false,
+      radBasePct: 0,
+      radNewPct: 0,
+      flowFactor: 0,
+      oldDiameterMm: 0,
+      newDiameterMm: 0,
+      suggestedStamp: 0,
+      deltaStamps: 0,
+      direction: "hold",
+      summary: "Check your RAD inputs — baseline stamp and both RAD values must be above 0.",
+      confirm: DATA.confirm,
+      kbSource: JETTING_SOURCE,
+    };
+  }
+  const radBasePct = input.radBasePct;
   const flowFactor = 1 + (input.radNewPct - radBasePct) / radBasePct;
   const oldDiameterMm = input.baselineStamp / 100;
   const newDiameterMm = Math.sqrt(Math.max(0, oldDiameterMm * oldDiameterMm * flowFactor));
@@ -60,6 +78,7 @@ export function nextMainJet(input: {
     deltaStamps < 0 ? "smaller" : deltaStamps > 0 ? "larger" : "hold";
 
   return {
+    valid: true,
     radBasePct: round(radBasePct, 1),
     radNewPct: round(input.radNewPct, 1),
     flowFactor: round(flowFactor, 4),

@@ -301,10 +301,20 @@ export function KartSetupHistoryScreen() {
               <Text style={styles.hint}>{formatSnapshotLapSummary(item.lapSummary)}</Text>
             ) : null}
             <View style={styles.rowActions}>
-              <TouchableOpacity onPress={() => restore(item)}>
+              <TouchableOpacity
+                style={styles.linkBtn}
+                onPress={() => restore(item)}
+                accessibilityRole="button"
+                accessibilityLabel="Restore snapshot"
+              >
                 <Text style={styles.link}>Restore</Text>
               </TouchableOpacity>
-              <TouchableOpacity onPress={() => remove(item.id)}>
+              <TouchableOpacity
+                style={styles.dangerBtn}
+                onPress={() => remove(item.id)}
+                accessibilityRole="button"
+                accessibilityLabel="Delete snapshot"
+              >
                 <Text style={styles.danger}>Delete</Text>
               </TouchableOpacity>
             </View>
@@ -409,8 +419,15 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   historyLabel: { color: '#f8fafc', fontSize: 15, fontWeight: '700' },
-  rowActions: { flexDirection: 'row', gap: 16, marginBottom: 6 },
-  link: { color: '#fbbf24', fontSize: 14, fontWeight: '700', marginBottom: 8 },
+  rowActions: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 6,
+  },
+  linkBtn: { minHeight: 44, justifyContent: 'center', paddingHorizontal: 8 },
+  dangerBtn: { minHeight: 44, justifyContent: 'center', paddingHorizontal: 8 },
+  link: { color: '#fbbf24', fontSize: 14, fontWeight: '700' },
   danger: { color: '#f87171', fontSize: 14, fontWeight: '700' },
   overlay: { flex: 1, backgroundColor: 'rgba(0,0,0,0.6)', justifyContent: 'flex-end' },
   sheet: {

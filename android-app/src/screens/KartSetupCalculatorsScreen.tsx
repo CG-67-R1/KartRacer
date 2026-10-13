@@ -31,6 +31,19 @@ import {
 
 type ToolId = 'jetting' | 'fuel' | 'weights' | 'caster' | 'units';
 
+/** Keep every calculator mounted so switching tabs does not wipe typed inputs. */
+function ToolPane({ active, children }: { active: boolean; children: React.ReactNode }) {
+  return (
+    <View
+      style={active ? styles.pane : styles.hidden}
+      accessibilityElementsHidden={!active}
+      importantForAccessibility={active ? 'auto' : 'no-hide-descendants'}
+    >
+      {children}
+    </View>
+  );
+}
+
 const KA_FUEL_NOTE =
   'KA permits PULP (RON ≥ 95), E10, and named racing fuels; 4SS is PULP only. Oil list is homologation / CIK — confirm the meeting Supp Regs. Weather does not change the oil ratio.';
 
@@ -92,13 +105,21 @@ export function KartSetupCalculatorsScreen() {
           </TouchableOpacity>
         ))}
       </View>
-      {tool === 'jetting' ? (
+      <ToolPane active={tool === 'jetting'}>
         <JettingPanel session={session} onSetup={setSetup} onConditions={setConditions} />
-      ) : null}
-      {tool === 'fuel' ? <FuelPanel session={session} onSetup={setSetup} /> : null}
-      {tool === 'weights' ? <WeightsPanel /> : null}
-      {tool === 'caster' ? <CasterPanel /> : null}
-      {tool === 'units' ? <UnitsPanel /> : null}
+      </ToolPane>
+      <ToolPane active={tool === 'fuel'}>
+        <FuelPanel session={session} onSetup={setSetup} />
+      </ToolPane>
+      <ToolPane active={tool === 'weights'}>
+        <WeightsPanel />
+      </ToolPane>
+      <ToolPane active={tool === 'caster'}>
+        <CasterPanel />
+      </ToolPane>
+      <ToolPane active={tool === 'units'}>
+        <UnitsPanel />
+      </ToolPane>
     </ScrollView>
   );
 }
@@ -175,7 +196,7 @@ function JettingPanel({
       ) : (
         <Text style={styles.stat}>Today RAD {radNow.toFixed(1)}%</Text>
       )}
-      {result ? (
+      {result?.valid ? (
         <View>
           <Text style={styles.stat}>
             Suggested stamp {result.suggestedStamp} · flow factor {result.flowFactor} · {result.direction}
@@ -191,6 +212,8 @@ function JettingPanel({
           </Text>
           <Text style={styles.source}>Source: {result.kbSource}</Text>
         </View>
+      ) : result ? (
+        <Text style={setupFormStyles.hint}>{result.summary}</Text>
       ) : (
         <Text style={setupFormStyles.hint}>
           {radNow != null
@@ -254,9 +277,11 @@ function FuelPanel({
           onChange={(premixRatio) => onSetup({ premixRatio })}
         />
       </View>
-      <Text style={styles.stat}>
-        {result.oilMl} ml oil · {result.oilOz} fl oz
-      </Text>
+      {result.ratio > 0 && result.fuelLitres > 0 ? (
+        <Text style={styles.stat}>
+          {result.oilMl} ml oil · {result.oilOz} fl oz
+        </Text>
+      ) : null}
       <Text style={styles.body}>{result.summary}</Text>
     </View>
   );
@@ -385,4 +410,6 @@ const styles = StyleSheet.create({
   ok: { color: '#86efac', fontSize: 14, lineHeight: 20, marginBottom: 8 },
   source: { color: '#64748b', fontSize: 11, marginTop: 4 },
   conv: { color: '#e2e8f0', fontSize: 15, fontWeight: '700', alignSelf: 'center', minWidth: 90 },
+  pane: { pointerEvents: 'auto' },
+  hidden: { display: 'none', pointerEvents: 'none' },
 });

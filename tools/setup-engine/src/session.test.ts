@@ -95,9 +95,18 @@ describe("RAD jetting", () => {
       radBasePct: JETTING_EXAMPLE.rad_base_percent,
       radNewPct: JETTING_EXAMPLE.rad_new_percent,
     });
+    expect(result.valid).toBe(true);
     expect(result.suggestedStamp).toBe(JETTING_EXAMPLE.nearest_stamp);
     expect(result.direction).toBe("smaller");
     expect(result.kbSource).toContain("jetting-and-air-density");
+  });
+
+  it("refuses a zero baseline RAD instead of inventing a jet", () => {
+    const result = nextMainJet({ baselineStamp: 100, radBasePct: 0, radNewPct: 90 });
+    expect(result.valid).toBe(false);
+    expect(result.suggestedStamp).toBe(0);
+    expect(result.direction).toBe("hold");
+    expect(result.summary).toMatch(/above 0/);
   });
 
   it("reports ~100% RAD at ISA dry sea level", () => {

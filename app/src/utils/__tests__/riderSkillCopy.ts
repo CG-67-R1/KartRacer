@@ -19,7 +19,7 @@ function assert(name: string, pass: boolean, detail?: string): void {
 
 assert('track days → can_ride prep', trackPrepLevelFromActivity('track_days') === 'can_ride');
 assert('want to race → newbie prep', trackPrepLevelFromActivity('race_one_day') === 'newbie');
-assert('just love bikes → newbie prep', trackPrepLevelFromActivity('just_love_bikes') === 'newbie');
+assert('just love karts → newbie prep', trackPrepLevelFromActivity('just_love_karts') === 'newbie');
 assert('intermediate → experienced prep', trackPrepLevelFromActivity('intermediate') === 'experienced');
 assert('racer → racer prep', trackPrepLevelFromActivity('race') === 'racer');
 assert('missing → newbie prep', trackPrepLevelFromActivity(undefined) === 'newbie');

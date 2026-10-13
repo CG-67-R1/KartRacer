@@ -52,6 +52,13 @@ describe("fuel mix", () => {
     const result = fuelMix(10, 20);
     expect(result.oilMl).toBe(500);
   });
+
+  it("refuses a zero ratio instead of mixing 1:1", () => {
+    const result = fuelMix(1, 0);
+    expect(result.oilMl).toBe(0);
+    expect(result.ratio).toBe(0);
+    expect(result.summary).toMatch(/above 0/);
+  });
 });
 
 describe("gearing", () => {

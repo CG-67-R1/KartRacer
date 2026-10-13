@@ -202,11 +202,11 @@ function JettingTool() {
         </div>
         <div className="stat">
           <span className="muted">Suggested stamp</span>
-          <strong>{result.suggestedStamp}</strong>
+          <strong>{result.valid ? result.suggestedStamp : '—'}</strong>
         </div>
         <div className="stat">
           <span className="muted">Flow factor</span>
-          <strong>{result.flowFactor}</strong>
+          <strong>{result.valid ? result.flowFactor : '—'}</strong>
         </div>
       </div>
       <p>{result.summary}</p>
@@ -240,7 +240,7 @@ function FuelTool() {
       <div className="stat">
         <span className="muted">Oil</span>
         <strong>
-          {result.oilMl} ml / {result.oilOz} fl oz
+          {result.ratio > 0 ? `${result.oilMl} ml / ${result.oilOz} fl oz` : '—'}
         </strong>
       </div>
     </section>

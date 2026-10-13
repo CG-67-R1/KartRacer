@@ -8,7 +8,7 @@ export const RIDE_ACTIVITY_OPTIONS: { value: RideActivity; label: string }[] = [
   { value: 'race', label: 'I race' },
   { value: 'intermediate', label: 'Intermediate rider' },
   { value: 'track_days', label: 'Track days only' },
-  { value: 'just_love_bikes', label: 'Just love bikes' },
+  { value: 'just_love_karts', label: 'Just love karts' },
   { value: 'race_one_day', label: 'I would like to know about local racing' },
 ];
 
